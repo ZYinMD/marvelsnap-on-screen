@@ -1,7 +1,7 @@
 import puppeteer from 'puppeteer-core';
 import fs from 'fs';
 const currentModulePath = new URL(import.meta.url).href;
-const browser = await puppeteer.launch({ channel: 'chrome', headless: false });
+const browser = await puppeteer.launch({ channel: 'chrome', headless: true });
 const page = await browser.newPage();
 await page.goto(currentModulePath + '/../../step2-base-for-scraping/pasted-div-of-card-list.html', {
   waitUntil: ['load', 'domcontentloaded', 'networkidle0'],
