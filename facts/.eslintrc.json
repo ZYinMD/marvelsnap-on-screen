@@ -1,0 +1,14 @@
+{
+  "root": true,
+  "extends": ["eslint:recommended"],
+  "env": {
+    "browser": true,
+    "es2022": true
+  },
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "rules": {
+    "no-console": ["warn", { "allow": ["error", "info", "debug"] }] // warn on console.log(), but allow some other console.xxx
+  }
+}

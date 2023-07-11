@@ -2,5 +2,8 @@
   "type": "module",
   "dependencies": {
     "puppeteer-core": "^20.8.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.44.0"
   }
 }
