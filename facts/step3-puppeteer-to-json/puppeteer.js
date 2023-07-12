@@ -1,15 +1,14 @@
-import puppeteer from 'puppeteer-core';
 import fs from 'fs';
-const currentModulePath = new URL(import.meta.url).href;
+import puppeteer from 'puppeteer-core';
+
 const browser = await puppeteer.launch({ channel: 'chrome', headless: true });
 const page = await browser.newPage();
-await page.goto(currentModulePath + '/../../step2-base-for-scraping/pasted-div-of-card-list.html', {
-  waitUntil: ['load', 'domcontentloaded', 'networkidle0'],
-});
+const url = new URL('../step2-base-for-scraping/pasted-div-of-card-list.html', import.meta.url);
+await page.goto(url.toString(), { waitUntil: ['load', 'domcontentloaded', 'networkidle0'] });
 
 const result = await page.evaluate(() => {
-  const allCards = document.querySelectorAll('a.simple-card');
   const result = [];
+  const allCards = document.querySelectorAll('a.simple-card');
   allCards.forEach((i) => {
     const id = i.getAttribute('href')?.split('/')?.at(-2);
     const name = i.querySelector('.cardname')?.textContent;
@@ -21,6 +20,8 @@ const result = await page.evaluate(() => {
   return result;
 });
 
-console.log('result:', result);
-fs.writeFileSync('all-cards.json', JSON.stringify(result, null, 2));
+console.info(result);
+const outputPath = new URL('all-cards.json', import.meta.url);
+fs.writeFileSync(outputPath, JSON.stringify(result, null, 2));
+console.info('\nResult has been output to all-cards.json');
 browser.close();
