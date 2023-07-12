@@ -19,4 +19,4 @@ allCards.forEach((i) => {
   const id = parseCardId(imgFilename);
   result.push({ id, name, desc });
 });
-console.log('result:', result);
+console.info('result:', result);
