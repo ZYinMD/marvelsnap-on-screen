@@ -2,1301 +2,1561 @@
   {
     "id": "abomination",
     "name": "Abomination",
-    "desc": "\"Foolish rabble! You are beneath me!\""
+    "desc": "\"Foolish rabble! You are beneath me!\"",
+    "status": "released"
   },
   {
     "id": "absorbing-man",
     "name": "Absorbing Man",
-    "desc": "On Reveal: If the last card you played has an On Reveal, copy its text. (if it's in play)"
+    "desc": "On Reveal: If the last card you played has an On Reveal, copy its text. (if it's in play)",
+    "status": "released"
   },
   {
     "id": "adam-warlock",
     "name": "Adam Warlock",
-    "desc": "At the end of each turn, if you are winning this location, draw a card."
+    "desc": "At the end of each turn, if you are winning this location, draw a card.",
+    "status": "released"
   },
   {
     "id": "aero",
     "name": "Aero",
-    "desc": "On Reveal: Move the last enemy card played this turn to this location."
+    "desc": "On Reveal: Move the last enemy card played this turn to this location.",
+    "status": "released"
   },
   {
     "id": "agatha-harkness",
     "name": "Agatha Harkness",
-    "desc": "Agatha starts in your hand and plays your cards for you."
+    "desc": "Agatha starts in your hand and plays your cards for you.",
+    "status": "released"
   },
   {
     "id": "agent-13",
     "name": "Agent 13",
-    "desc": "On Reveal: Add a random card to your hand."
+    "desc": "On Reveal: Add a random card to your hand.",
+    "status": "released"
   },
   {
     "id": "agent-coulson",
     "name": "Agent Coulson",
-    "desc": "On Reveal: Add a random 4-Cost and 5-Cost card to your hand."
+    "desc": "On Reveal: Add a random 4-Cost and 5-Cost card to your hand.",
+    "status": "released"
   },
   {
     "id": "alioth",
     "name": "Alioth",
-    "desc": "Never gonna give you up."
+    "desc": "Never gonna give you up.",
+    "status": "unreleased"
   },
   {
     "id": "america-chavez",
     "name": "America Chavez",
-    "desc": "Starts on the bottom of your deck. Draw this on turn 6."
+    "desc": "Starts on the bottom of your deck. Draw this on turn 6.",
+    "status": "released"
   },
   {
     "id": "angel",
     "name": "Angel",
-    "desc": "When one of your cards is destroyed, this flies out of your deck to replace it."
+    "desc": "When one of your cards is destroyed, this flies out of your deck to replace it.",
+    "status": "released"
   },
   {
     "id": "angela",
     "name": "Angela",
-    "desc": "After you play a card here, +2 Power."
+    "desc": "After you play a card here, +2 Power.",
+    "status": "released"
   },
   {
     "id": "annihilus",
     "name": "Annihilus",
-    "desc": "On Reveal: Each of your cards randomly chooses a location to move to."
+    "desc": "On Reveal: Each of your cards randomly chooses a location to move to.",
+    "status": "unreleased"
   },
   {
     "id": "ant-man",
     "name": "Ant Man",
-    "desc": "Ongoing: If you have 3 other cards here, +3 Power."
+    "desc": "Ongoing: If you have 3 other cards here, +3 Power.",
+    "status": "released"
   },
   {
     "id": "apocalypse",
     "name": "Apocalypse",
-    "desc": "When you discard this from your hand, put it back with +4 Power."
+    "desc": "When you discard this from your hand, put it back with +4 Power.",
+    "status": "released"
   },
   {
     "id": "armor",
     "name": "Armor",
-    "desc": "Ongoing: Cards at this location can't be destroyed."
+    "desc": "Ongoing: Cards at this location can't be destroyed.",
+    "status": "released"
   },
   {
     "id": "arnim-zola",
     "name": "Arnim Zola",
-    "desc": "On Reveal: Destroy a random friendly card here. Add copies of it to the other locations."
+    "desc": "On Reveal: Destroy a random friendly card here. Add copies of it to the other locations.",
+    "status": "released"
   },
   {
     "id": "attuma",
     "name": "Attuma",
-    "desc": "If you have another card here at the end of your turn, destroy this."
+    "desc": "If you have another card here at the end of your turn, destroy this.",
+    "status": "released"
   },
   {
     "id": "baron-mordo",
     "name": "Baron Mordo",
-    "desc": "On Reveal: Your opponent draws a card. Set its Cost to 6."
+    "desc": "On Reveal: Your opponent draws a card. Set its Cost to 6.",
+    "status": "released"
   },
   {
     "id": "bast",
     "name": "Bast",
-    "desc": "On Reveal: Set the Power of all cards in your hand to 3."
+    "desc": "On Reveal: Set the Power of all cards in your hand to 3.",
+    "status": "released"
   },
   {
     "id": "beast",
     "name": "Beast",
-    "desc": "On Reveal: Return your other cards at this location to your hand. They cost 1 less."
+    "desc": "On Reveal: Return your other cards at this location to your hand. They cost 1 less.",
+    "status": "released"
   },
   {
     "id": "bishop",
     "name": "Bishop",
-    "desc": "After you play a card, this gains +1 Power."
+    "desc": "After you play a card, this gains +1 Power.",
+    "status": "released"
   },
   {
     "id": "black-bolt",
     "name": "Black Bolt",
-    "desc": "On Reveal: Your opponent must discard the lowest-Cost card in their hand."
+    "desc": "On Reveal: Your opponent must discard the lowest-Cost card in their hand.",
+    "status": "released"
   },
   {
     "id": "black-cat",
     "name": "Black Cat",
-    "desc": "If this is in your hand at the end of your turn, discard it."
+    "desc": "If this is in your hand at the end of your turn, discard it.",
+    "status": "released"
   },
   {
     "id": "black-knight",
     "name": "Black Knight",
-    "desc": "When this is destroyed, draw a card."
+    "desc": "When this is destroyed, draw a card.",
+    "status": "unreleased"
   },
   {
     "id": "black-panther",
     "name": "Black Panther",
-    "desc": "On Reveal: Double this card's Power."
+    "desc": "On Reveal: Double this card's Power.",
+    "status": "released"
   },
   {
     "id": "black-widow",
     "name": "Black Widow",
-    "desc": "On Reveal: Add a Widow's Bite to your opponent's hand."
+    "desc": "On Reveal: Add a Widow's Bite to your opponent's hand.",
+    "status": "released"
   },
   {
     "id": "blade",
     "name": "Blade",
-    "desc": "On Reveal: Discard a card from your hand."
+    "desc": "On Reveal: Discard a card from your hand.",
+    "status": "released"
   },
   {
     "id": "blink",
     "name": "Blink",
-    "desc": "You can move this each turn. When it moves, +1 Power."
+    "desc": "You can move this each turn. When it moves, +1 Power.",
+    "status": "unreleased"
   },
   {
     "id": "blob",
     "name": "Blob",
-    "desc": "Ongoing: Nothing can move this to another location."
+    "desc": "Ongoing: Nothing can move this to another location.",
+    "status": "unreleased"
   },
   {
     "id": "blue-marvel",
     "name": "Blue Marvel",
-    "desc": "Ongoing: Your other cards have +1 Power."
+    "desc": "Ongoing: Your other cards have +1 Power.",
+    "status": "released"
   },
   {
     "id": "brood",
     "name": "Brood",
-    "desc": "On Reveal: Add 2 Broodlings to this location with the same Power."
+    "desc": "On Reveal: Add 2 Broodlings to this location with the same Power.",
+    "status": "released"
   },
   {
     "id": "bucky-barnes",
     "name": "Bucky Barnes",
-    "desc": "When this is destroyed, create the Winter Soldier in its place."
+    "desc": "When this is destroyed, create the Winter Soldier in its place.",
+    "status": "released"
   },
   {
     "id": "bullseye",
     "name": "Bullseye",
-    "desc": "On Reveal: The next card you draw will be a 2-Cost card. (if any are left)"
+    "desc": "On Reveal: The next card you draw will be a 2-Cost card. (if any are left)",
+    "status": "unreleased"
   },
   {
     "id": "cable",
     "name": "Cable",
-    "desc": "On Reveal: Put the bottom card of your opponent's deck into your hand."
+    "desc": "On Reveal: Put the bottom card of your opponent's deck into your hand.",
+    "status": "released"
   },
   {
     "id": "captain-america",
     "name": "Captain America",
-    "desc": "Ongoing: Your other cards at this location have +1 Power."
+    "desc": "Ongoing: Your other cards at this location have +1 Power.",
+    "status": "released"
   },
   {
     "id": "captain-marvel",
     "name": "Captain Marvel",
-    "desc": "At the end of the game, move to a location that wins you the game. (If possible)"
+    "desc": "At the end of the game, move to a location that wins you the game. (If possible)",
+    "status": "released"
   },
   {
     "id": "carnage",
     "name": "Carnage",
-    "desc": "On Reveal: Destroy your other cards here. +2 Power for each destroyed."
+    "desc": "On Reveal: Destroy your other cards here. +2 Power for each destroyed.",
+    "status": "released"
   },
   {
     "id": "cerebro",
     "name": "Cerebro",
-    "desc": "Ongoing: Your highest Power cards get +2 Power."
+    "desc": "Ongoing: Your highest Power cards get +2 Power.",
+    "status": "released"
   },
   {
     "id": "cloak",
     "name": "Cloak",
-    "desc": "On Reveal: Next turn, both players can move cards to this location."
+    "desc": "On Reveal: Next turn, both players can move cards to this location.",
+    "status": "released"
   },
   {
     "id": "colleen-wing",
     "name": "Colleen Wing",
-    "desc": "On Reveal: Discard the lowest-cost card from your hand."
+    "desc": "On Reveal: Discard the lowest-cost card from your hand.",
+    "status": "released"
   },
   {
     "id": "colossus",
     "name": "Colossus",
-    "desc": "Ongoing: Can't be destroyed, moved, or have its Power reduced."
+    "desc": "Ongoing: Can't be destroyed, moved, or have its Power reduced.",
+    "status": "released"
   },
   {
     "id": "cosmo",
     "name": "Cosmo",
-    "desc": "Ongoing: On Reveal abilities won't happen at this location."
+    "desc": "Ongoing: On Reveal abilities won't happen at this location.",
+    "status": "released"
   },
   {
     "id": "crossbones",
     "name": "Crossbones",
-    "desc": "You can only play this at locations where you are winning."
+    "desc": "You can only play this at locations where you are winning.",
+    "status": "released"
   },
   {
     "id": "crystal",
     "name": "Crystal",
-    "desc": "On Reveal: Each player draws a card."
+    "desc": "On Reveal: Each player draws a card.",
+    "status": "released"
   },
   {
     "id": "cyclops",
     "name": "Cyclops",
-    "desc": "\"Let's move, X-Men.\""
+    "desc": "\"Let's move, X-Men.\"",
+    "status": "released"
   },
   {
     "id": "dagger",
     "name": "Dagger",
-    "desc": "When this moves to a location, +2 Power for each card your opponent has there."
+    "desc": "When this moves to a location, +2 Power for each card your opponent has there.",
+    "status": "released"
   },
   {
     "id": "daredevil",
     "name": "Daredevil",
-    "desc": "On turn 5, you get to see your opponent's plays before you make your own."
+    "desc": "On turn 5, you get to see your opponent's plays before you make your own.",
+    "status": "released"
   },
   {
     "id": "darkhawk",
     "name": "Darkhawk",
-    "desc": "Ongoing: +2 Power for each card in your opponent's deck."
+    "desc": "Ongoing: +2 Power for each card in your opponent's deck.",
+    "status": "released"
   },
   {
     "id": "dazzler",
     "name": "Dazzler",
-    "desc": "Ongoing: +2 Power for each location that's full on your side."
+    "desc": "Ongoing: +2 Power for each location that's full on your side.",
+    "status": "released"
   },
   {
     "id": "deadpool",
     "name": "Deadpool",
-    "desc": "When this is destroyed, return it to your hand with double the Power."
+    "desc": "When this is destroyed, return it to your hand with double the Power.",
+    "status": "released"
   },
   {
     "id": "death",
     "name": "Death",
-    "desc": "Costs 1 less for each card destroyed this game."
+    "desc": "Costs 1 less for each card destroyed this game.",
+    "status": "released"
   },
   {
     "id": "deathlok",
     "name": "Deathlok",
-    "desc": "On Reveal: Destroy your other cards at this location."
+    "desc": "On Reveal: Destroy your other cards at this location.",
+    "status": "released"
   },
   {
     "id": "debrii",
     "name": "Debrii",
-    "desc": "On Reveal: Add a Rock to each other location, for both players."
+    "desc": "On Reveal: Add a Rock to each other location, for both players.",
+    "status": "released"
   },
   {
     "id": "destroyer",
     "name": "Destroyer",
-    "desc": "On Reveal: Destroy your other cards."
+    "desc": "On Reveal: Destroy your other cards.",
+    "status": "released"
   },
   {
     "id": "devil-dinosaur",
     "name": "Devil Dinosaur",
-    "desc": "Ongoing: +2 Power for each card in your hand."
+    "desc": "Ongoing: +2 Power for each card in your hand.",
+    "status": "released"
   },
   {
     "id": "doctor-doom",
     "name": "Doctor Doom",
-    "desc": "On Reveal: Add a 4-Power DoomBot to each other location."
+    "desc": "On Reveal: Add a 4-Power DoomBot to each other location.",
+    "status": "released"
   },
   {
     "id": "doctor-octopus",
     "name": "Doctor Octopus",
-    "desc": "On Reveal: Pull 4 random cards from your opponent's hand to their side of this location."
+    "desc": "On Reveal: Pull 4 random cards from your opponent's hand to their side of this location.",
+    "status": "released"
   },
   {
     "id": "doctor-strange",
     "name": "Doctor Strange",
-    "desc": "On Reveal: Move your highest Power cards to this location."
+    "desc": "On Reveal: Move your highest Power cards to this location.",
+    "status": "released"
   },
   {
     "id": "domino",
     "name": "Domino",
-    "desc": "You always draw this card on turn 2, and not before."
+    "desc": "You always draw this card on turn 2, and not before.",
+    "status": "released"
   },
   {
     "id": "dracula",
     "name": "Dracula",
-    "desc": "At the end of the game, discard a card from your hand. This has its Power."
+    "desc": "At the end of the game, discard a card from your hand. This has its Power.",
+    "status": "released"
   },
   {
     "id": "drax",
     "name": "Drax",
-    "desc": "On Reveal: If your opponent played a card here this turn, +2 Power."
+    "desc": "On Reveal: If your opponent played a card here this turn, +2 Power.",
+    "status": "released"
   },
   {
     "id": "ebony-maw",
     "name": "Ebony Maw",
-    "desc": "You can't play this after turn 3. Ongoing: You can't play cards here."
+    "desc": "You can't play this after turn 3. Ongoing: You can't play cards here.",
+    "status": "released"
   },
   {
     "id": "echo",
     "name": "Echo",
-    "desc": "After your opponent plays an Ongoing card here, remove its abilities."
+    "desc": "After your opponent plays an Ongoing card here, remove its abilities.",
+    "status": "unreleased"
   },
   {
     "id": "electro",
     "name": "Electro",
-    "desc": "On Reveal: +1 Max Energy. Ongoing: You can only play 1 card a turn."
+    "desc": "On Reveal: +1 Max Energy. Ongoing: You can only play 1 card a turn.",
+    "status": "released"
   },
   {
     "id": "elektra",
     "name": "Elektra",
-    "desc": "On Reveal: Destroy a random enemy 1-Cost card at this location."
+    "desc": "On Reveal: Destroy a random enemy 1-Cost card at this location.",
+    "status": "released"
   },
   {
     "id": "elsa-bloodstone",
     "name": "Elsa Bloodstone",
-    "desc": "At the end of each turn, if you are winning this location, +1 Power."
+    "desc": "At the end of each turn, if you are winning this location, +1 Power.",
+    "status": "unreleased"
   },
   {
     "id": "enchantress",
     "name": "Enchantress",
-    "desc": "On Reveal: Remove the abilities from all Ongoing cards at this location."
+    "desc": "On Reveal: Remove the abilities from all Ongoing cards at this location.",
+    "status": "released"
   },
   {
     "id": "falcon",
     "name": "Falcon",
-    "desc": "On Reveal: Return your 1-Cost cards to your hand."
+    "desc": "On Reveal: Return your 1-Cost cards to your hand.",
+    "status": "released"
   },
   {
     "id": "flatman",
     "name": "Flatman",
-    "desc": "Ongoing: Adjacent locations have +1 Power."
+    "desc": "Ongoing: Adjacent locations have +1 Power.",
+    "status": "unreleased"
   },
   {
     "id": "forge",
     "name": "Forge",
-    "desc": "On Reveal: Give the next card you play +2 Power."
+    "desc": "On Reveal: Give the next card you play +2 Power.",
+    "status": "released"
   },
   {
     "id": "galactus",
     "name": "Galactus",
-    "desc": "On Reveal: If you're winning this location and this is your only card here, destroy all other locations."
+    "desc": "On Reveal: If you're winning this location and this is your only card here, destroy all other locations.",
+    "status": "released"
   },
   {
     "id": "gambit",
     "name": "Gambit",
-    "desc": "On Reveal: Discard a card from your hand. Destroy a random enemy card."
+    "desc": "On Reveal: Discard a card from your hand. Destroy a random enemy card.",
+    "status": "released"
   },
   {
     "id": "gamora",
     "name": "Gamora",
-    "desc": "On Reveal: If your opponent played a card here this turn, +5 Power."
+    "desc": "On Reveal: If your opponent played a card here this turn, +5 Power.",
+    "status": "released"
   },
   {
     "id": "ghost",
     "name": "Ghost",
-    "desc": "Ongoing: Your cards are always revealed last. (Their On Reveal abilities happen last.)"
+    "desc": "Ongoing: Your cards are always revealed last. (Their On Reveal abilities happen last.)",
+    "status": "released"
   },
   {
     "id": "ghost-rider",
     "name": "Ghost Rider",
-    "desc": "On Reveal: Bring back one of your discarded cards to this location."
+    "desc": "On Reveal: Bring back one of your discarded cards to this location.",
+    "status": "released"
   },
   {
     "id": "ghost-spider",
     "name": "Ghost-Spider",
-    "desc": "On Reveal: The last card you played moves here."
+    "desc": "On Reveal: The last card you played moves here.",
+    "status": "released"
   },
   {
     "id": "giganto",
     "name": "Giganto",
-    "desc": "You can only play this at the left location."
+    "desc": "You can only play this at the left location.",
+    "status": "released"
   },
   {
     "id": "gladiator",
     "name": "Gladiator",
-    "desc": ""
+    "desc": "",
+    "status": "unreleased"
   },
   {
     "id": "goblin-queen",
     "name": "Goblin Queen",
-    "desc": "On Reveal: Other cards can't be revealed this turn."
+    "desc": "On Reveal: Other cards can't be revealed this turn.",
+    "status": "unreleased"
   },
   {
     "id": "goose",
     "name": "Goose",
-    "desc": "Ongoing: Nobody can play cards that cost 4, 5, or 6 at this location."
+    "desc": "Ongoing: Nobody can play cards that cost 4, 5, or 6 at this location.",
+    "status": "released"
   },
   {
     "id": "gorr",
     "name": "Gorr",
-    "desc": ""
+    "desc": "",
+    "status": "unreleased"
   },
   {
     "id": "green-goblin",
     "name": "Green Goblin",
-    "desc": "On Reveal: Your opponent gains control of this."
+    "desc": "On Reveal: Your opponent gains control of this.",
+    "status": "released"
   },
   {
     "id": "groot",
     "name": "Groot",
-    "desc": "On Reveal: If your opponent played a card here this turn, +2 Power."
+    "desc": "On Reveal: If your opponent played a card here this turn, +2 Power.",
+    "status": "released"
   },
   {
     "id": "gwenpool",
     "name": "Gwenpool",
-    "desc": "On Reveal: Double this card's Power."
+    "desc": "On Reveal: Double this card's Power.",
+    "status": "unreleased"
   },
   {
     "id": "hawkeye",
     "name": "Hawkeye",
-    "desc": "On Reveal: If you play a card here next turn, +2 Power."
+    "desc": "On Reveal: If you play a card here next turn, +2 Power.",
+    "status": "released"
   },
   {
     "id": "hazmat",
     "name": "Hazmat",
-    "desc": "On Reveal: Afflict all other cards with -1 Power."
+    "desc": "On Reveal: Afflict all other cards with -1 Power.",
+    "status": "released"
   },
   {
     "id": "heimdall",
     "name": "Heimdall",
-    "desc": "On Reveal: Move your other cards one location to the left."
+    "desc": "On Reveal: Move your other cards one location to the left.",
+    "status": "released"
   },
   {
     "id": "hela",
     "name": "Hela",
-    "desc": "On Reveal: Resurrect all cards you discarded from your hand to random locations."
+    "desc": "On Reveal: Resurrect all cards you discarded from your hand to random locations.",
+    "status": "released"
   },
   {
     "id": "helicarrier",
     "name": "Helicarrier",
-    "desc": "When you discard this from your hand, add 3 random cards to your hand."
+    "desc": "When you discard this from your hand, add 3 random cards to your hand.",
+    "status": "released"
   },
   {
     "id": "hellcow",
     "name": "Hellcow",
-    "desc": "On Reveal: Discard 2 cards from your hand."
+    "desc": "On Reveal: Discard 2 cards from your hand.",
+    "status": "released"
   },
   {
     "id": "high-evolutionary",
     "name": "High Evolutionary",
-    "desc": "At the start of the game, unlock the potential of your cards with no abilities."
+    "desc": "At the start of the game, unlock the potential of your cards with no abilities.",
+    "status": "released"
   },
   {
     "id": "hit-monkey",
     "name": "Hit Monkey",
-    "desc": "On Reveal: Gain +2 Power for each other card you played this turn."
+    "desc": "On Reveal: Gain +2 Power for each other card you played this turn.",
+    "status": "released"
   },
   {
     "id": "hobgoblin",
     "name": "Hobgoblin",
-    "desc": "On Reveal: Your opponent gains control of this."
+    "desc": "On Reveal: Your opponent gains control of this.",
+    "status": "released"
   },
   {
     "id": "howard-the-duck",
     "name": "Howard the Duck",
-    "desc": "Ongoing: Tap this to see the top card of your deck."
+    "desc": "Ongoing: Tap this to see the top card of your deck.",
+    "status": "released"
   },
   {
     "id": "hulk",
     "name": "Hulk",
-    "desc": "\"HULK SMASH!\""
+    "desc": "\"HULK SMASH!\"",
+    "status": "released"
   },
   {
     "id": "hulkbuster",
     "name": "Hulkbuster",
-    "desc": "On Reveal: Merge this card with a random friendly card at this location."
+    "desc": "On Reveal: Merge this card with a random friendly card at this location.",
+    "status": "released"
   },
   {
     "id": "human-torch",
     "name": "Human Torch",
-    "desc": "When this moves, double its Power."
+    "desc": "When this moves, double its Power.",
+    "status": "released"
   },
   {
     "id": "iceman",
     "name": "Iceman",
-    "desc": "On Reveal: Give a random card in your opponent's hand +1 Cost. (maximum 6)"
+    "desc": "On Reveal: Give a random card in your opponent's hand +1 Cost. (maximum 6)",
+    "status": "released"
   },
   {
     "id": "invisible-woman",
     "name": "Invisible Woman",
-    "desc": "Ongoing: Cards you play here are not revealed until the game ends."
+    "desc": "Ongoing: Cards you play here are not revealed until the game ends.",
+    "status": "released"
   },
   {
     "id": "iron-fist",
     "name": "Iron Fist",
-    "desc": "On Reveal: After you play your next card, move it one location to the left."
+    "desc": "On Reveal: After you play your next card, move it one location to the left.",
+    "status": "released"
   },
   {
     "id": "iron-lad",
     "name": "Iron Lad",
-    "desc": "On Reveal: Copy the text of your deck's top card."
+    "desc": "On Reveal: Copy the text of your deck's top card.",
+    "status": "released"
   },
   {
     "id": "iron-man",
     "name": "Iron Man",
-    "desc": "Ongoing: Your total Power is doubled at this location."
+    "desc": "Ongoing: Your total Power is doubled at this location.",
+    "status": "released"
   },
   {
     "id": "ironheart",
     "name": "Ironheart",
-    "desc": "On Reveal: Give 3 other friendly cards +2 Power."
+    "desc": "On Reveal: Give 3 other friendly cards +2 Power.",
+    "status": "released"
   },
   {
     "id": "j-jonah-jameson",
     "name": "J. Jonah Jameson",
-    "desc": "Ongoing: Your emotes are ruder."
+    "desc": "Ongoing: Your emotes are ruder.",
+    "status": "unreleased"
   },
   {
     "id": "jane-foster-mighty-thor",
     "name": "Jane Foster Mighty Thor",
-    "desc": "On Reveal: Draw all cards that Cost 0 from your deck."
+    "desc": "On Reveal: Draw all cards that Cost 0 from your deck.",
+    "status": "released"
   },
   {
     "id": "jean-grey",
     "name": "Jean Grey",
-    "desc": "Ongoing: Players must play their first card here each turn. (if possible)"
+    "desc": "Ongoing: Players must play their first card here each turn. (if possible)",
+    "status": "unreleased"
   },
   {
     "id": "jeff-the-baby-land-shark",
     "name": "Jeff the Baby Land Shark",
-    "desc": "You can move this once. Nothing can stop you from moving or playing this to any location."
+    "desc": "You can move this once. Nothing can stop you from moving or playing this to any location.",
+    "status": "released"
   },
   {
     "id": "jessica-jones",
     "name": "Jessica Jones",
-    "desc": "On Reveal: If you don't play a card here next turn, +4 Power."
+    "desc": "On Reveal: If you don't play a card here next turn, +4 Power.",
+    "status": "released"
   },
   {
     "id": "jubilee",
     "name": "Jubilee",
-    "desc": "On Reveal: Add the top card of your deck to this location."
+    "desc": "On Reveal: Add the top card of your deck to this location.",
+    "status": "released"
   },
   {
     "id": "juggernaut",
     "name": "Juggernaut",
-    "desc": "On Reveal: If your opponent played cards here this turn, move them randomly."
+    "desc": "On Reveal: If your opponent played cards here this turn, move them randomly.",
+    "status": "released"
   },
   {
     "id": "ka-zar",
     "name": "Ka-Zar",
-    "desc": "Ongoing: Your 1-Cost cards have +1 Power."
+    "desc": "Ongoing: Your 1-Cost cards have +1 Power.",
+    "status": "released"
   },
   {
     "id": "kang",
     "name": "Kang",
-    "desc": "On Reveal: Look at what your opponent did, then restart the turn. (without Kang)"
+    "desc": "On Reveal: Look at what your opponent did, then restart the turn. (without Kang)",
+    "status": "released"
   },
   {
     "id": "killmonger",
     "name": "Killmonger",
-    "desc": "On Reveal: Destroy ALL 1-Cost cards."
+    "desc": "On Reveal: Destroy ALL 1-Cost cards.",
+    "status": "released"
   },
   {
     "id": "king-eitri",
     "name": "King Eitri",
-    "desc": "On Reveal: Give the next card you play +4 Power."
+    "desc": "On Reveal: Give the next card you play +4 Power.",
+    "status": "unreleased"
   },
   {
     "id": "kingpin",
     "name": "Kingpin",
-    "desc": "When a card moves here on turn 6, destroy it."
+    "desc": "When a card moves here on turn 6, destroy it.",
+    "status": "released"
   },
   {
     "id": "kitty-pryde",
     "name": "Kitty Pryde",
-    "desc": "When this returns to your hand, +2 Power. Returns at the start of each turn."
+    "desc": "When this returns to your hand, +2 Power. Returns at the start of each turn.",
+    "status": "released"
   },
   {
     "id": "klaw",
     "name": "Klaw",
-    "desc": "Ongoing: The location to the right has +6 Power."
+    "desc": "Ongoing: The location to the right has +6 Power.",
+    "status": "released"
   },
   {
     "id": "knull",
     "name": "Knull",
-    "desc": "Ongoing: Has the combined Power of all cards destroyed this game."
+    "desc": "Ongoing: Has the combined Power of all cards destroyed this game.",
+    "status": "released"
   },
   {
     "id": "korg",
     "name": "Korg",
-    "desc": "On Reveal: Shuffle a Rock into your opponent's deck."
+    "desc": "On Reveal: Shuffle a Rock into your opponent's deck.",
+    "status": "released"
   },
   {
     "id": "kraven",
     "name": "Kraven",
-    "desc": "When a card moves here, this gets +2 Power."
+    "desc": "When a card moves here, this gets +2 Power.",
+    "status": "released"
   },
   {
     "id": "lady-deathstrike",
     "name": "Lady Deathstrike",
-    "desc": "On Reveal: Destroy each card here with less Power than this."
+    "desc": "On Reveal: Destroy each card here with less Power than this.",
+    "status": "unreleased"
   },
   {
     "id": "lady-sif",
     "name": "Lady Sif",
-    "desc": "On Reveal: Discard the highest-cost card from your hand."
+    "desc": "On Reveal: Discard the highest-cost card from your hand.",
+    "status": "released"
   },
   {
     "id": "leader",
     "name": "Leader",
-    "desc": "On Reveal: Copy the enemy card(s) with the highest Power played this turn, but on your side."
+    "desc": "On Reveal: Copy the enemy card(s) with the highest Power played this turn, but on your side.",
+    "status": "released"
   },
   {
     "id": "leech",
     "name": "Leech",
-    "desc": "At the start of turn 6, remove all abilities from cards in your opponent's hand."
+    "desc": "At the start of turn 6, remove all abilities from cards in your opponent's hand.",
+    "status": "released"
   },
   {
     "id": "legion",
     "name": "Legion",
-    "desc": "On Reveal: Replace each other location with this one."
+    "desc": "On Reveal: Replace each other location with this one.",
+    "status": "unreleased"
   },
   {
     "id": "lizard",
     "name": "Lizard",
-    "desc": "Ongoing: -4 Power if your opponent has 4 cards here."
+    "desc": "Ongoing: -4 Power if your opponent has 4 cards here.",
+    "status": "released"
   },
   {
     "id": "lockjaw",
     "name": "Lockjaw",
-    "desc": "After you play a card here, swap it with a card in your deck. (once per turn)"
+    "desc": "After you play a card here, swap it with a card in your deck. (once per turn)",
+    "status": "released"
   },
   {
     "id": "luke-cage",
     "name": "Luke Cage",
-    "desc": "Ongoing: Your cards can't have their Power reduced."
+    "desc": "Ongoing: Your cards can't have their Power reduced.",
+    "status": "released"
   },
   {
     "id": "mbaku",
     "name": "M'Baku",
-    "desc": "If this is in your deck at the end of the game, it jumps to a random location."
+    "desc": "If this is in your deck at the end of the game, it jumps to a random location.",
+    "status": "released"
   },
   {
     "id": "magik",
     "name": "Magik",
-    "desc": "You can't play this on turn 6. On Reveal: Change this location to 'Limbo'."
+    "desc": "You can't play this on turn 6. On Reveal: Change this location to 'Limbo'.",
+    "status": "released"
   },
   {
     "id": "magneto",
     "name": "Magneto",
-    "desc": "On Reveal: Move all opposing 3 and 4-Cost cards to this location."
+    "desc": "On Reveal: Move all opposing 3 and 4-Cost cards to this location.",
+    "status": "released"
   },
   {
     "id": "makkari",
     "name": "Makkari",
-    "desc": "When you draw this, place it at a random location."
+    "desc": "When you draw this, place it at a random location.",
+    "status": "unreleased"
   },
   {
     "id": "mantis",
     "name": "Mantis",
-    "desc": "On Reveal: If your opponent played a card here this turn, draw a card from their deck."
+    "desc": "On Reveal: If your opponent played a card here this turn, draw a card from their deck.",
+    "status": "released"
   },
   {
     "id": "maria-hill",
     "name": "Maria Hill",
-    "desc": "On Reveal: Add a random 1 or 2-Cost card to your hand."
+    "desc": "On Reveal: Add a random 1 or 2-Cost card to your hand.",
+    "status": "released"
   },
   {
     "id": "master-mold",
     "name": "Master Mold",
-    "desc": "On Reveal: Add 2 Sentinel to your opponent's hand."
+    "desc": "On Reveal: Add 2 Sentinel to your opponent's hand.",
+    "status": "released"
   },
   {
     "id": "maximus",
     "name": "Maximus",
-    "desc": "On Reveal: Your opponent draws 2 cards."
+    "desc": "On Reveal: Your opponent draws 2 cards.",
+    "status": "released"
   },
   {
     "id": "medusa",
     "name": "Medusa",
-    "desc": "On Reveal: If this is at the middle location, +3 Power."
+    "desc": "On Reveal: If this is at the middle location, +3 Power.",
+    "status": "released"
   },
   {
     "id": "mephisto",
     "name": "Mephisto",
-    "desc": "If you win this game, double your winnings."
+    "desc": "If you win this game, double your winnings.",
+    "status": "unreleased"
   },
   {
     "id": "miles-morales",
     "name": "Miles Morales",
-    "desc": "If a card moved last turn, this costs 1."
+    "desc": "If a card moved last turn, this costs 1.",
+    "status": "released"
   },
   {
     "id": "mirage",
     "name": "Mirage",
-    "desc": "On Reveal: Copy the lowest-Cost card in your opponent's hand into your hand. Give it +2 Power."
+    "desc": "On Reveal: Copy the lowest-Cost card in your opponent's hand into your hand. Give it +2 Power.",
+    "status": "unreleased"
   },
   {
     "id": "mister-fantastic",
     "name": "Mister Fantastic",
-    "desc": "Ongoing: Adjacent locations have +2 Power."
+    "desc": "Ongoing: Adjacent locations have +2 Power.",
+    "status": "released"
   },
   {
     "id": "mister-negative",
     "name": "Mister Negative",
-    "desc": "On Reveal: Swap the Power and Cost of all cards in your deck."
+    "desc": "On Reveal: Swap the Power and Cost of all cards in your deck.",
+    "status": "released"
   },
   {
     "id": "mister-sinister",
     "name": "Mister Sinister",
-    "desc": "On Reveal: Add a Sinister Clone to this location with the same Power."
+    "desc": "On Reveal: Add a Sinister Clone to this location with the same Power.",
+    "status": "released"
   },
   {
     "id": "misty-knight",
     "name": "Misty Knight",
-    "desc": "\"We've got to save this city.\""
+    "desc": "\"We've got to save this city.\"",
+    "status": "released"
   },
   {
     "id": "mobius-m-mobius",
     "name": "Mobius M. Mobius",
-    "desc": "Never gonna let you down."
+    "desc": "Never gonna let you down.",
+    "status": "unreleased"
   },
   {
     "id": "modok",
     "name": "MODOK",
-    "desc": "On Reveal: Discard your hand."
+    "desc": "On Reveal: Discard your hand.",
+    "status": "released"
   },
   {
     "id": "mojo",
     "name": "Mojo",
-    "desc": "Ongoing: If both players have 4 cards at this location, +6 Power."
+    "desc": "Ongoing: If both players have 4 cards at this location, +6 Power.",
+    "status": "released"
   },
   {
     "id": "moon-girl",
     "name": "Moon Girl",
-    "desc": "On Reveal: Duplicate your hand."
+    "desc": "On Reveal: Duplicate your hand.",
+    "status": "released"
   },
   {
     "id": "moon-knight",
     "name": "Moon Knight",
-    "desc": "On Reveal: Discard a card from each player's hand."
+    "desc": "On Reveal: Discard a card from each player's hand.",
+    "status": "released"
   },
   {
     "id": "morbius",
     "name": "Morbius",
-    "desc": "Ongoing: +2 Power for each time you discarded a card this game."
+    "desc": "Ongoing: +2 Power for each time you discarded a card this game.",
+    "status": "released"
   },
   {
     "id": "morph",
     "name": "Morph",
-    "desc": "On Reveal: Become a copy of a random card in your opponent's hand."
+    "desc": "On Reveal: Become a copy of a random card in your opponent's hand.",
+    "status": "released"
   },
   {
     "id": "ms-marvel",
     "name": "Ms. Marvel",
-    "desc": "Ongoing: If this is your only card here, adjacent locations have +5 Power."
+    "desc": "Ongoing: If this is your only card here, adjacent locations have +5 Power.",
+    "status": "unreleased"
   },
   {
     "id": "multiple-man",
     "name": "Multiple Man",
-    "desc": "When this moves, add a copy to the old location."
+    "desc": "When this moves, add a copy to the old location.",
+    "status": "released"
   },
   {
     "id": "mysterio",
     "name": "Mysterio",
-    "desc": "As you play this, play Illusions to other locations. Disguise this as an Illusion until the game ends."
+    "desc": "As you play this, play Illusions to other locations. Disguise this as an Illusion until the game ends.",
+    "status": "released"
   },
   {
     "id": "mystique",
     "name": "Mystique",
-    "desc": "On Reveal: If the last card you played has an Ongoing, copy its text. (if it's in play)"
+    "desc": "On Reveal: If the last card you played has an Ongoing, copy its text. (if it's in play)",
+    "status": "released"
   },
   {
     "id": "nakia",
     "name": "Nakia",
-    "desc": "On Reveal: Give the 2 leftmost cards in your hand +2 Power."
+    "desc": "On Reveal: Give the 2 leftmost cards in your hand +2 Power.",
+    "status": "released"
   },
   {
     "id": "namor",
     "name": "Namor",
-    "desc": "Ongoing: +5 Power if this is your only card here."
+    "desc": "Ongoing: +5 Power if this is your only card here.",
+    "status": "released"
   },
   {
     "id": "nebula",
     "name": "Nebula",
-    "desc": "Each turn your opponent doesn't play a card here, +2 Power. (except the turn you play this)"
+    "desc": "Each turn your opponent doesn't play a card here, +2 Power. (except the turn you play this)",
+    "status": "released"
   },
   {
     "id": "negasonic-teenage-warhead",
     "name": "Negasonic Teenage Warhead",
-    "desc": "After ANY card is played here, destroy this card AND that card."
+    "desc": "After ANY card is played here, destroy this card AND that card.",
+    "status": "released"
   },
   {
     "id": "nick-fury",
     "name": "Nick Fury",
-    "desc": "On Reveal: Add 3 random 6-Cost cards to your hand."
+    "desc": "On Reveal: Add 3 random 6-Cost cards to your hand.",
+    "status": "released"
   },
   {
     "id": "night-nurse",
     "name": "Night Nurse",
-    "desc": "On Reveal: Add all cards you discarded or destroyed last turn to your hand."
+    "desc": "On Reveal: Add all cards you discarded or destroyed last turn to your hand.",
+    "status": "unreleased"
   },
   {
     "id": "nightcrawler",
     "name": "Nightcrawler",
-    "desc": "You can move this once."
+    "desc": "You can move this once.",
+    "status": "released"
   },
   {
     "id": "nimrod",
     "name": "Nimrod",
-    "desc": "When this is destroyed, add a copy to each other location."
+    "desc": "When this is destroyed, add a copy to each other location.",
+    "status": "released"
   },
   {
     "id": "nova",
     "name": "Nova",
-    "desc": "When this is destroyed, give your cards +1 Power."
+    "desc": "When this is destroyed, give your cards +1 Power.",
+    "status": "released"
   },
   {
     "id": "odin",
     "name": "Odin",
-    "desc": "On Reveal: Activate the On Reveal abilities of your other cards at this location."
+    "desc": "On Reveal: Activate the On Reveal abilities of your other cards at this location.",
+    "status": "released"
   },
   {
     "id": "okoye",
     "name": "Okoye",
-    "desc": "On Reveal: Give every card in your deck +1 Power."
+    "desc": "On Reveal: Give every card in your deck +1 Power.",
+    "status": "released"
   },
   {
     "id": "omega-red",
     "name": "Omega Red",
-    "desc": "Ongoing: If you're ahead by 10 Power here, +4 Power to other locations."
+    "desc": "Ongoing: If you're ahead by 10 Power here, +4 Power to other locations.",
+    "status": "released"
   },
   {
     "id": "onslaught",
     "name": "Onslaught",
-    "desc": "Ongoing: Double your other Ongoing effects at this location."
+    "desc": "Ongoing: Double your other Ongoing effects at this location.",
+    "status": "released"
   },
   {
     "id": "orka",
     "name": "Orka",
-    "desc": "Ongoing: +5 Power if this is your only card here."
+    "desc": "Ongoing: +5 Power if this is your only card here.",
+    "status": "released"
   },
   {
     "id": "patriot",
     "name": "Patriot",
-    "desc": "Ongoing: Your cards with no abilities have +2 Power."
+    "desc": "Ongoing: Your cards with no abilities have +2 Power.",
+    "status": "released"
   },
   {
     "id": "polaris",
     "name": "Polaris",
-    "desc": "On Reveal: Move an opposing 1 or 2-Cost card to this location."
+    "desc": "On Reveal: Move an opposing 1 or 2-Cost card to this location.",
+    "status": "released"
   },
   {
     "id": "professor-x",
     "name": "Professor X",
-    "desc": "Ongoing: Lock down this location. (Cards can't be added, removed, etc.)"
+    "desc": "Ongoing: Lock down this location. (Cards can't be added, removed, etc.)",
+    "status": "released"
   },
   {
     "id": "psylocke",
     "name": "Psylocke",
-    "desc": "On Reveal: Next turn, you get +1 Energy."
+    "desc": "On Reveal: Next turn, you get +1 Energy.",
+    "status": "released"
   },
   {
     "id": "punisher",
     "name": "Punisher",
-    "desc": "Ongoing: +1 Power for each opposing card at this location."
+    "desc": "Ongoing: +1 Power for each opposing card at this location.",
+    "status": "released"
   },
   {
     "id": "quake",
     "name": "Quake",
-    "desc": "On Reveal: If this is at the middle location, swap the positions of each location."
+    "desc": "On Reveal: If this is at the middle location, swap the positions of each location.",
+    "status": "released"
   },
   {
     "id": "quicksilver",
     "name": "Quicksilver",
-    "desc": "Starts in your opening hand."
+    "desc": "Starts in your opening hand.",
+    "status": "released"
   },
   {
     "id": "quinjet",
     "name": "Quinjet",
-    "desc": "Ongoing: Cards that didn't start in your deck cost 1 less. (minimum 1)"
+    "desc": "Ongoing: Cards that didn't start in your deck cost 1 less. (minimum 1)",
+    "status": "released"
   },
   {
     "id": "random",
     "name": "Random",
-    "desc": "On Reveal: Set this card's Power equal to the Power of a random card in your deck."
+    "desc": "On Reveal: Set this card's Power equal to the Power of a random card in your deck.",
+    "status": "unreleased"
   },
   {
     "id": "ravonna-renslayer",
     "name": "Ravonna Renslayer",
-    "desc": "You know the rules, and so do I."
+    "desc": "You know the rules, and so do I.",
+    "status": "released"
   },
   {
     "id": "red-guardian",
     "name": "Red Guardian",
-    "desc": "On Reveal: You must play a card here next turn."
+    "desc": "On Reveal: You must play a card here next turn.",
+    "status": "unreleased"
   },
   {
     "id": "red-skull",
     "name": "Red Skull",
-    "desc": "Ongoing: Enemy cards at this location have +2 Power."
+    "desc": "Ongoing: Enemy cards at this location have +2 Power.",
+    "status": "released"
   },
   {
     "id": "rescue",
     "name": "Rescue",
-    "desc": "On Reveal: If you play a card here next turn, +5 Power."
+    "desc": "On Reveal: If you play a card here next turn, +5 Power.",
+    "status": "released"
   },
   {
     "id": "rhino",
     "name": "Rhino",
-    "desc": "On Reveal: Ruin this location. (remove its ability)"
+    "desc": "On Reveal: Ruin this location. (remove its ability)",
+    "status": "released"
   },
   {
     "id": "rocket-raccoon",
     "name": "Rocket Raccoon",
-    "desc": "On Reveal: If your opponent played a card here this turn, +2 Power."
+    "desc": "On Reveal: If your opponent played a card here this turn, +2 Power.",
+    "status": "released"
   },
   {
     "id": "rockslide",
     "name": "Rockslide",
-    "desc": "On Reveal: Shuffle 2 Rocks into your opponent's deck."
+    "desc": "On Reveal: Shuffle 2 Rocks into your opponent's deck.",
+    "status": "released"
   },
   {
     "id": "rogue",
     "name": "Rogue",
-    "desc": "On Reveal: Steal an Ongoing ability from a random enemy card at this location."
+    "desc": "On Reveal: Steal an Ongoing ability from a random enemy card at this location.",
+    "status": "released"
   },
   {
     "id": "ronan-the-accuser",
     "name": "Ronan the Accuser",
-    "desc": "Ongoing: +2 Power for each card in your opponent's hand."
+    "desc": "Ongoing: +2 Power for each card in your opponent's hand.",
+    "status": "released"
   },
   {
     "id": "sabretooth",
     "name": "Sabretooth",
-    "desc": "When this is destroyed, return it to your hand. It costs 0."
+    "desc": "When this is destroyed, return it to your hand. It costs 0.",
+    "status": "released"
   },
   {
     "id": "sandman",
     "name": "Sandman",
-    "desc": "Ongoing: Players can only play 1 card a turn."
+    "desc": "Ongoing: Players can only play 1 card a turn.",
+    "status": "released"
   },
   {
     "id": "sauron",
     "name": "Sauron",
-    "desc": "On Reveal: Remove the abilities from all Ongoing cards in your hand and deck."
+    "desc": "On Reveal: Remove the abilities from all Ongoing cards in your hand and deck.",
+    "status": "released"
   },
   {
     "id": "scarlet-witch",
     "name": "Scarlet Witch",
-    "desc": "On Reveal: Replace this location with a random new one."
+    "desc": "On Reveal: Replace this location with a random new one.",
+    "status": "released"
   },
   {
     "id": "scorpion",
     "name": "Scorpion",
-    "desc": "On Reveal: Afflict cards in your opponent's hand with -1 Power."
+    "desc": "On Reveal: Afflict cards in your opponent's hand with -1 Power.",
+    "status": "released"
   },
   {
     "id": "sentinel",
     "name": "Sentinel",
-    "desc": "On Reveal: Add another Sentinel to your hand."
+    "desc": "On Reveal: Add another Sentinel to your hand.",
+    "status": "released"
   },
   {
     "id": "sentry",
     "name": "Sentry",
-    "desc": "You can't play this at the right location. On Reveal: Add a -10 Power Void to the right location."
+    "desc": "You can't play this at the right location. On Reveal: Add a -10 Power Void to the right location.",
+    "status": "released"
   },
   {
     "id": "sera",
     "name": "Sera",
-    "desc": "Ongoing: Cards in your hand cost 1 less. (minimum 1)"
+    "desc": "Ongoing: Cards in your hand cost 1 less. (minimum 1)",
+    "status": "released"
   },
   {
     "id": "shadow-king",
     "name": "Shadow King",
-    "desc": "On Reveal: Set all cards here to their original base Power."
+    "desc": "On Reveal: Set all cards here to their original base Power.",
+    "status": "released"
   },
   {
     "id": "shang-chi",
     "name": "Shang-Chi",
-    "desc": "On Reveal: Destroy all enemy cards at this location that have 9 or more Power."
+    "desc": "On Reveal: Destroy all enemy cards at this location that have 9 or more Power.",
+    "status": "released"
   },
   {
     "id": "shanna",
     "name": "Shanna",
-    "desc": "On Reveal: Add a random 1-Cost card to each location."
+    "desc": "On Reveal: Add a random 1-Cost card to each location.",
+    "status": "released"
   },
   {
     "id": "she-hulk",
     "name": "She-Hulk",
-    "desc": "Costs 1 less for each unspent Energy last turn."
+    "desc": "Costs 1 less for each unspent Energy last turn.",
+    "status": "released"
   },
   {
     "id": "shocker",
     "name": "Shocker",
-    "desc": "\"I'm gonna blast you!\""
+    "desc": "\"I'm gonna blast you!\"",
+    "status": "released"
   },
   {
     "id": "shuri",
     "name": "Shuri",
-    "desc": "On Reveal: If you play your next card here, double its Power."
+    "desc": "On Reveal: If you play your next card here, double its Power.",
+    "status": "released"
   },
   {
     "id": "silk",
     "name": "Silk",
-    "desc": "After ANY card is played here, this moves to another location."
+    "desc": "After ANY card is played here, this moves to another location.",
+    "status": "unreleased"
   },
   {
     "id": "silver-sable",
     "name": "Silver Sable",
-    "desc": "You can only play this at a location where you have 6+ total Power."
+    "desc": "You can only play this at a location where you have 6+ total Power.",
+    "status": "unreleased"
   },
   {
     "id": "silver-samurai",
     "name": "Silver Samurai",
-    "desc": "On Reveal: Each player discards the lowest-Power card from their hand."
+    "desc": "On Reveal: Each player discards the lowest-Power card from their hand.",
+    "status": "unreleased"
   },
   {
     "id": "silver-surfer",
     "name": "Silver Surfer",
-    "desc": "On Reveal: Give your other 3-Cost cards +2 Power."
+    "desc": "On Reveal: Give your other 3-Cost cards +2 Power.",
+    "status": "released"
   },
   {
     "id": "snowguard",
     "name": "Snowguard",
-    "desc": "While in your hand, this transforms each turn into a Hawk or a Bear."
+    "desc": "While in your hand, this transforms each turn into a Hawk or a Bear.",
+    "status": "released"
   },
   {
     "id": "spectrum",
     "name": "Spectrum",
-    "desc": "On Reveal: Give your Ongoing cards +2 Power."
+    "desc": "On Reveal: Give your Ongoing cards +2 Power.",
+    "status": "released"
   },
   {
     "id": "spider-ham",
     "name": "Spider-Ham",
-    "desc": "On Reveal: Transform the highest-cost card in your opponent's hand into a Pig, keeping its Power and Cost."
+    "desc": "On Reveal: Transform the highest-cost card in your opponent's hand into a Pig, keeping its Power and Cost.",
+    "status": "unreleased"
   },
   {
     "id": "spider-man",
     "name": "Spider-Man",
-    "desc": "On Reveal: Your opponent can't play cards at this location next turn."
+    "desc": "On Reveal: Your opponent can't play cards at this location next turn.",
+    "status": "released"
   },
   {
     "id": "spider-man-2099",
     "name": "Spider-Man 2099",
-    "desc": "The first time this moves to a location, destroy an enemy card there."
+    "desc": "The first time this moves to a location, destroy an enemy card there.",
+    "status": "released"
   },
   {
     "id": "spider-woman",
     "name": "Spider-Woman",
-    "desc": "On Reveal: Afflict all enemy cards here with -1 Power."
+    "desc": "On Reveal: Afflict all enemy cards here with -1 Power.",
+    "status": "released"
   },
   {
     "id": "squirrel-girl",
     "name": "Squirrel Girl",
-    "desc": "On Reveal: Add a 1-Power Squirrel to each other location."
+    "desc": "On Reveal: Add a 1-Power Squirrel to each other location.",
+    "status": "released"
   },
   {
     "id": "star-lord",
     "name": "Star-Lord",
-    "desc": "On Reveal: If your opponent played a card here this turn, +3 Power."
+    "desc": "On Reveal: If your opponent played a card here this turn, +3 Power.",
+    "status": "released"
   },
   {
     "id": "stature",
     "name": "Stature",
-    "desc": "Costs 1 if your opponent discarded a card from their hand this game."
+    "desc": "Costs 1 if your opponent discarded a card from their hand this game.",
+    "status": "released"
   },
   {
     "id": "stegron",
     "name": "Stegron",
-    "desc": "On Reveal: Move an enemy card from here to another location."
+    "desc": "On Reveal: Move an enemy card from here to another location.",
+    "status": "released"
   },
   {
     "id": "storm",
     "name": "Storm",
-    "desc": "On Reveal: Flood this location. Next turn is the last turn cards can be played here."
+    "desc": "On Reveal: Flood this location. Next turn is the last turn cards can be played here.",
+    "status": "released"
   },
   {
     "id": "strong-guy",
     "name": "Strong Guy",
-    "desc": "Ongoing: If your hand is empty, +6 Power."
+    "desc": "Ongoing: If your hand is empty, +6 Power.",
+    "status": "released"
   },
   {
     "id": "stryfe",
     "name": "Stryfe",
-    "desc": "If your opponent has 12+ Power here at the end of any turn, destroy this."
+    "desc": "If your opponent has 12+ Power here at the end of any turn, destroy this.",
+    "status": "unreleased"
   },
   {
     "id": "sunspot",
     "name": "Sunspot",
-    "desc": "At the end of each turn, gain +1 Power for each unspent Energy."
+    "desc": "At the end of each turn, gain +1 Power for each unspent Energy.",
+    "status": "released"
   },
   {
     "id": "super-skrull",
     "name": "Super-Skrull",
-    "desc": "Ongoing: Has the Ongoing effects of all enemy cards."
+    "desc": "Ongoing: Has the Ongoing effects of all enemy cards.",
+    "status": "released"
   },
   {
     "id": "surtur",
     "name": "Surtur",
-    "desc": "If you move the Human Torch to this location, +10 Power."
+    "desc": "If you move the Human Torch to this location, +10 Power.",
+    "status": "unreleased"
   },
   {
     "id": "swarm",
     "name": "Swarm",
-    "desc": "When this is discarded from your hand, add two copies that Cost 0 to your hand."
+    "desc": "When this is discarded from your hand, add two copies that Cost 0 to your hand.",
+    "status": "released"
   },
   {
     "id": "sword-master",
     "name": "Sword Master",
-    "desc": "On Reveal: Discard a card from your hand."
+    "desc": "On Reveal: Discard a card from your hand.",
+    "status": "released"
   },
   {
     "id": "taskmaster",
     "name": "Taskmaster",
-    "desc": "On Reveal: Set this card's Power equal to that of the last card you played. (if that card's in play)"
+    "desc": "On Reveal: Set this card's Power equal to that of the last card you played. (if that card's in play)",
+    "status": "released"
   },
   {
     "id": "thanos",
     "name": "Thanos",
-    "desc": "At the start of the game, shuffle the six Infinity Stones into your deck."
+    "desc": "At the start of the game, shuffle the six Infinity Stones into your deck.",
+    "status": "released"
   },
   {
     "id": "the-collector",
     "name": "The Collector",
-    "desc": "When a card enters your hand from anywhere (except your deck), +1 Power."
+    "desc": "When a card enters your hand from anywhere (except your deck), +1 Power.",
+    "status": "released"
   },
   {
     "id": "the-hood",
     "name": "The Hood",
-    "desc": "On Reveal: Add a Demon to your hand."
+    "desc": "On Reveal: Add a Demon to your hand.",
+    "status": "released"
   },
   {
     "id": "the-infinaut",
     "name": "The Infinaut",
-    "desc": "If you played a card last turn, you can't play this."
+    "desc": "If you played a card last turn, you can't play this.",
+    "status": "released"
   },
   {
     "id": "the-living-tribunal",
     "name": "The Living Tribunal",
-    "desc": "Ongoing: Split your total Power evenly among all locations."
+    "desc": "Ongoing: Split your total Power evenly among all locations.",
+    "status": "released"
   },
   {
     "id": "the-phoenix-force",
     "name": "The Phoenix Force",
-    "desc": "On Reveal: Revive one of your destroyed cards and merge with it. That card can move each turn."
+    "desc": "On Reveal: Revive one of your destroyed cards and merge with it. That card can move each turn.",
+    "status": "released"
   },
   {
     "id": "the-thing",
     "name": "The Thing",
-    "desc": "\"It's clobberin' time!\""
+    "desc": "\"It's clobberin' time!\"",
+    "status": "released"
   },
   {
     "id": "thor",
     "name": "Thor",
-    "desc": "On Reveal: Shuffle Mjolnir into your deck."
+    "desc": "On Reveal: Shuffle Mjolnir into your deck.",
+    "status": "released"
   },
   {
     "id": "titania",
     "name": "Titania",
-    "desc": "After ANY card is played here, this card switches sides."
+    "desc": "After ANY card is played here, this card switches sides.",
+    "status": "released"
   },
   {
     "id": "toad",
     "name": "Toad",
-    "desc": "On Reveal: Move the last card you played to this location."
+    "desc": "On Reveal: Move the last card you played to this location.",
+    "status": "unreleased"
   },
   {
     "id": "typhoid-mary",
     "name": "Typhoid Mary",
-    "desc": "Ongoing: Your other cards have -1 Power."
+    "desc": "Ongoing: Your other cards have -1 Power.",
+    "status": "released"
   },
   {
     "id": "uatu-the-watcher",
     "name": "Uatu the Watcher",
-    "desc": "Once this is in your hand, you can see the unrevealed locations."
+    "desc": "Once this is in your hand, you can see the unrevealed locations.",
+    "status": "released"
   },
   {
     "id": "ultron",
     "name": "Ultron",
-    "desc": "On Reveal: Create four 1-Power Drones at each other location."
+    "desc": "On Reveal: Create four 1-Power Drones at each other location.",
+    "status": "released"
   },
   {
     "id": "uncle-ben",
     "name": "Uncle Ben",
-    "desc": "When this card is destroyed, add Spider-Man to your hand."
+    "desc": "When this card is destroyed, add Spider-Man to your hand.",
+    "status": "unreleased"
   },
   {
     "id": "valkyrie",
     "name": "Valkyrie",
-    "desc": "On Reveal: Set ALL cards at this location to 3 Power."
+    "desc": "On Reveal: Set ALL cards at this location to 3 Power.",
+    "status": "released"
   },
   {
     "id": "venom",
     "name": "Venom",
-    "desc": "On Reveal: Destroy your other cards at this location. Add their Power to this card."
+    "desc": "On Reveal: Destroy your other cards at this location. Add their Power to this card.",
+    "status": "released"
   },
   {
     "id": "viper",
     "name": "Viper",
-    "desc": "On Reveal: Your opponent gains control of one of your other cards at this location."
+    "desc": "On Reveal: Your opponent gains control of one of your other cards at this location.",
+    "status": "released"
   },
   {
     "id": "vision",
     "name": "Vision",
-    "desc": "You can move this each turn."
+    "desc": "You can move this each turn.",
+    "status": "released"
   },
   {
     "id": "viv-vision",
     "name": "Viv Vision",
-    "desc": "When you move a card to a location, move this card there as well."
+    "desc": "When you move a card to a location, move this card there as well.",
+    "status": "unreleased"
   },
   {
     "id": "vulture",
     "name": "Vulture",
-    "desc": "When this card moves, +5 Power."
+    "desc": "When this card moves, +5 Power.",
+    "status": "released"
   },
   {
     "id": "war-machine",
     "name": "War Machine",
-    "desc": "Ongoing: Your 1-Cost cards have +1 Power."
+    "desc": "Ongoing: Your 1-Cost cards have +1 Power.",
+    "status": "unreleased"
   },
   {
     "id": "warpath",
     "name": "Warpath",
-    "desc": "Ongoing: If any of your locations are empty, +4 Power."
+    "desc": "Ongoing: If any of your locations are empty, +4 Power.",
+    "status": "released"
   },
   {
     "id": "wasp",
     "name": "Wasp",
-    "desc": "\"My secret power is that I get things done.\""
+    "desc": "\"My secret power is that I get things done.\"",
+    "status": "released"
   },
   {
     "id": "wave",
     "name": "Wave",
-    "desc": "On Reveal: All cards cost 4 until the end of next turn."
+    "desc": "On Reveal: All cards cost 4 until the end of next turn.",
+    "status": "released"
   },
   {
     "id": "white-queen",
     "name": "White Queen",
-    "desc": "On Reveal: Copy the highest-Cost card in your opponent's hand into your hand."
+    "desc": "On Reveal: Copy the highest-Cost card in your opponent's hand into your hand.",
+    "status": "released"
   },
   {
     "id": "white-tiger",
     "name": "White Tiger",
-    "desc": "On Reveal: Add a 7-Power Tiger to another location."
+    "desc": "On Reveal: Add a 7-Power Tiger to another location.",
+    "status": "released"
   },
   {
     "id": "witchfire",
     "name": "Witchfire",
-    "desc": "On Reveal: Your opponent draws a card, increase its cost by 1."
+    "desc": "On Reveal: Your opponent draws a card, increase its cost by 1.",
+    "status": "unreleased"
   },
   {
     "id": "wolfsbane",
     "name": "Wolfsbane",
-    "desc": "On Reveal: +2 Power for each other card you have here."
+    "desc": "On Reveal: +2 Power for each other card you have here.",
+    "status": "released"
   },
   {
     "id": "wolverine",
     "name": "Wolverine",
-    "desc": "When this is discarded or destroyed, regenerate it at a random location with +2 Power."
+    "desc": "When this is discarded or destroyed, regenerate it at a random location with +2 Power.",
+    "status": "released"
   },
   {
     "id": "wong",
     "name": "Wong",
-    "desc": "Ongoing: Your On Reveal abilities at this location happen twice."
+    "desc": "Ongoing: Your On Reveal abilities at this location happen twice.",
+    "status": "released"
   },
   {
     "id": "x-23",
     "name": "X-23",
-    "desc": "When this is discarded or destroyed, regenerate it at a random location and you get +1 Energy next turn."
+    "desc": "When this is discarded or destroyed, regenerate it at a random location and you get +1 Energy next turn.",
+    "status": "unreleased"
   },
   {
     "id": "yellowjacket",
     "name": "Yellowjacket",
-    "desc": "On Reveal: Afflict your other cards at this location with -1 Power."
+    "desc": "On Reveal: Afflict your other cards at this location with -1 Power.",
+    "status": "released"
   },
   {
     "id": "yo-yo",
     "name": "Yo-Yo",
-    "desc": "When this card moves, move it back with +1 Power."
+    "desc": "When this card moves, move it back with +1 Power.",
+    "status": "unreleased"
   },
   {
     "id": "yondu",
     "name": "Yondu",
-    "desc": "On Reveal: Destroy the top card of your opponent's deck."
+    "desc": "On Reveal: Destroy the top card of your opponent's deck.",
+    "status": "released"
   },
   {
     "id": "zabu",
     "name": "Zabu",
-    "desc": "Ongoing: Your 4-Cost cards cost 1 less. (minimum 1)"
+    "desc": "Ongoing: Your 4-Cost cards cost 1 less. (minimum 1)",
+    "status": "released"
   },
   {
     "id": "zero",
     "name": "Zero",
-    "desc": "On Reveal: Remove the abilities on the next card you play."
+    "desc": "On Reveal: Remove the abilities on the next card you play.",
+    "status": "released"
   }
 ]
