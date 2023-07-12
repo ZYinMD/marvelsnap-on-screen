@@ -475,7 +475,7 @@
     "desc": "\"HULK SMASH!\""
   },
   {
-    "id": "hulk-buster",
+    "id": "hulkbuster",
     "name": "Hulkbuster",
     "desc": "On Reveal: Merge this card with a random friendly card at this location."
   },
@@ -755,7 +755,7 @@
     "desc": "On Reveal: Become a copy of a random card in your opponent's hand."
   },
   {
-    "id": "ms",
+    "id": "ms-marvel",
     "name": "Ms. Marvel",
     "desc": "Ongoing: If this is your only card here, adjacent locations have +5 Power."
   },
@@ -915,7 +915,7 @@
     "desc": "On Reveal: Ruin this location. (remove its ability)"
   },
   {
-    "id": "rocket-racoon",
+    "id": "rocket-raccoon",
     "name": "Rocket Raccoon",
     "desc": "On Reveal: If your opponent played a card here this turn, +2 Power."
   },

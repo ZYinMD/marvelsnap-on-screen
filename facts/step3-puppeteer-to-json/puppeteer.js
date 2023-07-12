@@ -8,25 +8,13 @@ await page.goto(currentModulePath + '/../../step2-base-for-scraping/pasted-div-o
 });
 
 const result = await page.evaluate(() => {
-  function parseImgFilename(imgUrl) {
-    if (!imgUrl) return null;
-    const imgFilename = imgUrl.split('/').at(-1);
-    return imgFilename;
-  }
-  function parseCardId(imgFilename) {
-    if (!imgFilename) return null;
-    const cardId = imgFilename.split('.')[0];
-    return cardId;
-  }
   const allCards = document.querySelectorAll('a.simple-card');
   const result = [];
   allCards.forEach((i) => {
     const name = i.querySelector('.cardname')?.textContent;
     const descRaw = i.querySelector('.card-description')?.textContent?.trim();
     const desc = descRaw?.replaceAll(/\s+/g, ' ');
-    const imgTag = i.querySelector('img.active');
-    const imgFilename = parseImgFilename(imgTag?.src);
-    const id = parseCardId(imgFilename);
+    const id = i.getAttribute('href')?.split('/')?.at(-2);
     result.push({ id, name, desc });
   });
   return result;
