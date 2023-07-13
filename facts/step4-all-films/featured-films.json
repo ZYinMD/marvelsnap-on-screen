@@ -57,6 +57,11 @@
   { "year": 2018, "title": "Deadpool 2", "studio": "20th Century Fox" },
   { "year": 2018, "title": "Ant-Man and the Wasp", "studio": "Marvel Studios" },
   { "year": 2018, "title": "Venom", "studio": "Columbia Pictures" },
+  {
+    "year": 2018,
+    "title": "Spider-Man: Into the Spider-Verse",
+    "studio": "Sony Pictures Animation"
+  },
   { "year": 2019, "title": "Captain Marvel", "studio": "Marvel Studios" },
   { "year": 2019, "title": "Avengers: Endgame", "studio": "Marvel Studios" },
   { "year": 2019, "title": "Dark Phoenix", "studio": "20th Century Fox" },
@@ -90,5 +95,10 @@
   { "year": 2023, "title": "Ant-Man and the Wasp: Quantumania", "studio": "Marvel Studios" },
   { "year": 2023, "title": "Guardians of the Galaxy Vol. 3", "studio": "Marvel Studios" },
   { "year": 2023, "title": "Kraven the Hunter", "studio": "Columbia Pictures" },
-  { "year": 2023, "title": "The Marvels", "studio": "Marvel Studios" }
+  { "year": 2023, "title": "The Marvels", "studio": "Marvel Studios" },
+  {
+    "year": 2023,
+    "title": "Spider-Man: Across the Spider-Verse",
+    "studio": "Sony Pictures Animation"
+  }
 ]
