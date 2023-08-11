@@ -1,4 +1,8 @@
-The goal of the "facts" folder is to generate the final data that ui is based upon.
+The purpose of the "facts" folder is to generate the final data that ui is based upon.
+
+To update facts about MarvelSnap cards, run all steps except 4.
+
+To update facts about movies, run steps 4-7.
 
 ## Step1 (manual):
 

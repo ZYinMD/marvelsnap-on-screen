@@ -1,4 +1,4 @@
-import fs from 'fs';
+import fs from 'node:fs/promises';
 import puppeteer from 'puppeteer-core';
 
 const browser = await puppeteer.launch({ channel: 'chrome', headless: true });
@@ -22,6 +22,6 @@ const result = await page.evaluate(() => {
 
 console.info(result);
 const outputPath = new URL('all-cards.json', import.meta.url);
-fs.writeFileSync(outputPath, JSON.stringify(result, null, 2));
+fs.writeFile(outputPath, JSON.stringify(result, null, 2));
 console.info('\nResult has been output to all-cards.json');
 browser.close();
