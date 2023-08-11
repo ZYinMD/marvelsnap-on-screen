@@ -1,8 +1,0 @@
-/**
- *  - v1.8.95
- * 
- * Copyright (c) 2023
- * Licensed GPLv2+
- */
-
-.ct-read-progress-bar{background:linear-gradient(to right, var(--progress-bar-scroll, var(--paletteColor1)) var(--scroll, 0%), var(--progress-bar-background, transparent) 0);background-repeat:no-repeat;position:fixed;top:calc(var(--admin-bar, 0px) + var(--frame-size, 0px));width:calc(100% - var(--frame-size, 0px)*2);height:var(--progress-bar-height, 3px);z-index:51;opacity:1;transition:opacity .3s ease}.ct-read-progress-bar.ct-auto-hide[style*="100"]{opacity:0}.ct-dynamic-filter{text-align:var(--filter-items-alignment, center);margin:calc(var(--items-vertical-spacing, 10px)*-1) calc(var(--items-horizontal-spacing, 30px)/-2) var(--container-spacing, 40px) calc(var(--items-horizontal-spacing, 30px)/-2);--linkInitialColor: var(--color)}.ct-dynamic-filter a{display:inline-flex;margin:var(--items-vertical-spacing, 10px) calc(var(--items-horizontal-spacing, 30px)/2) 0 calc(var(--items-horizontal-spacing, 30px)/2)}.ct-dynamic-filter a.active{color:var(--linkHoverColor)}.ct-dynamic-filter[data-type=buttons] a{padding:var(--padding, 8px 15px);border-radius:var(--border-radius, 3px);background:var(--buttonInitialColor)}.ct-dynamic-filter[data-type=buttons] a:hover,.ct-dynamic-filter[data-type=buttons] a.active{background:var(--buttonHoverColor)}
