@@ -3,7 +3,8 @@
   "scripts": {
     "step1": "echo 'see readme'",
     "step2": "echo 'see readme'",
-    "step3": "node step3-puppeteer-to-json/puppeteer.js"
+    "step3": "node step3-puppeteer-to-json/puppeteer.js",
+    "step4": "node step4-all-titles/excel-to-json.js"
   },
   "dependencies": {
     "puppeteer-core": "^20.8.0",

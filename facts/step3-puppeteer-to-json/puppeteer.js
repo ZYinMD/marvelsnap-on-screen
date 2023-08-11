@@ -7,7 +7,7 @@ const url = new URL('../step2-base-for-scraping/pasted-div-of-card-list.html', i
 await page.goto(url.toString(), { waitUntil: ['load', 'domcontentloaded', 'networkidle0'] });
 
 const result = await page.evaluate(() => {
-  const result = [];
+  const result = {};
   const allCards = document.querySelectorAll('a.simple-card');
   allCards.forEach((i) => {
     const id = i.getAttribute('href')?.split('/')?.at(-2);
@@ -15,7 +15,7 @@ const result = await page.evaluate(() => {
     const descRaw = i.querySelector('.card-description')?.textContent?.trim();
     const desc = descRaw?.replaceAll(/\s+/g, ' ');
     const status = i.getAttribute('data-status');
-    result.push({ id, name, desc, status });
+    result[id] = { id, name, desc, status };
   });
   return result;
 });

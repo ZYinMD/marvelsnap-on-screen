@@ -37,6 +37,18 @@ The code is the same as in "pre-scrape.js", the only difference is puppeteer can
 
 Unfortunately there's no easy way to share the code as a module between puppeteer and browser, so I just copy and paste.
 
+## step 4
+
+Open the [this](https://en.wikipedia.org/wiki/List_of_films_based_on_Marvel_Comics_publications#Theatrically_released_films) and [this](https://en.wikipedia.org/wiki/List_of_television_series_based_on_Marvel_Comics_publications#Animated) wikipedia pages, use them to edit all-titles.xlsx, then run
+
+```
+pnpm run step4
+```
+
+Check the diff, commit.
+
+Usually, this step needs to be run when new movies are released.
+
 ## inclusion:
 
 Titles are based on 2 important wikipedia pages: https://en.wikipedia.org/wiki/List_of_films_based_on_Marvel_Comics_publications#Theatrically_released_films and https://en.wikipedia.org/wiki/List_of_television_series_based_on_Marvel_Comics_publications
