@@ -44,7 +44,7 @@
   {
     "id": "alioth",
     "name": "Alioth",
-    "desc": "Never gonna give you up.",
+    "desc": "On Reveal: Destroy ALL enemy cards played here this turn. (including unrevealed cards)",
     "status": "unreleased"
   },
   {
@@ -128,13 +128,13 @@
   {
     "id": "black-bolt",
     "name": "Black Bolt",
-    "desc": "On Reveal: Your opponent must discard the lowest-Cost card in their hand.",
+    "desc": "On Reveal: Discard the lowest-cost card from your opponent's hand.",
     "status": "released"
   },
   {
     "id": "black-cat",
     "name": "Black Cat",
-    "desc": "If this is in your hand at the end of your turn, discard it.",
+    "desc": "If you end the turn with this in your hand, discard it.",
     "status": "released"
   },
   {
@@ -186,9 +186,15 @@
     "status": "released"
   },
   {
+    "id": "broodling",
+    "name": "Broodling",
+    "desc": "\"We are Brood, from Broodworld. You are lunch.\"",
+    "status": "released"
+  },
+  {
     "id": "bucky-barnes",
     "name": "Bucky Barnes",
-    "desc": "When this is destroyed, create the Winter Soldier in its place.",
+    "desc": "When this is destroyed, replace it with the Winter Soldier.",
     "status": "released"
   },
   {
@@ -224,7 +230,7 @@
   {
     "id": "cerebro",
     "name": "Cerebro",
-    "desc": "Ongoing: Your highest Power cards get +2 Power.",
+    "desc": "Ongoing: Your highest-Power cards have +2 Power.",
     "status": "released"
   },
   {
@@ -276,6 +282,12 @@
     "status": "released"
   },
   {
+    "id": "daken",
+    "name": "Daken",
+    "desc": "On Reveal: Add the Muramasa Shard to your hand.",
+    "status": "released"
+  },
+  {
     "id": "daredevil",
     "name": "Daredevil",
     "desc": "On turn 5, you get to see your opponent's plays before you make your own.",
@@ -318,6 +330,12 @@
     "status": "released"
   },
   {
+    "id": "demon",
+    "name": "Demon",
+    "desc": "\"A deal is a deal.\"",
+    "status": "released"
+  },
+  {
     "id": "destroyer",
     "name": "Destroyer",
     "desc": "On Reveal: Destroy your other cards.",
@@ -344,13 +362,19 @@
   {
     "id": "doctor-strange",
     "name": "Doctor Strange",
-    "desc": "On Reveal: Move your highest Power cards to this location.",
+    "desc": "On Reveal: Move your highest-Power card(s) to this location.",
     "status": "released"
   },
   {
     "id": "domino",
     "name": "Domino",
     "desc": "You always draw this card on turn 2, and not before.",
+    "status": "released"
+  },
+  {
+    "id": "doombot",
+    "name": "Doombot",
+    "desc": "\"Doom is supreme!\"",
     "status": "released"
   },
   {
@@ -366,6 +390,12 @@
     "status": "released"
   },
   {
+    "id": "drone",
+    "name": "Drone",
+    "desc": "\"zzzzzzZZZTT!\"",
+    "status": "released"
+  },
+  {
     "id": "ebony-maw",
     "name": "Ebony Maw",
     "desc": "You can't play this after turn 3. Ongoing: You can't play cards here.",
@@ -375,7 +405,7 @@
     "id": "echo",
     "name": "Echo",
     "desc": "After your opponent plays an Ongoing card here, remove its abilities.",
-    "status": "unreleased"
+    "status": "released"
   },
   {
     "id": "electro",
@@ -399,6 +429,48 @@
     "id": "enchantress",
     "name": "Enchantress",
     "desc": "On Reveal: Remove the abilities from all Ongoing cards at this location.",
+    "status": "released"
+  },
+  {
+    "id": "evolved-abomination",
+    "name": "Evolved Abomination",
+    "desc": "Costs 1 less for each enemy card in play that's afflicted with negative Power.",
+    "status": "released"
+  },
+  {
+    "id": "evolved-cyclops",
+    "name": "Evolved Cyclops",
+    "desc": "When you end a turn with unspent Energy, afflict 2 random enemies here with -1 Power.",
+    "status": "released"
+  },
+  {
+    "id": "evolved-hulk",
+    "name": "Evolved Hulk",
+    "desc": "When you end a turn with unspent Energy, +2 Power. (if in hand or in play)",
+    "status": "released"
+  },
+  {
+    "id": "evolved-misty-knight",
+    "name": "Evolved Misty Knight",
+    "desc": "When you end a turn with unspent Energy, give another friendly card +1 Power.",
+    "status": "released"
+  },
+  {
+    "id": "evolved-shocker",
+    "name": "Evolved Shocker",
+    "desc": "On Reveal: Give the leftmost card in your hand -1 Cost.",
+    "status": "released"
+  },
+  {
+    "id": "evolved-the-thing",
+    "name": "Evolved The Thing",
+    "desc": "On Reveal: Afflict a random enemy card here with -1 Power. Repeat this twice more.",
+    "status": "released"
+  },
+  {
+    "id": "evolved-wasp",
+    "name": "Evolved Wasp",
+    "desc": "On Reveal: Afflict a random enemy card here with -1 Power.",
     "status": "released"
   },
   {
@@ -506,7 +578,7 @@
   {
     "id": "hawkeye",
     "name": "Hawkeye",
-    "desc": "On Reveal: If you play a card here next turn, +2 Power.",
+    "desc": "On Reveal: If you play a card here next turn, +3 Power.",
     "status": "released"
   },
   {
@@ -588,6 +660,12 @@
     "status": "released"
   },
   {
+    "id": "illusion!",
+    "name": "Illusion!",
+    "desc": "This is a fake Mysterio!",
+    "status": "released"
+  },
+  {
     "id": "invisible-woman",
     "name": "Invisible Woman",
     "desc": "Ongoing: Cards you play here are not revealed until the game ends.",
@@ -633,7 +711,7 @@
     "id": "jean-grey",
     "name": "Jean Grey",
     "desc": "Ongoing: Players must play their first card here each turn. (if possible)",
-    "status": "unreleased"
+    "status": "released"
   },
   {
     "id": "jeff-the-baby-land-shark",
@@ -692,7 +770,7 @@
   {
     "id": "kitty-pryde",
     "name": "Kitty Pryde",
-    "desc": "When this returns to your hand, +2 Power. Returns at the start of each turn.",
+    "desc": "When this returns to your hand, +1 Power. Returns at the start of each turn.",
     "status": "released"
   },
   {
@@ -716,7 +794,7 @@
   {
     "id": "kraven",
     "name": "Kraven",
-    "desc": "When a card moves here, this gets +2 Power.",
+    "desc": "When a card moves here, this gains +2 Power.",
     "status": "released"
   },
   {
@@ -747,7 +825,7 @@
     "id": "legion",
     "name": "Legion",
     "desc": "On Reveal: Replace each other location with this one.",
-    "status": "unreleased"
+    "status": "released"
   },
   {
     "id": "lizard",
@@ -760,6 +838,12 @@
     "name": "Lockjaw",
     "desc": "After you play a card here, swap it with a card in your deck. (once per turn)",
     "status": "released"
+  },
+  {
+    "id": "loki",
+    "name": "Loki",
+    "desc": "On Reveal: Replace your hand with cards from your opponent's starting deck. Give them -1 cost.",
+    "status": "unreleased"
   },
   {
     "id": "luke-cage",
@@ -776,7 +860,7 @@
   {
     "id": "magik",
     "name": "Magik",
-    "desc": "You can't play this on turn 6. On Reveal: Change this location to 'Limbo'.",
+    "desc": "On Reveal: Replace this location with 'Limbo'. Doesn't work after turn 5.",
     "status": "released"
   },
   {
@@ -789,6 +873,12 @@
     "id": "makkari",
     "name": "Makkari",
     "desc": "When you draw this, place it at a random location.",
+    "status": "unreleased"
+  },
+  {
+    "id": "man-thing",
+    "name": "Man-Thing",
+    "desc": "none",
     "status": "unreleased"
   },
   {
@@ -834,10 +924,16 @@
     "status": "released"
   },
   {
+    "id": "mind-stone",
+    "name": "Mind Stone",
+    "desc": "On Reveal: Draw 2 Stones from your deck.",
+    "status": "released"
+  },
+  {
     "id": "mirage",
     "name": "Mirage",
     "desc": "On Reveal: Copy the lowest-Cost card in your opponent's hand into your hand. Give it +2 Power.",
-    "status": "unreleased"
+    "status": "released"
   },
   {
     "id": "mister-fantastic",
@@ -864,9 +960,15 @@
     "status": "released"
   },
   {
+    "id": "mjolnir",
+    "name": "Mjölnir",
+    "desc": "On Reveal: Give Thor +6 Power.",
+    "status": "released"
+  },
+  {
     "id": "mobius-m-mobius",
     "name": "Mobius M. Mobius",
-    "desc": "Never gonna let you down.",
+    "desc": "Ongoing: Your Costs can't be increased. Your opponent's Costs can't be reduced.",
     "status": "unreleased"
   },
   {
@@ -879,6 +981,12 @@
     "id": "mojo",
     "name": "Mojo",
     "desc": "Ongoing: If both players have 4 cards at this location, +6 Power.",
+    "status": "released"
+  },
+  {
+    "id": "monster",
+    "name": "Monster",
+    "desc": "Careful...he likes to mash.",
     "status": "released"
   },
   {
@@ -924,6 +1032,12 @@
     "status": "released"
   },
   {
+    "id": "mysterio-",
+    "name": "Mysterio?",
+    "desc": "Which is the real Mysterio? The real one has 4 Power.",
+    "status": "released"
+  },
+  {
     "id": "mystique",
     "name": "Mystique",
     "desc": "On Reveal: If the last card you played has an Ongoing, copy its text. (if it's in play)",
@@ -932,7 +1046,7 @@
   {
     "id": "nakia",
     "name": "Nakia",
-    "desc": "On Reveal: Give the 2 leftmost cards in your hand +2 Power.",
+    "desc": "On Reveal: Give all cards in your hand +1 Power.",
     "status": "released"
   },
   {
@@ -960,6 +1074,12 @@
     "status": "released"
   },
   {
+    "id": "nico-minoru",
+    "name": "Nico Minoru",
+    "desc": "none",
+    "status": "unreleased"
+  },
+  {
     "id": "night-nurse",
     "name": "Night Nurse",
     "desc": "On Reveal: Add all cards you discarded or destroyed last turn to your hand.",
@@ -975,6 +1095,12 @@
     "id": "nimrod",
     "name": "Nimrod",
     "desc": "When this is destroyed, add a copy to each other location.",
+    "status": "released"
+  },
+  {
+    "id": "ninja",
+    "name": "Ninja",
+    "desc": "\"I serve the Hand.\"",
     "status": "released"
   },
   {
@@ -1020,9 +1146,21 @@
     "status": "released"
   },
   {
+    "id": "pig",
+    "name": "Pig",
+    "desc": "\"oink!\"",
+    "status": "released"
+  },
+  {
     "id": "polaris",
     "name": "Polaris",
     "desc": "On Reveal: Move an opposing 1 or 2-Cost card to this location.",
+    "status": "released"
+  },
+  {
+    "id": "power-stone",
+    "name": "Power Stone",
+    "desc": "Ongoing: If you've played all 6 stones, Thanos has +10 Power. (wherever he is)",
     "status": "released"
   },
   {
@@ -1068,9 +1206,21 @@
     "status": "unreleased"
   },
   {
+    "id": "raptor",
+    "name": "Raptor",
+    "desc": "SCREEEEEEEE",
+    "status": "released"
+  },
+  {
     "id": "ravonna-renslayer",
     "name": "Ravonna Renslayer",
-    "desc": "You know the rules, and so do I.",
+    "desc": "Ongoing: Your cards with 1 or less Power cost 1 less. (minimum 1)",
+    "status": "unreleased"
+  },
+  {
+    "id": "reality-stone",
+    "name": "Reality Stone",
+    "desc": "On Reveal: Transform this location into a new one. Draw a card.",
     "status": "released"
   },
   {
@@ -1095,6 +1245,12 @@
     "id": "rhino",
     "name": "Rhino",
     "desc": "On Reveal: Ruin this location. (remove its ability)",
+    "status": "released"
+  },
+  {
+    "id": "rock",
+    "name": "Rock",
+    "desc": "Well, that's useless....",
     "status": "released"
   },
   {
@@ -1230,9 +1386,45 @@
     "status": "released"
   },
   {
+    "id": "sinister-clone",
+    "name": "Sinister Clone",
+    "desc": "\"Sinister is a system. Sinister is a species. Everything is Sinister.\"",
+    "status": "released"
+  },
+  {
     "id": "snowguard",
     "name": "Snowguard",
     "desc": "While in your hand, this transforms each turn into a Hawk or a Bear.",
+    "status": "released"
+  },
+  {
+    "id": "snowguard-bear",
+    "name": "Snowguard Bear",
+    "desc": "On Reveal: Trigger the effect of this location.",
+    "status": "released"
+  },
+  {
+    "id": "snowguard-hawk",
+    "name": "Snowguard Hawk",
+    "desc": "On Reveal: Ignore all location abilities next turn.",
+    "status": "released"
+  },
+  {
+    "id": "snowguard-wolf",
+    "name": "Snowguard Wolf",
+    "desc": "Ongoing: -2 Power for each other card you have here.",
+    "status": "released"
+  },
+  {
+    "id": "soul-stone",
+    "name": "Soul Stone",
+    "desc": "On Reveal: Draw a card. Ongoing: Enemy cards here have -1 Power.",
+    "status": "released"
+  },
+  {
+    "id": "space-stone",
+    "name": "Space Stone",
+    "desc": "On Reveal: Next turn, you can move one card to this location. Draw a card.",
     "status": "released"
   },
   {
@@ -1245,12 +1437,12 @@
     "id": "spider-ham",
     "name": "Spider-Ham",
     "desc": "On Reveal: Transform the highest-cost card in your opponent's hand into a Pig, keeping its Power and Cost.",
-    "status": "unreleased"
+    "status": "released"
   },
   {
     "id": "spider-man",
     "name": "Spider-Man",
-    "desc": "On Reveal: Your opponent can't play cards at this location next turn.",
+    "desc": "On Reveal: Move to another location and pull an enemy card from here to there.",
     "status": "released"
   },
   {
@@ -1263,6 +1455,12 @@
     "id": "spider-woman",
     "name": "Spider-Woman",
     "desc": "On Reveal: Afflict all enemy cards here with -1 Power.",
+    "status": "released"
+  },
+  {
+    "id": "squirrel",
+    "name": "Squirrel",
+    "desc": "\"squeak!\"",
     "status": "released"
   },
   {
@@ -1338,6 +1536,12 @@
     "status": "released"
   },
   {
+    "id": "symbiote",
+    "name": "Symbiote",
+    "desc": "YUUUUUMMMMMM!!!",
+    "status": "released"
+  },
+  {
     "id": "taskmaster",
     "name": "Taskmaster",
     "desc": "On Reveal: Set this card's Power equal to that of the last card you played. (if that card's in play)",
@@ -1386,9 +1590,27 @@
     "status": "released"
   },
   {
+    "id": "the-void",
+    "name": "The Void",
+    "desc": "Hello again...",
+    "status": "released"
+  },
+  {
     "id": "thor",
     "name": "Thor",
     "desc": "On Reveal: Shuffle Mjolnir into your deck.",
+    "status": "released"
+  },
+  {
+    "id": "tiger-spirit",
+    "name": "Tiger Spirit",
+    "desc": "\"Vengeance is mine!\"",
+    "status": "released"
+  },
+  {
+    "id": "time-stone",
+    "name": "Time Stone",
+    "desc": "On Reveal: Draw a card. Next turn, you get +1 Energy.",
     "status": "released"
   },
   {
@@ -1440,6 +1662,12 @@
     "status": "released"
   },
   {
+    "id": "vibranium",
+    "name": "Vibranium",
+    "desc": "Ongoing: Can't be destroyed.",
+    "status": "released"
+  },
+  {
     "id": "viper",
     "name": "Viper",
     "desc": "On Reveal: Your opponent gains control of one of your other cards at this location.",
@@ -1488,6 +1716,12 @@
     "status": "released"
   },
   {
+    "id": "werewolf-by-night",
+    "name": "Werewolf By Night",
+    "desc": "none",
+    "status": "unreleased"
+  },
+  {
     "id": "white-queen",
     "name": "White Queen",
     "desc": "On Reveal: Copy the highest-Cost card in your opponent's hand into your hand.",
@@ -1497,6 +1731,18 @@
     "id": "white-tiger",
     "name": "White Tiger",
     "desc": "On Reveal: Add a 7-Power Tiger to another location.",
+    "status": "released"
+  },
+  {
+    "id": "widows-bite",
+    "name": "Widow's Bite",
+    "desc": "While this is in your hand, you can't draw cards.",
+    "status": "released"
+  },
+  {
+    "id": "winter-soldier",
+    "name": "Winter Soldier",
+    "desc": "\"It's time for me to face the past.\"",
     "status": "released"
   },
   {

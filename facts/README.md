@@ -2,33 +2,36 @@ The goal of the "facts" folder is to generate the final data that ui is based up
 
 ## Step1 (manual):
 
-Open the "all cards" page of marvelsnapzone.com, probably https://marvelsnapzone.com/cards/. Slowly scroll to the bottom (because all images are lazy loaded). Then save the page locally as html. This can save all the images.
+1. Open the "all cards" page of marvelsnapzone.com, probably https://marvelsnapzone.com/cards/.
+1. Slowly scroll to the bottom (because all images are lazy loaded).
+1. Save the page, choose "html, all files". Name it all-cards (must name it correctly on save, can't rename later).
+1. This will save all card text for future use, and all card images in the asset folder.
+1. Move the download result into the step1 folder, overwrite the original.
+1. Stage the diff (don't commit yet). New images are probably newly released cards. Modified images are probably balance changes.
 
 ## Step2 (manual):
 
-The page saved in step1 contains too many stuff we don't need. Open devtools, select the div that contains all cards, paste into a new html. Now it's much cleaner.
-
-Optionally, add a script tag to the new html, it serves as a playground for what is to be done in page.evaluate() in puppeteer, but it's faster than puppeteer. I named it "throwaway-script.js" because it's optional.
+1. In browser, open the all-cards.html we saved in step1.
+1. In VSCode, open the pasted-div-of-card-list.html in step2.
+1. The html in step1 contains too many stuff we don't need. Open devtools, select the div that contains all cards, copy and paste it into the html in step2, overwrite the previous version. Now we have a striped down version of html containing only what we need.
+1. Open the new page in browser, open console to see if all cards into are console logged (if there are too many errors, disable them in the "level" settings). This is done by a script tag `<script src="pre-scrape.js"></script>`. Hopefully it wasn't accidentally deleted in the last step.
+1. If console log looks good, stage the change. Don't commit yet.
 
 ## Step3:
 
-Use puppeteer to open the page created in step2, scrape the data we need, output to json.
+```
+pnpm run step3
+```
 
-The code is the same as in "throwaway-script.js", but there's no easy way to share the code as a module, so just copy and paste.
+Check the diff, it should be recent card releases and balance changes. If looking good, stage and commit.
 
-## StepX:
+Explain:
 
-Images of all cards have been saved in step1 in webp format. Copy them to ui.
+This step uses puppeteer to open the html created in step2, scrape the data we need, output to json.
 
-Note: in the html, each card has a url to the image and a url to the individual page of that card, let's call them image url and page url. They both contain the card id. In step 3, I parsed the id from the page url, e.g. from Colleen Wing's page url is "https://marvelsnapzone.com/cards/colleen-wing/", and I parsed out the id "colleen-wing".
+The code is the same as in "pre-scrape.js", the only difference is puppeteer can output json with fs.
 
-However, I found 3 exceptions where the image url is spelled differently: "rocket-raccoon" spelled as "rocket-racoon", "ms-marvel" spelled as "ms.marvel", "hulkbuster" spelled as "hulk-buster".
-
-Judging from the spelling of "raccoon", the image url is the wrong one, so use page url to parse the id.
-
-Actually, the website knows this, so they've made them interchangeable - visit "/rocket-raccoon" and "/rocket-racoon" both lead to the same page, and both "rocket-raccoon.webp" and "rocket-racoon.webp" exist on the server. (the 2 images are slightly different, the correctly spelled is more consistent with others)
-
-The only problem is the webp of the correct name didn't get saved in step1, so I manually visited the 3 correct images and saved them, then put into step1 folder.
+Unfortunately there's no easy way to share the code as a module between puppeteer and browser, so I just copy and paste.
 
 ## inclusion:
 
