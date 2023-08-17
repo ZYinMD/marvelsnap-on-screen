@@ -1,4 +1,11 @@
 {
+  "files.exclude": {
+    "**/node_modules": true
+  },
+  // note: search exclude inherit files exlude, unless you you override them.
+  "search.exclude": {
+    "*/.svelte-kit": true
+  },
   "cSpell.words": [
     "Deadpool",
     "Elektra",
