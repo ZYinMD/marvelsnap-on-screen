@@ -1,9 +1,8 @@
 {
   "type": "module",
   "scripts": {
-    "step1": "echo 'see readme'",
-    "step2": "echo 'see readme'",
-    "step3": "node step3-puppeteer-to-json/puppeteer.js",
+    "step1": "see readme",
+    "step2": "node step2/prepareAllCards.js && pnpm --dir ../ui format",
     "step4": "node step4-all-titles/excel-to-json.js"
   },
   "dependencies": {

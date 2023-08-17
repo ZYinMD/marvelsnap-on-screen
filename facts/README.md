@@ -1,48 +1,23 @@
 The purpose of the "facts" folder is to generate the final data that ui is based upon.
 
-To update facts about MarvelSnap cards, run all steps except 4.
+To update facts about MarvelSnap cards, run all steps 1-2.
 
 To update facts about movies, run steps 4-7.
 
-## Step1 (manual):
+## step 1
 
-1. Open the "all cards" page of marvelsnapzone.com, probably https://marvelsnapzone.com/cards/.
-1. Slowly scroll to the bottom (because all images are lazy loaded).
-1. Save the page, choose "html, all files". Name it all-cards (must name it correctly on save, can't rename later).
-1. This will save all card text for future use, and all card images in the asset folder.
-1. Move the download result into the step1 folder, overwrite the original.
-1. Stage the diff (don't commit yet). New images are probably newly released cards. Modified images are probably balance changes.
+In browser, open devtools, visit https://snap.untapped.gg/, find "cards.json" in the network tab, copy and paste the json response into step1.
 
-## Step2 (manual):
+## step 2
 
-1. In browser, open the all-cards.html we saved in step1.
-1. In VSCode, open the pasted-div-of-card-list.html in step2.
-1. The html in step1 contains too many stuff we don't need. Open devtools, select the div that contains all cards, copy and paste it into the html in step2, overwrite the previous version. Now we have a striped down version of html containing only what we need.
-1. Open the new page in browser, open console to see if all cards into are console logged (if there are too many errors, disable them in the "level" settings). This is done by a script tag `<script src="pre-scrape.js"></script>`. Hopefully it wasn't accidentally deleted in the last step.
-1. If console log looks good, stage the change. Don't commit yet.
+run `pnpm step2`, this will output all cards to ui/src/lib/facts/allCards.ts based on the json from step1.
 
-## Step3:
-
-```
-pnpm run step3
-```
-
-Check the diff, it should be recent card releases and balance changes. If looking good, stage and commit.
-
-Explain:
-
-This step uses puppeteer to open the html created in step2, scrape the data we need, output to json.
-
-The code is the same as in "pre-scrape.js", the only difference is puppeteer can output json with fs.
-
-Unfortunately there's no easy way to share the code as a module between puppeteer and browser, so I just copy and paste.
-
-## step 4
+## step 3
 
 Open the [this](https://en.wikipedia.org/wiki/List_of_films_based_on_Marvel_Comics_publications#Theatrically_released_films) and [this](https://en.wikipedia.org/wiki/List_of_television_series_based_on_Marvel_Comics_publications#Animated) wikipedia pages, use them to edit all-titles.xlsx, then run
 
 ```
-pnpm run step4
+pnpm run step3
 ```
 
 Check the diff, commit.
