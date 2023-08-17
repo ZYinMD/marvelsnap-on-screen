@@ -1,3 +1,0 @@
-# ignore any files in assets folder except webp files
-/all-cards_files/*
-!/all-cards_files/*.webp
