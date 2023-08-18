@@ -36,7 +36,11 @@ export const allTitles = {
       wikipedia: 'https://en.wikipedia.org/wiki/X2_(film)',
       continuity: 'fox-x-men',
     },
-    { year: '2003', title: 'Hulk', wikipedia: 'https://en.wikipedia.org/wiki/Hulk_(film)' },
+    {
+      year: '2003',
+      title: 'Hulk',
+      wikipedia: 'https://en.wikipedia.org/wiki/Hulk_(film)',
+    },
     {
       year: '2004',
       title: 'The Punisher',

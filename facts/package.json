@@ -3,7 +3,7 @@
   "scripts": {
     "step1": "see readme",
     "step2": "node step2/prepareAllCards.js && pnpm --dir ../ui format",
-    "step3": "node step3/excel-to-json.js && pnpm --dir ../ui format"
+    "step3": "node step3/prepareAllTitles.js && pnpm --dir ../ui format"
   },
   "dependencies": {
     "puppeteer-core": "^20.8.0",
