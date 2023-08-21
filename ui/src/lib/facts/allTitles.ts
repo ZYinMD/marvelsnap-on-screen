@@ -296,6 +296,12 @@ export const allTitles = {
       wikipedia: 'https://en.wikipedia.org/wiki/Venom_(2018_film)',
       continuity: 'ssu',
     },
+    '2018|Spider-Man: Into the Spider-Verse': {
+      year: '2018',
+      title: 'Spider-Man: Into the Spider-Verse',
+      wikipedia: 'https://en.wikipedia.org/wiki/Spider-Man:_Into_the_Spider-Verse',
+      continuity: 'spider-verse',
+    },
     '2019|Captain Marvel': {
       year: '2019',
       title: 'Captain Marvel',
@@ -391,6 +397,12 @@ export const allTitles = {
       title: 'Guardians of the Galaxy Vol. 3',
       wikipedia: 'https://en.wikipedia.org/wiki/Guardians_of_the_Galaxy_Vol._3',
       continuity: 'mcu',
+    },
+    '2023|Spider-Man: Across the Spider-Verse': {
+      year: '2023',
+      title: 'Spider-Man: Across the Spider-Verse',
+      wikipedia: 'https://en.wikipedia.org/wiki/Spider-Man:_Across_the_Spider-Verse',
+      continuity: 'spider-verse',
     },
   },
   'live-action-tv-series': {

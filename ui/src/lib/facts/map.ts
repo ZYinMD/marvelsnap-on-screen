@@ -329,6 +329,19 @@ export const map: Record<Title, Cast> = {
   },
   '2018|Ant-Man and the Wasp': { full: ['Ant Man', 'Wasp', 'Ghost'], semi: ['Stature'] },
   '2018|Venom': { full: ['Venom'], semi: ['Spider-Man', 'Miles Morales'] },
+  '2018|Spider-Man: Into the Spider-Verse': {
+    full: [
+      'Miles Morales',
+      'Spider-Man',
+      'Ghost-Spider',
+      'Kingpin',
+      'Spider-Ham',
+      'Doctor Octopus',
+      'Green Goblin',
+      'Scorpion',
+    ],
+    semi: ['Spider-Man 2099'],
+  },
   '2019|Captain Marvel': {
     full: ['Captain Marvel', 'Nick Fury', 'Ronan the Accuser', 'Agent Coulson', 'Goose'],
     semi: ['Spectrum', 'Captain America', 'Black Widow', 'Hulk'],
@@ -467,6 +480,10 @@ export const map: Record<Title, Cast> = {
       'Cosmo',
     ],
     semi: ['Howard the Duck'],
+  },
+  '2023|Spider-Man: Across the Spider-Verse': {
+    full: ['Miles Morales', 'Ghost-Spider', 'Spider-Woman', 'Spider-Man 2099'],
+    semi: [],
   },
   '2006|Blade: The Series': { full: [], semi: [] },
   '2013–20|Agents of S.H.I.E.L.D.': { full: ['Quinjet'], semi: [] },
