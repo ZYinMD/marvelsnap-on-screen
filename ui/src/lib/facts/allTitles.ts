@@ -420,7 +420,6 @@ export const allTitles = {
       wikipedia: 'https://en.wikipedia.org/wiki/Agents_of_S.H.I.E.L.D.',
       numSeasons: 7,
       numEpisodes: 136,
-      mcu: 1,
       continuity: 'mcu',
     },
     '2015–16|Agent Carter': {
@@ -429,8 +428,7 @@ export const allTitles = {
       wikipedia: 'https://en.wikipedia.org/wiki/Agent_Carter_(TV_series)',
       numSeasons: 2,
       numEpisodes: 18,
-      mcu: 1,
-      continuity: 'mcu',
+      continuity: 'mcu-netflix',
     },
     '2015–18|Daredevil': {
       year: '2015–18',
@@ -438,8 +436,7 @@ export const allTitles = {
       wikipedia: 'https://en.wikipedia.org/wiki/Daredevil_(TV_series)',
       numSeasons: 3,
       numEpisodes: 39,
-      mcu: 1,
-      continuity: 'mcu',
+      continuity: 'mcu-netflix',
     },
     '2015–19|Jessica Jones': {
       year: '2015–19',
@@ -447,8 +444,7 @@ export const allTitles = {
       wikipedia: 'https://en.wikipedia.org/wiki/Jessica_Jones_(TV_series)',
       numSeasons: 3,
       numEpisodes: 39,
-      mcu: 1,
-      continuity: 'mcu',
+      continuity: 'mcu-netflix',
     },
     '2016–18|Luke Cage': {
       year: '2016–18',
@@ -456,8 +452,7 @@ export const allTitles = {
       wikipedia: 'https://en.wikipedia.org/wiki/Luke_Cage_(TV_series)',
       numSeasons: 2,
       numEpisodes: 26,
-      mcu: 1,
-      continuity: 'mcu',
+      continuity: 'mcu-netflix',
     },
     '2017–19|Legion': {
       year: '2017–19',
@@ -472,8 +467,7 @@ export const allTitles = {
       wikipedia: 'https://en.wikipedia.org/wiki/Iron_Fist_(TV_series)',
       numSeasons: 2,
       numEpisodes: 23,
-      mcu: 1,
-      continuity: 'mcu',
+      continuity: 'mcu-netflix',
     },
     '2017|The Defenders': {
       year: '2017',
@@ -481,8 +475,7 @@ export const allTitles = {
       wikipedia: 'https://en.wikipedia.org/wiki/The_Defenders_(miniseries)',
       numSeasons: 1,
       numEpisodes: 8,
-      mcu: 1,
-      continuity: 'mcu',
+      continuity: 'mcu-netflix',
     },
     '2017|Inhumans': {
       year: '2017',
@@ -490,7 +483,6 @@ export const allTitles = {
       wikipedia: 'https://en.wikipedia.org/wiki/Inhumans_(TV_series)',
       numSeasons: 1,
       numEpisodes: 8,
-      mcu: 1,
       continuity: 'mcu',
     },
     '2017–19|The Gifted': {
@@ -506,8 +498,7 @@ export const allTitles = {
       wikipedia: 'https://en.wikipedia.org/wiki/The_Punisher_(TV_series)',
       numSeasons: 2,
       numEpisodes: 26,
-      mcu: 1,
-      continuity: 'mcu',
+      continuity: 'mcu-netflix',
     },
     '2017–19|Runaways': {
       year: '2017–19',
@@ -515,7 +506,6 @@ export const allTitles = {
       wikipedia: 'https://en.wikipedia.org/wiki/Runaways_(TV_series)',
       numSeasons: 3,
       numEpisodes: 33,
-      mcu: 1,
       continuity: 'mcu',
     },
     '2018–19|Cloak & Dagger': {
@@ -524,7 +514,6 @@ export const allTitles = {
       wikipedia: 'https://en.wikipedia.org/wiki/Cloak_%26_Dagger_(TV_series)',
       numSeasons: 2,
       numEpisodes: 20,
-      mcu: 1,
       continuity: 'mcu',
     },
     '2020|Helstrom': {
@@ -540,7 +529,6 @@ export const allTitles = {
       wikipedia: 'https://en.wikipedia.org/wiki/WandaVision',
       numSeasons: 1,
       numEpisodes: 9,
-      mcu: 1,
       continuity: 'mcu',
     },
     '2021|The Falcon and the Winter Soldier': {
@@ -549,7 +537,6 @@ export const allTitles = {
       wikipedia: 'https://en.wikipedia.org/wiki/The_Falcon_and_the_Winter_Soldier',
       numSeasons: 1,
       numEpisodes: 6,
-      mcu: 1,
       continuity: 'mcu',
     },
     '2021|Hawkeye': {
@@ -558,7 +545,6 @@ export const allTitles = {
       wikipedia: 'https://en.wikipedia.org/wiki/Hawkeye_(2021_TV_series)',
       numSeasons: 1,
       numEpisodes: 6,
-      mcu: 1,
       continuity: 'mcu',
     },
     '2021–24|Loki': {
@@ -567,7 +553,6 @@ export const allTitles = {
       wikipedia: 'https://en.wikipedia.org/wiki/Loki_(TV_series)',
       numSeasons: 1,
       numEpisodes: 6,
-      mcu: 1,
       continuity: 'mcu',
     },
     '2022|Moon Knight': {
@@ -576,7 +561,6 @@ export const allTitles = {
       wikipedia: 'https://en.wikipedia.org/wiki/Moon_Knight_(TV_series)',
       numSeasons: 1,
       numEpisodes: 6,
-      mcu: 1,
       continuity: 'mcu',
     },
     '2022|Ms. Marvel': {
@@ -585,7 +569,6 @@ export const allTitles = {
       wikipedia: 'https://en.wikipedia.org/wiki/Ms._Marvel_(TV_series)',
       numSeasons: 1,
       numEpisodes: 6,
-      mcu: 1,
       continuity: 'mcu',
     },
     '2022|She-Hulk: Attorney at Law': {
@@ -594,7 +577,6 @@ export const allTitles = {
       wikipedia: 'https://en.wikipedia.org/wiki/She-Hulk:_Attorney_at_Law',
       numSeasons: 1,
       numEpisodes: 9,
-      mcu: 1,
       continuity: 'mcu',
     },
     '2023|Secret Invasion': {
