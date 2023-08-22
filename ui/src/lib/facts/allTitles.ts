@@ -589,16 +589,16 @@ export const allTitles = {
     },
   },
   'animated-tv-series': {
-    '1992–97|X-Men': {
+    '1992–97|X-Men: The Animated Series': {
       year: '1992–97',
-      title: 'X-Men',
+      title: 'X-Men: The Animated Series',
       url: 'https://en.wikipedia.org/wiki/X-Men:_The_Animated_Series',
       numSeasons: 5,
       numEpisodes: 76,
     },
-    '1994–96|Fantastic Four': {
+    '1994–96|Fantastic Four: The Animated Series': {
       year: '1994–96',
-      title: 'Fantastic Four',
+      title: 'Fantastic Four: The Animated Series',
       url: 'https://en.wikipedia.org/wiki/Fantastic_Four_(1994_TV_series)',
       numSeasons: 2,
       numEpisodes: 26,
@@ -610,9 +610,9 @@ export const allTitles = {
       numSeasons: 2,
       numEpisodes: 26,
     },
-    '1994–98|Spider-Man': {
+    '1994–98|Spider-Man: The Animated Series': {
       year: '1994–98',
-      title: 'Spider-Man',
+      title: 'Spider-Man: The Animated Series',
       url: 'https://en.wikipedia.org/wiki/Spider-Man_(1994_TV_series)',
       numSeasons: 5,
       numEpisodes: 65,

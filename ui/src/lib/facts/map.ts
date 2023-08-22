@@ -8,6 +8,13 @@ type Title =
 type Card = keyof typeof allCards;
 type Cast = { full: Card[]; semi: Card[] };
 
+/* This file is manually created by reading wikipedia pages.
+For movies and live action tv series, read their wikipedia page, find the "cast" section, it's enough.
+For animated tv series, I used my code in the facts/retired-scripts folder. See readme there. However, I will not need to run those codes again in the future.
+In the future, when a new title is released, just read the wikipedia page and add an entry here.
+When a new card is released, search
+*/
+
 export const map: Record<Title, Cast> = {
   '1998|Blade': { full: ['Blade'], semi: [] },
   '2000|X-Men': {
@@ -209,6 +216,7 @@ export const map: Record<Title, Cast> = {
       'Heimdall',
       'Ultron',
       'Nick Fury',
+      'Hulkbuster',
       'Quinjet',
       'Helicarrier',
     ],
@@ -537,10 +545,10 @@ export const map: Record<Title, Cast> = {
     semi: [],
   },
   '2023|Secret Invasion': { full: ['Nick Fury', 'Maria Hill'], semi: [] },
-  '1992–97|X-Men': { full: [], semi: [] },
-  '1994–96|Fantastic Four': { full: [], semi: [] },
+  '1992–97|X-Men: The Animated Series': { full: [], semi: [] },
+  '1994–96|Fantastic Four: The Animated Series': { full: [], semi: [] },
   '1994–96|Iron Man': { full: [], semi: [] },
-  '1994–98|Spider-Man': { full: [], semi: [] },
+  '1994–98|Spider-Man: The Animated Series': { full: [], semi: [] },
   '1996–97|The Incredible Hulk': { full: [], semi: [] },
   '1998|Silver Surfer': { full: [], semi: [] },
   '1999–2001|Spider-Man Unlimited': { full: [], semi: [] },
