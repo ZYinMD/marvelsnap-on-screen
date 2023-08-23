@@ -1,0 +1,336 @@
+-------------
+Black Cat
+-------------
+
+10	10	"Persona"	Dan Fausett	Matt Wayne	May 17, 2008	110
+Spider-Man encounters master thief Black Cat while attempting to stop her from stealing an alien symbiote that had attached itself to John Jameson's space shuttle and was taken to ESU for analysis.
+ Meanwhile, the Chameleon, a master of disguises, impersonates Spider-Man during a crime spree, forcing the real Spider-Man to join forces with Black Cat to stop him.
+ When the Green Goblin hacks the system and releases all of the inmates, Spider-Man finds himself hunted by some of his greatest enemies and must work with Black Cat and her imprisoned father, Walter Hardy, to contain them.
+
+-------------
+Death
+-------------
+ In the process, Spider-Man faces a shocking revelation about Uncle Ben's death.
+
+-------------
+Doctor Octopus
+-------------
+
+8	8	"Reaction"	Jennifer Coyle	Randy Jandt	May 3, 2008	108
+Peter and Spider-Man learn that their actions have consequences when Otto Octavius becomes the supervillain Doctor Octopus following a lab accident caused by the Green Goblin.
+
+11	11	"Group Therapy"	Dave Bullock and Jennifer Coyle	Andrew Robinson and Greg Weisman	May 31, 2008	111
+With Electro's help, Doctor Octopus breaks himself, Vulture, Shocker, Sandman, and Rhino out of Ryker's Island prison to quench their mutual revenge on Spider-Man.
+
+21	8	"Accomplices"	Kevin Altieri	Nicole Dubuc	October 7, 2009	208
+A gang war looms as Silver Sable, Hammerhead, and Doctor Octopus vie for a prize that could change the balance of power in the New York underworld.
+
+23	10	"Gangland"	Jennifer Coyle	Andrew Robinson	October 21, 2009	210
+On Valentine's Day, Peter jeopardizes his relationship with his girlfriend Liz when Tombstone, Doctor Octopus, and Silvermane call a Valentine's Day Summit.
+
+-------------
+Electro
+-------------
+
+2	2	"Interactions"	Troy Adomitis	Kevin Hopps	March 8, 2008	102
+Peter reluctantly attempts to tutor Liz Allan, a member of his school's cheerleading squad, while, as Spider-Man, he must stop Max Dillon who, following an accident at the ESU Labs, has become Electro and threatens Dr.
+
+11	11	"Group Therapy"	Dave Bullock and Jennifer Coyle	Andrew Robinson and Greg Weisman	May 31, 2008	111
+With Electro's help, Doctor Octopus breaks himself, Vulture, Shocker, Sandman, and Rhino out of Ryker's Island prison to quench their mutual revenge on Spider-Man.
+
+16	3	"Reinforcement"	Mike Goguen	Andrew Robinson	June 29, 2009	203
+Near Christmas Day, the Master Planner reconstitutes the Sinister Six with Vulture, Electro, Sandman, Rhino and new members Mysterio and Kraven to destroy Spider-Man once and for all.
+
+-------------
+Green Goblin
+-------------
+
+7	7	"Catalysts"	Victor Cook	Andrew Robinson	April 26, 2008	107
+While Peter attends Midtown High's Fall Formal with his neighbor Mary Jane Watson as his date, a mysterious new villain called the Green Goblin aims to replace Tombstone as the Big Man of Crime and destroy Spider-Man.
+
+8	8	"Reaction"	Jennifer Coyle	Randy Jandt	May 3, 2008	108
+Peter and Spider-Man learn that their actions have consequences when Otto Octavius becomes the supervillain Doctor Octopus following a lab accident caused by the Green Goblin.
+
+9	9	"The Uncertainty Principle"	Dave Bullock	Kevin Hopps	May 10, 2008	109
+On Halloween night, while Colonel John Jameson struggles to land his damaged space shuttle, Spider-Man has his final battle with the Green Goblin, who has kidnapped Tombstone's second-in-command, Hammerhead, to force the former to surrender to him.
+ Peter also witnesses Harry's return from Europe, following the revelation of his identity as the Green Goblin, and begins to fear the possibility of Venom returning.
+ But when Mark relapses into his gambling addiction and ends up in debt, the Green Goblin, now the Big Man of Crime, transforms Mark into the Molten Man and blackmails him into fighting Spider-Man, with Liz and Mary Jane becoming caught in the crossfire.
+ When the Green Goblin hacks the system and releases all of the inmates, Spider-Man finds himself hunted by some of his greatest enemies and must work with Black Cat and her imprisoned father, Walter Hardy, to contain them.
+ Meanwhile, Spider-Man attempts to solve the mystery of the Green Goblin's identity with Harry's help and has his final battle with the villain, with wide-ranging consequences for both Peter and Spider-Man.
+
+-------------
+Kraven
+-------------
+
+15	2	"Destructive Testing"	Kevin Altieri	Matt Wayne	June 22, 2009	202
+While Peter is conflicted over his choice to be with either Gwen or Liz, Kraven the Hunter comes to New York in search of his ultimate prey: Spider-Man.
+ After being defeated during their first battle, Kraven enlists Professor Miles Warren's help to even the odds by transforming him into the "ultimate hunter", with unforeseen consequences.
+
+16	3	"Reinforcement"	Mike Goguen	Andrew Robinson	June 29, 2009	203
+Near Christmas Day, the Master Planner reconstitutes the Sinister Six with Vulture, Electro, Sandman, Rhino and new members Mysterio and Kraven to destroy Spider-Man once and for all.
+
+-------------
+Lizard
+-------------
+
+3	3	"Natural Selection"	Dave Bullock	Matt Wayne	March 15, 2008	103
+Peter and Spider-Man must both learn to face their choices when Connors transforms into the vicious Lizard, putting all his loved ones in danger.
+
+-------------
+Mysterio
+-------------
+
+code
+14	1	"Blueprints"	Jennifer Coyle	Kevin Hopps	June 22, 2009	201
+While Peter struggles to find the proper opportunity to talk to Gwen about their first kiss, Spider-Man must face a new supervillain, the self-proclaimed sorcerer Mysterio.
+ Mysterio is ultimately unmasked as Quentin Beck, a special effects expert and former henchman of the Chameleon, though unbeknowst to Spider-Man, Beck was only following the instructions of a criminal mastermind known as the Master Planner.
+
+16	3	"Reinforcement"	Mike Goguen	Andrew Robinson	June 29, 2009	203
+Near Christmas Day, the Master Planner reconstitutes the Sinister Six with Vulture, Electro, Sandman, Rhino and new members Mysterio and Kraven to destroy Spider-Man once and for all.
+
+-------------
+Rescue
+-------------
+ Spider-Man, determined to foil the Planner's scheme, takes the fight to his secret lair, where he discovers the villain's true identity and must rescue Gwen.
+
+-------------
+Rhino
+-------------
+
+6	6	"The Invisible Hand"	Dave Bullock	Matt Wayne	April 12, 2008	106
+As Peter struggles to get a date for Midtown High's Fall Formal, Alex O'Hirn, Marko's former partner-in-crime, becomes the Big Man's latest creation, the Rhino, and seeks revenge on Spider-Man for putting him behind bars.
+
+11	11	"Group Therapy"	Dave Bullock and Jennifer Coyle	Andrew Robinson and Greg Weisman	May 31, 2008	111
+With Electro's help, Doctor Octopus breaks himself, Vulture, Shocker, Sandman, and Rhino out of Ryker's Island prison to quench their mutual revenge on Spider-Man.
+
+16	3	"Reinforcement"	Mike Goguen	Andrew Robinson	June 29, 2009	203
+Near Christmas Day, the Master Planner reconstitutes the Sinister Six with Vulture, Electro, Sandman, Rhino and new members Mysterio and Kraven to destroy Spider-Man once and for all.
+ Spider-Man finds himself in the thick of this fray and must rely on the unexpected help of Rhino to defeat them.
+
+-------------
+Sandman
+-------------
+
+5	5	"Competition"	Troy Adomitis	Kevin Hopps	March 29, 2008	105
+As Peter and his best friend Harry Osborn try out for the school's football team, Spider-Man must face recurring convict Flint Marko, who has become the supervillain Sandman after an experiment run by Norman Osborn and Otto Octavius with the Big Man's funding.
+
+11	11	"Group Therapy"	Dave Bullock and Jennifer Coyle	Andrew Robinson and Greg Weisman	May 31, 2008	111
+With Electro's help, Doctor Octopus breaks himself, Vulture, Shocker, Sandman, and Rhino out of Ryker's Island prison to quench their mutual revenge on Spider-Man.
+
+16	3	"Reinforcement"	Mike Goguen	Andrew Robinson	June 29, 2009	203
+Near Christmas Day, the Master Planner reconstitutes the Sinister Six with Vulture, Electro, Sandman, Rhino and new members Mysterio and Kraven to destroy Spider-Man once and for all.
+
+18	5	"First Steps"	Kevin Altieri	Kevin Hopps	July 13, 2009	205
+While Peter unexpectedly gets invited to his rival Flash Thompson's birthday party, Spider-Man must face the Sandman once again, who is attempting to pull off his big score by robbing an oil tanker.
+
+-------------
+Shocker
+-------------
+
+4	4	"Market Forces"	Dan Fausett	Andrew Robinson	March 22, 2008	104
+While Peter takes on the responsibility of helping Aunt May pay the bills, Montana, one of the Enforcers, becomes the Shocker to fulfill his contract with the Big Man: eliminating Spider-Man.
+
+11	11	"Group Therapy"	Dave Bullock and Jennifer Coyle	Andrew Robinson and Greg Weisman	May 31, 2008	111
+With Electro's help, Doctor Octopus breaks himself, Vulture, Shocker, Sandman, and Rhino out of Ryker's Island prison to quench their mutual revenge on Spider-Man.
+ As Spider-Man, he must once again face off against the Enforcers—Shocker, Fancy Dan, and the Ox—who have been enhanced with new equipment by the Tinkerer at Tombstone's request.
+
+-------------
+Silver Sable
+-------------
+
+21	8	"Accomplices"	Kevin Altieri	Nicole Dubuc	October 7, 2009	208
+A gang war looms as Silver Sable, Hammerhead, and Doctor Octopus vie for a prize that could change the balance of power in the New York underworld.
+
+-------------
+Spider-Man
+-------------
+org/wiki/List_of_The_Spectacular_Spider-Man_episodes
+
+
+Main menu
+
+WikipediaThe Free Encyclopedia
+Search Wikipedia
+Search
+Create account
+Log in
+
+Personal tools
+Contents hide
+(Top)
+Series overview
+Episodes
+Toggle Episodes subsection
+Season 1 (2008)
+Season 2 (2009)
+References
+External links
+List of The Spectacular Spider-Man episodes
+
+Article
+Talk
+Read
+Edit
+View history
+
+Tools
+From Wikipedia, the free encyclopedia
+
+This article has multiple issues.
+ (June 2012)
+The Spectacular Spider-Man is an American animated television series based on the Marvel Comics character, Spider-Man, produced by Culver Entertainment, Adelaide Productions and Sony Pictures Television in association with Marvel, and developed for television by Greg Weisman and Victor Cook.
+ era of The Amazing Spider-Man comics, with a similar balance of action, drama and comedy as well as a high school setting.
+ However, it also tends to utilize material from all eras of the comic's run and other sources such as the Ultimate Spider-Man comics by Brian Michael Bendis & Mark Bagley, as well as the original Spider-Man movie trilogy directed by Sam Raimi.
+
+code
+1	1	"Survival of the Fittest"	Victor Cook	Greg Weisman	March 8, 2008	101
+As Peter Parker's junior year of high school begins, his superhero ego, Spider-Man, must stop the Vulture from exacting revenge on Norman Osborn for stealing his inventions and defeat the Enforcers, who have been hired by the Big Man of Crime to eliminate Spider-Man.
+
+2	2	"Interactions"	Troy Adomitis	Kevin Hopps	March 8, 2008	102
+Peter reluctantly attempts to tutor Liz Allan, a member of his school's cheerleading squad, while, as Spider-Man, he must stop Max Dillon who, following an accident at the ESU Labs, has become Electro and threatens Dr.
+
+3	3	"Natural Selection"	Dave Bullock	Matt Wayne	March 15, 2008	103
+Peter and Spider-Man must both learn to face their choices when Connors transforms into the vicious Lizard, putting all his loved ones in danger.
+
+4	4	"Market Forces"	Dan Fausett	Andrew Robinson	March 22, 2008	104
+While Peter takes on the responsibility of helping Aunt May pay the bills, Montana, one of the Enforcers, becomes the Shocker to fulfill his contract with the Big Man: eliminating Spider-Man.
+
+5	5	"Competition"	Troy Adomitis	Kevin Hopps	March 29, 2008	105
+As Peter and his best friend Harry Osborn try out for the school's football team, Spider-Man must face recurring convict Flint Marko, who has become the supervillain Sandman after an experiment run by Norman Osborn and Otto Octavius with the Big Man's funding.
+
+6	6	"The Invisible Hand"	Dave Bullock	Matt Wayne	April 12, 2008	106
+As Peter struggles to get a date for Midtown High's Fall Formal, Alex O'Hirn, Marko's former partner-in-crime, becomes the Big Man's latest creation, the Rhino, and seeks revenge on Spider-Man for putting him behind bars.
+ Spider-Man finally discovers the Big Man's identity, Tombstone, but is unable to do anything about it due to his public persona of philanthropist L.
+
+7	7	"Catalysts"	Victor Cook	Andrew Robinson	April 26, 2008	107
+While Peter attends Midtown High's Fall Formal with his neighbor Mary Jane Watson as his date, a mysterious new villain called the Green Goblin aims to replace Tombstone as the Big Man of Crime and destroy Spider-Man.
+
+8	8	"Reaction"	Jennifer Coyle	Randy Jandt	May 3, 2008	108
+Peter and Spider-Man learn that their actions have consequences when Otto Octavius becomes the supervillain Doctor Octopus following a lab accident caused by the Green Goblin.
+ Spider-Man must prevent Doc Ock from obtaining an experimental battery pack that can keep his mechanical arms functioning indefinitely.
+
+9	9	"The Uncertainty Principle"	Dave Bullock	Kevin Hopps	May 10, 2008	109
+On Halloween night, while Colonel John Jameson struggles to land his damaged space shuttle, Spider-Man has his final battle with the Green Goblin, who has kidnapped Tombstone's second-in-command, Hammerhead, to force the former to surrender to him.
+
+10	10	"Persona"	Dan Fausett	Matt Wayne	May 17, 2008	110
+Spider-Man encounters master thief Black Cat while attempting to stop her from stealing an alien symbiote that had attached itself to John Jameson's space shuttle and was taken to ESU for analysis.
+ The symbiote ends up bonding with Spider-Man, granting him a new black suit with enhanced abilities.
+ Meanwhile, the Chameleon, a master of disguises, impersonates Spider-Man during a crime spree, forcing the real Spider-Man to join forces with Black Cat to stop him.
+
+11	11	"Group Therapy"	Dave Bullock and Jennifer Coyle	Andrew Robinson and Greg Weisman	May 31, 2008	111
+With Electro's help, Doctor Octopus breaks himself, Vulture, Shocker, Sandman, and Rhino out of Ryker's Island prison to quench their mutual revenge on Spider-Man.
+ Even with his new black suit, Spider-Man finds his old enemies, now called the Sinister Six, are more than he can handle.
+ Nurture"	Victor Cook	Kevin Hopps	June 14, 2008	113
+As Aunt May is released from the hospital, Eddie Brock, now transformed into the vicious Venom after bonding with the symbiote, seeks revenge on Peter by targeting his loved ones, including May and Gwen Stacy, drawing Spider-Man into motion to defeat him.
+
+code
+14	1	"Blueprints"	Jennifer Coyle	Kevin Hopps	June 22, 2009	201
+While Peter struggles to find the proper opportunity to talk to Gwen about their first kiss, Spider-Man must face a new supervillain, the self-proclaimed sorcerer Mysterio.
+ Mysterio is ultimately unmasked as Quentin Beck, a special effects expert and former henchman of the Chameleon, though unbeknowst to Spider-Man, Beck was only following the instructions of a criminal mastermind known as the Master Planner.
+
+15	2	"Destructive Testing"	Kevin Altieri	Matt Wayne	June 22, 2009	202
+While Peter is conflicted over his choice to be with either Gwen or Liz, Kraven the Hunter comes to New York in search of his ultimate prey: Spider-Man.
+
+16	3	"Reinforcement"	Mike Goguen	Andrew Robinson	June 29, 2009	203
+Near Christmas Day, the Master Planner reconstitutes the Sinister Six with Vulture, Electro, Sandman, Rhino and new members Mysterio and Kraven to destroy Spider-Man once and for all.
+ Spider-Man, determined to foil the Planner's scheme, takes the fight to his secret lair, where he discovers the villain's true identity and must rescue Gwen.
+
+18	5	"First Steps"	Kevin Altieri	Kevin Hopps	July 13, 2009	205
+While Peter unexpectedly gets invited to his rival Flash Thompson's birthday party, Spider-Man must face the Sandman once again, who is attempting to pull off his big score by robbing an oil tanker.
+
+19	6	"Growing Pains"	Mike Goguen	Nicole Dubuc	July 20, 2009	206
+Eddie Brock, re-bonded with the Venom symbiote after following Peter to its hidden location, frames Spider-Man for a crime spree to ruin his reputation.
+ Jonah Jameson encourages his son to become a superhero, but because of Venom's actions, John comes to see Spider-Man as a menace and becomes determined to destroy him.
+
+20	7	"Identity Crisis"	Jennifer Coyle	Andrew Robinson	July 27, 2009	207
+Peter's secret identity as Spider-Man has been outed by Venom, leaving Peter and his loved ones vulnerable to his enemies.
+ Spider-Man has his final battle with Venom, where he must find a way to separate Eddie and the symbiote once and for all.
+ Meanwhile, reporter Ned Leeds interviews Peter's acquaintances and Spider-Man's villains to determine whether the two could truly be one and the same.
+ Spider-Man finds himself in the thick of this fray and must rely on the unexpected help of Rhino to defeat them.
+ As Spider-Man, he must once again face off against the Enforcers—Shocker, Fancy Dan, and the Ox—who have been enhanced with new equipment by the Tinkerer at Tombstone's request.
+ But when Hammerhead betrays them all in an attempt to become the new Big Man, the summit erupts into a gang war that only Spider-Man can stop before it escalates further.
+
+24	11	"Subtext"	Kevin Altieri	Nicole Dubuc	November 4, 2009	211
+Determined to be a better boyfriend to Liz, Peter attempts to help her brother Mark as Spider-Man.
+ But when Mark relapses into his gambling addiction and ends up in debt, the Green Goblin, now the Big Man of Crime, transforms Mark into the Molten Man and blackmails him into fighting Spider-Man, with Liz and Mary Jane becoming caught in the crossfire.
+
+25	12	"Opening Night"	Mike Goguen	Greg Weisman	November 18, 2009	212
+Spider-Man volunteers to test the new security system of a prison called the Vault.
+ When the Green Goblin hacks the system and releases all of the inmates, Spider-Man finds himself hunted by some of his greatest enemies and must work with Black Cat and her imprisoned father, Walter Hardy, to contain them.
+ In the process, Spider-Man faces a shocking revelation about Uncle Ben's death.
+ Meanwhile, Spider-Man attempts to solve the mystery of the Green Goblin's identity with Harry's help and has his final battle with the villain, with wide-ranging consequences for both Peter and Spider-Man.
+
+References
+ Interview with Greg Weisman (Part 1) by Sean Elliott: Archived 2010-02-11 at the Wayback Machine March 7, 2008
+ "Interview: Greg Weisman on "The Spectacular Spider-Man" Animated Series – ComicMix".
+
+ Ask Greg (Weisman): June 27, 2008
+External links
+The Spectacular Spider-Man at IMDb
+vte
+The Spectacular Spider-Man
+vte
+Spider-Man in television
+vte
+Animated TV series based on Marvel Comics properties
+Categories: Lists of Spider-Man television series episodesThe Spectacular Spider-Man episodesLists of American children's animated television series episodes
+This page was last edited on 7 April 2023, at 19:20 (UTC).
+
+-------------
+Uncle Ben
+-------------
+ The struggle between Peter and the symbiote evolves into a war within Peter's own mind, where Peter is aided by his late Uncle Ben.
+ In the process, Spider-Man faces a shocking revelation about Uncle Ben's death.
+
+-------------
+Venom
+-------------
+ Nurture"	Victor Cook	Kevin Hopps	June 14, 2008	113
+As Aunt May is released from the hospital, Eddie Brock, now transformed into the vicious Venom after bonding with the symbiote, seeks revenge on Peter by targeting his loved ones, including May and Gwen Stacy, drawing Spider-Man into motion to defeat him.
+ Peter also witnesses Harry's return from Europe, following the revelation of his identity as the Green Goblin, and begins to fear the possibility of Venom returning.
+
+19	6	"Growing Pains"	Mike Goguen	Nicole Dubuc	July 20, 2009	206
+Eddie Brock, re-bonded with the Venom symbiote after following Peter to its hidden location, frames Spider-Man for a crime spree to ruin his reputation.
+ Jonah Jameson encourages his son to become a superhero, but because of Venom's actions, John comes to see Spider-Man as a menace and becomes determined to destroy him.
+
+20	7	"Identity Crisis"	Jennifer Coyle	Andrew Robinson	July 27, 2009	207
+Peter's secret identity as Spider-Man has been outed by Venom, leaving Peter and his loved ones vulnerable to his enemies.
+ Spider-Man has his final battle with Venom, where he must find a way to separate Eddie and the symbiote once and for all.
+
+-------------
+Vulture
+-------------
+
+code
+1	1	"Survival of the Fittest"	Victor Cook	Greg Weisman	March 8, 2008	101
+As Peter Parker's junior year of high school begins, his superhero ego, Spider-Man, must stop the Vulture from exacting revenge on Norman Osborn for stealing his inventions and defeat the Enforcers, who have been hired by the Big Man of Crime to eliminate Spider-Man.
+
+11	11	"Group Therapy"	Dave Bullock and Jennifer Coyle	Andrew Robinson and Greg Weisman	May 31, 2008	111
+With Electro's help, Doctor Octopus breaks himself, Vulture, Shocker, Sandman, and Rhino out of Ryker's Island prison to quench their mutual revenge on Spider-Man.
+
+16	3	"Reinforcement"	Mike Goguen	Andrew Robinson	June 29, 2009	203
+Near Christmas Day, the Master Planner reconstitutes the Sinister Six with Vulture, Electro, Sandman, Rhino and new members Mysterio and Kraven to destroy Spider-Man once and for all.
+
+-------------
+Symbiote
+-------------
+
+10	10	"Persona"	Dan Fausett	Matt Wayne	May 17, 2008	110
+Spider-Man encounters master thief Black Cat while attempting to stop her from stealing an alien symbiote that had attached itself to John Jameson's space shuttle and was taken to ESU for analysis.
+ The symbiote ends up bonding with Spider-Man, granting him a new black suit with enhanced abilities.
+
+12	12	"Intervention"	Dave Bullock	Greg Weisman	June 7, 2008	112
+With Aunt May in the hospital and his friendship with Eddie Brock ruined, Peter finally gains enough self-awareness to realize the symbiote is negatively affecting his personality.
+ The struggle between Peter and the symbiote evolves into a war within Peter's own mind, where Peter is aided by his late Uncle Ben.
+ Nurture"	Victor Cook	Kevin Hopps	June 14, 2008	113
+As Aunt May is released from the hospital, Eddie Brock, now transformed into the vicious Venom after bonding with the symbiote, seeks revenge on Peter by targeting his loved ones, including May and Gwen Stacy, drawing Spider-Man into motion to defeat him.
+
+19	6	"Growing Pains"	Mike Goguen	Nicole Dubuc	July 20, 2009	206
+Eddie Brock, re-bonded with the Venom symbiote after following Peter to its hidden location, frames Spider-Man for a crime spree to ruin his reputation.
+ Meanwhile, microscopic spores from the alien symbiote infect John Jameson, increasing his size, strength, and mass.
+ Spider-Man has his final battle with Venom, where he must find a way to separate Eddie and the symbiote once and for all.
+
+-------------
+J. Jonah Jameson
+-------------
+ J. Jonah Jameson encourages his son to become a superhero, but because of Venom's actions, John comes to see Spider-Man as a menace and becomes determined to destroy him.
