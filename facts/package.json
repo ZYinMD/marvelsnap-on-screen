@@ -6,8 +6,6 @@
     "step3": "deno run --allow-read --allow-write step3/prepareAllTitles.js && pnpm --dir ../ui format",
     "one-time-script": "deno one-time-scripts/animated-tv-series/find-all-cards-in-all-animated-series"
   },
-  "dependencies": {
-    "xlsx": "^0.18.5"
-  },
+  "dependencies": {},
   "devDependencies": {}
 }
