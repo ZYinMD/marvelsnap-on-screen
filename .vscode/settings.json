@@ -6,6 +6,7 @@
   "search.exclude": {
     "*/.svelte-kit": true
   },
+  "deno.enablePaths": ["facts"],
   "cSpell.words": [
     "Arnim",
     "Attuma",
