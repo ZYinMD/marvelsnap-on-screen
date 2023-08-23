@@ -2,8 +2,8 @@
   "type": "module",
   "scripts": {
     "step1": "see readme",
-    "step2": "deno run --allow-write step2/prepareAllCards.ts && pnpm --dir ../ui format",
-    "step3": "deno step3/prepareAllTitles.js && pnpm --dir ../ui format",
+    "step2": "deno run --allow-write step2/prepareAllCards.js && pnpm --dir ../ui format",
+    "step3": "deno run --allow-read --allow-write step3/prepareAllTitles.js && pnpm --dir ../ui format",
     "one-time-script": "deno one-time-scripts/animated-tv-series/find-all-cards-in-all-animated-series"
   },
   "dependencies": {

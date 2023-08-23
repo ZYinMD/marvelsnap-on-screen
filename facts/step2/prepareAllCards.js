@@ -1,6 +1,6 @@
 import input from '../step1/allCardsFromUntappedGg.json' assert { type: 'json' };
 
-const result: Record<string, unknown> = {};
+const result = {};
 for (const card of input) {
   if (card.defId.includes('Evolved')) continue; // some cards (evolved High Evolutionary cards) have some weird <color> tags, we don't need these cards anyway.
   if (card.defId.includes('Tutorial')) continue; // some weird tutorial cards with a duplicated name with the real card, we don't need them
