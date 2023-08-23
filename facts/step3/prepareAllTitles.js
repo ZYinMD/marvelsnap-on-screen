@@ -1,7 +1,6 @@
 import { read, utils } from 'xlsx/xlsx.mjs';
-import fs from 'node:fs/promises';
 const excelFilePath = new URL('./all-titles.xlsx', import.meta.url);
-const binary = await fs.readFile(excelFilePath);
+const binary = await Deno.readFile(excelFilePath);
 const workbook = read(binary);
 const result = {};
 for (const sheetName of workbook.SheetNames) {
@@ -15,4 +14,4 @@ for (const sheetName of workbook.SheetNames) {
 }
 const outputFilePath = new URL('../../ui/src/lib/facts/allTitles.ts', import.meta.url);
 const output = `export const allTitles = ${JSON.stringify(result, null, 2)} as const;`;
-fs.writeFile(outputFilePath, output);
+Deno.writeTextFile(outputFilePath, output);
