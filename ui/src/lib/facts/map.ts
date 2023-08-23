@@ -9,10 +9,8 @@ type Card = keyof typeof allCards;
 type Cast = { full: Card[]; semi: Card[] };
 
 /* This file is manually created by reading wikipedia pages.
-For movies and live action tv series, read their wikipedia page, find the "cast" section, it's enough.
-For animated tv series, I used my code in the facts/retired-scripts folder. See readme there. However, I will not need to run those codes again in the future.
-In the future, when a new title is released, just read the wikipedia page and add an entry here.
-When a new card is released, search
+
+Ideally these arrays should be sets, so it's easier to reverse search when user clicks a card, but auto-completion works better with arrays, so I decide to do the conversion on app start.
 */
 
 export const map: Record<Title, Cast> = {
@@ -589,14 +587,38 @@ export const map: Record<Title, Cast> = {
       'Leech',
       'Ka-Zar',
       'Captain America',
-      'Red Skull',
-      'Spider-Man',
-      'Hobgoblin',
-      'Kingpin',
     ],
   },
-  '1994–96|Fantastic Four: The Animated Series': { full: [], semi: [] },
-  '1994–96|Iron Man': { full: [], semi: [] },
+  '1994–96|Fantastic Four: The Animated Series': {
+    full: [
+      'Mister Fantastic',
+      'Invisible Woman',
+      'Human Torch',
+      'The Thing',
+      'Doctor Doom',
+      'Silver Surfer',
+      'Galactus',
+      'Nova',
+      'Super-Skrull',
+      'Crystal',
+      'Black Bolt',
+      'Lockjaw',
+    ],
+    semi: [
+      'Ghost Rider',
+      'Thor',
+      'Black Panther',
+      'Daredevil',
+      'Klaw',
+      'Maximus',
+      'Medusa',
+      'Namor',
+    ],
+  },
+  '1994–96|Iron Man': {
+    full: ['Iron Man', 'Hawkeye', 'Nick Fury', 'Scarlet Witch', 'Spider-Woman', 'Ghost'],
+    semi: [],
+  },
   '1994–98|Spider-Man: The Animated Series': { full: [], semi: [] },
   '1996–97|The Incredible Hulk': { full: [], semi: [] },
   '1998|Silver Surfer': { full: [], semi: [] },
