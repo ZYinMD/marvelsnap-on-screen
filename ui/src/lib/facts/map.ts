@@ -672,7 +672,10 @@ export const map: Record<Title, Cast> = {
       'The Thing',
     ],
   },
-  '1998|Silver Surfer': { full: [], semi: [] },
+  '1998|Silver Surfer': {
+    full: ['Silver Surfer', 'Galactus', 'Nova', 'Thanos'],
+    semi: ['Drax', 'Adam Warlock', 'Gamora', 'Nebula'],
+  },
   '1999–2001|Spider-Man Unlimited': { full: [], semi: [] },
   '1999–2000|The Avengers: United They Stand': { full: [], semi: [] },
   '2000–03|X-Men: Evolution': { full: [], semi: [] },
