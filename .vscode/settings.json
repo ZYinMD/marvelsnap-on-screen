@@ -1,6 +1,7 @@
 {
   "files.exclude": {
-    "**/node_modules": true
+    "**/node_modules": true,
+    "**/~$*.xlsx": true
   },
   // note: search exclude inherit files exlude, unless you you override them.
   "search.exclude": {
