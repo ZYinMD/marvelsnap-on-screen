@@ -2,7 +2,7 @@
 
 1. In browser, open devtools, visit https://snap.untapped.gg/ (thank you untapped.gg, I'm a paid subscriber!), find "cards.json" in the network tab, copy the json response, paste into the json in `facts/step1`.
 
-1. Check git diff, if there's any diff, run `pnpm step2` from `facts`. This will output all cards to allCards.ts based on the json from step1.
+1. Check git diff, if there's any diff, run `deno task step2` from `facts`. This will output all cards to allCards.ts based on the json from step1.
 
 1. Google the new card(s) to understand who they are. Add them in `map.ts`. If they're in MCU, search in the [fandom site](https://marvelcinematicuniverse.fandom.com), also check the [A-L](https://en.wikipedia.org/wiki/Characters_of_the_Marvel_Cinematic_Universe:_A%E2%80%93L) and [M-Z](https://en.wikipedia.org/wiki/Characters_of_the_Marvel_Cinematic_Universe:_M%E2%80%93Z) pages.
 
@@ -20,7 +20,7 @@ TV series are based on [this](https://en.wikipedia.org/wiki/List_of_television_s
 
 New releases will appear at the bottom of said sections. When it happens:
 
-1. edit `facts/step3/all-titles.xlsx`, save, then run `pnpm run step3` from `facts`, this will output `allTitles.ts` based on the excel content.
+1. edit `facts/step3/all-titles.xlsx`, save, then run `deno task step3` from `facts`, this will output `allTitles.ts` based on the excel content.
 
    **Order of rows in the excel**:
 
