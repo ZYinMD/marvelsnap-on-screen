@@ -6,16 +6,26 @@ type Title =
   | keyof (typeof allTitles)['live-action-tv-series']
   | keyof (typeof allTitles)['animated-tv-series'];
 type Card = keyof typeof allCards;
-type Cast = { major_: Card[]; minor_: Card[] };
+type Cast = {
+  major_: Card[];
+  minor_: Card[];
+  major: Set<Card>;
+  minor: Set<Card>;
+};
 
 /* This file is manually created by reading wikipedia pages.
-
-Ideally these arrays should be sets, so it's easier to reverse search when user clicks a card, but auto-completion works better with arrays, so I decide to do the conversion on app start.
+What I need are sets, because it's easier to reverse search when user clicks a card, but auto-completion works better with arrays, so I use arrays when manually editing the file, then populate the sets from the arrays and clear the arrays.
 */
-
 export const map: Record<Title, Cast> = {
-  '1998|Blade': { major_: ['Blade'], minor_: [] },
+  '1998|Blade': {
+    major: new Set(),
+    minor: new Set(),
+    major_: ['Blade'],
+    minor_: [],
+  },
   '2000|X-Men': {
+    major: new Set(),
+    minor: new Set(),
     major_: [
       'Professor X',
       'Wolverine',
@@ -29,10 +39,27 @@ export const map: Record<Title, Cast> = {
     ],
     minor_: ['Iceman', 'Kitty Pryde', 'Jubilee'],
   },
-  '2002|Blade II': { major_: ['Blade'], minor_: [] },
-  '2002|Spider-Man': { major_: ['Spider-Man', 'Green Goblin'], minor_: [] },
-  '2003|Daredevil': { major_: ['Daredevil', 'Elektra', 'Kingpin'], minor_: [] },
+  '2002|Blade II': {
+    major: new Set(),
+    minor: new Set(),
+    major_: ['Blade'],
+    minor_: [],
+  },
+  '2002|Spider-Man': {
+    major: new Set(),
+    minor: new Set(),
+    major_: ['Spider-Man', 'Green Goblin'],
+    minor_: [],
+  },
+  '2003|Daredevil': {
+    major: new Set(),
+    minor: new Set(),
+    major_: ['Daredevil', 'Elektra', 'Kingpin'],
+    minor_: [],
+  },
   '2003|X2': {
+    major: new Set(),
+    minor: new Set(),
     major_: [
       'Professor X',
       'Wolverine',
@@ -48,16 +75,45 @@ export const map: Record<Title, Cast> = {
     ],
     minor_: ['Colossus', 'Kitty Pryde', 'Jubilee'],
   },
-  '2003|Hulk': { major_: ['Hulk'], minor_: [] },
-  '2004|The Punisher': { major_: ['Punisher'], minor_: [] },
-  '2004|Spider-Man 2': { major_: ['Spider-Man', 'Doctor Octopus'], minor_: [] },
-  '2004|Blade: Trinity': { major_: ['Blade', 'Dracula'], minor_: [] },
-  '2005|Elektra': { major_: ['Elektra', 'Typhoid Mary'], minor_: ['Daredevil'] },
+  '2003|Hulk': {
+    major: new Set(),
+    minor: new Set(),
+    major_: ['Hulk'],
+    minor_: [],
+  },
+  '2004|The Punisher': {
+    major: new Set(),
+    minor: new Set(),
+    major_: ['Punisher'],
+    minor_: [],
+  },
+  '2004|Spider-Man 2': {
+    major: new Set(),
+    minor: new Set(),
+    major_: ['Spider-Man', 'Doctor Octopus'],
+    minor_: [],
+  },
+  '2004|Blade: Trinity': {
+    major: new Set(),
+    minor: new Set(),
+    major_: ['Blade', 'Dracula'],
+    minor_: [],
+  },
+  '2005|Elektra': {
+    major: new Set(),
+    minor: new Set(),
+    major_: ['Elektra', 'Typhoid Mary'],
+    minor_: ['Daredevil'],
+  },
   '2005|Fantastic Four': {
+    major: new Set(),
+    minor: new Set(),
     major_: ['Mister Fantastic', 'Invisible Woman', 'Human Torch', 'The Thing', 'Doctor Doom'],
     minor_: [],
   },
   '2006|X-Men: The Last Stand': {
+    major: new Set(),
+    minor: new Set(),
     major_: [
       'Wolverine',
       'Storm',
@@ -79,9 +135,21 @@ export const map: Record<Title, Cast> = {
     ],
     minor_: ['Jubilee'],
   },
-  '2007|Ghost Rider': { major_: ['Ghost Rider', 'Legion'], minor_: [] },
-  '2007|Spider-Man 3': { major_: ['Spider-Man', 'Sandman', 'Venom'], minor_: ['Green Goblin'] },
+  '2007|Ghost Rider': {
+    major: new Set(),
+    minor: new Set(),
+    major_: ['Ghost Rider', 'Legion'],
+    minor_: [],
+  },
+  '2007|Spider-Man 3': {
+    major: new Set(),
+    minor: new Set(),
+    major_: ['Spider-Man', 'Sandman', 'Venom'],
+    minor_: ['Green Goblin'],
+  },
   '2007|Fantastic Four: Rise of the Silver Surfer': {
+    major: new Set(),
+    minor: new Set(),
     major_: [
       'Mister Fantastic',
       'Invisible Woman',
@@ -93,18 +161,39 @@ export const map: Record<Title, Cast> = {
     ],
     minor_: [],
   },
-  '2008|Iron Man': { major_: ['Iron Man', 'Agent Coulson'], minor_: ['Rescue', 'Nick Fury'] },
-  '2008|The Incredible Hulk': { major_: ['Hulk', 'Abomination'], minor_: ['Iron Man'] },
-  '2008|Punisher: War Zone': { major_: ['Punisher'], minor_: [] },
+  '2008|Iron Man': {
+    major: new Set(),
+    minor: new Set(),
+    major_: ['Iron Man', 'Agent Coulson'],
+    minor_: ['Rescue', 'Nick Fury'],
+  },
+  '2008|The Incredible Hulk': {
+    major: new Set(),
+    minor: new Set(),
+    major_: ['Hulk', 'Abomination'],
+    minor_: ['Iron Man'],
+  },
+  '2008|Punisher: War Zone': {
+    major: new Set(),
+    minor: new Set(),
+    major_: ['Punisher'],
+    minor_: [],
+  },
   '2008|X-Men Origins: Wolverine': {
+    major: new Set(),
+    minor: new Set(),
     major_: ['Wolverine', 'Sabretooth', 'Gambit'],
     minor_: ['Deadpool', 'Professor X'],
   },
   '2010|Iron Man 2': {
+    major: new Set(),
+    minor: new Set(),
     major_: ['Iron Man', 'Black Widow', 'Nick Fury', 'Agent Coulson'],
     minor_: ['Rescue'],
   },
   '2011|Thor': {
+    major: new Set(),
+    minor: new Set(),
     major_: [
       'Thor',
       'Loki',
@@ -118,15 +207,26 @@ export const map: Record<Title, Cast> = {
     minor_: ['Jane Foster Mighty Thor', 'Nick Fury'],
   },
   '2011|X-Men: First Class': {
+    major: new Set(),
+    minor: new Set(),
     major_: ['Professor X', 'Magneto', 'Mystique', 'Beast'],
     minor_: ['Wolverine'],
   },
   '2011|Captain America: The First Avenger': {
+    major: new Set(),
+    minor: new Set(),
     major_: ['Captain America', 'Red Skull', 'Bucky Barnes', 'Arnim Zola'],
     minor_: ['Nick Fury'],
   },
-  '2011|Ghost Rider: Spirit of Vengeance': { major_: ['Ghost Rider'], minor_: [] },
+  '2011|Ghost Rider: Spirit of Vengeance': {
+    major: new Set(),
+    minor: new Set(),
+    major_: ['Ghost Rider'],
+    minor_: [],
+  },
   '2012|The Avengers': {
+    major: new Set(),
+    minor: new Set(),
     major_: [
       'Iron Man',
       'Captain America',
@@ -143,17 +243,33 @@ export const map: Record<Title, Cast> = {
     ],
     minor_: ['Rescue', 'Thanos'],
   },
-  '2012|The Amazing Spider-Man': { major_: ['Spider-Man', 'Lizard'], minor_: [] },
-  '2013|Iron Man 3': { major_: ['Iron Man'], minor_: ['Hulk'] },
+  '2012|The Amazing Spider-Man': {
+    major: new Set(),
+    minor: new Set(),
+    major_: ['Spider-Man', 'Lizard'],
+    minor_: [],
+  },
+  '2013|Iron Man 3': {
+    major: new Set(),
+    minor: new Set(),
+    major_: ['Iron Man'],
+    minor_: ['Hulk'],
+  },
   '2013|The Wolverine': {
+    major: new Set(),
+    minor: new Set(),
     major_: ['Wolverine', 'Jean Grey', 'Viper'],
     minor_: ['Professor X', 'Magneto'],
   },
   '2013|Thor: The Dark World': {
+    major: new Set(),
+    minor: new Set(),
     major_: ['Thor', 'Loki', 'Heimdall', 'Lady Sif', 'Odin'],
     minor_: ['Jane Foster Mighty Thor'],
   },
   '2014|Captain America: The Winter Soldier': {
+    major: new Set(),
+    minor: new Set(),
     major_: [
       'Captain America',
       'Black Widow',
@@ -170,10 +286,14 @@ export const map: Record<Title, Cast> = {
     minor_: ['Quicksilver', 'Scarlet Witch'],
   },
   '2014|The Amazing Spider-Man 2': {
+    major: new Set(),
+    minor: new Set(),
     major_: ['Spider-Man', 'Electro', 'Green Goblin', 'Rhino'],
     minor_: [],
   },
   '2014|X-Men: Days of Future Past': {
+    major: new Set(),
+    minor: new Set(),
     major_: [
       'Wolverine',
       'Professor X',
@@ -193,6 +313,8 @@ export const map: Record<Title, Cast> = {
     minor_: ['Jean Grey'],
   },
   '2014|Guardians of the Galaxy': {
+    major: new Set(),
+    minor: new Set(),
     major_: [
       'Star-Lord',
       'Gamora',
@@ -208,6 +330,8 @@ export const map: Record<Title, Cast> = {
     minor_: ['Thanos', 'Howard the Duck'],
   },
   '2015|Avengers: Age of Ultron': {
+    major: new Set(),
+    minor: new Set(),
     major_: [
       'Iron Man',
       'Thor',
@@ -230,15 +354,26 @@ export const map: Record<Title, Cast> = {
     minor_: ['Thanos'],
   },
   '2015|Ant-Man': {
+    major: new Set(),
+    minor: new Set(),
     major_: ['Ant Man', 'Yellowjacket', 'Falcon'],
     minor_: ['Wasp', 'Captain America', 'Bucky Barnes', 'Stature'],
   },
   '2015|Fantastic Four': {
+    major: new Set(),
+    minor: new Set(),
     major_: ['Mister Fantastic', 'Human Torch', 'Invisible Woman', 'The Thing', 'Doctor Doom'],
     minor_: [],
   },
-  '2016|Deadpool': { major_: ['Deadpool', 'Negasonic Teenage Warhead', 'Colossus'], minor_: [] },
+  '2016|Deadpool': {
+    major: new Set(),
+    minor: new Set(),
+    major_: ['Deadpool', 'Negasonic Teenage Warhead', 'Colossus'],
+    minor_: [],
+  },
   '2016|Captain America: Civil War': {
+    major: new Set(),
+    minor: new Set(),
     major_: [
       'Captain America',
       'Iron Man',
@@ -258,6 +393,8 @@ export const map: Record<Title, Cast> = {
     minor_: [],
   },
   '2016|X-Men: Apocalypse': {
+    major: new Set(),
+    minor: new Set(),
     major_: [
       'Professor X',
       'Magneto',
@@ -275,9 +412,21 @@ export const map: Record<Title, Cast> = {
     ],
     minor_: ['Wolverine'],
   },
-  '2016|Doctor Strange': { major_: ['Doctor Strange', 'Baron Mordo', 'Wong'], minor_: ['Thor'] },
-  '2017|Logan': { major_: ['Wolverine', 'Professor X', 'X-23'], minor_: [] },
+  '2016|Doctor Strange': {
+    major: new Set(),
+    minor: new Set(),
+    major_: ['Doctor Strange', 'Baron Mordo', 'Wong'],
+    minor_: ['Thor'],
+  },
+  '2017|Logan': {
+    major: new Set(),
+    minor: new Set(),
+    major_: ['Wolverine', 'Professor X', 'X-23'],
+    minor_: [],
+  },
   '2017|Guardians of the Galaxy Vol. 2': {
+    major: new Set(),
+    minor: new Set(),
     major_: [
       'Star-Lord',
       'Gamora',
@@ -292,18 +441,26 @@ export const map: Record<Title, Cast> = {
     minor_: ['Howard the Duck'],
   },
   '2017|Spider-Man: Homecoming': {
+    major: new Set(),
+    minor: new Set(),
     major_: ['Spider-Man', 'Vulture', 'Iron Man', 'Shocker'],
     minor_: ['Rescue', 'Captain America', 'Quinjet'],
   },
   '2017|Thor: Ragnarok': {
+    major: new Set(),
+    minor: new Set(),
     major_: ['Thor', 'Loki', 'Hela', 'Heimdall', 'Valkyrie', 'Hulk', 'Odin', 'Korg', 'Quinjet'],
     minor_: ['Doctor Strange', 'Black Widow'],
   },
   '2018|Black Panther': {
+    major: new Set(),
+    minor: new Set(),
     major_: ['Black Panther', 'Killmonger', 'Nakia', 'Okoye', 'Shuri', "M'Baku"],
     minor_: ['Bucky Barnes'],
   },
   '2018|Avengers: Infinity War': {
+    major: new Set(),
+    minor: new Set(),
     major_: [
       'Iron Man',
       'Thor',
@@ -339,6 +496,8 @@ export const map: Record<Title, Cast> = {
     minor_: ['Rescue', 'Nick Fury', 'Maria Hill'],
   },
   '2018|Deadpool 2': {
+    major: new Set(),
+    minor: new Set(),
     major_: ['Deadpool', 'Cable', 'Domino', 'Negasonic Teenage Warhead', 'Colossus', 'Juggernaut'],
     minor_: [
       'Professor X',
@@ -350,9 +509,21 @@ export const map: Record<Title, Cast> = {
       'Wolverine',
     ],
   },
-  '2018|Ant-Man and the Wasp': { major_: ['Ant Man', 'Wasp', 'Ghost'], minor_: ['Stature'] },
-  '2018|Venom': { major_: ['Venom'], minor_: ['Spider-Man', 'Miles Morales'] },
+  '2018|Ant-Man and the Wasp': {
+    major: new Set(),
+    minor: new Set(),
+    major_: ['Ant Man', 'Wasp', 'Ghost'],
+    minor_: ['Stature'],
+  },
+  '2018|Venom': {
+    major: new Set(),
+    minor: new Set(),
+    major_: ['Venom'],
+    minor_: ['Spider-Man', 'Miles Morales'],
+  },
   '2018|Spider-Man: Into the Spider-Verse': {
+    major: new Set(),
+    minor: new Set(),
     major_: [
       'Miles Morales',
       'Spider-Man',
@@ -366,10 +537,14 @@ export const map: Record<Title, Cast> = {
     minor_: ['Spider-Man 2099'],
   },
   '2019|Captain Marvel': {
+    major: new Set(),
+    minor: new Set(),
     major_: ['Captain Marvel', 'Nick Fury', 'Ronan the Accuser', 'Agent Coulson', 'Goose'],
     minor_: ['Spectrum', 'Captain America', 'Black Widow', 'Hulk'],
   },
   '2019|Avengers: Endgame': {
+    major: new Set(),
+    minor: new Set(),
     major_: [
       'Iron Man',
       'Captain America',
@@ -411,6 +586,8 @@ export const map: Record<Title, Cast> = {
     minor_: ['Jane Foster Mighty Thor', 'Stature'],
   },
   '2019|Dark Phoenix': {
+    major: new Set(),
+    minor: new Set(),
     major_: [
       'Professor X',
       'Magneto',
@@ -426,18 +603,44 @@ export const map: Record<Title, Cast> = {
     minor_: ['Dazzler'],
   },
   '2019|Spider-Man: Far From Home': {
+    major: new Set(),
+    minor: new Set(),
     major_: ['Spider-Man', 'Nick Fury', 'Maria Hill', 'Mysterio'],
     minor_: [],
   },
-  '2020|The New Mutants': { major_: ['Mirage', 'Magik', 'Wolfsbane', 'Sunspot'], minor_: [] },
-  '2021|Black Widow': { major_: ['Black Widow', 'Quinjet', 'Taskmaster'], minor_: [] },
+  '2020|The New Mutants': {
+    major: new Set(),
+    minor: new Set(),
+    major_: ['Mirage', 'Magik', 'Wolfsbane', 'Sunspot'],
+    minor_: [],
+  },
+  '2021|Black Widow': {
+    major: new Set(),
+    minor: new Set(),
+    major_: ['Black Widow', 'Quinjet', 'Taskmaster'],
+    minor_: [],
+  },
   '2021|Shang-Chi and the Legend of the Ten Rings': {
+    major: new Set(),
+    minor: new Set(),
     major_: ['Shang-Chi', 'Wong', 'Abomination'],
     minor_: ['Hulk', 'Captain Marvel'],
   },
-  '2021|Venom: Let There Be Carnage': { major_: ['Venom', 'Carnage'], minor_: ['Spider-Man'] },
-  '2021|Eternals': { major_: [], minor_: [] },
+  '2021|Venom: Let There Be Carnage': {
+    major: new Set(),
+    minor: new Set(),
+    major_: ['Venom', 'Carnage'],
+    minor_: ['Spider-Man'],
+  },
+  '2021|Eternals': {
+    major: new Set(),
+    minor: new Set(),
+    major_: [],
+    minor_: [],
+  },
   '2021|Spider-Man: No Way Home': {
+    major: new Set(),
+    minor: new Set(),
     major_: [
       'Spider-Man',
       'Doctor Strange',
@@ -450,8 +653,15 @@ export const map: Record<Title, Cast> = {
     ],
     minor_: ['Daredevil', 'Venom'],
   },
-  '2022|Morbius': { major_: ['Morbius'], minor_: ['Vulture'] },
+  '2022|Morbius': {
+    major: new Set(),
+    minor: new Set(),
+    major_: ['Morbius'],
+    minor_: ['Vulture'],
+  },
   '2022|Doctor Strange in the Multiverse of Madness': {
+    major: new Set(),
+    minor: new Set(),
     major_: [
       'Doctor Strange',
       'Scarlet Witch',
@@ -465,6 +675,8 @@ export const map: Record<Title, Cast> = {
     minor_: [],
   },
   '2022|Thor: Love and Thunder': {
+    major: new Set(),
+    minor: new Set(),
     major_: [
       'Thor',
       'Jane Foster Mighty Thor',
@@ -481,6 +693,8 @@ export const map: Record<Title, Cast> = {
     minor_: ['Heimdall'],
   },
   '2022|Black Panther: Wakanda Forever': {
+    major: new Set(),
+    minor: new Set(),
     major_: [
       'Black Panther',
       'Shuri',
@@ -495,10 +709,14 @@ export const map: Record<Title, Cast> = {
     minor_: [],
   },
   '2023|Ant-Man and the Wasp: Quantumania': {
+    major: new Set(),
+    minor: new Set(),
     major_: ['Ant Man', 'Wasp', 'Kang', 'Stature', 'M.O.D.O.K.'],
     minor_: ['Loki', 'Mobius M. Mobius'],
   },
   '2023|Guardians of the Galaxy Vol. 3': {
+    major: new Set(),
+    minor: new Set(),
     major_: [
       'Star-Lord',
       'Gamora',
@@ -515,27 +733,62 @@ export const map: Record<Title, Cast> = {
     minor_: ['Howard the Duck'],
   },
   '2023|Spider-Man: Across the Spider-Verse': {
+    major: new Set(),
+    minor: new Set(),
     major_: ['Miles Morales', 'Ghost-Spider', 'Spider-Woman', 'Spider-Man 2099'],
     minor_: [],
   },
-  '2006|Blade: The Series': { major_: ['Blade'], minor_: [] },
+  '2006|Blade: The Series': {
+    major: new Set(),
+    minor: new Set(),
+    major_: ['Blade'],
+    minor_: [],
+  },
   '2013–2020|Agents of S.H.I.E.L.D.': {
+    major: new Set(),
+    minor: new Set(),
     major_: ['Agent Coulson', 'Quake', 'Quinjet'],
     minor_: ['Maria Hill'],
   },
-  '2015–2016|Agent Carter': { major_: [], minor_: [] },
-  '2015–2018|Daredevil': { major_: ['Daredevil', 'Kingpin', 'Punisher', 'Elektra'], minor_: [] },
-  '2015–2019|Jessica Jones': { major_: ['Jessica Jones', 'Luke Cage'], minor_: [] },
+  '2015–2016|Agent Carter': {
+    major: new Set(),
+    minor: new Set(),
+    major_: [],
+    minor_: [],
+  },
+  '2015–2018|Daredevil': {
+    major: new Set(),
+    minor: new Set(),
+    major_: ['Daredevil', 'Kingpin', 'Punisher', 'Elektra'],
+    minor_: [],
+  },
+  '2015–2019|Jessica Jones': {
+    major: new Set(),
+    minor: new Set(),
+    major_: ['Jessica Jones', 'Luke Cage'],
+    minor_: [],
+  },
   '2016–2018|Luke Cage': {
+    major: new Set(),
+    minor: new Set(),
     major_: ['Luke Cage', 'Misty Knight', 'Colleen Wing', 'Iron Fist'],
     minor_: [],
   },
-  '2017–2019|Legion': { major_: ['Legion', 'Shadow King'], minor_: [] },
+  '2017–2019|Legion': {
+    major: new Set(),
+    minor: new Set(),
+    major_: ['Legion', 'Shadow King'],
+    minor_: [],
+  },
   '2017–2018|Iron Fist': {
+    major: new Set(),
+    minor: new Set(),
     major_: ['Iron Fist', 'Colleen Wing', 'Misty Knight', 'Typhoid Mary'],
     minor_: [],
   },
   '2017|The Defenders': {
+    major: new Set(),
+    minor: new Set(),
     major_: [
       'Daredevil',
       'Jessica Jones',
@@ -548,32 +801,92 @@ export const map: Record<Title, Cast> = {
     minor_: [],
   },
   '2017|Inhumans': {
+    major: new Set(),
+    minor: new Set(),
     major_: ['Black Bolt', 'Medusa', 'Crystal', 'Maximus', 'Lockjaw'],
     minor_: [],
   },
-  '2017–2019|The Gifted': { major_: ['Polaris'], minor_: [] },
-  '2017–2019|The Punisher': { major_: ['Punisher'], minor_: [] },
-  '2017–2019|Runaways': { major_: [], minor_: ['Dagger', 'Cloak'] },
-  '2018–2019|Cloak & Dagger': { major_: ['Dagger', 'Cloak'], minor_: [] },
-  '2020|Helstrom': { major_: [], minor_: [] },
+  '2017–2019|The Gifted': {
+    major: new Set(),
+    minor: new Set(),
+    major_: ['Polaris'],
+    minor_: [],
+  },
+  '2017–2019|The Punisher': {
+    major: new Set(),
+    minor: new Set(),
+    major_: ['Punisher'],
+    minor_: [],
+  },
+  '2017–2019|Runaways': {
+    major: new Set(),
+    minor: new Set(),
+    major_: [],
+    minor_: ['Dagger', 'Cloak'],
+  },
+  '2018–2019|Cloak & Dagger': {
+    major: new Set(),
+    minor: new Set(),
+    major_: ['Dagger', 'Cloak'],
+    minor_: [],
+  },
+  '2020|Helstrom': {
+    major: new Set(),
+    minor: new Set(),
+    major_: [],
+    minor_: [],
+  },
   '2021|WandaVision': {
+    major: new Set(),
+    minor: new Set(),
     major_: ['Scarlet Witch', 'Vision', 'Agatha Harkness', 'Spectrum'],
     minor_: [],
   },
   '2021|The Falcon and the Winter Soldier': {
+    major: new Set(),
+    minor: new Set(),
     major_: ['Winter Soldier', 'Falcon', 'Agent 13'],
     minor_: [],
   },
-  '2021|Hawkeye': { major_: ['Hawkeye', 'Kingpin'], minor_: [] },
-  '2021–2024|Loki': { major_: ['Loki', 'Mobius M. Mobius', 'Quinjet'], minor_: ['Kang'] },
-  '2022|Moon Knight': { major_: ['Moon Knight'], minor_: [] },
-  '2022|Ms. Marvel': { major_: [], minor_: ['Captain Marvel'] },
+  '2021|Hawkeye': {
+    major: new Set(),
+    minor: new Set(),
+    major_: ['Hawkeye', 'Kingpin'],
+    minor_: [],
+  },
+  '2021–2024|Loki': {
+    major: new Set(),
+    minor: new Set(),
+    major_: ['Loki', 'Mobius M. Mobius', 'Quinjet'],
+    minor_: ['Kang'],
+  },
+  '2022|Moon Knight': {
+    major: new Set(),
+    minor: new Set(),
+    major_: ['Moon Knight'],
+    minor_: [],
+  },
+  '2022|Ms. Marvel': {
+    major: new Set(),
+    minor: new Set(),
+    major_: [],
+    minor_: ['Captain Marvel'],
+  },
   '2022|She-Hulk: Attorney at Law': {
+    major: new Set(),
+    minor: new Set(),
     major_: ['She-Hulk', 'Hulk', 'Titania', 'Abomination', 'Wong', 'Daredevil'],
     minor_: [],
   },
-  '2023|Secret Invasion': { major_: ['Nick Fury', 'Maria Hill'], minor_: [] },
+  '2023|Secret Invasion': {
+    major: new Set(),
+    minor: new Set(),
+    major_: ['Nick Fury', 'Maria Hill'],
+    minor_: [],
+  },
   '1992–1997|X-Men: The Animated Series': {
+    major: new Set(),
+    minor: new Set(),
     major_: [
       'Professor X',
       'Wolverine',
@@ -621,6 +934,8 @@ export const map: Record<Title, Cast> = {
     ],
   },
   '1994–1996|Fantastic Four: The Animated Series': {
+    major: new Set(),
+    minor: new Set(),
     major_: [
       'Mister Fantastic',
       'Invisible Woman',
@@ -647,10 +962,14 @@ export const map: Record<Title, Cast> = {
     ],
   },
   '1994–1996|Iron Man': {
+    major: new Set(),
+    minor: new Set(),
     major_: ['Iron Man', 'Hawkeye', 'Nick Fury', 'Scarlet Witch', 'Spider-Woman', 'Ghost'],
     minor_: [],
   },
   '1994–1998|Spider-Man: The Animated Series': {
+    major: new Set(),
+    minor: new Set(),
     major_: [
       'Spider-Man',
       'Doctor Octopus',
@@ -692,6 +1011,8 @@ export const map: Record<Title, Cast> = {
     ],
   },
   '1996–1997|The Incredible Hulk': {
+    major: new Set(),
+    minor: new Set(),
     major_: ['Hulk', 'She-Hulk', 'Abomination', 'Doctor Doom'],
     minor_: [
       'Ghost Rider',
@@ -704,10 +1025,14 @@ export const map: Record<Title, Cast> = {
     ],
   },
   '1998|Silver Surfer': {
+    major: new Set(),
+    minor: new Set(),
     major_: ['Silver Surfer', 'Galactus', 'Nova', 'Thanos'],
     minor_: ['Drax', 'Adam Warlock', 'Gamora', 'Nebula'],
   },
   '1999–2000|The Avengers: United They Stand': {
+    major: new Set(),
+    minor: new Set(),
     major_: [
       'Ant Man',
       'Wasp',
@@ -723,6 +1048,8 @@ export const map: Record<Title, Cast> = {
     minor_: ['Absorbing Man', 'Agatha Harkness', 'Captain America', 'Iron Man'],
   },
   '1999–2001|Spider-Man Unlimited': {
+    major: new Set(),
+    minor: new Set(),
     major_: [
       'Spider-Man',
       'High Evolutionary',
@@ -736,6 +1063,8 @@ export const map: Record<Title, Cast> = {
     minor_: ['Nick Fury'],
   },
   '2000–2003|X-Men: Evolution': {
+    major: new Set(),
+    minor: new Set(),
     major_: [
       'Cyclops',
       'Jean Grey',
@@ -776,10 +1105,14 @@ export const map: Record<Title, Cast> = {
     ],
   },
   '2003|Spider-Man: The New Animated Series': {
+    major: new Set(),
+    minor: new Set(),
     major_: ['Spider-Man', 'Electro', 'Lizard', 'Black Cat', 'Kingpin', 'Kraven'],
     minor_: [],
   },
   "2006–2007|Fantastic Four: World's Greatest Heroes": {
+    major: new Set(),
+    minor: new Set(),
     major_: [
       'Mister Fantastic',
       'Invisible Woman',
@@ -801,6 +1134,8 @@ export const map: Record<Title, Cast> = {
     ],
   },
   '2008–2009|The Spectacular Spider-Man': {
+    major: new Set(),
+    minor: new Set(),
     major_: [
       'Spider-Man',
       'Doctor Octopus',
@@ -819,6 +1154,8 @@ export const map: Record<Title, Cast> = {
     minor_: [],
   },
   '2009|Wolverine and the X-Men': {
+    major: new Set(),
+    minor: new Set(),
     major_: [
       'Wolverine',
       'Professor X',
@@ -867,6 +1204,8 @@ export const map: Record<Title, Cast> = {
     ],
   },
   '2009–2011|The Super Hero Squad Show': {
+    major: new Set(),
+    minor: new Set(),
     major_: [
       'Hulk',
       'Captain America',
@@ -942,6 +1281,8 @@ export const map: Record<Title, Cast> = {
     ],
   },
   '2009–2012|Iron Man: Armored Adventures': {
+    major: new Set(),
+    minor: new Set(),
     major_: [
       'Iron Man',
       'Hulk',
@@ -958,6 +1299,8 @@ export const map: Record<Title, Cast> = {
     minor_: ['Magneto', 'Jean Grey', 'Maria Hill'],
   },
   "2010–2012|The Avengers: Earth's Mightiest Heroes": {
+    major: new Set(),
+    minor: new Set(),
     major_: [
       'Captain America',
       'Hulk',
@@ -1020,17 +1363,33 @@ export const map: Record<Title, Cast> = {
       'Rocket Raccoon',
     ],
   },
-  '2010–2011|Marvel Anime: Iron Man': { major_: ['Iron Man'], minor_: ['Wolverine'] },
+  '2010–2011|Marvel Anime: Iron Man': {
+    major: new Set(),
+    minor: new Set(),
+    major_: ['Iron Man'],
+    minor_: ['Wolverine'],
+  },
   '2011–2012|Marvel Anime: Wolverine': {
+    major: new Set(),
+    minor: new Set(),
     major_: ['Wolverine', 'Omega Red', 'Cyclops'],
     minor_: [],
   },
   '2011–2012|Marvel Anime: X-Men': {
+    major: new Set(),
+    minor: new Set(),
     major_: ['Armor', 'Wolverine', 'Cyclops', 'Beast', 'Professor X', 'Storm', 'Cerebro'],
     minor_: ['Jean Grey'],
   },
-  '2011–2012|Marvel Anime: Blade': { major_: ['Blade'], minor_: ['Wolverine'] },
+  '2011–2012|Marvel Anime: Blade': {
+    major: new Set(),
+    minor: new Set(),
+    major_: ['Blade'],
+    minor_: ['Wolverine'],
+  },
   '2012–2017|Ultimate Spider-Man': {
+    major: new Set(),
+    minor: new Set(),
     major_: [
       'Spider-Man',
       'Doctor Octopus',
@@ -1113,6 +1472,8 @@ export const map: Record<Title, Cast> = {
     ],
   },
   '2013–2015|Hulk and the Agents of S.M.A.S.H.': {
+    major: new Set(),
+    minor: new Set(),
     major_: [
       'Hulk',
       'Devil Dinosaur',
@@ -1156,6 +1517,8 @@ export const map: Record<Title, Cast> = {
     ],
   },
   '2013–2019|Avengers Assemble': {
+    major: new Set(),
+    minor: new Set(),
     major_: [
       'Captain America',
       'Iron Man',
@@ -1223,6 +1586,8 @@ export const map: Record<Title, Cast> = {
     ],
   },
   '2015–2016|Marvel Disk Wars: The Avengers': {
+    major: new Set(),
+    minor: new Set(),
     major_: [
       'Captain America',
       'Iron Man',
@@ -1278,6 +1643,8 @@ export const map: Record<Title, Cast> = {
     ],
   },
   '2015–2019|Guardians of the Galaxy': {
+    major: new Set(),
+    minor: new Set(),
     major_: [
       'Star-Lord',
       'Gamora',
@@ -1321,6 +1688,8 @@ export const map: Record<Title, Cast> = {
     ],
   },
   '2017–2018|Marvel Future Avengers': {
+    major: new Set(),
+    minor: new Set(),
     major_: [
       'Captain America',
       'Iron Man',
@@ -1353,6 +1722,8 @@ export const map: Record<Title, Cast> = {
     minor_: ['Iron Fist', 'Ms. Marvel', 'Klaw', 'Crossbones', 'The Hood'],
   },
   "2017–2020|Marvel's Spider-Man": {
+    major: new Set(),
+    minor: new Set(),
     major_: [
       'Spider-Man',
       'Miles Morales',
@@ -1394,12 +1765,21 @@ export const map: Record<Title, Cast> = {
       'Baron Mordo',
     ],
   },
-  '2021|Hit-Monkey': { major_: ['Hit-Monkey', 'Silver Samurai'], minor_: [] },
+  '2021|Hit-Monkey': {
+    major: new Set(),
+    minor: new Set(),
+    major_: ['Hit-Monkey', 'Silver Samurai'],
+    minor_: [],
+  },
   '2021|M.O.D.O.K.': {
+    major: new Set(),
+    minor: new Set(),
     major_: ['M.O.D.O.K.'],
     minor_: ['Iron Man', 'Captain America', 'Mister Sinister', 'Leader', 'Brood'],
   },
   '2021–2023|Spidey and His Amazing Friends': {
+    major: new Set(),
+    minor: new Set(),
     major_: [
       'Spider-Man',
       'Miles Morales',
@@ -1419,7 +1799,16 @@ export const map: Record<Title, Cast> = {
     minor_: ['Arnim Zola'],
   },
   '2023|Moon Girl and Devil Dinosaur': {
+    major: new Set(),
+    minor: new Set(),
     major_: ['Moon Girl', 'Devil Dinosaur'],
     minor_: ['Falcon'],
   },
 };
+
+Object.values(map).forEach((i) => {
+  i.major = new Set(i.major_);
+  i.minor = new Set(i.minor_);
+  i.major_.length = 0;
+  i.minor_.length = 0;
+});
