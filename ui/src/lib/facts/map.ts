@@ -744,7 +744,10 @@ export const map: Record<Title, Cast> = {
       'Captain America',
     ],
   },
-  '2003|Spider-Man: The New Animated Series': { full: [], semi: [] },
+  '2003|Spider-Man: The New Animated Series': {
+    full: ['Spider-Man', 'Electro', 'Lizard', 'Black Cat', 'Kingpin', 'Kraven'],
+    semi: [],
+  },
   "2006–07|Fantastic Four: World's Greatest Heroes": { full: [], semi: [] },
   '2008–09|The Spectacular Spider-Man': { full: [], semi: [] },
   '2009|Wolverine and the X-Men': { full: [], semi: [] },
