@@ -1372,7 +1372,10 @@ export const map: Record<Title, Cast> = {
     ],
   },
   '2021|Hit-Monkey': { full: ['Hit-Monkey', 'Silver Samurai'], semi: [] },
-  '2021|M.O.D.O.K.': { full: [], semi: [] },
+  '2021|M.O.D.O.K.': {
+    full: ['M.O.D.O.K.'],
+    semi: ['Iron Man', 'Captain America', 'Mister Sinister', 'Leader', 'Brood'],
+  },
   '2021–2023|Spidey and His Amazing Friends': { full: [], semi: [] },
   '2023|Moon Girl and Devil Dinosaur': { full: [], semi: [] },
 };
