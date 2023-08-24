@@ -25,6 +25,6 @@ function findQuotesOfAllCards(article: string, cards: string[]) {
 
 /* Find all sentences in article that contains a given word, function copied from ChatGPT.  */
 function findSentenceContainingWord(article: string, word: string) {
-  const regex = new RegExp(`[^.!?]*\\b${word}\\b[^.!?]*[.!?]`, 'gi');
+  const regex = new RegExp(`[^.!?\\n]*\\b${word}\\b[^.!?\\n]*[.!?\\n]`, 'gi');
   return article.match(regex);
 }

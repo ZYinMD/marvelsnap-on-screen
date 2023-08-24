@@ -1,8 +1,6 @@
 -------------
 Absorbing Man
 -------------
-
-15	15	"Screwball Live"	Sol Choi	Ben Joseph	October 28, 2017	115[16]	N/A
 Following Spider-Man's fight with Absorbing Man, he encounters Screwball and disrupts her prank at the opening at a power plant that is polluting and working for an anonymous benefactor, albeit unaware that Screwball is actually Liz Allan.
  Hammerhead wanted Absorbing Man to steal the drive containing incriminating evidence on Hammerhead that is in Owl's possession, which was taken by Spider-Man during the fight.
  During Screwball's prank on Robbie Robertson by taking over a Worker-Bot made by Oscorp for helping at the New Media Building construction site, Absorbing Man begins to target Screwball to draw out Spider-Man by attacking Midtown High.
@@ -21,9 +19,7 @@ Baron Mordo
 -------------
 Black Cat
 -------------
-20[8]
 As he juggles working with Max on the investigation on Harry Osborn, on a project for Otto Octavius' class, meeting with Harry, and a study group with Anya and Miles, Spider-Man catches Black Cat breaking into Horizon High to steal the V-252 symbiote from the space program, and tries to catch her despite being hit by her bad luck abilities.
-12[22]
 Peter attempts to balance the best summer vacation ever and his responsibilities as Spider-Man when he deals with the respective criminal activities of Black Cat during a trip to the beach, Tinkerer at a baseball game, Hammerhead at a Ross Caliban concert, and an owl-like mutate named Nocturnal at some camping grounds.
 
 -------------
@@ -62,28 +58,21 @@ Captain America
 -------------
  Marvel, who is investigating the disappearances of Captain America, Captain Marvel, and Hulk on Iron Man's behalf, they discover that it is a front for A.
  When a series of attacks results in Iron Man, Hulk, Captain America, Ms.
-13[29]
 Having been "Venomized" by the Klyntar, Captain America, Thor, Iron Man, and Captain Marvel are sent to Earth as an advanced hunting party.
 
 -------------
 Captain Marvel
 -------------
  Marvel, who is investigating the disappearances of Captain America, Captain Marvel, and Hulk on Iron Man's behalf, they discover that it is a front for A.
-13[29]
 Having been "Venomized" by the Klyntar, Captain America, Thor, Iron Man, and Captain Marvel are sent to Earth as an advanced hunting party.
 
 -------------
 Cloak
 -------------
-
 44	18	"Cloak and Dagger (Part 4)"	Sol Choi	Jacob Semahn	October 6, 2019	218	N/A
-Octavius (via Peter's body) re-enrolls at Midtown High and meets assistant chemistry teacher Anna Maria Marconi who enlists him in a sponsorship proposal to Alchemax so that it can be equal to Horizon High.
+
  When Cloak and Dagger assault Midtown High in an attempt to exact vengeance on Alchemax along with Midtown's benefactor Tiberius Stone, Superior Spider-Man must protect the school and take the duo down.
-
-
 Note: Aubrey Joseph and Olivia Holt reprise their roles from Cloak & Dagger.
-
-45	19	"Superior (Part 5)"	Dan Duncan and Eric Elrod	Kevin Burke and Chris "Doc" Wyatt	October 13, 2019	219	N/A
 As Midtown High is recovering from Superior Spider-Man's fight against Cloak, Dagger, and Tiberius, the Venom symbiote is awakened from stasis due to some experimentation.
  However, the villains suspected of being involved with these attacks (consisting of Mister Negative, Spot, Electro, Cloak, Sandgirl, and Molten Man) are locked away in The Cellar.
  Meanwhile, Octavius finally recovers from his coma in time for him and Anna Maria to help Spider-Man by freeing Cloak and Dagger as redemption for his past crimes.
@@ -92,7 +81,6 @@ As Midtown High is recovering from Superior Spider-Man's fight against Cloak, Da
 -------------
 Crossbones
 -------------
-34[19]
 When everyone in Manhattan starts manifesting spider powers, Spider-Gwen follows Spider-Man into thwarting a robbery by Hydra operative Crossbones.
  While Anya starts developing spider powers and gets a hold of them, Spider-Man and Spider-Gwen must help Black Widow track down Crossbones and his Hydra team when they plan to rob the Vibranium storage vault on behalf of Arnim Zola.
  With Doctor Octopus and Anna Maria providing tactical support, Spider-Man and Hobgoblin battle Silvermane's Cyber Goblins while Miles, Ghost-Spider, and Spider-Girl intervene a feud between Electro's Electro Goblins and Crossbones' War Goblins.
@@ -100,42 +88,29 @@ When everyone in Manhattan starts manifesting spider powers, Spider-Gwen follows
 -------------
 Dagger
 -------------
-
 44	18	"Cloak and Dagger (Part 4)"	Sol Choi	Jacob Semahn	October 6, 2019	218	N/A
-Octavius (via Peter's body) re-enrolls at Midtown High and meets assistant chemistry teacher Anna Maria Marconi who enlists him in a sponsorship proposal to Alchemax so that it can be equal to Horizon High.
+
  When Cloak and Dagger assault Midtown High in an attempt to exact vengeance on Alchemax along with Midtown's benefactor Tiberius Stone, Superior Spider-Man must protect the school and take the duo down.
-
-
 Note: Aubrey Joseph and Olivia Holt reprise their roles from Cloak & Dagger.
-
-45	19	"Superior (Part 5)"	Dan Duncan and Eric Elrod	Kevin Burke and Chris "Doc" Wyatt	October 13, 2019	219	N/A
 As Midtown High is recovering from Superior Spider-Man's fight against Cloak, Dagger, and Tiberius, the Venom symbiote is awakened from stasis due to some experimentation.
  Meanwhile, Octavius finally recovers from his coma in time for him and Anna Maria to help Spider-Man by freeing Cloak and Dagger as redemption for his past crimes.
-
-
 The Klyntar invasion continues to spread through New York, as Miles, Ghost-Spider, Spider-Girl, Hobgoblin, Ironheart, Dagger, and most of the civilians have been captured.
 
 -------------
 Death
 -------------
  With unlikely help from Harry (whom Gwen has convinced to no longer blame Spider-Man for Norman's apparent death), Spider-Man, Miles, and Spider-Gwen must stop the unidentified villain from setting off a weapon at the Statue of Liberty.
-
-54	2	"Amazing Friends"	Tim Eldred and Sol Choi	Merrill Hagan and Denise Downer	May 17, 2020	302	N/A
 As the Klyntar make their way to Earth, having responded to the beacon activated by Venom prior to the latter's death, they capture the Avengers and Star-Lord while on a mission in space.
 
 -------------
 Doctor Octopus
 -------------
  Meanwhile, Spider-Man takes on the "Sinister Five" (consisting of Doctor Octopus, Alistair as the Ultimate Spider-Slayer, Vulture, Rhino, and Oliver as Steel Spider) before they can brainwash him, thereby renaming the group the Sinister Six, and destroy New York City.
-22[21]
 After having rounded up the rest of the Sinister Five, Spider-Man and Hobgoblin work to find Doctor Octopus.
  However, after capturing Doctor Octopus when he attacks Horizon High, Spider-Man is suddenly attacked by Hobgoblin.
  He discovers that Doctor Octopus also claims to want a second chance after being released from a high-security prison known as The Cellar.
  When the Wild Pack (Silver Sable, Paladin, Puma, and Battlestar) raid Horizon High in search of information on the Neuro-Cortex, Spider-Man must work with Doctor Octopus to reclaim the stolen data.
-11[23]
 While trying to find footage that would get Jameson to talk good about Spider-Man, he discovers there is a female Doctor Octopus who plans to obtain some crystals.
-
-49	23	"Goblin War: Part 1"	Eric Elrod	Gavin Hignight	November 10, 2019	223	N/A
 Spider-Man and Doctor Octopus team up with Ghost-Spider and Spider-Girl as they track down a mysterious new threat called the Goblin Nation.
  With Doctor Octopus and Anna Maria providing tactical support, Spider-Man and Hobgoblin battle Silvermane's Cyber Goblins while Miles, Ghost-Spider, and Spider-Girl intervene a feud between Electro's Electro Goblins and Crossbones' War Goblins.
  With most of the Spider Team defeated, only Spider-Man, Hobgoblin, and Doctor Octopus are left to stop him from unleashing a new kind of ruin upon New York, leading to a showdown at Horizon High and Dr.
@@ -150,7 +125,6 @@ Doctor Strange
 -------------
 Electro
 -------------
-18[27]
 On his way to the Horizon High Open House, Spider-Man runs into Electro, who swipes the power amplifier he got from Prowler and uses it to become a sentient mass of electricity.
  While being held in a Supervillain Holding Facility, Spider-Man must work with Chief Watanabe to defeat Beetle and Electro and get through the facility's security features when the Living Brain threatens to destroy it.
  However, the villains suspected of being involved with these attacks (consisting of Mister Negative, Spot, Electro, Cloak, Sandgirl, and Molten Man) are locked away in The Cellar.
@@ -161,14 +135,10 @@ On his way to the Horizon High Open House, Spider-Man runs into Electro, who swi
 Ghost-Spider
 -------------
  Adopting the alias Ghost-Spider, Gwen works together with Miles and Spider-Girl to take out Scorpion and Tinkerer, who plan to draw Spider-Man out.
-
-49	23	"Goblin War: Part 1"	Eric Elrod	Gavin Hignight	November 10, 2019	223	N/A
 Spider-Man and Doctor Octopus team up with Ghost-Spider and Spider-Girl as they track down a mysterious new threat called the Goblin Nation.
  Ghost-Spider and Spider-Girl both think Goblin Nation's leader is Peter due to Octavius' actions from when he was Superior Spider-Man.
  Meanwhile, Ghost-Spider and Spider-Girl have a run-in with the Electro Goblins, discovering that different Goblin Thugs are at large.
  With Doctor Octopus and Anna Maria providing tactical support, Spider-Man and Hobgoblin battle Silvermane's Cyber Goblins while Miles, Ghost-Spider, and Spider-Girl intervene a feud between Electro's Electro Goblins and Crossbones' War Goblins.
-
-
 The Klyntar invasion continues to spread through New York, as Miles, Ghost-Spider, Spider-Girl, Hobgoblin, Ironheart, Dagger, and most of the civilians have been captured.
  Spider-Man and Ghost-Spider must track down Jackal's secret lab in an attempt to destroy the villain's latest evil plans.
 
@@ -178,8 +148,6 @@ Groot
  Toddler Groot arrives on Earth ahead of the Klyntar to warn Spider-Man.
  Due to their inexperience with Groot's language, Spider-Man seeks help from Ironheart whereas Miles searches for Doctor Strange.
  However, things get problematic when Spider-Man and Ironheart must protect Groot from A.
-
-
 Spider-Man, Ironheart, and Totally Awesome Hulk must rescue the kidnapped toddler Groot from A.
  During the mission, they discover that Monica Rappaccini has teamed up with Baron Mordo and is using Groot as a template to create a legion of mystical wooden golems for Mordo.
  The possessed Avengers begin capturing the remaining superheroes on the planet, including Doctor Strange, Groot, Totally Awesome Hulk, and Cloak.
@@ -188,38 +156,26 @@ Spider-Man, Ironheart, and Totally Awesome Hulk must rescue the kidnapped toddle
 -------------
 Hobgoblin
 -------------
-
 25	25	"The Hobgoblin: Part 1"	Dan Duncan	Kevin Burke and Chris "Doc" Wyatt	February 18, 2018	125	0.
-21[21]
 Following the Man-Spider crisis and the destruction of Osborn Academy, Norman graduates Harry and gives him the Hobgoblin equipment.
-
 26	26	"The Hobgoblin: Part 2"	Sol Choi	Kevin Shinick	February 18, 2018	126	0.
-22[21]
 After having rounded up the rest of the Sinister Five, Spider-Man and Hobgoblin work to find Doctor Octopus.
  However, after capturing Doctor Octopus when he attacks Horizon High, Spider-Man is suddenly attacked by Hobgoblin.
  Spider-Man must find a way to stop Hobgoblin who is completely bent on destroying Spider-Man by any means necessary.
  However, Spider-Man discovers that "Hobgoblin" is actually someone he least suspects and Harry must choose between siding with either his best friend or his father.
-
-50	24	"Goblin War: Part 2"	Sol Choi	Jacob Semahn	November 17, 2019	224	N/A
 As Spider-Man and Hobgoblin seek to find and unmask the Goblin Nation's leader, now identified as the Goblin King, Spider-Man grows concerned that his best friend is leading him into a trap.
  Hobgoblin, on the other hand, is convinced that the identity of the Goblin King is his possibly still alive father Norman especially since their investigation leads them to a hidden chamber filled with Norman's leftover Goblin technology.
  With Doctor Octopus and Anna Maria providing tactical support, Spider-Man and Hobgoblin battle Silvermane's Cyber Goblins while Miles, Ghost-Spider, and Spider-Girl intervene a feud between Electro's Electro Goblins and Crossbones' War Goblins.
  With most of the Spider Team defeated, only Spider-Man, Hobgoblin, and Doctor Octopus are left to stop him from unleashing a new kind of ruin upon New York, leading to a showdown at Horizon High and Dr.
-
-
 The Klyntar invasion continues to spread through New York, as Miles, Ghost-Spider, Spider-Girl, Hobgoblin, Ironheart, Dagger, and most of the civilians have been captured.
  Connors' benefactor is none other than Norman Osborn, who has survived his fight with Spider-Man and Hobgoblin the previous year and has become the Dark Goblin through a combination of Venom's DNA and Jackal's latest serum.
 
 -------------
 Hulk
 -------------
-
-12	12	"Halloween Moon"	Dan Duncan	Kevin Burke and Chris "Doc" Wyatt	October 7, 2017	112[12]	N/A
 On Halloween, Spider-Man, Harry, and Gwen assist the Hulk subdue a gamma-powered Man-Wolf before he infects the attendees of Horizon High's Halloween party and all of Manhattan enough to turn them into werewolves.
  Marvel, who is investigating the disappearances of Captain America, Captain Marvel, and Hulk on Iron Man's behalf, they discover that it is a front for A.
  When a series of attacks results in Iron Man, Hulk, Captain America, Ms.
-
-
 Spider-Man, Ironheart, and Totally Awesome Hulk must rescue the kidnapped toddler Groot from A.
  The possessed Avengers begin capturing the remaining superheroes on the planet, including Doctor Strange, Groot, Totally Awesome Hulk, and Cloak.
 
@@ -228,34 +184,23 @@ Ironheart
 -------------
  Due to their inexperience with Groot's language, Spider-Man seeks help from Ironheart whereas Miles searches for Doctor Strange.
  However, things get problematic when Spider-Man and Ironheart must protect Groot from A.
-
-
 Spider-Man, Ironheart, and Totally Awesome Hulk must rescue the kidnapped toddler Groot from A.
-
-
 The Klyntar invasion continues to spread through New York, as Miles, Ghost-Spider, Spider-Girl, Hobgoblin, Ironheart, Dagger, and most of the civilians have been captured.
 
 -------------
 Iron Man
 -------------
-29[9]
 After separating himself from the V-252, Spider-Man attends the Stark Expo and has an encounter with Iron Man who mistakes him for an intruder.
  Marvel, who is investigating the disappearances of Captain America, Captain Marvel, and Hulk on Iron Man's behalf, they discover that it is a front for A.
-
-43	17	"A Troubled Mind (Part 3)"	Dan Duncan	Jacob Semahn	September 29, 2019	217	N/A
 Superior Spider-Man is confronted by Iron Man, Ms.
  When a series of attacks results in Iron Man, Hulk, Captain America, Ms.
-13[29]
 Having been "Venomized" by the Klyntar, Captain America, Thor, Iron Man, and Captain Marvel are sent to Earth as an advanced hunting party.
-09[30]
 After helping the Avengers apprehend MODOK, Iron Man offers Spider-Man to join the team, though he requests time to think about it.
 
 -------------
 Kraven
 -------------
-
 11	11	"Kraven's Amazing Hunt"	Sol Choi	Chris Cox and Kevin Shinick	September 30, 2017	111	0.
-25[11]
 After Spider-Man trains Miles in battle with Scorpion, they find that he was being used by Kraven the Hunter so that he can hunt them on the latest episode of his TV show "Kraven's Amazing Hunt".
  They are unaware that Kraven has been hired by Norman to bring both Spider-Men to Oscorp for experimentation after the Spider-Slayer's failure to retrieve the stolen spider specimens.
  When Kraven starts veering from his deal with Norman, this causes him and Vulture to take matters into their own hands.
@@ -267,8 +212,6 @@ Leader
 -------------
  is using three mental projection devices to create their new leader MODOK.
  Ghost-Spider and Spider-Girl both think Goblin Nation's leader is Peter due to Octavius' actions from when he was Superior Spider-Man.
-
-50	24	"Goblin War: Part 2"	Sol Choi	Jacob Semahn	November 17, 2019	224	N/A
 As Spider-Man and Hobgoblin seek to find and unmask the Goblin Nation's leader, now identified as the Goblin King, Spider-Man grows concerned that his best friend is leading him into a trap.
 
 -------------
@@ -285,7 +228,6 @@ Lizard
 -------------
 Miles Morales
 -------------
-19[7]
 Peter is accepted into Horizon High, a school for geniuses like Anya Corazon and Miles Morales.
 
 -------------
@@ -307,8 +249,6 @@ Mister Negative
 Ms. Marvel
 -------------
  Upon encountering Ms. Marvel, who is investigating the disappearances of Captain America, Captain Marvel, and Hulk on Iron Man's behalf, they discover that it is a front for A.
-
-43	17	"A Troubled Mind (Part 3)"	Dan Duncan	Jacob Semahn	September 29, 2019	217	N/A
 Superior Spider-Man is confronted by Iron Man, Ms. Marvel, and Black Widow who are investigating Miles' suspicions that "Spider-Man" is not who he claims to be after nearly killing Sandgirl.
  When a series of attacks results in Iron Man, Hulk, Captain America, Ms. Marvel, and Black Widow being captured, Spider-Man is left to figure out who could be behind this.
 
@@ -323,8 +263,6 @@ Rescue
  Both of them work to rescue Keemia from Hammerhead, only to find that the accident that Hammerhead caused also affected Keemia, turning her into Sandgirl.
  Spider-Man must both rescue Screwball and Randy Robertson and defeat Absorbing Man and Hammerhead.
  Spider-Man must rescue Connors and stop Venom from unleashing an alien weapon of unknown purpose.
-
-
 Spider-Man, Ironheart, and Totally Awesome Hulk must rescue the kidnapped toddler Groot from A.
 
 -------------
@@ -337,9 +275,7 @@ Rhino
 -------------
 Sandman
 -------------
-
 7	7	"Sandman"	Dan Duncan	J.
-25[9]
 While at Coney Island with his classmates, Spider-Man battles Sandman and retrieves a sample of him.
  When Sandman returns for the sample, he reveals he is trying to reach his daughter Keemia.
  Spider-Man discovers that Sandman's old boss Hammerhead was behind dumping a ton of sand and toxic waste on him.
@@ -347,9 +283,7 @@ While at Coney Island with his classmates, Spider-Man battles Sandman and retrie
 -------------
 Scorpion
 -------------
-20[7]
 After stopping the Scorpion from robbing the science museum, Peter works to obtain money to help Aunt May pay the bills.
-25[11]
 After Spider-Man trains Miles in battle with Scorpion, they find that he was being used by Kraven the Hunter so that he can hunt them on the latest episode of his TV show "Kraven's Amazing Hunt".
  However, the relic is stolen by Scorpion on Tinkerer's behalf as part of a plot to enhance Scorpion.
  Adopting the alias Ghost-Spider, Gwen works together with Miles and Spider-Girl to take out Scorpion and Tinkerer, who plan to draw Spider-Man out.
@@ -363,183 +297,99 @@ Silver Sable
 -------------
 Spider-Man
 -------------
-org/wiki/List_of_Spider-Man_(2017_TV_series)_episodes
-
-
-Main menu
-
-WikipediaThe Free Encyclopedia
-Search Wikipedia
-Search
-Create account
-Log in
-
-Personal tools
-Contents hide
-(Top)
-Series overview
-Episodes
-Toggle Episodes subsection
-Origin shorts (2017)
-Season 1 (2017–18)
-Season 2 (2018–19)
-Season 3: Maximum Venom (2020)
-References
 List of Spider-Man (2017 TV series) episodes
 
-Article
-Talk
-Read
-Edit
-View history
-
-Tools
-From Wikipedia, the free encyclopedia
 Marvel's Spider-Man is an American animated television series based on the Spider-Man comics published by Marvel Comics.
  58 episodes of Marvel's Spider-Man have aired, concluding its third season, entitled Marvel's Spider-Man: Maximum Venom.
  After Spider-Man stops a Vibranium machine that was secretly sabotaged by Spencer Smythe, his best friend Harry Osborn gets suspended by Max Modell pending an investigation when Spencer claims that Harry sabotaged the machine.
  Peter makes his debut as Spider-Man and must battle the Vulture when he targets his former employer Max.
  A giant robot secretly created by Spencer invades Horizon High, stealing some of Harry's devices just as Spider-Man creates a new costume.
-
-4	4	"Osborn Academy"	Sol Choi	Kevin Shinick	August 26, 2017[6]	104	N/A
 Following Spider-Man's fight with Jackal, Peter attends a tour of Osborn Academy alongside Max, Anya, Miles, and Gwen Stacy.
  Spider-Man faces two partners named Herman Schultz and Clayton Cole, who are divided over a spot as a student at Osborn during their audition and cause chaos with their sound manipulating machinery.
  However, Jackal has other plans as he steals their equipment while Harry continues to be suspicious of Spider-Man.
-20[8]
 As he juggles working with Max on the investigation on Harry Osborn, on a project for Otto Octavius' class, meeting with Harry, and a study group with Anya and Miles, Spider-Man catches Black Cat breaking into Horizon High to steal the V-252 symbiote from the space program, and tries to catch her despite being hit by her bad luck abilities.
-20[8]
 After Spider-Man stops another Slayer which self-destructs afterwards, Alistair gets frustrated as Norman welcomes him into Osborn Academy.
-25[9]
 While at Coney Island with his classmates, Spider-Man battles Sandman and retrieves a sample of him.
  Spider-Man discovers that Sandman's old boss Hammerhead was behind dumping a ton of sand and toxic waste on him.
-27[9]
 Following the V-252 bonding to him following his fight with Keemia and Hammerhead, Spider-Man thwarts a robbery with A.
-29[9]
 After separating himself from the V-252, Spider-Man attends the Stark Expo and has an encounter with Iron Man who mistakes him for an intruder.
  Spider-Man has to make a risk to use the V-252 to help fight Ghost and to prove to Max the truth about the V-252.
-
 10	10	"Ultimate Spider-Man"	Dan Duncan	Kevin Shinick	September 23, 2017	110	0.
-25[11]
 After Spider-Man trains Miles in battle with Scorpion, they find that he was being used by Kraven the Hunter so that he can hunt them on the latest episode of his TV show "Kraven's Amazing Hunt".
-
-12	12	"Halloween Moon"	Dan Duncan	Kevin Burke and Chris "Doc" Wyatt	October 7, 2017	112[12]	N/A
 On Halloween, Spider-Man, Harry, and Gwen assist the Hulk subdue a gamma-powered Man-Wolf before he infects the attendees of Horizon High's Halloween party and all of Manhattan enough to turn them into werewolves.
-
 13	13	"Spider-Man on Ice"	Sol Choi	Sterling Gates	October 14, 2017	113[13]	N/A
-During a heat wave, Peter unknowingly helps the police to catch Hammerhead's minion Randy Macklin.
+
  Spider-Man has to compete against Harry's thermal gauntlet when it comes to defeating Blizzard and reclaiming the cryogenic gauntlet.
  Spider-Man finds that the symbiote is not setting off his Spider-Senses.
  Truman High led by its quarterback Kevin Wyatt, Spider-Man finds that the V-252 had attached itself to Flash during the game.
  Spider-Man works to stop the symbiote's rampage even when the other football players get infected.
-
-15	15	"Screwball Live"	Sol Choi	Ben Joseph	October 28, 2017	115[16]	N/A
 Following Spider-Man's fight with Absorbing Man, he encounters Screwball and disrupts her prank at the opening at a power plant that is polluting and working for an anonymous benefactor, albeit unaware that Screwball is actually Liz Allan.
  Hammerhead wanted Absorbing Man to steal the drive containing incriminating evidence on Hammerhead that is in Owl's possession, which was taken by Spider-Man during the fight.
  During Screwball's prank on Robbie Robertson by taking over a Worker-Bot made by Oscorp for helping at the New Media Building construction site, Absorbing Man begins to target Screwball to draw out Spider-Man by attacking Midtown High.
  Spider-Man must both rescue Screwball and Randy Robertson and defeat Absorbing Man and Hammerhead.
-25[17]
 When Otto Octavius is caught in an explosion that fuses his robot arms to his body during his fight with Crimson Dynamo, Spider-Man sees the opportunity to recruit the "Octopus" into becoming a hero when it comes to tracking down Dynamo.
-28[17]
 Spider-Man invites Octavius to patrol the streets alongside himself and Miles until it becomes clear that Otto is not exactly a team player, though they will have to work together when Oscorp scientist Dr.
-31[18]
 Peter spends a day at Osborn Academy in the hopes of finding a clue that will convince Harry that his father is out to destroy Spider-Man.
-28[19]
 Spider-Man and Miles track down an unidentified villain with spider powers who steals Peter's experimental stealth suit and equipment from both Horizon High and Oscorp Academy.
  With unlikely help from Harry (whom Gwen has convinced to no longer blame Spider-Man for Norman's apparent death), Spider-Man, Miles, and Spider-Gwen must stop the unidentified villain from setting off a weapon at the Statue of Liberty.
-34[19]
 When everyone in Manhattan starts manifesting spider powers, Spider-Gwen follows Spider-Man into thwarting a robbery by Hydra operative Crossbones.
  While Anya starts developing spider powers and gets a hold of them, Spider-Man and Spider-Gwen must help Black Widow track down Crossbones and his Hydra team when they plan to rob the Vibranium storage vault on behalf of Arnim Zola.
  Spider-Man, Harry, Kraven, and Anya discover that the Man-Spider who stole Peter's stealth suit was a mutated Norman.
-31[20]
 After being captured, Spider-Man discovers that Jackal had previously captured Miles, which explained why he could not be reached.
  To cure the Man-Spider population of Manhattan, Spider-Man must lead Miles, Anya, and Harry on a desperate last-ditch effort to stop the Jackal.
  Meanwhile, Spider-Man takes on the "Sinister Five" (consisting of Doctor Octopus, Alistair as the Ultimate Spider-Slayer, Vulture, Rhino, and Oliver as Steel Spider) before they can brainwash him, thereby renaming the group the Sinister Six, and destroy New York City.
-22[21]
 After having rounded up the rest of the Sinister Five, Spider-Man and Hobgoblin work to find Doctor Octopus.
  However, after capturing Doctor Octopus when he attacks Horizon High, Spider-Man is suddenly attacked by Hobgoblin.
  Spider-Man must find a way to stop Hobgoblin who is completely bent on destroying Spider-Man by any means necessary.
  However, Spider-Man discovers that "Hobgoblin" is actually someone he least suspects and Harry must choose between siding with either his best friend or his father.
-12[22]
 Peter attempts to balance the best summer vacation ever and his responsibilities as Spider-Man when he deals with the respective criminal activities of Black Cat during a trip to the beach, Tinkerer at a baseball game, Hammerhead at a Ross Caliban concert, and an owl-like mutate named Nocturnal at some camping grounds.
  To top of that, Peter has to get a job at the Daily Bugle so that he can receive payments for providing footage of Spider-Man in action for J.
  When the Wild Pack (Silver Sable, Paladin, Puma, and Battlestar) raid Horizon High in search of information on the Neuro-Cortex, Spider-Man must work with Doctor Octopus to reclaim the stolen data.
-11[23]
 While trying to find footage that would get Jameson to talk good about Spider-Man, he discovers there is a female Doctor Octopus who plans to obtain some crystals.
  When Spider-Man and Miles find Octavius with a police officer, he tells the police officer that the woman in the picture is Carolyn Trainer, who was in the cell next to him back when he was incarcerated at The Cellar.
  As Spider-Man pursues Carolyn Trainer, he discovers that she and the Wild Pack had the same boss in someone Spider-Man would least suspect.
-
-30	4	"Rise Above It All"	Sol Choi	Mark Hoffmeier	July 2, 2018	204	N/A
 A viral extreme sports stunt group known as the Wake Riders led by Barkley Blitz and promoted by Gabby Flenkman is doing various aerial stunts by dragging Spider-Man into them.
  After an encounter with Vulture, who claims that the Wake Riders stole his Vulture tech and done secret heists across the globe, Spider-Man discovers that the Wake Riders are working to upgrade it so that Vulture can lead them.
-22[24]
 As Jameson praises the Avengers' latest fight with the Frost Giants, Spider-Man comes across a girl who has electrical abilities and traces the 237 number to a room at an elite boarding school called the Bilderberg Academy.
-
-32	6	"Dead Man's Party (Part 1)"	Sol Choi	Jacob Semahn	July 16, 2018	206	N/A
 After Peter obtains footage of Spider-Man fighting Beetle, Eddie Brock reaches his breaking point regarding his growing jealously, forcing him to betray Jameson.
  When Eddie attempts to get pictures of the V-252 at the Space Administration, the symbiote merges with him and shares its memories of Spider-Man.
-18[25]
 Peter is two steps behind as Venom (still merged with a revenge-crazed Eddie) kidnaps Jameson, Gwen, Max, Aunt May, and Anya and holds them hostage at Horizon High, demanding a face-off against Spider-Man.
  As Spider-Man tries to prevent his peers from discovering his secret identity during the fight, Miles works to find a weakness that they have not used on Venom yet.
  However, Spider-Man has to contain with the heist caused by Hippo and Panda-Mania.
  When a mysterious villain puts a bounty on Spider-Man, Overdrive is the first to take the opportunity.
-16[26]
 With the Horizon High Open House 24 hours away, Spider-Man gets attacked by Spot.
  Afterwards, Spider-Man is lured into Mysterio's funhouse filled with illusions.
-
-36	10	"Bring on the Bad Guys: Part 3"	Sol Choi	Gavin Hignight	August 6, 2018	210	N/A
 With the Horizon High Open House 10 hours away, Spider-Man deals with Jack O'Lantern on the Brooklyn Bridge as he tries to get the info on who put the bounty on him.
-18[27]
 On his way to the Horizon High Open House, Spider-Man runs into Electro, who swipes the power amplifier he got from Prowler and uses it to become a sentient mass of electricity.
  After the resulting damages cancels the Open House, Spider-Man begins tracking the identity of the mysterious boss that put a price on his head when Police Chief Yuri Watanabe's claim of him robbing a bank leads to an encounter with Chameleon.
-14[28]
 Despite Chameleon being behind bars, Spider-Man is ambushed by Tinkerer who still wants to collect the bounty.
  While being held in a Supervillain Holding Facility, Spider-Man must work with Chief Watanabe to defeat Beetle and Electro and get through the facility's security features when the Living Brain threatens to destroy it.
-
 40	14	"The Day Without Spider-Man"	Sol Choi	Danielle Wolff	September 8, 2019	214	N/A
-A relic called the Blood Gem, which is said to contain mystical energies, has been delivered to Horizon High after being found at an ancient dig site.
+
  Adopting the alias Ghost-Spider, Gwen works together with Miles and Spider-Girl to take out Scorpion and Tinkerer, who plan to draw Spider-Man out.
-
-
 Note: This is the only episode in the series where Spider-Man does not physically appear.
-
-41	15	"My Own Worst Enemy (Part 1)"	Dan Duncan	Kevin Burke and Chris "Doc" Wyatt	September 15, 2019	215	N/A
 Now that his consciousness is inside Spider-Man's body, Octavius takes on the name of Superior Spider-Man and initiates the next phase of his plan to bring New York to its knees.
  Left with no other choice, Octavius must master Spider-Man's powers if he is to stop a plan of his own devising that is being carried out by his now sprung-out accomplice Silver Sable, who is out to set off harmfully explosive A.
-
-42	16	"Critical Update (Part 2)"	Sol Choi	Grant Moran	September 22, 2019	216	N/A
 Superior Spider-Man adjusts to his new life as a hero, finding ways to streamline his methods into a more efficient (albeit less warm) approach like he had with Hammerhead, Silvermane, and Big Wheel, leading to the creation of the Spiderbots.
  When his methods are challenged by Sandgirl who sets out building her own criminal organization by uniting Hammerhead and Silvermane's disarrayed henchmen, Miles finds out how just far "Spider-Man" is willing to go in the name of justice.
-
-43	17	"A Troubled Mind (Part 3)"	Dan Duncan	Jacob Semahn	September 29, 2019	217	N/A
 Superior Spider-Man is confronted by Iron Man, Ms.
  Marvel, and Black Widow who are investigating Miles' suspicions that "Spider-Man" is not who he claims to be after nearly killing Sandgirl.
  When Cloak and Dagger assault Midtown High in an attempt to exact vengeance on Alchemax along with Midtown's benefactor Tiberius Stone, Superior Spider-Man must protect the school and take the duo down.
  Meanwhile, Miles has finally discovered what happened to both Peter and Spider-Man after a surprise visit from Octavius' discarded tentacles, which are now the host of Peter's consciousness, and must figure out a way to save both of them.
-
-45	19	"Superior (Part 5)"	Dan Duncan and Eric Elrod	Kevin Burke and Chris "Doc" Wyatt	October 13, 2019	219	N/A
 As Midtown High is recovering from Superior Spider-Man's fight against Cloak, Dagger, and Tiberius, the Venom symbiote is awakened from stasis due to some experimentation.
  Having grown close to Anna Maria, Octavius must choose whether to restore the real Spider-Man to his former self or lose his only friend.
  Marvel, and Black Widow being captured, Spider-Man is left to figure out who could be behind this.
  As Spider-Man investigates his claims after they are debunked by Chief Watanabe, he encounters a dangerous new power-copying enemy known as Regent.
-
-47	21	"The Cellar (Part 2)"	Eric Elrod	Shannon Eric Denton	October 27, 2019	221	N/A
 Going on the defensive against Regent, Spider-Man meets with Chief Watanabe and reveals new information he discovered during his fight with Regent, learning that Frostbite, Whirlwind, and Paradox as the owners of the abilities replicated by Regent that he has never encountered before.
  Taking his mission of rescuing the missing Avengers to The Cellar, Spider-Man discovers Regent is none other than the prison's warden and Watanabe's mentor Augustus Roman and has been using the powers of the various inmates to imprison the missing Avengers in another dimension because of how they arrested his father long ago.
  Meanwhile, Octavius finally recovers from his coma in time for him and Anna Maria to help Spider-Man by freeing Cloak and Dagger as redemption for his past crimes.
- DeMatteis	November 3, 2019	222	N/A
 Spider-Man is having great trouble in stopping the slick criminal Slyde who always escapes every time he tries to catch him.
  Assisted by Octavius' Spider-Bots, Spider-Man must stop Slyde from using whatever cutting-edge chemicals he has at his disposal to exact his revenge on both the company and New York itself.
-
-49	23	"Goblin War: Part 1"	Eric Elrod	Gavin Hignight	November 10, 2019	223	N/A
 Spider-Man and Doctor Octopus team up with Ghost-Spider and Spider-Girl as they track down a mysterious new threat called the Goblin Nation.
  Ghost-Spider and Spider-Girl both think Goblin Nation's leader is Peter due to Octavius' actions from when he was Superior Spider-Man.
  However, Spider-Man thinks it is Alistair given the likelihood that he could have had access to the Goblin tech on Horizon High's computers from when the tech's original creator Harry was a student.
  When Harry eventually returns, Spider-Man and company discover that there is more than one Goblin on the loose.
-
-50	24	"Goblin War: Part 2"	Sol Choi	Jacob Semahn	November 17, 2019	224	N/A
 As Spider-Man and Hobgoblin seek to find and unmask the Goblin Nation's leader, now identified as the Goblin King, Spider-Man grows concerned that his best friend is leading him into a trap.
-
-51	25	"Goblin War: Part 3"	Eric Elrod	Kevin Burke and Chris "Doc" Wyatt	November 24, 2019	225	N/A
 To challenge the Goblin Nation attacking New York, Spider-Man must first bring together the rest of the Spider Team.
  With Doctor Octopus and Anna Maria providing tactical support, Spider-Man and Hobgoblin battle Silvermane's Cyber Goblins while Miles, Ghost-Spider, and Spider-Girl intervene a feud between Electro's Electro Goblins and Crossbones' War Goblins.
  With most of the Spider Team defeated, only Spider-Man, Hobgoblin, and Doctor Octopus are left to stop him from unleashing a new kind of ruin upon New York, leading to a showdown at Horizon High and Dr.
@@ -548,51 +398,35 @@ To challenge the Goblin Nation attacking New York, Spider-Man must first bring t
  Toddler Groot arrives on Earth ahead of the Klyntar to warn Spider-Man.
  Due to their inexperience with Groot's language, Spider-Man seeks help from Ironheart whereas Miles searches for Doctor Strange.
  However, things get problematic when Spider-Man and Ironheart must protect Groot from A.
-
-
 Spider-Man, Ironheart, and Totally Awesome Hulk must rescue the kidnapped toddler Groot from A.
  Despite the growing danger pushing him to his breaking point, Spider-Man must find a way to stop the Klyntar before they clear the planet for a complete invasion.
  Spider-Man must persuade survivalist Marc Spector to come out of retirement as Moon Knight so they can find Max, May, and other survivors amidst the chaos.
  Upon capturing the Venomized Groot, Spider-Man and Max get to work on creating a more powerful synthetic symbiote that could perhaps thwart the Klyntar's invasion and save everyone.
-
 56	4	"Spider-Man Unmasked"	Tim Eldred and Sol Choi	Jim Martin and Gavin Hignight	August 16, 2020	304	N/A
+
 After having to fight his way past Tinkerer, Spider-Man rushes to deliver a flash drive containing a post-mortem transmission from Octavius that would help to prove Max's innocence to the board of education.
  Looking for Aleksei while the others stall, Spider-Man finds that he has been transformed into Rhino by Swarm using Jackal's old Rhino formula.
  Connors blackmails Spider-Man into unmasking himself before the board of education, resulting in Max's firing and Connors becoming the interim headmaster until the end of the term.
  Peter must also find a way to reconcile with Gwen and Anya for keeping his identity as Spider-Man a secret from them.
  Spider-Man and Ghost-Spider must track down Jackal's secret lab in an attempt to destroy the villain's latest evil plans.
  Connors' benefactor is none other than Norman Osborn, who has survived his fight with Spider-Man and Hobgoblin the previous year and has become the Dark Goblin through a combination of Venom's DNA and Jackal's latest serum.
-09[30]
 After helping the Avengers apprehend MODOK, Iron Man offers Spider-Man to join the team, though he requests time to think about it.
  As the Spider Team tracks down Lizard in Horizon High, they discover that it is actually Venom who has returned from the dead and is seeking revenge on Spider-Man for thwarting his invasion.
-
-
 Following "Maximum Venom" (a Venom-controlled Max) through the Matter Transport Portal to the Klyntar's home planet, Spider-Man must save Max and stop Venom from destroying Earth with a dragon-like weapon called the World-Killer.
-
-References
  "Spider-Man's Web-Slinging Adventures Continue in the Third Season of Disney XD's "Marvel's Spider-Man: Maximum Venom", Debuting Sunday, April 19".
  "'Marvel's Spider-Man': DisneyXD Orders Season 3 For Spring 2020".
-
  "Marvel's Spider-Man: Episode Guide".
-
  "Marvel's Spider-Man episodes".
-
  "MARVEL'S SPIDER-MAN (DISNEY XD)".
-
  "Spider-Man On Ice".
-
-vte
-Animated TV series based on Marvel Comics properties
-vte
 Spider-Man in television
+
 Categories: Lists of Marvel Comics animated series episodesLists of Spider-Man television series episodesLists of American children's animated television series episodes
-This page was last edited on 31 July 2023, at 15:57 (UTC).
+
 
 -------------
 Star-Lord
 -------------
-
-54	2	"Amazing Friends"	Tim Eldred and Sol Choi	Merrill Hagan and Denise Downer	May 17, 2020	302	N/A
 As the Klyntar make their way to Earth, having responded to the beacon activated by Venom prior to the latter's death, they capture the Avengers and Star-Lord while on a mission in space.
 
 -------------
@@ -605,93 +439,43 @@ Swarm
 -------------
 Thor
 -------------
-13[29]
 Having been "Venomized" by the Klyntar, Captain America, Thor, Iron Man, and Captain Marvel are sent to Earth as an advanced hunting party.
 
 -------------
 Uncle Ben
 -------------
-"	Dan Duncan	Kevin Shinick	July 29, 2017	103f
 When his quest for fame results in personal tragedy where his Uncle Ben is killed by a burglar that he hesitated to stop, Peter learns that with great power comes great responsibility as he starts by going after the burglar.
  His new brain, however, contains Peter's lingering memories of Uncle Ben that push him into being a hero despite himself, inadvertently letting Hammerhead escape.
 
 -------------
 Venom
 -------------
-org/wiki/List_of_Spider-Man_(2017_TV_series)_episodes
-
-
-Main menu
-
-WikipediaThe Free Encyclopedia
-Search Wikipedia
-Search
-Create account
-Log in
-
-Personal tools
-Contents hide
-(Top)
-Series overview
-Episodes
-Toggle Episodes subsection
-Origin shorts (2017)
-Season 1 (2017–18)
-Season 2 (2018–19)
 Season 3: Maximum Venom (2020)
-References
-List of Spider-Man (2017 TV series) episodes
 
-Article
-Talk
-Read
-Edit
-View history
-
-Tools
-From Wikipedia, the free encyclopedia
-Marvel's Spider-Man is an American animated television series based on the Spider-Man comics published by Marvel Comics.
  58 episodes of Marvel's Spider-Man have aired, concluding its third season, entitled Marvel's Spider-Man: Maximum Venom.
-
 14	14	"Venom"	Dan Duncan	Kevin Shinick and Paul Giacoppo	October 21, 2017	114[14]	0.
  With his new host, the V-252 (renamed "Venom" by Eddie) targets Peter as he and Miles throw a high school party at his house while Aunt May is on vacation.
-
 33	7	"Venom Returns (Part 2)"	Dan Duncan	Kevin Burke and Chris "Doc" Wyatt	July 23, 2018	207	0.
-18[25]
 Peter is two steps behind as Venom (still merged with a revenge-crazed Eddie) kidnaps Jameson, Gwen, Max, Aunt May, and Anya and holds them hostage at Horizon High, demanding a face-off against Spider-Man.
  As Spider-Man tries to prevent his peers from discovering his secret identity during the fight, Miles works to find a weakness that they have not used on Venom yet.
-
-45	19	"Superior (Part 5)"	Dan Duncan and Eric Elrod	Kevin Burke and Chris "Doc" Wyatt	October 13, 2019	219	N/A
 As Midtown High is recovering from Superior Spider-Man's fight against Cloak, Dagger, and Tiberius, the Venom symbiote is awakened from stasis due to some experimentation.
  But when he discovers Octavius' body swap, Venom uses Anna Maria as a bargaining chip to force Octavius to reunite Peter's consciousness with his body.
-
 Season 3: Maximum Venom (2020)
-Note: Each episode in this season has a 44-minute runtime, twice as long as the previous seasons.
 
-code [5]	US viewers
-(millions)
 53	1	"Web of Venom"	Tim Eldred and Sol Choi	Kevin Burke and Chris "Doc" Wyatt	April 19, 2020	301	N/A
+
 While Gwen, Miles, and Anya are away on a college tour, Peter learns that Max has created a synthetic yet non-sentient copy of Venom and Dr.
  During the incident, Peter discovers that the symbiote can render itself immune to the original Venom's weaknesses.
  While working under the orders of his benefactor to expose the "corrupt operations" that Max is doing, Connors accidentally frees the original Venom.
  Spider-Man must rescue Connors and stop Venom from unleashing an alien weapon of unknown purpose.
-
-54	2	"Amazing Friends"	Tim Eldred and Sol Choi	Merrill Hagan and Denise Downer	May 17, 2020	302	N/A
 As the Klyntar make their way to Earth, having responded to the beacon activated by Venom prior to the latter's death, they capture the Avengers and Star-Lord while on a mission in space.
-
 55	3	"Vengeance of Venom"	Tim Eldred and Sol Choi	Zach Craley and J.
  Connors' benefactor is none other than Norman Osborn, who has survived his fight with Spider-Man and Hobgoblin the previous year and has become the Dark Goblin through a combination of Venom's DNA and Jackal's latest serum.
-
 58	6	"Maximum Venom"	Tim Eldred and Sol Choi	Kevin Burke and Chris "Doc" Wyatt	October 25, 2020	306	0.
  As the Spider Team tracks down Lizard in Horizon High, they discover that it is actually Venom who has returned from the dead and is seeking revenge on Spider-Man for thwarting his invasion.
-
-
 Following "Maximum Venom" (a Venom-controlled Max) through the Matter Transport Portal to the Klyntar's home planet, Spider-Man must save Max and stop Venom from destroying Earth with a dragon-like weapon called the World-Killer.
  Meanwhile, the rest of the Spider Team, along with Mary Jane and Grady, must prevent Venom's ancient creators the Symbiote Sisters (Scream, Scorn, and Mania) from using Venom's seed to further their grand scheme of Earth's destruction.
-
-References
  "Spider-Man's Web-Slinging Adventures Continue in the Third Season of Disney XD's "Marvel's Spider-Man: Maximum Venom", Debuting Sunday, April 19".
-
  "Venom".
 
 -------------
@@ -708,8 +492,6 @@ Vulture
 -------------
 Wave
 -------------
-
-13	13	"Spider-Man on Ice"	Sol Choi	Sterling Gates	October 14, 2017	113[13]	N/A
 During a heat wave, Peter unknowingly helps the police to catch Hammerhead's minion Randy Macklin.
 
 -------------
@@ -721,19 +503,14 @@ Vibranium
 -------------
 Symbiote
 -------------
-20[8]
 As he juggles working with Max on the investigation on Harry Osborn, on a project for Otto Octavius' class, meeting with Harry, and a study group with Anya and Miles, Spider-Man catches Black Cat breaking into Horizon High to steal the V-252 symbiote from the space program, and tries to catch her despite being hit by her bad luck abilities.
  only to discover the symbiote is not what it appears to be.
  Spider-Man finds that the symbiote is not setting off his Spider-Senses.
  Spider-Man works to stop the symbiote's rampage even when the other football players get infected.
  When Eddie attempts to get pictures of the V-252 at the Space Administration, the symbiote merges with him and shares its memories of Spider-Man.
-
-45	19	"Superior (Part 5)"	Dan Duncan and Eric Elrod	Kevin Burke and Chris "Doc" Wyatt	October 13, 2019	219	N/A
 As Midtown High is recovering from Superior Spider-Man's fight against Cloak, Dagger, and Tiberius, the Venom symbiote is awakened from stasis due to some experimentation.
  Now able to function without the need for a host, the symbiote abandons the still-comatose Eddie and assaults Midtown High in search of Peter, intent on making him suffer for rejecting him as his host the previous year.
  Spider-Man has to take an enormous risk by using the synthetic symbiote copy to defeat the rampaging machine before it eats the Arc Reactor donated to the school by Tony Stark.
-
-
 Peter continues testing the synthetic symbiote copy while stopping the Stark Industries train system when it runs out of control upon adapting to the electrical current of the train's Arc Reactor.
  During the incident, Peter discovers that the symbiote can render itself immune to the original Venom's weaknesses.
  Upon capturing the Venomized Groot, Spider-Man and Max get to work on creating a more powerful synthetic symbiote that could perhaps thwart the Klyntar's invasion and save everyone.
@@ -745,14 +522,10 @@ Ghost
  The Stark Expo is then crashed by Ghost who steals the inter-connectivity disks to take control of everything at the Stark Expo.
  Spider-Man has to make a risk to use the V-252 to help fight Ghost and to prove to Max the truth about the V-252.
  Adopting the alias Ghost-Spider, Gwen works together with Miles and Spider-Girl to take out Scorpion and Tinkerer, who plan to draw Spider-Man out.
-
-49	23	"Goblin War: Part 1"	Eric Elrod	Gavin Hignight	November 10, 2019	223	N/A
 Spider-Man and Doctor Octopus team up with Ghost-Spider and Spider-Girl as they track down a mysterious new threat called the Goblin Nation.
  Ghost-Spider and Spider-Girl both think Goblin Nation's leader is Peter due to Octavius' actions from when he was Superior Spider-Man.
  Meanwhile, Ghost-Spider and Spider-Girl have a run-in with the Electro Goblins, discovering that different Goblin Thugs are at large.
  With Doctor Octopus and Anna Maria providing tactical support, Spider-Man and Hobgoblin battle Silvermane's Cyber Goblins while Miles, Ghost-Spider, and Spider-Girl intervene a feud between Electro's Electro Goblins and Crossbones' War Goblins.
-
-
 The Klyntar invasion continues to spread through New York, as Miles, Ghost-Spider, Spider-Girl, Hobgoblin, Ironheart, Dagger, and most of the civilians have been captured.
  Spider-Man and Ghost-Spider must track down Jackal's secret lab in an attempt to destroy the villain's latest evil plans.
 

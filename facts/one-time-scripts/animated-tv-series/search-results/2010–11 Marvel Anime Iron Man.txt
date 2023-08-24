@@ -1,9 +1,6 @@
 -------------
 Armor
 -------------
-	Title	Original airdate	English airdate
-01	"Japan: Enter Iron Man" (Iron Man Arrives in Japan)
-Transcription: "Aian Man, Rainichi" (Japanese: アイアンマン、来日)	1 October 2010	23 July 2011[5][6]
 In Japan, Tony Stark supervises the construction of an Arc Station and, planning to retire as Iron Man, readies the Iron Man Dio armor for a successor.
  After diagnosis reveals the Dio suit was hacked by an outside source, Tony reactivates his classic Iron Man armor and neutralizes it, then battles and defeats Scorpio - a warrior of the Zodiac order.
  As Iron Man is attacked by two Cancer robots, he is faced by the new Ramon Zero armor.
@@ -14,26 +11,17 @@ In Japan, Tony Stark supervises the construction of an Arc Station and, planning
 -------------
 Death
 -------------
-
-09	"A Duel of Iron" (VS Iron Man)
-Transcription: "Bāsasu Aian Man" (Japanese: VSアイアンマン)	26 November 2010	23 September 2011
 Yinsen recalls when a lady named Shehla saved him from death at Righella's hideout after his sacrifice to save Tony, making him one of the family until a terrorist attack wiped them all out, his grief and rage leading to his corruption by Zodiac.
 
 -------------
 Iron Man
 -------------
-org/wiki/List_of_Marvel_Anime_episodes#Iron_Man
-
 Iron Man
-No.
-	Title	Original airdate	English airdate
+
 01	"Japan: Enter Iron Man" (Iron Man Arrives in Japan)
-Transcription: "Aian Man, Rainichi" (Japanese: アイアンマン、来日)	1 October 2010	23 July 2011[5][6]
+
 In Japan, Tony Stark supervises the construction of an Arc Station and, planning to retire as Iron Man, readies the Iron Man Dio armor for a successor.
  After diagnosis reveals the Dio suit was hacked by an outside source, Tony reactivates his classic Iron Man armor and neutralizes it, then battles and defeats Scorpio - a warrior of the Zodiac order.
-
-02	"Going Nuclear" (Find the Missing Nuke)
-Transcription: "Kieta Kaku o Oe" (Japanese: 消えた核を追え)	8 October 2010	5 August 2011
 When Tony is accused of smuggling a stolen shipment of plutonium, Iron Man investigates the ship it was carried on and runs into another Zodiac warrior, Cancer.
  Saving Nanami, Iron Man battles Cancer once again and destroys him.
  While diverting another tornado, Iron Man discovers their source is the Zodiac robot Aries.
@@ -46,10 +34,8 @@ When Tony is accused of smuggling a stolen shipment of plutonium, Iron Man inves
  Aki's brainwaves make Virgo impervious to Iron Man's attacks.
  Aki saves Iron Man but becomes merges with Virgo, causing a destructive magnetic field to build up.
  Iron Man eventually saves Aki while Dr.
-
 09	"A Duel of Iron" (VS Iron Man)
-Transcription: "Bāsasu Aian Man" (Japanese: VSアイアンマン)	26 November 2010	23 September 2011
-Yinsen recalls when a lady named Shehla saved him from death at Righella's hideout after his sacrifice to save Tony, making him one of the family until a terrorist attack wiped them all out, his grief and rage leading to his corruption by Zodiac.
+
  Yinsen steals a container of plutonium alongside the Zodiac robot Sagittarius, and Iron Man tries to track of him down.
  During a duel, Yinsen sends an Iron Man Sigma to destroy the Arc Station, while Iron Man fruitlessly negotiates with him and is eventually defeated due to holding back on his old friend.
  Yinsen steals the Iron Man armor, throws Tony into an underground river and takes over the Arc Station.
@@ -82,8 +68,5 @@ Wolverine
 Zero
 -------------
  As Iron Man is attacked by two Cancer robots, he is faced by the new Ramon Zero armor.
-
-07	"At the Mercy of My Friends" (Escape)
-Transcription: "Dasshutsu" (Japanese: 脱出)	12 November 2010	9 September 2011
 The Ramon Zero saves Tony from the Cancer robots.
  Yinsen returns Tony his arc reactor, while Ramon Zero - revealed to be piloted by Sakurai - destroys a Scorpio robot.
