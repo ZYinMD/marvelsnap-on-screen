@@ -1395,5 +1395,5 @@ export const map: Record<Title, Cast> = {
     ],
     semi: ['Arnim Zola'],
   },
-  '2023|Moon Girl and Devil Dinosaur': { full: [], semi: [] },
+  '2023|Moon Girl and Devil Dinosaur': { full: ['Moon Girl', 'Devil Dinosaur'], semi: ['Falcon'] },
 };
