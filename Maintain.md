@@ -26,7 +26,7 @@ New releases will appear at the bottom of said sections. When it happens:
 
    It's generally ordered in the same order as the wikipedia page which is chronological, but exceptions in tv series for instance Loki season 1 was aired in 2021, She-Hulk in 2022, but on wikipedia Loki appears below She-Hulk because it's in the "Ongoing" section, so in excel it's also below She-Hulk. In the future when all seasons of Loki are finished, I may or may not remember to move it up.
 
-   I should make it not matter by sorting the list with js.
+   In the end, the order in app is determined by `map.ts`. I'll just manually adjust the order to what I like.
 
 1. Add a new entry in `map.ts`. Red squiggles should already appeared because not all shows are listed, the new entry will make the squiggles go away.
 
