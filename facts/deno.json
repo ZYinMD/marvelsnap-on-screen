@@ -2,8 +2,8 @@
   "tasks": {
     "step1": "echo 'see Maintain.md'",
     "step2": "deno run --allow-write step2/prepareAllCards.js && pnpm --dir ../ui format",
-    "step3": "deno run --allow-read --allow-write step3/prepareAllTitles.js && pnpm --dir ../ui format",
-    "step4": "deno run --allow-read --allow-write --allow-net step4/downloadAllCardImages.ts",
+    "step3": "deno run --allow-read --allow-write --allow-net step3/downloadAllCardImages.ts",
+    "step4": "deno run --allow-read --allow-write step4/prepareAllTitles.js && pnpm --dir ../ui format",
     "one-time-script": "deno one-time-scripts/animated-tv-series/find-all-cards-in-all-animated-series"
   }
 }
