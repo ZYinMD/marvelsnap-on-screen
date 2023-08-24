@@ -6,7 +6,7 @@ type Title =
   | keyof (typeof allTitles)['live-action-tv-series']
   | keyof (typeof allTitles)['animated-tv-series'];
 type Card = keyof typeof allCards;
-type Cast = { full: Card[]; semi: Card[] };
+type Cast = { major_: Card[]; minor_: Card[] };
 
 /* This file is manually created by reading wikipedia pages.
 
@@ -14,9 +14,9 @@ Ideally these arrays should be sets, so it's easier to reverse search when user 
 */
 
 export const map: Record<Title, Cast> = {
-  '1998|Blade': { full: ['Blade'], semi: [] },
+  '1998|Blade': { major_: ['Blade'], minor_: [] },
   '2000|X-Men': {
-    full: [
+    major_: [
       'Professor X',
       'Wolverine',
       'Magneto',
@@ -27,13 +27,13 @@ export const map: Record<Title, Cast> = {
       'Sabretooth',
       'Rogue',
     ],
-    semi: ['Iceman', 'Kitty Pryde', 'Jubilee'],
+    minor_: ['Iceman', 'Kitty Pryde', 'Jubilee'],
   },
-  '2002|Blade II': { full: ['Blade'], semi: [] },
-  '2002|Spider-Man': { full: ['Spider-Man', 'Green Goblin'], semi: [] },
-  '2003|Daredevil': { full: ['Daredevil', 'Elektra', 'Kingpin'], semi: [] },
+  '2002|Blade II': { major_: ['Blade'], minor_: [] },
+  '2002|Spider-Man': { major_: ['Spider-Man', 'Green Goblin'], minor_: [] },
+  '2003|Daredevil': { major_: ['Daredevil', 'Elektra', 'Kingpin'], minor_: [] },
   '2003|X2': {
-    full: [
+    major_: [
       'Professor X',
       'Wolverine',
       'Magneto',
@@ -46,19 +46,19 @@ export const map: Record<Title, Cast> = {
       'Lady Deathstrike',
       'Rogue',
     ],
-    semi: ['Colossus', 'Kitty Pryde', 'Jubilee'],
+    minor_: ['Colossus', 'Kitty Pryde', 'Jubilee'],
   },
-  '2003|Hulk': { full: ['Hulk'], semi: [] },
-  '2004|The Punisher': { full: ['Punisher'], semi: [] },
-  '2004|Spider-Man 2': { full: ['Spider-Man', 'Doctor Octopus'], semi: [] },
-  '2004|Blade: Trinity': { full: ['Blade', 'Dracula'], semi: [] },
-  '2005|Elektra': { full: ['Elektra', 'Typhoid Mary'], semi: ['Daredevil'] },
+  '2003|Hulk': { major_: ['Hulk'], minor_: [] },
+  '2004|The Punisher': { major_: ['Punisher'], minor_: [] },
+  '2004|Spider-Man 2': { major_: ['Spider-Man', 'Doctor Octopus'], minor_: [] },
+  '2004|Blade: Trinity': { major_: ['Blade', 'Dracula'], minor_: [] },
+  '2005|Elektra': { major_: ['Elektra', 'Typhoid Mary'], minor_: ['Daredevil'] },
   '2005|Fantastic Four': {
-    full: ['Mister Fantastic', 'Invisible Woman', 'Human Torch', 'The Thing', 'Doctor Doom'],
-    semi: [],
+    major_: ['Mister Fantastic', 'Invisible Woman', 'Human Torch', 'The Thing', 'Doctor Doom'],
+    minor_: [],
   },
   '2006|X-Men: The Last Stand': {
-    full: [
+    major_: [
       'Wolverine',
       'Storm',
       'Magneto',
@@ -77,12 +77,12 @@ export const map: Record<Title, Cast> = {
       'Psylocke',
       'Leech',
     ],
-    semi: ['Jubilee'],
+    minor_: ['Jubilee'],
   },
-  '2007|Ghost Rider': { full: ['Ghost Rider', 'Legion'], semi: [] },
-  '2007|Spider-Man 3': { full: ['Spider-Man', 'Sandman', 'Venom'], semi: ['Green Goblin'] },
+  '2007|Ghost Rider': { major_: ['Ghost Rider', 'Legion'], minor_: [] },
+  '2007|Spider-Man 3': { major_: ['Spider-Man', 'Sandman', 'Venom'], minor_: ['Green Goblin'] },
   '2007|Fantastic Four: Rise of the Silver Surfer': {
-    full: [
+    major_: [
       'Mister Fantastic',
       'Invisible Woman',
       'Human Torch',
@@ -91,34 +91,43 @@ export const map: Record<Title, Cast> = {
       'Silver Surfer',
       'Galactus',
     ],
-    semi: [],
+    minor_: [],
   },
-  '2008|Iron Man': { full: ['Iron Man', 'Agent Coulson'], semi: ['Rescue', 'Nick Fury'] },
-  '2008|The Incredible Hulk': { full: ['Hulk', 'Abomination'], semi: ['Iron Man'] },
-  '2008|Punisher: War Zone': { full: ['Punisher'], semi: [] },
+  '2008|Iron Man': { major_: ['Iron Man', 'Agent Coulson'], minor_: ['Rescue', 'Nick Fury'] },
+  '2008|The Incredible Hulk': { major_: ['Hulk', 'Abomination'], minor_: ['Iron Man'] },
+  '2008|Punisher: War Zone': { major_: ['Punisher'], minor_: [] },
   '2008|X-Men Origins: Wolverine': {
-    full: ['Wolverine', 'Sabretooth', 'Gambit'],
-    semi: ['Deadpool', 'Professor X'],
+    major_: ['Wolverine', 'Sabretooth', 'Gambit'],
+    minor_: ['Deadpool', 'Professor X'],
   },
   '2010|Iron Man 2': {
-    full: ['Iron Man', 'Black Widow', 'Nick Fury', 'Agent Coulson'],
-    semi: ['Rescue'],
+    major_: ['Iron Man', 'Black Widow', 'Nick Fury', 'Agent Coulson'],
+    minor_: ['Rescue'],
   },
   '2011|Thor': {
-    full: ['Thor', 'Loki', 'Agent Coulson', 'Heimdall', 'Lady Sif', 'Odin', 'Hawkeye', 'Destroyer'],
-    semi: ['Jane Foster Mighty Thor', 'Nick Fury'],
+    major_: [
+      'Thor',
+      'Loki',
+      'Agent Coulson',
+      'Heimdall',
+      'Lady Sif',
+      'Odin',
+      'Hawkeye',
+      'Destroyer',
+    ],
+    minor_: ['Jane Foster Mighty Thor', 'Nick Fury'],
   },
   '2011|X-Men: First Class': {
-    full: ['Professor X', 'Magneto', 'Mystique', 'Beast'],
-    semi: ['Wolverine'],
+    major_: ['Professor X', 'Magneto', 'Mystique', 'Beast'],
+    minor_: ['Wolverine'],
   },
   '2011|Captain America: The First Avenger': {
-    full: ['Captain America', 'Red Skull', 'Bucky Barnes', 'Arnim Zola'],
-    semi: ['Nick Fury'],
+    major_: ['Captain America', 'Red Skull', 'Bucky Barnes', 'Arnim Zola'],
+    minor_: ['Nick Fury'],
   },
-  '2011|Ghost Rider: Spirit of Vengeance': { full: ['Ghost Rider'], semi: [] },
+  '2011|Ghost Rider: Spirit of Vengeance': { major_: ['Ghost Rider'], minor_: [] },
   '2012|The Avengers': {
-    full: [
+    major_: [
       'Iron Man',
       'Captain America',
       'Hulk',
@@ -132,20 +141,20 @@ export const map: Record<Title, Cast> = {
       'Quinjet',
       'Helicarrier',
     ],
-    semi: ['Rescue', 'Thanos'],
+    minor_: ['Rescue', 'Thanos'],
   },
-  '2012|The Amazing Spider-Man': { full: ['Spider-Man', 'Lizard'], semi: [] },
-  '2013|Iron Man 3': { full: ['Iron Man'], semi: ['Hulk'] },
+  '2012|The Amazing Spider-Man': { major_: ['Spider-Man', 'Lizard'], minor_: [] },
+  '2013|Iron Man 3': { major_: ['Iron Man'], minor_: ['Hulk'] },
   '2013|The Wolverine': {
-    full: ['Wolverine', 'Jean Grey', 'Viper'],
-    semi: ['Professor X', 'Magneto'],
+    major_: ['Wolverine', 'Jean Grey', 'Viper'],
+    minor_: ['Professor X', 'Magneto'],
   },
   '2013|Thor: The Dark World': {
-    full: ['Thor', 'Loki', 'Heimdall', 'Lady Sif', 'Odin'],
-    semi: ['Jane Foster Mighty Thor'],
+    major_: ['Thor', 'Loki', 'Heimdall', 'Lady Sif', 'Odin'],
+    minor_: ['Jane Foster Mighty Thor'],
   },
   '2014|Captain America: The Winter Soldier': {
-    full: [
+    major_: [
       'Captain America',
       'Black Widow',
       'Bucky Barnes',
@@ -158,14 +167,14 @@ export const map: Record<Title, Cast> = {
       'Quinjet',
       'Helicarrier',
     ],
-    semi: ['Quicksilver', 'Scarlet Witch'],
+    minor_: ['Quicksilver', 'Scarlet Witch'],
   },
   '2014|The Amazing Spider-Man 2': {
-    full: ['Spider-Man', 'Electro', 'Green Goblin', 'Rhino'],
-    semi: [],
+    major_: ['Spider-Man', 'Electro', 'Green Goblin', 'Rhino'],
+    minor_: [],
   },
   '2014|X-Men: Days of Future Past': {
-    full: [
+    major_: [
       'Wolverine',
       'Professor X',
       'Magneto',
@@ -181,10 +190,10 @@ export const map: Record<Title, Cast> = {
       'Sunspot',
       'Warpath',
     ],
-    semi: ['Jean Grey'],
+    minor_: ['Jean Grey'],
   },
   '2014|Guardians of the Galaxy': {
-    full: [
+    major_: [
       'Star-Lord',
       'Gamora',
       'Drax',
@@ -196,10 +205,10 @@ export const map: Record<Title, Cast> = {
       'The Collector',
       'Cosmo',
     ],
-    semi: ['Thanos', 'Howard the Duck'],
+    minor_: ['Thanos', 'Howard the Duck'],
   },
   '2015|Avengers: Age of Ultron': {
-    full: [
+    major_: [
       'Iron Man',
       'Thor',
       'Hulk',
@@ -218,19 +227,19 @@ export const map: Record<Title, Cast> = {
       'Quinjet',
       'Helicarrier',
     ],
-    semi: ['Thanos'],
+    minor_: ['Thanos'],
   },
   '2015|Ant-Man': {
-    full: ['Ant Man', 'Yellowjacket', 'Falcon'],
-    semi: ['Wasp', 'Captain America', 'Bucky Barnes', 'Stature'],
+    major_: ['Ant Man', 'Yellowjacket', 'Falcon'],
+    minor_: ['Wasp', 'Captain America', 'Bucky Barnes', 'Stature'],
   },
   '2015|Fantastic Four': {
-    full: ['Mister Fantastic', 'Human Torch', 'Invisible Woman', 'The Thing', 'Doctor Doom'],
-    semi: [],
+    major_: ['Mister Fantastic', 'Human Torch', 'Invisible Woman', 'The Thing', 'Doctor Doom'],
+    minor_: [],
   },
-  '2016|Deadpool': { full: ['Deadpool', 'Negasonic Teenage Warhead', 'Colossus'], semi: [] },
+  '2016|Deadpool': { major_: ['Deadpool', 'Negasonic Teenage Warhead', 'Colossus'], minor_: [] },
   '2016|Captain America: Civil War': {
-    full: [
+    major_: [
       'Captain America',
       'Iron Man',
       'Black Widow',
@@ -246,10 +255,10 @@ export const map: Record<Title, Cast> = {
       'Crossbones',
       'Quinjet',
     ],
-    semi: [],
+    minor_: [],
   },
   '2016|X-Men: Apocalypse': {
-    full: [
+    major_: [
       'Professor X',
       'Magneto',
       'Mystique',
@@ -264,12 +273,12 @@ export const map: Record<Title, Cast> = {
       'Angel',
       'Jubilee',
     ],
-    semi: ['Wolverine'],
+    minor_: ['Wolverine'],
   },
-  '2016|Doctor Strange': { full: ['Doctor Strange', 'Baron Mordo', 'Wong'], semi: ['Thor'] },
-  '2017|Logan': { full: ['Wolverine', 'Professor X', 'X-23'], semi: [] },
+  '2016|Doctor Strange': { major_: ['Doctor Strange', 'Baron Mordo', 'Wong'], minor_: ['Thor'] },
+  '2017|Logan': { major_: ['Wolverine', 'Professor X', 'X-23'], minor_: [] },
   '2017|Guardians of the Galaxy Vol. 2': {
-    full: [
+    major_: [
       'Star-Lord',
       'Gamora',
       'Drax',
@@ -280,22 +289,22 @@ export const map: Record<Title, Cast> = {
       'Mantis',
       'Cosmo',
     ],
-    semi: ['Howard the Duck'],
+    minor_: ['Howard the Duck'],
   },
   '2017|Spider-Man: Homecoming': {
-    full: ['Spider-Man', 'Vulture', 'Iron Man', 'Shocker'],
-    semi: ['Rescue', 'Captain America', 'Quinjet'],
+    major_: ['Spider-Man', 'Vulture', 'Iron Man', 'Shocker'],
+    minor_: ['Rescue', 'Captain America', 'Quinjet'],
   },
   '2017|Thor: Ragnarok': {
-    full: ['Thor', 'Loki', 'Hela', 'Heimdall', 'Valkyrie', 'Hulk', 'Odin', 'Korg', 'Quinjet'],
-    semi: ['Doctor Strange', 'Black Widow'],
+    major_: ['Thor', 'Loki', 'Hela', 'Heimdall', 'Valkyrie', 'Hulk', 'Odin', 'Korg', 'Quinjet'],
+    minor_: ['Doctor Strange', 'Black Widow'],
   },
   '2018|Black Panther': {
-    full: ['Black Panther', 'Killmonger', 'Nakia', 'Okoye', 'Shuri', "M'Baku"],
-    semi: ['Bucky Barnes'],
+    major_: ['Black Panther', 'Killmonger', 'Nakia', 'Okoye', 'Shuri', "M'Baku"],
+    minor_: ['Bucky Barnes'],
   },
   '2018|Avengers: Infinity War': {
-    full: [
+    major_: [
       'Iron Man',
       'Thor',
       'Hulk',
@@ -327,16 +336,24 @@ export const map: Record<Title, Cast> = {
       'Red Skull',
       'Quinjet',
     ],
-    semi: ['Rescue', 'Nick Fury', 'Maria Hill'],
+    minor_: ['Rescue', 'Nick Fury', 'Maria Hill'],
   },
   '2018|Deadpool 2': {
-    full: ['Deadpool', 'Cable', 'Domino', 'Negasonic Teenage Warhead', 'Colossus', 'Juggernaut'],
-    semi: ['Professor X', 'Beast', 'Quicksilver', 'Cyclops', 'Storm', 'Nightcrawler', 'Wolverine'],
+    major_: ['Deadpool', 'Cable', 'Domino', 'Negasonic Teenage Warhead', 'Colossus', 'Juggernaut'],
+    minor_: [
+      'Professor X',
+      'Beast',
+      'Quicksilver',
+      'Cyclops',
+      'Storm',
+      'Nightcrawler',
+      'Wolverine',
+    ],
   },
-  '2018|Ant-Man and the Wasp': { full: ['Ant Man', 'Wasp', 'Ghost'], semi: ['Stature'] },
-  '2018|Venom': { full: ['Venom'], semi: ['Spider-Man', 'Miles Morales'] },
+  '2018|Ant-Man and the Wasp': { major_: ['Ant Man', 'Wasp', 'Ghost'], minor_: ['Stature'] },
+  '2018|Venom': { major_: ['Venom'], minor_: ['Spider-Man', 'Miles Morales'] },
   '2018|Spider-Man: Into the Spider-Verse': {
-    full: [
+    major_: [
       'Miles Morales',
       'Spider-Man',
       'Ghost-Spider',
@@ -346,14 +363,14 @@ export const map: Record<Title, Cast> = {
       'Green Goblin',
       'Scorpion',
     ],
-    semi: ['Spider-Man 2099'],
+    minor_: ['Spider-Man 2099'],
   },
   '2019|Captain Marvel': {
-    full: ['Captain Marvel', 'Nick Fury', 'Ronan the Accuser', 'Agent Coulson', 'Goose'],
-    semi: ['Spectrum', 'Captain America', 'Black Widow', 'Hulk'],
+    major_: ['Captain Marvel', 'Nick Fury', 'Ronan the Accuser', 'Agent Coulson', 'Goose'],
+    minor_: ['Spectrum', 'Captain America', 'Black Widow', 'Hulk'],
   },
   '2019|Avengers: Endgame': {
-    full: [
+    major_: [
       'Iron Man',
       'Captain America',
       'Hulk',
@@ -391,10 +408,10 @@ export const map: Record<Title, Cast> = {
       'Korg',
       'Quinjet',
     ],
-    semi: ['Jane Foster Mighty Thor', 'Stature'],
+    minor_: ['Jane Foster Mighty Thor', 'Stature'],
   },
   '2019|Dark Phoenix': {
-    full: [
+    major_: [
       'Professor X',
       'Magneto',
       'Mystique',
@@ -406,22 +423,22 @@ export const map: Record<Title, Cast> = {
       'Quicksilver',
       'Nightcrawler',
     ],
-    semi: ['Dazzler'],
+    minor_: ['Dazzler'],
   },
   '2019|Spider-Man: Far From Home': {
-    full: ['Spider-Man', 'Nick Fury', 'Maria Hill', 'Mysterio'],
-    semi: [],
+    major_: ['Spider-Man', 'Nick Fury', 'Maria Hill', 'Mysterio'],
+    minor_: [],
   },
-  '2020|The New Mutants': { full: ['Mirage', 'Magik', 'Wolfsbane', 'Sunspot'], semi: [] },
-  '2021|Black Widow': { full: ['Black Widow', 'Quinjet', 'Taskmaster'], semi: [] },
+  '2020|The New Mutants': { major_: ['Mirage', 'Magik', 'Wolfsbane', 'Sunspot'], minor_: [] },
+  '2021|Black Widow': { major_: ['Black Widow', 'Quinjet', 'Taskmaster'], minor_: [] },
   '2021|Shang-Chi and the Legend of the Ten Rings': {
-    full: ['Shang-Chi', 'Wong', 'Abomination'],
-    semi: ['Hulk', 'Captain Marvel'],
+    major_: ['Shang-Chi', 'Wong', 'Abomination'],
+    minor_: ['Hulk', 'Captain Marvel'],
   },
-  '2021|Venom: Let There Be Carnage': { full: ['Venom', 'Carnage'], semi: ['Spider-Man'] },
-  '2021|Eternals': { full: [], semi: [] },
+  '2021|Venom: Let There Be Carnage': { major_: ['Venom', 'Carnage'], minor_: ['Spider-Man'] },
+  '2021|Eternals': { major_: [], minor_: [] },
   '2021|Spider-Man: No Way Home': {
-    full: [
+    major_: [
       'Spider-Man',
       'Doctor Strange',
       'Electro',
@@ -431,11 +448,11 @@ export const map: Record<Title, Cast> = {
       'Lizard',
       'Sandman',
     ],
-    semi: ['Daredevil', 'Venom'],
+    minor_: ['Daredevil', 'Venom'],
   },
-  '2022|Morbius': { full: ['Morbius'], semi: ['Vulture'] },
+  '2022|Morbius': { major_: ['Morbius'], minor_: ['Vulture'] },
   '2022|Doctor Strange in the Multiverse of Madness': {
-    full: [
+    major_: [
       'Doctor Strange',
       'Scarlet Witch',
       'Baron Mordo',
@@ -445,10 +462,10 @@ export const map: Record<Title, Cast> = {
       'Black Bolt',
       'Mister Fantastic',
     ],
-    semi: [],
+    minor_: [],
   },
   '2022|Thor: Love and Thunder': {
-    full: [
+    major_: [
       'Thor',
       'Jane Foster Mighty Thor',
       'Valkyrie',
@@ -461,10 +478,10 @@ export const map: Record<Title, Cast> = {
       'Groot',
       'Rocket Raccoon',
     ],
-    semi: ['Heimdall'],
+    minor_: ['Heimdall'],
   },
   '2022|Black Panther: Wakanda Forever': {
-    full: [
+    major_: [
       'Black Panther',
       'Shuri',
       'Nakia',
@@ -475,14 +492,14 @@ export const map: Record<Title, Cast> = {
       'Killmonger',
       'Attuma',
     ],
-    semi: [],
+    minor_: [],
   },
   '2023|Ant-Man and the Wasp: Quantumania': {
-    full: ['Ant Man', 'Wasp', 'Kang', 'Stature', 'M.O.D.O.K.'],
-    semi: ['Loki', 'Mobius M. Mobius'],
+    major_: ['Ant Man', 'Wasp', 'Kang', 'Stature', 'M.O.D.O.K.'],
+    minor_: ['Loki', 'Mobius M. Mobius'],
   },
   '2023|Guardians of the Galaxy Vol. 3': {
-    full: [
+    major_: [
       'Star-Lord',
       'Gamora',
       'Drax',
@@ -495,31 +512,31 @@ export const map: Record<Title, Cast> = {
       'Yondu',
       'Cosmo',
     ],
-    semi: ['Howard the Duck'],
+    minor_: ['Howard the Duck'],
   },
   '2023|Spider-Man: Across the Spider-Verse': {
-    full: ['Miles Morales', 'Ghost-Spider', 'Spider-Woman', 'Spider-Man 2099'],
-    semi: [],
+    major_: ['Miles Morales', 'Ghost-Spider', 'Spider-Woman', 'Spider-Man 2099'],
+    minor_: [],
   },
-  '2006|Blade: The Series': { full: ['Blade'], semi: [] },
+  '2006|Blade: The Series': { major_: ['Blade'], minor_: [] },
   '2013–2020|Agents of S.H.I.E.L.D.': {
-    full: ['Agent Coulson', 'Quake', 'Quinjet'],
-    semi: ['Maria Hill'],
+    major_: ['Agent Coulson', 'Quake', 'Quinjet'],
+    minor_: ['Maria Hill'],
   },
-  '2015–2016|Agent Carter': { full: [], semi: [] },
-  '2015–2018|Daredevil': { full: ['Daredevil', 'Kingpin', 'Punisher', 'Elektra'], semi: [] },
-  '2015–2019|Jessica Jones': { full: ['Jessica Jones', 'Luke Cage'], semi: [] },
+  '2015–2016|Agent Carter': { major_: [], minor_: [] },
+  '2015–2018|Daredevil': { major_: ['Daredevil', 'Kingpin', 'Punisher', 'Elektra'], minor_: [] },
+  '2015–2019|Jessica Jones': { major_: ['Jessica Jones', 'Luke Cage'], minor_: [] },
   '2016–2018|Luke Cage': {
-    full: ['Luke Cage', 'Misty Knight', 'Colleen Wing', 'Iron Fist'],
-    semi: [],
+    major_: ['Luke Cage', 'Misty Knight', 'Colleen Wing', 'Iron Fist'],
+    minor_: [],
   },
-  '2017–2019|Legion': { full: ['Legion', 'Shadow King'], semi: [] },
+  '2017–2019|Legion': { major_: ['Legion', 'Shadow King'], minor_: [] },
   '2017–2018|Iron Fist': {
-    full: ['Iron Fist', 'Colleen Wing', 'Misty Knight', 'Typhoid Mary'],
-    semi: [],
+    major_: ['Iron Fist', 'Colleen Wing', 'Misty Knight', 'Typhoid Mary'],
+    minor_: [],
   },
   '2017|The Defenders': {
-    full: [
+    major_: [
       'Daredevil',
       'Jessica Jones',
       'Luke Cage',
@@ -528,33 +545,36 @@ export const map: Record<Title, Cast> = {
       'Misty Knight',
       'Elektra',
     ],
-    semi: [],
+    minor_: [],
   },
-  '2017|Inhumans': { full: ['Black Bolt', 'Medusa', 'Crystal', 'Maximus', 'Lockjaw'], semi: [] },
-  '2017–2019|The Gifted': { full: ['Polaris'], semi: [] },
-  '2017–2019|The Punisher': { full: ['Punisher'], semi: [] },
-  '2017–2019|Runaways': { full: [], semi: ['Dagger', 'Cloak'] },
-  '2018–2019|Cloak & Dagger': { full: ['Dagger', 'Cloak'], semi: [] },
-  '2020|Helstrom': { full: [], semi: [] },
+  '2017|Inhumans': {
+    major_: ['Black Bolt', 'Medusa', 'Crystal', 'Maximus', 'Lockjaw'],
+    minor_: [],
+  },
+  '2017–2019|The Gifted': { major_: ['Polaris'], minor_: [] },
+  '2017–2019|The Punisher': { major_: ['Punisher'], minor_: [] },
+  '2017–2019|Runaways': { major_: [], minor_: ['Dagger', 'Cloak'] },
+  '2018–2019|Cloak & Dagger': { major_: ['Dagger', 'Cloak'], minor_: [] },
+  '2020|Helstrom': { major_: [], minor_: [] },
   '2021|WandaVision': {
-    full: ['Scarlet Witch', 'Vision', 'Agatha Harkness', 'Spectrum'],
-    semi: [],
+    major_: ['Scarlet Witch', 'Vision', 'Agatha Harkness', 'Spectrum'],
+    minor_: [],
   },
   '2021|The Falcon and the Winter Soldier': {
-    full: ['Winter Soldier', 'Falcon', 'Agent 13'],
-    semi: [],
+    major_: ['Winter Soldier', 'Falcon', 'Agent 13'],
+    minor_: [],
   },
-  '2021|Hawkeye': { full: ['Hawkeye', 'Kingpin'], semi: [] },
-  '2021–2024|Loki': { full: ['Loki', 'Mobius M. Mobius', 'Quinjet'], semi: ['Kang'] },
-  '2022|Moon Knight': { full: ['Moon Knight'], semi: [] },
-  '2022|Ms. Marvel': { full: [], semi: ['Captain Marvel'] },
+  '2021|Hawkeye': { major_: ['Hawkeye', 'Kingpin'], minor_: [] },
+  '2021–2024|Loki': { major_: ['Loki', 'Mobius M. Mobius', 'Quinjet'], minor_: ['Kang'] },
+  '2022|Moon Knight': { major_: ['Moon Knight'], minor_: [] },
+  '2022|Ms. Marvel': { major_: [], minor_: ['Captain Marvel'] },
   '2022|She-Hulk: Attorney at Law': {
-    full: ['She-Hulk', 'Hulk', 'Titania', 'Abomination', 'Wong', 'Daredevil'],
-    semi: [],
+    major_: ['She-Hulk', 'Hulk', 'Titania', 'Abomination', 'Wong', 'Daredevil'],
+    minor_: [],
   },
-  '2023|Secret Invasion': { full: ['Nick Fury', 'Maria Hill'], semi: [] },
+  '2023|Secret Invasion': { major_: ['Nick Fury', 'Maria Hill'], minor_: [] },
   '1992–1997|X-Men: The Animated Series': {
-    full: [
+    major_: [
       'Professor X',
       'Wolverine',
       'Cyclops',
@@ -585,7 +605,7 @@ export const map: Record<Title, Cast> = {
       'Apocalypse',
       'Lady Deathstrike',
     ],
-    semi: [
+    minor_: [
       'Iceman',
       'Psylocke',
       'White Queen',
@@ -601,7 +621,7 @@ export const map: Record<Title, Cast> = {
     ],
   },
   '1994–1996|Fantastic Four: The Animated Series': {
-    full: [
+    major_: [
       'Mister Fantastic',
       'Invisible Woman',
       'Human Torch',
@@ -615,7 +635,7 @@ export const map: Record<Title, Cast> = {
       'Black Bolt',
       'Lockjaw',
     ],
-    semi: [
+    minor_: [
       'Ghost Rider',
       'Thor',
       'Black Panther',
@@ -627,11 +647,11 @@ export const map: Record<Title, Cast> = {
     ],
   },
   '1994–1996|Iron Man': {
-    full: ['Iron Man', 'Hawkeye', 'Nick Fury', 'Scarlet Witch', 'Spider-Woman', 'Ghost'],
-    semi: [],
+    major_: ['Iron Man', 'Hawkeye', 'Nick Fury', 'Scarlet Witch', 'Spider-Woman', 'Ghost'],
+    minor_: [],
   },
   '1994–1998|Spider-Man: The Animated Series': {
-    full: [
+    major_: [
       'Spider-Man',
       'Doctor Octopus',
       'Green Goblin',
@@ -656,7 +676,7 @@ export const map: Record<Title, Cast> = {
       'Nick Fury',
       'Electro',
     ],
-    semi: [
+    minor_: [
       'Captain America',
       'Doctor Strange',
       'Wong',
@@ -672,8 +692,8 @@ export const map: Record<Title, Cast> = {
     ],
   },
   '1996–1997|The Incredible Hulk': {
-    full: ['Hulk', 'She-Hulk', 'Abomination', 'Doctor Doom'],
-    semi: [
+    major_: ['Hulk', 'She-Hulk', 'Abomination', 'Doctor Doom'],
+    minor_: [
       'Ghost Rider',
       'Doctor Strange',
       'Thor',
@@ -684,11 +704,11 @@ export const map: Record<Title, Cast> = {
     ],
   },
   '1998|Silver Surfer': {
-    full: ['Silver Surfer', 'Galactus', 'Nova', 'Thanos'],
-    semi: ['Drax', 'Adam Warlock', 'Gamora', 'Nebula'],
+    major_: ['Silver Surfer', 'Galactus', 'Nova', 'Thanos'],
+    minor_: ['Drax', 'Adam Warlock', 'Gamora', 'Nebula'],
   },
   '1999–2000|The Avengers: United They Stand': {
-    full: [
+    major_: [
       'Ant Man',
       'Wasp',
       'Hawkeye',
@@ -700,10 +720,10 @@ export const map: Record<Title, Cast> = {
       'Namor',
       'Attuma',
     ],
-    semi: ['Absorbing Man', 'Agatha Harkness', 'Captain America', 'Iron Man'],
+    minor_: ['Absorbing Man', 'Agatha Harkness', 'Captain America', 'Iron Man'],
   },
   '1999–2001|Spider-Man Unlimited': {
-    full: [
+    major_: [
       'Spider-Man',
       'High Evolutionary',
       'Venom',
@@ -713,10 +733,10 @@ export const map: Record<Title, Cast> = {
       'Vulture',
       'Kraven',
     ],
-    semi: ['Nick Fury'],
+    minor_: ['Nick Fury'],
   },
   '2000–2003|X-Men: Evolution': {
-    full: [
+    major_: [
       'Cyclops',
       'Jean Grey',
       'Professor X',
@@ -745,7 +765,7 @@ export const map: Record<Title, Cast> = {
       'Phoenix Force',
       'Nick Fury',
     ],
-    semi: [
+    minor_: [
       'Omega Red',
       'Multiple Man',
       'Agatha Harkness',
@@ -756,11 +776,11 @@ export const map: Record<Title, Cast> = {
     ],
   },
   '2003|Spider-Man: The New Animated Series': {
-    full: ['Spider-Man', 'Electro', 'Lizard', 'Black Cat', 'Kingpin', 'Kraven'],
-    semi: [],
+    major_: ['Spider-Man', 'Electro', 'Lizard', 'Black Cat', 'Kingpin', 'Kraven'],
+    minor_: [],
   },
   "2006–2007|Fantastic Four: World's Greatest Heroes": {
-    full: [
+    major_: [
       'Mister Fantastic',
       'Invisible Woman',
       'Human Torch',
@@ -769,7 +789,7 @@ export const map: Record<Title, Cast> = {
       'Ronan the Accuser',
       'Namor',
     ],
-    semi: [
+    minor_: [
       'Hulk',
       'She-Hulk',
       'Squirrel Girl',
@@ -781,7 +801,7 @@ export const map: Record<Title, Cast> = {
     ],
   },
   '2008–2009|The Spectacular Spider-Man': {
-    full: [
+    major_: [
       'Spider-Man',
       'Doctor Octopus',
       'Sandman',
@@ -796,10 +816,10 @@ export const map: Record<Title, Cast> = {
       'Kraven',
       'Black Cat',
     ],
-    semi: [],
+    minor_: [],
   },
   '2009|Wolverine and the X-Men': {
-    full: [
+    major_: [
       'Wolverine',
       'Professor X',
       'Magneto',
@@ -835,7 +855,7 @@ export const map: Record<Title, Cast> = {
       'Rockslide',
       'Psylocke',
     ],
-    semi: [
+    minor_: [
       'X-23',
       'Silver Samurai',
       'Hulk',
@@ -847,7 +867,7 @@ export const map: Record<Title, Cast> = {
     ],
   },
   '2009–2011|The Super Hero Squad Show': {
-    full: [
+    major_: [
       'Hulk',
       'Captain America',
       'Iron Man',
@@ -892,7 +912,7 @@ export const map: Record<Title, Cast> = {
       'The Thing',
       'Helicarrier',
     ],
-    semi: [
+    minor_: [
       'Adam Warlock',
       'Uatu the Watcher',
       'Nova',
@@ -922,7 +942,7 @@ export const map: Record<Title, Cast> = {
     ],
   },
   '2009–2012|Iron Man: Armored Adventures': {
-    full: [
+    major_: [
       'Iron Man',
       'Hulk',
       'Hawkeye',
@@ -935,10 +955,10 @@ export const map: Record<Title, Cast> = {
       'M.O.D.O.K.',
       'Helicarrier',
     ],
-    semi: ['Magneto', 'Jean Grey', 'Maria Hill'],
+    minor_: ['Magneto', 'Jean Grey', 'Maria Hill'],
   },
   "2010–2012|The Avengers: Earth's Mightiest Heroes": {
-    full: [
+    major_: [
       'Captain America',
       'Hulk',
       'Iron Man',
@@ -968,7 +988,7 @@ export const map: Record<Title, Cast> = {
       'Hulkbuster',
       'Helicarrier',
     ],
-    semi: [
+    minor_: [
       'Maria Hill',
       'Wolverine',
       'Doctor Doom',
@@ -1000,15 +1020,18 @@ export const map: Record<Title, Cast> = {
       'Rocket Raccoon',
     ],
   },
-  '2010–2011|Marvel Anime: Iron Man': { full: ['Iron Man'], semi: ['Wolverine'] },
-  '2011–2012|Marvel Anime: Wolverine': { full: ['Wolverine', 'Omega Red', 'Cyclops'], semi: [] },
-  '2011–2012|Marvel Anime: X-Men': {
-    full: ['Armor', 'Wolverine', 'Cyclops', 'Beast', 'Professor X', 'Storm', 'Cerebro'],
-    semi: ['Jean Grey'],
+  '2010–2011|Marvel Anime: Iron Man': { major_: ['Iron Man'], minor_: ['Wolverine'] },
+  '2011–2012|Marvel Anime: Wolverine': {
+    major_: ['Wolverine', 'Omega Red', 'Cyclops'],
+    minor_: [],
   },
-  '2011–2012|Marvel Anime: Blade': { full: ['Blade'], semi: ['Wolverine'] },
+  '2011–2012|Marvel Anime: X-Men': {
+    major_: ['Armor', 'Wolverine', 'Cyclops', 'Beast', 'Professor X', 'Storm', 'Cerebro'],
+    minor_: ['Jean Grey'],
+  },
+  '2011–2012|Marvel Anime: Blade': { major_: ['Blade'], minor_: ['Wolverine'] },
   '2012–2017|Ultimate Spider-Man': {
-    full: [
+    major_: [
       'Spider-Man',
       'Doctor Octopus',
       'Green Goblin',
@@ -1056,7 +1079,7 @@ export const map: Record<Title, Cast> = {
       'Helicarrier',
       'Quinjet',
     ],
-    semi: [
+    minor_: [
       'Deadpool',
       'Wolverine',
       'Falcon',
@@ -1090,7 +1113,7 @@ export const map: Record<Title, Cast> = {
     ],
   },
   '2013–2015|Hulk and the Agents of S.M.A.S.H.': {
-    full: [
+    major_: [
       'Hulk',
       'Devil Dinosaur',
       'Leader',
@@ -1111,7 +1134,7 @@ export const map: Record<Title, Cast> = {
       'Ronan the Accuser',
       'Super-Skrull',
     ],
-    semi: [
+    minor_: [
       'Doctor Octopus',
       'Black Bolt',
       'Maximus',
@@ -1133,7 +1156,7 @@ export const map: Record<Title, Cast> = {
     ],
   },
   '2013–2019|Avengers Assemble': {
-    full: [
+    major_: [
       'Captain America',
       'Iron Man',
       'Hulk',
@@ -1175,7 +1198,7 @@ export const map: Record<Title, Cast> = {
       'Arnim Zola',
       'Absorbing Man',
     ],
-    semi: [
+    minor_: [
       'Nick Fury',
       'Mojo',
       'Uatu the Watcher',
@@ -1200,7 +1223,7 @@ export const map: Record<Title, Cast> = {
     ],
   },
   '2015–2016|Marvel Disk Wars: The Avengers': {
-    full: [
+    major_: [
       'Captain America',
       'Iron Man',
       'Hulk',
@@ -1235,7 +1258,7 @@ export const map: Record<Title, Cast> = {
       'Blade',
       'Maria Hill',
     ],
-    semi: [
+    minor_: [
       'Doctor Octopus',
       'Venom',
       'Doctor Strange',
@@ -1255,7 +1278,7 @@ export const map: Record<Title, Cast> = {
     ],
   },
   '2015–2019|Guardians of the Galaxy': {
-    full: [
+    major_: [
       'Star-Lord',
       'Gamora',
       'Groot',
@@ -1287,7 +1310,7 @@ export const map: Record<Title, Cast> = {
       'Spider-Man',
       'Maximus',
     ],
-    semi: [
+    minor_: [
       'Medusa',
       'Lockjaw',
       'Heimdall',
@@ -1298,7 +1321,7 @@ export const map: Record<Title, Cast> = {
     ],
   },
   '2017–2018|Marvel Future Avengers': {
-    full: [
+    major_: [
       'Captain America',
       'Iron Man',
       'Thor',
@@ -1327,10 +1350,10 @@ export const map: Record<Title, Cast> = {
       'Enchantress',
       'Green Goblin',
     ],
-    semi: ['Iron Fist', 'Ms. Marvel', 'Klaw', 'Crossbones', 'The Hood'],
+    minor_: ['Iron Fist', 'Ms. Marvel', 'Klaw', 'Crossbones', 'The Hood'],
   },
   "2017–2020|Marvel's Spider-Man": {
-    full: [
+    major_: [
       'Spider-Man',
       'Miles Morales',
       'Ghost-Spider',
@@ -1355,7 +1378,7 @@ export const map: Record<Title, Cast> = {
       'Ironheart',
       'M.O.D.O.K.',
     ],
-    semi: [
+    minor_: [
       'Swarm',
       'Ghost',
       'Star-Lord',
@@ -1371,13 +1394,13 @@ export const map: Record<Title, Cast> = {
       'Baron Mordo',
     ],
   },
-  '2021|Hit-Monkey': { full: ['Hit-Monkey', 'Silver Samurai'], semi: [] },
+  '2021|Hit-Monkey': { major_: ['Hit-Monkey', 'Silver Samurai'], minor_: [] },
   '2021|M.O.D.O.K.': {
-    full: ['M.O.D.O.K.'],
-    semi: ['Iron Man', 'Captain America', 'Mister Sinister', 'Leader', 'Brood'],
+    major_: ['M.O.D.O.K.'],
+    minor_: ['Iron Man', 'Captain America', 'Mister Sinister', 'Leader', 'Brood'],
   },
   '2021–2023|Spidey and His Amazing Friends': {
-    full: [
+    major_: [
       'Spider-Man',
       'Miles Morales',
       'Ghost-Spider',
@@ -1393,7 +1416,10 @@ export const map: Record<Title, Cast> = {
       'Black Cat',
       'Electro',
     ],
-    semi: ['Arnim Zola'],
+    minor_: ['Arnim Zola'],
   },
-  '2023|Moon Girl and Devil Dinosaur': { full: ['Moon Girl', 'Devil Dinosaur'], semi: ['Falcon'] },
+  '2023|Moon Girl and Devil Dinosaur': {
+    major_: ['Moon Girl', 'Devil Dinosaur'],
+    minor_: ['Falcon'],
+  },
 };
