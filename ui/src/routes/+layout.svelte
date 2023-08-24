@@ -8,6 +8,6 @@
 </svelte:head>
 
 <div class="app">
-  <div>+layout</div>
+  <div>root +layout</div>
   <slot />
 </div>
