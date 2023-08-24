@@ -9,8 +9,10 @@ for (const sheetName of workbook.SheetNames) {
   const rows = XLSX.utils.sheet_to_json(workbook.Sheets[sheetName]);
   rows.forEach((row) => {
     row.year = String(row.year); // all year should be string not number, because there are some span values like "2019-2020":
-    const id = `${row.year}|${row.title}`;
-    result[sheetName][id] = row;
+    const key = `${row.year}|${row.title}`;
+    row['key'] = key;
+    row['type'] = sheetName;
+    result[sheetName][key] = row;
   });
 }
 const outputFilePath = new URL('../../ui/src/lib/facts/allTitles.ts', import.meta.url);

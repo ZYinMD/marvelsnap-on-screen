@@ -4,7 +4,7 @@
 
 <!-- @component the list of all the shows the home page -->
 <div class="container">
-  {#each $mainList as show (show.wikipedia)}
+  {#each $mainList as show (show.key)}
     <div class="show">
       {show.title}
     </div>
