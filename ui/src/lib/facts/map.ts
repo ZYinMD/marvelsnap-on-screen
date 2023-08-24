@@ -1371,8 +1371,8 @@ export const map: Record<Title, Cast> = {
       'Baron Mordo',
     ],
   },
+  '2021|Hit-Monkey': { full: ['Hit-Monkey', 'Silver Samurai'], semi: [] },
   '2021|M.O.D.O.K.': { full: [], semi: [] },
   '2021–2023|Spidey and His Amazing Friends': { full: [], semi: [] },
-  '2021|Hit-Monkey': { full: [], semi: [] },
   '2023|Moon Girl and Devil Dinosaur': { full: [], semi: [] },
 };
