@@ -12,7 +12,7 @@ for (const i of filesNeeded) {
   if (filesOwned.has(i)) continue;
   console.info(`\nDownload ${i}...`);
   const url = `https://snapjson.untapped.gg/art/render/framebreak/common/512/${i}`;
-  await sleep(3e3);
+  await sleep(2e3);
   const res = await fetch(url);
   const status = res.status;
   const contentLength = Number(res.headers.get('content-length')); // could be "12345" or "0" or null before converting to number
