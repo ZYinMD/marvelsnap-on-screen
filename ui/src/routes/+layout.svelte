@@ -1,4 +1,5 @@
 <script lang="ts">
+  import MainList from '../lib/MainList/MainList.svelte';
   import './styles.css';
 </script>
 
@@ -8,6 +9,6 @@
 </svelte:head>
 
 <div class="app">
-  <div>root +layout</div>
+  <MainList />
   <slot />
 </div>

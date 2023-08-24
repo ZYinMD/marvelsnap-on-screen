@@ -1,7 +1,7 @@
 <script lang="ts">
 </script>
 
-<div class="container">root +page</div>
+<div class="container"></div>
 
 <style>
 </style>

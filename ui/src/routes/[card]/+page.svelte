@@ -2,10 +2,15 @@
   export let data;
 </script>
 
-<div class="container">[card]/+page {data.card}</div>
+<div class="container">{data.card}</div>
 
 <style>
   .container {
-    background-color: Pink;
+    position: fixed;
+    top: 100px;
+    left: 100px;
+    height: 50vh;
+    width: 50vw;
+    background-color: bisque;
   }
 </style>
