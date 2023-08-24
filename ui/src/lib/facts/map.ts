@@ -492,19 +492,19 @@ export const map: Record<Title, Cast> = {
     semi: [],
   },
   '2006|Blade: The Series': { full: ['Blade'], semi: [] },
-  '2013–20|Agents of S.H.I.E.L.D.': {
+  '2013–2020|Agents of S.H.I.E.L.D.': {
     full: ['Agent Coulson', 'Quake', 'Quinjet'],
     semi: ['Maria Hill'],
   },
-  '2015–16|Agent Carter': { full: [], semi: [] },
-  '2015–18|Daredevil': { full: ['Daredevil', 'Kingpin', 'Punisher', 'Elektra'], semi: [] },
-  '2015–19|Jessica Jones': { full: ['Jessica Jones', 'Luke Cage'], semi: [] },
-  '2016–18|Luke Cage': {
+  '2015–2016|Agent Carter': { full: [], semi: [] },
+  '2015–2018|Daredevil': { full: ['Daredevil', 'Kingpin', 'Punisher', 'Elektra'], semi: [] },
+  '2015–2019|Jessica Jones': { full: ['Jessica Jones', 'Luke Cage'], semi: [] },
+  '2016–2018|Luke Cage': {
     full: ['Luke Cage', 'Misty Knight', 'Colleen Wing', 'Iron Fist'],
     semi: [],
   },
-  '2017–19|Legion': { full: ['Legion', 'Shadow King'], semi: [] },
-  '2017–18|Iron Fist': {
+  '2017–2019|Legion': { full: ['Legion', 'Shadow King'], semi: [] },
+  '2017–2018|Iron Fist': {
     full: ['Iron Fist', 'Colleen Wing', 'Misty Knight', 'Typhoid Mary'],
     semi: [],
   },
@@ -521,10 +521,10 @@ export const map: Record<Title, Cast> = {
     semi: [],
   },
   '2017|Inhumans': { full: ['Black Bolt', 'Medusa', 'Crystal', 'Maximus', 'Lockjaw'], semi: [] },
-  '2017–19|The Gifted': { full: ['Polaris'], semi: [] },
-  '2017–19|The Punisher': { full: ['Punisher'], semi: [] },
-  '2017–19|Runaways': { full: [], semi: ['Dagger', 'Cloak'] },
-  '2018–19|Cloak & Dagger': { full: ['Dagger', 'Cloak'], semi: [] },
+  '2017–2019|The Gifted': { full: ['Polaris'], semi: [] },
+  '2017–2019|The Punisher': { full: ['Punisher'], semi: [] },
+  '2017–2019|Runaways': { full: [], semi: ['Dagger', 'Cloak'] },
+  '2018–2019|Cloak & Dagger': { full: ['Dagger', 'Cloak'], semi: [] },
   '2020|Helstrom': { full: [], semi: [] },
   '2021|WandaVision': {
     full: ['Scarlet Witch', 'Vision', 'Agatha Harkness', 'Spectrum'],
@@ -535,7 +535,7 @@ export const map: Record<Title, Cast> = {
     semi: [],
   },
   '2021|Hawkeye': { full: ['Hawkeye', 'Kingpin'], semi: [] },
-  '2021–24|Loki': { full: ['Loki', 'Mobius M. Mobius', 'Quinjet'], semi: ['Kang'] },
+  '2021–2024|Loki': { full: ['Loki', 'Mobius M. Mobius', 'Quinjet'], semi: ['Kang'] },
   '2022|Moon Knight': { full: ['Moon Knight'], semi: [] },
   '2022|Ms. Marvel': { full: [], semi: ['Captain Marvel'] },
   '2022|She-Hulk: Attorney at Law': {
@@ -543,7 +543,7 @@ export const map: Record<Title, Cast> = {
     semi: [],
   },
   '2023|Secret Invasion': { full: ['Nick Fury', 'Maria Hill'], semi: [] },
-  '1992–97|X-Men: The Animated Series': {
+  '1992–1997|X-Men: The Animated Series': {
     full: [
       'Professor X',
       'Wolverine',
@@ -590,7 +590,7 @@ export const map: Record<Title, Cast> = {
       'Captain America',
     ],
   },
-  '1994–96|Fantastic Four: The Animated Series': {
+  '1994–1996|Fantastic Four: The Animated Series': {
     full: [
       'Mister Fantastic',
       'Invisible Woman',
@@ -616,11 +616,11 @@ export const map: Record<Title, Cast> = {
       'Namor',
     ],
   },
-  '1994–96|Iron Man': {
+  '1994–1996|Iron Man': {
     full: ['Iron Man', 'Hawkeye', 'Nick Fury', 'Scarlet Witch', 'Spider-Woman', 'Ghost'],
     semi: [],
   },
-  '1994–98|Spider-Man: The Animated Series': {
+  '1994–1998|Spider-Man: The Animated Series': {
     full: [
       'Spider-Man',
       'Doctor Octopus',
@@ -661,7 +661,7 @@ export const map: Record<Title, Cast> = {
       'Helicarrier',
     ],
   },
-  '1996–97|The Incredible Hulk': {
+  '1996–1997|The Incredible Hulk': {
     full: ['Hulk', 'She-Hulk', 'Abomination', 'Doctor Doom'],
     semi: [
       'Ghost Rider',
@@ -705,7 +705,7 @@ export const map: Record<Title, Cast> = {
     ],
     semi: ['Nick Fury'],
   },
-  '2000–03|X-Men: Evolution': {
+  '2000–2003|X-Men: Evolution': {
     full: [
       'Cyclops',
       'Jean Grey',
@@ -749,7 +749,7 @@ export const map: Record<Title, Cast> = {
     full: ['Spider-Man', 'Electro', 'Lizard', 'Black Cat', 'Kingpin', 'Kraven'],
     semi: [],
   },
-  "2006–07|Fantastic Four: World's Greatest Heroes": {
+  "2006–2007|Fantastic Four: World's Greatest Heroes": {
     full: [
       'Mister Fantastic',
       'Invisible Woman',
@@ -770,7 +770,7 @@ export const map: Record<Title, Cast> = {
       'Giganto',
     ],
   },
-  '2008–09|The Spectacular Spider-Man': {
+  '2008–2009|The Spectacular Spider-Man': {
     full: [
       'Spider-Man',
       'Doctor Octopus',
@@ -836,20 +836,20 @@ export const map: Record<Title, Cast> = {
       'Leech',
     ],
   },
-  '2009–12|Iron Man: Armored Adventures': { full: [], semi: [] },
-  '2009–11|The Super Hero Squad Show': { full: [], semi: [] },
-  "2010–12|The Avengers: Earth's Mightiest Heroes": { full: [], semi: [] },
-  '2010–11|Marvel Anime: Iron Man': { full: [], semi: [] },
-  '2011–12|Marvel Anime: Wolverine': { full: [], semi: [] },
-  '2011–12|Marvel Anime: X-Men': { full: [], semi: [] },
-  '2011–12|Marvel Anime: Blade': { full: [], semi: [] },
-  '2012–17|Ultimate Spider-Man': { full: [], semi: [] },
-  '2013–19|Avengers Assemble': { full: [], semi: [] },
-  '2013–15|Hulk and the Agents of S.M.A.S.H.': { full: [], semi: [] },
-  '2015–16|Marvel Disk Wars: The Avengers': { full: [], semi: [] },
-  '2015–19|Guardians of the Galaxy': { full: [], semi: [] },
-  '2017–18|Marvel Future Avengers': { full: [], semi: [] },
-  "2017–20|Marvel's Spider-Man": { full: [], semi: [] },
+  '2009–2011|The Super Hero Squad Show': { full: [], semi: [] },
+  '2009–2012|Iron Man: Armored Adventures': { full: [], semi: [] },
+  "2010–2012|The Avengers: Earth's Mightiest Heroes": { full: [], semi: [] },
+  '2010–2011|Marvel Anime: Iron Man': { full: [], semi: [] },
+  '2011–2012|Marvel Anime: Wolverine': { full: [], semi: [] },
+  '2011–2012|Marvel Anime: X-Men': { full: [], semi: [] },
+  '2011–2012|Marvel Anime: Blade': { full: [], semi: [] },
+  '2012–2017|Ultimate Spider-Man': { full: [], semi: [] },
+  '2013–2019|Avengers Assemble': { full: [], semi: [] },
+  '2013–2015|Hulk and the Agents of S.M.A.S.H.': { full: [], semi: [] },
+  '2015–2016|Marvel Disk Wars: The Avengers': { full: [], semi: [] },
+  '2015–2019|Guardians of the Galaxy': { full: [], semi: [] },
+  '2017–2018|Marvel Future Avengers': { full: [], semi: [] },
+  "2017–2020|Marvel's Spider-Man": { full: [], semi: [] },
   '2021|M.O.D.O.K.': { full: [], semi: [] },
   '2021–2023|Spidey and His Amazing Friends': { full: [], semi: [] },
   '2021|Hit-Monkey': { full: [], semi: [] },

@@ -414,55 +414,55 @@ export const allTitles = {
       numEpisodes: 12,
       continuity: 'blade',
     },
-    '2013–20|Agents of S.H.I.E.L.D.': {
-      year: '2013–20',
+    '2013–2020|Agents of S.H.I.E.L.D.': {
+      year: '2013–2020',
       title: 'Agents of S.H.I.E.L.D.',
       wikipedia: 'https://en.wikipedia.org/wiki/Agents_of_S.H.I.E.L.D.',
       numSeasons: 7,
       numEpisodes: 136,
       continuity: 'mcu',
     },
-    '2015–16|Agent Carter': {
-      year: '2015–16',
+    '2015–2016|Agent Carter': {
+      year: '2015–2016',
       title: 'Agent Carter',
       wikipedia: 'https://en.wikipedia.org/wiki/Agent_Carter_(TV_series)',
       numSeasons: 2,
       numEpisodes: 18,
       continuity: 'mcu-netflix',
     },
-    '2015–18|Daredevil': {
-      year: '2015–18',
+    '2015–2018|Daredevil': {
+      year: '2015–2018',
       title: 'Daredevil',
       wikipedia: 'https://en.wikipedia.org/wiki/Daredevil_(TV_series)',
       numSeasons: 3,
       numEpisodes: 39,
       continuity: 'mcu-netflix',
     },
-    '2015–19|Jessica Jones': {
-      year: '2015–19',
+    '2015–2019|Jessica Jones': {
+      year: '2015–2019',
       title: 'Jessica Jones',
       wikipedia: 'https://en.wikipedia.org/wiki/Jessica_Jones_(TV_series)',
       numSeasons: 3,
       numEpisodes: 39,
       continuity: 'mcu-netflix',
     },
-    '2016–18|Luke Cage': {
-      year: '2016–18',
+    '2016–2018|Luke Cage': {
+      year: '2016–2018',
       title: 'Luke Cage',
       wikipedia: 'https://en.wikipedia.org/wiki/Luke_Cage_(TV_series)',
       numSeasons: 2,
       numEpisodes: 26,
       continuity: 'mcu-netflix',
     },
-    '2017–19|Legion': {
-      year: '2017–19',
+    '2017–2019|Legion': {
+      year: '2017–2019',
       title: 'Legion',
       wikipedia: 'https://en.wikipedia.org/wiki/Legion_(TV_series)',
       numSeasons: 3,
       numEpisodes: 27,
     },
-    '2017–18|Iron Fist': {
-      year: '2017–18',
+    '2017–2018|Iron Fist': {
+      year: '2017–2018',
       title: 'Iron Fist',
       wikipedia: 'https://en.wikipedia.org/wiki/Iron_Fist_(TV_series)',
       numSeasons: 2,
@@ -485,31 +485,31 @@ export const allTitles = {
       numEpisodes: 8,
       continuity: 'mcu',
     },
-    '2017–19|The Gifted': {
-      year: '2017–19',
+    '2017–2019|The Gifted': {
+      year: '2017–2019',
       title: 'The Gifted',
       wikipedia: 'https://en.wikipedia.org/wiki/The_Gifted_(American_TV_series)',
       numSeasons: 2,
       numEpisodes: 29,
     },
-    '2017–19|The Punisher': {
-      year: '2017–19',
+    '2017–2019|The Punisher': {
+      year: '2017–2019',
       title: 'The Punisher',
       wikipedia: 'https://en.wikipedia.org/wiki/The_Punisher_(TV_series)',
       numSeasons: 2,
       numEpisodes: 26,
       continuity: 'mcu-netflix',
     },
-    '2017–19|Runaways': {
-      year: '2017–19',
+    '2017–2019|Runaways': {
+      year: '2017–2019',
       title: 'Runaways',
       wikipedia: 'https://en.wikipedia.org/wiki/Runaways_(TV_series)',
       numSeasons: 3,
       numEpisodes: 33,
       continuity: 'mcu',
     },
-    '2018–19|Cloak & Dagger': {
-      year: '2018–19',
+    '2018–2019|Cloak & Dagger': {
+      year: '2018–2019',
       title: 'Cloak & Dagger',
       wikipedia: 'https://en.wikipedia.org/wiki/Cloak_%26_Dagger_(TV_series)',
       numSeasons: 2,
@@ -547,8 +547,8 @@ export const allTitles = {
       numEpisodes: 6,
       continuity: 'mcu',
     },
-    '2021–24|Loki': {
-      year: '2021–24',
+    '2021–2024|Loki': {
+      year: '2021–2024',
       title: 'Loki',
       wikipedia: 'https://en.wikipedia.org/wiki/Loki_(TV_series)',
       numSeasons: 1,
@@ -589,36 +589,36 @@ export const allTitles = {
     },
   },
   'animated-tv-series': {
-    '1992–97|X-Men: The Animated Series': {
-      year: '1992–97',
+    '1992–1997|X-Men: The Animated Series': {
+      year: '1992–1997',
       title: 'X-Men: The Animated Series',
       url: 'https://en.wikipedia.org/wiki/X-Men:_The_Animated_Series',
       numSeasons: 5,
       numEpisodes: 76,
     },
-    '1994–96|Fantastic Four: The Animated Series': {
-      year: '1994–96',
+    '1994–1996|Fantastic Four: The Animated Series': {
+      year: '1994–1996',
       title: 'Fantastic Four: The Animated Series',
       url: 'https://en.wikipedia.org/wiki/Fantastic_Four_(1994_TV_series)',
       numSeasons: 2,
       numEpisodes: 26,
     },
-    '1994–96|Iron Man': {
-      year: '1994–96',
+    '1994–1996|Iron Man': {
+      year: '1994–1996',
       title: 'Iron Man',
       url: 'https://en.wikipedia.org/wiki/Iron_Man_(TV_series)',
       numSeasons: 2,
       numEpisodes: 26,
     },
-    '1994–98|Spider-Man: The Animated Series': {
-      year: '1994–98',
+    '1994–1998|Spider-Man: The Animated Series': {
+      year: '1994–1998',
       title: 'Spider-Man: The Animated Series',
       url: 'https://en.wikipedia.org/wiki/Spider-Man_(1994_TV_series)',
       numSeasons: 5,
       numEpisodes: 65,
     },
-    '1996–97|The Incredible Hulk': {
-      year: '1996–97',
+    '1996–1997|The Incredible Hulk': {
+      year: '1996–1997',
       title: 'The Incredible Hulk',
       url: 'https://en.wikipedia.org/wiki/The_Incredible_Hulk_(1996_TV_series)',
       numSeasons: 2,
@@ -645,8 +645,8 @@ export const allTitles = {
       numSeasons: 1,
       numEpisodes: 13,
     },
-    '2000–03|X-Men: Evolution': {
-      year: '2000–03',
+    '2000–2003|X-Men: Evolution': {
+      year: '2000–2003',
       title: 'X-Men: Evolution',
       url: 'https://en.wikipedia.org/wiki/X-Men:_Evolution',
       numSeasons: 4,
@@ -659,15 +659,15 @@ export const allTitles = {
       numSeasons: 1,
       numEpisodes: 13,
     },
-    "2006–07|Fantastic Four: World's Greatest Heroes": {
-      year: '2006–07',
+    "2006–2007|Fantastic Four: World's Greatest Heroes": {
+      year: '2006–2007',
       title: "Fantastic Four: World's Greatest Heroes",
       url: 'https://en.wikipedia.org/wiki/Fantastic_Four:_World%27s_Greatest_Heroes',
       numSeasons: 1,
       numEpisodes: 26,
     },
-    '2008–09|The Spectacular Spider-Man': {
-      year: '2008–09',
+    '2008–2009|The Spectacular Spider-Man': {
+      year: '2008–2009',
       title: 'The Spectacular Spider-Man',
       url: 'https://en.wikipedia.org/wiki/The_Spectacular_Spider-Man_(TV_series)',
       numSeasons: 2,
@@ -680,105 +680,105 @@ export const allTitles = {
       numSeasons: 1,
       numEpisodes: 26,
     },
-    '2009–12|Iron Man: Armored Adventures': {
-      year: '2009–12',
+    '2009–2012|Iron Man: Armored Adventures': {
+      year: '2009–2012',
       title: 'Iron Man: Armored Adventures',
       url: 'https://en.wikipedia.org/wiki/Iron_Man:_Armored_Adventures',
       numSeasons: 2,
       numEpisodes: 52,
     },
-    '2009–11|The Super Hero Squad Show': {
-      year: '2009–11',
+    '2009–2011|The Super Hero Squad Show': {
+      year: '2009–2011',
       title: 'The Super Hero Squad Show',
       url: 'https://en.wikipedia.org/wiki/The_Super_Hero_Squad_Show',
       numSeasons: 2,
       numEpisodes: 52,
     },
-    "2010–12|The Avengers: Earth's Mightiest Heroes": {
-      year: '2010–12',
+    "2010–2012|The Avengers: Earth's Mightiest Heroes": {
+      year: '2010–2012',
       title: "The Avengers: Earth's Mightiest Heroes",
       url: 'https://en.wikipedia.org/wiki/The_Avengers:_Earth%27s_Mightiest_Heroes',
       numSeasons: 2,
       numEpisodes: 52,
     },
-    '2010–11|Marvel Anime: Iron Man': {
-      year: '2010–11',
+    '2010–2011|Marvel Anime: Iron Man': {
+      year: '2010–2011',
       title: 'Marvel Anime: Iron Man',
       url: 'https://en.wikipedia.org/wiki/Marvel_Anime#Iron_Man',
       numSeasons: 1,
       numEpisodes: 12,
       isAnime: 'yes',
     },
-    '2011–12|Marvel Anime: Wolverine': {
-      year: '2011–12',
+    '2011–2012|Marvel Anime: Wolverine': {
+      year: '2011–2012',
       title: 'Marvel Anime: Wolverine',
       url: 'https://en.wikipedia.org/wiki/Marvel_Anime#Wolverine',
       numSeasons: 1,
       numEpisodes: 12,
       isAnime: 'yes',
     },
-    '2011–12|Marvel Anime: X-Men': {
-      year: '2011–12',
+    '2011–2012|Marvel Anime: X-Men': {
+      year: '2011–2012',
       title: 'Marvel Anime: X-Men',
       url: 'https://en.wikipedia.org/wiki/Marvel_Anime#X-Men',
       numSeasons: 1,
       numEpisodes: 12,
       isAnime: 'yes',
     },
-    '2011–12|Marvel Anime: Blade': {
-      year: '2011–12',
+    '2011–2012|Marvel Anime: Blade': {
+      year: '2011–2012',
       title: 'Marvel Anime: Blade',
       url: 'https://en.wikipedia.org/wiki/Marvel_Anime#Blade',
       numSeasons: 1,
       numEpisodes: 12,
       isAnime: 'yes',
     },
-    '2012–17|Ultimate Spider-Man': {
-      year: '2012–17',
+    '2012–2017|Ultimate Spider-Man': {
+      year: '2012–2017',
       title: 'Ultimate Spider-Man',
       url: 'https://en.wikipedia.org/wiki/Ultimate_Spider-Man_(TV_series)',
       numSeasons: 4,
       numEpisodes: 104,
     },
-    '2013–19|Avengers Assemble': {
-      year: '2013–19',
+    '2013–2019|Avengers Assemble': {
+      year: '2013–2019',
       title: 'Avengers Assemble',
       url: 'https://en.wikipedia.org/wiki/Avengers_Assemble_(TV_series)',
       numSeasons: 5,
       numEpisodes: 127,
     },
-    '2013–15|Hulk and the Agents of S.M.A.S.H.': {
-      year: '2013–15',
+    '2013–2015|Hulk and the Agents of S.M.A.S.H.': {
+      year: '2013–2015',
       title: 'Hulk and the Agents of S.M.A.S.H.',
       url: 'https://en.wikipedia.org/wiki/Hulk_and_the_Agents_of_S.M.A.S.H.',
       numSeasons: 2,
       numEpisodes: 52,
     },
-    '2015–16|Marvel Disk Wars: The Avengers': {
-      year: '2015–16',
+    '2015–2016|Marvel Disk Wars: The Avengers': {
+      year: '2015–2016',
       title: 'Marvel Disk Wars: The Avengers',
       url: 'https://en.wikipedia.org/wiki/Marvel_Disk_Wars:_The_Avengers',
       numSeasons: 1,
       numEpisodes: 51,
       isAnime: 'yes',
     },
-    '2015–19|Guardians of the Galaxy': {
-      year: '2015–19',
+    '2015–2019|Guardians of the Galaxy': {
+      year: '2015–2019',
       title: 'Guardians of the Galaxy',
       url: 'https://en.wikipedia.org/wiki/Guardians_of_the_Galaxy_(TV_series)',
       numSeasons: 3,
       numEpisodes: 79,
     },
-    '2017–18|Marvel Future Avengers': {
-      year: '2017–18',
+    '2017–2018|Marvel Future Avengers': {
+      year: '2017–2018',
       title: 'Marvel Future Avengers',
       url: 'https://en.wikipedia.org/wiki/Marvel_Future_Avengers',
       numSeasons: 2,
       numEpisodes: 39,
       isAnime: 'yes',
     },
-    "2017–20|Marvel's Spider-Man": {
-      year: '2017–20',
+    "2017–2020|Marvel's Spider-Man": {
+      year: '2017–2020',
       title: "Marvel's Spider-Man",
       url: 'https://en.wikipedia.org/wiki/Spider-Man_(2017_TV_series)',
       numSeasons: 3,
