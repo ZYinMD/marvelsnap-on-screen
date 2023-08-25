@@ -1,12 +1,12 @@
 export const allTitles = {
-  'movies': {
+  'movie': {
     '1998|Blade': {
       year: '1998',
       title: 'Blade',
       wikipedia: 'https://en.wikipedia.org/wiki/Blade_(1998_film)',
       continuity: 'blade',
       key: '1998|Blade',
-      type: 'movies',
+      type: 'movie',
     },
     '2000|X-Men': {
       year: '2000',
@@ -14,7 +14,7 @@ export const allTitles = {
       wikipedia: 'https://en.wikipedia.org/wiki/X-Men_(film)',
       continuity: 'fox-x-men',
       key: '2000|X-Men',
-      type: 'movies',
+      type: 'movie',
     },
     '2002|Blade II': {
       year: '2002',
@@ -22,7 +22,7 @@ export const allTitles = {
       wikipedia: 'https://en.wikipedia.org/wiki/Blade_II',
       continuity: 'blade',
       key: '2002|Blade II',
-      type: 'movies',
+      type: 'movie',
     },
     '2002|Spider-Man': {
       year: '2002',
@@ -30,7 +30,7 @@ export const allTitles = {
       wikipedia: 'https://en.wikipedia.org/wiki/Spider-Man_(2002_film)',
       continuity: 'tobey-spiderman',
       key: '2002|Spider-Man',
-      type: 'movies',
+      type: 'movie',
     },
     '2003|Daredevil': {
       year: '2003',
@@ -38,7 +38,7 @@ export const allTitles = {
       wikipedia: 'https://en.wikipedia.org/wiki/Daredevil_(film)',
       continuity: 'fox-daredevil',
       key: '2003|Daredevil',
-      type: 'movies',
+      type: 'movie',
     },
     '2003|X2': {
       year: '2003',
@@ -46,21 +46,21 @@ export const allTitles = {
       wikipedia: 'https://en.wikipedia.org/wiki/X2_(film)',
       continuity: 'fox-x-men',
       key: '2003|X2',
-      type: 'movies',
+      type: 'movie',
     },
     '2003|Hulk': {
       year: '2003',
       title: 'Hulk',
       wikipedia: 'https://en.wikipedia.org/wiki/Hulk_(film)',
       key: '2003|Hulk',
-      type: 'movies',
+      type: 'movie',
     },
     '2004|The Punisher': {
       year: '2004',
       title: 'The Punisher',
       wikipedia: 'https://en.wikipedia.org/wiki/The_Punisher_(2004_film)',
       key: '2004|The Punisher',
-      type: 'movies',
+      type: 'movie',
     },
     '2004|Spider-Man 2': {
       year: '2004',
@@ -68,7 +68,7 @@ export const allTitles = {
       wikipedia: 'https://en.wikipedia.org/wiki/Spider-Man_2',
       continuity: 'tobey-spiderman',
       key: '2004|Spider-Man 2',
-      type: 'movies',
+      type: 'movie',
     },
     '2004|Blade: Trinity': {
       year: '2004',
@@ -76,7 +76,7 @@ export const allTitles = {
       wikipedia: 'https://en.wikipedia.org/wiki/Blade:_Trinity',
       continuity: 'blade',
       key: '2004|Blade: Trinity',
-      type: 'movies',
+      type: 'movie',
     },
     '2005|Elektra': {
       year: '2005',
@@ -84,7 +84,7 @@ export const allTitles = {
       wikipedia: 'https://en.wikipedia.org/wiki/Elektra_(2005_film)',
       continuity: 'fox-daredevil',
       key: '2005|Elektra',
-      type: 'movies',
+      type: 'movie',
     },
     '2005|Fantastic Four': {
       year: '2005',
@@ -92,7 +92,7 @@ export const allTitles = {
       wikipedia: 'https://en.wikipedia.org/wiki/Fantastic_Four_(2005_film)',
       continuity: 'fox-fantastic-four',
       key: '2005|Fantastic Four',
-      type: 'movies',
+      type: 'movie',
     },
     '2006|X-Men: The Last Stand': {
       year: '2006',
@@ -100,7 +100,7 @@ export const allTitles = {
       wikipedia: 'https://en.wikipedia.org/wiki/X-Men:_The_Last_Stand',
       continuity: 'fox-x-men',
       key: '2006|X-Men: The Last Stand',
-      type: 'movies',
+      type: 'movie',
     },
     '2007|Ghost Rider': {
       year: '2007',
@@ -108,7 +108,7 @@ export const allTitles = {
       wikipedia: 'https://en.wikipedia.org/wiki/Ghost_Rider_(2007_film)',
       continuity: 'sony-ghost-rider',
       key: '2007|Ghost Rider',
-      type: 'movies',
+      type: 'movie',
     },
     '2007|Spider-Man 3': {
       year: '2007',
@@ -116,7 +116,7 @@ export const allTitles = {
       wikipedia: 'https://en.wikipedia.org/wiki/Spider-Man_3',
       continuity: 'tobey-spiderman',
       key: '2007|Spider-Man 3',
-      type: 'movies',
+      type: 'movie',
     },
     '2007|Fantastic Four: Rise of the Silver Surfer': {
       year: '2007',
@@ -124,7 +124,7 @@ export const allTitles = {
       wikipedia: 'https://en.wikipedia.org/wiki/Fantastic_Four:_Rise_of_the_Silver_Surfer',
       continuity: 'fox-fantastic-four',
       key: '2007|Fantastic Four: Rise of the Silver Surfer',
-      type: 'movies',
+      type: 'movie',
     },
     '2008|Iron Man': {
       year: '2008',
@@ -132,7 +132,7 @@ export const allTitles = {
       wikipedia: 'https://en.wikipedia.org/wiki/Iron_Man_(2008_film)',
       continuity: 'mcu',
       key: '2008|Iron Man',
-      type: 'movies',
+      type: 'movie',
     },
     '2008|The Incredible Hulk': {
       year: '2008',
@@ -140,14 +140,14 @@ export const allTitles = {
       wikipedia: 'https://en.wikipedia.org/wiki/The_Incredible_Hulk_(film)',
       continuity: 'mcu',
       key: '2008|The Incredible Hulk',
-      type: 'movies',
+      type: 'movie',
     },
     '2008|Punisher: War Zone': {
       year: '2008',
       title: 'Punisher: War Zone',
       wikipedia: 'https://en.wikipedia.org/wiki/Punisher:_War_Zone',
       key: '2008|Punisher: War Zone',
-      type: 'movies',
+      type: 'movie',
     },
     '2008|X-Men Origins: Wolverine': {
       year: '2008',
@@ -155,7 +155,7 @@ export const allTitles = {
       wikipedia: 'https://en.wikipedia.org/wiki/X-Men_Origins:_Wolverine',
       continuity: 'fox-x-men',
       key: '2008|X-Men Origins: Wolverine',
-      type: 'movies',
+      type: 'movie',
     },
     '2010|Iron Man 2': {
       year: '2010',
@@ -163,7 +163,7 @@ export const allTitles = {
       wikipedia: 'https://en.wikipedia.org/wiki/Iron_Man_2',
       continuity: 'mcu',
       key: '2010|Iron Man 2',
-      type: 'movies',
+      type: 'movie',
     },
     '2011|Thor': {
       year: '2011',
@@ -171,7 +171,7 @@ export const allTitles = {
       wikipedia: 'https://en.wikipedia.org/wiki/Thor_(film)',
       continuity: 'mcu',
       key: '2011|Thor',
-      type: 'movies',
+      type: 'movie',
     },
     '2011|X-Men: First Class': {
       year: '2011',
@@ -179,7 +179,7 @@ export const allTitles = {
       wikipedia: 'https://en.wikipedia.org/wiki/X-Men:_First_Class',
       continuity: 'fox-x-men',
       key: '2011|X-Men: First Class',
-      type: 'movies',
+      type: 'movie',
     },
     '2011|Captain America: The First Avenger': {
       year: '2011',
@@ -187,7 +187,7 @@ export const allTitles = {
       wikipedia: 'https://en.wikipedia.org/wiki/Captain_America:_The_First_Avenger',
       continuity: 'mcu',
       key: '2011|Captain America: The First Avenger',
-      type: 'movies',
+      type: 'movie',
     },
     '2011|Ghost Rider: Spirit of Vengeance': {
       year: '2011',
@@ -195,7 +195,7 @@ export const allTitles = {
       wikipedia: 'https://en.wikipedia.org/wiki/Ghost_Rider:_Spirit_of_Vengeance',
       continuity: 'sony-ghost-rider',
       key: '2011|Ghost Rider: Spirit of Vengeance',
-      type: 'movies',
+      type: 'movie',
     },
     '2012|The Avengers': {
       year: '2012',
@@ -203,7 +203,7 @@ export const allTitles = {
       wikipedia: 'https://en.wikipedia.org/wiki/The_Avengers_(2012_film)',
       continuity: 'mcu',
       key: '2012|The Avengers',
-      type: 'movies',
+      type: 'movie',
     },
     '2012|The Amazing Spider-Man': {
       year: '2012',
@@ -211,7 +211,7 @@ export const allTitles = {
       wikipedia: 'https://en.wikipedia.org/wiki/The_Amazing_Spider-Man_(film)',
       continuity: 'amazing-spiderman',
       key: '2012|The Amazing Spider-Man',
-      type: 'movies',
+      type: 'movie',
     },
     '2013|Iron Man 3': {
       year: '2013',
@@ -219,7 +219,7 @@ export const allTitles = {
       wikipedia: 'https://en.wikipedia.org/wiki/Iron_Man_3',
       continuity: 'mcu',
       key: '2013|Iron Man 3',
-      type: 'movies',
+      type: 'movie',
     },
     '2013|The Wolverine': {
       year: '2013',
@@ -227,7 +227,7 @@ export const allTitles = {
       wikipedia: 'https://en.wikipedia.org/wiki/The_Wolverine_(film)',
       continuity: 'fox-x-men',
       key: '2013|The Wolverine',
-      type: 'movies',
+      type: 'movie',
     },
     '2013|Thor: The Dark World': {
       year: '2013',
@@ -235,7 +235,7 @@ export const allTitles = {
       wikipedia: 'https://en.wikipedia.org/wiki/Thor:_The_Dark_World',
       continuity: 'mcu',
       key: '2013|Thor: The Dark World',
-      type: 'movies',
+      type: 'movie',
     },
     '2014|Captain America: The Winter Soldier': {
       year: '2014',
@@ -243,7 +243,7 @@ export const allTitles = {
       wikipedia: 'https://en.wikipedia.org/wiki/Captain_America:_The_Winter_Soldier',
       continuity: 'mcu',
       key: '2014|Captain America: The Winter Soldier',
-      type: 'movies',
+      type: 'movie',
     },
     '2014|The Amazing Spider-Man 2': {
       year: '2014',
@@ -251,7 +251,7 @@ export const allTitles = {
       wikipedia: 'https://en.wikipedia.org/wiki/The_Amazing_Spider-Man_2',
       continuity: 'amazing-spiderman',
       key: '2014|The Amazing Spider-Man 2',
-      type: 'movies',
+      type: 'movie',
     },
     '2014|X-Men: Days of Future Past': {
       year: '2014',
@@ -259,7 +259,7 @@ export const allTitles = {
       wikipedia: 'https://en.wikipedia.org/wiki/X-Men:_Days_of_Future_Past',
       continuity: 'fox-x-men',
       key: '2014|X-Men: Days of Future Past',
-      type: 'movies',
+      type: 'movie',
     },
     '2014|Guardians of the Galaxy': {
       year: '2014',
@@ -267,7 +267,7 @@ export const allTitles = {
       wikipedia: 'https://en.wikipedia.org/wiki/Guardians_of_the_Galaxy_(film)',
       continuity: 'mcu',
       key: '2014|Guardians of the Galaxy',
-      type: 'movies',
+      type: 'movie',
     },
     '2015|Avengers: Age of Ultron': {
       year: '2015',
@@ -275,7 +275,7 @@ export const allTitles = {
       wikipedia: 'https://en.wikipedia.org/wiki/Avengers:_Age_of_Ultron',
       continuity: 'mcu',
       key: '2015|Avengers: Age of Ultron',
-      type: 'movies',
+      type: 'movie',
     },
     '2015|Ant-Man': {
       year: '2015',
@@ -283,14 +283,14 @@ export const allTitles = {
       wikipedia: 'https://en.wikipedia.org/wiki/Ant-Man_(film)',
       continuity: 'mcu',
       key: '2015|Ant-Man',
-      type: 'movies',
+      type: 'movie',
     },
     '2015|Fantastic Four': {
       year: '2015',
       title: 'Fantastic Four',
       wikipedia: 'https://en.wikipedia.org/wiki/Fantastic_Four_(2015_film)',
       key: '2015|Fantastic Four',
-      type: 'movies',
+      type: 'movie',
     },
     '2016|Deadpool': {
       year: '2016',
@@ -298,7 +298,7 @@ export const allTitles = {
       wikipedia: 'https://en.wikipedia.org/wiki/Deadpool_(film)',
       continuity: 'fox-x-men',
       key: '2016|Deadpool',
-      type: 'movies',
+      type: 'movie',
     },
     '2016|Captain America: Civil War': {
       year: '2016',
@@ -306,7 +306,7 @@ export const allTitles = {
       wikipedia: 'https://en.wikipedia.org/wiki/Captain_America:_Civil_War',
       continuity: 'mcu',
       key: '2016|Captain America: Civil War',
-      type: 'movies',
+      type: 'movie',
     },
     '2016|X-Men: Apocalypse': {
       year: '2016',
@@ -314,7 +314,7 @@ export const allTitles = {
       wikipedia: 'https://en.wikipedia.org/wiki/X-Men:_Apocalypse',
       continuity: 'fox-x-men',
       key: '2016|X-Men: Apocalypse',
-      type: 'movies',
+      type: 'movie',
     },
     '2016|Doctor Strange': {
       year: '2016',
@@ -322,7 +322,7 @@ export const allTitles = {
       wikipedia: 'https://en.wikipedia.org/wiki/Doctor_Strange_(2016_film)',
       continuity: 'mcu',
       key: '2016|Doctor Strange',
-      type: 'movies',
+      type: 'movie',
     },
     '2017|Logan': {
       year: '2017',
@@ -330,7 +330,7 @@ export const allTitles = {
       wikipedia: 'https://en.wikipedia.org/wiki/Logan_(film)',
       continuity: 'fox-x-men',
       key: '2017|Logan',
-      type: 'movies',
+      type: 'movie',
     },
     '2017|Guardians of the Galaxy Vol. 2': {
       year: '2017',
@@ -338,7 +338,7 @@ export const allTitles = {
       wikipedia: 'https://en.wikipedia.org/wiki/Guardians_of_the_Galaxy_Vol._2',
       continuity: 'mcu',
       key: '2017|Guardians of the Galaxy Vol. 2',
-      type: 'movies',
+      type: 'movie',
     },
     '2017|Spider-Man: Homecoming': {
       year: '2017',
@@ -346,7 +346,7 @@ export const allTitles = {
       wikipedia: 'https://en.wikipedia.org/wiki/Spider-Man:_Homecoming',
       continuity: 'mcu',
       key: '2017|Spider-Man: Homecoming',
-      type: 'movies',
+      type: 'movie',
     },
     '2017|Thor: Ragnarok': {
       year: '2017',
@@ -354,7 +354,7 @@ export const allTitles = {
       wikipedia: 'https://en.wikipedia.org/wiki/Thor:_Ragnarok',
       continuity: 'mcu',
       key: '2017|Thor: Ragnarok',
-      type: 'movies',
+      type: 'movie',
     },
     '2018|Black Panther': {
       year: '2018',
@@ -362,7 +362,7 @@ export const allTitles = {
       wikipedia: 'https://en.wikipedia.org/wiki/Black_Panther_(film)',
       continuity: 'mcu',
       key: '2018|Black Panther',
-      type: 'movies',
+      type: 'movie',
     },
     '2018|Avengers: Infinity War': {
       year: '2018',
@@ -370,7 +370,7 @@ export const allTitles = {
       wikipedia: 'https://en.wikipedia.org/wiki/Avengers:_Infinity_War',
       continuity: 'mcu',
       key: '2018|Avengers: Infinity War',
-      type: 'movies',
+      type: 'movie',
     },
     '2018|Deadpool 2': {
       year: '2018',
@@ -378,7 +378,7 @@ export const allTitles = {
       wikipedia: 'https://en.wikipedia.org/wiki/Deadpool_2',
       continuity: 'fox-x-men',
       key: '2018|Deadpool 2',
-      type: 'movies',
+      type: 'movie',
     },
     '2018|Ant-Man and the Wasp': {
       year: '2018',
@@ -386,7 +386,7 @@ export const allTitles = {
       wikipedia: 'https://en.wikipedia.org/wiki/Ant-Man_and_the_Wasp',
       continuity: 'mcu',
       key: '2018|Ant-Man and the Wasp',
-      type: 'movies',
+      type: 'movie',
     },
     '2018|Venom': {
       year: '2018',
@@ -394,7 +394,7 @@ export const allTitles = {
       wikipedia: 'https://en.wikipedia.org/wiki/Venom_(2018_film)',
       continuity: 'ssu',
       key: '2018|Venom',
-      type: 'movies',
+      type: 'movie',
     },
     '2018|Spider-Man: Into the Spider-Verse': {
       year: '2018',
@@ -402,7 +402,7 @@ export const allTitles = {
       wikipedia: 'https://en.wikipedia.org/wiki/Spider-Man:_Into_the_Spider-Verse',
       continuity: 'spider-verse',
       key: '2018|Spider-Man: Into the Spider-Verse',
-      type: 'movies',
+      type: 'movie',
     },
     '2019|Captain Marvel': {
       year: '2019',
@@ -410,7 +410,7 @@ export const allTitles = {
       wikipedia: 'https://en.wikipedia.org/wiki/Captain_Marvel_(film)',
       continuity: 'mcu',
       key: '2019|Captain Marvel',
-      type: 'movies',
+      type: 'movie',
     },
     '2019|Avengers: Endgame': {
       year: '2019',
@@ -418,7 +418,7 @@ export const allTitles = {
       wikipedia: 'https://en.wikipedia.org/wiki/Avengers:_Endgame',
       continuity: 'mcu',
       key: '2019|Avengers: Endgame',
-      type: 'movies',
+      type: 'movie',
     },
     '2019|Dark Phoenix': {
       year: '2019',
@@ -426,7 +426,7 @@ export const allTitles = {
       wikipedia: 'https://en.wikipedia.org/wiki/Dark_Phoenix_(film)',
       continuity: 'fox-x-men',
       key: '2019|Dark Phoenix',
-      type: 'movies',
+      type: 'movie',
     },
     '2019|Spider-Man: Far From Home': {
       year: '2019',
@@ -434,7 +434,7 @@ export const allTitles = {
       wikipedia: 'https://en.wikipedia.org/wiki/Spider-Man:_Far_From_Home',
       continuity: 'mcu',
       key: '2019|Spider-Man: Far From Home',
-      type: 'movies',
+      type: 'movie',
     },
     '2020|The New Mutants': {
       year: '2020',
@@ -442,7 +442,7 @@ export const allTitles = {
       wikipedia: 'https://en.wikipedia.org/wiki/The_New_Mutants_(film)',
       continuity: 'fox-x-men',
       key: '2020|The New Mutants',
-      type: 'movies',
+      type: 'movie',
     },
     '2021|Black Widow': {
       year: '2021',
@@ -450,7 +450,7 @@ export const allTitles = {
       wikipedia: 'https://en.wikipedia.org/wiki/Black_Widow_(2021_film)',
       continuity: 'mcu',
       key: '2021|Black Widow',
-      type: 'movies',
+      type: 'movie',
     },
     '2021|Shang-Chi and the Legend of the Ten Rings': {
       year: '2021',
@@ -458,7 +458,7 @@ export const allTitles = {
       wikipedia: 'https://en.wikipedia.org/wiki/Shang-Chi_and_the_Legend_of_the_Ten_Rings',
       continuity: 'mcu',
       key: '2021|Shang-Chi and the Legend of the Ten Rings',
-      type: 'movies',
+      type: 'movie',
     },
     '2021|Venom: Let There Be Carnage': {
       year: '2021',
@@ -466,7 +466,7 @@ export const allTitles = {
       wikipedia: 'https://en.wikipedia.org/wiki/Venom:_Let_There_Be_Carnage',
       continuity: 'ssu',
       key: '2021|Venom: Let There Be Carnage',
-      type: 'movies',
+      type: 'movie',
     },
     '2021|Eternals': {
       year: '2021',
@@ -474,7 +474,7 @@ export const allTitles = {
       wikipedia: 'https://en.wikipedia.org/wiki/Eternals_(film)',
       continuity: 'mcu',
       key: '2021|Eternals',
-      type: 'movies',
+      type: 'movie',
     },
     '2021|Spider-Man: No Way Home': {
       year: '2021',
@@ -482,7 +482,7 @@ export const allTitles = {
       wikipedia: 'https://en.wikipedia.org/wiki/Spider-Man:_No_Way_Home',
       continuity: 'mcu',
       key: '2021|Spider-Man: No Way Home',
-      type: 'movies',
+      type: 'movie',
     },
     '2022|Morbius': {
       year: '2022',
@@ -490,7 +490,7 @@ export const allTitles = {
       wikipedia: 'https://en.wikipedia.org/wiki/Morbius_(film)',
       continuity: 'ssu',
       key: '2022|Morbius',
-      type: 'movies',
+      type: 'movie',
     },
     '2022|Doctor Strange in the Multiverse of Madness': {
       year: '2022',
@@ -498,7 +498,7 @@ export const allTitles = {
       wikipedia: 'https://en.wikipedia.org/wiki/Doctor_Strange_in_the_Multiverse_of_Madness',
       continuity: 'mcu',
       key: '2022|Doctor Strange in the Multiverse of Madness',
-      type: 'movies',
+      type: 'movie',
     },
     '2022|Thor: Love and Thunder': {
       year: '2022',
@@ -506,7 +506,7 @@ export const allTitles = {
       wikipedia: 'https://en.wikipedia.org/wiki/Thor:_Love_and_Thunder',
       continuity: 'mcu',
       key: '2022|Thor: Love and Thunder',
-      type: 'movies',
+      type: 'movie',
     },
     '2022|Black Panther: Wakanda Forever': {
       year: '2022',
@@ -514,7 +514,7 @@ export const allTitles = {
       wikipedia: 'https://en.wikipedia.org/wiki/Black_Panther:_Wakanda_Forever',
       continuity: 'mcu',
       key: '2022|Black Panther: Wakanda Forever',
-      type: 'movies',
+      type: 'movie',
     },
     '2023|Ant-Man and the Wasp: Quantumania': {
       year: '2023',
@@ -522,7 +522,7 @@ export const allTitles = {
       wikipedia: 'https://en.wikipedia.org/wiki/Ant-Man_and_the_Wasp:_Quantumania',
       continuity: 'mcu',
       key: '2023|Ant-Man and the Wasp: Quantumania',
-      type: 'movies',
+      type: 'movie',
     },
     '2023|Guardians of the Galaxy Vol. 3': {
       year: '2023',
@@ -530,7 +530,7 @@ export const allTitles = {
       wikipedia: 'https://en.wikipedia.org/wiki/Guardians_of_the_Galaxy_Vol._3',
       continuity: 'mcu',
       key: '2023|Guardians of the Galaxy Vol. 3',
-      type: 'movies',
+      type: 'movie',
     },
     '2023|Spider-Man: Across the Spider-Verse': {
       year: '2023',
@@ -538,7 +538,7 @@ export const allTitles = {
       wikipedia: 'https://en.wikipedia.org/wiki/Spider-Man:_Across_the_Spider-Verse',
       continuity: 'spider-verse',
       key: '2023|Spider-Man: Across the Spider-Verse',
-      type: 'movies',
+      type: 'movie',
     },
   },
   'live-action-tv-series': {
