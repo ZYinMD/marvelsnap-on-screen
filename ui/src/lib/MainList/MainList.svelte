@@ -12,7 +12,4 @@
 </div>
 
 <style>
-  .container {
-    background-color: Pink;
-  }
 </style>

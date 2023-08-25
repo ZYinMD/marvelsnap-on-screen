@@ -11,6 +11,5 @@
     left: 100px;
     height: 50vh;
     width: 50vw;
-    background-color: bisque;
   }
 </style>
