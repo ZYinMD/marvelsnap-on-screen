@@ -1,13 +1,12 @@
 <script lang="ts">
   import { mainList } from './$mainList';
+  import Entry from './Entry.svelte';
 </script>
 
 <!-- @component the list of all the shows the home page -->
 <div class="container">
-  {#each $mainList as show (show.key)}
-    <div class="show">
-      {show.title}
-    </div>
+  {#each $mainList as entry (entry.key)}
+    <Entry {entry} />
   {/each}
 </div>
 
