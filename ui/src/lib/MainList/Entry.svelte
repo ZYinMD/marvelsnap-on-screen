@@ -53,12 +53,8 @@
       auto;
     align-items: end;
 
-    border: 1px solid transparent;
-    --x: 50%;
-    --y: 50%;
-    background:
-      linear-gradient(#222, #222) padding-box,
-      radial-gradient(farthest-corner at var(--x) var(--y), aqua, violet) border-box;
+    box-shadow: inset 0 0 3px pink;
+    background-image: radial-gradient(#4444, transparent);
   }
   .tv-series .title {
     font-size: 17px;

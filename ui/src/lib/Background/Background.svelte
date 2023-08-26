@@ -13,10 +13,10 @@
     place-items: center;
   }
   .background {
-    --color1: rgb(0, 71, 56);
-    --color2: rgb(75, 0, 70);
-    --color3: rgb(9, 0, 86);
-    --color4: rgb(47, 22, 0);
+    --color1: rgb(0, 72, 56);
+    --color2: rgb(67, 31, 0);
+    --color3: rgb(69, 0, 64);
+    --color4: rgb(7, 0, 73);
     width: max(100vw, 100vh);
     height: max(100vw, 100vh);
     transform-origin: center;
