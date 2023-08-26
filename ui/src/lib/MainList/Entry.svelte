@@ -9,7 +9,7 @@
 <!-- @component the clickable movie title (or a divider) -->
 <div class="container">
   {#if type === 'divider'}
-    <div class="divider">{title}</div>
+    <div class="divider">{title}:</div>
   {:else if type === 'movie'}
     <div class="movie">{title}</div>
   {:else}
@@ -25,16 +25,17 @@
 
 <style>
   .container {
-    --divider-height: 50px;
+    --divider-height: 70px;
     --movie-height: 40px;
     --tv-series-height: 50px;
     --padding-left: 10px;
   }
   .divider {
     height: var(--divider-height);
-    font-size: 20px;
-    background-color: #333;
-    padding-left: var(--padding-left);
+    font-size: 30px;
+    display: flex;
+    align-items: end;
+    padding-bottom: 10px;
   }
   .movie {
     border: 1px grey solid;
@@ -53,8 +54,8 @@
       auto;
     align-items: end;
 
-    box-shadow: inset 0 0 3px pink;
-    background-image: radial-gradient(#4444, transparent);
+    box-shadow: inset 0 0 3px Thistle;
+    /* background-image: radial-gradient(#4444, transparent); */
   }
   .tv-series .title {
     font-size: 17px;

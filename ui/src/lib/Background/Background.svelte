@@ -34,7 +34,7 @@
     mask-image: linear-gradient(to left, var(--color4), transparent);
   }
   .rotate {
-    animation: rotate 30s linear infinite;
+    animation: rotate 50s linear infinite;
   }
   @keyframes rotate {
     to {
