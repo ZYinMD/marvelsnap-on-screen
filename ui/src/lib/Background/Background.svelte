@@ -13,10 +13,10 @@
     place-items: center;
   }
   .background {
-    --color1: rgb(0, 72, 56);
-    --color2: rgb(67, 31, 0);
-    --color3: rgb(69, 0, 64);
-    --color4: rgb(7, 0, 73);
+    --color3: rgb(0, 66, 104);
+    --color2: rgb(31, 0, 58);
+    --color1: rgb(50, 0, 129);
+    --color4: rgb(103, 0, 67);
     width: max(100vw, 100vh);
     height: max(100vw, 100vh);
     transform-origin: center;
@@ -34,7 +34,7 @@
     mask-image: linear-gradient(to left, var(--color4), transparent);
   }
   .rotate {
-    animation: rotate 50s linear infinite;
+    animation: rotate 30s linear infinite;
   }
   @keyframes rotate {
     to {
