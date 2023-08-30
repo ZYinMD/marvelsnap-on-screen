@@ -67,10 +67,8 @@
     align-items: end;
     border: 1px Thistle solid;
     box-shadow:
-      inset 0 0 9px Thistle,
-      0 0 7px Thistle,
-      0 0 3px Thistle,
-      0 0 5px Thistle;
+      inset 0 0 5px Thistle,
+      0 0 3px Thistle;
     /* background-image: radial-gradient(#4444, transparent); */
   }
   .tv-series .title {
