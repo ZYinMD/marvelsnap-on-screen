@@ -1,4 +1,4 @@
-import { derived } from 'svelte/store';
+import { derived, writable } from 'svelte/store';
 import { allTitles } from '../facts/allTitles';
 
 export const mainList = derived([], () => {
@@ -25,3 +25,5 @@ export const mainList = derived([], () => {
   result.push(...Object.values(allTitles['animated-tv-series']));
   return result;
 });
+
+export const openDrawers = writable(new Set<string>());

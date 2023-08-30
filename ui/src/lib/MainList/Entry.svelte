@@ -1,12 +1,17 @@
 <script lang="ts">
-  import type { mainList } from './$listStates';
+  import { openDrawers, type mainList } from './$listStates';
   type Entry = (typeof $mainList)[number];
   export let entry: Entry;
   // @ts-expect-error: I know what I'm doing'
   const { key, type, title, year, numSeasons, numEpisodes } = entry;
   function handleClick() {
-    console.log('clicked', key);
+    openDrawers.update((prev) => {
+      if (prev.has(key)) prev.delete(key);
+      else prev.add(key);
+      return prev;
+    });
   }
+  $: isOpen = $openDrawers.has(key);
 </script>
 
 <!-- @component the clickable movie title (or a divider) -->
@@ -14,6 +19,11 @@
   {#if type === 'divider'}
     <div class="divider"><div class="text">{title}:</div></div>
   {:else if type === 'movie'}
+    {#if isOpen}
+      <div>{'>'}</div>
+    {:else}
+      <div>{'^'}</div>
+    {/if}
     <div class="movie" on:click={handleClick} tabindex="0" role="button" on:keydown={handleClick}>
       <div class="title">({year}) {title}</div>
     </div>
@@ -25,6 +35,12 @@
       role="button"
       on:keydown={handleClick}
     >
+      {#if isOpen}
+        <div>{'>'}</div>
+      {:else}
+        <div>{'^'}</div>
+      {/if}
+
       <div class="title">{title}</div>
       <div class="subtitle">
         {year}, {numSeasons}
