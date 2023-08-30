@@ -12,11 +12,11 @@
 <style>
   .container {
     grid-area: only;
-    --color1: hsl(250, 100%, 10%);
-    --color4: hsl(310, 100%, 12%);
-    --color3: hsl(230, 100%, 8%);
-    --color2: hsl(270, 100%, 12%);
-    --color5: hsl(290, 100%, 10%);
+    --color1: hsl(250, 100%, 8%);
+    --color4: hsl(310, 100%, 10%);
+    --color3: hsl(230, 100%, 6%);
+    --color2: hsl(270, 100%, 10%);
+    --color5: hsl(290, 100%, 8%);
     /* perspective: 160vh; */
   }
   .bg {
@@ -45,26 +45,26 @@
     right: -60%;
     z-index: -1;
     mix-blend-mode: hue;
-    animation: slide 13s ease-in-out infinite alternate;
+    animation: slide 20s ease-in-out infinite alternate;
     /* transform-origin: center; */
   }
 
   .bg2 {
     animation-direction: alternate-reverse;
-    animation-duration: 17s;
+    animation-duration: 23s;
     animation-delay: -10s;
     /* rotate: x 5deg; */
   }
 
   .bg3 {
-    animation-duration: 19s;
+    animation-duration: 29s;
     animation-delay: -10s;
     transform-origin: bottom;
     /* rotate: x 10deg; */
   }
   .bg4 {
     animation-direction: alternate-reverse;
-    animation-duration: 23s;
+    animation-duration: 31s;
     animation-delay: -10s;
     /* rotate: x 15deg; */
   }
