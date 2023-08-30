@@ -8,6 +8,7 @@
     grid-area: only;
     display: grid;
     place-items: center;
+    overflow: hidden;
   }
   .background {
     --color1: rgb(42, 0, 122);

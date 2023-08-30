@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto&display=swap');
 
-:root {
+* {
   box-sizing: border-box;
 }
 
@@ -14,4 +14,14 @@ body {
   min-height: 100vh;
   margin: 0;
   color: silver;
+}
+
+button {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  outline: inherit;
+  appearance: none;
 }

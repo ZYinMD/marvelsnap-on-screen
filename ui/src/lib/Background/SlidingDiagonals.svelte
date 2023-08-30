@@ -52,13 +52,13 @@
   .bg2 {
     animation-direction: alternate-reverse;
     animation-duration: 23s;
-    animation-delay: -10s;
+    animation-delay: -12s;
     /* rotate: x 5deg; */
   }
 
   .bg3 {
     animation-duration: 29s;
-    animation-delay: -10s;
+    animation-delay: -15s;
     transform-origin: bottom;
     /* rotate: x 10deg; */
   }
@@ -71,7 +71,10 @@
 
   @keyframes slide {
     0% {
-      transform: translateX(-25%) rotateZ(-5deg);
+      transform: translateX(-25%) rotateZ(5deg);
+    }
+    50% {
+      transform: translateX(0) rotateZ(-5deg);
     }
     100% {
       transform: translateX(25%) rotateZ(5deg);

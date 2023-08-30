@@ -4,6 +4,9 @@
   export let entry: Entry;
   // @ts-expect-error: I know what I'm doing'
   const { type, title, year, numSeasons, numEpisodes } = entry;
+  function handleClick() {
+    console.log('clicked', title);
+  }
 </script>
 
 <!-- @component the clickable movie title (or a divider) -->
@@ -11,9 +14,17 @@
   {#if type === 'divider'}
     <div class="divider"><div class="text">{title}:</div></div>
   {:else if type === 'movie'}
-    <div class="movie"><div class="title">({year}) {title}</div></div>
+    <div class="movie" on:click={handleClick} tabindex="0" role="button" on:keydown={handleClick}>
+      <div class="title">({year}) {title}</div>
+    </div>
   {:else}
-    <div class="tv-series">
+    <div
+      class="tv-series"
+      on:click={handleClick}
+      tabindex="0"
+      role="button"
+      on:keydown={handleClick}
+    >
       <div class="title">{title}</div>
       <div class="subtitle">
         {year}, {numSeasons}
@@ -29,7 +40,11 @@
     --movie-height: 40px;
     --tv-series-height: 50px;
     --padding-left: 10px;
+    margin: 10px 0;
     opacity: 0.9;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
   }
   .divider {
     height: var(--divider-height);
@@ -42,7 +57,6 @@
     transform: skew(-5deg);
   }
   .movie {
-    margin: 10px 0;
     border: 1px grey solid;
     height: var(--movie-height);
     padding-left: var(--padding-left);
@@ -56,7 +70,6 @@
   }
   .tv-series {
     height: var(--tv-series-height);
-    margin: 10px 0;
     padding-left: var(--padding-left);
     display: grid;
     grid:

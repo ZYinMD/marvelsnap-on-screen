@@ -19,7 +19,9 @@
   .app {
     position: relative;
     margin: auto;
-    width: 100vw;
+    padding: 0 5px;
+    width: 100%;
     max-width: 800px;
+    overflow-x: hidden;
   }
 </style>
