@@ -16,9 +16,7 @@
 
 <!-- @component the clickable movie title (or a divider) -->
 <div class="container">
-  {#if type === 'divider'}
-    <div class="divider"><div class="text">{title}:</div></div>
-  {:else if type === 'movie'}
+  {#if type === 'movie'}
     {#if isOpen}
       <div>{'>'}</div>
     {:else}
@@ -52,7 +50,6 @@
 
 <style>
   .container {
-    --divider-height: 70px;
     --movie-height: 40px;
     --tv-series-height: 50px;
     --padding-left: 10px;
@@ -61,16 +58,6 @@
     cursor: pointer;
     display: flex;
     flex-direction: column;
-  }
-  .divider {
-    height: var(--divider-height);
-    font-size: 30px;
-    display: flex;
-    align-items: end;
-    padding-bottom: 10px;
-  }
-  .divider .text {
-    transform: skew(-5deg);
   }
   .movie {
     border: 1px grey solid;
