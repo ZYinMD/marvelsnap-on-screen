@@ -1,6 +1,5 @@
 <script lang="ts">
   import Hexagons from './Hexagons.svelte';
-  import RotatingMix from './RotatingMix.svelte';
   import SlidingDiagonals from './SlidingDiagonals.svelte';
 </script>
 

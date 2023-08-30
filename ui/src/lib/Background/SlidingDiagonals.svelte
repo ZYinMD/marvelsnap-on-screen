@@ -12,59 +12,69 @@
 <style>
   .container {
     grid-area: only;
-    --color1: hsl(230, 100%, 8%);
-    --color2: hsl(280, 100%, 12%);
-    --color3: hsl(250, 100%, 8%);
+    --color1: hsl(250, 100%, 10%);
     --color4: hsl(310, 100%, 12%);
+    --color3: hsl(230, 100%, 8%);
+    --color2: hsl(270, 100%, 12%);
+    --color5: hsl(290, 100%, 10%);
+    /* perspective: 160vh; */
   }
   .bg {
     background-image: linear-gradient(
-      -80deg,
+      -85deg,
       var(--color1) 0%,
-      var(--color1) 25%,
+      var(--color1) 20%,
 
-      var(--color2) 26%,
-      var(--color2) 50%,
+      var(--color2) 21%,
+      var(--color2) 40%,
 
-      var(--color3) 51%,
-      var(--color3) 75%,
+      var(--color3) 41%,
+      var(--color3) 60%,
 
-      var(--color4) 76%,
-      var(--color4) 100%
+      var(--color4) 61%,
+      var(--color4) 80%,
+
+      var(--color5) 81%,
+      var(--color5) 100%
     );
-    bottom: 0;
-    left: -50%;
-    opacity: 0.6;
     position: fixed;
-    right: -50%;
-    top: 0;
+    top: -20vh;
+    bottom: -40vh;
+    left: -60%;
+    opacity: 0.6;
+    right: -60%;
     z-index: -1;
     mix-blend-mode: hue;
-    animation: slide 19s ease-in-out infinite alternate;
+    animation: slide 13s ease-in-out infinite alternate;
+    /* transform-origin: center; */
   }
 
   .bg2 {
     animation-direction: alternate-reverse;
-    animation-duration: 23s;
+    animation-duration: 17s;
     animation-delay: -10s;
+    /* rotate: x 5deg; */
   }
 
   .bg3 {
-    animation-duration: 29s;
+    animation-duration: 19s;
     animation-delay: -10s;
+    transform-origin: bottom;
+    /* rotate: x 10deg; */
   }
   .bg4 {
     animation-direction: alternate-reverse;
-    animation-duration: 31s;
-    animation-delay: -5s;
+    animation-duration: 23s;
+    animation-delay: -10s;
+    /* rotate: x 15deg; */
   }
 
   @keyframes slide {
     0% {
-      transform: translateX(-25%);
+      transform: translateX(-25%) rotateZ(-5deg);
     }
     100% {
-      transform: translateX(25%);
+      transform: translateX(25%) rotateZ(5deg);
     }
   }
 </style>
