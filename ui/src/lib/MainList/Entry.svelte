@@ -1,11 +1,11 @@
 <script lang="ts">
-  import type { mainList } from './$mainList';
+  import type { mainList } from './$listStates';
   type Entry = (typeof $mainList)[number];
   export let entry: Entry;
   // @ts-expect-error: I know what I'm doing'
-  const { type, title, year, numSeasons, numEpisodes } = entry;
+  const { key, type, title, year, numSeasons, numEpisodes } = entry;
   function handleClick() {
-    console.log('clicked', title);
+    console.log('clicked', key);
   }
 </script>
 
