@@ -10,9 +10,9 @@
     place-items: center;
   }
   .background {
-    --color3: rgb(0, 66, 97);
-    --color2: rgb(26, 0, 58);
     --color1: rgb(42, 0, 122);
+    --color2: rgb(26, 0, 58);
+    --color3: rgb(0, 66, 97);
     --color4: rgb(96, 0, 40);
     width: max(100vw, 100vh);
     height: max(100vw, 100vh);

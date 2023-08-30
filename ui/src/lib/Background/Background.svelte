@@ -1,12 +1,14 @@
 <script lang="ts">
   import Hexagons from './Hexagons.svelte';
   import RotatingMix from './RotatingMix.svelte';
+  import SlidingDiagonals from './SlidingDiagonals.svelte';
 </script>
 
 <!-- @component The animated background of app -->
 <div class="container">
-  <RotatingMix />
+  <!-- <RotatingMix /> -->
   <Hexagons />
+  <SlidingDiagonals />
 </div>
 
 <style>
