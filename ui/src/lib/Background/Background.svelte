@@ -1,10 +1,12 @@
 <script lang="ts">
+  import Hexagons from './Hexagons.svelte';
   import RotatingMix from './RotatingMix.svelte';
 </script>
 
 <!-- @component The animated background of app -->
 <div class="container">
   <RotatingMix />
+  <Hexagons />
 </div>
 
 <style>
