@@ -9,6 +9,7 @@
 
 <style>
   svg {
+    grid-area: chevron;
     height: 12px;
     place-self: center;
     fill: currentColor;

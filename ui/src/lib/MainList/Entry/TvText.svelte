@@ -16,6 +16,8 @@
 
 <style>
   .container {
+    grid-area: text;
+    height: 50px;
     display: grid;
     grid:
       'title' 27px

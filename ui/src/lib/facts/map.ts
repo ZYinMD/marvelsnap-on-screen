@@ -5,7 +5,7 @@ export type Key =
   | keyof (typeof allTitles)['movie']
   | keyof (typeof allTitles)['live-action-tv-series']
   | keyof (typeof allTitles)['animated-tv-series'];
-type Card = keyof typeof allCards;
+export type Card = keyof typeof allCards;
 type Roster = {
   major_: Card[];
   minor_: Card[];

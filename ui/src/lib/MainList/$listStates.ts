@@ -1,5 +1,6 @@
 import { derived, writable } from 'svelte/store';
 import { allTitles } from '../facts/allTitles';
+import type { Key } from '../facts/map';
 
 export const mainList = derived([], () => {
   const result = [];
@@ -26,4 +27,4 @@ export const mainList = derived([], () => {
   return result;
 });
 
-export const openDrawers = writable(new Set<string>());
+export const openDrawers = writable(new Set<Key>());

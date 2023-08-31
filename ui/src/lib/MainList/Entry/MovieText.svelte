@@ -7,7 +7,11 @@
 <div class="container">({year}) {title}</div>
 
 <style>
-  /* .container {
-    transform: skew(-5deg);
-  } */
+  .container {
+    /* transform: skew(-5deg); */
+    grid-area: text;
+    height: 40px;
+    display: grid;
+    align-items: center;
+  }
 </style>
