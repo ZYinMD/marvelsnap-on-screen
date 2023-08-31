@@ -1,8 +1,9 @@
 <script lang="ts">
   import { openDrawers, type mainList } from '../$listStates';
   import Chevron from './Chevron.svelte';
-  type Entry = (typeof $mainList)[number];
-  export let entry: Entry;
+  import MovieRow from './MovieText.svelte';
+  import TvText from './TvText.svelte';
+  export let entry: (typeof $mainList)[number];
   // @ts-expect-error: I know what I'm doing'
   const { key, type, title, year, numSeasons, numEpisodes } = entry;
   function handleClick() {
@@ -20,7 +21,7 @@
   {#if type === 'movie'}
     <Chevron {isOpen} />
     <div class="movie" on:click={handleClick} tabindex="0" role="button" on:keydown={handleClick}>
-      <div class="title">({year}) {title}</div>
+      <MovieRow {year} {title} />
     </div>
   {:else}
     <div
@@ -31,11 +32,7 @@
       on:keydown={handleClick}
     >
       <Chevron {isOpen} />
-      <div class="title">{title}</div>
-      <div class="subtitle">
-        {year}, {numSeasons}
-        {numSeasons > 1 ? 'seasons' : 'season'}, {numEpisodes} episodes
-      </div>
+      <TvText {year} {title} {numSeasons} {numEpisodes} />
     </div>
   {/if}
 </div>
@@ -60,33 +57,13 @@
     border: 1px Thistle solid;
     box-shadow: inset 0 0 3px Thistle;
   }
-  .movie .title {
-    transform: skew(-5deg);
-  }
   .tv-series {
     height: var(--tv-series-height);
     padding-left: var(--padding-left);
-    display: grid;
-    grid:
-      'title' 27px
-      'subtitle' 18px
-      /
-      auto;
-    align-items: end;
     border: 1px Thistle solid;
     box-shadow:
       inset 0 0 5px Thistle,
       0 0 3px Thistle;
     /* background-image: radial-gradient(#4444, transparent); */
-  }
-  .tv-series .title {
-    font-size: 17px;
-    transform: skew(-5deg);
-  }
-
-  .tv-series .subtitle {
-    font-size: 12px;
-    opacity: 0.6;
-    transform: skew(-5deg);
   }
 </style>
