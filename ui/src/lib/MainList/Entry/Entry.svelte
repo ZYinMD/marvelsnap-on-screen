@@ -1,5 +1,6 @@
 <script lang="ts">
   import { openDrawers, type mainList } from '../$listStates';
+  import Chevron from './Chevron.svelte';
   type Entry = (typeof $mainList)[number];
   export let entry: Entry;
   // @ts-expect-error: I know what I'm doing'
@@ -17,11 +18,7 @@
 <!-- @component the clickable movie title (or a divider) -->
 <div class="container">
   {#if type === 'movie'}
-    {#if isOpen}
-      <div>{'>'}</div>
-    {:else}
-      <div>{'^'}</div>
-    {/if}
+    <Chevron {isOpen} />
     <div class="movie" on:click={handleClick} tabindex="0" role="button" on:keydown={handleClick}>
       <div class="title">({year}) {title}</div>
     </div>
@@ -33,12 +30,7 @@
       role="button"
       on:keydown={handleClick}
     >
-      {#if isOpen}
-        <div>{'>'}</div>
-      {:else}
-        <div>{'^'}</div>
-      {/if}
-
+      <Chevron {isOpen} />
       <div class="title">{title}</div>
       <div class="subtitle">
         {year}, {numSeasons}
