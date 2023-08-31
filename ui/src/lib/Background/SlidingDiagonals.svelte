@@ -14,11 +14,11 @@
 <style>
   .container {
     grid-area: only;
-    --color1: hsl(270, 100%, 10%);
-    --color2: hsl(250, 100%, 8%);
-    --color3: hsl(310, 100%, 8%);
-    --color4: hsl(230, 100%, 8%);
-    --color5: hsl(290, 100%, 10%);
+    --color1: hsl(270, 100%, 11%);
+    --color2: hsl(250, 100%, 9%);
+    --color3: hsl(310, 100%, 9%);
+    --color4: hsl(230, 100%, 9%);
+    --color5: hsl(290, 100%, 11%);
     /* perspective: 160vh; */
   }
   .bg {
@@ -47,7 +47,7 @@
     right: -60%;
     z-index: -1;
     mix-blend-mode: hue;
-    animation: slide 17s linear infinite;
+    animation: slide 17s cubic-bezier(0.23, -0.03, 0.83, 1.06) infinite;
     animation-direction: alternate;
   }
   .bg:nth-child(odd) {
