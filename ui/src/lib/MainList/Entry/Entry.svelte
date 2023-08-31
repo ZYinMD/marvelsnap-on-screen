@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { openDrawers, type mainList } from './$listStates';
+  import { openDrawers, type mainList } from '../$listStates';
   type Entry = (typeof $mainList)[number];
   export let entry: Entry;
   // @ts-expect-error: I know what I'm doing'
