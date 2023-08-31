@@ -7,21 +7,23 @@
   <div class="bg bg2"></div>
   <div class="bg bg3"></div>
   <div class="bg bg4"></div>
+  <div class="bg bg5"></div>
+  <div class="bg bg6"></div>
 </div>
 
 <style>
   .container {
     grid-area: only;
-    --color1: hsl(250, 100%, 8%);
-    --color4: hsl(310, 100%, 10%);
-    --color3: hsl(230, 100%, 6%);
-    --color2: hsl(270, 100%, 10%);
-    --color5: hsl(290, 100%, 8%);
+    --color1: hsl(270, 100%, 10%);
+    --color2: hsl(250, 100%, 8%);
+    --color3: hsl(310, 100%, 8%);
+    --color4: hsl(230, 100%, 8%);
+    --color5: hsl(290, 100%, 10%);
     /* perspective: 160vh; */
   }
   .bg {
     background-image: linear-gradient(
-      -85deg,
+      90deg,
       var(--color1) 0%,
       var(--color1) 20%,
 
@@ -39,45 +41,47 @@
     );
     position: fixed;
     top: -20vh;
-    bottom: -40vh;
+    bottom: -30vh;
     left: -60%;
     opacity: 0.6;
     right: -60%;
     z-index: -1;
     mix-blend-mode: hue;
-    animation: slide 20s ease-in-out infinite alternate;
-    /* transform-origin: center; */
+    animation: slide 17s linear infinite;
+    animation-direction: alternate;
   }
-
-  .bg2 {
+  .bg:nth-child(odd) {
     animation-direction: alternate-reverse;
-    animation-duration: 23s;
-    animation-delay: -12s;
-    /* rotate: x 5deg; */
+    scale: -1 1;
   }
-
+  .bg2 {
+    animation-duration: 20s;
+    animation-delay: -12s;
+  }
   .bg3 {
-    animation-duration: 29s;
+    animation-duration: 26s;
     animation-delay: -15s;
-    transform-origin: bottom;
-    /* rotate: x 10deg; */
   }
   .bg4 {
-    animation-direction: alternate-reverse;
     animation-duration: 31s;
     animation-delay: -10s;
-    /* rotate: x 15deg; */
+  }
+  .bg5 {
+    animation-duration: 35s;
+    animation-delay: -14s;
+  }
+  .bg6 {
+    animation-direction: alternate-reverse;
+    animation-duration: 17s;
+    animation-delay: -6s;
   }
 
   @keyframes slide {
     0% {
-      transform: translateX(-25%) rotateZ(5deg);
-    }
-    50% {
-      transform: translateX(0) rotateZ(-5deg);
+      transform: translateX(-25%) rotateZ(-6deg);
     }
     100% {
-      transform: translateX(25%) rotateZ(5deg);
+      transform: translateX(25%) rotateZ(6deg);
     }
   }
 </style>
