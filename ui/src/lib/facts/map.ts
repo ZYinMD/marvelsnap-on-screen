@@ -1,8 +1,8 @@
 import type { allCards } from './allCards';
 import type { allTitles } from './allTitles';
 
-type Title =
-  | keyof (typeof allTitles)['movies']
+export type Key =
+  | keyof (typeof allTitles)['movie']
   | keyof (typeof allTitles)['live-action-tv-series']
   | keyof (typeof allTitles)['animated-tv-series'];
 type Card = keyof typeof allCards;
@@ -16,7 +16,7 @@ type Roster = {
 /* This file is manually created by reading wikipedia pages.
 What I need are sets, because it's easier to reverse search when user clicks a card, but auto-completion works better with arrays, so I use arrays when manually editing the file, then populate the sets from the arrays and clear the arrays.
 */
-export const map: Record<Title, Roster> = {
+export const map: Record<Key, Roster> = {
   '1998|Blade': {
     major: new Set(),
     minor: new Set(),
