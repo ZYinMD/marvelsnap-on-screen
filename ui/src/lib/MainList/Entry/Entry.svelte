@@ -17,13 +17,9 @@
 </script>
 
 <!-- @component one item in the list -->
-<div
-  class={`container ${type}`}
-  on:click={handleClick}
-  tabindex="0"
-  role="button"
-  on:keydown={handleClick}
->
+<!-- svelte-ignore a11y-click-events-have-key-events -->
+<!-- svelte-ignore a11y-no-static-element-interactions -->
+<div class={`container ${type}`} on:click={handleClick}>
   <Chevron {isOpen} />
   {#if type === 'movie'}
     <MovieRow {year} {title} />
@@ -41,7 +37,7 @@
     grid:
       'chevron text' auto
       /
-      44px auto;
+      30px auto;
   }
   .movie {
     height: 40px;

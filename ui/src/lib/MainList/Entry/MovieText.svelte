@@ -7,7 +7,7 @@
 <div class="container">({year}) {title}</div>
 
 <style>
-  .container {
+  /* .container {
     transform: skew(-5deg);
-  }
+  } */
 </style>
