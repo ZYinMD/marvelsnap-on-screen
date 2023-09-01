@@ -1,6 +1,6 @@
 <script lang="ts">
   import { allCards } from '../../facts/allCards';
-  import { map, type Key, type Card } from '../../facts/map';
+  import { map, type Key } from '../../facts/map';
   export let key: Key;
   const major = map[key].major;
   const minor = map[key].minor;
@@ -16,6 +16,9 @@
     {@const filename = allCards[card].defId}
     <img class="minor" src={`/card-images/${filename}.webp`} alt={card} />
   {/each}
+  {#if major.size + minor.size === 0}
+    <div class="none"><div>none</div></div>
+  {/if}
 </div>
 
 <style>
@@ -34,5 +37,12 @@
   }
   img.minor {
     opacity: 0.25;
+  }
+  .none > div {
+    font-size: 25px;
+    opacity: 0.45;
+    display: grid;
+    place-items: center;
+    margin-bottom: 10px;
   }
 </style>
