@@ -4,15 +4,13 @@
 </script>
 
 <!-- @component the list of all the shows the home page -->
-<div class="container">
-  {#each $mainList as entry (entry.key)}
-    {#if entry.type === 'divider'}
-      <div class="divider"><div class="text">{entry.title}:</div></div>
-    {:else}
-      <Entry {entry} />
-    {/if}
-  {/each}
-</div>
+{#each $mainList as entry (entry.key)}
+  {#if entry.type === 'divider'}
+    <div class="divider"><div class="text">{entry.title}:</div></div>
+  {:else}
+    <Entry {entry} />
+  {/if}
+{/each}
 
 <style>
   .divider {
