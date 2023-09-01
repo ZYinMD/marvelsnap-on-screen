@@ -8,7 +8,7 @@
 
 <style>
   .container {
-    transform: skew(-5deg);
+    transform: skew(-3deg);
     grid-area: text;
     height: 40px;
     display: grid;

@@ -20,7 +20,7 @@
     font-size: 30px;
     display: flex;
     align-items: end;
-    padding-bottom: 10px;
-    transform: skew(-5deg);
+    padding: 0 0 8px 10px;
+    transform: skew(-3deg);
   }
 </style>

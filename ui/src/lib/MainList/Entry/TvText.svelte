@@ -28,12 +28,12 @@
   }
   .title {
     font-size: 17px;
-    transform: skew(-5deg);
+    transform: skew(-3deg);
   }
 
   .subtitle {
     font-size: 12px;
     opacity: 0.6;
-    transform: skew(-5deg);
+    transform: skew(-3deg);
   }
 </style>
