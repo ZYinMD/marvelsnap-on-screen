@@ -688,7 +688,7 @@
     "id": 34,
     "defId": "CaptainMarvel",
     "cost": 4,
-    "power": 5,
+    "power": 4,
     "name": "Captain Marvel",
     "description": "At the end of the game, move to a location that wins you the\ngame. (If possible)",
     "series": 6,
@@ -1217,7 +1217,7 @@
     "id": 58,
     "defId": "DoomBot",
     "cost": 6,
-    "power": 4,
+    "power": 5,
     "name": "DoomBot",
     "description": "<i>\"Doom is supreme!\"</i>",
     "series": 0,
@@ -1283,7 +1283,7 @@
     "cost": 6,
     "power": 5,
     "name": "Doctor Doom",
-    "description": "<b>On Reveal:</b> Add a 4-Power DoomBot to each other location.",
+    "description": "<b>On Reveal:</b> Add a 5-Power DoomBot to each other location.",
     "attributes": {
       "cards": {
         "Card_Token": [58]
@@ -2460,7 +2460,7 @@
     "id": 116,
     "defId": "LadyDeathstrike",
     "cost": 5,
-    "power": 3,
+    "power": 4,
     "name": "Lady Deathstrike",
     "description": "<b>On Reveal:</b> Destroy each card here with less Power than this.",
     "series": 8,
@@ -2541,7 +2541,7 @@
     "id": 120,
     "defId": "Legion",
     "cost": 5,
-    "power": 8,
+    "power": 7,
     "name": "Legion",
     "description": "<b>On Reveal:</b> Replace each other location with this one.",
     "series": 7,
@@ -2645,7 +2645,8 @@
         "name": "Ryan Kinnaird",
         "type": 4
       }
-    ]
+    ],
+    "collectible": true
   },
   {
     "id": 125,
@@ -4055,8 +4056,8 @@
   {
     "id": 189,
     "defId": "Rockslide",
-    "cost": 4,
-    "power": 5,
+    "cost": 3,
+    "power": 3,
     "name": "Rockslide",
     "description": "<b>On Reveal:</b> Shuffle 2 Rocks into your opponent's deck.",
     "attributes": {
@@ -4504,7 +4505,7 @@
     "power": 5,
     "name": "Silver Samurai",
     "description": "<b>On Reveal:</b> Each player discards the lowest-Power card from their hand.",
-    "series": 0,
+    "series": 8,
     "artists": [
       {
         "name": "Eduardo Mello",
@@ -4514,7 +4515,8 @@
         "name": "Ryan Kinnaird",
         "type": 4
       }
-    ]
+    ],
+    "collectible": true
   },
   {
     "id": 211,
@@ -5754,7 +5756,7 @@
         "AddedEnergy": 1
       }
     },
-    "series": 0,
+    "series": 8,
     "artists": [
       {
         "name": "Eduardo Mello",
