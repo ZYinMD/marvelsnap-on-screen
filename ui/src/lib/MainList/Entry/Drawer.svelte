@@ -28,7 +28,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, var(--good-width));
     justify-content: center;
-    padding-bottom: 15px;
+    padding-bottom: 12px;
   }
   img {
     width: var(--good-width);
