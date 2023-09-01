@@ -8,6 +8,7 @@
 <svelte:head>
   <title>MarvelSnap in Movies</title>
   <meta name="description" content="Watch what movies to see what cards" />
+  <meta name="robots" content="noindex" />
 </svelte:head>
 
 <Background />
