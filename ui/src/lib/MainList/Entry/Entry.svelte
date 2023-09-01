@@ -1,7 +1,7 @@
 <script lang="ts">
   import { openDrawers, type mainList } from '../$listStates';
   import type { Key } from '../../facts/map';
-  import Chevron from './Chevron.svelte';
+  import Chevron from '../../Icons/Chevron.svelte';
   import Drawer from './Drawer.svelte';
   import MovieText from './MovieText.svelte';
   import TvText from './TvText.svelte';
