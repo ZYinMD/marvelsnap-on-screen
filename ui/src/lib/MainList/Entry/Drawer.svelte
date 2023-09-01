@@ -3,7 +3,7 @@
   import { map, type Key, type Card } from '../../facts/map';
   export let key: Key;
   const major = map[key].major;
-  // const minor = map[key].minor;
+  const minor = map[key].minor;
 </script>
 
 <!-- @component the expandable drawer that contains cards -->
@@ -11,6 +11,10 @@
   {#each major as card (card)}
     {@const filename = allCards[card].defId}
     <img src={`/card-images/${filename}.webp`} alt={card} />
+  {/each}
+  {#each minor as card (card)}
+    {@const filename = allCards[card].defId}
+    <img class="minor" src={`/card-images/${filename}.webp`} alt={card} />
   {/each}
 </div>
 
@@ -27,5 +31,8 @@
     width: var(--good-width);
     height: calc(var(--good-width) * 1.3);
     object-fit: cover;
+  }
+  img.minor {
+    opacity: 0.25;
   }
 </style>
