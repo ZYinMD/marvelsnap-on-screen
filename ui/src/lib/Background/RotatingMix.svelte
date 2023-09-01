@@ -5,7 +5,7 @@
 
 <style>
   .container {
-    grid-area: only;
+    grid-area: the-only;
     display: grid;
     place-items: center;
     overflow: hidden;

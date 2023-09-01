@@ -17,6 +17,6 @@
     height: 100%;
     overflow: hidden;
     display: grid;
-    grid-template-areas: 'only';
+    grid-template-areas: 'the-only';
   }
 </style>
