@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { slide } from 'svelte/transition';
   import { allCards } from '../../facts/allCards';
   import { map, type Key } from '../../facts/map';
   export let key: Key;
@@ -7,7 +8,7 @@
 </script>
 
 <!-- @component the expandable drawer that contains cards -->
-<div class="container">
+<div class="container" transition:slide={{ duration: 100 }}>
   {#each major as card (card)}
     {@const filename = allCards[card].defId}
     <img src={`/card-images/${filename}.webp`} alt={card} />
