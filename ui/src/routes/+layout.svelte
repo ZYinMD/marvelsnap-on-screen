@@ -11,38 +11,9 @@
 </svelte:head>
 
 <Background />
-<!-- the big list, centered on wide screen, can scroll vertically  -->
-<div class="main-list">
-  <MainList />
-</div>
-
-<!-- the layer that's the same width as the big list (centered on wide screen), but height is always the viewport, doesn't scroll  -->
-<div class="visible">
-  <Filter />
-</div>
+<MainList />
+<Filter />
 <slot />
 
 <style>
-  .main-list {
-    position: relative;
-    z-index: 1;
-    margin: auto;
-    padding: 0 5px;
-    width: 100%;
-    max-width: 800px;
-  }
-  .visible {
-    pointer-events: none;
-    position: fixed;
-    z-index: 2;
-    width: 100%;
-    max-width: 800px;
-    height: 100%;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    overflow: hidden;
-    display: grid;
-    grid-template-areas: 'the-only';
-  }
 </style>

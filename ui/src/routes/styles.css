@@ -17,17 +17,34 @@ body {
     BlinkMacSystemFont,
     'Segoe UI',
     sans-serif;
-  min-height: 100vh;
   margin: 0;
   color: silver;
+  --app-max-width: 800px;
 }
 
-button {
-  background: none;
-  color: inherit;
-  border: none;
-  padding: 0;
-  font: inherit;
-  outline: inherit;
-  appearance: none;
+/* a container exactly the size of viewport, good for things like page background */
+.container-all-viewport {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+/* a narrow container that takes full width on mobile, centers on widescreen, can vertically scroll if has lots of content; good for things like the main big list of movies */
+.container-narrow {
+  width: 100%;
+  max-width: var(--app-max-width);
+  margin: 0 auto auto auto;
+}
+
+/* a narrow container that takes full width on mobile, centers on widescreen, takes full height and can scroll; good for things like bottom nav, modal curtain */
+.container-narrow-viewport {
+  height: 100%;
+  width: 100%;
+  max-width: var(--app-max-width);
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  overflow: hidden;
 }

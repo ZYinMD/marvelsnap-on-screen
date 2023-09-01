@@ -4,7 +4,7 @@
 </script>
 
 <!-- @component The animated background of app -->
-<div class="container">
+<div class="container container-all-viewport">
   <!-- <RotatingMix /> -->
   <Hexagons />
   <SlidingDiagonals />
@@ -12,11 +12,6 @@
 
 <style>
   .container {
-    position: fixed;
-    z-index: 0;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
     display: grid;
     grid-template-areas: 'the-only';
   }

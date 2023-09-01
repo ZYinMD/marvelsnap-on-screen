@@ -2,4 +2,14 @@
   import Button from './Button.svelte';
 </script>
 
-<Button />
+<div class="container container-narrow-viewport">
+  <Button />
+</div>
+
+<style>
+  .container {
+    pointer-events: none;
+    display: grid;
+    grid-template-areas: 'the-only';
+  }
+</style>
