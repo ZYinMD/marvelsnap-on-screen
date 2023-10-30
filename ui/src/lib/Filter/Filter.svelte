@@ -1,15 +1,15 @@
 <script lang="ts">
+  import { filterStates } from './$filterStates';
   import Button from './Button.svelte';
+  import Panel from './Panel.svelte';
 </script>
 
-<div class="container container-narrow-viewport">
+{#if $filterStates.isPanelOpen}
+  <Panel />
+{:else}
   <Button />
-</div>
+  <span></span>
+{/if}
 
 <style>
-  .container {
-    pointer-events: none;
-    display: grid;
-    grid-template-areas: 'the-only';
-  }
 </style>

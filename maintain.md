@@ -1,6 +1,6 @@
 ## What to do when new cards are released:
 
-1. In browser, open devtools, visit https://snap.untapped.gg/ (thank you untapped.gg, I'm a paid subscriber!), find "cards.json" in the network tab, copy the json response, paste into the json in `facts/step1`.
+1. In browser, open devtools, visit https://snap.untapped.gg/ (thanks untapped.gg, I'm a paid subscriber!), find "cards.json" in the network tab, copy the json response, paste into the json in `facts/step1`.
 
 1. Check git diff, if there's any diff, run `deno task step2` from `facts`. This will output all cards to allCards.ts based on the json from step1.
 
