@@ -1,10 +1,17 @@
 import type { allCards } from './allCards';
 import type { allTitles } from './allTitles';
 
+/**
+ * The keys of the big object called "map" from map.ts, which is the main data source of this app. The key looks like a year|title of a show, e.g.: "2011|Captain America: The First Avenger"
+ */
 export type Key =
   | keyof (typeof allTitles)['movie']
   | keyof (typeof allTitles)['live-action-tv-series']
   | keyof (typeof allTitles)['animated-tv-series'];
+
+/**
+ * The English name of cards, e.g. "Adam Warlock"
+ */
 export type Card = keyof typeof allCards;
 type Roster = {
   major_: Card[];
@@ -13,9 +20,11 @@ type Roster = {
   minor: Set<Card>;
 };
 
-/* This file is manually created by reading wikipedia pages.
-What I need are sets, because it's easier to reverse search when user clicks a card, but auto-completion works better with arrays, so I use arrays when manually editing the file, then populate the sets from the arrays and clear the arrays.
-*/
+/**
+ * The big object that is the source of truth of this app, manually constructed by reading wikipedia articles.
+ * Basically it's key value pairs of each show and the cards appeared in the show.
+ * Auto-completion works better with arrays when manually inputting, so I use arrays when constructing the file, but at some point I turn the arrays into sets because it's a easier data structure to use in the app.
+ */
 export const map: Record<Key, Roster> = {
   '1998|Blade': {
     major: new Set(),
