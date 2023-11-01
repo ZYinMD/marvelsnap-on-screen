@@ -22,9 +22,13 @@ TV series are based on [this](https://en.wikipedia.org/wiki/List_of_television_s
 
 New releases will appear at the bottom of said sections. When it happens:
 
-1. edit `facts/step3/all-titles.xlsx`, save, then run `deno task step4` from `facts`, this will output `allTitles.ts` based on the excel content.
+1. edit `facts/step4/all-titles.xlsx`, save, then run `deno task step4` from `facts`, this will output `allTitles.ts` based on the excel content.
 
-   **Order of rows in the excel**:
+   **Ongoing shows:**
+
+   In the end of table on the wiki page of tv shows, there is the "ongoing" section. Make sure to include each of the ongoing shows in the excel, it's easy to miss them.
+
+   **Order of rows in the excel:**
 
    It's generally ordered in the same order as the wikipedia page which is chronological, but exceptions in tv series for instance Loki season 1 was aired in 2021, She-Hulk in 2022, but on wikipedia Loki appears below She-Hulk because it's in the "Ongoing" section, so in excel it's also below She-Hulk. In the future when all seasons of Loki are finished, I may or may not remember to move it up.
 
