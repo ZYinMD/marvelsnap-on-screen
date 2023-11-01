@@ -1,6 +1,6 @@
 import input from '../step1/allCardsFromUntappedGg.json' assert { type: 'json' };
 
-/* cleanup and re-organize the json from untapped.gg, construct a .ts file, put it into ui/src/lib, as a source of truth to be imported by svelte components */
+/* cleanup and re-organize the json from untapped.gg, programmatically construct a .ts file, put it into ui/src/lib, as a source of truth to be imported by other code */
 const result = {};
 for (const card of input) {
   if (!card.collectible) continue; // not a real card that we card about. (there are all kinds of non real cards, e.g. Tiger Spirit, Evolved Hulk, Squirrel, Ebony Blade, Symbiote, Soul Stone, to name a few)

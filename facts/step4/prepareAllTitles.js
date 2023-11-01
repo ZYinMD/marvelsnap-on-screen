@@ -1,5 +1,7 @@
 import * as XLSX from 'https://unpkg.com/xlsx/xlsx.mjs';
 
+/* The list of all the existing movies and TV shows are maintained in "all-titles.xlsx". This script reads the excel as json, programmatically construct a .ts file, put it into ui/src/lib, as a source of truth to be imported by other code */
+
 const excelFilePath = new URL('./all-titles.xlsx', import.meta.url);
 const binary = await Deno.readFile(excelFilePath);
 const workbook = XLSX.read(binary);
