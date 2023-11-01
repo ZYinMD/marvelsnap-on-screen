@@ -23,7 +23,7 @@ type Roster = {
 /**
  * The big object that is the source of truth of this app, manually constructed by reading wikipedia articles.
  * Basically it's key value pairs of each show and the cards appeared in the show.
- * Auto-completion works better with arrays when manually inputting, so I use arrays when constructing the file, but at some point I turn the arrays into sets because it's a easier data structure to use in the app.
+ * Auto-completion works better with arrays when manually inputting, so I use arrays when constructing the file, but at end end of the file I turn the arrays into sets because it's a easier data structure to use in the app.
  */
 export const map: Record<Key, Roster> = {
   '1998|Blade': {
