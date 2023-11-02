@@ -6,6 +6,10 @@
         {
           "key": "Cache-Control",
           "value": "public, max-age=600000, stale-while-revalidate=1200000"
+        },
+        {
+          "key": "X-Greetings",
+          "value": "hello from vercel.json"
         }
       ]
     }
