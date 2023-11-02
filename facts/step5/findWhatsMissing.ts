@@ -34,6 +34,13 @@ const indeedNeverAppearedInShows = new Set<CardName>([
   'Silk',
   'Snowguard',
   'Stegron',
+  'Sentry',
+  'Wave',
+  'Bast',
+  'Iron Lad',
+  'Sera',
+  'Zero',
+  'Sword Master',
   'The Infinaut',
   'The Living Tribunal',
 ]);
