@@ -1,14 +1,30 @@
 import { map } from '../../ui/src/lib/facts/map.ts';
 import { allCards } from '../../ui/src/lib/facts/allCards.ts';
+import { verbose } from '../utils/verbose.js';
 
-console.log('The following cards are in the game, but have not appeared anywhere in the app:');
+verbose(`Get all cards available to be used in the app`);
+const availableCards = Object.keys(allCards);
+type CardName = keyof typeof allCards;
 
+verbose(`Get all data the app is resenting`);
 const allShows = Object.values(map);
-const neverAppearedInApp = Object.keys(allCards).filter((card) => {
+
+verbose(`How many cards are available for render but never appeared in the app?`);
+const neverAppearedInApp = availableCards.filter((card) => {
   for (const show of allShows) {
     if (show.major.has(card)) return false;
     if (show.minor.has(card)) return false;
   }
   return true;
-});
-console.log(neverAppearedInApp);
+}) as CardName[];
+verbose('Answer', neverAppearedInApp.length);
+
+verbose(`We have manually confirmed that some of them indeed have never been on any shows:`);
+const indeedNeverAppearedInShows = new Set<CardName>(['Aero', 'Blue Marvel']);
+verbose(indeedNeverAppearedInShows);
+
+console.info(`\nPlease investigate why the following cards are not being shown in the app:`);
+const needInvestigation = neverAppearedInApp.filter(
+  (card) => !indeedNeverAppearedInShows.has(card),
+);
+console.info(needInvestigation);
