@@ -23,12 +23,19 @@ verbose(`We have manually confirmed that some of them indeed have never been on 
 const indeedNeverAppearedInShows = new Set<CardName>([
   'Aero',
   'Blue Marvel',
+  'Daken',
+  'Debrii',
   'Elsa Bloodstone',
   'Hazmat',
-  'The Infinaut',
+  'Hellcow',
   'Jeff the Baby Land Shark',
-  'The Living Tribunal',
+  'Knull',
   'Patriot',
+  'Silk',
+  'Snowguard',
+  'Stegron',
+  'The Infinaut',
+  'The Living Tribunal',
 ]);
 verbose(indeedNeverAppearedInShows);
 

@@ -829,7 +829,7 @@ export const map: Record<Key, Roster> = {
   '2017–2019|Runaways': {
     major: new Set(),
     minor: new Set(),
-    major_: [],
+    major_: ['Nico Minoru'],
     minor_: ['Dagger', 'Cloak'],
   },
   '2018–2019|Cloak & Dagger': {
@@ -938,7 +938,9 @@ export const map: Record<Key, Roster> = {
       'Forge',
       'Leech',
       'Ka-Zar',
+      'Shanna',
       'Captain America',
+      'Nimrod',
     ],
   },
   '1994–1996|Fantastic Four: The Animated Series': {
