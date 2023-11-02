@@ -20,7 +20,16 @@ const neverAppearedInApp = availableCards.filter((card) => {
 verbose('Answer', neverAppearedInApp.length);
 
 verbose(`We have manually confirmed that some of them indeed have never been on any shows:`);
-const indeedNeverAppearedInShows = new Set<CardName>(['Aero', 'Blue Marvel']);
+const indeedNeverAppearedInShows = new Set<CardName>([
+  'Aero',
+  'Blue Marvel',
+  'Elsa Bloodstone',
+  'Hazmat',
+  'The Infinaut',
+  'Jeff the Baby Land Shark',
+  'The Living Tribunal',
+  'Patriot',
+]);
 verbose(indeedNeverAppearedInShows);
 
 console.info(`\nPlease investigate why the following cards are not being shown in the app:`);
