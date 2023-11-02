@@ -6,5 +6,6 @@ const VERBOSE = 'true' || Deno.env.get('VERBOSE');
  */
 export function verbose(...args) {
   if (VERBOSE === 'false') return;
-  console.info('\n', ...args);
+  if (typeof args[0] === 'string') console.info('\n\x1b[34m%s\x1b[0m', ...args);
+  else console.info('\n', ...args);
 }
