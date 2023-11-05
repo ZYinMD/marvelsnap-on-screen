@@ -6,7 +6,7 @@ verbose(`Get all cards available to be used in the app`);
 const availableCards = Object.keys(allCards);
 type CardName = keyof typeof allCards;
 
-verbose(`Get all data the app is resenting`);
+verbose(`Get all data the app is presenting`);
 const allShows = Object.values(map);
 
 verbose(`How many cards are available for render but never appeared in the app?`);
