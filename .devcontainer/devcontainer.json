@@ -8,19 +8,9 @@
 	"ghcr.io/devcontainers/features/git:1": {},
 	"ghcr.io/shyim/devcontainers-features/bun:0": {}
 }
+,
 
-  // Features to add to the dev container. More info: https://containers.dev/features.
-  // "features": {},
+"postCreateCommand": "bash .devcontainer/post-create.sh"
 
-  // Use 'forwardPorts' to make a list of ports inside the container available locally.
-  // "forwardPorts": [],
 
-  // Use 'postCreateCommand' to run commands after the container is created.
-  // "postCreateCommand": "yarn install",
-
-  // Configure tool-specific properties.
-  // "customizations": {},
-
-  // Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
-  // "remoteUser": "root"
 }
