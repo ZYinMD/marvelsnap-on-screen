@@ -1,5 +1,8 @@
 {
-  "version": "2",
+  "version": "3",
+  "redirects": {
+    "https://unpkg.com/xlsx/xlsx.mjs": "https://unpkg.com/xlsx@0.18.5/xlsx.mjs"
+  },
   "remote": {
     "https://unpkg.com/xlsx@0.18.5/xlsx.mjs": "992eec8c1a888e7f6c9b2a3cbba014bedade473da4cbd8fc9bb95de56a87f222"
   }
