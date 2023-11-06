@@ -1,35 +1,30 @@
-// For format details, see https://aka.ms/devcontainer.json. For config options, see the
-// README at: https://github.com/devcontainers/templates/tree/main/src/javascript-node
 {
   "name": "MarvelSnap-in-movies",
-  // Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-  "build": { "dockerfile": "Dockerfile" },
-  // "workspaceMount": "source=marvel-snap-in-movies,target=/workspace,type=volume",
-  // "workspaceFolder": "/workspace",
+  "image": "docker.io/denoland/deno:latest",
   "features": {
     "ghcr.io/devcontainers/features/git:1": {},
     "ghcr.io/shyim/devcontainers-features/bun:0": {}
   },
-"postCreateCommand": "bash .devcontainer/postCreate.sh",
-"customizations": {
-	"vscode": {
-		"extensions": [
-			"lucax88x.codeacejumper",
-			"ryuta46.multi-command",
-			"kaiwood.better-line-select",
-			"streetsidesoftware.code-spell-checker",
-			"denoland.vscode-deno",
-			"ms-azuretools.vscode-docker",
-			"dbaeumer.vscode-eslint",
-			"GitHub.copilot",
-			"GitHub.copilot-chat",
-			"christian-kohler.path-intellisense",
-			"esbenp.prettier-vscode",
-			"dbankier.vscode-quick-select",
-			"timonwong.shellcheck",
-			"svelte.svelte-vscode"
-		]
-	}
-}
+  "postCreateCommand": "bash .devcontainer/postCreate.sh",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "lucax88x.codeacejumper",
+        "ryuta46.multi-command",
+        "kaiwood.better-line-select",
+        "streetsidesoftware.code-spell-checker",
+        "denoland.vscode-deno",
+        "ms-azuretools.vscode-docker",
+        "dbaeumer.vscode-eslint",
+        "GitHub.copilot",
+        "GitHub.copilot-chat",
+        "christian-kohler.path-intellisense",
+        "esbenp.prettier-vscode",
+        "dbankier.vscode-quick-select",
+        "timonwong.shellcheck",
+        "svelte.svelte-vscode"
+      ]
+    }
+  }
   // "postStartCommand": "bash .devcontainer/postStart.sh",
 }
