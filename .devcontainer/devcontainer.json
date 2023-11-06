@@ -10,6 +10,6 @@
     "ghcr.io/devcontainers/features/git:1": {},
     "ghcr.io/shyim/devcontainers-features/bun:0": {}
   },
-  "postCreateCommand": "bash .devcontainer/postCreate.sh",
-  "postStartCommand": "bash .devcontainer/postStart.sh"
+  "postCreateCommand": "bash .devcontainer/postCreate.sh"
+  // "postStartCommand": "bash .devcontainer/postStart.sh",
 }
