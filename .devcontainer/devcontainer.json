@@ -4,8 +4,8 @@
   "name": "MarvelSnap-in-movies",
   // Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
   "build": { "dockerfile": "Dockerfile" },
-  "workspaceMount": "source=marvel-snap-in-movies,target=/workspace,type=volume",
-  "workspaceFolder": "/workspace",
+  // "workspaceMount": "source=marvel-snap-in-movies,target=/workspace,type=volume",
+  // "workspaceFolder": "/workspace",
   "features": {
     "ghcr.io/devcontainers/features/git:1": {},
     "ghcr.io/shyim/devcontainers-features/bun:0": {}
