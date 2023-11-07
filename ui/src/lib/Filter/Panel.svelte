@@ -4,14 +4,12 @@
 
 <!-- @component the search and filter panel on the right -->
 
-<!-- svelte-ignore a11y-click-events-have-key-events -->
-<!-- svelte-ignore a11y-no-static-element-interactions -->
 <div class="container container-narrow-viewport">
   <div
     class="panel"
     use:outClickListener
     on:outClick={(e) => {
-      console.log('outClick');
+      console.log('e:', e);
     }}
   ></div>
 </div>
