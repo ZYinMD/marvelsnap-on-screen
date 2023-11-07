@@ -2,7 +2,7 @@
   import { filterStates } from './$filterStates';
 </script>
 
-<!-- @component the filter bottom on the bottom right -->
+<!-- @component the filter button at on the bottom right -->
 <div class="container container-narrow-viewport">
   <!-- svelte-ignore a11y-click-events-have-key-events -->
   <!-- svelte-ignore a11y-no-static-element-interactions -->

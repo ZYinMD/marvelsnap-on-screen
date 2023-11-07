@@ -37,7 +37,7 @@ body {
   margin: 0 auto auto auto;
 }
 
-/* a narrow container that takes full width on mobile, centers on widescreen, takes full height and can scroll; good for things like bottom nav, modal curtain */
+/* a narrow container that takes full width on mobile, centers on widescreen, always occupies full height and can't scroll; good as parent for placing things like bottom nav, modal curtain */
 .container-narrow-viewport {
   height: 100%;
   width: 100%;
