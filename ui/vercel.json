@@ -1,7 +1,7 @@
 {
   "headers": [
     {
-      "source": "**/*.webp",
+      "source": "/card-images/:any.webp",
       "headers": [
         {
           "key": "Cache-Control",
