@@ -5,11 +5,24 @@
       "headers": [
         {
           "key": "Cache-Control",
-          "value": "public, max-age=600000, stale-while-revalidate=1200000"
+          "value": "public, max-age=1222111, stale-while-revalidate=1222111"
         },
         {
           "key": "X-Greetings",
-          "value": "hello from vercel.json"
+          "value": "hello from vercel 2.json"
+        }
+      ]
+    },
+    {
+      "source": ":any/immutable/:any",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3222111, stale-while-revalidate=3222111"
+        },
+        {
+          "key": "X-Greetings",
+          "value": "hello from vercel 2.json"
         }
       ]
     }
