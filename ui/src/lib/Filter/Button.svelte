@@ -10,7 +10,6 @@
     class="button"
     on:click={() => {
       $filterStates.isPanelOpen = true;
-      console.log('1');
     }}
   ></div>
 </div>

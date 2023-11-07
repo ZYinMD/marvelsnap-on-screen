@@ -12,14 +12,14 @@ type OutClickListener = Action<
  */
 export const outClickListener: OutClickListener = function (node) {
   const handleClick = (event: MouseEvent) => {
-    if (!node.contains(event.target as Node)) {
-      node.dispatchEvent(new CustomEvent('outClick')); // both node node.dispatchEvent() and new CustomEvent() are native browser APIs. They can be used to crate an event with a custom name. The "createEventDispatcher" util from svelte actually uses this under the hood
-    }
+    if (node === event.target) return; // clicked on itself
+    if (node.contains(event.target as Node)) return; // clicked inside
+    node.dispatchEvent(new CustomEvent('outClick')); // now must be outside. Both node node.dispatchEvent() and new CustomEvent() are native browser APIs. They can be used to crate an event with a custom name. The "createEventDispatcher" util from svelte actually uses this under the hood
   };
   document.addEventListener('click', handleClick, { capture: true });
   return {
     destroy() {
-      document.removeEventListener('click', handleClick, true);
+      document.removeEventListener('click', handleClick, { capture: true });
     },
   };
 };
