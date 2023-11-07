@@ -1,1 +1,0 @@
-FROM denoland/deno:latest

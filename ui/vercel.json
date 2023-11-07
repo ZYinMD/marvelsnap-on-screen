@@ -1,14 +1,14 @@
 {
   "headers": [
     {
-      "source": "**/*.webp",
+      "source": "/card-images/:any.webp",
       "headers": [
         {
           "key": "Cache-Control",
-          "value": "public, max-age=600000, stale-while-revalidate=1200000"
+          "value": "public, max-age=1222111, stale-while-revalidate=1222111"
         },
         {
-          "key": "X-Greetings",
+          "key": "X-Greetings-3",
           "value": "hello from vercel.json"
         }
       ]

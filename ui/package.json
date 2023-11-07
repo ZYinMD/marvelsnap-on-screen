@@ -6,9 +6,9 @@
     "format": "prettier . --write",
     "lint": "prettier . --check . && eslint .",
     "test": "vitest",
-    "check-all": "svelte-kit sync && pnpm format && pnpm lint && pnpm test run && svelte-check --fail-on-warnings --tsconfig ./tsconfig.json",
+    "check-all": "svelte-kit sync && bun format && bun lint && bun test run && svelte-check --fail-on-warnings --tsconfig ./tsconfig.json",
     "svelte-check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
-    "build": "pnpm check-all && vite build",
+    "build": "bun check-all && vite build",
     "preview": "vite build && vite preview",
     "version": "bash version.sh"
   },

@@ -3,7 +3,7 @@
   import Entry from './Entry/Entry.svelte';
 </script>
 
-<!-- @component the list of all the shows the home page -->
+<!-- @component the list of all the shows in the home page -->
 <div class="container container-narrow">
   {#each $mainList as entry (entry.key)}
     {#if entry.type === 'divider'}
