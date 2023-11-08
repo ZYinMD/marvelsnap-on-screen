@@ -2,6 +2,7 @@
   "name": "MarvelSnap-in-movies",
   "build": { "dockerfile": "Dockerfile" },
   "postCreateCommand": "bash .devcontainer/postCreate.sh",
+  "runArgs": ["--name", "marvel-snap-in-movies"],
   "customizations": {
     "vscode": {
       "extensions": [
