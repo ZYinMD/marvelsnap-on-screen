@@ -3,7 +3,7 @@
   "build": { "dockerfile": "Dockerfile" },
   "runArgs": ["--name", "marvel-snap-in-movies"], // give the container a clean name instead of something like "sneaky_trampoline"
   "postCreateCommand": "bash .devcontainer/post-create.sh",
-  "postStartCommand": "bash .devcontainer/postStart.sh",
+  "postStartCommand": "bash .devcontainer/post-start.sh",
   "customizations": {
     "vscode": {
       "extensions": [
