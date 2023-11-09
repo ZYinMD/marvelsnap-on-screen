@@ -1,4 +1,4 @@
-# denoland/deno
+# using the deno image is easier than using the debian image then install deno manually, which requires installing unzip and curl
 FROM denoland/deno:latest
 
 # install global dependencies.
