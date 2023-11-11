@@ -1,5 +1,6 @@
 <script lang="ts">
   import { outClickListener } from '../use/outClickListener';
+  import { filterStates } from './$filterStates';
 </script>
 
 <!-- @component the search and filter panel on the right -->
@@ -8,9 +9,7 @@
   <div
     class="panel"
     use:outClickListener
-    on:outClick={(e) => {
-      console.log('e:', e);
-    }}
+    on:outClick={() => ($filterStates.isPanelOpen = false)}
   ></div>
 </div>
 
