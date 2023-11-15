@@ -33,25 +33,28 @@
   .container {
     display: grid;
     grid-template-areas: 'the-only';
+    font-size: 18px;
+    --gutter: 18px;
   }
   .panel {
-    padding: 23px;
+    padding: 36px 5px;
     place-self: end start;
     background-color: #222;
     display: grid;
-    align-items: baseline;
+    align-items: end;
     grid:
-      'heading direction' 50px
-      'options options' auto
-      'group-by group-by' 50px
+      'heading direction' 26px
+      'options options' 180px
+      'group-by group-by' 45px
       /
-      auto 30px;
+      auto 50px;
     border: 3px solid skyblue;
     border-radius: 5px;
     /* box-shadow: 0px 0px 0px 4px skyblue; */
   }
   .heading {
     grid-area: heading;
+    margin-left: var(--gutter);
     font-size: 26px;
     font-weight: 500;
   }
@@ -62,14 +65,15 @@
   }
   .options {
     grid-area: options;
-    padding: 10px 0px;
   }
   .option {
-    font-size: 18px;
+    padding: 0px var(--gutter);
     margin: 15px 0px;
   }
   .group-by {
+    margin-left: var(--gutter);
     grid-area: group-by;
+    width: fit-content;
   }
   .skew {
     transform: skew(-4deg);
