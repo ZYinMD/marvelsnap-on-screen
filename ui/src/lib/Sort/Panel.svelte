@@ -19,8 +19,13 @@
     >
       <SortButton flipped={!$sortStates.sortDescending} />
     </div>
-    <div class="options">options</div>
-    <div class="group-by">group-by</div>
+    <div class="options">
+      <div class="option skew">Year</div>
+      <div class="option skew">Number of cards</div>
+      <div class="option skew">Number of seasons</div>
+      <div class="option skew">Alphabetical</div>
+    </div>
+    <div class="group-by skew">Group by type</div>
   </div>
 </div>
 
@@ -30,21 +35,20 @@
     grid-template-areas: 'the-only';
   }
   .panel {
+    padding: 23px;
     place-self: end start;
-    /* width: fit-content; */
-    background-color: #111;
+    background-color: #222;
     display: grid;
-    place-items: center;
+    align-items: baseline;
     grid:
       'heading direction' 50px
-      'options options' 200px
+      'options options' auto
       'group-by group-by' 50px
       /
-      auto 50px;
-
-    /* box-shadow:
-      0 10px 10px -10px Thistle inset,
-      -10px 0 10px -10px Thistle inset; */
+      auto 30px;
+    border: 3px solid skyblue;
+    border-radius: 5px;
+    /* box-shadow: 0px 0px 0px 4px skyblue; */
   }
   .heading {
     grid-area: heading;
@@ -58,6 +62,11 @@
   }
   .options {
     grid-area: options;
+    padding: 10px 0px;
+  }
+  .option {
+    font-size: 18px;
+    margin: 15px 0px;
   }
   .group-by {
     grid-area: group-by;
