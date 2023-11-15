@@ -20,10 +20,42 @@
       <SortButton flipped={!$sortStates.sortDescending} />
     </div>
     <div class="options">
-      <div class="option skew">Year</div>
-      <div class="option skew">Number of cards</div>
-      <div class="option skew">Number of seasons</div>
-      <div class="option skew">Alphabetical</div>
+      <!-- svelte-ignore a11y-click-events-have-key-events -->
+      <!-- svelte-ignore a11y-no-static-element-interactions -->
+      <div
+        class="option"
+        class:active={$sortStates.sortBy === 'year'}
+        on:click={() => ($sortStates.sortBy = 'year')}
+      >
+        <div class="skew">Year</div>
+      </div>
+      <!-- svelte-ignore a11y-click-events-have-key-events -->
+      <!-- svelte-ignore a11y-no-static-element-interactions -->
+      <div
+        class="option"
+        class:active={$sortStates.sortBy === 'numCards'}
+        on:click={() => ($sortStates.sortBy = 'numCards')}
+      >
+        <div class="skew">Number of cards</div>
+      </div>
+      <!-- svelte-ignore a11y-click-events-have-key-events -->
+      <!-- svelte-ignore a11y-no-static-element-interactions -->
+      <div
+        class="option"
+        class:active={$sortStates.sortBy === 'numSeasons'}
+        on:click={() => ($sortStates.sortBy = 'numSeasons')}
+      >
+        <div class="skew">Number of seasons</div>
+      </div>
+      <!-- svelte-ignore a11y-click-events-have-key-events -->
+      <!-- svelte-ignore a11y-no-static-element-interactions -->
+      <div
+        class="option"
+        class:active={$sortStates.sortBy === 'alphabetical'}
+        on:click={() => ($sortStates.sortBy = 'alphabetical')}
+      >
+        <div class="skew">Alphabetical</div>
+      </div>
     </div>
     <div class="group-by skew">Group by type</div>
   </div>
@@ -67,8 +99,17 @@
     grid-area: options;
   }
   .option {
-    padding: 0px var(--gutter);
-    margin: 15px 0px;
+    margin: 5px 0px;
+    padding: 6px var(--gutter) 5px;
+  }
+  .option.active {
+    color: white;
+    background-color: SkyBlue;
+    /* border: 3px solid SkyBlue; */
+  }
+  .option:hover:not(.active) {
+    background-color: #333;
+    cursor: pointer;
   }
   .group-by {
     margin-left: var(--gutter);
