@@ -10,7 +10,15 @@
 <div class="container container-narrow-viewport">
   <div class="panel" use:outClickListener on:outClick={() => ($sortStates.isPanelOpen = false)}>
     <div class="heading"><div class="skew">Sort</div></div>
-    <div class="direction"><SortButton flipped={false} /></div>
+
+    <!-- svelte-ignore a11y-click-events-have-key-events -->
+    <!-- svelte-ignore a11y-no-static-element-interactions -->
+    <div
+      class="direction"
+      on:click={() => ($sortStates.sortDescending = !$sortStates.sortDescending)}
+    >
+      <SortButton flipped={!$sortStates.sortDescending} />
+    </div>
     <div class="options">options</div>
     <div class="group-by">group-by</div>
   </div>
