@@ -4,7 +4,7 @@ import type { Key } from '../facts/map';
 
 /**
  * The main list containing the data used to render the list on the home page. The list contains a mixture of 3 possible "dividers" objects and all the shows. The divider will be rendered as divider components, shows rendered as show components.
- * It's a derived store, will change its values based on the current filter.
+ * It's a derived store, will change its values based on the current sort and  filter.
  */
 export const mainList = derived([], () => {
   const result = [];
