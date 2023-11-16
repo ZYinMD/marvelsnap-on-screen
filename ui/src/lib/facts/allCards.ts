@@ -351,7 +351,7 @@ export const allCards = {
   },
   'Doctor Strange': {
     defId: 'DoctorStrange',
-    cost: 3,
+    cost: 2,
     power: 3,
     name: 'Doctor Strange',
     description: '<b>On Reveal:</b> Move your highest-Power card(s) to this location.',
@@ -648,7 +648,7 @@ export const allCards = {
   'Jessica Jones': {
     defId: 'JessicaJones',
     cost: 4,
-    power: 4,
+    power: 5,
     name: 'Jessica Jones',
     description: "<b>On Reveal:</b> If you don't play a card at this location next turn, +4 Power.",
   },
@@ -1237,7 +1237,7 @@ export const allCards = {
     power: 3,
     name: 'Shang-Chi',
     description:
-      '<b>On Reveal:</b> Destroy all enemy cards at this location that have\n9 or more Power.',
+      '<b>On Reveal:</b> Destroy all enemy cards at this location that have\n10 or more Power.',
   },
   'Shanna': {
     defId: 'Shanna',
@@ -1249,7 +1249,7 @@ export const allCards = {
   'She-Hulk': {
     defId: 'SheHulk',
     cost: 6,
-    power: 9,
+    power: 10,
     name: 'She-Hulk',
     description: 'Costs 1 less for each unspent Energy last turn.',
   },
@@ -1341,8 +1341,8 @@ export const allCards = {
   },
   'Strong Guy': {
     defId: 'StrongGuy',
-    cost: 4,
-    power: 4,
+    cost: 3,
+    power: 3,
     name: 'Strong Guy',
     description: '<b>Ongoing:</b> If your hand is empty, +6 Power.',
   },
@@ -1487,7 +1487,7 @@ export const allCards = {
     cost: 4,
     power: 5,
     name: 'Warpath',
-    description: '<b>Ongoing:</b> If any of your locations are empty, +4 Power.',
+    description: '<b>Ongoing:</b> If any of your locations are empty, +5 Power.',
   },
   'Wasp': {
     defId: 'Wasp',
@@ -1685,11 +1685,11 @@ export const allCards = {
   },
   'Mobius M. Mobius': {
     defId: 'MobiusMMobius',
-    cost: 2,
+    cost: 3,
     power: 3,
     name: 'Mobius M. Mobius',
     description:
-      "<b>On Reveal:</b> Until the end of next turn, your Costs can't be increased and your opponent's Costs can't be reduced.",
+      "<b>Ongoing:</b> Your Costs can't be increased. Your opponent's Costs can't be reduced.",
   },
   'Alioth': {
     defId: 'Alioth',
@@ -1721,5 +1721,13 @@ export const allCards = {
     name: 'Werewolf By Night',
     description:
       'After you play an <b>On Reveal</b> card at another location, move there and\ngain +2 Power.',
+  },
+  'Gladiator': {
+    defId: 'Gladiator',
+    cost: 3,
+    power: 7,
+    name: 'Gladiator',
+    description:
+      "<b>On Reveal:</b> Add a card from your opponent's deck to their side of this location. If it has less Power, destroy it.",
   },
 } as const;

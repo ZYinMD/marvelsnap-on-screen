@@ -1,16 +1,16 @@
 <script lang="ts">
+  import BlurredBackDrop from '../Background/BlurredBackDrop.svelte';
   import { outClickListener } from '../use/outClickListener';
+  import { filterStates } from './$filterStates';
 </script>
 
 <!-- @component the search and filter panel on the right -->
-
+<BlurredBackDrop />
 <div class="container container-narrow-viewport">
   <div
     class="panel"
     use:outClickListener
-    on:outClick={(e) => {
-      console.log('e:', e);
-    }}
+    on:outClick={() => ($filterStates.isPanelOpen = false)}
   ></div>
 </div>
 

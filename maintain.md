@@ -8,7 +8,7 @@
 
 1. commit -m "update cards"
 
-1. run `deno task step3`, this will tell me which cards do I need to manually put into "map.ts", which is the main source of truth of the app.
+1. run `deno task step5`, this will tell me which cards do I need to manually put into "map.ts", which is the main source of truth of the app.
 
 1. right click "facts/wiki-pages" > Find in folder, search the new cards to see which show did they appear in. Also google it to see where it appeared.
 

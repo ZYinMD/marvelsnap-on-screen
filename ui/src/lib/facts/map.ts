@@ -943,6 +943,7 @@ export const map: Record<Key, Roster> = {
       'Captain America',
       'Nimrod',
       'Strong Guy',
+      'Gladiator',
     ],
   },
   '1994–1996|Fantastic Four: The Animated Series': {

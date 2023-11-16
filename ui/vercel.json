@@ -1,4 +1,10 @@
 {
+  "git": {
+    "deploymentEnabled": {
+      "main": true,
+      "dev": false
+    }
+  },
   "headers": [
     {
       "source": "/card-images/:any.webp",

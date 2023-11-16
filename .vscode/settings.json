@@ -6,7 +6,8 @@
   // note: search exclude inherit files exlude, unless you you override them.
   "search.exclude": {
     "**/.svelte-kit": true,
-    "**/deprecated": true
+    "**/deprecated": true,
+    "**/.vercel/output": true
   },
   "deno.enablePaths": ["facts"],
   "cSpell.words": [

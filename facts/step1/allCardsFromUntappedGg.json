@@ -1209,7 +1209,7 @@
   {
     "id": 56,
     "defId": "DoctorStrange",
-    "cost": 3,
+    "cost": 2,
     "power": 3,
     "name": "Doctor Strange",
     "description": "<b>On Reveal:</b> Move your highest-Power card(s) to this location.",
@@ -1457,7 +1457,7 @@
         "AddedPower": 2
       }
     },
-    "series": 9,
+    "series": 8,
     "artists": [
       {
         "name": "Simone Buonfantino",
@@ -2223,7 +2223,7 @@
     "id": 104,
     "defId": "JessicaJones",
     "cost": 4,
-    "power": 4,
+    "power": 5,
     "name": "Jessica Jones",
     "description": "<b>On Reveal:</b> If you don't play a card at this location next turn, +4 Power.",
     "attributes": {
@@ -3099,7 +3099,7 @@
     "id": 143,
     "defId": "Monster",
     "cost": 6,
-    "power": 9,
+    "power": 10,
     "name": "Monster",
     "description": "<i>Careful...he likes to mash.</i>",
     "series": 0,
@@ -3281,7 +3281,7 @@
         "AddedPower": 5
       }
     },
-    "series": 0,
+    "series": 9,
     "artists": [
       {
         "name": "Ryan Benjamin",
@@ -4391,10 +4391,10 @@
     "cost": 4,
     "power": 3,
     "name": "Shang-Chi",
-    "description": "<b>On Reveal:</b> Destroy all enemy cards at this location that have\n9 or more Power.",
+    "description": "<b>On Reveal:</b> Destroy all enemy cards at this location that have\n10 or more Power.",
     "attributes": {
       "data": {
-        "TargetCardCost": 9
+        "TargetCardCost": 10
       }
     },
     "series": 5,
@@ -4435,7 +4435,7 @@
     "id": 205,
     "defId": "SheHulk",
     "cost": 6,
-    "power": 9,
+    "power": 10,
     "name": "She-Hulk",
     "description": "Costs 1 less for each unspent Energy last turn.",
     "attributes": {
@@ -4917,8 +4917,8 @@
   {
     "id": 227,
     "defId": "StrongGuy",
-    "cost": 4,
-    "power": 4,
+    "cost": 3,
+    "power": 3,
     "name": "Strong Guy",
     "description": "<b>Ongoing:</b> If your hand is empty, +6 Power.",
     "attributes": {
@@ -5550,10 +5550,10 @@
     "cost": 4,
     "power": 5,
     "name": "Warpath",
-    "description": "<b>Ongoing:</b> If any of your locations are empty, +4 Power.",
+    "description": "<b>Ongoing:</b> If any of your locations are empty, +5 Power.",
     "attributes": {
       "data": {
-        "AddedPower": 4
+        "AddedPower": 5
       }
     },
     "series": 5,
@@ -6338,10 +6338,10 @@
   {
     "id": 294,
     "defId": "MobiusMMobius",
-    "cost": 2,
+    "cost": 3,
     "power": 3,
     "name": "Mobius M. Mobius",
-    "description": "<b>On Reveal:</b> Until the end of next turn, your Costs can't be increased and your opponent's Costs can't be reduced.",
+    "description": "<b>Ongoing:</b> Your Costs can't be increased. Your opponent's Costs can't be reduced.",
     "series": 7,
     "artists": [
       {
@@ -6494,7 +6494,8 @@
         "name": "Ryan Kinnaird",
         "type": 4
       }
-    ]
+    ],
+    "collectible": true
   },
   {
     "id": 301,
