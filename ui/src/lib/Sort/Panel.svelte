@@ -12,7 +12,7 @@
 <div class="container container-narrow-viewport">
   <div
     class="panel"
-    in:fly={{ x: -200, duration: 150 }}
+    in:fly={{ x: -200, duration: 100 }}
     use:outClickListener
     on:outClick={() => ($sortStates.isPanelOpen = false)}
   >
