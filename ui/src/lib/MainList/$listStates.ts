@@ -25,10 +25,21 @@ const animatedTvSeries = Object.values(allTitles['animated-tv-series']);
 const all = [...movies, ...liveActionTvSeries, ...animatedTvSeries];
 
 const compareYear = (descending: boolean) => (a: { year: string }, b: { year: string }) => {
-  let result = a.year > b.year;
-  if (descending) result = !result;
-  return result ? 1 : -1;
+  let verdict = a.year > b.year;
+  if (descending) verdict = !verdict;
+  return verdict ? 1 : -1;
 };
+
+const compareTitle = (descending: boolean) => (a: { title: string }, b: { title: string }) => {
+  let titleA = a.title.toLowerCase();
+  let titleB = b.title.toLowerCase();
+  if (titleA.startsWith('the ')) titleA = titleA.slice(4);
+  if (titleB.startsWith('the ')) titleB = titleB.slice(4);
+  let verdict = titleA > titleB;
+  if (descending) verdict = !verdict;
+  return verdict ? 1 : -1;
+};
+
 /**
  * The main list containing the data used to render the list on the home page. The list contains a mixture of 3 possible "dividers" objects and all the shows. The divider will be rendered as divider components, shows rendered as show components.
  * It's a derived store, will change its values based on the current sort and filter.
@@ -36,17 +47,20 @@ const compareYear = (descending: boolean) => (a: { year: string }, b: { year: st
 export const mainList = derived(sortStates, (sortStates) => {
   const { sortDescending: direction, sortBy, groupByType } = sortStates;
   const result = [];
+  let sortFn: any;
+  if (sortBy === 'year') sortFn = compareYear(direction);
+  else if (sortBy === 'alphabetical') sortFn = compareTitle(direction);
   {
     result.push(dividerMovies);
-    result.push(...movies.sort(compareYear(direction)));
+    result.push(...movies.sort(sortFn));
   }
   {
     result.push(dividerLiveActionTvSeries);
-    result.push(...liveActionTvSeries.sort(compareYear(direction)));
+    result.push(...liveActionTvSeries.sort(sortFn));
   }
   {
     result.push(dividerAnimatedTvSeries);
-    result.push(...animatedTvSeries.sort(compareYear(direction)));
+    result.push(...animatedTvSeries.sort(sortFn));
   }
   return result;
 });
