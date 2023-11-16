@@ -1,6 +1,7 @@
 <script lang="ts">
-  import { fly } from 'svelte/transition';
+  import { fly, scale } from 'svelte/transition';
   import BlurredBackDrop from '../Background/BlurredBackDrop.svelte';
+  import Checkmark from '../Icons/Checkmark.svelte';
   import SortButton from '../Icons/SortButton.svelte';
   import { outClickListener } from '../use/outClickListener';
   import { sortStates } from './$sortStates';
@@ -8,8 +9,13 @@
 
 <!-- @component the sort panel on the left -->
 <BlurredBackDrop />
-<div in:fly={{ x: -200, duration: 150 }} class="container container-narrow-viewport">
-  <div class="panel" use:outClickListener on:outClick={() => ($sortStates.isPanelOpen = false)}>
+<div class="container container-narrow-viewport">
+  <div
+    class="panel"
+    in:fly={{ x: -200, duration: 150 }}
+    use:outClickListener
+    on:outClick={() => ($sortStates.isPanelOpen = false)}
+  >
     <div class="heading"><div class="skew">Sort</div></div>
 
     <!-- svelte-ignore a11y-click-events-have-key-events -->
@@ -59,6 +65,17 @@
       </div>
     </div>
     <div class="group-by skew">Group by type</div>
+    {#if $sortStates.groupByType}
+      <div transition:scale={{ duration: 100 }} class="checkmark">
+        <Checkmark />
+      </div>
+    {/if}
+    <!-- svelte-ignore a11y-click-events-have-key-events -->
+    <!-- svelte-ignore a11y-no-static-element-interactions -->
+    <div
+      class="row-of-group-by"
+      on:click={() => ($sortStates.groupByType = !$sortStates.groupByType)}
+    ></div>
   </div>
 </div>
 
@@ -70,17 +87,17 @@
     --gutter: 18px;
   }
   .panel {
-    padding: 31px 5px;
+    padding: 21px 5px;
     place-self: end start;
     background-color: #222;
     display: grid;
-    align-items: end;
+    align-items: center;
     grid:
       'heading direction' 26px
-      'options options' 180px
-      'group-by group-by' 45px
+      'options options' 190px
+      'group-by checkmark' 35px
       /
-      auto 50px;
+      auto 45px;
     border: 3px solid skyblue;
     border-radius: 5px;
     /* box-shadow: 0px 0px 0px 4px skyblue; */
@@ -95,6 +112,8 @@
     grid-area: direction;
     font-size: 24px;
     cursor: pointer;
+    position: relative;
+    top: 4px;
   }
   .options {
     grid-area: options;
@@ -109,15 +128,32 @@
     /* border: 3px solid SkyBlue; */
   }
   .option:hover:not(.active) {
-    background-color: #333;
+    background-color: #aaa1;
     cursor: pointer;
   }
   .group-by {
+    pointer-events: none;
     margin-left: var(--gutter);
     grid-area: group-by;
     width: fit-content;
   }
+  .checkmark {
+    pointer-events: none;
+    grid-area: checkmark;
+    color: skyblue;
+    position: relative;
+    top: 3px;
+  }
+  .row-of-group-by {
+    grid-area: 3/1/4/3;
+    align-self: stretch;
+    cursor: pointer;
+  }
+  .row-of-group-by:hover {
+    background-color: #aaa1;
+  }
+
   .skew {
-    transform: skew(-4deg);
+    transform: skew(-6deg);
   }
 </style>
