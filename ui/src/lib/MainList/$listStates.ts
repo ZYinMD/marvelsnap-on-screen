@@ -31,6 +31,15 @@ const compareYear = (descending: boolean) => (a: Show, b: Show) => {
   if (descending) verdict = !verdict;
   return verdict ? 1 : -1;
 };
+function getNumCardsByShow(show: Show) {
+  const roster = map[show.key];
+  return roster.major.size + roster.minor.size;
+}
+const compareNumCards = (descending: boolean) => (a: Show, b: Show) => {
+  let verdict = getNumCardsByShow(a) > getNumCardsByShow(b);
+  if (descending) verdict = !verdict;
+  return verdict ? 1 : -1;
+};
 
 const compareTitle = (descending: boolean) => (a: Show, b: Show) => {
   let titleA = a.title.toLowerCase();
@@ -42,15 +51,6 @@ const compareTitle = (descending: boolean) => (a: Show, b: Show) => {
   return verdict ? 1 : -1;
 };
 
-function getNumCardsByShow(show: Show) {
-  const roster = map[show.key];
-  return roster.major.size + roster.minor.size;
-}
-const compareNumCards = (descending: boolean) => (a: Show, b: Show) => {
-  let verdict = getNumCardsByShow(a) > getNumCardsByShow(b);
-  if (descending) verdict = !verdict;
-  return verdict ? 1 : -1;
-};
 /**
  * The main list containing the data used to render the list on the home page. The list contains a mixture of 3 possible "dividers" objects and all the shows. The divider will be rendered as divider components, shows rendered as show components.
  * It's a derived store, will change its values based on the current sort and filter.
@@ -60,8 +60,8 @@ export const mainList = derived(sortStates, (sortStates) => {
   const result = [];
   let sortFn: any;
   if (sortBy === 'year') sortFn = compareYear(direction);
-  else if (sortBy === 'alphabetical') sortFn = compareTitle(direction);
   else if (sortBy === 'numCards') sortFn = compareNumCards(direction);
+  else if (sortBy === 'alphabetical') sortFn = compareTitle(direction);
   {
     result.push(dividerMovies);
     result.push(...movies.sort(sortFn));
