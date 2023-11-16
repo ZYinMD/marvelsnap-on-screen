@@ -78,16 +78,28 @@ export const mainList = derived(sortStates, (sortStates) => {
   else if (sortBy === 'numCards') sortFn = compareNumCards(direction);
   else if (sortBy === 'numSeasons') sortFn = compareNumSeasons(direction);
   else if (sortBy === 'alphabetical') sortFn = compareTitle(direction);
-  if (sortBy !== 'numSeasons') {
-    // ignore all movies if sort by numSeasons
-    result.push(dividerMovies);
-    result.push(...movies.sort(sortFn));
+
+  if (!groupByType) {
+    if (sortBy !== 'numSeasons') {
+      // ignore all movies if sort by numSeasons
+      result.push(...movies);
+    }
+    result.push(...liveActionTvSeries);
+    result.push(...animatedTvSeries);
+    return result.sort(sortFn);
   }
-  result.push(dividerLiveActionTvSeries);
-  result.push(...liveActionTvSeries.sort(sortFn));
-  result.push(dividerAnimatedTvSeries);
-  result.push(...animatedTvSeries.sort(sortFn));
-  return result;
+  if (groupByType) {
+    if (sortBy !== 'numSeasons') {
+      // ignore all movies if sort by numSeasons
+      result.push(dividerMovies);
+      result.push(...movies.sort(sortFn));
+    }
+    result.push(dividerLiveActionTvSeries);
+    result.push(...liveActionTvSeries.sort(sortFn));
+    result.push(dividerAnimatedTvSeries);
+    result.push(...animatedTvSeries.sort(sortFn));
+    return result;
+  }
 });
 
 export const openDrawers = writable(new Set<Key>());
