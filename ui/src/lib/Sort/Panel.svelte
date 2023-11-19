@@ -100,7 +100,6 @@
       auto 45px;
     border: 3px solid skyblue;
     border-radius: 5px;
-    /* box-shadow: 0px 0px 0px 4px skyblue; */
   }
   .heading {
     grid-area: heading;
@@ -152,7 +151,6 @@
   .row-of-group-by:hover {
     background-color: #aaa1;
   }
-
   .skew {
     transform: skew(-6deg);
   }
