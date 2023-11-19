@@ -1,9 +1,16 @@
 <script lang="ts">
+  import { filterStates } from './$filterStates';
 </script>
 
 <!-- @component the search box to put in key words -->
 <div class="container">
-  <input type="search" name="search" id="search-box" placeholder="search" />
+  <input
+    type="search"
+    name="search"
+    id="search-box"
+    placeholder="search"
+    bind:value={$filterStates.searching}
+  />
 </div>
 
 <style>
