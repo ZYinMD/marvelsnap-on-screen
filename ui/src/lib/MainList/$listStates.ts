@@ -24,7 +24,7 @@ const liveActionTvSeries = Object.values(allTitles['live-action-tv-series']);
 const animatedTvSeries = Object.values(allTitles['animated-tv-series']);
 const all = [...movies, ...liveActionTvSeries, ...animatedTvSeries];
 
-type Show = (typeof all)[number];
+export type Show = (typeof all)[number];
 
 const compareYear = (descending: boolean) => (a: Show, b: Show) => {
   let verdict = a.year > b.year;
@@ -87,8 +87,7 @@ export const mainList = derived(sortStates, (sortStates) => {
     result.push(...liveActionTvSeries);
     result.push(...animatedTvSeries);
     return result.sort(sortFn);
-  }
-  if (groupByType) {
+  } else {
     if (sortBy !== 'numSeasons') {
       // ignore all movies if sort by numSeasons
       result.push(dividerMovies);
