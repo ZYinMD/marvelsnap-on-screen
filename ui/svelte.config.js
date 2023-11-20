@@ -12,6 +12,12 @@ const config = {
     // See https://kit.svelte.dev/docs/adapters for more information about adapters.
     adapter: adapter(),
   },
+  onwarn: (warning, handler) => {
+    // this suppress warnings on `vite dev` and `vite build`, but even without this, everything still works, just with some warnings on screen
+    if (warning.code === 'a11y-click-events-have-key-events') return;
+    if (warning.code === 'a11y-no-static-element-interactions') return;
+    handler(warning);
+  },
 };
 
 export default config;
