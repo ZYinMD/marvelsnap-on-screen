@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { fly, scale } from 'svelte/transition';
+  import { scale } from 'svelte/transition';
   import BlurredBackDrop from '../Background/BlurredBackDrop.svelte';
   import Checkmark from '../Icons/Checkmark.svelte';
   import SortButton from '../Icons/SortButton.svelte';
@@ -10,12 +10,7 @@
 <!-- @component the sort panel on the left -->
 <BlurredBackDrop />
 <div class="container container-narrow-viewport">
-  <div
-    class="panel"
-    in:fly={{ x: -200, duration: 100 }}
-    use:outClickListener
-    on:outClick={() => ($sortStates.isPanelOpen = false)}
-  >
+  <div class="panel" use:outClickListener on:outClick={() => ($sortStates.isPanelOpen = false)}>
     <div class="heading"><div class="skew">Sort</div></div>
 
     <div

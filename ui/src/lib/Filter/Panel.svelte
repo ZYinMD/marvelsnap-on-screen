@@ -1,21 +1,15 @@
 <script lang="ts">
-  import { fly } from 'svelte/transition';
   import BlurredBackDrop from '../Background/BlurredBackDrop.svelte';
   import { outClickListener } from '../use/outClickListener';
   import { filterStates } from './$filterStates';
-  import SearchBox from './SearchBox.svelte';
   import Labels from './Labels.svelte';
+  import SearchBox from './SearchBox.svelte';
 </script>
 
 <!-- @component the search and filter panel on the right -->
 <BlurredBackDrop />
 <div class="container container-narrow-viewport">
-  <div
-    class="panel"
-    in:fly={{ x: 200, duration: 100 }}
-    use:outClickListener
-    on:outClick={() => ($filterStates.isPanelOpen = false)}
-  >
+  <div class="panel" use:outClickListener on:outClick={() => ($filterStates.isPanelOpen = false)}>
     <div class="h1"><div class="skew">Search & Filters</div></div>
     <SearchBox />
     <div class="h2"><div class="skew">Common Labels</div></div>
