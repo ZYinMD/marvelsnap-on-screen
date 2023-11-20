@@ -4,6 +4,7 @@
   import { outClickListener } from '../use/outClickListener';
   import { filterStates } from './$filterStates';
   import SearchBox from './SearchBox.svelte';
+  import Labels from './Labels.svelte';
 </script>
 
 <!-- @component the search and filter panel on the right -->
@@ -17,6 +18,8 @@
   >
     <div class="h1"><div class="skew">Search & Filters</div></div>
     <SearchBox />
+    <div class="h2"><div class="skew">Common Labels</div></div>
+    <Labels />
   </div>
 </div>
 
@@ -35,7 +38,7 @@
       'h1' 26px
       'search-box' 90px
       'h2' 35px
-      'labels' 235px
+      'labels' auto
       'reset' 50px
       /
       auto;
@@ -47,6 +50,10 @@
     font-size: 26px;
     font-weight: 500;
     margin-bottom: 10px;
+  }
+  .h2 {
+    grid-area: h2;
+    font-size: 18px;
   }
   .skew {
     transform: skew(-6deg);
