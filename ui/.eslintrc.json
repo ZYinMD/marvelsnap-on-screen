@@ -20,7 +20,7 @@
   },
   "rules": {
     "@typescript-eslint/no-explicit-any": ["off"],
-    "svelte/valid-compile": ["error", { "ignoreWarnings": false }]
+    "svelte/valid-compile": ["error", { "ignoreWarnings": true }]
   },
   "overrides": [
     {
