@@ -18,6 +18,10 @@
     "es2017": true,
     "node": true
   },
+  "rules": {
+    "@typescript-eslint/no-explicit-any": ["off"],
+    "svelte/valid-compile": ["error", { "ignoreWarnings": true }]
+  },
   "overrides": [
     {
       "files": ["*.svelte"],

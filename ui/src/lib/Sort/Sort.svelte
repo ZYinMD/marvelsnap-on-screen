@@ -8,7 +8,6 @@
   <Panel />
 {:else}
   <Button />
-  <span></span>
 {/if}
 
 <style>

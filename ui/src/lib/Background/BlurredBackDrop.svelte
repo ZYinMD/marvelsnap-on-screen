@@ -16,6 +16,6 @@ I didn't add any z-index, but this is usually rendered before the modal, under t
     height: 100vh;
     overflow: hidden;
     background-color: rgba(0, 0, 0, 50%);
-    backdrop-filter: blur(3.5px) brightness(60%);
+    backdrop-filter: blur(3.5px) brightness(80%);
   }
 </style>

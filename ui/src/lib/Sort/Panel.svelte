@@ -12,14 +12,12 @@
 <div class="container container-narrow-viewport">
   <div
     class="panel"
-    in:fly={{ x: -200, duration: 150 }}
+    in:fly={{ x: -200, duration: 100 }}
     use:outClickListener
     on:outClick={() => ($sortStates.isPanelOpen = false)}
   >
     <div class="heading"><div class="skew">Sort</div></div>
 
-    <!-- svelte-ignore a11y-click-events-have-key-events -->
-    <!-- svelte-ignore a11y-no-static-element-interactions -->
     <div
       class="direction"
       on:click={() => ($sortStates.sortDescending = !$sortStates.sortDescending)}
@@ -27,8 +25,6 @@
       <SortButton flipped={!$sortStates.sortDescending} />
     </div>
     <div class="options">
-      <!-- svelte-ignore a11y-click-events-have-key-events -->
-      <!-- svelte-ignore a11y-no-static-element-interactions -->
       <div
         class="option"
         class:active={$sortStates.sortBy === 'year'}
@@ -36,8 +32,6 @@
       >
         <div class="skew">Year</div>
       </div>
-      <!-- svelte-ignore a11y-click-events-have-key-events -->
-      <!-- svelte-ignore a11y-no-static-element-interactions -->
       <div
         class="option"
         class:active={$sortStates.sortBy === 'numCards'}
@@ -45,8 +39,6 @@
       >
         <div class="skew">Number of cards</div>
       </div>
-      <!-- svelte-ignore a11y-click-events-have-key-events -->
-      <!-- svelte-ignore a11y-no-static-element-interactions -->
       <div
         class="option"
         class:active={$sortStates.sortBy === 'numSeasons'}
@@ -54,8 +46,6 @@
       >
         <div class="skew">Number of seasons</div>
       </div>
-      <!-- svelte-ignore a11y-click-events-have-key-events -->
-      <!-- svelte-ignore a11y-no-static-element-interactions -->
       <div
         class="option"
         class:active={$sortStates.sortBy === 'alphabetical'}
@@ -70,8 +60,6 @@
         <Checkmark />
       </div>
     {/if}
-    <!-- svelte-ignore a11y-click-events-have-key-events -->
-    <!-- svelte-ignore a11y-no-static-element-interactions -->
     <div
       class="row-of-group-by"
       on:click={() => ($sortStates.groupByType = !$sortStates.groupByType)}
@@ -100,7 +88,6 @@
       auto 45px;
     border: 3px solid skyblue;
     border-radius: 5px;
-    /* box-shadow: 0px 0px 0px 4px skyblue; */
   }
   .heading {
     grid-area: heading;
@@ -152,7 +139,6 @@
   .row-of-group-by:hover {
     background-color: #aaa1;
   }
-
   .skew {
     transform: skew(-6deg);
   }
