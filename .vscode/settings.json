@@ -10,6 +10,10 @@
     "**/.vercel/output": true
   },
   "deno.enablePaths": ["facts"],
+  "svelte.plugin.svelte.compilerWarnings": {
+    "a11y-click-events-have-key-events": "ignore",
+    "a11y-no-static-element-interactions": "ignore"
+  },
   "cSpell.words": [
     "Arnim",
     "Attuma",

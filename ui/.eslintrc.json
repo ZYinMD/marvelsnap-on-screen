@@ -19,7 +19,8 @@
     "node": true
   },
   "rules": {
-    "@typescript-eslint/no-explicit-any": ["off"]
+    "@typescript-eslint/no-explicit-any": ["off"],
+    "svelte/valid-compile": ["error", { "ignoreWarnings": false }]
   },
   "overrides": [
     {
