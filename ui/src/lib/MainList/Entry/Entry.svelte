@@ -20,8 +20,6 @@
 </script>
 
 <!-- @component one item in the list -->
-<!-- svelte-ignore a11y-click-events-have-key-events -->
-<!-- svelte-ignore a11y-no-static-element-interactions -->
 <div class={`container ${type}`}>
   <div class="clickable-row" on:click={toggleDrawer}>
     <Chevron {isOpen} />
