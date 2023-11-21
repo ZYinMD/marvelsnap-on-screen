@@ -21,6 +21,7 @@
 <style>
   .container {
     display: flex;
+    margin: 25px 1px 24px;
   }
   .info-button {
     font-size: 16px;
@@ -33,5 +34,8 @@
     color: skyblue;
     position: relative;
     top: 2px;
+  }
+  .skew {
+    transform: skew(-6deg);
   }
 </style>

@@ -16,6 +16,16 @@
     <div class="h2"><div class="skew">Labels</div></div>
     <Labels />
     <ShowMinorChars />
+    <div
+      class="reset clickable"
+      on:click={() => {
+        $filterStates.searching = '';
+        $filterStates.activeLabel = '';
+        $filterStates.showMinorCharacters = true;
+      }}
+    >
+      <div class="skew">Reset</div>
+    </div>
   </div>
 </div>
 
@@ -28,28 +38,25 @@
     padding: 30px 18px;
     place-self: end end;
     background-color: #222;
-    display: grid;
-    align-items: center;
-    grid:
-      'h1' 26px
-      'search-box' 90px
-      'h2' 35px
-      'labels' auto
-      'reset' 50px
-      /
-      auto;
+    display: flex;
+    flex-direction: column;
     border: 3px solid skyblue;
     border-radius: 5px;
   }
   .h1 {
-    grid-area: h1;
     font-size: 26px;
     font-weight: 500;
-    margin-bottom: 10px;
+    margin: 0px 1px 17px;
   }
   .h2 {
-    grid-area: h2;
-    font-size: 18px;
+    margin: 20px 1px 7px;
+    font-size: 22px;
+  }
+  .reset {
+    width: fit-content;
+    border: 1px solid #555;
+    padding: 4.5px 7px 4px;
+    margin: 5px 0px;
   }
   .skew {
     transform: skew(-6deg);

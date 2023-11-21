@@ -15,5 +15,3 @@ export const filterStates = writable({
     | 'anime',
   showMinorCharacters: true,
 });
-
-filterStates.subscribe((state) => console.log(state.activeLabel));

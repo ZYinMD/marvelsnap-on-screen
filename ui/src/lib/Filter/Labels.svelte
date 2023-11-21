@@ -86,9 +86,9 @@
 
 <style>
   ul.container {
-    grid-area: labels;
     list-style: none;
     padding: 0px;
+    margin: 0px;
   }
   li {
     display: flex;
