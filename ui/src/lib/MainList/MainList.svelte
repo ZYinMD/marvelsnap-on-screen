@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { mainList } from './$listStates';
+  import { mainList } from './$mainList';
   import Entry from './Entry/Entry.svelte';
 </script>
 

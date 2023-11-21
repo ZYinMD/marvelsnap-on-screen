@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { openDrawers, type Show } from '../$listStates';
+  import { openDrawers, type Show } from '../$mainList';
   import type { Key } from '../../facts/map';
   import Chevron from '../../Icons/Chevron.svelte';
   import Drawer from './Drawer.svelte';

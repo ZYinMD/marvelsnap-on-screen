@@ -67,8 +67,7 @@ const compareTitle = (descending: boolean) => (a: Show, b: Show) => {
 };
 
 /**
- * The main list containing the data used to render the list on the home page. The list contains a mixture of 3 possible "dividers" objects and all the shows. The divider will be rendered as divider components, shows rendered as show components.
- * It's a derived store, will change its values based on the current sort and filter.
+ * The main list containing the data used to render the list on the home page. The list may contains a mixture of "dividers" objects and shows. The divider will be rendered as divider components, displaying some text. The shows are rendered as show components.
  */
 export const mainList = derived(sortStates, (sortStates) => {
   const { sortDescending: direction, sortBy, groupByType } = sortStates;
