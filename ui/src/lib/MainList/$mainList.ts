@@ -66,17 +66,21 @@ const compareTitle = (descending: boolean) => (a: Show, b: Show) => {
   return verdict ? 1 : -1;
 };
 
+export const sortFn = derived(sortStates, (sortStates) => {
+  const { sortDescending: direction, sortBy } = sortStates;
+  if (sortBy === 'year') return compareYear(direction);
+  else if (sortBy === 'numCards') return compareNumCards(direction);
+  else if (sortBy === 'numSeasons') return compareNumSeasons(direction);
+  else if (sortBy === 'alphabetical') return compareTitle(direction);
+  else throw 'unknown sortBy value';
+});
+
 /**
  * The main list containing the data used to render the list on the home page. The list may contains a mixture of "dividers" objects and shows. The divider will be rendered as divider components, displaying some text. The shows are rendered as show components.
  */
-export const mainList = derived(sortStates, (sortStates) => {
-  const { sortDescending: direction, sortBy, groupByType } = sortStates;
+export const mainList = derived([sortStates, sortFn], ([sortStates, sortFn]) => {
+  const { sortBy, groupByType } = sortStates;
   const result = [];
-  let sortFn: any;
-  if (sortBy === 'year') sortFn = compareYear(direction);
-  else if (sortBy === 'numCards') sortFn = compareNumCards(direction);
-  else if (sortBy === 'numSeasons') sortFn = compareNumSeasons(direction);
-  else if (sortBy === 'alphabetical') sortFn = compareTitle(direction);
 
   if (!groupByType) {
     if (sortBy !== 'numSeasons') {
