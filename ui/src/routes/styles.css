@@ -10,6 +10,13 @@ html {
   box-sizing: inherit;
 }
 
+.clickable {
+  cursor: pointer;
+}
+.clickable:active {
+  opacity: 0.9;
+}
+
 body {
   font-family:
     Roboto,
