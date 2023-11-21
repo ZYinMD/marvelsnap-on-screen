@@ -38,7 +38,7 @@
   }
   .label {
     border: 1px solid #555;
-    padding: 4px 6px;
+    padding: 4.5px 7px 4px;
     margin: 5px 0px;
   }
   .info-button {

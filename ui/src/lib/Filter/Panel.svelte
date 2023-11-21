@@ -12,7 +12,7 @@
   <div class="panel" use:outClickListener on:outClick={() => ($filterStates.isPanelOpen = false)}>
     <div class="h1"><div class="skew">Search & Filters</div></div>
     <SearchBox />
-    <div class="h2"><div class="skew">Common Labels</div></div>
+    <div class="h2"><div class="skew">Labels</div></div>
     <Labels />
   </div>
 </div>
