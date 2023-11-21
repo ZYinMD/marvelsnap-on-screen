@@ -5,23 +5,23 @@
 <!-- @component Common labels used for filtering, e.g. MCU, Netflix, Anime, etc -->
 <ul class="container">
   <li>
-    <div class="label skew">Marvel Cinematic Universe</div>
+    <div class="label"><div class="skew">Marvel Cinematic Universe</div></div>
     <div class="info-button"><Info /></div>
   </li>
   <li>
-    <div class="label skew">20th Century Fox X-Men</div>
+    <div class="label"><div class="skew">20th Century Fox X-Men</div></div>
     <div class="info-button"><Info /></div>
   </li>
   <li>
-    <div class="label skew">Sony's Spider-Man Universe</div>
+    <div class="label"><div class="skew">Sony's Spider-Man Universe</div></div>
     <div class="info-button"><Info /></div>
   </li>
   <li>
-    <div class="label skew">Netflix</div>
+    <div class="label"><div class="skew">Netflix</div></div>
     <div class="info-button"><Info /></div>
   </li>
   <li>
-    <div class="label skew">Other continuities</div>
+    <div class="label"><div class="skew">Other continuities</div></div>
     <div class="info-button"><Info /></div>
   </li>
 </ul>
@@ -37,7 +37,7 @@
     align-items: center;
   }
   .label {
-    border: 1px solid grey;
+    border: 1px solid #555;
     padding: 4px 6px;
     margin: 5px 0px;
   }
