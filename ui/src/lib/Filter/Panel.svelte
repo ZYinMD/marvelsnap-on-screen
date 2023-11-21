@@ -4,6 +4,7 @@
   import { filterStates } from './$filterStates';
   import Labels from './Labels.svelte';
   import SearchBox from './SearchBox.svelte';
+  import ShowMinorChars from './ShowMinorCharacters.svelte';
 </script>
 
 <!-- @component the search and filter panel on the right -->
@@ -14,6 +15,7 @@
     <SearchBox />
     <div class="h2"><div class="skew">Labels</div></div>
     <Labels />
+    <ShowMinorChars />
   </div>
 </div>
 

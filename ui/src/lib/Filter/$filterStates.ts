@@ -13,6 +13,7 @@ export const filterStates = writable({
     | 'all-tv'
     | 'all-animated'
     | 'anime',
+  showMinorCharacters: true,
 });
 
 filterStates.subscribe((state) => console.log(state.activeLabel));
