@@ -49,14 +49,14 @@
         <div class="skew">Alphabetical</div>
       </div>
     </div>
-    <div class="group-by skew">Separate Movies and TV</div>
+    <div class="separate-movies-and-tv skew">Separate Movies and TV</div>
     {#if $sortStates.separateMoviesAndTv}
       <div transition:scale={{ duration: 100 }} class="checkmark">
         <Checkmark />
       </div>
     {/if}
     <div
-      class="row-of-group-by"
+      class="row-of-separate-movies-and-tv"
       on:click={() => ($sortStates.separateMoviesAndTv = !$sortStates.separateMoviesAndTv)}
     ></div>
   </div>
@@ -78,7 +78,7 @@
     grid:
       'heading direction' 26px
       'options options' 190px
-      'group-by checkmark' 35px
+      'separate-movies-and-tv checkmark' 35px
       /
       auto 40px;
     border: 3px solid skyblue;
@@ -113,10 +113,10 @@
     background-color: #aaa1;
     cursor: pointer;
   }
-  .group-by {
+  .separate-movies-and-tv {
     pointer-events: none;
     margin-left: var(--gutter);
-    grid-area: group-by;
+    grid-area: separate-movies-and-tv;
     margin-right: 12px;
   }
   .checkmark {
@@ -126,12 +126,12 @@
     position: relative;
     top: 1.2px;
   }
-  .row-of-group-by {
+  .row-of-separate-movies-and-tv {
     grid-area: 3/1/4/3;
     align-self: stretch;
     cursor: pointer;
   }
-  .row-of-group-by:hover {
+  .row-of-separate-movies-and-tv:hover {
     background-color: #aaa1;
   }
   .skew {
