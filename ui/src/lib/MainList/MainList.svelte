@@ -1,6 +1,6 @@
 <script lang="ts">
   import { mainList } from './$mainList';
-  import Entry from './Entry/Entry.svelte';
+  import Entry from './Entry/Show.svelte';
 </script>
 
 <!-- @component the list of all the shows in the home page -->
