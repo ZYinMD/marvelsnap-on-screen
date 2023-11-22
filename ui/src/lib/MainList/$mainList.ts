@@ -56,4 +56,4 @@ export const mainList = derived([sortStates, sortFn], ([sortStates, sortFn]) => 
   }
 });
 
-export const openDrawers = writable(new Set<Key>());
+export const openedDrawers = writable(new Set<Key>());

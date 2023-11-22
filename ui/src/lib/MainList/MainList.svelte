@@ -9,7 +9,7 @@
     {#if entry.type === 'divider'}
       <div class="divider"><div class="text">{entry.title}:</div></div>
     {:else}
-      <Entry {entry} />
+      <Entry showData={entry} />
     {/if}
   {/each}
 </div>
