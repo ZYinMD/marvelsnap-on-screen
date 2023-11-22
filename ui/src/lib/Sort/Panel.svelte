@@ -49,7 +49,7 @@
         <div class="skew">Alphabetical</div>
       </div>
     </div>
-    <div class="group-by skew">Group by type</div>
+    <div class="group-by skew">Separate Movies and TV</div>
     {#if $sortStates.groupByType}
       <div transition:scale={{ duration: 100 }} class="checkmark">
         <Checkmark />
@@ -80,7 +80,7 @@
       'options options' 190px
       'group-by checkmark' 35px
       /
-      auto 45px;
+      auto 40px;
     border: 3px solid skyblue;
     border-radius: 5px;
   }
@@ -95,7 +95,7 @@
     font-size: 24px;
     cursor: pointer;
     position: relative;
-    top: 4px;
+    top: 3px;
   }
   .options {
     grid-area: options;
@@ -117,14 +117,14 @@
     pointer-events: none;
     margin-left: var(--gutter);
     grid-area: group-by;
-    width: fit-content;
+    margin-right: 12px;
   }
   .checkmark {
     pointer-events: none;
     grid-area: checkmark;
     color: skyblue;
     position: relative;
-    top: 3px;
+    top: 1.2px;
   }
   .row-of-group-by {
     grid-area: 3/1/4/3;
