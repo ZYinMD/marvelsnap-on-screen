@@ -29,10 +29,10 @@ const dividerAnimatedTvSeries = {
  * The main list containing the data used to render the list on the home page. The list may contains a mixture of "dividers" objects and shows. The divider will be rendered as divider components, displaying some text. The shows are rendered as show components.
  */
 export const mainList = derived([sortStates, sortFn], ([sortStates, sortFn]) => {
-  const { sortBy, groupByType } = sortStates;
+  const { sortBy, separateMoviesAndTv } = sortStates;
   const result = [];
 
-  if (!groupByType) {
+  if (!separateMoviesAndTv) {
     if (sortBy !== 'numSeasons') {
       // ignore all movies if sort by numSeasons
       result.push(...allMovies);

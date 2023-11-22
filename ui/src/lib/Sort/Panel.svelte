@@ -50,14 +50,14 @@
       </div>
     </div>
     <div class="group-by skew">Separate Movies and TV</div>
-    {#if $sortStates.groupByType}
+    {#if $sortStates.separateMoviesAndTv}
       <div transition:scale={{ duration: 100 }} class="checkmark">
         <Checkmark />
       </div>
     {/if}
     <div
       class="row-of-group-by"
-      on:click={() => ($sortStates.groupByType = !$sortStates.groupByType)}
+      on:click={() => ($sortStates.separateMoviesAndTv = !$sortStates.separateMoviesAndTv)}
     ></div>
   </div>
 </div>
