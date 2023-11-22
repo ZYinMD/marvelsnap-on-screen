@@ -1,6 +1,6 @@
 import { derived } from 'svelte/store';
 import { sortStates } from '../Sort/$sortStates';
-import type { Show } from './$mainList';
+import type { Show, TVSeries } from './$mainList';
 import { map } from '../facts/map';
 
 export const compareYear = (descending: boolean) => (a: Show, b: Show) => {
@@ -17,14 +17,10 @@ export const compareNumCards = (descending: boolean) => (a: Show, b: Show) => {
   if (descending) verdict = !verdict;
   return verdict ? 1 : -1;
 };
-export const compareNumSeasons = (descending: boolean) => (a: Show, b: Show) => {
-  // @ts-expect-error: I know what I'm doing
+export const compareNumSeasons = (descending: boolean) => (a: TVSeries, b: TVSeries) => {
   const numSeasonsA = a.numSeasons || 0;
-  // @ts-expect-error: I know what I'm doing
   const numEpisodesA = a.numEpisodes || 0;
-  // @ts-expect-error: I know what I'm doing
   const numSeasonsB = b.numSeasons || 0;
-  // @ts-expect-error: I know what I'm doing
   const numEpisodesB = b.numEpisodes || 0;
   let verdict: boolean;
   if (numSeasonsA === numSeasonsB) {
