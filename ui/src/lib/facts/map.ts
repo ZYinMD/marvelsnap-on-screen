@@ -1,19 +1,11 @@
+import type { Key } from '../MainList/buildingBlocks';
 import type { allCards } from './allCards';
-import type { allTitles } from './allTitles';
-
-/**
- * The keys of the big object called "map" from map.ts, which is the main data source of this app. The key looks like a year|title of a show, e.g.: "2011|Captain America: The First Avenger"
- */
-export type Key =
-  | keyof (typeof allTitles)['movie']
-  | keyof (typeof allTitles)['live-action-tv-series']
-  | keyof (typeof allTitles)['animated-tv-series'];
 
 /**
  * The English name of cards, e.g. "Adam Warlock"
  */
 export type Card = keyof typeof allCards;
-type Roster = {
+export type Roster = {
   major_: Card[];
   minor_: Card[];
   major: Set<Card>;
