@@ -708,7 +708,7 @@ export const allTitles = {
       year: '2015–2016',
       title: 'Agent Carter',
       wikipedia: 'https://en.wikipedia.org/wiki/Agent_Carter_(TV_series)',
-      label: ['mcu', 'netflix'],
+      label: ['mcu'],
       numSeasons: 2,
       numEpisodes: 18,
       key: '2015–2016|Agent Carter',
