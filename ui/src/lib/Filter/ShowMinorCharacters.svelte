@@ -1,15 +1,15 @@
 <script lang="ts">
   import { scale } from 'svelte/transition';
   import Checkmark from '../Icons/Checkmark.svelte';
-  import { filterStates } from './$filterStates';
   import Info from '../Icons/Info.svelte';
+  import { filterStates } from './$filterStates';
 </script>
 
 <div
   class="container clickable"
   on:click={() => ($filterStates.showMinorCharacters = !$filterStates.showMinorCharacters)}
 >
-  <div class="skew">Show minor Characters</div>
+  <div class="skew">Show Minor Characters</div>
   <div class="info-button"><Info /></div>
   {#if $filterStates.showMinorCharacters}
     <div transition:scale={{ duration: 100 }} class="checkmark">

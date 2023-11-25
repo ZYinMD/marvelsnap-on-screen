@@ -35,20 +35,20 @@
   <li>
     <div
       class="label"
-      class:active={$filterStates.activeLabel === 'netflix'}
-      on:click={toggle('netflix')}
+      class:active={$filterStates.activeLabel === 'sequel'}
+      on:click={toggle('sequel')}
     >
-      <div class="skew">Netflix</div>
+      <div class="skew">Has a Sequel or Two</div>
     </div>
     <div class="info-button"><Info /></div>
   </li>
   <li>
     <div
       class="label"
-      class:active={$filterStates.activeLabel === 'sequel'}
-      on:click={toggle('sequel')}
+      class:active={$filterStates.activeLabel === 'netflix'}
+      on:click={toggle('netflix')}
     >
-      <div class="skew">Has Sequel(s)</div>
+      <div class="skew">Netflix</div>
     </div>
     <div class="info-button"><Info /></div>
   </li>
@@ -68,7 +68,7 @@
       class:active={$filterStates.activeLabel === 'all-animated'}
       on:click={toggle('all-animated')}
     >
-      <div class="skew">All Animated Series</div>
+      <div class="skew">All Animated</div>
     </div>
     <div class="info-button"><Info /></div>
   </li>
