@@ -1,7 +1,7 @@
 import { derived } from 'svelte/store';
 import { sortStates } from '../Sort/$sortStates';
 import { map } from '../facts/map';
-import type { Show, TVSeries } from './buildingBlocks';
+import type { Show } from './buildingBlocks';
 
 export const compareYear = (descending: boolean) => (a: Show, b: Show) => {
   let verdict = a.year > b.year;
@@ -17,7 +17,7 @@ export const compareNumCards = (descending: boolean) => (a: Show, b: Show) => {
   if (descending) verdict = !verdict;
   return verdict ? 1 : -1;
 };
-export const compareNumSeasons = (descending: boolean) => (a: TVSeries, b: TVSeries) => {
+export const compareNumSeasons = (descending: boolean) => (a: Show, b: Show) => {
   const numSeasonsA = a.numSeasons || 0;
   const numEpisodesA = a.numEpisodes || 0;
   const numSeasonsB = b.numSeasons || 0;

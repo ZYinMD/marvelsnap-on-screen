@@ -48,7 +48,7 @@
       class:active={$filterStates.activeLabel === 'sequel'}
       on:click={toggle('sequel')}
     >
-      <div class="skew">Other continuities</div>
+      <div class="skew">Has Sequel(s)</div>
     </div>
     <div class="info-button"><Info /></div>
   </li>

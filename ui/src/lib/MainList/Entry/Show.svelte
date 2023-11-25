@@ -1,14 +1,13 @@
 <script lang="ts">
   import { openedDrawers } from '../$mainList';
-  import type { Key } from '../../facts/map';
   import Chevron from '../../Icons/Chevron.svelte';
-  import type { Show } from '../buildingBlocks';
+  import type { Key, Show } from '../buildingBlocks';
   import Drawer from './Drawer.svelte';
   import MovieText from './MovieText.svelte';
   import TvText from './TvText.svelte';
-  export let showData: Show;
-  // @ts-expect-error: I know what I'm doing
-  const { type, title, year, numSeasons, numEpisodes } = showData;
+  export let showData; // don't add a type here, because typescript is stupid
+
+  const { type, title, year, numSeasons, numEpisodes } = showData as Show;
   const key = showData.key as Key;
   function toggleDrawer() {
     openedDrawers.update((prev) => {
