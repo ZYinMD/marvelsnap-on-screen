@@ -9,6 +9,3 @@
 {:else}
   <Button />
 {/if}
-
-<style>
-</style>

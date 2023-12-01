@@ -14,6 +14,9 @@ for (const sheetName of workbook.SheetNames) {
     const key = `${row.year}|${row.title}`;
     row['key'] = key;
     row['type'] = sheetName;
+    if (row.label) {
+      row.label = row.label.split(',');
+    } else row.label = [];
     result[sheetName][key] = row;
   });
 }

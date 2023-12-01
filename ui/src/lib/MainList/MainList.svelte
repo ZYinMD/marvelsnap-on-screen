@@ -1,6 +1,6 @@
 <script lang="ts">
-  import { mainList } from './$listStates';
-  import Entry from './Entry/Entry.svelte';
+  import { mainList } from './$mainList';
+  import Entry from './Entry/Show.svelte';
 </script>
 
 <!-- @component the list of all the shows in the home page -->
@@ -9,7 +9,7 @@
     {#if entry.type === 'divider'}
       <div class="divider"><div class="text">{entry.title}:</div></div>
     {:else}
-      <Entry {entry} />
+      <Entry showData={entry} />
     {/if}
   {/each}
 </div>

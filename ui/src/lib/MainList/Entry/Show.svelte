@@ -1,22 +1,22 @@
 <script lang="ts">
-  import { openDrawers, type Show } from '../$listStates';
-  import type { Key } from '../../facts/map';
+  import { openedDrawers } from '../$mainList';
   import Chevron from '../../Icons/Chevron.svelte';
+  import type { Key, Show } from '../buildingBlocks';
   import Drawer from './Drawer.svelte';
   import MovieText from './MovieText.svelte';
   import TvText from './TvText.svelte';
-  export let entry: Show;
-  // @ts-expect-error: I know what I'm doing
-  const { type, title, year, numSeasons, numEpisodes } = entry;
-  const key = entry.key as Key;
+  export let showData; // don't add a type here, because typescript is stupid
+
+  const { type, title, year, numSeasons, numEpisodes } = showData as Show;
+  const key = showData.key as Key;
   function toggleDrawer() {
-    openDrawers.update((prev) => {
+    openedDrawers.update((prev) => {
       if (prev.has(key)) prev.delete(key);
       else prev.add(key);
       return prev;
     });
   }
-  $: isOpen = $openDrawers.has(key);
+  $: isOpen = $openedDrawers.has(key);
 </script>
 
 <!-- @component one item in the list -->

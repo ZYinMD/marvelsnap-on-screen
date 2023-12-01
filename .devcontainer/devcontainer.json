@@ -1,9 +1,19 @@
 {
-  "name": "MarvelSnap-in-movies",
+  "name": "marvelsnap-on-screen",
   "build": { "dockerfile": "Dockerfile" },
-  "runArgs": ["--name", "marvel-snap-in-movies"], // give the container a clean name instead of something like "sneaky_trampoline"
+  "runArgs": ["--name", "marvelsnap-on-screen"], // give the container a clean name instead of something like "sneaky_trampoline"
   "postCreateCommand": "bash .devcontainer/post-create.sh",
   "postStartCommand": "bash .devcontainer/post-start.sh",
+  "portsAttributes": {
+    "9966": {
+      "label": "ui dev",
+      "requireLocalPort": true
+    },
+    "9977": {
+      "label": "ui preview",
+      "requireLocalPort": true
+    }
+  },
   "customizations": {
     "vscode": {
       "extensions": [

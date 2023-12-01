@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { fly, scale } from 'svelte/transition';
+  import { scale } from 'svelte/transition';
   import BlurredBackDrop from '../Background/BlurredBackDrop.svelte';
   import Checkmark from '../Icons/Checkmark.svelte';
   import SortButton from '../Icons/SortButton.svelte';
@@ -10,12 +10,7 @@
 <!-- @component the sort panel on the left -->
 <BlurredBackDrop />
 <div class="container container-narrow-viewport">
-  <div
-    class="panel"
-    in:fly={{ x: -200, duration: 100 }}
-    use:outClickListener
-    on:outClick={() => ($sortStates.isPanelOpen = false)}
-  >
+  <div class="panel" use:outClickListener on:outClick={() => ($sortStates.isPanelOpen = false)}>
     <div class="heading"><div class="skew">Sort</div></div>
 
     <div
@@ -54,15 +49,15 @@
         <div class="skew">Alphabetical</div>
       </div>
     </div>
-    <div class="group-by skew">Group by type</div>
-    {#if $sortStates.groupByType}
+    <div class="separate-movies-and-tv skew">Separate Movies and TV</div>
+    {#if $sortStates.separateMoviesAndTv}
       <div transition:scale={{ duration: 100 }} class="checkmark">
         <Checkmark />
       </div>
     {/if}
     <div
-      class="row-of-group-by"
-      on:click={() => ($sortStates.groupByType = !$sortStates.groupByType)}
+      class="row-of-separate-movies-and-tv"
+      on:click={() => ($sortStates.separateMoviesAndTv = !$sortStates.separateMoviesAndTv)}
     ></div>
   </div>
 </div>
@@ -83,9 +78,9 @@
     grid:
       'heading direction' 26px
       'options options' 190px
-      'group-by checkmark' 35px
+      'separate-movies-and-tv checkmark' 35px
       /
-      auto 45px;
+      auto 40px;
     border: 3px solid skyblue;
     border-radius: 5px;
   }
@@ -100,7 +95,7 @@
     font-size: 24px;
     cursor: pointer;
     position: relative;
-    top: 4px;
+    top: 3px;
   }
   .options {
     grid-area: options;
@@ -118,25 +113,25 @@
     background-color: #aaa1;
     cursor: pointer;
   }
-  .group-by {
+  .separate-movies-and-tv {
     pointer-events: none;
     margin-left: var(--gutter);
-    grid-area: group-by;
-    width: fit-content;
+    grid-area: separate-movies-and-tv;
+    margin-right: 12px;
   }
   .checkmark {
     pointer-events: none;
     grid-area: checkmark;
     color: skyblue;
     position: relative;
-    top: 3px;
+    top: 1.2px;
   }
-  .row-of-group-by {
+  .row-of-separate-movies-and-tv {
     grid-area: 3/1/4/3;
     align-self: stretch;
     cursor: pointer;
   }
-  .row-of-group-by:hover {
+  .row-of-separate-movies-and-tv:hover {
     background-color: #aaa1;
   }
   .skew {
