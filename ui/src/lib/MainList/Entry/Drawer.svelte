@@ -1,7 +1,8 @@
 <script lang="ts">
   import { slide } from 'svelte/transition';
   import { allCards } from '../../facts/allCards';
-  import { map, type Key } from '../../facts/map';
+  import { map } from '../../facts/map';
+  import type { Key } from '../buildingBlocks';
   export let key: Key;
   const major = map[key].major;
   const minor = map[key].minor;
