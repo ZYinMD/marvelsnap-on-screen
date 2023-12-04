@@ -6,7 +6,7 @@
 
 1. run `deno task step3`, this will download the image of the new card.
 
-1. commit -m "update cards"
+1. commit -m "facts: update cards"
 
 1. run `deno task step5`, this will tell me which cards do I need to manually put into "map.ts", which is the main source of truth of the app.
 

@@ -71,6 +71,14 @@ export const allCards = {
     name: 'Angela',
     description: 'After you play a card here,\n+1 Power.',
   },
+  'Annihilus': {
+    defId: 'Annihilus',
+    cost: 5,
+    power: 7,
+    name: 'Annihilus',
+    description:
+      "<b>On Reveal:</b> Your cards with 0 or less Power switch sides. Destroy\nthose that can't.",
+  },
   'Ant Man': {
     defId: 'AntMan',
     cost: 1,
@@ -1729,5 +1737,21 @@ export const allCards = {
     name: 'Gladiator',
     description:
       "<b>On Reveal:</b> Add a card from your opponent's deck to their side of this location. If it has less Power, destroy it.",
+  },
+  'Martyr': {
+    defId: 'Martyr',
+    cost: 1,
+    power: 4,
+    name: 'Martyr',
+    description:
+      'At the end of the game, move to a location that LOSES you the\ngame. <i>(if possible)</i>',
+  },
+  'Sebastian Shaw': {
+    defId: 'SebastianShaw',
+    cost: 3,
+    power: 4,
+    name: 'Sebastian Shaw',
+    description:
+      'When this card permanently gains Power, gain +2 more Power. <i>(wherever this is)</i>',
   },
 } as const;

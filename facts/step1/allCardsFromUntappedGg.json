@@ -223,7 +223,7 @@
         "AssignedPower": 0
       }
     },
-    "series": 0,
+    "series": 8,
     "artists": [
       {
         "name": "Eduardo Mello",
@@ -233,7 +233,8 @@
         "name": "Ryan Kinnaird",
         "type": 4
       }
-    ]
+    ],
+    "collectible": true
   },
   {
     "id": 12,
@@ -549,7 +550,7 @@
     "id": 26,
     "defId": "Blob",
     "cost": 6,
-    "power": 3,
+    "power": 4,
     "name": "Blob",
     "description": "<b>On Reveal:</b> Merge your deck into this. <i>(and gain its total Power)</i>\n<b>Ongoing:</b> Can't be moved.",
     "series": 0,
@@ -6484,7 +6485,7 @@
     "power": 7,
     "name": "Gladiator",
     "description": "<b>On Reveal:</b> Add a card from your opponent's deck to their side of this location. If it has less Power, destroy it.",
-    "series": 0,
+    "series": 8,
     "artists": [
       {
         "name": "Eduardo Mello",
@@ -6504,7 +6505,7 @@
     "power": 4,
     "name": "Martyr",
     "description": "At the end of the game, move to a location that LOSES you the\ngame. <i>(if possible)</i>",
-    "series": 0,
+    "series": 7,
     "artists": [
       {
         "name": "Eduardo Mello",
@@ -6514,7 +6515,8 @@
         "name": "Ryan Kinnaird",
         "type": 4
       }
-    ]
+    ],
+    "collectible": true
   },
   {
     "id": 302,
@@ -6544,7 +6546,7 @@
     "id": 303,
     "defId": "SebastianShaw",
     "cost": 3,
-    "power": 3,
+    "power": 4,
     "name": "Sebastian Shaw",
     "description": "When this card permanently gains Power, gain +2 more Power. <i>(wherever this is)</i>",
     "attributes": {
@@ -6562,7 +6564,8 @@
         "name": "Ryan Kinnaird",
         "type": 4
       }
-    ]
+    ],
+    "collectible": true
   },
   {
     "id": 304,
