@@ -2,7 +2,7 @@
   import { scale } from 'svelte/transition';
   import BlurredBackDrop from '../Background/BlurredBackDrop.svelte';
   import Checkmark from '../Icons/Checkmark.svelte';
-  import SortButton from '../Icons/SortButton.svelte';
+  import SortIcon from '../Icons/SortIcon.svelte';
   import { sort } from '../primaryStores/$primaryStores';
   import { outClickListener } from '../use/outClickListener';
 </script>
@@ -14,7 +14,7 @@
     <div class="heading"><div class="skew">Sort</div></div>
 
     <div class="direction" on:click={() => ($sort.sortDescending = !$sort.sortDescending)}>
-      <SortButton flipped={!$sort.sortDescending} />
+      <SortIcon flipped={!$sort.sortDescending} />
     </div>
     <div class="options">
       <div

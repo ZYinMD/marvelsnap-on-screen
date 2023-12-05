@@ -1,5 +1,5 @@
 <script lang="ts">
-  import CornerButton from '../Icons/CornerButton.svelte';
+  import CornerButtonShape from '../Icons/CornerButtonShape.svelte';
   import FilterIcon from '../Icons/FilterIcon.svelte';
   import { filter } from '../primaryStores/$primaryStores';
 </script>
@@ -13,7 +13,7 @@
     }}
   >
     <div class="button-shape">
-      <CornerButton />
+      <CornerButtonShape />
     </div>
     <div class="filter-icon">
       <FilterIcon />

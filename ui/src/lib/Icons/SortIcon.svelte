@@ -2,7 +2,6 @@
   export let flipped: boolean;
 </script>
 
-<!-- @component the sort icon -->
 <svg
   fill="currentColor"
   class:flipped
