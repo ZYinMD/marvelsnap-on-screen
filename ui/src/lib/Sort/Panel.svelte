@@ -92,10 +92,11 @@
   }
   .direction {
     grid-area: direction;
-    font-size: 24px;
+    font-size: 32px;
     cursor: pointer;
     position: relative;
     top: 3px;
+    right: 3px;
   }
   .options {
     grid-area: options;

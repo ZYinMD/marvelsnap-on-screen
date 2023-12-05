@@ -18,6 +18,15 @@
 <style>
   svg {
     transition: transform 0.1s ease-in-out;
+    padding: 5px;
+    border: 1px solid #87ceebcc;
+    border-radius: 2px;
+  }
+  svg:hover {
+    background-color: #333;
+  }
+  svg:active {
+    opacity: 0.8;
   }
   .flipped {
     transform: rotate(0.5turn);
