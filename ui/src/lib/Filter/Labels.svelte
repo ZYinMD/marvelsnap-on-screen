@@ -1,6 +1,6 @@
 <script lang="ts">
   import Info from '../Icons/Info.svelte';
-  import { filter } from './$filterStates';
+  import { filter } from '../primaryStores/$primaryStores';
   const toggle = (label: typeof $filter.activeLabel) => () => {
     if ($filter.activeLabel === label) {
       $filter.activeLabel = '';

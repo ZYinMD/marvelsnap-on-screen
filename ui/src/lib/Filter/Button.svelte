@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { filter } from './$filterStates';
+  import { filter } from '../primaryStores/$primaryStores';
 </script>
 
 <!-- @component the filter button at on the bottom right -->

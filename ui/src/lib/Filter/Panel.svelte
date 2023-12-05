@@ -1,7 +1,7 @@
 <script lang="ts">
   import BlurredBackDrop from '../Background/BlurredBackDrop.svelte';
+  import { filter } from '../primaryStores/$primaryStores';
   import { outClickListener } from '../use/outClickListener';
-  import { filter } from './$filterStates';
   import Labels from './Labels.svelte';
   import SearchBox from './SearchBox.svelte';
   import ShowMinorChars from './ShowMinorCharacters.svelte';

@@ -2,7 +2,7 @@
   import { scale } from 'svelte/transition';
   import Checkmark from '../Icons/Checkmark.svelte';
   import Info from '../Icons/Info.svelte';
-  import { filter } from './$filterStates';
+  import { filter } from '../primaryStores/$primaryStores';
 </script>
 
 <div
