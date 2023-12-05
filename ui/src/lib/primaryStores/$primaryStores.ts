@@ -1,4 +1,5 @@
 import { writable } from 'svelte/store';
+import type { Key } from '../MainList/buildingBlocks';
 
 export const sort = writable({
   isPanelOpen: false,
@@ -22,3 +23,5 @@ export const filter = writable({
     | 'anime',
   showMinorCharacters: true,
 });
+
+export const openedDrawers = writable(new Set<Key>());
