@@ -88,6 +88,7 @@
     font-weight: 500;
   }
   .direction {
+    perspective: 100px; /* Adjust the value to get the desired depth effect */
     grid-area: direction;
     font-size: 32px;
     cursor: pointer;

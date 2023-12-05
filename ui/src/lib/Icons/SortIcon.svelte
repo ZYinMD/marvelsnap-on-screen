@@ -25,9 +25,10 @@
     background-color: #333;
   }
   svg:active {
-    opacity: 0.8;
+    filter: brightness(80%);
   }
   .flipped {
-    transform: rotate(0.5turn);
+    transform: rotateX(180deg);
+    transform-style: preserve-3d;
   }
 </style>
