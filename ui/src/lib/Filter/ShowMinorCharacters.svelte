@@ -6,7 +6,7 @@
 </script>
 
 <div
-  class="container clickable"
+  class="container pressable"
   on:click={() => ($filter.showMinorCharacters = !$filter.showMinorCharacters)}
 >
   <div class="skew">Show Minor Characters</div>

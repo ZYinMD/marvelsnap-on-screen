@@ -17,7 +17,7 @@
     <Labels />
     <ShowMinorChars />
     <div
-      class="reset clickable"
+      class="reset pressable"
       on:click={() => {
         $filter.searching = '';
         $filter.activeLabel = '';
