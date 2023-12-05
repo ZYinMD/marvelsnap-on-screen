@@ -6,12 +6,7 @@
 
 <!-- @component the filter button at on the bottom right -->
 <div class="container container-narrow-viewport">
-  <div
-    class="component"
-    on:click={() => {
-      $filter.isPanelOpen = true;
-    }}
-  >
+  <div class="component" on:click={() => ($filter.isPanelOpen = true)}>
     <div class="button-shape">
       <CornerButtonShape />
     </div>
@@ -25,13 +20,13 @@
   .container {
     pointer-events: none;
     display: grid;
-    grid-template-areas: 'the-only';
   }
   .component {
     pointer-events: auto;
     place-self: end end;
     width: 50px;
     display: grid;
+    grid-template-areas: 'the-only';
     place-items: center;
     cursor: pointer;
     filter: brightness(120%);
