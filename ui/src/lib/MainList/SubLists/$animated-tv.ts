@@ -1,9 +1,9 @@
 import { derived } from 'svelte/store';
-import { sortStates } from '../../Sort/$sortStates';
-import { filterStates } from '../../Filter/$filterStates';
+import { filter } from '../../Filter/$filterStates';
+import { sort } from '../../primaryStores/$primaryStores';
 import { afterSearch } from '../afterSearch';
-import { sortFn } from '../sortFn';
 import type { Entry } from '../buildingBlocks';
+import { sortFn } from '../sortFn';
 
 /**
  * A derived store that returns all shows to be displayed under the "Animated TV Series" divider
@@ -15,7 +15,7 @@ import type { Entry } from '../buildingBlocks';
  * In the end, we prepend the "animated tv series" divider.
  */
 export const animatedTv = derived(
-  [sortStates, filterStates, afterSearch, sortFn],
+  [sort, filter, afterSearch, sortFn],
   ([sortStates, filterStates, afterSearch, sortFn]) => {
     const { separateMoviesAndTv } = sortStates;
     const { activeLabel } = filterStates;

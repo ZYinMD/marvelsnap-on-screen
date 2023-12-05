@@ -3,61 +3,58 @@
   import BlurredBackDrop from '../Background/BlurredBackDrop.svelte';
   import Checkmark from '../Icons/Checkmark.svelte';
   import SortButton from '../Icons/SortButton.svelte';
+  import { sort } from '../primaryStores/$primaryStores';
   import { outClickListener } from '../use/outClickListener';
-  import { sortStates } from './$sortStates';
 </script>
 
 <!-- @component the sort panel on the left -->
 <BlurredBackDrop />
 <div class="container container-narrow-viewport">
-  <div class="panel" use:outClickListener on:outClick={() => ($sortStates.isPanelOpen = false)}>
+  <div class="panel" use:outClickListener on:outClick={() => ($sort.isPanelOpen = false)}>
     <div class="heading"><div class="skew">Sort</div></div>
 
-    <div
-      class="direction"
-      on:click={() => ($sortStates.sortDescending = !$sortStates.sortDescending)}
-    >
-      <SortButton flipped={!$sortStates.sortDescending} />
+    <div class="direction" on:click={() => ($sort.sortDescending = !$sort.sortDescending)}>
+      <SortButton flipped={!$sort.sortDescending} />
     </div>
     <div class="options">
       <div
         class="option"
-        class:active={$sortStates.sortBy === 'year'}
-        on:click={() => ($sortStates.sortBy = 'year')}
+        class:active={$sort.sortBy === 'year'}
+        on:click={() => ($sort.sortBy = 'year')}
       >
         <div class="skew">Year</div>
       </div>
       <div
         class="option"
-        class:active={$sortStates.sortBy === 'numCards'}
-        on:click={() => ($sortStates.sortBy = 'numCards')}
+        class:active={$sort.sortBy === 'numCards'}
+        on:click={() => ($sort.sortBy = 'numCards')}
       >
         <div class="skew">Number of cards</div>
       </div>
       <div
         class="option"
-        class:active={$sortStates.sortBy === 'numSeasons'}
-        on:click={() => ($sortStates.sortBy = 'numSeasons')}
+        class:active={$sort.sortBy === 'numSeasons'}
+        on:click={() => ($sort.sortBy = 'numSeasons')}
       >
         <div class="skew">Number of seasons</div>
       </div>
       <div
         class="option"
-        class:active={$sortStates.sortBy === 'alphabetical'}
-        on:click={() => ($sortStates.sortBy = 'alphabetical')}
+        class:active={$sort.sortBy === 'alphabetical'}
+        on:click={() => ($sort.sortBy = 'alphabetical')}
       >
         <div class="skew">Alphabetical</div>
       </div>
     </div>
     <div class="separate-movies-and-tv skew">Separate Movies and TV</div>
-    {#if $sortStates.separateMoviesAndTv}
+    {#if $sort.separateMoviesAndTv}
       <div transition:scale={{ duration: 100 }} class="checkmark">
         <Checkmark />
       </div>
     {/if}
     <div
       class="row-of-separate-movies-and-tv"
-      on:click={() => ($sortStates.separateMoviesAndTv = !$sortStates.separateMoviesAndTv)}
+      on:click={() => ($sort.separateMoviesAndTv = !$sort.separateMoviesAndTv)}
     ></div>
   </div>
 </div>

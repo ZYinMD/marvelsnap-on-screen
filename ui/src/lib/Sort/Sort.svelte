@@ -1,10 +1,10 @@
 <script lang="ts">
-  import { sortStates } from './$sortStates';
+  import { sort } from '../primaryStores/$primaryStores';
   import Button from './Button.svelte';
   import Panel from './Panel.svelte';
 </script>
 
-{#if $sortStates.isPanelOpen}
+{#if $sort.isPanelOpen}
   <Panel />
 {:else}
   <Button />

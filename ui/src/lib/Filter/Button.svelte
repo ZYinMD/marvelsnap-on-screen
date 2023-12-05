@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { filterStates } from './$filterStates';
+  import { filter } from './$filterStates';
 </script>
 
 <!-- @component the filter button at on the bottom right -->
@@ -7,7 +7,7 @@
   <div
     class="button"
     on:click={() => {
-      $filterStates.isPanelOpen = true;
+      $filter.isPanelOpen = true;
     }}
   ></div>
 </div>

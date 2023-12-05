@@ -1,6 +1,6 @@
 import { derived } from 'svelte/store';
-import { filterStates } from '../../Filter/$filterStates';
-import { sortStates } from '../../Sort/$sortStates';
+import { filter } from '../../Filter/$filterStates';
+import { sort } from '../../primaryStores/$primaryStores';
 import { afterSearch } from '../afterSearch';
 import type { Entry } from '../buildingBlocks';
 import { sortFn } from '../sortFn';
@@ -14,7 +14,7 @@ import { hasSequels } from './$hasSequels';
  * Finally we sort the result.
  */
 export const mixed = derived(
-  [sortStates, filterStates, afterSearch, sortFn, hasSequels],
+  [sort, filter, afterSearch, sortFn, hasSequels],
   ([sortStates, filterStates, afterSearch, sortFn, hasSequels]) => {
     const { separateMoviesAndTv } = sortStates;
     const { activeLabel } = filterStates;

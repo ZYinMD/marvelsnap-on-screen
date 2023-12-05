@@ -1,7 +1,7 @@
 import { derived } from 'svelte/store';
-import { filterStates } from '../Filter/$filterStates';
-import { AllShows, type Show } from './buildingBlocks';
+import { filter } from '../Filter/$filterStates';
 import { map } from '../facts/map';
+import { AllShows, type Show } from './buildingBlocks';
 
 /**
  * given the "year|title" of a show, all cards it has, and single search term, determine whether a show is considered a match
@@ -27,7 +27,7 @@ export function matchAll(show: Show, searchString: string) {
   return searchTerms.every((searchTerm) => match(yearAndTitle, cards, searchTerm));
 }
 
-export const afterSearch = derived([filterStates], ([filterStates]) => {
+export const afterSearch = derived([filter], ([filterStates]) => {
   if (!filterStates.searching) return AllShows;
   return AllShows.filter((show) => matchAll(show, filterStates.searching.toLowerCase()));
 });

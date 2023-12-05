@@ -2,16 +2,16 @@
   import { scale } from 'svelte/transition';
   import Checkmark from '../Icons/Checkmark.svelte';
   import Info from '../Icons/Info.svelte';
-  import { filterStates } from './$filterStates';
+  import { filter } from './$filterStates';
 </script>
 
 <div
   class="container clickable"
-  on:click={() => ($filterStates.showMinorCharacters = !$filterStates.showMinorCharacters)}
+  on:click={() => ($filter.showMinorCharacters = !$filter.showMinorCharacters)}
 >
   <div class="skew">Show Minor Characters</div>
   <div class="info-button"><Info /></div>
-  {#if $filterStates.showMinorCharacters}
+  {#if $filter.showMinorCharacters}
     <div transition:scale={{ duration: 100 }} class="checkmark">
       <Checkmark />
     </div>

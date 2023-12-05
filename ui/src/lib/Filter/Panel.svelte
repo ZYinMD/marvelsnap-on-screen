@@ -1,7 +1,7 @@
 <script lang="ts">
   import BlurredBackDrop from '../Background/BlurredBackDrop.svelte';
   import { outClickListener } from '../use/outClickListener';
-  import { filterStates } from './$filterStates';
+  import { filter } from './$filterStates';
   import Labels from './Labels.svelte';
   import SearchBox from './SearchBox.svelte';
   import ShowMinorChars from './ShowMinorCharacters.svelte';
@@ -10,7 +10,7 @@
 <!-- @component the search and filter panel on the right -->
 <BlurredBackDrop />
 <div class="container container-narrow-viewport">
-  <div class="panel" use:outClickListener on:outClick={() => ($filterStates.isPanelOpen = false)}>
+  <div class="panel" use:outClickListener on:outClick={() => ($filter.isPanelOpen = false)}>
     <div class="h1"><div class="skew">Search & Filters</div></div>
     <SearchBox />
     <div class="h2"><div class="skew">Labels</div></div>
@@ -19,9 +19,9 @@
     <div
       class="reset clickable"
       on:click={() => {
-        $filterStates.searching = '';
-        $filterStates.activeLabel = '';
-        $filterStates.showMinorCharacters = true;
+        $filter.searching = '';
+        $filter.activeLabel = '';
+        $filter.showMinorCharacters = true;
       }}
     >
       <div class="skew">Reset</div>

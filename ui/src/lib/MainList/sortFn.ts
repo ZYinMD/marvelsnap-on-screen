@@ -1,6 +1,6 @@
 import { derived } from 'svelte/store';
-import { sortStates } from '../Sort/$sortStates';
 import { map } from '../facts/map';
+import { sort } from '../primaryStores/$primaryStores';
 import type { Show } from './buildingBlocks';
 
 export const compareYear = (descending: boolean) => (a: Show, b: Show) => {
@@ -43,7 +43,7 @@ export const compareTitle = (descending: boolean) => (a: Show, b: Show) => {
 /**
  * A store that returns a function. The store reacts to the sorting options in the bottom left corner. The function is to be passed into array.prototype.sort()
  */
-export const sortFn = derived(sortStates, (sortStates) => {
+export const sortFn = derived(sort, (sortStates) => {
   const { sortDescending: direction, sortBy } = sortStates;
   if (sortBy === 'year') return compareYear(direction);
   else if (sortBy === 'numCards') return compareNumCards(direction);

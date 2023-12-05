@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { sortStates } from './$sortStates';
+  import { sort } from '../primaryStores/$primaryStores';
 </script>
 
 <!-- @component the sort button at on the bottom left -->
@@ -7,7 +7,7 @@
   <div
     class="button"
     on:click={() => {
-      $sortStates.isPanelOpen = true;
+      $sort.isPanelOpen = true;
     }}
   ></div>
 </div>
