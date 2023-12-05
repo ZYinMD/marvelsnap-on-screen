@@ -3,7 +3,7 @@ import { sleep } from '../utils/sleep.ts';
 
 /* All the cards images we need are downloaded from untapped.gg, then put into the sveltekit folder. This script check what cards we already in allCards.ts but haven't downloaded the image, and download them  */
 
-const imgDir = new URL('../../ui/static/card-images', import.meta.url);
+const imgDir = new URL('downloaded', import.meta.url);
 const filesNeeded = Object.values(allCards).map((card) => card.defId + '.webp');
 const filesOwned = new Set<string>();
 for await (const dirEntry of Deno.readDir(imgDir)) {
