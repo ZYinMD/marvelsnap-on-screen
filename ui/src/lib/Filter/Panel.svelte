@@ -40,7 +40,7 @@
     background-color: #222;
     display: flex;
     flex-direction: column;
-    border: 3px solid skyblue;
+    border: 3px solid var(--blue);
     border-radius: 5px;
   }
   .h1 {

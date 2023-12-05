@@ -84,8 +84,8 @@
     margin: 5px 0px;
   }
   .label.active {
-    border-color: skyblue;
-    background-color: skyblue;
+    border-color: var(--blue);
+    background-color: var(--blue);
     color: white;
   }
   .info-button {

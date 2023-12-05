@@ -18,7 +18,7 @@
   svg {
     transition: transform 0.1s ease-in-out;
     padding: 5px;
-    border: 1px solid #87ceebcc;
+    border: 1px solid var(--blue);
     border-radius: 2px;
   }
   svg:hover {
