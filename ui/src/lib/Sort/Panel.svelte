@@ -18,28 +18,28 @@
     </div>
     <div class="options">
       <div
-        class="option"
+        class="option clickable"
         class:active={$sort.sortBy === 'year'}
         on:click={() => ($sort.sortBy = 'year')}
       >
         <div class="skew">Year</div>
       </div>
       <div
-        class="option"
+        class="option clickable"
         class:active={$sort.sortBy === 'numCards'}
         on:click={() => ($sort.sortBy = 'numCards')}
       >
         <div class="skew">Number of cards</div>
       </div>
       <div
-        class="option"
+        class="option clickable"
         class:active={$sort.sortBy === 'numSeasons'}
         on:click={() => ($sort.sortBy = 'numSeasons')}
       >
         <div class="skew">Number of seasons</div>
       </div>
       <div
-        class="option"
+        class="option clickable"
         class:active={$sort.sortBy === 'alphabetical'}
         on:click={() => ($sort.sortBy = 'alphabetical')}
       >
@@ -53,7 +53,7 @@
       </div>
     {/if}
     <div
-      class="row-of-separate-movies-and-tv"
+      class="row-of-separate-movies-and-tv clickable"
       on:click={() => ($sort.separateMoviesAndTv = !$sort.separateMoviesAndTv)}
     ></div>
   </div>
@@ -127,7 +127,6 @@
   .row-of-separate-movies-and-tv {
     grid-area: 3/1/4/3;
     align-self: stretch;
-    cursor: pointer;
   }
   .row-of-separate-movies-and-tv:hover {
     background-color: #aaa1;

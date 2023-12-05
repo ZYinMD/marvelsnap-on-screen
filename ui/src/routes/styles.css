@@ -10,11 +10,19 @@ html {
   box-sizing: inherit;
 }
 
+.clickable,
 .pressable {
   cursor: pointer;
 }
+.clickable,
+.pressable:hover {
+  filter: brightness(1.1);
+}
 .pressable:active {
   transform: translateY(0.5px);
+}
+.clickable:active {
+  filter: brightness(1.4);
 }
 
 body {
