@@ -1,6 +1,5 @@
 <script lang="ts">
   import { scale } from 'svelte/transition';
-  import BlurredBackDrop from '../Background/BlurredBackDrop.svelte';
   import Checkmark from '../Icons/Checkmark.svelte';
   import SortIcon from '../Icons/SortIcon.svelte';
   import { sort } from '../primaryStores/$primaryStores';
@@ -8,7 +7,6 @@
 </script>
 
 <!-- @component the sort panel on the left -->
-<BlurredBackDrop />
 <div class="container container-narrow-viewport">
   <div class="panel" use:outClickListener on:outClick={() => ($sort.isPanelOpen = false)}>
     <div class="heading"><div class="skew">Sort</div></div>

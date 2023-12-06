@@ -1,5 +1,4 @@
 <script lang="ts">
-  import BlurredBackDrop from '../Background/BlurredBackDrop.svelte';
   import { filter } from '../primaryStores/$primaryStores';
   import { outClickListener } from '../use/outClickListener';
   import Labels from './Labels.svelte';
@@ -8,7 +7,6 @@
 </script>
 
 <!-- @component the search and filter panel on the right -->
-<BlurredBackDrop />
 <div class="container container-narrow-viewport">
   <div class="panel" use:outClickListener on:outClick={() => ($filter.isPanelOpen = false)}>
     <div class="h1"><div class="skew">Search & Filters</div></div>
