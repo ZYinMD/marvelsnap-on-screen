@@ -14,7 +14,7 @@ html {
 .pressable {
   cursor: pointer;
 }
-.clickable,
+.clickable:hover,
 .pressable:hover {
   filter: brightness(1.1);
 }
