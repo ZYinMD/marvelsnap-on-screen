@@ -1,8 +1,8 @@
 import { derived } from 'svelte/store';
-import { filter, sort } from '../../stores/writables/$primary';
-import { afterSearch } from '../afterSearch';
-import type { Entry, Movie } from '../buildingBlocks';
-import { sortFn } from '../sortFn';
+import { afterSearch } from '../../../MainList/afterSearch';
+import type { Entry, Movie } from '../../../MainList/buildingBlocks';
+import { sortFn } from '../../../MainList/sortFn';
+import { filter, sort } from '../../writables/$primary';
 
 /**
  * A derived store that returns all movies to be displayed under the "Movies" divider

@@ -1,8 +1,8 @@
 import { derived } from 'svelte/store';
-import { animatedTv } from './SubLists/$animated-tv';
-import { liveActionTv } from './SubLists/$live-action-tv';
-import { mixed } from './SubLists/$mixed';
-import { movies } from './SubLists/$movies';
+import { animatedTv } from '../stores/derived/showLists/$animated-tv';
+import { liveActionTv } from '../stores/derived/showLists/$live-action-tv';
+import { mixed } from '../stores/derived/showLists/$mixed';
+import { movies } from '../stores/derived/showLists/$movies';
 
 /**
  * The main list containing the data used to render the list on the home page. The list may contains a mixture of "dividers" objects and shows. The divider will be rendered as divider components, displaying some text. The shows are rendered as show components.

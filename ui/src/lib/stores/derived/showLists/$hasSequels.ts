@@ -1,6 +1,6 @@
 import { derived } from 'svelte/store';
-import { AllShows, type Entry } from '../buildingBlocks';
-import { sortFn } from '../sortFn';
+import { AllShows, type Entry } from '../../../MainList/buildingBlocks';
+import { sortFn } from '../../../MainList/sortFn';
 
 /**
  * A derived store that returns all shows to be displayed when the label "has sequels" is selected.

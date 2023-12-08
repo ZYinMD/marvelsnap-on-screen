@@ -1,8 +1,8 @@
 import { derived } from 'svelte/store';
-import { filter, sort } from '../../stores/writables/$primary';
-import { afterSearch } from '../afterSearch';
-import type { Entry } from '../buildingBlocks';
-import { sortFn } from '../sortFn';
+import { afterSearch } from '../../../MainList/afterSearch';
+import type { Entry } from '../../../MainList/buildingBlocks';
+import { sortFn } from '../../../MainList/sortFn';
+import { filter, sort } from '../../writables/$primary';
 import { hasSequels } from './$hasSequels';
 
 /**
