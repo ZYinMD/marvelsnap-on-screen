@@ -1,5 +1,5 @@
 import { writable } from 'svelte/store';
-import type { Key } from '../MainList/buildingBlocks';
+import type { Key } from '../../MainList/buildingBlocks';
 
 export const sort = writable({
   isPanelOpen: false,

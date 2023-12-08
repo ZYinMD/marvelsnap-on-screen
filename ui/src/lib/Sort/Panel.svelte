@@ -2,7 +2,7 @@
   import { scale } from 'svelte/transition';
   import Checkmark from '../Icons/Checkmark.svelte';
   import SortIcon from '../Icons/SortIcon.svelte';
-  import { sort } from '../primaryStores/$primaryStores';
+  import { sort } from '../stores/writables/$primary';
   import { outClickListener } from '../use/outClickListener';
 </script>
 

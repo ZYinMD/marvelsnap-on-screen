@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { filter, sort } from '../primaryStores/$primaryStores';
+  import { filter, sort } from '../stores/writables/$primary';
   import { mainList } from './$mainList';
   import Entry from './Entry/Show.svelte';
   $: dim = $sort.isPanelOpen || $filter.isPanelOpen;

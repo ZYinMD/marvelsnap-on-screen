@@ -1,7 +1,7 @@
 <script lang="ts">
   import CornerButtonShape from '../Icons/CornerButtonShape.svelte';
   import CornerSortIcon from '../Icons/CornerSortIcon.svelte';
-  import { sort } from '../primaryStores/$primaryStores';
+  import { sort } from '../stores/writables/$primary';
 </script>
 
 <!-- @component the sort button at on the bottom left -->

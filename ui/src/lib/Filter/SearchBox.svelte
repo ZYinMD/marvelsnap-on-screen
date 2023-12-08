@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { filter } from '../primaryStores/$primaryStores';
+  import { filter } from '../stores/writables/$primary';
 </script>
 
 <!-- @component the search box to put in key words -->

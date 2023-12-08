@@ -1,6 +1,6 @@
 <script lang="ts">
   import Chevron from '../../Icons/Chevron.svelte';
-  import { openedDrawers } from '../../primaryStores/$primaryStores';
+  import { openedDrawers } from '../../stores/writables/$primary';
   import type { Key, Show } from '../buildingBlocks';
   import Drawer from './Drawer.svelte';
   import MovieText from './MovieText.svelte';

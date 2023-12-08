@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { filter } from '../primaryStores/$primaryStores';
+  import { filter } from '../stores/writables/$primary';
   import { outClickListener } from '../use/outClickListener';
   import Labels from './Labels.svelte';
   import SearchBox from './SearchBox.svelte';

@@ -1,6 +1,6 @@
 import { derived } from 'svelte/store';
 import { map } from '../facts/map';
-import { filter } from '../primaryStores/$primaryStores';
+import { filter } from '../stores/writables/$primary';
 import { AllShows, type Show } from './buildingBlocks';
 
 /**

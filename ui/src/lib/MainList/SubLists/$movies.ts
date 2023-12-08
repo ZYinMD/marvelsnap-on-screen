@@ -1,5 +1,5 @@
 import { derived } from 'svelte/store';
-import { filter, sort } from '../../primaryStores/$primaryStores';
+import { filter, sort } from '../../stores/writables/$primary';
 import { afterSearch } from '../afterSearch';
 import type { Entry, Movie } from '../buildingBlocks';
 import { sortFn } from '../sortFn';

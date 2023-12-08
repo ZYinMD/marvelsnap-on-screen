@@ -1,7 +1,7 @@
 <script lang="ts">
   import CornerButtonShape from '../Icons/CornerButtonShape.svelte';
   import FilterIcon from '../Icons/FilterIcon.svelte';
-  import { filter } from '../primaryStores/$primaryStores';
+  import { filter } from '../stores/writables/$primary';
 </script>
 
 <!-- @component the filter button at on the bottom right -->

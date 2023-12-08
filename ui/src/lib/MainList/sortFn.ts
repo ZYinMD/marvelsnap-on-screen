@@ -1,6 +1,6 @@
 import { derived } from 'svelte/store';
 import { map } from '../facts/map';
-import { sort } from '../primaryStores/$primaryStores';
+import { sort } from '../stores/writables/$primary';
 import type { Show } from './buildingBlocks';
 
 export const compareYear = (descending: boolean) => (a: Show, b: Show) => {

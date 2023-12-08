@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { filter, sort } from '../primaryStores/$primaryStores';
+  import { filter, sort } from '../stores/writables/$primary';
   import Hexagons from './Hexagons.svelte';
   import SlidingDiagonals from './SlidingDiagonals.svelte';
   $: dim = $sort.isPanelOpen || $filter.isPanelOpen;

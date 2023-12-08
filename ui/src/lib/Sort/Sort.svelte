@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { sort } from '../primaryStores/$primaryStores';
+  import { sort } from '../stores/writables/$primary';
   import Button from './Button.svelte';
   import Panel from './Panel.svelte';
 </script>
