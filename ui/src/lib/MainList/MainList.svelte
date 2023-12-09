@@ -18,7 +18,7 @@
 <style>
   .container {
     position: relative;
-    padding: 0 5px;
+    padding: 10px 5px;
   }
   .dim {
     filter: brightness(60%) blur(5px);

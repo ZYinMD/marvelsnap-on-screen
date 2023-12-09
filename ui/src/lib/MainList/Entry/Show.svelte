@@ -44,7 +44,7 @@
       30px auto;
   }
   .container {
-    margin: 10px 0;
+    margin-bottom: 10px;
   }
   .container.movie {
     border: 1px Thistle solid;
