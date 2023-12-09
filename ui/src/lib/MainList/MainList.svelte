@@ -1,12 +1,11 @@
 <script lang="ts">
-  import { filter, sort } from '../stores/writables/$primary';
+  import { dimBackground } from '../stores/derived/$dimBackground';
   import { mainList } from './$mainList';
   import Entry from './Entry/Show.svelte';
-  $: dim = $sort.isPanelOpen || $filter.isPanelOpen;
 </script>
 
 <!-- @component the list of all the shows in the home page -->
-<div class="container container-narrow" class:dim>
+<div class="container container-narrow" class:dim={$dimBackground}>
   {#each $mainList as entry (entry.key)}
     {#if entry.type === 'divider'}
       <div class="divider"><div class="text">{entry.title}:</div></div>

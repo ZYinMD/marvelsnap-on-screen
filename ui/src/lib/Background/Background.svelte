@@ -1,12 +1,11 @@
 <script lang="ts">
-  import { filter, sort } from '../stores/writables/$primary';
+  import { dimBackground } from '../stores/derived/$dimBackground';
   import Hexagons from './Hexagons.svelte';
   import SlidingDiagonals from './SlidingDiagonals.svelte';
-  $: dim = $sort.isPanelOpen || $filter.isPanelOpen;
 </script>
 
 <!-- @component The animated background of app -->
-<div class="container container-all-viewport" class:dim>
+<div class="container container-all-viewport" class:dim={$dimBackground}>
   <!-- <RotatingMix /> -->
   <Hexagons />
   <SlidingDiagonals />
