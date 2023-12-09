@@ -42,11 +42,13 @@ export const movies = derived(
       result = result.filter((i) => i.label.find((l) => l === 'animated'));
     }
     result = result.sort(sortFn);
-    (result as Entry[]).unshift({
-      type: 'divider',
-      title: 'Movies',
-      key: 'Movies',
-    });
+    if (result.length > 0) {
+      (result as Entry[]).unshift({
+        type: 'divider',
+        title: 'Movies',
+        key: 'Movies',
+      });
+    }
     return result;
   },
 );

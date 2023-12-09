@@ -41,11 +41,13 @@ export const liveActionTv = derived(
       // do nothing
     }
     result = result.sort(sortFn);
-    (result as Entry[]).unshift({
-      type: 'divider',
-      title: 'Live Action TV Series',
-      key: 'Live Action TV Series',
-    });
+    if (result.length > 0) {
+      (result as Entry[]).unshift({
+        type: 'divider',
+        title: 'Live Action TV Series',
+        key: 'Live Action TV Series',
+      });
+    }
     return result;
   },
 );
