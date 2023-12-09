@@ -1,5 +1,5 @@
 import { expect, test } from 'vitest';
-import { allTitles } from '../facts/allTitles';
+import { allTitles } from '../../../facts/allTitles';
 import { matchAll } from './afterSearch';
 
 test('match one show', () => {
