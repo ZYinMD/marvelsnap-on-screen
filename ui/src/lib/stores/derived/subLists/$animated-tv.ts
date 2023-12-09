@@ -2,7 +2,7 @@ import { derived } from 'svelte/store';
 import { sortFn } from '../$sortFn';
 import type { Entry } from '../../../MainList/buildingBlocks';
 import { filter, sort } from '../../writables/$primary';
-import { afterSearch } from './afterSearch';
+import { afterSearch } from './$afterSearch';
 
 /**
  * A derived store that returns all shows to be displayed under the "Animated TV Series" divider
