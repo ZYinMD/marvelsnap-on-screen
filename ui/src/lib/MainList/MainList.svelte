@@ -1,6 +1,6 @@
 <script lang="ts">
   import { dimBackground } from '../stores/derived/$dimBackground';
-  import { mainList } from './$mainList';
+  import { mainList } from '../stores/derived/$mainList';
   import Entry from './Entry/Show.svelte';
 </script>
 

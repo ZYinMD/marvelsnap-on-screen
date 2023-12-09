@@ -9,7 +9,7 @@ import { AllShows, type Show } from './buildingBlocks';
  * @param cards all cards a show has
  * @param searchTerm must be already lowercased
  */
-export function match(yearAndTitle: string, cards: string[], searchTerm: string) {
+function match(yearAndTitle: string, cards: string[], searchTerm: string) {
   if (yearAndTitle.toLowerCase().includes(searchTerm)) return true;
   // const cards = Array.from(map[show.key].major).concat(Array.from(map[show.key].minor));
   if (cards.some((card) => card.toLowerCase().includes(searchTerm))) return true;
