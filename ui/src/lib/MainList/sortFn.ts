@@ -3,7 +3,7 @@ import { map } from '../facts/map';
 import { sort } from '../stores/writables/$primary';
 import type { Show } from './buildingBlocks';
 
-export const compareYear = (descending: boolean) => (a: Show, b: Show) => {
+const compareYear = (descending: boolean) => (a: Show, b: Show) => {
   let verdict = a.year > b.year;
   if (descending) verdict = !verdict;
   return verdict ? 1 : -1;
@@ -12,12 +12,12 @@ function getNumCardsByShow(show: Show) {
   const roster = map[show.key];
   return roster.major.size + roster.minor.size;
 }
-export const compareNumCards = (descending: boolean) => (a: Show, b: Show) => {
+const compareNumCards = (descending: boolean) => (a: Show, b: Show) => {
   let verdict = getNumCardsByShow(a) > getNumCardsByShow(b);
   if (descending) verdict = !verdict;
   return verdict ? 1 : -1;
 };
-export const compareNumSeasons = (descending: boolean) => (a: Show, b: Show) => {
+const compareNumSeasons = (descending: boolean) => (a: Show, b: Show) => {
   const numSeasonsA = a.numSeasons || 0;
   const numEpisodesA = a.numEpisodes || 0;
   const numSeasonsB = b.numSeasons || 0;
@@ -30,7 +30,7 @@ export const compareNumSeasons = (descending: boolean) => (a: Show, b: Show) => 
   return verdict ? 1 : -1;
 };
 
-export const compareTitle = (descending: boolean) => (a: Show, b: Show) => {
+const compareTitle = (descending: boolean) => (a: Show, b: Show) => {
   let titleA = a.title.toLowerCase();
   let titleB = b.title.toLowerCase();
   if (titleA.startsWith('the ')) titleA = titleA.slice(4);
@@ -41,7 +41,7 @@ export const compareTitle = (descending: boolean) => (a: Show, b: Show) => {
 };
 
 /**
- * A store that returns a function. The store reacts to the sorting options in the bottom left corner. The function is to be passed into array.prototype.sort()
+ * A store that returns a function, which is to be passed into array.prototype.sort(). This store reacts to the sorting options in the bottom left corner.
  */
 export const sortFn = derived(sort, (sortStates) => {
   const { sortDescending: direction, sortBy } = sortStates;
