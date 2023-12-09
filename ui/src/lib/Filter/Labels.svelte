@@ -12,7 +12,7 @@
 <ul class="container">
   <li>
     <div
-      class="label clickable"
+      class="label pressable"
       class:active={$filter.activeLabel === 'mcu'}
       on:click={toggle('mcu')}
     >
@@ -22,7 +22,7 @@
   </li>
   <li>
     <div
-      class="label clickable"
+      class="label pressable"
       class:active={$filter.activeLabel === 'x-men'}
       on:click={toggle('x-men')}
     >
@@ -32,7 +32,7 @@
   </li>
   <li>
     <div
-      class="label clickable"
+      class="label pressable"
       class:active={$filter.activeLabel === 'ssu'}
       on:click={toggle('ssu')}
     >
@@ -42,7 +42,7 @@
   </li>
   <li>
     <div
-      class="label clickable"
+      class="label pressable"
       class:active={$filter.activeLabel === 'sequel'}
       on:click={toggle('sequel')}
     >
@@ -52,7 +52,7 @@
   </li>
   <li>
     <div
-      class="label clickable"
+      class="label pressable"
       class:active={$filter.activeLabel === 'netflix'}
       on:click={toggle('netflix')}
     >
@@ -62,7 +62,7 @@
   </li>
   <li>
     <div
-      class="label clickable"
+      class="label pressable"
       class:active={$filter.activeLabel === 'all-tv'}
       on:click={toggle('all-tv')}
     >
@@ -72,7 +72,7 @@
   </li>
   <li>
     <div
-      class="label clickable"
+      class="label pressable"
       class:active={$filter.activeLabel === 'all-animated'}
       on:click={toggle('all-animated')}
     >
@@ -82,7 +82,7 @@
   </li>
   <li>
     <div
-      class="label clickable"
+      class="label pressable"
       class:active={$filter.activeLabel === 'anime'}
       on:click={toggle('anime')}
     >
