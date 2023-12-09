@@ -2,7 +2,7 @@
 </script>
 
 <!-- @component inspired by https://codepen.io/chris22smith/pen/RZogMa -->
-<div class="container">
+<div class="component">
   <div class="bg"></div>
   <div class="bg bg2"></div>
   <div class="bg bg3"></div>
@@ -12,7 +12,7 @@
 </div>
 
 <style>
-  .container {
+  .component {
     grid-area: the-only;
     --color1: hsl(270, 100%, 11%);
     --color2: hsl(250, 100%, 9%);

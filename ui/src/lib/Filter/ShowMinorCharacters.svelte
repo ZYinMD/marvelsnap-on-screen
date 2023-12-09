@@ -6,7 +6,7 @@
 </script>
 
 <div
-  class="container pressable"
+  class="component pressable"
   on:click={() => ($filter.showMinorCharacters = !$filter.showMinorCharacters)}
 >
   <div class="skew">Show Minor Characters</div>
@@ -19,7 +19,7 @@
 </div>
 
 <style>
-  .container {
+  .component {
     display: flex;
     margin: 25px 1px 24px;
   }

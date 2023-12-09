@@ -20,7 +20,7 @@
 </script>
 
 <!-- @component one item in the list -->
-<div class={`container ${type}`}>
+<div class={`component ${type}`}>
   <div class="clickable-row" on:click={toggleDrawer}>
     <Chevron {isOpen} />
     {#if type === 'movie'}
@@ -43,19 +43,19 @@
       /
       30px auto;
   }
-  .container {
+  .component {
     margin-bottom: 10px;
   }
-  .container.movie {
+  .component.movie {
     border: 1px Thistle solid;
   }
-  .container.live-action-tv-series {
+  .component.live-action-tv-series {
     border: 1px SkyBlue solid;
     /* box-shadow:
       inset 0 0 5px Thistle,
       0 0 3px Thistle; */
   }
-  .container.animated-tv-series {
+  .component.animated-tv-series {
     border: 1px PaleGreen solid;
   }
 </style>

@@ -3,7 +3,7 @@
 </script>
 
 <!-- @component the search box to put in key words -->
-<div class="container">
+<div class="component">
   <input
     type="search"
     name="search"
@@ -14,7 +14,7 @@
 </div>
 
 <style>
-  .container {
+  .component {
     border: none;
   }
   input {

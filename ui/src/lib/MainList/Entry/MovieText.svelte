@@ -4,10 +4,10 @@
 </script>
 
 <!-- @component the text of movie, containing year and title -->
-<div class="container">({year}) {title}</div>
+<div class="component">({year}) {title}</div>
 
 <style>
-  .container {
+  .component {
     transform: skew(-3deg);
     grid-area: text;
     height: 40px;

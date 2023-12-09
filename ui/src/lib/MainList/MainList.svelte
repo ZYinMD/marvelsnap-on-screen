@@ -5,7 +5,7 @@
 </script>
 
 <!-- @component the list of all the shows in the home page -->
-<div class="container container-narrow" class:dim={$dimBackground}>
+<div class="component container-narrow" class:dim={$dimBackground}>
   {#each $mainList as entry (entry.key)}
     {#if entry.type === 'divider'}
       <div class="divider"><div class="text">{entry.title}:</div></div>
@@ -16,7 +16,7 @@
 </div>
 
 <style>
-  .container {
+  .component {
     position: relative;
     padding: 10px 5px;
   }

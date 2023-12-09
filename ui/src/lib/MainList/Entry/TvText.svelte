@@ -6,7 +6,7 @@
 </script>
 
 <!-- @component the clickable text of a tv series -->
-<div class="container">
+<div class="component">
   <div class="title">{title}</div>
   <div class="subtitle">
     {year}, {numSeasons}
@@ -15,7 +15,7 @@
 </div>
 
 <style>
-  .container {
+  .component {
     grid-area: text;
     height: 50px;
     display: grid;

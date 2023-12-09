@@ -7,7 +7,7 @@
 </script>
 
 <!-- @component the sort panel on the left -->
-<div class="container container-narrow-viewport">
+<div class="component container-narrow-viewport">
   <div class="panel" use:outClickListener on:outClick={() => ($sort.isPanelOpen = false)}>
     <div class="heading"><div class="skew">Sort</div></div>
 
@@ -58,7 +58,7 @@
 </div>
 
 <style>
-  .container {
+  .component {
     display: grid;
     grid-template-areas: 'the-only';
     font-size: 18px;

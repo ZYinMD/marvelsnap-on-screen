@@ -9,7 +9,7 @@
 </script>
 
 <!-- @component Common labels used for filtering, e.g. MCU, Netflix, Anime, etc -->
-<ul class="container">
+<ul class="component">
   <li>
     <div
       class="label pressable"
@@ -93,7 +93,7 @@
 </ul>
 
 <style>
-  ul.container {
+  ul.component {
     list-style: none;
     padding: 0px;
     margin: 0px;

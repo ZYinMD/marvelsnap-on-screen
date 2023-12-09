@@ -9,8 +9,8 @@
 </script>
 
 <!-- @component the expandable drawer that contains cards -->
-<div class="container" transition:slide={{ duration: 100 }}>
-  <!-- <div class="container" transition:slide={{ duration: 100 }}> -->
+<div class="component" transition:slide={{ duration: 100 }}>
+  <!-- <div class="component" transition:slide={{ duration: 100 }}> -->
   {#each major as card (card)}
     {@const filename = allCards[card].defId}
     <img src={`/card-images/${filename}.webp`} alt={card} />
@@ -25,7 +25,7 @@
 </div>
 
 <style>
-  .container {
+  .component {
     --good-width: min(30vw, 130px);
     grid-area: drawer;
     display: grid;

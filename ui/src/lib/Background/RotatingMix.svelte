@@ -1,10 +1,10 @@
 <!-- @component the rotating background  -->
-<div class="container">
+<div class="component">
   <div class="background rotate"></div>
 </div>
 
 <style>
-  .container {
+  .component {
     grid-area: the-only;
     display: grid;
     place-items: center;

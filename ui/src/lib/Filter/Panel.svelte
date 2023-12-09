@@ -7,7 +7,7 @@
 </script>
 
 <!-- @component the search and filter panel on the right -->
-<div class="container container-narrow-viewport">
+<div class="component container-narrow-viewport">
   <div class="panel" use:outClickListener on:outClick={() => ($filter.isPanelOpen = false)}>
     <div class="h1"><div class="skew">Search & Filters</div></div>
     <SearchBox />
@@ -28,7 +28,7 @@
 </div>
 
 <style>
-  .container {
+  .component {
     display: grid;
     grid-template-areas: 'the-only';
   }
