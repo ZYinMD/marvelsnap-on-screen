@@ -1,7 +1,7 @@
 import { derived } from 'svelte/store';
-import { map } from '../facts/map';
-import { sort } from '../stores/writables/$primary';
-import type { Show } from './buildingBlocks';
+import type { Show } from '../../MainList/buildingBlocks';
+import { map } from '../../facts/map';
+import { sort } from '../writables/$primary';
 
 const compareYear = (descending: boolean) => (a: Show, b: Show) => {
   let verdict = a.year > b.year;
