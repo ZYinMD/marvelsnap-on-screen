@@ -2,7 +2,7 @@
   import { scale } from 'svelte/transition';
   import Checkmark from '../Icons/Checkmark.svelte';
   import InfoIcon from '../Icons/InfoIcon.svelte';
-  import { filter } from '../stores/writables/$primary';
+  import { filter, tooltip } from '../stores/writables/$primary';
 </script>
 
 <div
@@ -10,7 +10,9 @@
   on:click={() => ($filter.showMinorCharacters = !$filter.showMinorCharacters)}
 >
   <div class="skew">Show Minor Characters</div>
-  <div class="info-button"><InfoIcon /></div>
+  <div class="info-button clickable" on:click={() => ($tooltip = 'show-minor-chars')}>
+    <InfoIcon />
+  </div>
   {#if $filter.showMinorCharacters}
     <div transition:scale={{ duration: 100 }} class="checkmark">
       <Checkmark />

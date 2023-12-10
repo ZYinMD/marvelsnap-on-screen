@@ -1,6 +1,6 @@
 <script lang="ts">
   import InfoIcon from '../Icons/InfoIcon.svelte';
-  import { filter } from '../stores/writables/$primary';
+  import { filter, tooltip } from '../stores/writables/$primary';
   const toggle = (label: typeof $filter.activeLabel) => () => {
     if ($filter.activeLabel === label) {
       $filter.activeLabel = '';
@@ -18,7 +18,7 @@
     >
       <div class="skew">Marvel Cinematic Universe</div>
     </div>
-    <div class="info-button"><InfoIcon /></div>
+    <div class="info-button clickable" on:click={() => ($tooltip = 'mcu')}><InfoIcon /></div>
   </li>
   <li>
     <div
@@ -28,7 +28,7 @@
     >
       <div class="skew">20th Century Fox X-Men</div>
     </div>
-    <div class="info-button"><InfoIcon /></div>
+    <div class="info-button clickable" on:click={() => ($tooltip = 'x-men')}><InfoIcon /></div>
   </li>
   <li>
     <div
@@ -38,7 +38,7 @@
     >
       <div class="skew">Sony's Spider-Man Universe</div>
     </div>
-    <div class="info-button"><InfoIcon /></div>
+    <div class="info-button clickable" on:click={() => ($tooltip = 'ssu')}><InfoIcon /></div>
   </li>
   <li>
     <div
@@ -48,7 +48,7 @@
     >
       <div class="skew">Has a Sequel or Two</div>
     </div>
-    <div class="info-button"><InfoIcon /></div>
+    <div class="info-button clickable" on:click={() => ($tooltip = 'sequel')}><InfoIcon /></div>
   </li>
   <li>
     <div
@@ -58,7 +58,7 @@
     >
       <div class="skew">Netflix</div>
     </div>
-    <div class="info-button"><InfoIcon /></div>
+    <div class="info-button clickable" on:click={() => ($tooltip = 'netflix')}><InfoIcon /></div>
   </li>
   <li>
     <div
@@ -68,7 +68,6 @@
     >
       <div class="skew">All TV Series</div>
     </div>
-    <div class="info-button"><InfoIcon /></div>
   </li>
   <li>
     <div
@@ -78,7 +77,6 @@
     >
       <div class="skew">All Animated</div>
     </div>
-    <div class="info-button"><InfoIcon /></div>
   </li>
   <li>
     <div
@@ -88,7 +86,6 @@
     >
       <div class="skew">Anime</div>
     </div>
-    <div class="info-button"><InfoIcon /></div>
   </li>
 </ul>
 
