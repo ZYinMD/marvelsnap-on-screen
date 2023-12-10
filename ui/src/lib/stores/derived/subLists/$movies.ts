@@ -16,11 +16,12 @@ import { afterSearch } from './$afterSearch';
 export const movies = derived(
   [sort, filter, afterSearch, sortFn],
   ([sortStates, filterStates, afterSearch, sortFn]) => {
-    const { separateMoviesAndTv } = sortStates;
+    const { separateMoviesAndTv, sortBy } = sortStates;
     const { activeLabel } = filterStates;
 
     if (
       !separateMoviesAndTv ||
+      sortBy === 'numSeasons' ||
       activeLabel === 'netflix' ||
       activeLabel === 'sequel' ||
       activeLabel === 'all-tv' ||
