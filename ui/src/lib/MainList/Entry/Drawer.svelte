@@ -3,6 +3,7 @@
   import { allCards } from '../../facts/allCards';
   import { map } from '../../facts/map';
   import type { Key } from '../buildingBlocks';
+  import { filter } from '../../stores/writables/$primary';
   export let key: Key;
   const major = map[key].major;
   const minor = map[key].minor;
@@ -15,10 +16,12 @@
     {@const filename = allCards[card].defId}
     <img src={`/card-images/${filename}.webp`} alt={card} />
   {/each}
-  {#each minor as card (card)}
-    {@const filename = allCards[card].defId}
-    <img class="minor" src={`/card-images/${filename}.webp`} alt={card} />
-  {/each}
+  {#if $filter.showMinorCharacters}
+    {#each minor as card (card)}
+      {@const filename = allCards[card].defId}
+      <img class="minor" src={`/card-images/${filename}.webp`} alt={card} />
+    {/each}
+  {/if}
   {#if major.size + minor.size === 0}
     <div class="none"><div>none</div></div>
   {/if}
