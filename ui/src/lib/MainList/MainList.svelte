@@ -21,7 +21,7 @@
     padding: 10px 5px;
   }
   .dim {
-    filter: brightness(60%) blur(5px);
+    filter: brightness(60%) blur(4px);
   }
   .divider {
     height: 70px;

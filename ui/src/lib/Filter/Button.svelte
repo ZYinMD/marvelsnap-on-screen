@@ -1,12 +1,13 @@
 <script lang="ts">
   import CornerButtonShape from '../Icons/CornerButtonShape.svelte';
   import FilterIcon from '../Icons/FilterIcon.svelte';
+  import { dimBackground } from '../stores/derived/$dimBackground';
   import { filter } from '../stores/writables/$primary';
 </script>
 
 <!-- @component the filter button at on the bottom right -->
 <div class="container container-narrow-viewport">
-  <div class="component" on:click={() => ($filter.isPanelOpen = true)}>
+  <div class="component" class:dim={$dimBackground} on:click={() => ($filter.isPanelOpen = true)}>
     <div class="button-shape">
       <CornerButtonShape />
     </div>
@@ -51,5 +52,8 @@
     position: relative;
     left: 10%;
     top: 5%;
+  }
+  .dim {
+    filter: brightness(50%) blur(2px);
   }
 </style>
