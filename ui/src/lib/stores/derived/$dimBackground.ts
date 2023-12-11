@@ -1,7 +1,8 @@
 import { derived } from 'svelte/store';
-import { filter, sort } from '../writables/$primary';
+import { filter, sort, tooltip } from '../writables/$primary';
 
-export const dimBackground = derived([sort, filter], ([sort, filter]) => {
+export const dimBackground = derived([sort, filter, tooltip], ([sort, filter, tooltip]) => {
   const aPanelIsOpen = sort.isPanelOpen || filter.isPanelOpen;
-  return aPanelIsOpen;
+  const aTooltipIsOpen = Boolean(tooltip);
+  return aPanelIsOpen || aTooltipIsOpen;
 });

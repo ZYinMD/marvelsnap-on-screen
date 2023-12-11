@@ -1,6 +1,6 @@
 <script lang="ts">
   import { handleOutClick } from '../stores/derived/$handleOutClick';
-  import { filter } from '../stores/writables/$primary';
+  import { filter, tooltip } from '../stores/writables/$primary';
   import { outClickListener } from '../use/outClickListener';
   import Labels from './Labels.svelte';
   import SearchBox from './SearchBox.svelte';
@@ -8,7 +8,7 @@
 </script>
 
 <!-- @component the search and filter panel on the right -->
-<div class="component container-narrow-viewport">
+<div class="component container-narrow-viewport" class:dim={Boolean($tooltip)}>
   <div class="panel" use:outClickListener on:outClick={$handleOutClick}>
     <div class="h1"><div class="skew">Search & Filters</div></div>
     <SearchBox />
@@ -59,5 +59,8 @@
   }
   .skew {
     transform: skew(-6deg);
+  }
+  .dim {
+    filter: brightness(30%);
   }
 </style>
