@@ -1,10 +1,11 @@
 <script lang="ts">
   import { tooltip } from '../stores/writables/$primary';
   import { outClickListener } from '../use/outClickListener';
+  import { handleOutClick } from '../stores/derived/$handleOutClick';
 </script>
 
 <!-- @component to render the modal if there's any tooltip that should currently be showing -->
-<div class="component" use:outClickListener on:outClick={() => ($tooltip = '')}>
+<div class="component" use:outClickListener on:outClick={$handleOutClick}>
   {#if $tooltip === 'mcu'}
     <div>mcu</div>
   {/if}

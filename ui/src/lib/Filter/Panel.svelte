@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { handleOutClick } from '../stores/derived/$handleOutClick';
   import { filter } from '../stores/writables/$primary';
   import { outClickListener } from '../use/outClickListener';
   import Labels from './Labels.svelte';
@@ -8,7 +9,7 @@
 
 <!-- @component the search and filter panel on the right -->
 <div class="component container-narrow-viewport">
-  <div class="panel" use:outClickListener on:outClick={() => ($filter.isPanelOpen = false)}>
+  <div class="panel" use:outClickListener on:outClick={$handleOutClick}>
     <div class="h1"><div class="skew">Search & Filters</div></div>
     <SearchBox />
     <div class="h2"><div class="skew">Labels</div></div>
