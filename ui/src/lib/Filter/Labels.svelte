@@ -58,7 +58,6 @@
     >
       <div class="skew">Has a Sequel or Two</div>
     </div>
-    <div class="info-button clickable" on:click={() => ($tooltip = 'sequel')}><InfoIcon /></div>
   </li>
   <li>
     <div

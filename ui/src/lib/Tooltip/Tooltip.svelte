@@ -20,16 +20,16 @@
       </p>
       <p>
         In recent movies, the concept of Multiverse was introduced. All the storylines that ever
-        happened in any other titles are now in the same canon, they just happened in parallel
-        universes, but characters can travel between universes if plot requires.
+        happened in any other titles are now in the same canon as MCU, they just happened in
+        parallel universes, but characters can travel between universes if plot requires.
       </p>
       <p>Among the multiverse, the MCU is identified as Earth-616.</p>
     {/if}
     {#if $tooltip === 'netflix'}
       <h2>Marvel's Netflix series</h2>
       <p>
-        Set in the MCU, but rarely cross over to the avenger movies, the Netflix series have a
-        darker tone, featuring street-level heros in New York City.
+        Set in the MCU but rarely cross over to the avenger movies, the Netflix series have a darker
+        tone, featuring street-level heros in New York City.
       </p>
     {/if}
     {#if $tooltip === 'x-men'}
@@ -53,13 +53,13 @@
       </p>
       <p>
         Except the Tom Holland collaboration with Marvel Studios, SONY/Columbia mostly created
-        standalone franchises in 1-3 installments. Recently, however, inspired by the success of
-        MCU, SONY/Columbia now tries to create a new Spider-Man universe that integrate more
-        characters.
+        standalone franchises with these characters. Recently, however, inspired by the success of
+        MCU, SONY is planning this new Spider-Man universe that integrates more characters.
       </p>
-    {/if}
-    {#if $tooltip === 'sequel'}
-      <div>sequel</div>
+      <p>
+        Side note: not to be confused with SONY's Spider-Verse series which is a recent trilogy of
+        animated feature films.
+      </p>
     {/if}
     {#if $tooltip === 'show-minor-chars'}
       <div>show-minor-chars</div>
@@ -70,7 +70,7 @@
 <style>
   .component {
     width: 80%;
-    border: 1px solid #555;
+    border: 3px solid var(--blue);
     background-color: #222;
     padding: 5px 17px;
 
@@ -81,7 +81,6 @@
     transform: translate(-50%, -50%);
   }
   h2 {
-    transform: skew(-3deg);
     margin: 15px 0px;
     font-size: 21px;
     font-weight: 300;
