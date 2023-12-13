@@ -62,13 +62,23 @@
       </p>
     {/if}
     {#if $tooltip === 'show-minor-chars'}
-      <div>show-minor-chars</div>
+      <h2>What's a minor character?</h2>
+      <p>1. Brief appearance as a cameo or in the post-credit scene</p>
+      <p>
+        2. Not fully in form yet, e.g. Pepper Potts before being "Rescue", Ant Man's daughter before
+        being "Stature", Jane Foster before being Thor.
+      </p>
+      <p>
+        3. In a multi-season TV series, if a character only showed up in one episode, it's
+        considered minor.
+      </p>
     {/if}
   </div>
 </div>
 
 <style>
   .component {
+    filter: brightness(0.87);
     width: 80%;
     border: 3px solid var(--blue);
     background-color: #222;
