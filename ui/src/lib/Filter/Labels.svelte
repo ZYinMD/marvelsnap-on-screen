@@ -23,6 +23,16 @@
   <li>
     <div
       class="label pressable"
+      class:active={$filter.activeLabel === 'netflix'}
+      on:click={toggle('netflix')}
+    >
+      <div class="skew">Netflix</div>
+    </div>
+    <div class="info-button clickable" on:click={() => ($tooltip = 'netflix')}><InfoIcon /></div>
+  </li>
+  <li>
+    <div
+      class="label pressable"
       class:active={$filter.activeLabel === 'x-men'}
       on:click={toggle('x-men')}
     >
@@ -49,16 +59,6 @@
       <div class="skew">Has a Sequel or Two</div>
     </div>
     <div class="info-button clickable" on:click={() => ($tooltip = 'sequel')}><InfoIcon /></div>
-  </li>
-  <li>
-    <div
-      class="label pressable"
-      class:active={$filter.activeLabel === 'netflix'}
-      on:click={toggle('netflix')}
-    >
-      <div class="skew">Netflix</div>
-    </div>
-    <div class="info-button clickable" on:click={() => ($tooltip = 'netflix')}><InfoIcon /></div>
   </li>
   <li>
     <div
