@@ -39,7 +39,7 @@ export const animatedTv = derived(
       // do nothing
     }
     result = result.sort(sortFn);
-    if (result.length > 0) {
+    if (result.length > 0 && activeLabel !== 'anime') {
       (result as Entry[]).unshift({
         type: 'divider',
         title: 'Animated TV Series',
