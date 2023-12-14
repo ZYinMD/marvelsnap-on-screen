@@ -17,7 +17,7 @@
     {numSeasons > 1 ? 'seasons' : 'season'}, {numEpisodes} episodes
   </div>
   {#if isOpen}
-    <a href={wikipedia} target="_blank" on:click={(e) => e.stopPropagation()}>
+    <a href={wikipedia} title="Wikipedia" target="_blank" on:click={(e) => e.stopPropagation()}>
       <ExternalLinkIcon />
     </a>
   {/if}
@@ -48,11 +48,11 @@
   }
   a {
     grid-area: wiki-link;
-    align-self: center;
+    align-self: start;
     justify-self: end;
     height: 19px;
     color: currentColor;
-    margin: 4px 9px 0px 0px;
+    margin: 10px 9px 0px 0px;
     filter: brightness(0.8);
   }
   a:hover {

@@ -10,7 +10,7 @@
 <div class="component">
   <span>({year}) {title}</span>
   {#if isOpen}
-    <a href={wikipedia} target="_blank" on:click={(e) => e.stopPropagation()}>
+    <a href={wikipedia} title="Wikipedia" target="_blank" on:click={(e) => e.stopPropagation()}>
       <ExternalLinkIcon />
     </a>
   {/if}
@@ -26,9 +26,10 @@
     justify-content: space-between;
   }
   a {
+    align-self: start;
     height: 19px;
     color: currentColor;
-    margin-right: 8px;
+    margin: 10px 9px 0px 0px;
     filter: brightness(0.8);
   }
   a:hover {
