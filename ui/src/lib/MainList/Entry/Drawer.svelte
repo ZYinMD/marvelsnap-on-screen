@@ -4,6 +4,7 @@
   import { map } from '../../facts/map';
   import type { Key } from '../buildingBlocks';
   import { filter } from '../../stores/writables/$primary';
+  import Card from './Card.svelte';
   export let key: Key;
   const major = map[key].major;
   const minor = map[key].minor;
@@ -12,14 +13,12 @@
 <!-- @component the expandable drawer that contains cards -->
 <div class="component" transition:slide={{ duration: 100 }}>
   <!-- <div class="component" transition:slide={{ duration: 100 }}> -->
-  {#each major as card (card)}
-    {@const filename = allCards[card].defId}
-    <img src={`/card-images/${filename}.webp`} alt={card} />
+  {#each major as cardName (cardName)}
+    <Card {cardName} />
   {/each}
   {#if $filter.showMinorCharacters}
-    {#each minor as card (card)}
-      {@const filename = allCards[card].defId}
-      <img class="minor" src={`/card-images/${filename}.webp`} alt={card} />
+    {#each minor as cardName (cardName)}
+      <Card {cardName} minor={true} />
     {/each}
   {/if}
   {#if major.size + minor.size === 0}
@@ -35,14 +34,6 @@
     grid-template-columns: repeat(auto-fit, var(--good-width));
     justify-content: center;
     padding-bottom: 12px;
-  }
-  img {
-    width: var(--good-width);
-    height: calc(var(--good-width) * 1.3);
-    object-fit: cover;
-  }
-  img.minor {
-    opacity: 0.25;
   }
   .none > div {
     font-size: 25px;
