@@ -24,9 +24,9 @@
   <div class="clickable-row" on:click={toggleDrawer}>
     <Chevron {isOpen} />
     {#if type === 'movie'}
-      <MovieText {year} {title} {wikipedia} />
+      <MovieText {year} {title} {wikipedia} {isOpen} />
     {:else}
-      <TvText {year} {title} {numSeasons} {numEpisodes} {wikipedia} />
+      <TvText {year} {title} {numSeasons} {numEpisodes} {wikipedia} {isOpen} />
     {/if}
   </div>
   {#if isOpen}

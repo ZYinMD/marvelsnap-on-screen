@@ -6,6 +6,7 @@
   export let numSeasons: number;
   export let numEpisodes: number;
   export let wikipedia: string;
+  export let isOpen: boolean;
 </script>
 
 <!-- @component the clickable text of a tv series -->
@@ -15,9 +16,11 @@
     {year}, {numSeasons}
     {numSeasons > 1 ? 'seasons' : 'season'}, {numEpisodes} episodes
   </div>
-  <a href={wikipedia} target="_blank" on:click={(e) => e.stopPropagation()}>
-    <ExternalLinkIcon />
-  </a>
+  {#if isOpen}
+    <a href={wikipedia} target="_blank" on:click={(e) => e.stopPropagation()}>
+      <ExternalLinkIcon />
+    </a>
+  {/if}
 </div>
 
 <style>

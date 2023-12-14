@@ -3,14 +3,17 @@
   export let year: string;
   export let title: string;
   export let wikipedia: string;
+  export let isOpen: boolean;
 </script>
 
 <!-- @component the text of movie, containing year and title -->
 <div class="component">
   <span>({year}) {title}</span>
-  <a href={wikipedia} target="_blank" on:click={(e) => e.stopPropagation()}>
-    <ExternalLinkIcon />
-  </a>
+  {#if isOpen}
+    <a href={wikipedia} target="_blank" on:click={(e) => e.stopPropagation()}>
+      <ExternalLinkIcon />
+    </a>
+  {/if}
 </div>
 
 <style>
