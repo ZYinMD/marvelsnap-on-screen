@@ -7,7 +7,7 @@
   import TvText from './TvText.svelte';
   export let showData; // don't add a type here, because typescript is stupid
 
-  const { type, title, year, numSeasons, numEpisodes } = showData as Show;
+  const { type, title, year, numSeasons, numEpisodes, wikipedia } = showData as Show;
   const key = showData.key as Key;
   function toggleDrawer() {
     openedDrawers.update((prev) => {
@@ -24,7 +24,7 @@
   <div class="clickable-row" on:click={toggleDrawer}>
     <Chevron {isOpen} />
     {#if type === 'movie'}
-      <MovieText {year} {title} />
+      <MovieText {year} {title} url={wikipedia} />
     {:else}
       <TvText {year} {title} {numSeasons} {numEpisodes} />
     {/if}
