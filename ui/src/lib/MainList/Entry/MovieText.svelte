@@ -2,13 +2,13 @@
   import ExternalLinkIcon from '../../Icons/ExternalLinkIcon.svelte';
   export let year: string;
   export let title: string;
-  export let url: string;
+  export let wikipedia: string;
 </script>
 
 <!-- @component the text of movie, containing year and title -->
 <div class="component">
   <span>({year}) {title}</span>
-  <a href={url} target="_blank" on:click={(e) => e.stopPropagation()}>
+  <a href={wikipedia} target="_blank" on:click={(e) => e.stopPropagation()}>
     <ExternalLinkIcon />
   </a>
 </div>
