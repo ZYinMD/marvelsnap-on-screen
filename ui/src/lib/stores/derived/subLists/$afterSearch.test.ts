@@ -29,6 +29,7 @@ test('match one show', () => {
     expect(matchAll(show, 'scar wanda')).toBe(true);
     expect(matchAll(show, 'scar spectrum')).toBe(true);
     expect(matchAll(show, 'widow')).toBe(false);
+    expect(matchAll(show, 'scarlet spectrum')).toBe(true); // if user searches for two cards, should match. This design actually leads to undesirable cases e.g. if user search "black wi" and if a movie has both "black bolt" and "scarlet witch", it will match, but that show doesn't have black widow which is probably what the user is looking for. However, I think it's fine.
   }
   {
     const show = allTitles['animated-tv-series']['1994–1998|Spider-Man: The Animated Series'];
