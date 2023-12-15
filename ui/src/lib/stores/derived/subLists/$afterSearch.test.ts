@@ -5,9 +5,12 @@ import { matchAll } from './$afterSearch';
 test('match one show', () => {
   {
     const show = allTitles.movie['2005|Fantastic Four'];
+    expect(matchAll(show, '2')).toBe(false);
     expect(matchAll(show, '200')).toBe(true);
     expect(matchAll(show, '2005')).toBe(true);
     expect(matchAll(show, '2006')).toBe(false);
+    expect(matchAll(show, 'f')).toBe(false);
+    expect(matchAll(show, 'f f')).toBe(false);
     expect(matchAll(show, 'fantastic')).toBe(true);
     expect(matchAll(show, 'fantastic four')).toBe(true);
     expect(matchAll(show, 'four thing')).toBe(true);
@@ -19,12 +22,14 @@ test('match one show', () => {
   }
   {
     const show = allTitles['live-action-tv-series']['2021|WandaVision'];
+    expect(matchAll(show, '0')).toBe(false);
     expect(matchAll(show, '200')).toBe(false);
     expect(matchAll(show, '201')).toBe(false);
     expect(matchAll(show, '202')).toBe(true);
     expect(matchAll(show, '2021')).toBe(true);
     expect(matchAll(show, 'wanda')).toBe(true);
     expect(matchAll(show, 'vision')).toBe(true);
+    expect(matchAll(show, 'w v')).toBe(false);
     expect(matchAll(show, 'scarlet')).toBe(true);
     expect(matchAll(show, 'scar wanda')).toBe(true);
     expect(matchAll(show, 'scar spectrum')).toBe(true);

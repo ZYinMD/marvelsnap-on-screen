@@ -21,7 +21,8 @@ function match(yearAndTitle: string, cards: string[], searchTerm: string) {
  * @param searchString as user put into the search box, can include spaces, but must be already lowercased
  */
 export function matchAll(show: Show, searchString: string) {
-  const searchTerms = searchString.split(' ');
+  const searchTerms = searchString.split(' ').filter((i) => i.length > 1);
+  if (searchTerms.length === 0) return false; // this can happen if user just types in one letter, don't match anything
   const yearAndTitle = show.key;
   const cards = Array.from(map[show.key].major).concat(Array.from(map[show.key].minor));
   return searchTerms.every((searchTerm) => match(yearAndTitle, cards, searchTerm));
