@@ -1,9 +1,8 @@
 <script lang="ts">
   import { slide } from 'svelte/transition';
-  import { allCards } from '../../facts/allCards';
   import { map } from '../../facts/map';
-  import type { Key } from '../buildingBlocks';
   import { filter } from '../../stores/writables/$primary';
+  import type { Key } from '../buildingBlocks';
   import Card from './Card.svelte';
   export let key: Key;
   const major = map[key].major;

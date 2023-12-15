@@ -3,7 +3,7 @@ import { allTitles } from '../../../facts/allTitles';
 import { matchAll } from './$afterSearch';
 
 describe('test a movie', () => {
-  const movie = allTitles.movie['2005|Fantastic Four'];
+  const show = allTitles.movie['2005|Fantastic Four'];
   test.each([
     ['2', false],
     ['200', true],
@@ -16,13 +16,13 @@ describe('test a movie', () => {
     ['fantastic', true],
     ['fantastic four', true],
     ['four thing', true],
-    ['five', false],
-    ['doom', true],
+    ['Five', false],
+    ['Doom', true],
     ['boom', false],
-    ['inv woman', true],
+    ['inv Woman', true],
     ['inv women', false],
   ])(`"2005|Fantastic Four" matches %s: %b)`, (searchString, expected) => {
-    expect(matchAll(movie, searchString, true)).toBe(expected);
+    expect(matchAll(show, searchString.toLowerCase(), true)).toBe(expected);
   });
 });
 
@@ -38,12 +38,12 @@ describe('test a tv show', () => {
     ['vision', true],
     ['w v', false],
     ['scarlet', true],
-    ['scar wanda', true],
+    ['Scar wanda', true],
     ['scar spectrum', true],
     ['widow', false],
     ['scarlet spectrum', true], // if user searches for two cards, should match. This design actually leads to undesirable cases e.g. if user search "black wi" and if a movie has both "black bolt" and "scarlet witch", it will match, but that show doesn't have black widow which is probably what the user is looking for. However, I think it's fine.
   ])(`"2021|WandaVision" matches %s: %b)`, (searchString, expected) => {
-    expect(matchAll(show, searchString, true)).toBe(expected);
+    expect(matchAll(show, searchString.toLowerCase(), true)).toBe(expected);
   });
 });
 
@@ -54,11 +54,17 @@ describe('test a tv show', () => {
     ['1998', true],
     ['1997', false],
     ['spider', true],
-    ['spider man', true],
+    ['Spider Man', true],
     ['goblin', true],
-    ['goblin animated', true],
+    ['goblin Animated', true],
     ['thor', false],
   ])(`"1994–1998|Spider-Man: The Animated Series" matches %s: %b)`, (searchString, expected) => {
-    expect(matchAll(show, searchString, true)).toBe(expected);
+    expect(matchAll(show, searchString.toLowerCase(), true)).toBe(expected);
   });
+});
+
+test('whether include minor chars', () => {
+  const show = allTitles.movie['2017|Spider-Man: Homecoming'];
+  expect(matchAll(show, 'rescue'.toLowerCase(), true)).toBe(true);
+  expect(matchAll(show, 'rescue'.toLowerCase(), false)).toBe(false);
 });

@@ -11,7 +11,6 @@ import { filter } from '../../writables/$primary';
  */
 function match(yearAndTitle: string, cards: string[], searchTerm: string) {
   if (yearAndTitle.toLowerCase().includes(searchTerm)) return true;
-  // const cards = Array.from(map[show.key].major).concat(Array.from(map[show.key].minor));
   if (cards.some((card) => card.toLowerCase().includes(searchTerm))) return true;
   return false;
 }
@@ -20,15 +19,18 @@ function match(yearAndTitle: string, cards: string[], searchTerm: string) {
  * Given a show and an array of search terms, whether the show is considered a match
  * @param searchString as user put into the search box, can include spaces, but must be already lowercased
  */
-export function matchAll(show: Show, searchString: string) {
+export function matchAll(show: Show, searchString: string, includeMinorChars: boolean) {
   const searchTerms = searchString.split(' ').filter((i) => i.length > 1);
   if (searchTerms.length === 0) return false; // this can happen if user just types in one letter, don't match anything
   const yearAndTitle = show.key;
-  const cards = Array.from(map[show.key].major).concat(Array.from(map[show.key].minor));
+  let cards = Array.from(map[show.key].major);
+  if (includeMinorChars) cards = cards.concat(Array.from(map[show.key].minor));
   return searchTerms.every((searchTerm) => match(yearAndTitle, cards, searchTerm));
 }
 
 export const afterSearch = derived([filter], ([filterStates]) => {
   if (!filterStates.searching) return AllShows;
-  return AllShows.filter((show) => matchAll(show, filterStates.searching.toLowerCase()));
+  return AllShows.filter((show) =>
+    matchAll(show, filterStates.searching.toLowerCase(), filterStates.showMinorCharacters),
+  );
 });
