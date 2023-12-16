@@ -6,7 +6,7 @@
 <div class="component">
   <input
     type="search"
-    name="search"
+    name="marvel-snap-on-screen"
     id="search-box"
     placeholder="search"
     bind:value={$filter.searching}
