@@ -1,10 +1,10 @@
 <script lang="ts">
-  import { filterStates } from './$filterStates';
+  import { filter } from '../stores/writables/$primary';
   import Button from './Button.svelte';
   import Panel from './Panel.svelte';
 </script>
 
-{#if $filterStates.isPanelOpen}
+{#if $filter.isPanelOpen}
   <Panel />
 {:else}
   <Button />

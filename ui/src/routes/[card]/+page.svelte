@@ -2,10 +2,10 @@
   export let data;
 </script>
 
-<div class="container">{data.card}</div>
+<div class="component">{data.card}</div>
 
 <style>
-  .container {
+  .component {
     position: fixed;
     top: 100px;
     left: 100px;

@@ -1,13 +1,13 @@
 <script lang="ts">
-  import { openedDrawers } from '../$mainList';
   import Chevron from '../../Icons/Chevron.svelte';
+  import { openedDrawers } from '../../stores/writables/$primary';
   import type { Key, Show } from '../buildingBlocks';
   import Drawer from './Drawer.svelte';
   import MovieText from './MovieText.svelte';
   import TvText from './TvText.svelte';
   export let showData; // don't add a type here, because typescript is stupid
 
-  const { type, title, year, numSeasons, numEpisodes } = showData as Show;
+  const { type, title, year, numSeasons, numEpisodes, wikipedia } = showData as Show;
   const key = showData.key as Key;
   function toggleDrawer() {
     openedDrawers.update((prev) => {
@@ -20,13 +20,13 @@
 </script>
 
 <!-- @component one item in the list -->
-<div class={`container ${type}`}>
-  <div class="clickable-row" on:click={toggleDrawer}>
+<div class={`component ${type}`}>
+  <div class="clickable-row" class:isOpen on:click={toggleDrawer}>
     <Chevron {isOpen} />
     {#if type === 'movie'}
-      <MovieText {year} {title} />
+      <MovieText {year} {title} {wikipedia} {isOpen} />
     {:else}
-      <TvText {year} {title} {numSeasons} {numEpisodes} />
+      <TvText {year} {title} {numSeasons} {numEpisodes} {wikipedia} {isOpen} />
     {/if}
   </div>
   {#if isOpen}
@@ -43,19 +43,22 @@
       /
       30px auto;
   }
-  .container {
-    margin: 10px 0;
+  .component:hover {
+    box-shadow: 0px 0px 3.5px #fff9;
   }
-  .container.movie {
-    border: 1px Thistle solid;
+  .component:active {
+    box-shadow: 0px 0px 3px #ffff;
   }
-  .container.live-action-tv-series {
-    border: 1px SkyBlue solid;
-    /* box-shadow:
-      inset 0 0 5px Thistle,
-      0 0 3px Thistle; */
+  .component {
+    margin-bottom: 10px;
   }
-  .container.animated-tv-series {
-    border: 1px PaleGreen solid;
+  .component.movie {
+    border: 1px var(--movie-entry-border) solid;
+  }
+  .component.live-action-tv-series {
+    border: 1px var(--live-action-tv-entry-border) solid;
+  }
+  .component.animated-tv-series {
+    border: 1px var(--animated-tv-entry-border) solid;
   }
 </style>

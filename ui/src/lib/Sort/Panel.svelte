@@ -1,69 +1,65 @@
 <script lang="ts">
   import { scale } from 'svelte/transition';
-  import BlurredBackDrop from '../Background/BlurredBackDrop.svelte';
   import Checkmark from '../Icons/Checkmark.svelte';
-  import SortButton from '../Icons/SortButton.svelte';
+  import SortIcon from '../Icons/SortIcon.svelte';
+  import { handleOutClick } from '../stores/derived/$handleOutClick';
+  import { sort } from '../stores/writables/$primary';
   import { outClickListener } from '../use/outClickListener';
-  import { sortStates } from './$sortStates';
 </script>
 
 <!-- @component the sort panel on the left -->
-<BlurredBackDrop />
-<div class="container container-narrow-viewport">
-  <div class="panel" use:outClickListener on:outClick={() => ($sortStates.isPanelOpen = false)}>
+<div class="component container-narrow-viewport">
+  <div class="panel" use:outClickListener on:outClick={$handleOutClick}>
     <div class="heading"><div class="skew">Sort</div></div>
 
-    <div
-      class="direction"
-      on:click={() => ($sortStates.sortDescending = !$sortStates.sortDescending)}
-    >
-      <SortButton flipped={!$sortStates.sortDescending} />
+    <div class="direction" on:click={() => ($sort.sortDescending = !$sort.sortDescending)}>
+      <SortIcon flipped={!$sort.sortDescending} />
     </div>
     <div class="options">
       <div
-        class="option"
-        class:active={$sortStates.sortBy === 'year'}
-        on:click={() => ($sortStates.sortBy = 'year')}
+        class="option pressable"
+        class:active={$sort.sortBy === 'year'}
+        on:click={() => ($sort.sortBy = 'year')}
       >
         <div class="skew">Year</div>
       </div>
       <div
-        class="option"
-        class:active={$sortStates.sortBy === 'numCards'}
-        on:click={() => ($sortStates.sortBy = 'numCards')}
+        class="option pressable"
+        class:active={$sort.sortBy === 'numCards'}
+        on:click={() => ($sort.sortBy = 'numCards')}
       >
         <div class="skew">Number of cards</div>
       </div>
       <div
-        class="option"
-        class:active={$sortStates.sortBy === 'numSeasons'}
-        on:click={() => ($sortStates.sortBy = 'numSeasons')}
+        class="option pressable"
+        class:active={$sort.sortBy === 'numSeasons'}
+        on:click={() => ($sort.sortBy = 'numSeasons')}
       >
         <div class="skew">Number of seasons</div>
       </div>
       <div
-        class="option"
-        class:active={$sortStates.sortBy === 'alphabetical'}
-        on:click={() => ($sortStates.sortBy = 'alphabetical')}
+        class="option pressable"
+        class:active={$sort.sortBy === 'alphabetical'}
+        on:click={() => ($sort.sortBy = 'alphabetical')}
       >
         <div class="skew">Alphabetical</div>
       </div>
     </div>
     <div class="separate-movies-and-tv skew">Separate Movies and TV</div>
-    {#if $sortStates.separateMoviesAndTv}
+    {#if $sort.separateMoviesAndTv}
       <div transition:scale={{ duration: 100 }} class="checkmark">
         <Checkmark />
       </div>
     {/if}
     <div
-      class="row-of-separate-movies-and-tv"
-      on:click={() => ($sortStates.separateMoviesAndTv = !$sortStates.separateMoviesAndTv)}
+      class="row-of-separate-movies-and-tv clickable"
+      on:click={() => ($sort.separateMoviesAndTv = !$sort.separateMoviesAndTv)}
     ></div>
   </div>
 </div>
 
 <style>
-  .container {
+  .component {
     display: grid;
     grid-template-areas: 'the-only';
     font-size: 18px;
@@ -81,7 +77,7 @@
       'separate-movies-and-tv checkmark' 35px
       /
       auto 40px;
-    border: 3px solid skyblue;
+    border: 3px solid var(--blue-highlight);
     border-radius: 5px;
   }
   .heading {
@@ -91,11 +87,13 @@
     font-weight: 500;
   }
   .direction {
+    perspective: 100px; /* Adjust the value to get the desired depth effect */
     grid-area: direction;
-    font-size: 24px;
+    font-size: 32px;
     cursor: pointer;
     position: relative;
     top: 3px;
+    right: 3px;
   }
   .options {
     grid-area: options;
@@ -106,8 +104,7 @@
   }
   .option.active {
     color: white;
-    background-color: SkyBlue;
-    /* border: 3px solid SkyBlue; */
+    background-color: var(--blue-highlight);
   }
   .option:hover:not(.active) {
     background-color: #aaa1;
@@ -122,14 +119,13 @@
   .checkmark {
     pointer-events: none;
     grid-area: checkmark;
-    color: skyblue;
+    color: var(--blue-highlight);
     position: relative;
     top: 1.2px;
   }
   .row-of-separate-movies-and-tv {
     grid-area: 3/1/4/3;
     align-self: stretch;
-    cursor: pointer;
   }
   .row-of-separate-movies-and-tv:hover {
     background-color: #aaa1;

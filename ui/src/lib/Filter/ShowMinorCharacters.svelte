@@ -1,17 +1,19 @@
 <script lang="ts">
   import { scale } from 'svelte/transition';
   import Checkmark from '../Icons/Checkmark.svelte';
-  import Info from '../Icons/Info.svelte';
-  import { filterStates } from './$filterStates';
+  import InfoIcon from '../Icons/InfoIcon.svelte';
+  import { filter, tooltip } from '../stores/writables/$primary';
 </script>
 
 <div
-  class="container clickable"
-  on:click={() => ($filterStates.showMinorCharacters = !$filterStates.showMinorCharacters)}
+  class="component pressable"
+  on:click={() => ($filter.showMinorCharacters = !$filter.showMinorCharacters)}
 >
   <div class="skew">Show Minor Characters</div>
-  <div class="info-button"><Info /></div>
-  {#if $filterStates.showMinorCharacters}
+  <div class="info-button clickable" on:click={() => ($tooltip = 'show-minor-chars')}>
+    <InfoIcon />
+  </div>
+  {#if $filter.showMinorCharacters}
     <div transition:scale={{ duration: 100 }} class="checkmark">
       <Checkmark />
     </div>
@@ -19,7 +21,7 @@
 </div>
 
 <style>
-  .container {
+  .component {
     display: flex;
     margin: 25px 1px 24px;
   }
@@ -31,7 +33,7 @@
   }
   .checkmark {
     margin-left: 15px;
-    color: skyblue;
+    color: var(--blue-highlight);
     position: relative;
     top: 2px;
   }

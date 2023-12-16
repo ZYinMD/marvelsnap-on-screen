@@ -1,27 +1,26 @@
 <script lang="ts">
-  import BlurredBackDrop from '../Background/BlurredBackDrop.svelte';
+  import { handleOutClick } from '../stores/derived/$handleOutClick';
+  import { filter, tooltip } from '../stores/writables/$primary';
   import { outClickListener } from '../use/outClickListener';
-  import { filterStates } from './$filterStates';
   import Labels from './Labels.svelte';
   import SearchBox from './SearchBox.svelte';
   import ShowMinorChars from './ShowMinorCharacters.svelte';
 </script>
 
 <!-- @component the search and filter panel on the right -->
-<BlurredBackDrop />
-<div class="container container-narrow-viewport">
-  <div class="panel" use:outClickListener on:outClick={() => ($filterStates.isPanelOpen = false)}>
+<div class="component container-narrow-viewport" class:dim={Boolean($tooltip)}>
+  <div class="panel" use:outClickListener on:outClick={$handleOutClick}>
     <div class="h1"><div class="skew">Search & Filters</div></div>
     <SearchBox />
     <div class="h2"><div class="skew">Labels</div></div>
     <Labels />
     <ShowMinorChars />
     <div
-      class="reset clickable"
+      class="reset pressable"
       on:click={() => {
-        $filterStates.searching = '';
-        $filterStates.activeLabel = '';
-        $filterStates.showMinorCharacters = true;
+        $filter.searching = '';
+        $filter.activeLabel = '';
+        $filter.showMinorCharacters = true;
       }}
     >
       <div class="skew">Reset</div>
@@ -30,7 +29,7 @@
 </div>
 
 <style>
-  .container {
+  .component {
     display: grid;
     grid-template-areas: 'the-only';
   }
@@ -40,7 +39,7 @@
     background-color: #222;
     display: flex;
     flex-direction: column;
-    border: 3px solid skyblue;
+    border: 3px solid var(--blue-highlight);
     border-radius: 5px;
   }
   .h1 {
@@ -60,5 +59,8 @@
   }
   .skew {
     transform: skew(-6deg);
+  }
+  .dim {
+    filter: brightness(30%);
   }
 </style>
