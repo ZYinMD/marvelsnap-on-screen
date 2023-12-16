@@ -25,7 +25,8 @@
   .component {
     pointer-events: auto;
     place-self: end start;
-    width: 50px;
+    width: 60px;
+    padding: 2px 2px 0px 3px;
     display: grid;
     place-items: center;
     grid-template-areas: 'the-only';
