@@ -12,12 +12,9 @@
 </script>
 
 <!-- @component render a card -->
-<img
-  class:minor
-  class:highlight={shouldHighlight}
-  src={`/card-images/${filename}.webp`}
-  alt={cardName}
-/>
+<div class:highlight={shouldHighlight}>
+  <img class:minor src={`/card-images/${filename}.webp`} alt={cardName} />
+</div>
 
 <style>
   img {
@@ -26,9 +23,9 @@
     object-fit: cover;
   }
   img.minor {
-    opacity: 0.33;
+    filter: brightness(0.4);
   }
-  img.highlight {
-    border: 3px solid yellow;
+  .highlight {
+    background-color: #ff0b;
   }
 </style>
