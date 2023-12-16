@@ -36,6 +36,9 @@ body {
   color: silver;
   --app-max-width: 800px;
   --blue-highlight: hsl(215, 100%, 70%);
+  --movie-entry-border: Thistle;
+  --live-action-tv-entry-border: SkyBlue;
+  --animated-tv-entry-border: PaleGreen;
 }
 
 /* a container exactly the size of viewport, good for things like page background */

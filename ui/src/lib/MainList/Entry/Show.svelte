@@ -47,15 +47,12 @@
     margin-bottom: 10px;
   }
   .component.movie {
-    border: 1px Thistle solid;
+    border: 1px var(--movie-entry-border) solid;
   }
   .component.live-action-tv-series {
-    border: 1px SkyBlue solid;
-    /* box-shadow:
-      inset 0 0 5px Thistle,
-      0 0 3px Thistle; */
+    border: 1px var(--live-action-tv-entry-border) solid;
   }
   .component.animated-tv-series {
-    border: 1px PaleGreen solid;
+    border: 1px var(--animated-tv-entry-border) solid;
   }
 </style>
