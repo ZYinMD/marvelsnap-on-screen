@@ -33,7 +33,7 @@
   }
   .checkmark {
     margin-left: 15px;
-    color: var(--blue);
+    color: var(--blue-highlight);
     position: relative;
     top: 2px;
   }

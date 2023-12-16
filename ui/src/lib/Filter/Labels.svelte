@@ -107,8 +107,8 @@
     border: 1px solid #666;
   }
   .label.active {
-    border-color: var(--blue);
-    background-color: var(--blue);
+    border-color: var(--blue-highlight);
+    background-color: var(--blue-highlight);
     color: white;
   }
   .info-button {

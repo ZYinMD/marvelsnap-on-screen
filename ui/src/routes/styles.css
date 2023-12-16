@@ -35,7 +35,7 @@ body {
   margin: 0;
   color: silver;
   --app-max-width: 800px;
-  --blue: hsl(215, 100%, 70%);
+  --blue-highlight: hsl(215, 100%, 70%);
 }
 
 /* a container exactly the size of viewport, good for things like page background */

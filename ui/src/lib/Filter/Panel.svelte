@@ -39,7 +39,7 @@
     background-color: #222;
     display: flex;
     flex-direction: column;
-    border: 3px solid var(--blue);
+    border: 3px solid var(--blue-highlight);
     border-radius: 5px;
   }
   .h1 {

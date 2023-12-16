@@ -80,7 +80,7 @@
   .component {
     filter: brightness(0.87);
     width: 80%;
-    border: 3px solid var(--blue);
+    border: 3px solid var(--blue-highlight);
     background-color: #222;
     padding: 5px 17px;
 

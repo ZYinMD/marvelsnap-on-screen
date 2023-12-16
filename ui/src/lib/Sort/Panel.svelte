@@ -77,7 +77,7 @@
       'separate-movies-and-tv checkmark' 35px
       /
       auto 40px;
-    border: 3px solid var(--blue);
+    border: 3px solid var(--blue-highlight);
     border-radius: 5px;
   }
   .heading {
@@ -104,7 +104,7 @@
   }
   .option.active {
     color: white;
-    background-color: var(--blue);
+    background-color: var(--blue-highlight);
   }
   .option:hover:not(.active) {
     background-color: #aaa1;
@@ -119,7 +119,7 @@
   .checkmark {
     pointer-events: none;
     grid-area: checkmark;
-    color: var(--blue);
+    color: var(--blue-highlight);
     position: relative;
     top: 1.2px;
   }
