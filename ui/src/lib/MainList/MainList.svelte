@@ -1,11 +1,17 @@
 <script lang="ts">
   import { dimBackground } from '../stores/derived/$dimBackground';
   import { mainList } from '../stores/derived/$mainList';
+  import { filter } from '../stores/writables/$primary';
   import Entry from './Entry/Show.svelte';
 </script>
 
 <!-- @component the list of all the shows in the home page -->
 <div class="component container-narrow" class:dim={$dimBackground}>
+  {#if $mainList.length === 0}
+    <div class="divider"><div class="text">0 search result for "{$filter.searching}"</div></div>
+  {:else}
+    <div></div>
+  {/if}
   {#each $mainList as entry (entry.key)}
     {#if entry.type === 'divider'}
       <div class="divider"><div class="text">{entry.title}:</div></div>
