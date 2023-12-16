@@ -34,7 +34,10 @@ body {
     sans-serif;
   margin: 0;
   color: silver;
-  --app-max-width: 800px;
+  --content-width-on-desktop: 800px;
+  --content-width-on-mobile: calc(
+    100% - 4px
+  ); /* avoid overlapping with the scrollbar on iOS, which doesn't look great */
   --blue-highlight: hsl(215, 100%, 70%);
   --movie-entry-border: rgb(206, 161, 206);
   --live-action-tv-entry-border: rgb(115, 177, 203);
@@ -51,16 +54,16 @@ body {
 
 /* a narrow container that takes full width on mobile, centers on widescreen, can vertically scroll if has lots of content; good for things like the main big list of movies */
 .container-narrow {
-  width: 100%;
-  max-width: var(--app-max-width);
+  width: var(--content-width-on-mobile);
+  max-width: var(--content-width-on-desktop);
   margin: 0 auto auto auto;
 }
 
 /* a narrow container that takes full width on mobile, centers on widescreen, always occupies full height and can't scroll; good as parent for placing things like bottom nav, modal curtain */
 .container-narrow-viewport {
   height: 100%;
-  width: 100%;
-  max-width: var(--app-max-width);
+  width: var(--content-width-on-mobile);
+  max-width: var(--content-width-on-desktop);
   position: fixed;
   top: 0;
   left: 50%;

@@ -81,6 +81,7 @@
     filter: brightness(0.87);
     width: 80%;
     border: 3px solid var(--blue-highlight);
+    border-radius: 5px;
     background-color: #222;
     padding: 5px 17px;
 
