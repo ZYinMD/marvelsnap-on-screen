@@ -5,9 +5,15 @@
   export let minor = false;
   const filename = allCards[cardName].defId;
   function matchSearch(searching: string) {
-    const searchTerms = searching.toLowerCase().split(' ');
+    const searchTerms = searching
+      .toLowerCase()
+      .split(' ')
+      .filter((i) => i.length > 1);
+    if (searchTerms.length === 0) return false; // this can happen if user ju;
+    if (searchTerms.length === 0) return false;
     return searchTerms.every((i) => cardName.toLowerCase().includes(i));
   }
+  // $: shouldHighlight = false;
   $: shouldHighlight = matchSearch($filter.searching);
 </script>
 

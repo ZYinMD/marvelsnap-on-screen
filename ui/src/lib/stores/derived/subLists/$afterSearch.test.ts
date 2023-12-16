@@ -68,3 +68,13 @@ test('whether include minor chars', () => {
   expect(matchAll(show, 'rescue'.toLowerCase(), true)).toBe(true);
   expect(matchAll(show, 'rescue'.toLowerCase(), false)).toBe(false);
 });
+
+test('edge cases', () => {
+  const show = allTitles.movie['2017|Spider-Man: Homecoming'];
+  expect(matchAll(show, 'spider'.toLowerCase(), true)).toBe(true);
+  expect(matchAll(show, 'spider-man'.toLowerCase(), true)).toBe(true);
+  expect(matchAll(show, 'spider man'.toLowerCase(), true)).toBe(true);
+  expect(matchAll(show, 'spider  man'.toLowerCase(), true)).toBe(true);
+  expect(matchAll(show, 'spider   man'.toLowerCase(), true)).toBe(true);
+  expect(matchAll(show, 'spider m man'.toLowerCase(), true)).toBe(true);
+});
