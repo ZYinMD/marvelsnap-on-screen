@@ -18,8 +18,8 @@
 </script>
 
 <!-- @component render a card -->
-<div class:highlight={shouldHighlight}>
-  <img class:minor src={`/card-images/${filename}.webp`} alt={cardName} />
+<div class:highlight={shouldHighlight} class:minor>
+  <img src={`/card-images/${filename}.webp`} alt={cardName} />
 </div>
 
 <style>
@@ -28,10 +28,11 @@
     height: calc(var(--good-width) * 1.3);
     object-fit: cover;
   }
-  img.minor {
-    filter: brightness(0.4);
-  }
   .highlight {
-    background-color: #ff0b;
+    background-color: #ff0c;
+  }
+  .minor {
+    opacity: 0.6;
+    filter: brightness(0.75);
   }
 </style>
