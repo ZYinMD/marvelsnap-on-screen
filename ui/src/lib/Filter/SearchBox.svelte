@@ -20,13 +20,13 @@
   input {
     font-size: 15px;
     color: #ccc;
-    &::placeholder {
-      color: #6666;
-    }
     padding: 10px 8px;
     border: 2px solid #8888;
     outline: none;
     border-radius: 2px;
     background-color: #1118;
+  }
+  input::placeholder {
+    color: #6666;
   }
 </style>
