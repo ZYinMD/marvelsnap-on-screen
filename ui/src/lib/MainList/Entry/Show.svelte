@@ -21,7 +21,7 @@
 
 <!-- @component one item in the list -->
 <div class={`component ${type}`}>
-  <div class="clickable-row" on:click={toggleDrawer}>
+  <div class="clickable-row" class:isOpen on:click={toggleDrawer}>
     <Chevron {isOpen} />
     {#if type === 'movie'}
       <MovieText {year} {title} {wikipedia} {isOpen} />
@@ -42,6 +42,12 @@
       'chevron text' auto
       /
       30px auto;
+  }
+  .component:hover {
+    box-shadow: 0px 0px 3.5px #fff9;
+  }
+  .component:active {
+    box-shadow: 0px 0px 3px #ffff;
   }
   .component {
     margin-bottom: 10px;
