@@ -1,11 +1,18 @@
 <script lang="ts">
   import { filter } from '../stores/writables/$primary';
+  /**
+   * select all text on focus. Use "any" for best readability.
+   */
+  function handleFocus(event: any) {
+    event.target.setSelectionRange(0, event.target.value.length);
+  }
 </script>
 
 <!-- @component the search box to put in key words -->
 <div class="component">
   <input
     type="search"
+    on:focus={handleFocus}
     name="marvel-snap-on-screen"
     id="search-box"
     placeholder="search"
