@@ -248,7 +248,7 @@ export const map: Record<Key, Roster> = {
     major: new Set(),
     minor: new Set(),
     major_: ['Spider-Man', 'Lizard'],
-    minor_: [],
+    minor_: ['Blob'],
   },
   '2013|Iron Man 3': {
     major: new Set(),
@@ -937,6 +937,7 @@ export const map: Record<Key, Roster> = {
       'Nimrod',
       'Strong Guy',
       'Gladiator',
+      'Blob',
     ],
   },
   '1994–1996|Fantastic Four: The Animated Series': {
@@ -1109,6 +1110,7 @@ export const map: Record<Key, Roster> = {
       'Cerebro',
       'Colossus',
       'Captain America',
+      'Blob',
     ],
   },
   '2003|Spider-Man: The New Animated Series': {
@@ -1211,6 +1213,7 @@ export const map: Record<Key, Roster> = {
       'Dazzler',
       'Leech',
       'Sauron',
+      'Blob',
     ],
   },
   '2009–2011|The Super Hero Squad Show': {
