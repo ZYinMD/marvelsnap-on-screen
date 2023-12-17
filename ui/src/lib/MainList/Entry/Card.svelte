@@ -29,7 +29,7 @@
     object-fit: cover;
   }
   .highlight {
-    background-color: #ff0c;
+    background-color: var(--search-highlight);
   }
   .minor {
     opacity: 0.6;
