@@ -9,9 +9,8 @@
       .toLowerCase()
       .split(' ')
       .filter((i) => i.length > 1);
-    if (searchTerms.length === 0) return false; // this can happen if user ju;
     if (searchTerms.length === 0) return false;
-    return searchTerms.every((i) => cardName.toLowerCase().includes(i));
+    return searchTerms.some((i) => cardName.toLowerCase().includes(i));
   }
   // $: shouldHighlight = false;
   $: shouldHighlight = matchSearch($filter.searching);
