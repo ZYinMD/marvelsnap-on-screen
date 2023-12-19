@@ -18,7 +18,9 @@
 
 <!-- @component render a card -->
 <div class:highlight={shouldHighlight} class:minor>
-  <img src={`/card-images/${filename}.webp`} alt={cardName} />
+  <a href={`/${filename}`}>
+    <img src={`/card-images/${filename}.webp`} alt={cardName} class="clickable" />
+  </a>
 </div>
 
 <style>
