@@ -2,7 +2,9 @@
   export let data;
 </script>
 
-<div class="component">{data.cardId}</div>
+<div class="component">
+  <img src={`/card-images/${data.cardId}.webp`} alt={data.cardId} />
+</div>
 
 <style>
   .component {
