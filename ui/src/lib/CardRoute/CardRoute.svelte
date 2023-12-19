@@ -2,15 +2,30 @@
   export let cardId: string;
 </script>
 
-<!-- @component  -->
-<div class="component"><img src={`/card-images/${cardId}.webp`} alt={cardId} /></div>
+<div class="container-all-viewport">
+  <div class="container-narrow">
+    <div class="component">
+      <div class="card">
+        <img src={`/card-images/${cardId}.webp`} alt={cardId} />
+      </div>
+    </div>
+  </div>
+</div>
 
 <style>
+  .container-all-viewport {
+    backdrop-filter: blur(5px) brightness(0.8);
+  }
   .component {
-    position: fixed;
-    top: 100px;
-    left: 100px;
-    height: 50vh;
-    width: 50vw;
+    display: grid;
+    grid:
+      'card' 50vh
+      'shows' auto
+      /
+      auto;
+    justify-content: center;
+  }
+  img {
+    height: 100%;
   }
 </style>
