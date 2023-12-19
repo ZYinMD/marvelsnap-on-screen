@@ -1,17 +1,6 @@
 <script lang="ts">
+  import CardRoute from '../../lib/CardRoute/CardRoute.svelte';
   export let data;
 </script>
 
-<div class="component">
-  <img src={`/card-images/${data.cardId}.webp`} alt={data.cardId} />
-</div>
-
-<style>
-  .component {
-    position: fixed;
-    top: 100px;
-    left: 100px;
-    height: 50vh;
-    width: 50vw;
-  }
-</style>
+<CardRoute cardId={data.cardId} />
