@@ -2,7 +2,7 @@
   export let data;
 </script>
 
-<div class="component">{data.card}</div>
+<div class="component">{data.cardId}</div>
 
 <style>
   .component {
