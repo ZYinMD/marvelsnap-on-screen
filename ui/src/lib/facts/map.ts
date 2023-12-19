@@ -1,15 +1,10 @@
-import type { Key } from '../MainList/buildingBlocks';
-import type { allCards } from './allCards';
+import type { CardName, Key } from '../MainList/buildingBlocks';
 
-/**
- * The English name of cards, e.g. "Adam Warlock"
- */
-export type Card = keyof typeof allCards;
 export type Roster = {
-  major_: Card[];
-  minor_: Card[];
-  major: Set<Card>;
-  minor: Set<Card>;
+  major_: CardName[];
+  minor_: CardName[];
+  major: Set<CardName>;
+  minor: Set<CardName>;
 };
 
 /**

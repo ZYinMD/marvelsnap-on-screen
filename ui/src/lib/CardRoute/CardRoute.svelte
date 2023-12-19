@@ -1,5 +1,7 @@
 <script lang="ts">
-  export let cardId: string;
+  import type { CardId } from '../MainList/buildingBlocks';
+  import ListUnderCard from './ListUnderCard.svelte';
+  export let cardId: CardId;
 </script>
 
 <div class="container-all-viewport">
@@ -7,6 +9,9 @@
     <div class="component">
       <div class="card">
         <img src={`/card-images/${cardId}.webp`} alt={cardId} />
+      </div>
+      <div>
+        <ListUnderCard {cardId} />
       </div>
     </div>
   </div>
