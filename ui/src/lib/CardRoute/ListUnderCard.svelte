@@ -17,4 +17,17 @@
 </div>
 
 <style>
+  .component {
+    position: relative;
+    padding: 0px 5px;
+  }
+  .divider {
+    height: 60px;
+    font-size: 30px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    padding: 0 0 8px;
+    transform: skew(-3deg);
+  }
 </style>
