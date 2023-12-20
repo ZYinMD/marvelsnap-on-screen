@@ -13,7 +13,6 @@
 
 <style>
   .component {
-    grid-area: the-only;
     --color1: hsl(270, 100%, 11%);
     --color2: hsl(250, 100%, 9%);
     --color3: hsl(310, 100%, 9%);

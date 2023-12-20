@@ -5,17 +5,12 @@
 </script>
 
 <!-- @component The animated background of app -->
-<div class="component container-all-viewport" class:dim={$dimBackground}>
-  <!-- <RotatingMix /> -->
+<div class="component" class:dim={$dimBackground}>
   <Hexagons />
   <SlidingDiagonals />
 </div>
 
 <style>
-  .component {
-    display: grid;
-    grid-template-areas: 'the-only';
-  }
   .dim {
     filter: brightness(70%);
   }
