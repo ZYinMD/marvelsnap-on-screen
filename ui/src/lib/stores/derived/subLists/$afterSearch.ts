@@ -29,8 +29,8 @@ export function matchAll(show: Show, searchString: string, includeMinorChars: bo
 }
 
 export const afterSearch = derived([filter], ([filterStates]) => {
-  if (!filterStates.searching) return AllShows;
+  if (!filterStates.searching.trim()) return AllShows;
   return AllShows.filter((show) =>
-    matchAll(show, filterStates.searching.toLowerCase(), filterStates.showMinorCharacters),
+    matchAll(show, filterStates.searching.trim().toLowerCase(), filterStates.showMinorCharacters),
   );
 });

@@ -9,9 +9,8 @@
       .toLowerCase()
       .split(' ')
       .filter((i) => i.length > 1);
-    if (searchTerms.length === 0) return false; // this can happen if user ju;
     if (searchTerms.length === 0) return false;
-    return searchTerms.every((i) => cardName.toLowerCase().includes(i));
+    return searchTerms.some((i) => cardName.toLowerCase().includes(i));
   }
   // $: shouldHighlight = false;
   $: shouldHighlight = matchSearch($filter.searching);
@@ -19,7 +18,9 @@
 
 <!-- @component render a card -->
 <div class:highlight={shouldHighlight} class:minor>
-  <img src={`/card-images/${filename}.webp`} alt={cardName} />
+  <a href={`/${filename}`}>
+    <img src={`/card-images/${filename}.webp`} alt={cardName} class="clickable" />
+  </a>
 </div>
 
 <style>
@@ -29,7 +30,7 @@
     object-fit: cover;
   }
   .highlight {
-    background-color: #ff0c;
+    background-color: var(--search-highlight);
   }
   .minor {
     opacity: 0.6;

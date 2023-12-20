@@ -5,16 +5,28 @@
   import { filter, tooltip } from '../stores/writables/$primary';
 </script>
 
-<div
-  class="component pressable"
-  on:click={() => ($filter.showMinorCharacters = !$filter.showMinorCharacters)}
->
-  <div class="skew">Show Minor Characters</div>
-  <div class="info-button clickable" on:click={() => ($tooltip = 'show-minor-chars')}>
+<div class="component">
+  <div
+    class="skew pressable"
+    on:click={() => ($filter.showMinorCharacters = !$filter.showMinorCharacters)}
+  >
+    Show Minor Characters
+  </div>
+  <div
+    class="info-button clickable"
+    on:click={(e) => {
+      $tooltip = 'show-minor-chars';
+      e.stopPropagation();
+    }}
+  >
     <InfoIcon />
   </div>
   {#if $filter.showMinorCharacters}
-    <div transition:scale={{ duration: 100 }} class="checkmark">
+    <div
+      transition:scale={{ duration: 100 }}
+      on:click={() => ($filter.showMinorCharacters = !$filter.showMinorCharacters)}
+      class="checkmark pressable"
+    >
       <Checkmark />
     </div>
   {/if}

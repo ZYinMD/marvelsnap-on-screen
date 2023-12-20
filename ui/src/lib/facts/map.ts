@@ -1,15 +1,10 @@
-import type { Key } from '../MainList/buildingBlocks';
-import type { allCards } from './allCards';
+import type { CardName, Key } from '../MainList/buildingBlocks';
 
-/**
- * The English name of cards, e.g. "Adam Warlock"
- */
-export type Card = keyof typeof allCards;
 export type Roster = {
-  major_: Card[];
-  minor_: Card[];
-  major: Set<Card>;
-  minor: Set<Card>;
+  major_: CardName[];
+  minor_: CardName[];
+  major: Set<CardName>;
+  minor: Set<CardName>;
 };
 
 /**
@@ -210,7 +205,7 @@ export const map: Record<Key, Roster> = {
   '2011|X-Men: First Class': {
     major: new Set(),
     minor: new Set(),
-    major_: ['Professor X', 'Magneto', 'Mystique', 'Beast', 'Sebastian Shaw'],
+    major_: ['Professor X', 'Magneto', 'Mystique', 'Beast', 'Sebastian Shaw', 'Havok'],
     minor_: ['Wolverine'],
   },
   '2011|Captain America: The First Avenger': {
@@ -248,7 +243,7 @@ export const map: Record<Key, Roster> = {
     major: new Set(),
     minor: new Set(),
     major_: ['Spider-Man', 'Lizard'],
-    minor_: [],
+    minor_: ['Blob'],
   },
   '2013|Iron Man 3': {
     major: new Set(),
@@ -309,6 +304,7 @@ export const map: Record<Key, Roster> = {
       'Colossus',
       'Sunspot',
       'Warpath',
+      'Havok',
     ],
     minor_: ['Jean Grey'],
   },
@@ -409,6 +405,7 @@ export const map: Record<Key, Roster> = {
       'Storm',
       'Angel',
       'Jubilee',
+      'Havok',
     ],
     minor_: ['Wolverine'],
   },
@@ -735,7 +732,7 @@ export const map: Record<Key, Roster> = {
   '2023|Spider-Man: Across the Spider-Verse': {
     major: new Set(),
     minor: new Set(),
-    major_: ['Miles Morales', 'Ghost-Spider', 'Spider-Woman', 'Spider-Man 2099'],
+    major_: ['Miles Morales', 'Ghost-Spider', 'Spider-Woman', 'Spider-Man 2099', 'Spider-Ham'],
     minor_: [],
   },
   '2006|Blade: The Series': {
@@ -937,6 +934,7 @@ export const map: Record<Key, Roster> = {
       'Nimrod',
       'Strong Guy',
       'Gladiator',
+      'Blob',
     ],
   },
   '1994–1996|Fantastic Four: The Animated Series': {
@@ -1099,6 +1097,7 @@ export const map: Record<Key, Roster> = {
       'Forge',
       'Apocalypse',
       'Phoenix Force',
+      'Havok',
       'Nick Fury',
     ],
     minor_: [
@@ -1109,6 +1108,7 @@ export const map: Record<Key, Roster> = {
       'Cerebro',
       'Colossus',
       'Captain America',
+      'Blob',
     ],
   },
   '2003|Spider-Man: The New Animated Series': {
@@ -1211,6 +1211,7 @@ export const map: Record<Key, Roster> = {
       'Dazzler',
       'Leech',
       'Sauron',
+      'Blob',
     ],
   },
   '2009–2011|The Super Hero Squad Show': {

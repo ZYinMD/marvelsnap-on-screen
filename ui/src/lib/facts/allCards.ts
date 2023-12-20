@@ -25,9 +25,9 @@ export const allCards = {
   'Aero': {
     defId: 'Aero',
     cost: 5,
-    power: 8,
+    power: 9,
     name: 'Aero',
-    description: '<b>On Reveal:</b> Move the last enemy card played this turn to this location.',
+    description: '<b>On Reveal:</b> Move the last enemy card played anywhere to this location.',
   },
   'Agatha Harkness': {
     defId: 'AgathaHarkness',
@@ -52,10 +52,10 @@ export const allCards = {
   },
   'America Chavez': {
     defId: 'AmericaChavez',
-    cost: 6,
-    power: 9,
+    cost: 2,
+    power: 3,
     name: 'America Chavez',
-    description: 'Starts on the bottom of your deck. Draw this on turn 6.',
+    description: '<b>On Reveal:</b> The top card of your deck gets +2 Power.',
   },
   'Angel': {
     defId: 'Angel',
@@ -91,14 +91,14 @@ export const allCards = {
     cost: 6,
     power: 8,
     name: 'Apocalypse',
-    description: 'When you discard this from your hand, put it back with +4 Power.',
+    description: 'When you discard this, put it back with +4 Power.',
   },
   'Armor': {
     defId: 'Armor',
     cost: 2,
     power: 3,
     name: 'Armor',
-    description: "<b>Ongoing:</b> Cards at this location can't be destroyed.",
+    description: "<b>Ongoing:</b> Cards here can't\nbe destroyed.",
   },
   'Arnim Zola': {
     defId: 'ArnimZola',
@@ -106,7 +106,7 @@ export const allCards = {
     power: 0,
     name: 'Arnim Zola',
     description:
-      '<b>On Reveal:</b> Destroy a random friendly card here. Add copies of it to the other locations.',
+      '<b>On Reveal:</b> Destroy one of your\nother cards here to copy it\nat the other locations.',
   },
   'Baron Mordo': {
     defId: 'BaronMordo',
@@ -120,8 +120,7 @@ export const allCards = {
     cost: 3,
     power: 4,
     name: 'Beast',
-    description:
-      '<b>On Reveal:</b> Return your other cards at this location to your hand.\nThey cost 1 less.',
+    description: '<b>On Reveal:</b> Return your other cards here to your hand. Give them -1 Cost.',
   },
   'Bishop': {
     defId: 'Bishop',
@@ -173,6 +172,14 @@ export const allCards = {
     name: 'Blade',
     description: '<b>On Reveal:</b> Discard the rightmost card from your hand.',
   },
+  'Blob': {
+    defId: 'Blob',
+    cost: 6,
+    power: 4,
+    name: 'Blob',
+    description:
+      "<b>On Reveal:</b> Merge your deck into this. <i>(and gain its total Power)</i>\n<b>Ongoing:</b> Can't be moved.",
+  },
   'Blue Marvel': {
     defId: 'BlueMarvel',
     cost: 5,
@@ -185,7 +192,7 @@ export const allCards = {
     cost: 3,
     power: 2,
     name: 'Brood',
-    description: '<b>On Reveal:</b> Add 2 Broodlings to this location with the same Power.',
+    description: '<b>On Reveal:</b> Add 2 Broodlings here with the same Power.',
   },
   'Bucky Barnes': {
     defId: 'BuckyBarnes',
@@ -199,14 +206,14 @@ export const allCards = {
     cost: 3,
     power: 4,
     name: 'Cable',
-    description: "<b>On Reveal:</b> Draw the top card of your opponent's deck.",
+    description: "<b>On Reveal:</b> Draw a card from your opponent's deck.",
   },
   'Captain America': {
     defId: 'CaptainAmerica',
     cost: 3,
     power: 3,
     name: 'Captain America',
-    description: '<b>Ongoing:</b> Your other cards at this location have +1 Power.',
+    description: '<b>Ongoing:</b> Your other cards here have +1 Power.',
   },
   'Captain Marvel': {
     defId: 'CaptainMarvel',
@@ -256,7 +263,7 @@ export const allCards = {
     cost: 3,
     power: 3,
     name: 'Cosmo',
-    description: "<b>Ongoing:</b> <b>On Reveal</b> abilities won't happen at this location.",
+    description: "<b>Ongoing:</b> <b>On Reveal</b> abilities won't happen here.",
   },
   'Crossbones': {
     defId: 'Crossbones',
@@ -284,7 +291,7 @@ export const allCards = {
     cost: 2,
     power: 2,
     name: 'Dagger',
-    description: 'When this moves to a location,\n+2 Power for each card your\nopponent has there.',
+    description: 'When this moves to a location,\n+2 Power for each enemy card there.',
   },
   'Daredevil': {
     defId: 'Daredevil',
@@ -326,7 +333,7 @@ export const allCards = {
     cost: 3,
     power: 5,
     name: 'Deathlok',
-    description: '<b>On Reveal:</b> Destroy your other cards at this location.',
+    description: '<b>On Reveal:</b> Destroy your\nother cards here.',
   },
   'Debrii': {
     defId: 'Debrii',
@@ -355,7 +362,7 @@ export const allCards = {
     power: 10,
     name: 'Doctor Octopus',
     description:
-      "<b>On Reveal:</b> Pull 4 random cards from your opponent's hand to their side\nof this location.",
+      "<b>On Reveal:</b> Pull 4 cards from your opponent's hand to their side\nof this location.",
   },
   'Doctor Strange': {
     defId: 'DoctorStrange',
@@ -412,22 +419,21 @@ export const allCards = {
     cost: 1,
     power: 1,
     name: 'Elektra',
-    description: '<b>On Reveal:</b> Destroy a random enemy 1-Cost card at this location.',
+    description: '<b>On Reveal:</b> Destroy an enemy 1-Cost card here.',
   },
   'Elsa Bloodstone': {
     defId: 'ElsaBloodstone',
     cost: 2,
-    power: 2,
+    power: 3,
     name: 'Elsa Bloodstone',
-    description: 'If you play another card to fill a location, give it +2 Power.',
+    description: 'After you play a card that fills this location, give it +2 Power.',
   },
   'Enchantress': {
     defId: 'Enchantress',
     cost: 4,
     power: 5,
     name: 'Enchantress',
-    description:
-      '<b>On Reveal:</b> Remove the abilities from all <b>Ongoing</b> cards at this location.',
+    description: '<b>On Reveal:</b> Remove the abilities from all <b>Ongoing</b> cards here.',
   },
   'Falcon': {
     defId: 'Falcon',
@@ -456,7 +462,7 @@ export const allCards = {
     cost: 3,
     power: 3,
     name: 'Gambit',
-    description: '<b>On Reveal:</b> Discard a card from your hand. Destroy a random enemy card.',
+    description: '<b>On Reveal:</b> Discard a card from your hand to destroy a random enemy card.',
   },
   'Gamora': {
     defId: 'Gamora',
@@ -491,7 +497,7 @@ export const allCards = {
     cost: 2,
     power: 2,
     name: 'Goose',
-    description: '<b>Ongoing:</b> Nobody can play cards that cost 4, 5, or 6 at this location.',
+    description: '<b>Ongoing:</b> Nobody can play cards that cost 4, 5, or 6 here.',
   },
   'Green Goblin': {
     defId: 'GreenGoblin',
@@ -533,15 +539,14 @@ export const allCards = {
     cost: 6,
     power: 6,
     name: 'Hela',
-    description:
-      '<b>On Reveal:</b> Resurrect all cards you discarded from your hand to\nrandom locations.',
+    description: '<b>On Reveal:</b> Resurrect all cards you discarded to random locations.',
   },
   'Helicarrier': {
     defId: 'Helicarrier',
     cost: 6,
     power: 10,
     name: 'Helicarrier',
-    description: 'When you discard this from your hand, add 3 random cards\nto your hand.',
+    description: 'When you discard this, add 3 random cards to your hand.',
   },
   'Hellcow': {
     defId: 'Hellcow',
@@ -577,7 +582,7 @@ export const allCards = {
     cost: 3,
     power: 5,
     name: 'Hulkbuster',
-    description: '<b>On Reveal:</b> Merge this card with a random friendly card at this location.',
+    description: '<b>On Reveal:</b> Merge this with one of your cards here.',
   },
   'Human Torch': {
     defId: 'HumanTorch',
@@ -592,7 +597,7 @@ export const allCards = {
     power: 2,
     name: 'Iceman',
     description:
-      "<b>On Reveal:</b> Give a random card in your opponent's hand +1 Cost. <i>(maximum 6)</i>",
+      "<b>On Reveal:</b> Give a card in your opponent's hand +1 Cost.\n<i>(maximum 6)</i>",
   },
   'The Infinaut': {
     defId: 'Infinaut',
@@ -621,14 +626,14 @@ export const allCards = {
     cost: 3,
     power: 0,
     name: 'Ironheart',
-    description: '<b>On Reveal:</b> Give 3 other friendly cards +2 Power.',
+    description: '<b>On Reveal:</b> Give 3 of your other cards +2 Power.',
   },
   'Iron Man': {
     defId: 'IronMan',
     cost: 5,
     power: 0,
     name: 'Iron Man',
-    description: '<b>Ongoing:</b> Your total Power is doubled at this location.',
+    description: '<b>Ongoing:</b> Your total Power\nis doubled here.',
   },
   'Jane Foster Mighty Thor': {
     defId: 'JaneFoster',
@@ -673,7 +678,7 @@ export const allCards = {
     power: 3,
     name: 'Juggernaut',
     description:
-      '<b>On Reveal:</b> If your opponent played cards here this turn, move\nthem randomly.',
+      '<b>On Reveal:</b> Move away all enemy cards played here this turn. <i>(including unrevealed cards)</i>',
   },
   'Kang': {
     defId: 'Kang',
@@ -707,7 +712,7 @@ export const allCards = {
   'Kitty Pryde': {
     defId: 'KittyPryde',
     cost: 1,
-    power: 0,
+    power: 1,
     name: 'Kitty Pryde',
     description: 'When this returns to your hand,\n+1 Power. Returns at the start\nof each turn.',
   },
@@ -802,9 +807,9 @@ export const allCards = {
   'Luke Cage': {
     defId: 'LukeCage',
     cost: 2,
-    power: 2,
+    power: 3,
     name: 'Luke Cage',
-    description: "<b>Ongoing:</b> Your cards can't have their Power reduced.",
+    description: "<b>Ongoing:</b> Your cards here can't have their Power reduced.",
   },
   'Magik': {
     defId: 'Magik',
@@ -819,7 +824,7 @@ export const allCards = {
     cost: 6,
     power: 12,
     name: 'Magneto',
-    description: '<b>On Reveal:</b> Move all opposing 3 and 4-Cost cards to this location.',
+    description: '<b>On Reveal:</b> Move all enemy\n3 and 4-Cost cards to this location.',
   },
   'Mantis': {
     defId: 'Mantis',
@@ -855,7 +860,7 @@ export const allCards = {
     cost: 1,
     power: 2,
     name: "M'Baku",
-    description: 'If this is in your deck at the end of the game, it jumps to a random location.',
+    description: 'If this is in your deck at the end of the game, it jumps to a location.',
   },
   'Medusa': {
     defId: 'Medusa',
@@ -926,7 +931,7 @@ export const allCards = {
     cost: 3,
     power: 0,
     name: 'Morph',
-    description: "<b>On Reveal:</b> Become a copy of a random card in your opponent's hand.",
+    description: "<b>On Reveal:</b> Become a copy of a card in your opponent's hand.",
   },
   'Mister Fantastic': {
     defId: 'MrFantastic',
@@ -947,7 +952,7 @@ export const allCards = {
     cost: 2,
     power: 2,
     name: 'Mister Sinister',
-    description: '<b>On Reveal:</b> Add a Sinister Clone to this location with the same Power.',
+    description: '<b>On Reveal:</b> Add a Sinister Clone here with the same Power.',
   },
   'Ms. Marvel': {
     defId: 'MsMarvel',
@@ -1036,7 +1041,7 @@ export const allCards = {
     power: 8,
     name: 'Odin',
     description:
-      '<b>On Reveal:</b> Activate the <b>On Reveal</b> abilities of your other cards\nat this location.',
+      '<b>On Reveal:</b> Activate the <b>On Reveal</b> abilities of your other cards here.',
   },
   'Okoye': {
     defId: 'Okoye',
@@ -1057,7 +1062,7 @@ export const allCards = {
     cost: 6,
     power: 7,
     name: 'Onslaught',
-    description: '<b>Ongoing:</b> Double your other <b>Ongoing</b> effects at this location.',
+    description: '<b>Ongoing:</b> Double your other <b>Ongoing</b> effects here.',
   },
   'Orka': {
     defId: 'Orka',
@@ -1078,7 +1083,7 @@ export const allCards = {
     cost: 3,
     power: 5,
     name: 'Polaris',
-    description: '<b>On Reveal:</b> Move an opposing 1 or 2-Cost card to this location.',
+    description: '<b>On Reveal:</b> Move an enemy\n1 or 2-Cost card to this location.',
   },
   'Professor X': {
     defId: 'ProfessorX',
@@ -1100,7 +1105,7 @@ export const allCards = {
     cost: 3,
     power: 2,
     name: 'Punisher',
-    description: '<b>Ongoing:</b> +1 Power for each opposing card at this location.',
+    description: '<b>Ongoing:</b> +1 Power for each enemy card here.',
   },
   'Quake': {
     defId: 'Quake',
@@ -1130,7 +1135,7 @@ export const allCards = {
     cost: 5,
     power: 14,
     name: 'Red Skull',
-    description: '<b>Ongoing:</b> Enemy cards at this location have +2 Power.',
+    description: '<b>Ongoing:</b> Enemy cards here have +2 Power.',
   },
   'Rescue': {
     defId: 'Rescue',
@@ -1165,7 +1170,7 @@ export const allCards = {
     cost: 3,
     power: 2,
     name: 'Rogue',
-    description: '<b>On Reveal:</b> Steal the text from a random enemy <b>Ongoing</b> card here.',
+    description: '<b>On Reveal:</b> Steal the text from an enemy <b>Ongoing</b> card here.',
   },
   'Ronan the Accuser': {
     defId: 'Ronan',
@@ -1201,7 +1206,7 @@ export const allCards = {
     cost: 2,
     power: 3,
     name: 'Scarlet Witch',
-    description: '<b>On Reveal:</b> Replace this location with a random new one.',
+    description: '<b>On Reveal:</b> Replace this location with a new one.',
   },
   'Scorpion': {
     defId: 'Scorpion',
@@ -1235,7 +1240,7 @@ export const allCards = {
   'Shadow King': {
     defId: 'ShadowKing',
     cost: 2,
-    power: 3,
+    power: 2,
     name: 'Shadow King',
     description: '<b>On Reveal:</b> Set all cards here to their original base Power.',
   },
@@ -1244,8 +1249,7 @@ export const allCards = {
     cost: 4,
     power: 3,
     name: 'Shang-Chi',
-    description:
-      '<b>On Reveal:</b> Destroy all enemy cards at this location that have\n10 or more Power.',
+    description: '<b>On Reveal:</b> Destroy all enemy cards here that have 10 or more Power.',
   },
   'Shanna': {
     defId: 'Shanna',
@@ -1373,7 +1377,7 @@ export const allCards = {
     cost: 2,
     power: 3,
     name: 'Swarm',
-    description: 'When this is discarded from your hand, add two copies that Cost 0\nto your hand.',
+    description: 'When you discard this, add two copies that cost 0 to your hand.',
   },
   'Sword Master': {
     defId: 'SwordMaster',
@@ -1452,22 +1456,21 @@ export const allCards = {
     cost: 6,
     power: 8,
     name: 'Ultron',
-    description: '<b>On Reveal:</b> Create four 1-Power Drones at each other location.',
+    description: '<b>On Reveal:</b> Deploy four 1-Power Drones to each other location.',
   },
   'Valkyrie': {
     defId: 'Valkyrie',
     cost: 5,
     power: 3,
     name: 'Valkyrie',
-    description: '<b>On Reveal:</b> Set ALL cards at this location to 3 Power.',
+    description: '<b>On Reveal:</b> Set ALL cards here to 3 Power.',
   },
   'Venom': {
     defId: 'Venom',
     cost: 3,
     power: 3,
     name: 'Venom',
-    description:
-      '<b>On Reveal:</b> Destroy your other cards at this location. Add their Power\nto this card.',
+    description: '<b>On Reveal:</b> Destroy your other cards here. Add their Power to this card.',
   },
   'Viper': {
     defId: 'Viper',
@@ -1539,14 +1542,14 @@ export const allCards = {
     power: 2,
     name: 'Wolverine',
     description:
-      'When this is discarded or destroyed, regenerate it at a random location\nwith +2 Power.',
+      'When this is discarded or destroyed, regenerate it with +2 Power at a random location.',
   },
   'Wong': {
     defId: 'Wong',
     cost: 4,
     power: 2,
     name: 'Wong',
-    description: '<b>Ongoing:</b> Your <b>On Reveal</b> abilities at this location happen twice.',
+    description: '<b>Ongoing:</b> Your <b>On Reveal</b> abilities here happen twice.',
   },
   'X-23': {
     defId: 'X23',
@@ -1561,7 +1564,7 @@ export const allCards = {
     cost: 0,
     power: 2,
     name: 'Yellowjacket',
-    description: '<b>On Reveal:</b> Afflict your other cards at this location with -1 Power.',
+    description: '<b>On Reveal:</b> Afflict your other cards here with -1 Power.',
   },
   'Yondu': {
     defId: 'Yondu',
@@ -1610,7 +1613,7 @@ export const allCards = {
     cost: 5,
     power: 6,
     name: 'Stature',
-    description: 'Costs 1 if your opponent discarded a card from their hand this game.',
+    description: 'Costs 1 if your opponent discarded a card this game.',
   },
   'Ghost': {
     defId: 'Ghost',
@@ -1630,7 +1633,7 @@ export const allCards = {
   'Stegron': {
     defId: 'Stegron',
     cost: 4,
-    power: 5,
+    power: 6,
     name: 'Stegron',
     description: '<b>On Reveal:</b> Move an enemy card from here to another location.',
   },
@@ -1687,7 +1690,7 @@ export const allCards = {
   'Ravonna Renslayer': {
     defId: 'RavonnaRenslayer',
     cost: 2,
-    power: 1,
+    power: 3,
     name: 'Ravonna Renslayer',
     description: '<b>Ongoing:</b> Your cards with 1 or less Power cost 1 less. <i>(minimum 1)</i>',
   },
@@ -1702,10 +1705,9 @@ export const allCards = {
   'Alioth': {
     defId: 'Alioth',
     cost: 6,
-    power: 3,
+    power: 2,
     name: 'Alioth',
-    description:
-      '<b>On Reveal:</b> Destroy ALL enemy cards played here this turn. <i>(including unrevealed cards)</i>',
+    description: '<b>On Reveal:</b> Destroy all unrevealed enemy cards here.',
   },
   'Man-Thing': {
     defId: 'ManThing',
@@ -1728,7 +1730,7 @@ export const allCards = {
     power: 3,
     name: 'Werewolf By Night',
     description:
-      'After you play an <b>On Reveal</b> card at another location, move there and\ngain +2 Power.',
+      'After you play an <b>On Reveal</b> card at another location, move there to\ngain +2 Power.',
   },
   'Gladiator': {
     defId: 'Gladiator',
@@ -1753,5 +1755,12 @@ export const allCards = {
     name: 'Sebastian Shaw',
     description:
       'When this card permanently gains Power, gain +2 more Power. <i>(wherever this is)</i>',
+  },
+  'Havok': {
+    defId: 'Havok',
+    cost: 2,
+    power: 0,
+    name: 'Havok',
+    description: 'After each turn, you lose 1 Max Energy and this gains +4 Power.',
   },
 } as const;

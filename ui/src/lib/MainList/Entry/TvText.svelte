@@ -1,5 +1,7 @@
 <script lang="ts">
   import ExternalLinkIcon from '../../Icons/ExternalLinkIcon.svelte';
+  import highlightWords from 'highlight-words';
+  import { filter } from '../../stores/writables/$primary';
 
   export let year: string;
   export let title: string;
@@ -7,14 +9,27 @@
   export let numEpisodes: number;
   export let wikipedia: string;
   export let isOpen: boolean;
+  $: titleChunks = highlightWords({
+    text: title,
+    query: $filter.searching.trim(),
+  });
+  $: subtitleChunks = highlightWords({
+    text: `${year}, ${numSeasons} season${numSeasons > 1 ? 's' : ''}, ${numEpisodes} episodes`,
+    query: $filter.searching.trim(),
+  });
 </script>
 
 <!-- @component the clickable text of a tv series -->
 <div class="component">
-  <div class="title">{title}</div>
+  <div class="title">
+    {#each titleChunks as chunk (chunk.key)}
+      <span class:highlight={chunk.match}>{chunk.text}</span>
+    {/each}
+  </div>
   <div class="subtitle">
-    {year}, {numSeasons}
-    {numSeasons > 1 ? 'seasons' : 'season'}, {numEpisodes} episodes
+    {#each subtitleChunks as chunk (chunk.key)}
+      <span class:highlight={chunk.match}>{chunk.text}</span>
+    {/each}
   </div>
   {#if isOpen}
     <a href={wikipedia} title="Wikipedia" target="_blank" on:click={(e) => e.stopPropagation()}>
@@ -57,5 +72,9 @@
   }
   a:hover {
     filter: brightness(1);
+  }
+  .highlight {
+    background-color: var(--search-highlight);
+    color: #222;
   }
 </style>

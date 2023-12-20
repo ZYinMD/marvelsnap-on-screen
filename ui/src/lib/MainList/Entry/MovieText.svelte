@@ -1,14 +1,25 @@
 <script lang="ts">
+  import highlightWords from 'highlight-words';
   import ExternalLinkIcon from '../../Icons/ExternalLinkIcon.svelte';
+  import { filter } from '../../stores/writables/$primary';
+
   export let year: string;
   export let title: string;
   export let wikipedia: string;
   export let isOpen: boolean;
+  $: chunks = highlightWords({
+    text: `(${year}) ${title}`,
+    query: $filter.searching.trim(),
+  });
 </script>
 
 <!-- @component the text of movie, containing year and title -->
 <div class="component">
-  <span>({year}) {title}</span>
+  <div>
+    {#each chunks as chunk (chunk.key)}
+      <span class:highlight={chunk.match}>{chunk.text}</span>
+    {/each}
+  </div>
   {#if isOpen}
     <a href={wikipedia} title="Wikipedia" target="_blank" on:click={(e) => e.stopPropagation()}>
       <ExternalLinkIcon />
@@ -34,5 +45,9 @@
   }
   a:hover {
     filter: brightness(1);
+  }
+  .highlight {
+    background-color: var(--search-highlight);
+    color: #222;
   }
 </style>

@@ -1,13 +1,18 @@
+import type { allCards } from '../facts/allCards';
 import { allTitles } from '../facts/allTitles';
 
+export type CardName = keyof typeof allCards;
+export type CardData = (typeof allCards)[keyof typeof allCards];
+export type CardId = CardData['defId'];
+
 export const allMovies = Object.values(allTitles.movie);
-export const allLiveActionTvSeries = Object.values(allTitles['live-action-tv-series']);
-export const allAnimatedTvSeries = Object.values(allTitles['animated-tv-series']);
-export const AllShows = [...allMovies, ...allLiveActionTvSeries, ...allAnimatedTvSeries];
+export const allLiveActionTVs = Object.values(allTitles['live-action-tv-series']);
+export const allAnimatedTVs = Object.values(allTitles['animated-tv-series']);
+export const AllShows = [...allMovies, ...allLiveActionTVs, ...allAnimatedTVs];
 
 export type Movie = (typeof allMovies)[number];
-export type LiveActionTvSeries = (typeof allLiveActionTvSeries)[number];
-export type AnimatedTvSeries = (typeof allAnimatedTvSeries)[number];
+export type LiveActionTvSeries = (typeof allLiveActionTVs)[number];
+export type AnimatedTvSeries = (typeof allAnimatedTVs)[number];
 export type TVSeries = LiveActionTvSeries | AnimatedTvSeries;
 export type Show = Movie | LiveActionTvSeries | AnimatedTvSeries;
 

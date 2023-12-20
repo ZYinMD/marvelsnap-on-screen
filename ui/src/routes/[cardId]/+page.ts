@@ -1,4 +1,4 @@
 export function load({ params }) {
-  return { card: params.card };
+  return { cardId: params.cardId };
 }
 export const prerender = false;

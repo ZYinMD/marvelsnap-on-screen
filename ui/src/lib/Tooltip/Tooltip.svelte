@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { allLiveActionTvSeries, allMovies } from '../MainList/buildingBlocks';
+  import { allLiveActionTVs, allMovies } from '../MainList/buildingBlocks';
   import { handleOutClick } from '../stores/derived/$handleOutClick';
   import { tooltip } from '../stores/writables/$primary';
   import { outClickListener } from '../use/outClickListener';
@@ -15,7 +15,7 @@
         With
         {allMovies.filter((i) => i.label.find((l) => l === 'mcu')).length}
         movies and
-        {allLiveActionTvSeries.filter((i) => i.label.find((l) => l === 'mcu')).length}
+        {allLiveActionTVs.filter((i) => i.label.find((l) => l === 'mcu')).length}
         TV series, MCU is the largest continuity of all.
       </p>
       <p>

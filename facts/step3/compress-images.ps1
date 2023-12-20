@@ -5,8 +5,9 @@ $outputDir = "$PSScriptRoot/../../ui/static/card-images"
 Get-ChildItem $inputDir | ForEach-Object {
   $filename = $PSItem.Name
   if (Test-Path "$outputDir/$filename") {
-    Write-Host "$filename already exists"
+    Write-Debug "$filename already exists"
   } else {
+    Write-Host "compress $filename ...`n"
     cwebp $PSItem -preset picture -o "$outputDir/$filename"
   }
 }
