@@ -1,6 +1,7 @@
 <script lang="ts">
   import CardRoute from '../../lib/CardRoute/CardRoute.svelte';
-  export let data;
+  import type { CardId } from '../../lib/MainList/buildingBlocks';
+  export let data: { cardId: CardId };
 </script>
 
 <CardRoute cardId={data.cardId} />
