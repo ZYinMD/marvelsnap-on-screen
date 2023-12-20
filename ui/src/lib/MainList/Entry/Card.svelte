@@ -33,7 +33,7 @@
     background-color: var(--search-highlight);
   }
   .minor {
-    opacity: 0.6;
-    filter: brightness(0.75);
+    opacity: 0.67;
+    filter: brightness(0.67);
   }
 </style>

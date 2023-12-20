@@ -62,7 +62,7 @@
       </p>
     {/if}
     {#if $tooltip === 'show-minor-chars'}
-      <h2>What's a minor character?</h2>
+      <h2>What's a minor character? <i>(shown as dimmed)</i></h2>
       <p>1. Brief appearance as a cameo or in the post-credit scene</p>
       <p>
         2. Not fully in form yet, e.g. Pepper Potts before being "Rescue", Ant Man's daughter before
@@ -95,6 +95,11 @@
     margin: 15px 0px;
     font-size: 21px;
     font-weight: 300;
+  }
+  i {
+    font-size: 0.8em;
+    font-weight: 300;
+    filter: brightness(0.7);
   }
   p {
     margin: 15px 0px;
