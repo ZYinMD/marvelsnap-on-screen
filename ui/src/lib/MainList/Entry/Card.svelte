@@ -1,9 +1,11 @@
 <script lang="ts">
+  import { pushState } from '$app/navigation';
   import { allCards } from '../../facts/allCards';
   import { filter } from '../../stores/writables/$primary';
   export let cardName: keyof typeof allCards;
   export let minor = false;
-  const filename = allCards[cardName].defId;
+  $: cardId = allCards[cardName].defId;
+  $: href = `/${cardId}`;
   function matchSearch(searching: string) {
     const searchTerms = searching
       .toLowerCase()
@@ -12,14 +14,19 @@
     if (searchTerms.length === 0) return false;
     return searchTerms.some((i) => cardName.toLowerCase().includes(i));
   }
-  // $: shouldHighlight = false;
   $: shouldHighlight = matchSearch($filter.searching);
 </script>
 
 <!-- @component render a card -->
 <div class:highlight={shouldHighlight} class:minor>
-  <a href={`/${filename}`}>
-    <img src={`/card-images/${filename}.webp`} alt={cardName} class="clickable" />
+  <a
+    {href}
+    on:click={(e) => {
+      e.preventDefault();
+      pushState(href, { cardId });
+    }}
+  >
+    <img src={`/card-images/${cardId}.webp`} alt={cardName} class="clickable" />
   </a>
 </div>
 
