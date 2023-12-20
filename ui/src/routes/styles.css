@@ -57,10 +57,8 @@ body {
 
 /* a narrow container that takes full width on mobile, centers on widescreen, can vertically scroll if has lots of content; good for things like the main big list of movies */
 .container-narrow {
-  position: fixed;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
+  position: relative; /* so that it doesn't get covered by other things that have `position: fixed`, e.g. background, which I found can happen even though the background appears first in the dom */
+  margin: 0 auto;
   width: var(--content-width-on-mobile);
   max-width: var(--content-width-on-desktop);
 }

@@ -4,30 +4,29 @@
   export let cardId: CardId;
 </script>
 
-<div class="container-all-viewport">
-  <div class="container-narrow">
-    <div class="component">
-      <div class="card">
-        <img src={`/card-images/${cardId}.webp`} alt={cardId} />
-      </div>
-      <div>
-        <ListUnderCard {cardId} />
-      </div>
+<div class="container-narrow">
+  <div class="component">
+    <div class="card-image">
+      <img src={`/card-images/${cardId}.webp`} alt={cardId} />
+    </div>
+    <div>
+      <ListUnderCard {cardId} />
     </div>
   </div>
 </div>
 
 <style>
-  .container-all-viewport {
-    backdrop-filter: blur(5px) brightness(0.8);
-  }
   .component {
     display: grid;
     grid:
       'card' 50vh
       'shows' auto
       /
-      auto;
+      100%;
+    justify-content: center;
+  }
+  .card-image {
+    display: flex;
     justify-content: center;
   }
   img {
