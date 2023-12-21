@@ -24,13 +24,12 @@ Challenge: ★★★ overflow and scroll
   $: currentCard = $page.state.cardId;
 </script>
 
+<MainList />
+<Sort />
+<Filter />
+{#if $tooltip}
+  <Tooltip />
+{/if}
 {#if currentCard}
   <CardRoute cardId={currentCard} />
-{:else}
-  <MainList />
-  <Sort />
-  <Filter />
-  {#if $tooltip}
-    <Tooltip />
-  {/if}
 {/if}

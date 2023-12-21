@@ -26,6 +26,7 @@ html {
 }
 
 body {
+  overflow: hidden; /* we use the "self scroll" container */
   font-family:
     Roboto,
     -apple-system,
@@ -35,9 +36,6 @@ body {
   margin: 0;
   color: silver;
   --content-width-on-desktop: 800px;
-  --content-width-on-mobile: calc(
-    100% - 4px
-  ); /* avoid overlapping with the scrollbar on iOS, which doesn't look great */
   --blue-highlight: hsl(215, 100%, 70%);
   --movie-entry-border: rgb(206, 161, 206);
   --live-action-tv-entry-border: rgb(115, 177, 203);
@@ -45,11 +43,24 @@ body {
   --search-highlight: #ff0c;
 }
 
+.viewport {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.full-width-scroll {
+  overflow-x: hidden;
+  overflow-y: auto;
+  height: 100%;
+}
 /* a narrow container that takes full width on mobile, centers on widescreen, can vertically scroll if has lots of content; good for things like the main big list of movies */
 .container-narrow {
   position: relative; /* so that it doesn't get covered by other things that have `position: fixed`, e.g. background, which I found can happen even though the background appears first in the dom */
   margin: 0 auto;
-  width: var(--content-width-on-mobile);
+  width: 100%;
   max-width: var(--content-width-on-desktop);
 }
 
@@ -59,7 +70,7 @@ body {
   top: 0;
   left: 50%;
   transform: translateX(-50%);
-  width: var(--content-width-on-mobile);
+  width: 100%;
   max-width: var(--content-width-on-desktop);
   height: 100%;
   overflow: hidden;

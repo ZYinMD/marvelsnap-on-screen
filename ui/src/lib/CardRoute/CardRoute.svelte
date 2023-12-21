@@ -4,19 +4,24 @@
   export let cardId: CardId;
 </script>
 
-<div class="container-narrow">
-  <div class="component">
-    <div class="card-image">
-      <img src={`/card-images/${cardId}.webp`} alt={cardId} />
-    </div>
-    <div>
-      <ListUnderCard {cardId} />
+<div class="viewport">
+  <div class="full-width-scroll">
+    <div class="content">
+      <div class="card-image">
+        <img src={`/card-images/${cardId}.webp`} alt={cardId} />
+      </div>
+      <div>
+        <ListUnderCard {cardId} />
+      </div>
     </div>
   </div>
 </div>
 
 <style>
-  .component {
+  .content {
+    display: inline-block;
+    width: 100%;
+    max-width: var(--content-width-on-desktop);
     display: grid;
     grid:
       'card' 50vh

@@ -6,30 +6,34 @@
 </script>
 
 <!-- @component the list of all the shows in the home page -->
-<div class="component container-narrow" class:dim={$dimBackground}>
-  {#if $filter.searching.trim()}
-    <div class="heading">
-      {#if $mainList.length === 0}
-        <div class="text">0 search result for "{$filter.searching.trim()}"</div>
-      {:else}
-        <div class="text">Search results for "{$filter.searching.trim()}":</div>
+<div class="viewport">
+  <div class="full-width-scroll">
+    <div class="content container-narrow" class:dim={$dimBackground}>
+      {#if $filter.searching.trim()}
+        <div class="heading">
+          {#if $mainList.length === 0}
+            <div class="text">0 search result for "{$filter.searching.trim()}"</div>
+          {:else}
+            <div class="text">Search results for "{$filter.searching.trim()}":</div>
+          {/if}
+        </div>
       {/if}
-    </div>
-  {/if}
 
-  {#each $mainList as entry (entry.key)}
-    {#if entry.type === 'divider'}
-      <div class="divider"><div class="text">{entry.title}:</div></div>
-    {:else}
-      <Entry showData={entry} />
-    {/if}
-  {/each}
+      {#each $mainList as entry (entry.key)}
+        {#if entry.type === 'divider'}
+          <div class="divider"><div class="text">{entry.title}:</div></div>
+        {:else}
+          <Entry showData={entry} />
+        {/if}
+      {/each}
+    </div>
+  </div>
 </div>
 
 <style>
-  .component {
+  .content {
     position: relative;
-    padding: 10px 5px;
+    padding: 10px 6px;
   }
   .dim {
     filter: brightness(60%) blur(4px);
