@@ -18,7 +18,6 @@
     --color3: hsl(310, 100%, 9%);
     --color4: hsl(230, 100%, 9%);
     --color5: hsl(290, 100%, 11%);
-    /* perspective: 160vh; */
   }
   .bg {
     background-image: linear-gradient(
@@ -42,9 +41,8 @@
     top: -20vh;
     bottom: -30vh;
     left: -60%;
-    opacity: 0.6;
     right: -60%;
-    z-index: -1;
+    opacity: 0.6;
     mix-blend-mode: hue;
     animation: slide 17s cubic-bezier(0.23, -0.03, 0.83, 1.06) infinite;
     animation-direction: alternate;
