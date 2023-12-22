@@ -8,7 +8,7 @@
 <!-- @component the list of all the shows in the home page -->
 <div class="viewport">
   <div class="full-width-scroll">
-    <div class="content container-narrow" class:dim={$dimBackground}>
+    <div class="content narrow" class:dim={$dimBackground}>
       {#if $filter.searching.trim()}
         <div class="heading">
           {#if $mainList.length === 0}

@@ -56,9 +56,8 @@ body {
   overflow-y: auto;
   height: 100%;
 }
-/* a narrow container that takes full width on mobile, centers on widescreen, can vertically scroll if has lots of content; good for things like the main big list of movies */
-.container-narrow {
-  position: relative; /* so that it doesn't get covered by other things that have `position: fixed`, e.g. background, which I found can happen even though the background appears first in the dom */
+/* a narrow container that takes full width on mobile, centers on widescreen */
+.narrow {
   margin: 0 auto;
   width: 100%;
   max-width: var(--content-width-on-desktop);

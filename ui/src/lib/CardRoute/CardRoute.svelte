@@ -6,12 +6,14 @@
 
 <div class="viewport">
   <div class="full-width-scroll">
-    <div class="content">
-      <div class="card-image">
-        <img src={`/card-images/${cardId}.webp`} alt={cardId} />
-      </div>
-      <div>
-        <ListUnderCard {cardId} />
+    <div class="narrow">
+      <div class="content">
+        <div class="card-image">
+          <img src={`/card-images/${cardId}.webp`} alt={cardId} />
+        </div>
+        <div>
+          <ListUnderCard {cardId} />
+        </div>
       </div>
     </div>
   </div>
