@@ -6,6 +6,3 @@
 <!-- @component The animated background of app -->
 <Hexagons />
 <SlidingDiagonals />
-
-<style>
-</style>
