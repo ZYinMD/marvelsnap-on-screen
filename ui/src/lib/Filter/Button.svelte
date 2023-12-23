@@ -6,23 +6,18 @@
 </script>
 
 <!-- @component the filter button at on the bottom right -->
-<div class="container container-narrow-viewport">
-  <div class="component" class:dim={$dimBackground} on:click={() => ($filter.isPanelOpen = true)}>
-    <div class="button-shape">
-      <CornerButtonShape />
-    </div>
-    <div class="filter-icon">
-      <FilterIcon />
-    </div>
+<div class="component" class:dim={$dimBackground} on:click={() => ($filter.isPanelOpen = true)}>
+  <div class="button-shape">
+    <CornerButtonShape />
+  </div>
+  <div class="filter-icon">
+    <FilterIcon />
   </div>
 </div>
 
 <style>
-  .container {
-    pointer-events: none;
-    display: grid;
-  }
   .component {
+    grid-area: list;
     pointer-events: auto;
     place-self: end end;
     width: 62px;

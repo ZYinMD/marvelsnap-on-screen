@@ -8,64 +8,60 @@
 </script>
 
 <!-- @component the sort panel on the left -->
-<div class="component container-narrow-viewport">
-  <div class="panel" use:outClickListener on:outClick={$handleOutClick}>
-    <div class="heading"><div class="skew">Sort</div></div>
+<div class="panel" use:outClickListener on:outClick={$handleOutClick}>
+  <div class="heading"><div class="skew">Sort</div></div>
 
-    <div class="direction" on:click={() => ($sort.sortDescending = !$sort.sortDescending)}>
-      <SortIcon flipped={!$sort.sortDescending} />
-    </div>
-    <div class="options">
-      <div
-        class="option pressable"
-        class:active={$sort.sortBy === 'year'}
-        on:click={() => ($sort.sortBy = 'year')}
-      >
-        <div class="skew">Year</div>
-      </div>
-      <div
-        class="option pressable"
-        class:active={$sort.sortBy === 'numCards'}
-        on:click={() => ($sort.sortBy = 'numCards')}
-      >
-        <div class="skew">Number of cards</div>
-      </div>
-      <div
-        class="option pressable"
-        class:active={$sort.sortBy === 'numSeasons'}
-        on:click={() => ($sort.sortBy = 'numSeasons')}
-      >
-        <div class="skew">Number of seasons</div>
-      </div>
-      <div
-        class="option pressable"
-        class:active={$sort.sortBy === 'alphabetical'}
-        on:click={() => ($sort.sortBy = 'alphabetical')}
-      >
-        <div class="skew">Alphabetical</div>
-      </div>
-    </div>
-    <div class="separate-movies-and-tv skew">Separate Movies and TV</div>
-    {#if $sort.separateMoviesAndTv}
-      <div transition:scale={{ duration: 100 }} class="checkmark">
-        <Checkmark />
-      </div>
-    {/if}
-    <div
-      class="row-of-separate-movies-and-tv clickable"
-      on:click={() => ($sort.separateMoviesAndTv = !$sort.separateMoviesAndTv)}
-    ></div>
+  <div class="direction" on:click={() => ($sort.sortDescending = !$sort.sortDescending)}>
+    <SortIcon flipped={!$sort.sortDescending} />
   </div>
+  <div class="options">
+    <div
+      class="option pressable"
+      class:active={$sort.sortBy === 'year'}
+      on:click={() => ($sort.sortBy = 'year')}
+    >
+      <div class="skew">Year</div>
+    </div>
+    <div
+      class="option pressable"
+      class:active={$sort.sortBy === 'numCards'}
+      on:click={() => ($sort.sortBy = 'numCards')}
+    >
+      <div class="skew">Number of cards</div>
+    </div>
+    <div
+      class="option pressable"
+      class:active={$sort.sortBy === 'numSeasons'}
+      on:click={() => ($sort.sortBy = 'numSeasons')}
+    >
+      <div class="skew">Number of seasons</div>
+    </div>
+    <div
+      class="option pressable"
+      class:active={$sort.sortBy === 'alphabetical'}
+      on:click={() => ($sort.sortBy = 'alphabetical')}
+    >
+      <div class="skew">Alphabetical</div>
+    </div>
+  </div>
+  <div class="separate-movies-and-tv skew">Separate Movies and TV</div>
+  {#if $sort.separateMoviesAndTv}
+    <div transition:scale={{ duration: 100 }} class="checkmark">
+      <Checkmark />
+    </div>
+  {/if}
+  <div
+    class="row-of-separate-movies-and-tv clickable"
+    on:click={() => ($sort.separateMoviesAndTv = !$sort.separateMoviesAndTv)}
+  ></div>
 </div>
 
 <style>
-  .component {
-    display: grid;
-    grid-template-areas: 'the-only';
+  .panel {
+    pointer-events: auto;
+    grid-area: list;
     font-size: 18px;
     --gutter: 18px;
-  }
-  .panel {
     padding: 21px 5px;
     place-self: end start;
     background-color: #222;

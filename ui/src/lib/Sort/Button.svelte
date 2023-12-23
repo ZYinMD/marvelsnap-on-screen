@@ -6,23 +6,18 @@
 </script>
 
 <!-- @component the sort button at on the bottom left -->
-<div class="container container-narrow-viewport">
-  <div class="component" class:dim={$dimBackground} on:click={() => ($sort.isPanelOpen = true)}>
-    <div class="button-shape">
-      <CornerButtonShape />
-    </div>
-    <div class="sort-icon">
-      <CornerSortIcon />
-    </div>
+<div class="component" class:dim={$dimBackground} on:click={() => ($sort.isPanelOpen = true)}>
+  <div class="button-shape">
+    <CornerButtonShape />
+  </div>
+  <div class="sort-icon">
+    <CornerSortIcon />
   </div>
 </div>
 
 <style>
-  .container {
-    pointer-events: none;
-    display: grid;
-  }
   .component {
+    grid-area: list;
     pointer-events: auto;
     place-self: end start;
     width: 62px;

@@ -7,11 +7,21 @@
 </script>
 
 <MainList />
-<Sort />
-<Filter />
+<div class="viewport">
+  <Sort />
+  <Filter />
+</div>
 {#if $tooltip}
   <Tooltip />
 {/if}
 
 <style>
+  .viewport {
+    pointer-events: none;
+    display: grid;
+    grid:
+      '. list .' 100%
+      /
+      minmax(0, 1fr) minmax(0px, 800px) minmax(0, 1fr);
+  }
 </style>

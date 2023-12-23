@@ -8,32 +8,28 @@
 </script>
 
 <!-- @component the search and filter panel on the right -->
-<div class="component container-narrow-viewport" class:dim={Boolean($tooltip)}>
-  <div class="panel" use:outClickListener on:outClick={$handleOutClick}>
-    <div class="h1"><div class="skew">Search & Filters</div></div>
-    <SearchBox />
-    <div class="h2"><div class="skew">Labels</div></div>
-    <Labels />
-    <ShowMinorChars />
-    <div
-      class="reset pressable"
-      on:click={() => {
-        $filter.searching = '';
-        $filter.activeLabel = '';
-        $filter.showMinorCharacters = true;
-      }}
-    >
-      <div class="skew">Reset</div>
-    </div>
+<div class="panel" class:dim={Boolean($tooltip)} use:outClickListener on:outClick={$handleOutClick}>
+  <div class="h1"><div class="skew">Search & Filters</div></div>
+  <SearchBox />
+  <div class="h2"><div class="skew">Labels</div></div>
+  <Labels />
+  <ShowMinorChars />
+  <div
+    class="reset pressable"
+    on:click={() => {
+      $filter.searching = '';
+      $filter.activeLabel = '';
+      $filter.showMinorCharacters = true;
+    }}
+  >
+    <div class="skew">Reset</div>
   </div>
 </div>
 
 <style>
-  .component {
-    display: grid;
-    grid-template-areas: 'the-only';
-  }
   .panel {
+    grid-area: list;
+    pointer-events: auto;
     padding: 30px 18px;
     place-self: end end;
     background-color: #222;
