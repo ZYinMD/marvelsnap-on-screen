@@ -14,9 +14,9 @@ Challenge: ★★★ overflow and scroll
 
   -->
 <script lang="ts">
-  import CardRoute from '../lib/App/CardRoute.svelte';
+  import BigCardRoute from '../lib/App/BigCardRoute.svelte';
   import Home from '../lib/App/Home.svelte';
 </script>
 
 <Home />
-<CardRoute />
+<BigCardRoute />
