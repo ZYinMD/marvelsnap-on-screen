@@ -14,22 +14,9 @@ Challenge: ★★★ overflow and scroll
 
   -->
 <script lang="ts">
-  import { page } from '$app/stores';
-  import CardRoute from '../lib/CardRoute/CardRoute.svelte';
-  import Filter from '../lib/Filter/Filter.svelte';
-  import MainList from '../lib/MainList/MainList.svelte';
-  import Sort from '../lib/Sort/Sort.svelte';
-  import Tooltip from '../lib/Tooltip/Tooltip.svelte';
-  import { tooltip } from '../lib/stores/writables/$primary';
-  $: currentCard = $page.state.cardId;
+  import CardRoute from '../lib/App/CardRoute.svelte';
+  import Home from '../lib/App/Home.svelte';
 </script>
 
-<MainList />
-<Sort />
-<Filter />
-{#if $tooltip}
-  <Tooltip />
-{/if}
-{#if currentCard}
-  <CardRoute cardId={currentCard} />
-{/if}
+<Home />
+<CardRoute />

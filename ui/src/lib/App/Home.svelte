@@ -1,0 +1,17 @@
+<script lang="ts">
+  import Filter from '../Filter/Filter.svelte';
+  import MainList from '../MainList/MainList.svelte';
+  import Sort from '../Sort/Sort.svelte';
+  import Tooltip from '../Tooltip/Tooltip.svelte';
+  import { tooltip } from '../stores/writables/$primary';
+</script>
+
+<MainList />
+<Sort />
+<Filter />
+{#if $tooltip}
+  <Tooltip />
+{/if}
+
+<style>
+</style>
