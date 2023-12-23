@@ -46,9 +46,10 @@ body {
 .viewport {
   position: fixed;
   top: 0;
-  right: 0;
   bottom: 0;
   left: 0;
+  width: 100vw;
+  overflow-x: hidden;
 }
 
 .full-width-scroll {
@@ -59,8 +60,9 @@ body {
 /* a narrow container that takes full width on mobile, centers on widescreen */
 .narrow {
   margin: 0 auto;
-  width: 100%;
+  width: 100vw;
   max-width: var(--content-width-on-desktop);
+  overflow-x: hidden;
 }
 
 /* a narrow container that takes full width on mobile, centers on widescreen, always occupies full height and can't scroll; good as parent for placing things like bottom nav, modal curtain */
