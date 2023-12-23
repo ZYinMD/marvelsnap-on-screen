@@ -8,20 +8,34 @@
 
 <MainList />
 <div class="viewport">
-  <Sort />
-  <Filter />
+  <div class="full-width-scroll">
+    <div class="narrow">
+      <Sort />
+      <Filter />
+    </div>
+  </div>
 </div>
 {#if $tooltip}
   <Tooltip />
 {/if}
 
 <style>
-  .viewport {
+  /* .viewport {
     pointer-events: none;
     display: grid;
     grid:
       '. list .' 100%
       /
       minmax(0, 1fr) minmax(0px, 800px) minmax(0, 1fr);
+  } */
+  .viewport {
+    pointer-events: none;
+  }
+  .narrow {
+    pointer-events: none;
+    display: grid;
+    grid-template-areas: 'list';
+    height: 100%;
+    overflow: hidden;
   }
 </style>
