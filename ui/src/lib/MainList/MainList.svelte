@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { dimBackground } from '../stores/derived/$dimBackground';
+  import { shouldDimBackground } from '../stores/derived/$shouldDimBackground';
   import { mainList } from '../stores/derived/$mainList';
   import { filter } from '../stores/writables/$primary';
   import Entry from './Entry/Show.svelte';
@@ -8,7 +8,7 @@
 <!-- @component the list of all the shows in the home page -->
 <div class="viewport">
   <div class="full-width-scroll">
-    <div class="content narrow" class:dim={$dimBackground}>
+    <div class="content narrow" class:dim={$shouldDimBackground}>
       {#if $filter.searching.trim()}
         <div class="heading">
           {#if $mainList.length === 0}

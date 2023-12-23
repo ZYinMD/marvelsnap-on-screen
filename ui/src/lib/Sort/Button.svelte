@@ -1,12 +1,12 @@
 <script lang="ts">
   import CornerButtonShape from '../Icons/CornerButtonShape.svelte';
   import CornerSortIcon from '../Icons/CornerSortIcon.svelte';
-  import { dimBackground } from '../stores/derived/$dimBackground';
+  import { shouldDimBackground } from '../stores/derived/$shouldDimBackground';
   import { sort } from '../stores/writables/$primary';
 </script>
 
 <!-- @component the sort button at on the bottom left -->
-<div class="component" class:dim={$dimBackground} on:click={() => ($sort.isPanelOpen = true)}>
+<div class="component" class:dim={$shouldDimBackground} on:click={() => ($sort.isPanelOpen = true)}>
   <div class="button-shape">
     <CornerButtonShape />
   </div>

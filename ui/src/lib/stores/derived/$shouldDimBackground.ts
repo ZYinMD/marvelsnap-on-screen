@@ -1,11 +1,11 @@
+import { page } from '$app/stores';
 import { derived } from 'svelte/store';
 import { filter, sort, tooltip } from '../writables/$primary';
-import { page } from '$app/stores';
 
 /**
  * should most of the view be dimmed because something is showing in the foreground?
  */
-export const dimBackground = derived(
+export const shouldDimBackground = derived(
   [sort, filter, tooltip, page],
   ([sort, filter, tooltip, page]) => {
     const aBigCardIsShowing = Boolean(page.state.cardId);
