@@ -30,4 +30,8 @@
     padding: 0 0 8px;
     transform: skew(-3deg);
   }
+  /* make the top stop propagation zone more intuitive, see BigCardPage.svelte */
+  .divider:first-child {
+    height: 40px;
+  }
 </style>
