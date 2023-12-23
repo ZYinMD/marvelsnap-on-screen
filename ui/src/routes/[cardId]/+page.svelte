@@ -1,7 +1,7 @@
 <script lang="ts">
-  import CardRoute from '../../lib/CardPage/CardPage.svelte';
+  import BigCardPage from '../../lib/BigCardPage/BigCardPage.svelte';
   import type { CardId } from '../../lib/MainList/buildingBlocks';
   export let data: { cardId: CardId };
 </script>
 
-<CardRoute cardId={data.cardId} />
+<BigCardPage cardId={data.cardId} />
