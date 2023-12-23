@@ -47,7 +47,7 @@
     box-shadow: 0px 0px 3.5px #fff9;
   }
   .component:active {
-    box-shadow: 0px 0px 3px #ffff;
+    box-shadow: none;
   }
   .component {
     margin-bottom: 10px;
