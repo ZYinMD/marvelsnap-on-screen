@@ -596,6 +596,7 @@ export const map: Record<Key, Roster> = {
       'Storm',
       'Quicksilver',
       'Nightcrawler',
+      'Selene',
     ],
     minor_: ['Dazzler'],
   },
@@ -1203,6 +1204,7 @@ export const map: Record<Key, Roster> = {
     minor_: [
       'X-23',
       'Sebastian Shaw',
+      'Selene',
       'Silver Samurai',
       'Hulk',
       'Nick Fury',
