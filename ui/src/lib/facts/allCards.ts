@@ -160,8 +160,8 @@ export const allCards = {
   },
   'Black Widow': {
     defId: 'BlackWidow',
-    cost: 2,
-    power: 1,
+    cost: 3,
+    power: 3,
     name: 'Black Widow',
     description: "<b>On Reveal:</b> Add a Widow's Bite to your opponent's hand.",
   },
@@ -850,8 +850,8 @@ export const allCards = {
   },
   'Maximus': {
     defId: 'Maximus',
-    cost: 3,
-    power: 7,
+    cost: 2,
+    power: 6,
     name: 'Maximus',
     description: '<b>On Reveal:</b> Your opponent\ndraws 2 cards.',
   },
@@ -1088,7 +1088,7 @@ export const allCards = {
   'Professor X': {
     defId: 'ProfessorX',
     cost: 5,
-    power: 3,
+    power: 1,
     name: 'Professor X',
     description:
       "<b>Ongoing:</b> Lock down this location. <i>(Cards can't be added, removed, etc.)</i>",
@@ -1103,7 +1103,7 @@ export const allCards = {
   'Punisher': {
     defId: 'Punisher',
     cost: 3,
-    power: 2,
+    power: 3,
     name: 'Punisher',
     description: '<b>Ongoing:</b> +1 Power for each enemy card here.',
   },
@@ -1175,7 +1175,7 @@ export const allCards = {
   'Ronan the Accuser': {
     defId: 'Ronan',
     cost: 5,
-    power: 3,
+    power: 5,
     name: 'Ronan the Accuser',
     description: "<b>Ongoing:</b> +2 Power for each card in your opponent's hand.",
   },
@@ -1474,8 +1474,8 @@ export const allCards = {
   },
   'Viper': {
     defId: 'Viper',
-    cost: 2,
-    power: 3,
+    cost: 3,
+    power: 4,
     name: 'Viper',
     description: '<b>On Reveal:</b> One of your other cards here switches sides.',
   },
@@ -1726,8 +1726,8 @@ export const allCards = {
   },
   'Werewolf By Night': {
     defId: 'WerewolfByNight',
-    cost: 3,
-    power: 3,
+    cost: 4,
+    power: 4,
     name: 'Werewolf By Night',
     description:
       'After you play an <b>On Reveal</b> card at another location, move there to\ngain +2 Power.',
@@ -1735,7 +1735,7 @@ export const allCards = {
   'Gladiator': {
     defId: 'Gladiator',
     cost: 3,
-    power: 7,
+    power: 8,
     name: 'Gladiator',
     description:
       "<b>On Reveal:</b> Add a card from your opponent's deck to their side of this location. If it has less Power, destroy it.",
@@ -1743,7 +1743,7 @@ export const allCards = {
   'Martyr': {
     defId: 'Martyr',
     cost: 1,
-    power: 4,
+    power: 5,
     name: 'Martyr',
     description:
       'At the end of the game, move to a location that LOSES you the\ngame. <i>(if possible)</i>',
@@ -1762,5 +1762,13 @@ export const allCards = {
     power: 0,
     name: 'Havok',
     description: 'After each turn, you lose 1 Max Energy and this gains +4 Power.',
+  },
+  'Selene': {
+    defId: 'Selene',
+    cost: 1,
+    power: -1,
+    name: 'Selene',
+    description:
+      "<b>On Reveal:</b> Afflict the lowest-Power card in each player's hand\nwith -3 Power.",
   },
 } as const;
