@@ -40,7 +40,7 @@ body {
   --movie-entry-border: rgb(206, 161, 206);
   --live-action-tv-entry-border: rgb(115, 177, 203);
   --animated-tv-entry-border: rgb(121, 180, 121);
-  --search-highlight: #ff0c;
+  --search-highlight: #ff0d;
 }
 
 .viewport {
