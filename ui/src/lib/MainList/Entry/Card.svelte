@@ -1,7 +1,7 @@
 <script lang="ts">
   import { pushState } from '$app/navigation';
   import { allCards } from '../../facts/allCards';
-  import { filter } from '../../stores/writables/$primary';
+  import { filter, paramNoLongerRelevant } from '../../stores/writables/$primary';
   export let cardName: keyof typeof allCards;
   export let minor = false;
   $: cardId = allCards[cardName].defId;
@@ -24,6 +24,7 @@
     on:click={(e) => {
       e.preventDefault();
       pushState(href, { cardId });
+      $paramNoLongerRelevant = true;
     }}
   >
     <img src={`/card-images/${cardId}.webp`} alt={cardName} class="clickable" />

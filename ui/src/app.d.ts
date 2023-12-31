@@ -11,6 +11,7 @@ declare global {
     // interface Platform {}
     interface PageState {
       cardId?: CardId;
+      paramNoLongerRelevant?: boolean;
     }
   }
 }

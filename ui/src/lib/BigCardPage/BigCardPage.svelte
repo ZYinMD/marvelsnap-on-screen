@@ -1,12 +1,19 @@
 <script lang="ts">
   import { pushState } from '$app/navigation';
   import type { CardId } from '../MainList/buildingBlocks';
+  import { paramNoLongerRelevant } from '../stores/writables/$primary';
   import ListUnderCard from './ListUnderCard.svelte';
   export let cardId: CardId;
 </script>
 
 <!-- @component Renders a big card and the list under it. Clicking anywhere within this component will bubble to the top wrapper which will close this component and return to the main list, except when clicked inside a stopPropagation area -->
-<div class="viewport" on:click={() => pushState('/', { cardId: undefined })}>
+<div
+  class="viewport"
+  on:click={() => {
+    pushState('/', { cardId: undefined });
+    $paramNoLongerRelevant = true;
+  }}
+>
   <div class="full-width-scroll">
     <div class="narrow">
       <div class="content">
