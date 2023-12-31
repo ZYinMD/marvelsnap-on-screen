@@ -1,6 +1,6 @@
 <script lang="ts">
   import Chevron from '../../Icons/Chevron.svelte';
-  import { openedDrawers } from '../../stores/writables/$primary';
+  import { drawers } from '../../stores/writables/$primary';
   import type { Key, Show } from '../buildingBlocks';
   import Drawer from './Drawer.svelte';
   import MovieText from './MovieText.svelte';
@@ -9,19 +9,12 @@
 
   const { type, title, year, numSeasons, numEpisodes, wikipedia } = showData as Show;
   const key = showData.key as Key;
-  function toggleDrawer() {
-    openedDrawers.update((prev) => {
-      if (prev.mainList.has(key)) prev.mainList.delete(key);
-      else prev.mainList.add(key);
-      return prev;
-    });
-  }
-  $: isOpen = $openedDrawers.mainList.has(key);
+  $: isOpen = $drawers.mainList.has(key);
 </script>
 
 <!-- @component one item in the list -->
 <div class={`component ${type}`}>
-  <div class="clickable-row" class:isOpen on:click={toggleDrawer}>
+  <div class="clickable-row" class:isOpen on:click={() => drawers.toggle('mainList', key)}>
     <Chevron {isOpen} />
     {#if type === 'movie'}
       <MovieText {year} {title} {wikipedia} {isOpen} />
