@@ -24,7 +24,10 @@ export const filter = writable({
   showMinorCharacters: true,
 });
 
-export const openedDrawers = writable(new Set<Key>());
+export const openedDrawers = writable({
+  mainList: new Set<Key>(),
+  underBigCard: new Set<Key>(),
+});
 
 export const tooltip = writable(
   '' as '' | 'mcu' | 'x-men' | 'ssu' | 'netflix' | 'sequel' | 'show-minor-chars',

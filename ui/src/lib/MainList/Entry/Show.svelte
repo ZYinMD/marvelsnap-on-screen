@@ -11,12 +11,12 @@
   const key = showData.key as Key;
   function toggleDrawer() {
     openedDrawers.update((prev) => {
-      if (prev.has(key)) prev.delete(key);
-      else prev.add(key);
+      if (prev.mainList.has(key)) prev.mainList.delete(key);
+      else prev.mainList.add(key);
       return prev;
     });
   }
-  $: isOpen = $openedDrawers.has(key);
+  $: isOpen = $openedDrawers.mainList.has(key);
 </script>
 
 <!-- @component one item in the list -->
