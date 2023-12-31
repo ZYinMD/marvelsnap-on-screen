@@ -1,8 +1,11 @@
 <script lang="ts">
   import { pushState } from '$app/navigation';
+  import { afterUpdate } from 'svelte';
   import type { CardId } from '../MainList/buildingBlocks';
   import { paramNoLongerRelevant } from '../stores/writables/$primary';
   import ListUnderCard from './ListUnderCard.svelte';
+  let scrollBody: HTMLDivElement;
+  afterUpdate(() => (scrollBody.scrollTop = 0));
   export let cardId: CardId;
 </script>
 
@@ -14,7 +17,7 @@
     $paramNoLongerRelevant = true;
   }}
 >
-  <div class="full-width-scroll">
+  <div class="full-width-scroll" bind:this={scrollBody}>
     <div class="narrow">
       <div class="content">
         <div class="card-image">
