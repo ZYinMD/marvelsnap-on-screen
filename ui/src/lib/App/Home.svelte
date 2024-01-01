@@ -20,19 +20,11 @@
 {/if}
 
 <style>
-  /* .viewport {
-    pointer-events: none;
-    display: grid;
-    grid:
-      '. list .' 100%
-      /
-      minmax(0, 1fr) minmax(0px, 800px) minmax(0, 1fr);
-  } */
   .viewport {
-    pointer-events: none;
+    pointer-events: none; /* this transparent container shouldn't block other real components */
   }
   .narrow {
-    pointer-events: none;
+    pointer-events: none; /* this transparent container shouldn't block other real components */
     display: grid;
     grid-template-areas: 'list';
     height: 100%;
