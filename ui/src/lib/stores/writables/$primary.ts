@@ -60,12 +60,18 @@ export const drawers = (() => {
 const prevs = {
   sortBy: 'year',
   separateMoviesAndTv: true,
+  activeLabel: '',
 };
 sort.subscribe((next) => {
   if (next.sortBy !== prevs.sortBy || next.separateMoviesAndTv !== prevs.separateMoviesAndTv) {
-    console.log('should close all drawers');
     drawers.closeAll('mainList');
   }
   prevs.sortBy = next.sortBy;
   prevs.separateMoviesAndTv = next.separateMoviesAndTv;
+});
+filter.subscribe((next) => {
+  if (next.activeLabel !== prevs.activeLabel) {
+    drawers.closeAll('mainList');
+  }
+  prevs.activeLabel = next.activeLabel;
 });
