@@ -65,15 +65,3 @@ body {
   max-width: var(--content-width-on-desktop);
   overflow-x: hidden;
 }
-
-/* a narrow container that takes full width on mobile, centers on widescreen, always occupies full height and can't scroll; good as parent for placing things like bottom nav, modal curtain */
-.container-narrow-viewport {
-  position: fixed;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 100%;
-  max-width: var(--content-width-on-desktop);
-  height: 100%;
-  overflow: hidden;
-}
