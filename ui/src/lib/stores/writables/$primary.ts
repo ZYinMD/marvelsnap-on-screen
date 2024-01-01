@@ -30,6 +30,9 @@ export const tooltip = writable(
 
 export const paramNoLongerRelevant = writable(false);
 
+/**
+ * control the open and close of drawers ("drawer" is the container of cards under a show)
+ */
 export const drawers = (() => {
   const { subscribe, update } = writable({
     mainList: new Set<Key>(),
@@ -51,3 +54,18 @@ export const drawers = (() => {
   }
   return { subscribe, toggle, closeAll };
 })();
+
+// ↓ below are subscriptions to stores that monitor for a change then trigger some side effects. I wanted to put them in a separate file, but that whole file gets tree-shaken off.
+
+const prevs = {
+  sortBy: 'year',
+  separateMoviesAndTv: true,
+};
+sort.subscribe((next) => {
+  if (next.sortBy !== prevs.sortBy || next.separateMoviesAndTv !== prevs.separateMoviesAndTv) {
+    console.log('should close all drawers');
+    drawers.closeAll('mainList');
+  }
+  prevs.sortBy = next.sortBy;
+  prevs.separateMoviesAndTv = next.separateMoviesAndTv;
+});

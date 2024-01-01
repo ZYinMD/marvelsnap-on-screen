@@ -5,7 +5,7 @@
   import { paramNoLongerRelevant } from '../stores/writables/$primary';
   import ListUnderCard from './ListUnderCard.svelte';
   let scrollBody: HTMLDivElement;
-  afterUpdate(() => (scrollBody.scrollTop = 0));
+  afterUpdate(() => (scrollBody.scrollTop = 0)); // when a new big card shows, scroll to top
   export let cardId: CardId;
 </script>
 
