@@ -6,15 +6,21 @@
   import MovieText from './MovieText.svelte';
   import TvText from './TvText.svelte';
   export let showData; // don't add a type here, because typescript is stupid
-
+  export let underBigCard = false; // if the show (and drawer) is rendered under a big card, set it to true
   const { type, title, year, numSeasons, numEpisodes, wikipedia } = showData as Show;
   const key = showData.key as Key;
-  $: isOpen = $drawers.mainList.has(key);
+  $: isOpen = underBigCard ? $drawers.underBigCard.has(key) : $drawers.mainList.has(key);
 </script>
 
 <!-- @component one item in the list -->
 <div class={`component ${type}`}>
-  <div class="clickable-row" class:isOpen on:click={() => drawers.toggle('mainList', key)}>
+  <div
+    class="clickable-row"
+    class:isOpen
+    on:click={() => {
+      drawers.toggle(underBigCard ? 'underBigCard' : 'mainList', key);
+    }}
+  >
     <Chevron {isOpen} />
     {#if type === 'movie'}
       <MovieText {year} {title} {wikipedia} {isOpen} />

@@ -1,7 +1,7 @@
 <script lang="ts">
   import { pushState } from '$app/navigation';
   import { allCards } from '../../facts/allCards';
-  import { filter, paramNoLongerRelevant } from '../../stores/writables/$primary';
+  import { drawers, filter, paramNoLongerRelevant } from '../../stores/writables/$primary';
   export let cardName: keyof typeof allCards;
   export let minor = false;
   $: cardId = allCards[cardName].defId;
@@ -25,6 +25,7 @@
       e.preventDefault();
       pushState(href, { cardId });
       $paramNoLongerRelevant = true;
+      drawers.closeAll('underBigCard');
     }}
   >
     <img src={`/card-images/${cardId}.webp`} alt={cardName} class="clickable" />

@@ -1,7 +1,7 @@
 <script lang="ts">
+  import Entry from '../MainList/Entry/Show.svelte';
   import type { CardId } from '../MainList/buildingBlocks';
   import { computeList } from './computeList';
-  import Entry from '../MainList/Entry/Show.svelte';
   export let cardId: CardId;
   $: listUnderCard = computeList(cardId);
 </script>
@@ -11,7 +11,7 @@
     {#if entry.type === 'divider'}
       <div class="divider"><div class="text">{entry.title}:</div></div>
     {:else}
-      <Entry showData={entry} />
+      <Entry showData={entry} underBigCard />
     {/if}
   {/each}
 </div>
