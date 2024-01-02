@@ -1,5 +1,6 @@
 <script lang="ts">
   import Filter from '../Filter/Filter.svelte';
+  import Footer from '../Footer/Footer.svelte';
   import MainList from '../MainList/MainList.svelte';
   import Sort from '../Sort/Sort.svelte';
   import Tooltip from '../Tooltip/Tooltip.svelte';
@@ -16,6 +17,7 @@
 {#if $tooltip}
   <Tooltip />
 {/if}
+<Footer />
 
 <style>
   .viewport {
