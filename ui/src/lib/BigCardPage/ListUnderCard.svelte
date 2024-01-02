@@ -19,7 +19,7 @@
 <style>
   .component {
     position: relative;
-    padding: 0px 5px;
+    padding: 0px 6px;
   }
   .divider {
     height: 60px;
