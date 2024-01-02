@@ -7,6 +7,7 @@
   export let title: string;
   export let wikipedia: string;
   export let isOpen: boolean;
+  export let underBigCard = false; // if the show is rendered under a big card, set it to true
   $: chunks = highlightWords({
     text: `(${year}) ${title}`,
     query: $filter.searching.trim(),
@@ -17,7 +18,7 @@
 <div class="component">
   <div>
     {#each chunks as chunk (chunk.key)}
-      <span class:highlight={chunk.match}>{chunk.text}</span>
+      <span class:highlight={!underBigCard && chunk.match}>{chunk.text}</span>
     {/each}
   </div>
   {#if isOpen}

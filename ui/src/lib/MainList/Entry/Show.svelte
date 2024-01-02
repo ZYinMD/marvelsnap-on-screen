@@ -23,9 +23,9 @@
   >
     <Chevron {isOpen} />
     {#if type === 'movie'}
-      <MovieText {year} {title} {wikipedia} {isOpen} />
+      <MovieText {year} {title} {wikipedia} {isOpen} {underBigCard} />
     {:else}
-      <TvText {year} {title} {numSeasons} {numEpisodes} {wikipedia} {isOpen} />
+      <TvText {year} {title} {numSeasons} {numEpisodes} {wikipedia} {isOpen} {underBigCard} />
     {/if}
   </div>
   {#if isOpen}
