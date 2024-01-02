@@ -16,7 +16,7 @@
 
 <style>
   svg {
-    transition: transform 0.13s ease-in-out;
+    transition: transform 0.1s ease-in-out;
     padding: 5px;
     border: 1px solid var(--blue-highlight);
     border-radius: 2px;
@@ -28,7 +28,6 @@
     filter: brightness(80%);
   }
   .flipped {
-    transform: rotateX(180deg);
-    transform-style: preserve-3d;
+    transform: rotate(0.5turn);
   }
 </style>
