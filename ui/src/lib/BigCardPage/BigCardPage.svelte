@@ -33,6 +33,9 @@
 </div>
 
 <style>
+  .viewport {
+    backdrop-filter: brightness(0.5);
+  }
   .content {
     width: 100%;
     max-width: var(--content-width-on-desktop);

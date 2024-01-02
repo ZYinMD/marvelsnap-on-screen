@@ -13,7 +13,7 @@
 </script>
 
 <!-- @component one item in the list -->
-<div class={`component ${type}`}>
+<div class={`component ${type}`} class:underBigCard>
   <div
     class="clickable-row"
     class:isOpen
@@ -50,6 +50,9 @@
   }
   .component {
     margin-bottom: 10px;
+  }
+  .component.underBigCard {
+    background-color: #0008;
   }
   .component.movie {
     border: 1px var(--movie-entry-border) solid;
