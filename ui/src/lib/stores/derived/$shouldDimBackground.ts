@@ -1,6 +1,6 @@
 import { derived } from 'svelte/store';
 import { filter, sort, tooltip } from '../writables/$primary';
-import { currentBigCard } from './currentBigCard';
+import { currentBigCard } from './$currentBigCard';
 
 /**
  * should most of the view be dimmed because something is showing in the foreground?
