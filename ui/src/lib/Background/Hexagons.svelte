@@ -14,4 +14,10 @@
     opacity: 0.12;
     background-image: url('./hexagon.svg');
   }
+  /* media query of small screen */
+  @media (max-width: 800px) {
+    .component {
+      opacity: 0.14;
+    }
+  }
 </style>
