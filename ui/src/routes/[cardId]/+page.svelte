@@ -1,6 +1,6 @@
 <script lang="ts">
   import BigCardRoute from '../../lib/App/BigCardRoute.svelte';
-  import Home from '../../lib/App/Home.svelte';
+  import HomeRoute from '../../lib/App/HomeRoute.svelte';
   import Background from '../../lib/Background/Background.svelte';
 </script>
 
@@ -16,5 +16,5 @@ The [cardId] route and the home +page actually renders the exact same component.
 In the beginning, I actually used a more idiomatic way to achieve this UX. I put all of the home page into +layout, and render the big card only in the [cardId] route, and use <a> tag on small cards to navigate to the [cardId] page. It works, but each click on a small card is a navigation, and on iPhone the navigation causes some white flash in between.
 -->
 <Background />
-<Home />
+<HomeRoute />
 <BigCardRoute />
