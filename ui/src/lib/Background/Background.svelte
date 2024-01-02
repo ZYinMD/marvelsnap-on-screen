@@ -4,5 +4,5 @@
 </script>
 
 <!-- @component The animated background of app -->
-<Hexagons />
 <SlidingDiagonals />
+<Hexagons />
