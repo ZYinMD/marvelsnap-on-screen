@@ -22,8 +22,8 @@
           TV series, MCU is the largest continuity of all.
         </p>
         <p>
-          In recent movies, the concept of Multiverse was introduced. All the storylines that ever
-          happened in any other titles are now in the same canon as MCU, they just happened in
+          In recent movies, the concept of Multiverse was introduced - all the storylines that ever
+          happened in all other titles are now in the same canon as MCU, they just happen in
           parallel universes, but characters can travel between universes if plot requires.
         </p>
         <p>Among the multiverse, the MCU is identified as Earth-616.</p>
@@ -43,8 +43,8 @@
           ).length} movies out of them, in one continuity.
         </p>
         <p>
-          No more new titles will happen in this universe since Disney acquired both Marvel and Fox.
-          The X-Men IP will likely continue in the MCU.
+          New titles will no longer happen in this universe since Disney acquired both Marvel and
+          Fox. The X-Men IP will likely continue in the MCU.
         </p>
         <p>The Fantastic Four IP shares the exact same history and future as the X-Men.</p>
       {/if}
@@ -57,7 +57,8 @@
         <p>
           Except the Tom Holland collaboration with Marvel Studios, SONY/Columbia mostly created
           standalone franchises with these characters. Recently, however, inspired by the success of
-          MCU, SONY is planning this new Spider-Man universe that integrates more characters.
+          MCU, SONY is planning this new Spider-Man universe that integrates all marvel characters
+          they own.
         </p>
         <p>
           Side note: not to be confused with SONY's Spider-Verse series which is a recent trilogy of
@@ -72,8 +73,8 @@
           before being "Stature", Jane Foster before being Thor.
         </p>
         <p>
-          3. In a multi-season TV series, if a character only showed up in one episode, it's
-          considered minor.
+          3. In a multi-season TV series, a character is considered minor if they only appear in one
+          episode.
         </p>
       {/if}
     </div>
