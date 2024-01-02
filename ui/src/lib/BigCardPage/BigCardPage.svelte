@@ -1,6 +1,7 @@
 <script lang="ts">
   import { pushState } from '$app/navigation';
   import { afterUpdate, onMount } from 'svelte';
+  import { scale } from 'svelte/transition';
   import type { CardId } from '../MainList/buildingBlocks';
   import { paramNoLongerRelevant } from '../stores/writables/$primary';
   import ListUnderCard from './ListUnderCard.svelte';
@@ -29,7 +30,13 @@
     <div class="narrow">
       <div class="content">
         <div class="card-image">
-          <img src={`/card-images/${cardId}.webp`} alt={cardId} />
+          {#key cardId}
+            <img
+              src={`/card-images/${cardId}.webp`}
+              alt={cardId}
+              transition:scale={{ duration: 100 }}
+            />
+          {/key}
           <div class="stop-propagation-zone" on:click|stopPropagation={null}></div>
         </div>
         <div class="list" on:click|stopPropagation={null}>
