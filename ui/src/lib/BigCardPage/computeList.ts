@@ -24,8 +24,8 @@ export function computeList(cardId: CardId) {
   if (liveActionTVs.length > 0) {
     result.push({
       type: 'divider',
-      title: 'In live Action TV series',
-      key: 'Live Action TV series',
+      title: 'In Live Action TV Series',
+      key: 'In Live Action TV Series',
     });
     result.push(...liveActionTVs);
   }
@@ -33,7 +33,7 @@ export function computeList(cardId: CardId) {
     return map[i.key].major.has(cardName) || map[i.key].minor.has(cardName);
   });
   if (animatedTVs.length > 0) {
-    result.push({ type: 'divider', title: 'In animated TV series', key: 'Animated TV series' });
+    result.push({ type: 'divider', title: 'In Animated Series', key: 'In Animated Series' });
     result.push(...animatedTVs);
   }
   return result;

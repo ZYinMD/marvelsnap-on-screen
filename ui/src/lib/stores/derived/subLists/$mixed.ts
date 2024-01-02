@@ -34,7 +34,7 @@ export const mixed = derived(
       result = result.filter((i) => i.label.find((l) => l === 'anime'));
     } else if (activeLabel === 'all-animated') {
       result = result.filter((i) => i.type === 'animated-tv-series');
-      result = result.concat(afterSearch.filter((i) => i.label.find((l) => l === 'animated'))); // all animated tv series plus the Spider Verse movies
+      result = result.concat(afterSearch.filter((i) => i.label.find((l) => l === 'animated'))); // all animated series plus the Spider Verse movies
     }
 
     result = result.sort(sortFn);
