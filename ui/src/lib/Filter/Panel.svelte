@@ -28,6 +28,7 @@
 
 <style>
   .panel {
+    position: relative; /* make sure it's not covered by the backdrop */
     grid-area: list;
     pointer-events: auto;
     padding: 30px 18px;

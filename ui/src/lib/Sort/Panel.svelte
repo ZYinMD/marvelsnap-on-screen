@@ -58,6 +58,7 @@
 
 <style>
   .panel {
+    position: relative; /* make sure it's not covered by the backdrop */
     pointer-events: auto;
     grid-area: list;
     font-size: 18px;
