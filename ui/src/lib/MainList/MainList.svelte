@@ -6,28 +6,24 @@
 </script>
 
 <!-- @component the list of all the shows in the home page -->
-<div class="viewport">
-  <div class="full-width-scroll">
-    <div class="content narrow" class:dim={$shouldDimBackground}>
-      {#if $filter.searching.trim()}
-        <div class="heading">
-          {#if $mainList.length === 0}
-            <div class="text">0 search result for "{$filter.searching.trim()}"</div>
-          {:else}
-            <div class="text">Search results for "{$filter.searching.trim()}":</div>
-          {/if}
-        </div>
+<div class="content narrow" class:dim={$shouldDimBackground}>
+  {#if $filter.searching.trim()}
+    <div class="heading">
+      {#if $mainList.length === 0}
+        <div class="text">0 search result for "{$filter.searching.trim()}"</div>
+      {:else}
+        <div class="text">Search results for "{$filter.searching.trim()}":</div>
       {/if}
-
-      {#each $mainList as entry (entry.key)}
-        {#if entry.type === 'divider'}
-          <div class="divider"><div class="text">{entry.title}:</div></div>
-        {:else}
-          <Entry showData={entry} />
-        {/if}
-      {/each}
     </div>
-  </div>
+  {/if}
+
+  {#each $mainList as entry (entry.key)}
+    {#if entry.type === 'divider'}
+      <div class="divider"><div class="text">{entry.title}:</div></div>
+    {:else}
+      <Entry showData={entry} />
+    {/if}
+  {/each}
 </div>
 
 <style>

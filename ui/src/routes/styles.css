@@ -26,7 +26,6 @@ html {
 }
 
 body {
-  overflow: hidden; /* we use the "self scroll" container */
   font-family:
     Roboto,
     -apple-system,
@@ -54,7 +53,7 @@ body {
 
 .full-width-scroll {
   overflow-x: hidden;
-  overflow-y: scroll;
+  overflow-y: auto;
   width: 100%;
   height: 100%;
 }

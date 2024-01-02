@@ -8,11 +8,9 @@
 
 <MainList />
 <div class="viewport">
-  <div class="full-width-scroll">
-    <div class="narrow">
-      <Sort />
-      <Filter />
-    </div>
+  <div class="narrow">
+    <Sort />
+    <Filter />
   </div>
 </div>
 {#if $tooltip}

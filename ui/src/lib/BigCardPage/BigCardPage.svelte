@@ -1,12 +1,20 @@
 <script lang="ts">
   import { pushState } from '$app/navigation';
-  import { afterUpdate } from 'svelte';
+  import { afterUpdate, onMount } from 'svelte';
   import type { CardId } from '../MainList/buildingBlocks';
   import { paramNoLongerRelevant } from '../stores/writables/$primary';
   import ListUnderCard from './ListUnderCard.svelte';
   let scrollBody: HTMLDivElement;
   afterUpdate(() => (scrollBody.scrollTop = 0)); // when a new big card shows, scroll to top
   export let cardId: CardId;
+
+  // when the big card is showing, hide the scrollbar of main list, otherwise there will be two scrollbars.
+  onMount(() => {
+    document.body.style.overflow = 'hidden';
+    return () => {
+      document.body.style.overflow = 'initial';
+    };
+  });
 </script>
 
 <!-- @component Renders a big card and the list under it. Clicking anywhere within this component will bubble to the top wrapper which will close this component and return to the main list, except when clicked inside a stopPropagation area -->
