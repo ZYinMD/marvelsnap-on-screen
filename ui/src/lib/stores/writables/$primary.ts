@@ -79,6 +79,7 @@ sort.subscribe((next) => {
 filter.subscribe((next) => {
   if (next.activeLabel !== prevs.activeLabel) {
     drawers.closeAll('mainList');
+    window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
   }
   prevs.activeLabel = next.activeLabel;
 });
