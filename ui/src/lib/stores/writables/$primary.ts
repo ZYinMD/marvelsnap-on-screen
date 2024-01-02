@@ -58,14 +58,21 @@ export const drawers = (() => {
 // ↓ below are subscriptions to stores that monitor for a change then trigger some side effects. I wanted to put them in a separate file, but that whole file gets tree-shaken off.
 
 const prevs = {
+  sortDescending: true,
   sortBy: 'year',
   separateMoviesAndTv: true,
   activeLabel: '',
 };
 sort.subscribe((next) => {
-  if (next.sortBy !== prevs.sortBy || next.separateMoviesAndTv !== prevs.separateMoviesAndTv) {
+  if (
+    next.sortDescending !== prevs.sortDescending ||
+    next.sortBy !== prevs.sortBy ||
+    next.separateMoviesAndTv !== prevs.separateMoviesAndTv
+  ) {
     drawers.closeAll('mainList');
+    window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
   }
+  prevs.sortDescending = next.sortDescending;
   prevs.sortBy = next.sortBy;
   prevs.separateMoviesAndTv = next.separateMoviesAndTv;
 });
