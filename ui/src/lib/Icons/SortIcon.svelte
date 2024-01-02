@@ -16,7 +16,7 @@
 
 <style>
   svg {
-    transition: transform 0.1s ease-in-out;
+    transition: transform 0.15s ease-in-out;
     padding: 5px;
     border: 1px solid var(--blue-highlight);
     border-radius: 2px;

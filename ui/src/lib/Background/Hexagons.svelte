@@ -17,7 +17,7 @@
   /* media query of small screen */
   @media (max-width: 800px) {
     .component {
-      opacity: 0.14;
+      opacity: 0.15;
     }
   }
 </style>
