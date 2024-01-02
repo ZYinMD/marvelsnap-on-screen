@@ -1,14 +1,12 @@
 <script lang="ts">
-  import { handleOutClick } from '../stores/derived/$handleOutClick';
   import { filter, tooltip } from '../stores/writables/$primary';
-  import { outClickListener } from '../use/outClickListener';
   import Labels from './Labels.svelte';
   import SearchBox from './SearchBox.svelte';
   import ShowMinorChars from './ShowMinorCharacters.svelte';
 </script>
 
 <!-- @component the search and filter panel on the right -->
-<div class="panel" class:dim={Boolean($tooltip)} use:outClickListener on:outClick={$handleOutClick}>
+<div class="panel" class:dim={Boolean($tooltip)} on:click|stopPropagation>
   <div class="h1"><div class="skew">Search & Filters</div></div>
   <SearchBox />
   <div class="h2"><div class="skew">Labels</div></div>

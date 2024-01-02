@@ -5,7 +5,12 @@
 </script>
 
 {#if $filter.isPanelOpen}
-  <div class="viewport backdrop"></div>
+  <div
+    class="viewport backdrop"
+    on:click={() => {
+      $filter.isPanelOpen = false;
+    }}
+  ></div>
   <Panel />
 {:else}
   <Button />

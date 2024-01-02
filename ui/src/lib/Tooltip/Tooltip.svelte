@@ -1,14 +1,17 @@
 <script lang="ts">
   import { allLiveActionTVs, allMovies } from '../MainList/buildingBlocks';
-  import { handleOutClick } from '../stores/derived/$handleOutClick';
   import { tooltip } from '../stores/writables/$primary';
-  import { outClickListener } from '../use/outClickListener';
 </script>
 
 <!-- @component to render the modal if there's any tooltip that should currently be showing -->
-<div class="viewport">
+<div
+  class="viewport"
+  on:click={() => {
+    $tooltip = '';
+  }}
+>
   <div class="narrow">
-    <div class="component" use:outClickListener on:outClick={$handleOutClick}>
+    <div class="component" on:click|stopPropagation>
       {#if $tooltip === 'mcu'}
         <h2>Marvel Cinematic Universe (MCU):</h2>
         <p>
@@ -84,6 +87,7 @@
     place-items: center;
   }
   .component {
+    position: relative; /* make sure it's not covered by the backdrop */
     filter: brightness(0.87);
     width: 80%;
     border: 3px solid var(--blue-highlight);

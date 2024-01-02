@@ -2,13 +2,18 @@
   import { scale } from 'svelte/transition';
   import Checkmark from '../Icons/Checkmark.svelte';
   import SortIcon from '../Icons/SortIcon.svelte';
-  import { handleOutClick } from '../stores/derived/$handleOutClick';
   import { sort } from '../stores/writables/$primary';
   import { outClickListener } from '../use/outClickListener';
 </script>
 
 <!-- @component the sort panel on the left -->
-<div class="panel" use:outClickListener on:outClick={$handleOutClick}>
+<div
+  class="panel"
+  use:outClickListener
+  on:outClick={() => {
+    $sort.isPanelOpen = false;
+  }}
+>
   <div class="heading"><div class="skew">Sort</div></div>
 
   <div class="direction" on:click={() => ($sort.sortDescending = !$sort.sortDescending)}>
