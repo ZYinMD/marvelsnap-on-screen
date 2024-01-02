@@ -4,6 +4,8 @@
   import { drawers, filter, paramNoLongerRelevant } from '../../stores/writables/$primary';
   export let cardName: keyof typeof allCards;
   export let minor = false;
+  export let underBigCard = false; // true if rendered under a big card
+
   $: cardId = allCards[cardName].defId;
   $: href = `/${cardId}`;
   function matchSearch(searching: string) {
@@ -14,7 +16,7 @@
     if (searchTerms.length === 0) return false;
     return searchTerms.some((i) => cardName.toLowerCase().includes(i));
   }
-  $: shouldHighlight = matchSearch($filter.searching);
+  $: shouldHighlight = !underBigCard && matchSearch($filter.searching);
 </script>
 
 <!-- @component render a card -->

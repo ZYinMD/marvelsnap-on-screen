@@ -5,6 +5,7 @@
   import type { Key } from '../buildingBlocks';
   import Card from './Card.svelte';
   export let key: Key;
+  export let underBigCard = false; // true if rendered under a big card
   const major = map[key].major;
   const minor = map[key].minor;
 </script>
@@ -13,7 +14,7 @@
 <div class="component" transition:slide={{ duration: 100 }}>
   <!-- <div class="component" transition:slide={{ duration: 100 }}> -->
   {#each major as cardName (cardName)}
-    <Card {cardName} />
+    <Card {cardName} {underBigCard} />
   {/each}
   {#if $filter.showMinorCharacters}
     {#each minor as cardName (cardName)}

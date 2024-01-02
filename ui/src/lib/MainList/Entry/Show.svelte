@@ -29,7 +29,7 @@
     {/if}
   </div>
   {#if isOpen}
-    <Drawer {key} />
+    <Drawer {key} {underBigCard} />
   {/if}
 </div>
 
