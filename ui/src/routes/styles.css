@@ -57,6 +57,7 @@ body {
   width: 100%;
   height: 100%;
 }
+
 /* a narrow container that takes full width on mobile, centers on widescreen */
 .narrow {
   margin: 0 auto;
