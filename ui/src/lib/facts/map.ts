@@ -688,7 +688,7 @@ export const map: Record<Key, Roster> = {
       'Groot',
       'Rocket Raccoon',
     ],
-    minor_: ['Heimdall'],
+    minor_: ['Heimdall', 'Hercules'],
   },
   '2022|Black Panther: Wakanda Forever': {
     major: new Set(),
@@ -1271,6 +1271,7 @@ export const map: Record<Key, Roster> = {
       'Ronan the Accuser',
       'High Evolutionary',
       'Korg',
+      'Hercules',
       'Black Widow',
       'Nebula',
       'Annihilus',
@@ -1519,6 +1520,7 @@ export const map: Record<Key, Roster> = {
       'Ronan the Accuser',
       'Super-Skrull',
       'Sauron',
+      'Hercules',
     ],
     minor_: [
       'Doctor Octopus',
@@ -1599,6 +1601,7 @@ export const map: Record<Key, Roster> = {
       'Spider-Man',
       'Vulture',
       'Orka',
+      'Hercules',
       'Rocket Raccoon',
       'Groot',
       'Hela',
