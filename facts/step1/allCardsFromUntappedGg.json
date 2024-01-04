@@ -6556,7 +6556,7 @@
         "AddedPower": 2
       }
     },
-    "series": 9,
+    "series": 8,
     "artists": [
       {
         "name": "Eduardo Mello",
@@ -6631,7 +6631,7 @@
         "ReducedPower": 3
       }
     },
-    "series": 0,
+    "series": 8,
     "artists": [
       {
         "name": "Eduardo Mello",
@@ -6657,7 +6657,7 @@
         "ReducedCost": 2
       }
     },
-    "series": 0,
+    "series": 9,
     "artists": [
       {
         "name": "Eduardo Mello",
@@ -6667,7 +6667,8 @@
         "name": "Ryan Kinnaird",
         "type": 4
       }
-    ]
+    ],
+    "collectible": true
   },
   {
     "id": 308,
@@ -6682,7 +6683,7 @@
         "TargetCardCost_2": 6
       }
     },
-    "series": 0,
+    "series": 8,
     "artists": [
       {
         "name": "Eduardo Mello",
@@ -6692,7 +6693,8 @@
         "name": "Ryan Kinnaird",
         "type": 4
       }
-    ]
+    ],
+    "collectible": true
   },
   {
     "id": 309,
@@ -6711,7 +6713,8 @@
         "name": "Ryan Kinnaird",
         "type": 4
       }
-    ]
+    ],
+    "collectible": true
   },
   {
     "id": 310,

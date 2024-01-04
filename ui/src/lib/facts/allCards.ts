@@ -1771,4 +1771,25 @@ export const allCards = {
     description:
       "<b>On Reveal:</b> Afflict the lowest-Power card in each player's hand\nwith -3 Power.",
   },
+  'Skaar': {
+    defId: 'Skaar',
+    cost: 6,
+    power: 11,
+    name: 'Skaar',
+    description: 'Costs 2 less for each of your cards that has 10 or more Power.',
+  },
+  'Caiera': {
+    defId: 'Caiera',
+    cost: 3,
+    power: 4,
+    name: 'Caiera',
+    description: "<b>Ongoing:</b> Your 1 and 6-Cost cards can't be destroyed.",
+  },
+  'Hercules': {
+    defId: 'Hercules',
+    cost: 4,
+    power: 6,
+    name: 'Hercules',
+    description: 'The first time another card moves here each turn, move it to another location.',
+  },
 } as const;
