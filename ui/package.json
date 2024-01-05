@@ -33,6 +33,7 @@
   },
   "type": "module",
   "dependencies": {
-    "highlight-words": "^1.2.2"
+    "highlight-words": "^1.2.2",
+    "workbox-recipes": "^7.0.0"
   }
 }
