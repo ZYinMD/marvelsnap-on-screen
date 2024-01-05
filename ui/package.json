@@ -33,6 +33,7 @@
   },
   "type": "module",
   "dependencies": {
+    "@vercel/analytics": "^1.1.1",
     "highlight-words": "^1.2.2",
     "workbox-core": "^7.0.0",
     "workbox-recipes": "^7.0.0"
