@@ -11,11 +11,7 @@
       "headers": [
         {
           "key": "Cache-Control",
-          "value": "public, max-age=2111222, s-max-age=2111222, stale-while-revalidate=2111222"
-        },
-        {
-          "key": "X-Greetings-3",
-          "value": "hello from vercel.json"
+          "value": "public, max-age=2111222, s-max-age=1222111, stale-while-revalidate=3777444"
         }
       ]
     }
