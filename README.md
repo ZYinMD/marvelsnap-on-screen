@@ -1,9 +1,7 @@
-In what movies / tv series can you find what Marvel Snap cards.
+### Which Marvel Snap cards appear in which movies / tv series
 
-Hosted at https://marvelsnap-on-screen.zyinmd.me/
+Hosted at https://marvelsnap-on-screen.zyinmd.me
 
-To point out an error, create a discussion.
-
-To submit PR, read `contribute.md`.
+Don't submit PR before communication.
 
 (To future me) to add new cards or new shows, read `maintain.md`.
