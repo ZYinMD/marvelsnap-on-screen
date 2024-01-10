@@ -55,14 +55,15 @@ export const allCards = {
     cost: 2,
     power: 3,
     name: 'America Chavez',
-    description: '<b>On Reveal:</b> The top card of your deck gets +2 Power.',
+    description: '<b>On Reveal:</b> Give the top card of your deck +2 Power.',
   },
   'Angel': {
     defId: 'Angel',
     cost: 1,
     power: 2,
     name: 'Angel',
-    description: 'When one of your cards is destroyed, this flies out of your deck to replace it.',
+    description:
+      'When one of your cards is destroyed, this flies out of your hand or deck to replace it.',
   },
   'Angela': {
     defId: 'Angela',
@@ -74,10 +75,10 @@ export const allCards = {
   'Annihilus': {
     defId: 'Annihilus',
     cost: 5,
-    power: 7,
+    power: 6,
     name: 'Annihilus',
     description:
-      "<b>On Reveal:</b> Your cards with 0 or less Power switch sides. Destroy\nthose that can't.",
+      "<b>On Reveal:</b> Your cards with Power below 0 switch sides. Destroy\nthose that can't.",
   },
   'Ant Man': {
     defId: 'AntMan',
@@ -381,9 +382,9 @@ export const allCards = {
   'Dracula': {
     defId: 'Dracula',
     cost: 4,
-    power: 0,
+    power: 1,
     name: 'Dracula',
-    description: 'At the end of the game, discard a card from your hand. This has its Power.',
+    description: 'At the end of the game, discard a card from your hand to gain its Power.',
   },
   'Drax': {
     defId: 'Drax',
@@ -704,10 +705,10 @@ export const allCards = {
   },
   'Kingpin': {
     defId: 'Kingpin',
-    cost: 3,
-    power: 4,
+    cost: 2,
+    power: 3,
     name: 'Kingpin',
-    description: 'When a card moves here on turn 6, destroy it.',
+    description: 'When an enemy card moves here, afflict it with -2 Power.',
   },
   'Kitty Pryde': {
     defId: 'KittyPryde',
@@ -802,7 +803,7 @@ export const allCards = {
     power: 5,
     name: 'Loki',
     description:
-      "<b>On Reveal:</b> Replace your hand with cards from your opponent's starting deck. Give them -1 cost.",
+      "<b>On Reveal:</b> Transform your hand into cards from your opponent's starting deck and give them -1 Cost.",
   },
   'Luke Cage': {
     defId: 'LukeCage',
@@ -957,10 +958,10 @@ export const allCards = {
   'Ms. Marvel': {
     defId: 'MsMarvel',
     cost: 4,
-    power: 5,
+    power: 4,
     name: 'Ms. Marvel',
     description:
-      '<b>Ongoing:</b> Adjacent locations where your cards have unique Costs\nhave +5 Power.',
+      '<b>Ongoing:</b> Your adjacent locations with 2+ cards and no repeated Costs have +5 Power.',
   },
   'Multiple Man': {
     defId: 'MultipleMan',
@@ -1112,8 +1113,7 @@ export const allCards = {
     cost: 2,
     power: 3,
     name: 'Quake',
-    description:
-      '<b>On Reveal:</b> If this is at the middle location, swap the positions of\neach location.',
+    description: '<b>On Reveal:</b> Swap the positions of the other two locations.',
   },
   'Quicksilver': {
     defId: 'Quicksilver',
@@ -1633,7 +1633,7 @@ export const allCards = {
   'Stegron': {
     defId: 'Stegron',
     cost: 4,
-    power: 6,
+    power: 7,
     name: 'Stegron',
     description: '<b>On Reveal:</b> Move an enemy card from here to another location.',
   },
@@ -1705,7 +1705,7 @@ export const allCards = {
   'Alioth': {
     defId: 'Alioth',
     cost: 6,
-    power: 2,
+    power: 3,
     name: 'Alioth',
     description: '<b>On Reveal:</b> Destroy all unrevealed enemy cards here.',
   },
@@ -1730,7 +1730,7 @@ export const allCards = {
     power: 4,
     name: 'Werewolf By Night',
     description:
-      'After you play an <b>On Reveal</b> card at another location, move there to\ngain +2 Power.',
+      'After you play a card, move there to gain +2 Power if it has an <b>On Reveal</b>.',
   },
   'Gladiator': {
     defId: 'Gladiator',
@@ -1791,5 +1791,12 @@ export const allCards = {
     power: 6,
     name: 'Hercules',
     description: 'The first time another card moves here each turn, move it to another location.',
+  },
+  'Miek': {
+    defId: 'Miek',
+    cost: 1,
+    power: 1,
+    name: 'Miek',
+    description: 'After each turn, if you discarded any cards, gain +1 Power for each\nand move.',
   },
 } as const;
