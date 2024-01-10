@@ -28,6 +28,7 @@
     filter: brightness(80%);
   }
   .flipped {
-    transform: rotate(0.5turn);
+    transform: rotateX(180deg);
+    transform-style: preserve-3d;
   }
 </style>
