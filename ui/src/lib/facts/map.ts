@@ -446,7 +446,18 @@ export const map: Record<Key, Roster> = {
   '2017|Thor: Ragnarok': {
     major: new Set(),
     minor: new Set(),
-    major_: ['Thor', 'Loki', 'Hela', 'Heimdall', 'Valkyrie', 'Hulk', 'Odin', 'Korg', 'Quinjet'],
+    major_: [
+      'Thor',
+      'Loki',
+      'Hela',
+      'Heimdall',
+      'Valkyrie',
+      'Hulk',
+      'Odin',
+      'Korg',
+      'Miek',
+      'Quinjet',
+    ],
     minor_: ['Doctor Strange', 'Black Widow'],
   },
   '2018|Black Panther': {
@@ -580,7 +591,7 @@ export const map: Record<Key, Roster> = {
       'Korg',
       'Quinjet',
     ],
-    minor_: ['Jane Foster Mighty Thor', 'Stature'],
+    minor_: ['Jane Foster Mighty Thor', 'Stature', 'Miek'],
   },
   '2019|Dark Phoenix': {
     major: new Set(),
@@ -687,6 +698,7 @@ export const map: Record<Key, Roster> = {
       'Mantis',
       'Groot',
       'Rocket Raccoon',
+      'Miek',
     ],
     minor_: ['Heimdall', 'Hercules'],
   },
