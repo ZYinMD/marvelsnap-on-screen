@@ -69,7 +69,7 @@ export const map: Record<Key, Roster> = {
       'Lady Deathstrike',
       'Rogue',
     ],
-    minor_: ['Colossus', 'Kitty Pryde', 'Jubilee'],
+    minor_: ['Colossus', 'Kitty Pryde', 'Jubilee', 'Beast'],
   },
   '2003|Hulk': {
     major: new Set(),
@@ -122,6 +122,7 @@ export const map: Record<Key, Roster> = {
       'Mystique',
       'Iceman',
       'Juggernaut',
+      'Beast',
       'Professor X',
       'Kitty Pryde',
       'Colossus',
