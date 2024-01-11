@@ -516,6 +516,7 @@ export const map: Record<Key, Roster> = {
       'Ebony Maw',
       'Red Skull',
       'Quinjet',
+      'Hulkbuster',
     ],
     minor_: ['Rescue', 'Nick Fury', 'Maria Hill'],
   },
