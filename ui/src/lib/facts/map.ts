@@ -329,6 +329,7 @@ export const map: Record<Key, Roster> = {
     major: new Set(),
     minor: new Set(),
     major_: [
+      'Ultron',
       'Iron Man',
       'Thor',
       'Hulk',
@@ -341,9 +342,9 @@ export const map: Record<Key, Roster> = {
       'Maria Hill',
       'Falcon',
       'Heimdall',
-      'Ultron',
       'Nick Fury',
       'Hulkbuster',
+      'Klaw',
       'Quinjet',
       'Helicarrier',
     ],
@@ -463,7 +464,7 @@ export const map: Record<Key, Roster> = {
   '2018|Black Panther': {
     major: new Set(),
     minor: new Set(),
-    major_: ['Black Panther', 'Killmonger', 'Nakia', 'Okoye', 'Shuri', "M'Baku"],
+    major_: ['Black Panther', 'Killmonger', 'Nakia', 'Okoye', 'Shuri', "M'Baku", 'Klaw'],
     minor_: ['Bucky Barnes'],
   },
   '2018|Avengers: Infinity War': {
@@ -589,6 +590,8 @@ export const map: Record<Key, Roster> = {
       'Wasp',
       'Valkyrie',
       'Korg',
+      'Yondu',
+      'Howard the Duck',
       'Quinjet',
     ],
     minor_: ['Jane Foster Mighty Thor', 'Stature', 'Miek'],
