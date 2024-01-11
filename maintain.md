@@ -25,7 +25,7 @@ Doing step 1 and 2 above is enough. But it rare happens because new cards are ad
 
 ## What to do when a new movie / tv series is released:
 
-Movies are based on [this](https://en.wikipedia.org/wiki/List_of_films_based_on_Marvel_Comics_publications#Theatrically_released_films) wikipedia page, from section `Live-action films > Feature films`, and also section `Animated films > Theatrically released films` (mainly the spider-verse ones).
+Movies are based on [this](https://www.wikiwand.com/en/List_of_films_based_on_Marvel_Comics_publications#Feature_films) wikipedia page, from section `Live-action films > Feature films`, and also section `Animated films > Theatrically released films` (mainly the spider-verse ones).
 
 TV series are based on [this](https://en.wikipedia.org/wiki/List_of_television_series_based_on_Marvel_Comics_publications#Animated) wikipedia page, from section `Live-action` and `Animated`.
 

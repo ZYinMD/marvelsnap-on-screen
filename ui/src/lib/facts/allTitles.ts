@@ -681,6 +681,16 @@ export const allTitles = {
       numEpisodes: 1,
       key: '2023|Spider-Man: Across the Spider-Verse',
     },
+    '2023|The Marvels': {
+      type: 'movie',
+      year: '2023',
+      title: 'The Marvels',
+      wikipedia: 'https://en.wikipedia.org/wiki/The_Marvels',
+      label: ['mcu'],
+      numSeasons: 0,
+      numEpisodes: 1,
+      key: '2023|The Marvels',
+    },
   },
   'live-action-tv-series': {
     '2006|Blade: The Series': {

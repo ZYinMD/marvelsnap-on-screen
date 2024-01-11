@@ -767,6 +767,12 @@ export const map: Record<Key, Roster> = {
     ],
     minor_: [],
   },
+  '2023|The Marvels': {
+    major: new Set(),
+    minor: new Set(),
+    major_: ['Captain Marvel', 'Spectrum', 'Ms. Marvel', 'Nick Fury', 'Valkyrie', 'Goose'],
+    minor_: ['Beast'],
+  },
   '2006|Blade: The Series': {
     major: new Set(),
     minor: new Set(),
