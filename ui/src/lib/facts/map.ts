@@ -134,7 +134,7 @@ export const map: Record<Key, Roster> = {
   '2007|Ghost Rider': {
     major: new Set(),
     minor: new Set(),
-    major_: ['Ghost Rider', 'Legion'],
+    major_: ['Ghost Rider'],
     minor_: [],
   },
   '2007|Spider-Man 3': {
@@ -902,7 +902,7 @@ export const map: Record<Key, Roster> = {
   '2023|Secret Invasion': {
     major: new Set(),
     minor: new Set(),
-    major_: ['Nick Fury', 'Maria Hill'],
+    major_: ['Nick Fury', 'Maria Hill', 'Super-Skrull'],
     minor_: [],
   },
   '1992–1997|X-Men: The Animated Series': {
