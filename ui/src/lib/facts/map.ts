@@ -768,8 +768,16 @@ export const map: Record<Key, Roster> = {
   '2013–2020|Agents of S.H.I.E.L.D.': {
     major: new Set(),
     minor: new Set(),
-    major_: ['Agent Coulson', 'Quake', 'Quinjet'],
-    minor_: ['Maria Hill', 'Lady Sif'],
+    major_: [
+      'Agent Coulson',
+      'Quake',
+      'Quinjet',
+      'Deathlok',
+      'Ghost Rider',
+      'Absorbing Man',
+      'Maria Hill',
+    ],
+    minor_: ['Lady Sif'],
   },
   '2015–2016|Agent Carter': {
     major: new Set(),
