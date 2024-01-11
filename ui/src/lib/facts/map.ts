@@ -910,7 +910,7 @@ export const map: Record<Key, Roster> = {
       'Kang',
       'Quinjet',
     ],
-    minor_: [],
+    minor_: ['Lady Sif'],
   },
   '2022|Moon Knight': {
     major: new Set(),
@@ -1888,7 +1888,7 @@ export const map: Record<Key, Roster> = {
     major: new Set(),
     minor: new Set(),
     major_: ['Moon Girl', 'Devil Dinosaur'],
-    minor_: ['Falcon'],
+    minor_: ['Maria Hill', 'Falcon'],
   },
 };
 
