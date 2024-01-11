@@ -262,7 +262,7 @@ export const map: Record<Key, Roster> = {
   '2013|The Wolverine': {
     major: new Set(),
     minor: new Set(),
-    major_: ['Wolverine', 'Jean Grey', 'Viper'],
+    major_: ['Wolverine', 'Jean Grey', 'Viper', 'Silver Samurai'],
     minor_: ['Professor X', 'Magneto'],
   },
   '2013|Thor: The Dark World': {
