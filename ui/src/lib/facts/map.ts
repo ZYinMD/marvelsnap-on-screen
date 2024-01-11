@@ -774,7 +774,7 @@ export const map: Record<Key, Roster> = {
       'Spider-Ham',
       'Vulture',
     ],
-    minor_: ['Rhino', 'Kraven', 'Doctor Octopus'],
+    minor_: [],
   },
   '2023|The Marvels': {
     major: new Set(),
