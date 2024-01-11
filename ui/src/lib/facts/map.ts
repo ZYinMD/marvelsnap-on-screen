@@ -167,7 +167,7 @@ export const map: Record<Key, Roster> = {
   '2008|The Incredible Hulk': {
     major: new Set(),
     minor: new Set(),
-    major_: ['Hulk', 'Abomination'],
+    major_: ['Hulk', 'Abomination', 'Leader'],
     minor_: ['Iron Man'],
   },
   '2008|Punisher: War Zone': {
@@ -270,7 +270,7 @@ export const map: Record<Key, Roster> = {
     major: new Set(),
     minor: new Set(),
     major_: ['Thor', 'Loki', 'Heimdall', 'Lady Sif', 'Odin'],
-    minor_: ['Jane Foster Mighty Thor'],
+    minor_: ['Jane Foster Mighty Thor', 'The Collector'],
   },
   '2014|Captain America: The Winter Soldier': {
     major: new Set(),
