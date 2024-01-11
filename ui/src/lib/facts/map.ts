@@ -822,7 +822,7 @@ export const map: Record<Key, Roster> = {
     major: new Set(),
     minor: new Set(),
     major_: ['Legion', 'Shadow King'],
-    minor_: [],
+    minor_: ['Professor X'],
   },
   '2017–2018|Iron Fist': {
     major: new Set(),
@@ -866,12 +866,12 @@ export const map: Record<Key, Roster> = {
     major: new Set(),
     minor: new Set(),
     major_: ['Nico Minoru'],
-    minor_: ['Dagger', 'Cloak'],
+    minor_: ['Cloak', 'Dagger'],
   },
   '2018–2019|Cloak & Dagger': {
     major: new Set(),
     minor: new Set(),
-    major_: ['Dagger', 'Cloak'],
+    major_: ['Cloak', 'Dagger'],
     minor_: [],
   },
   '2020|Helstrom': {
