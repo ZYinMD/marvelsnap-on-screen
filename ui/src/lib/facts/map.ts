@@ -317,7 +317,7 @@ export const map: Record<Key, Roster> = {
       'Warpath',
       'Havok',
     ],
-    minor_: ['Jean Grey'],
+    minor_: ['Jean Grey', 'Cyclops'],
   },
   '2014|Guardians of the Galaxy': {
     major: new Set(),
@@ -987,6 +987,7 @@ export const map: Record<Key, Roster> = {
       'Forge',
       'Leech',
       'Ka-Zar',
+      'Zabu',
       'Shanna',
       'Captain America',
       'Nimrod',
