@@ -180,7 +180,7 @@ export const map: Record<Key, Roster> = {
     major: new Set(),
     minor: new Set(),
     major_: ['Wolverine', 'Sabretooth', 'Gambit', 'Blob'],
-    minor_: ['Deadpool', 'Professor X'],
+    minor_: ['Cyclops', 'Deadpool', 'Professor X'],
   },
   '2010|Iron Man 2': {
     major: new Set(),
@@ -961,7 +961,7 @@ export const map: Record<Key, Roster> = {
       'Mojo',
       'Omega Red',
       'Mister Sinister',
-      'Ms. Marvel',
+      'Captain Marvel',
       'Juggernaut',
       'Colossus',
       'Sentinel',
