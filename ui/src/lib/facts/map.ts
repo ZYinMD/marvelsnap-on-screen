@@ -892,7 +892,7 @@ export const map: Record<Key, Roster> = {
   '2021|The Falcon and the Winter Soldier': {
     major: new Set(),
     minor: new Set(),
-    major_: ['Bucky Barnes', 'Falcon', 'Agent 13'],
+    major_: ['Bucky Barnes', 'Falcon', 'Agent 13', 'Patriot'],
     minor_: [],
   },
   '2021|Hawkeye': {
