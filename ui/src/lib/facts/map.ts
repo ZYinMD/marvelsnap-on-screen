@@ -977,6 +977,7 @@ export const map: Record<Key, Roster> = {
       'Apocalypse',
       'Lady Deathstrike',
       'Sauron',
+      'Deadpool',
     ],
     minor_: [
       'Iceman',
@@ -998,6 +999,10 @@ export const map: Record<Key, Roster> = {
       'Strong Guy',
       'Gladiator',
       'Blob',
+      'Red Skull',
+      'Domino',
+      'Magik',
+      'Warpath',
     ],
   },
   '1994–1996|Fantastic Four: The Animated Series': {
