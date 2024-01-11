@@ -693,6 +693,7 @@ export const map: Record<Key, Roster> = {
       'Professor X',
       'Black Bolt',
       'Mister Fantastic',
+      'Captain Marvel',
     ],
     minor_: [],
   },
@@ -1010,6 +1011,7 @@ export const map: Record<Key, Roster> = {
       'Lockjaw',
     ],
     minor_: [
+      'Uatu the Watcher',
       'Ghost Rider',
       'Thor',
       'Black Panther',
@@ -1088,7 +1090,7 @@ export const map: Record<Key, Roster> = {
     major: new Set(),
     minor: new Set(),
     major_: ['Silver Surfer', 'Galactus', 'Nova', 'Thanos'],
-    minor_: ['Drax', 'Adam Warlock', 'Gamora', 'Nebula'],
+    minor_: ['Drax', 'Adam Warlock', 'Gamora', 'Nebula', 'Uatu the Watcher'],
   },
   '1999–2000|The Avengers: United They Stand': {
     major: new Set(),
@@ -1591,6 +1593,7 @@ export const map: Record<Key, Roster> = {
       'Red Skull',
       'Silver Surfer',
       'Crystal',
+      'Uatu the Watcher',
       'Blade',
       'Dracula',
       'Werewolf By Night',
