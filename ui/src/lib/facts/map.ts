@@ -600,11 +600,10 @@ export const map: Record<Key, Roster> = {
       'Wasp',
       'Valkyrie',
       'Korg',
-      'Yondu',
-      'Howard the Duck',
+      'Miek',
       'Quinjet',
     ],
-    minor_: ['Jane Foster Mighty Thor', 'Stature', 'Miek'],
+    minor_: ['Jane Foster Mighty Thor', 'Stature'],
   },
   '2019|Dark Phoenix': {
     major: new Set(),
