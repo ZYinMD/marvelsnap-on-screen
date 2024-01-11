@@ -520,13 +520,13 @@ export const map: Record<Key, Roster> = {
     minor: new Set(),
     major_: ['Deadpool', 'Cable', 'Domino', 'Negasonic Teenage Warhead', 'Colossus', 'Juggernaut'],
     minor_: [
+      'Wolverine',
       'Professor X',
       'Beast',
       'Quicksilver',
       'Cyclops',
       'Storm',
       'Nightcrawler',
-      'Wolverine',
     ],
   },
   '2018|Ant-Man and the Wasp': {
