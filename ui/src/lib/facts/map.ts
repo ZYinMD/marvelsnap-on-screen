@@ -947,7 +947,7 @@ export const map: Record<Key, Roster> = {
   '2023|Echo': {
     major: new Set(),
     minor: new Set(),
-    major_: ['Echo', 'Kingpin', 'Daredevil'],
+    major_: ['Echo', 'Daredevil', 'Kingpin'],
     minor_: ['Hawkeye'],
   },
   '1992–1997|X-Men: The Animated Series': {
