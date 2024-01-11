@@ -10,24 +10,17 @@
 
 1. run `deno task step5`, this will tell me which cards do I need to manually put into "map.ts", which is the main source of truth of the app.
 
-1. right click "facts/wiki-pages" > Find in folder, search the new cards to see which show did they appear in. Also google it to see where it appeared.
+1. right click "facts/wiki-pages" > Find in folder, search the new cards to see which show they appeared in. Also google it to see where it appeared.
 
    Some useful sites: if they're in MCU, search in the [fandom site](https://marvelcinematicuniverse.fandom.com), also check the [A-L](https://en.wikipedia.org/wiki/Characters_of_the_Marvel_Cinematic_Universe:_A%E2%80%93L) and [M-Z](https://en.wikipedia.org/wiki/Characters_of_the_Marvel_Cinematic_Universe:_M%E2%80%93Z) pages.
 
-   If card is found in the .txt files, visit the wiki page in browser and Ctrl-F there, make sure it really appeared. Watch out for cross-overs - a cross-over episode is not an episode belonging to the main article, it's when characters of the main article went over to other shows.
-
-   Sometimes I remembered to put the link to the original wikipedia page on the first line of each txt file, which is handy, but sometimes I didn't, so need to google and find it, or open the
-   excel file to find the link there.
-
-## If there's a new patch / balance change but no new cards:
-
-Doing step 1 and 2 above is enough. But it rare happens because new cards are added once per week, while balance changes happen less often.
+   If card is found in the .txt files, visit the wiki page in browser and Ctrl-F there, make sure it really appeared. Watch out for cross-overs - a cross-over episode is not an episode belonging to the main article, it's when characters of the main article went over to other shows. This often happened in old animated series.
 
 ## What to do when a new movie / tv series is released:
 
-Movies are based on [this](https://www.wikiwand.com/en/List_of_films_based_on_Marvel_Comics_publications#Feature_films) wikipedia page, from section `Live-action films > Feature films`, and also section `Animated films > Theatrically released films` (mainly the spider-verse ones).
+Movies are based on [this](https://en.wikipedia.org/wiki/List_of_films_based_on_Marvel_Comics_publications) wikipedia page, from section `Live-action films > Feature films`, and also section `Animated films > Theatrically released films` (mainly the spider-verse ones).
 
-TV series are based on [this](https://en.wikipedia.org/wiki/List_of_television_series_based_on_Marvel_Comics_publications#Animated) wikipedia page, from section `Live-action` and `Animated`.
+TV series are based on [this](https://en.wikipedia.org/wiki/List_of_television_series_based_on_Marvel_Comics_publications) wikipedia page, from section `Live-action` and `Animated`.
 
 New releases will appear at the bottom of said sections. When it happens:
 
@@ -38,7 +31,7 @@ New releases will appear at the bottom of said sections. When it happens:
    In the end of table on the wiki page of tv shows, there is the "ongoing" section. Make sure to include each of the ongoing shows in the excel, it's easy to miss them.
 
    **Order of rows in the excel:**
-   q
+
    It's generally ordered in the same order as the wikipedia page which is chronological, but exceptions in tv series for instance Loki season 1 was aired in 2021, She-Hulk in 2022, but on wikipedia Loki appears below She-Hulk because it's in the "Ongoing" section, so in excel it's also below She-Hulk. In the future when all seasons of Loki are finished, I may or may not remember to move it up.
 
    In the end, the order in app is determined by `map.ts`. I'll just manually adjust the order to what I like.
@@ -49,10 +42,6 @@ New releases will appear at the bottom of said sections. When it happens:
 
 - If it's a movie or live action tv series, just read the "Cast" section, it's easy.
 
-- If animated series, create a new txt file in `facts/one-time-scripts/animated-tv-series/wiki-pages` and copy and paste all wikipedia text into it. If there's another dedicated wikipedia page for "plot of all episodes", prefer that page over the main page. Then run the search script. It's run like this:
+- If animated series, create a new txt file in `facts/one-time-scripts/animated-tv-series/wiki-pages` and copy and paste all wikipedia text into it. If there's another dedicated wikipedia page for "plot of all episodes", prefer that page over the main page. Then run the search script.
 
-  ```
-  deno run --allow-read --allow-write find-all-cards-in-all-animated-series.ts
-  ```
-
-  Then check the new txt file generated.
+- I used to have a script to compare the wiki txt with all existing cards, but now it's deprecated. No longer sure how to find all cards, I'll figure out then.
