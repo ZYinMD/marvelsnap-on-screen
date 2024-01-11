@@ -923,6 +923,16 @@ export const allTitles = {
       numEpisodes: 6,
       key: '2023|Secret Invasion',
     },
+    '2023|Echo': {
+      type: 'live-action-tv-series',
+      year: '2023',
+      title: 'Echo',
+      wikipedia: 'https://en.wikipedia.org/wiki/Echo_(miniseries)',
+      label: ['mcu'],
+      numSeasons: 1,
+      numEpisodes: 5,
+      key: '2023|Echo',
+    },
   },
   'animated-tv-series': {
     '1992–1997|X-Men: The Animated Series': {
