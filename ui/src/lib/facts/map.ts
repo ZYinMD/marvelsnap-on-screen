@@ -178,7 +178,7 @@ export const map: Record<Key, Roster> = {
   '2008|X-Men Origins: Wolverine': {
     major: new Set(),
     minor: new Set(),
-    major_: ['Wolverine', 'Sabretooth', 'Gambit'],
+    major_: ['Wolverine', 'Sabretooth', 'Gambit', 'Blob'],
     minor_: ['Deadpool', 'Professor X'],
   },
   '2010|Iron Man 2': {
@@ -205,7 +205,15 @@ export const map: Record<Key, Roster> = {
   '2011|X-Men: First Class': {
     major: new Set(),
     minor: new Set(),
-    major_: ['Professor X', 'Magneto', 'Mystique', 'Beast', 'Sebastian Shaw', 'Havok'],
+    major_: [
+      'Professor X',
+      'Magneto',
+      'Mystique',
+      'Beast',
+      'Sebastian Shaw',
+      'Havok',
+      'White Queen',
+    ],
     minor_: ['Wolverine'],
   },
   '2011|Captain America: The First Avenger': {
@@ -408,6 +416,7 @@ export const map: Record<Key, Roster> = {
       'Angel',
       'Jubilee',
       'Havok',
+      'Blob',
     ],
     minor_: ['Wolverine'],
   },
