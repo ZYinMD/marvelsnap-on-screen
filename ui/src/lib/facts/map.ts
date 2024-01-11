@@ -745,7 +745,14 @@ export const map: Record<Key, Roster> = {
   '2023|Spider-Man: Across the Spider-Verse': {
     major: new Set(),
     minor: new Set(),
-    major_: ['Miles Morales', 'Ghost-Spider', 'Spider-Woman', 'Spider-Man 2099', 'Spider-Ham'],
+    major_: [
+      'Miles Morales',
+      'Ghost-Spider',
+      'Spider-Man',
+      'Spider-Woman',
+      'Spider-Man 2099',
+      'Spider-Ham',
+    ],
     minor_: [],
   },
   '2006|Blade: The Series': {
