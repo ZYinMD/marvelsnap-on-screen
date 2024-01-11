@@ -901,8 +901,16 @@ export const map: Record<Key, Roster> = {
   '2021–2024|Loki': {
     major: new Set(),
     minor: new Set(),
-    major_: ['Loki', 'Enchantress', 'Mobius M. Mobius', 'Ravonna Renslayer', 'Quinjet'],
-    minor_: ['Alioth', 'Kang'],
+    major_: [
+      'Loki',
+      'Enchantress',
+      'Mobius M. Mobius',
+      'Ravonna Renslayer',
+      'Alioth',
+      'Kang',
+      'Quinjet',
+    ],
+    minor_: [],
   },
   '2022|Moon Knight': {
     major: new Set(),
