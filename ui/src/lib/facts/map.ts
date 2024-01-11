@@ -1089,7 +1089,7 @@ export const map: Record<Key, Roster> = {
   '1998|Silver Surfer': {
     major: new Set(),
     minor: new Set(),
-    major_: ['Silver Surfer', 'Galactus', 'Nova', 'Thanos'],
+    major_: ['Silver Surfer', 'Galactus', 'Nova', 'Thanos', 'Death'],
     minor_: ['Drax', 'Adam Warlock', 'Gamora', 'Nebula', 'Uatu the Watcher'],
   },
   '1999–2000|The Avengers: United They Stand': {

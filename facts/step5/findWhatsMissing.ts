@@ -26,7 +26,6 @@ const indeedNeverAppearedInShows = new Set<CardName>([
   'Blue Marvel',
   'Caiera',
   'Daken',
-  'Death',
   'Debrii',
   'Elsa Bloodstone',
   'Hazmat',
