@@ -290,7 +290,7 @@ export const map: Record<Key, Roster> = {
       'Quinjet',
       'Helicarrier',
     ],
-    minor_: ['Quicksilver', 'Scarlet Witch'],
+    minor_: ['Quicksilver', 'Scarlet Witch', 'Crossbones'],
   },
   '2014|The Amazing Spider-Man 2': {
     major: new Set(),
