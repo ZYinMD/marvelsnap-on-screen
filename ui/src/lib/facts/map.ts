@@ -721,7 +721,7 @@ export const map: Record<Key, Roster> = {
       'Rocket Raccoon',
       'Miek',
     ],
-    minor_: ['Heimdall', 'Hercules'],
+    minor_: ['Heimdall', 'Hercules', 'Bast'],
   },
   '2022|Black Panther: Wakanda Forever': {
     major: new Set(),
