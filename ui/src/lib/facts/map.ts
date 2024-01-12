@@ -452,7 +452,7 @@ export const map: Record<Key, Roster> = {
       'Mantis',
       'Cosmo',
     ],
-    minor_: ['Howard the Duck'],
+    minor_: ['Howard the Duck', 'Uatu the Watcher'],
   },
   '2017|Spider-Man: Homecoming': {
     major: new Set(),
