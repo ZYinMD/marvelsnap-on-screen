@@ -1255,6 +1255,16 @@ export const allTitles = {
       key: '2021|Hit-Monkey',
       label: [],
     },
+    '2022-2023|I am Groot': {
+      type: 'animated-tv-series',
+      year: '2022-2023',
+      title: 'I am Groot',
+      wikipedia: 'https://en.wikipedia.org/wiki/I_Am_Groot',
+      numSeasons: 2,
+      numEpisodes: 10,
+      key: '2022-2023|I am Groot',
+      label: [],
+    },
     '2023|Moon Girl and Devil Dinosaur': {
       type: 'animated-tv-series',
       year: '2023',

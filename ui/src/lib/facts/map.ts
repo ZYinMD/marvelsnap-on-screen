@@ -1918,6 +1918,12 @@ export const map: Record<Key, Roster> = {
     ],
     minor_: ['Arnim Zola'],
   },
+  '2022-2023|I am Groot': {
+    major: new Set(),
+    minor: new Set(),
+    major_: ['Groot', 'Rocket Raccoon', 'Uatu the Watcher'],
+    minor_: [],
+  },
   '2023|Moon Girl and Devil Dinosaur': {
     major: new Set(),
     minor: new Set(),
