@@ -738,6 +738,18 @@ export const map: Record<Key, Roster> = {
     ],
     minor_: [],
   },
+  '2022|Werewolf by Night': {
+    major: new Set(),
+    minor: new Set(),
+    major_: ['Werewolf By Night', 'Elsa Bloodstone', 'Man-Thing'],
+    minor_: [],
+  },
+  '2022|The Guardians of the Galaxy Holiday Special': {
+    major: new Set(),
+    minor: new Set(),
+    major_: ['Star-Lord', 'Drax', 'Nebula', 'Mantis', 'Groot', 'Rocket Raccoon', 'Yondu', 'Cosmo'],
+    minor_: [],
+  },
   '2023|Ant-Man and the Wasp: Quantumania': {
     major: new Set(),
     minor: new Set(),
