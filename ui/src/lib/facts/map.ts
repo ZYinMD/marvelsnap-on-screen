@@ -1000,7 +1000,6 @@ export const map: Record<Key, Roster> = {
       'Deadpool',
     ],
     minor_: [
-      'Iceman',
       'Psylocke',
       'White Queen',
       'High Evolutionary',
@@ -1016,7 +1015,10 @@ export const map: Record<Key, Roster> = {
       'Shanna',
       'Captain America',
       'Nimrod',
+      'Polaris',
+      'Havok',
       'Strong Guy',
+      'Iceman',
       'Gladiator',
       'Blob',
       'Red Skull',
