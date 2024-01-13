@@ -987,6 +987,7 @@ export const map: Record<Key, Roster> = {
       'Mojo',
       'Omega Red',
       'Mister Sinister',
+      'Doctor Strange',
       'Captain Marvel',
       'Juggernaut',
       'Colossus',
