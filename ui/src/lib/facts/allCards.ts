@@ -1633,7 +1633,7 @@ export const allCards = {
   'Stegron': {
     defId: 'Stegron',
     cost: 4,
-    power: 7,
+    power: 6,
     name: 'Stegron',
     description: '<b>On Reveal:</b> Move an enemy card from here to another location.',
   },
@@ -1705,7 +1705,7 @@ export const allCards = {
   'Alioth': {
     defId: 'Alioth',
     cost: 6,
-    power: 3,
+    power: 2,
     name: 'Alioth',
     description: '<b>On Reveal:</b> Destroy all unrevealed enemy cards here.',
   },
@@ -1791,6 +1791,14 @@ export const allCards = {
     power: 6,
     name: 'Hercules',
     description: 'The first time another card moves here each turn, move it to another location.',
+  },
+  'Grand Master': {
+    defId: 'GrandMaster',
+    cost: 2,
+    power: 0,
+    name: 'Grand Master',
+    description:
+      '<b>On Reveal:</b> Move one of your other <b>On Reveal</b> cards here to the middle location. Its ability happens again.',
   },
   'Miek': {
     defId: 'Miek',

@@ -6088,7 +6088,7 @@
     "id": 283,
     "defId": "Stegron",
     "cost": 4,
-    "power": 7,
+    "power": 6,
     "name": "Stegron",
     "description": "<b>On Reveal:</b> Move an enemy card from here to another location.",
     "series": 6,
@@ -6357,7 +6357,7 @@
     "id": 295,
     "defId": "Alioth",
     "cost": 6,
-    "power": 3,
+    "power": 2,
     "name": "Alioth",
     "description": "<b>On Reveal:</b> Destroy all unrevealed enemy cards here.",
     "series": 8,
@@ -6728,7 +6728,8 @@
         "name": "Ryan Kinnaird",
         "type": 4
       }
-    ]
+    ],
+    "collectible": true
   },
   {
     "id": 311,
