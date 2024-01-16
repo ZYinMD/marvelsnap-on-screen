@@ -1028,6 +1028,7 @@ export const map: Record<Key, Roster> = {
       'Domino',
       'Magik',
       'Warpath',
+      'Brood',
     ],
   },
   '1994–1996|Fantastic Four: The Animated Series': {
@@ -1710,6 +1711,7 @@ export const map: Record<Key, Roster> = {
       'Galactus',
       'Ebony Maw',
       'Giganto',
+      'Brood',
     ],
   },
   '2015–2016|Marvel Disk Wars: The Avengers': {
