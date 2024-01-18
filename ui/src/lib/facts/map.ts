@@ -920,7 +920,7 @@ export const map: Record<Key, Roster> = {
     major_: ['Hawkeye', 'Kingpin', 'Echo'],
     minor_: [],
   },
-  '2021–2024|Loki': {
+  '2021–2023|Loki': {
     major: new Set(),
     minor: new Set(),
     major_: [

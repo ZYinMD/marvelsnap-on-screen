@@ -893,15 +893,15 @@ export const allTitles = {
       numEpisodes: 6,
       key: '2021|Hawkeye',
     },
-    '2021–2024|Loki': {
+    '2021–2023|Loki': {
       type: 'live-action-tv-series',
-      year: '2021–2024',
+      year: '2021–2023',
       title: 'Loki',
       wikipedia: 'https://en.wikipedia.org/wiki/Loki_(TV_series)',
       label: ['mcu'],
-      numSeasons: 1,
-      numEpisodes: 6,
-      key: '2021–2024|Loki',
+      numSeasons: 2,
+      numEpisodes: 12,
+      key: '2021–2023|Loki',
     },
     '2022|Moon Knight': {
       type: 'live-action-tv-series',
