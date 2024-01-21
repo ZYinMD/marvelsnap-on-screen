@@ -10,11 +10,9 @@
 
 1. run `deno task step5`, this will tell me which cards do I need to manually put into "map.ts", which is the main source of truth of the app.
 
-1. right click "facts/wiki-pages" > Find in folder, search the new cards to see which show they appeared in. Also google it to see where it appeared.
+1. right click "facts/wiki-pages" > Find in folder, search the new cards to see which show they appeared in. Also google it to see where it appeared, a useful pattern is google "xxx marvel", then go the the wikipedia page about that comic character, then go to the "In other media" section.
 
-   Some useful sites: if they're in MCU, search in the [fandom site](https://marvelcinematicuniverse.fandom.com), also check the [A-L](https://en.wikipedia.org/wiki/Characters_of_the_Marvel_Cinematic_Universe:_A%E2%80%93L) and [M-Z](https://en.wikipedia.org/wiki/Characters_of_the_Marvel_Cinematic_Universe:_M%E2%80%93Z) pages.
-
-   If card is found in the .txt files, visit the wiki page in browser and Ctrl-F there, make sure it really appeared. Watch out for cross-overs - a cross-over episode is not an episode belonging to the main article, it's when characters of the main article went over to other shows. This often happened in old animated series.
+   Some other useful sites: if they're in MCU, search in the [fandom site](https://marvelcinematicuniverse.fandom.com), also check the [A-L](https://en.wikipedia.org/wiki/Characters_of_the_Marvel_Cinematic_Universe:_A%E2%80%93L) and [M-Z](https://en.wikipedia.org/wiki/Characters_of_the_Marvel_Cinematic_Universe:_M%E2%80%93Z) pages.
 
 ## What to do when a new movie / tv series is released:
 
@@ -32,16 +30,14 @@ New releases will appear at the bottom of said sections. When it happens:
 
    **Order of rows in the excel:**
 
-   It's generally ordered in the same order as the wikipedia page which is chronological, but exceptions in tv series for instance Loki season 1 was aired in 2021, She-Hulk in 2022, but on wikipedia Loki appears below She-Hulk because it's in the "Ongoing" section, so in excel it's also below She-Hulk. In the future when all seasons of Loki are finished, I may or may not remember to move it up.
+   In the app, shows are sorted based on the sort option in the bottom left panel, so the order in excel doesn't matter.
 
-   In the end, the order in app is determined by `map.ts`. I'll just manually adjust the order to what I like.
+   (Rows in excel are generally ordered in the same order as the wikipedia page which is chronological, some exceptions in tv series for instance Loki season 1 was aired in 2021, She-Hulk in 2022, but on wikipedia Loki appears below She-Hulk because it's in the "Ongoing" section, so in excel it's also below She-Hulk. When all seasons of Loki are finished, I won't remember to move it up.)
 
 1. Add a new entry in `map.ts`. Red squiggles should already appeared because not all shows are listed, the new entry will make the squiggles go away.
 
 1. Now it's time to add cards in the new entry. First go to its wikipedia page.
 
-- If it's a movie or live action tv series, just read the "Cast" section, it's easy.
+- Read the "Cast" section to add cards to it.
 
-- If animated series, create a new txt file in `facts/one-time-scripts/animated-tv-series/wiki-pages` and copy and paste all wikipedia text into it. If there's another dedicated wikipedia page for "plot of all episodes", prefer that page over the main page. Then run the search script.
-
-- I used to have a script to compare the wiki txt with all existing cards, but now it's deprecated. No longer sure how to find all cards, I'll figure out then.
+- Create a new txt file in `facts/one-time-scripts/animated-tv-series/wiki-pages` and copy and paste all wikipedia text into it. If there's another dedicated wikipedia page for "plot of all episodes", prefer that page over the main page. This txt helps with future searches.
