@@ -32,12 +32,12 @@ New releases will appear at the bottom of said sections. When it happens:
 
    In the app, shows are sorted based on the sort option in the bottom left panel, so the order in excel doesn't matter.
 
-   (Rows in excel are generally ordered in the same order as the wikipedia page which is chronological, some exceptions in tv series for instance Loki season 1 was aired in 2021, She-Hulk in 2022, but on wikipedia Loki appears below She-Hulk because it's in the "Ongoing" section, so in excel it's also below She-Hulk. When all seasons of Loki are finished, I won't remember to move it up.)
+   (rows in excel are generally ordered in the same order as the wikipedia page which is chronological, some exceptions in tv series for instance Loki season 1 was aired in 2021, She-Hulk in 2022, but on wikipedia Loki appears below She-Hulk because it's in the "Ongoing" section, so in excel it's also below She-Hulk. When all seasons of Loki are finished, I won't remember to move it up.)
 
 1. Add a new entry in `map.ts`. Red squiggles should already appeared because not all shows are listed, the new entry will make the squiggles go away.
 
-1. Now it's time to add cards in the new entry. First go to its wikipedia page.
+1. Now it's time to add cards in the new entry. Go to its wikipedia page.
 
-- Read the "Cast" section to add cards to it.
+   - Read the "Cast" section to add each character in `map.ts`.
 
-- Create a new txt file in `facts/one-time-scripts/animated-tv-series/wiki-pages` and copy and paste all wikipedia text into it. If there's another dedicated wikipedia page for "plot of all episodes", prefer that page over the main page. This txt helps with future searches.
+   - Create a new txt file in `facts/one-time-scripts/animated-tv-series/wiki-pages`, copy and paste all wikipedia text into it. If there's another dedicated wikipedia page for "plot of all episodes", prefer that page over the main page. This txt helps with future searches.
