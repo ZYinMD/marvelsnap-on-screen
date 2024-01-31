@@ -23,6 +23,7 @@ verbose(`We have manually confirmed that some of them indeed have never been on 
 const indeedNeverAppearedInShows = new Set<CardName>([
   'Aero',
   'Bast',
+  'Black Swan',
   'Blue Marvel',
   'Caiera',
   'Daken',
