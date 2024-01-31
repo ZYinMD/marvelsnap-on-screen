@@ -176,10 +176,10 @@ export const allCards = {
   'Blob': {
     defId: 'Blob',
     cost: 6,
-    power: 4,
+    power: 0,
     name: 'Blob',
     description:
-      "<b>On Reveal:</b> Merge your deck into this. <i>(and gain its total Power)</i>\n<b>Ongoing:</b> Can't be moved.",
+      "<b>On Reveal:</b> Merge cards from your deck into this until it gains 15 or more Power.\n<b>Ongoing:</b> Can't be moved.",
   },
   'Blue Marvel': {
     defId: 'BlueMarvel',
@@ -290,9 +290,9 @@ export const allCards = {
   'Dagger': {
     defId: 'Dagger',
     cost: 2,
-    power: 2,
+    power: 0,
     name: 'Dagger',
-    description: 'When this moves to a location,\n+2 Power for each enemy card there.',
+    description: 'When this moves to a location,\n+3 Power for each enemy card there.',
   },
   'Daredevil': {
     defId: 'Daredevil',
@@ -310,7 +310,7 @@ export const allCards = {
   },
   'Dazzler': {
     defId: 'Dazzler',
-    cost: 3,
+    cost: 2,
     power: 2,
     name: 'Dazzler',
     description: "<b>Ongoing:</b> +2 Power for each location that's full on your side.",
@@ -346,7 +346,7 @@ export const allCards = {
   'Destroyer': {
     defId: 'Destroyer',
     cost: 6,
-    power: 15,
+    power: 16,
     name: 'Destroyer',
     description: '<b>On Reveal:</b> Destroy your\nother cards.',
   },
@@ -418,7 +418,7 @@ export const allCards = {
   'Elektra': {
     defId: 'Elektra',
     cost: 1,
-    power: 1,
+    power: 2,
     name: 'Elektra',
     description: '<b>On Reveal:</b> Destroy an enemy 1-Cost card here.',
   },
@@ -1475,7 +1475,7 @@ export const allCards = {
   'Viper': {
     defId: 'Viper',
     cost: 3,
-    power: 4,
+    power: 5,
     name: 'Viper',
     description: '<b>On Reveal:</b> One of your other cards here switches sides.',
   },
@@ -1766,7 +1766,7 @@ export const allCards = {
   'Selene': {
     defId: 'Selene',
     cost: 1,
-    power: -1,
+    power: 2,
     name: 'Selene',
     description:
       "<b>On Reveal:</b> Afflict the lowest-Power card in each player's hand\nwith -3 Power.",
@@ -1788,7 +1788,7 @@ export const allCards = {
   'Hercules': {
     defId: 'Hercules',
     cost: 4,
-    power: 6,
+    power: 7,
     name: 'Hercules',
     description: 'The first time another card moves here each turn, move it to another location.',
   },
@@ -1806,5 +1806,26 @@ export const allCards = {
     power: 1,
     name: 'Miek',
     description: 'After each turn, if you discarded any cards, gain +1 Power for each\nand move.',
+  },
+  'Beta Ray Bill': {
+    defId: 'BetaRayBill',
+    cost: 4,
+    power: 6,
+    name: 'Beta Ray Bill',
+    description: '<b>On Reveal:</b> Shuffle Stormbreaker into your deck.',
+  },
+  'Black Swan': {
+    defId: 'BlackSwan',
+    cost: 2,
+    power: 3,
+    name: 'Black Swan',
+    description: '<b>On Reveal:</b> Until the end of next turn, your 1-Cost cards cost 0.',
+  },
+  'Supergiant': {
+    defId: 'Supergiant',
+    cost: 4,
+    power: 5,
+    name: 'Supergiant',
+    description: "<b>On Reveal:</b> All cards played next turn don't reveal until the game ends.",
   },
 } as const;

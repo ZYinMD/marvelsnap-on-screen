@@ -550,9 +550,14 @@
     "id": 26,
     "defId": "Blob",
     "cost": 6,
-    "power": 4,
+    "power": 0,
     "name": "Blob",
-    "description": "<b>On Reveal:</b> Merge your deck into this. <i>(and gain its total Power)</i>\n<b>Ongoing:</b> Can't be moved.",
+    "description": "<b>On Reveal:</b> Merge cards from your deck into this until it gains 15 or more Power.\n<b>Ongoing:</b> Can't be moved.",
+    "attributes": {
+      "data": {
+        "AssignedPower": 15
+      }
+    },
     "series": 8,
     "artists": [
       {
@@ -942,12 +947,12 @@
     "id": 44,
     "defId": "Dagger",
     "cost": 2,
-    "power": 2,
+    "power": 0,
     "name": "Dagger",
-    "description": "When this moves to a location,\n+2 Power for each enemy card there.",
+    "description": "When this moves to a location,\n+3 Power for each enemy card there.",
     "attributes": {
       "data": {
-        "AddedPower": 2
+        "AddedPower": 3
       }
     },
     "series": 6,
@@ -1011,7 +1016,7 @@
   {
     "id": 47,
     "defId": "Dazzler",
-    "cost": 3,
+    "cost": 2,
     "power": 2,
     "name": "Dazzler",
     "description": "<b>Ongoing:</b> +2 Power for each location that's full on your side.",
@@ -1142,7 +1147,7 @@
     "id": 53,
     "defId": "Destroyer",
     "cost": 6,
-    "power": 15,
+    "power": 16,
     "name": "Destroyer",
     "description": "<b>On Reveal:</b> Destroy your\nother cards.",
     "series": 6,
@@ -1416,7 +1421,7 @@
     "id": 65,
     "defId": "Elektra",
     "cost": 1,
-    "power": 1,
+    "power": 2,
     "name": "Elektra",
     "description": "<b>On Reveal:</b> Destroy an enemy 1-Cost card here.",
     "attributes": {
@@ -5456,7 +5461,7 @@
     "id": 252,
     "defId": "Viper",
     "cost": 3,
-    "power": 4,
+    "power": 5,
     "name": "Viper",
     "description": "<b>On Reveal:</b> One of your other cards here switches sides.",
     "series": 6,
@@ -6618,7 +6623,7 @@
     "id": 306,
     "defId": "Selene",
     "cost": 1,
-    "power": -1,
+    "power": 2,
     "name": "Selene",
     "description": "<b>On Reveal:</b> Afflict the lowest-Power card in each player's hand\nwith -3 Power.",
     "attributes": {
@@ -6695,7 +6700,7 @@
     "id": 309,
     "defId": "Hercules",
     "cost": 4,
-    "power": 6,
+    "power": 7,
     "name": "Hercules",
     "description": "The first time another card moves here each turn, move it to another location.",
     "series": 8,
@@ -6718,7 +6723,7 @@
     "power": 0,
     "name": "Grand Master",
     "description": "<b>On Reveal:</b> Move one of your other <b>On Reveal</b> cards here to the middle location. Its ability happens again.",
-    "series": 0,
+    "series": 8,
     "artists": [
       {
         "name": "Eduardo Mello",
@@ -6743,7 +6748,7 @@
         "AddedPower": 1
       }
     },
-    "series": 0,
+    "series": 7,
     "artists": [
       {
         "name": "Eduardo Mello",
@@ -6760,7 +6765,7 @@
     "id": 312,
     "defId": "BetaRayBill",
     "cost": 4,
-    "power": 5,
+    "power": 6,
     "name": "Beta Ray Bill",
     "description": "<b>On Reveal:</b> Shuffle Stormbreaker into your deck.",
     "attributes": {
@@ -6768,7 +6773,7 @@
         "Card_Token": [313]
       }
     },
-    "series": 0,
+    "series": 8,
     "artists": [
       {
         "name": "Eduardo Mello",
@@ -6778,7 +6783,8 @@
         "name": "Ryan Kinnaird",
         "type": 4
       }
-    ]
+    ],
+    "collectible": true
   },
   {
     "id": 313,
@@ -6827,7 +6833,8 @@
         "name": "Ryan Kinnaird",
         "type": 4
       }
-    ]
+    ],
+    "collectible": true
   },
   {
     "id": 315,
@@ -6914,7 +6921,8 @@
         "name": "Ryan Kinnaird",
         "type": 4
       }
-    ]
+    ],
+    "collectible": true
   },
   {
     "id": 319,
