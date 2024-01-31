@@ -1128,7 +1128,7 @@ export const map: Record<Key, Roster> = {
     major: new Set(),
     minor: new Set(),
     major_: ['Silver Surfer', 'Galactus', 'Nova', 'Thanos', 'Death'],
-    minor_: ['Drax', 'Adam Warlock', 'Gamora', 'Nebula', 'Uatu the Watcher'],
+    minor_: ['Drax', 'Adam Warlock', 'Gamora', 'Nebula', 'Uatu the Watcher', 'Beta Ray Bill'],
   },
   '1999–2000|The Avengers: United They Stand': {
     major: new Set(),
@@ -1360,6 +1360,7 @@ export const map: Record<Key, Roster> = {
       'Helicarrier',
     ],
     minor_: [
+      'Beta Ray Bill',
       'Adam Warlock',
       'Uatu the Watcher',
       'Nova',
@@ -1444,6 +1445,7 @@ export const map: Record<Key, Roster> = {
       'Helicarrier',
     ],
     minor_: [
+      'Beta Ray Bill',
       'Maria Hill',
       'Wolverine',
       'Doctor Doom',
