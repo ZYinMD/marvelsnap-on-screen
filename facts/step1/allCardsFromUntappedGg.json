@@ -13,6 +13,7 @@
         "type": 5
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -33,6 +34,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -53,6 +55,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -73,6 +76,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -93,6 +97,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -101,7 +106,7 @@
     "cost": 1,
     "power": 2,
     "name": "Agent 13",
-    "description": "<b>On Reveal:</b> Add a random card to your hand.",
+    "description": "<b>On Reveal:</b> Add a random card\nto your hand.\n<color=#fc7cd8><b>+2 Power Couple:</b></color> Captain America",
     "series": 5,
     "artists": [
       {
@@ -113,6 +118,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -139,6 +145,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -164,6 +171,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -184,6 +192,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -192,7 +201,7 @@
     "cost": 2,
     "power": 2,
     "name": "Angela",
-    "description": "After you play a card here,\n+1 Power.",
+    "description": "After you play a card here,\n+1 Power.\n<color=#fc7cd8><b>+1 Power Couple:</b></color> Sera",
     "attributes": {
       "data": {
         "AddedPower": 1
@@ -209,6 +218,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -234,6 +244,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [1700524800000],
     "collectible": true
   },
   {
@@ -259,6 +270,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -284,6 +296,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -304,6 +317,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -324,6 +338,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -349,15 +364,16 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
     "id": 17,
     "defId": "Beast",
-    "cost": 3,
-    "power": 4,
+    "cost": 2,
+    "power": 2,
     "name": "Beast",
-    "description": "<b>On Reveal:</b> Return your other cards here to your hand. Give them -1 Cost.",
+    "description": "<b>On Reveal:</b> Return your other cards here to your hand. They cost 1 less next turn.",
     "attributes": {
       "data": {
         "ReducedCost": 1
@@ -374,6 +390,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -399,6 +416,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -419,6 +437,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -439,6 +458,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -464,6 +484,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [1697500800000],
     "collectible": true
   },
   {
@@ -472,7 +493,7 @@
     "cost": 5,
     "power": 4,
     "name": "Black Panther",
-    "description": "<b>On Reveal:</b> Double this\ncard's Power.",
+    "description": "<b>On Reveal:</b> Double this\ncard's Power.\n<color=#fc7cd8><b>+1 Power Couple:</b></color> Nakia",
     "series": 6,
     "artists": [
       {
@@ -484,6 +505,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -509,6 +531,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -529,6 +552,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -544,7 +568,8 @@
       }
     },
     "series": 0,
-    "artists": []
+    "artists": [],
+    "seriesStartTimestamps": []
   },
   {
     "id": 26,
@@ -569,6 +594,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [1702339200000],
     "collectible": true
   },
   {
@@ -594,6 +620,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -618,6 +645,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -642,7 +670,8 @@
         "name": "Ryan Kinnaird",
         "type": 4
       }
-    ]
+    ],
+    "seriesStartTimestamps": []
   },
   {
     "id": 30,
@@ -667,6 +696,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -682,7 +712,8 @@
       }
     },
     "series": 0,
-    "artists": []
+    "artists": [],
+    "seriesStartTimestamps": []
   },
   {
     "id": 32,
@@ -702,6 +733,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -710,7 +742,7 @@
     "cost": 3,
     "power": 3,
     "name": "Captain America",
-    "description": "<b>Ongoing:</b> Your other cards here have +1 Power.",
+    "description": "<b>Ongoing:</b> Your other cards here\nhave +1 Power.\n<color=#fc7cd8><b>+2 Power Couple:</b></color> Agent 13",
     "attributes": {
       "data": {
         "AddedPower": 1
@@ -727,6 +759,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -747,6 +780,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -772,6 +806,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -797,6 +832,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -817,6 +853,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -837,6 +874,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -861,6 +899,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -881,6 +920,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -901,6 +941,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -921,6 +962,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -941,6 +983,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -966,6 +1009,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -974,7 +1018,7 @@
     "cost": 2,
     "power": 2,
     "name": "Daredevil",
-    "description": "On turn 5, you get to see your opponent's plays before you\nmake your own.",
+    "description": "On turn 5, you get to see your opponent's plays before you make your own.\n<color=#fc7cd8><b>+2 Power Couple:</b></color> She-Hulk",
     "series": 6,
     "artists": [
       {
@@ -986,6 +1030,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -1011,6 +1056,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -1036,6 +1082,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000, 1684195200000],
     "collectible": true
   },
   {
@@ -1056,6 +1103,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -1081,6 +1129,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -1101,6 +1150,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -1122,6 +1172,7 @@
         "type": 5
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -1141,7 +1192,8 @@
         "name": "Ryan Kinnaird",
         "type": 4
       }
-    ]
+    ],
+    "seriesStartTimestamps": []
   },
   {
     "id": 53,
@@ -1161,6 +1213,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -1186,6 +1239,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -1211,6 +1265,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -1231,6 +1286,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -1256,6 +1312,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -1275,7 +1332,8 @@
         "name": "Ryan Kinnaird",
         "type": 4
       }
-    ]
+    ],
+    "seriesStartTimestamps": []
   },
   {
     "id": 59,
@@ -1295,6 +1353,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -1320,6 +1379,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -1345,6 +1405,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -1364,7 +1425,8 @@
         "name": "Ryan Kinnaird",
         "type": 4
       }
-    ]
+    ],
+    "seriesStartTimestamps": []
   },
   {
     "id": 63,
@@ -1389,6 +1451,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -1415,6 +1478,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -1440,6 +1504,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -1450,7 +1515,8 @@
     "name": "Elektra",
     "description": "<i>\"To look upon me is to see the end.\"</i>",
     "series": 0,
-    "artists": []
+    "artists": [],
+    "seriesStartTimestamps": []
   },
   {
     "id": 67,
@@ -1475,6 +1541,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [1696291200000, 1699315200000],
     "collectible": true
   },
   {
@@ -1495,6 +1562,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -1516,6 +1584,7 @@
         "type": 5
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -1531,7 +1600,8 @@
       }
     },
     "series": 0,
-    "artists": []
+    "artists": [],
+    "seriesStartTimestamps": []
   },
   {
     "id": 71,
@@ -1556,6 +1626,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -1576,6 +1647,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -1584,7 +1656,7 @@
     "cost": 3,
     "power": 3,
     "name": "Gambit",
-    "description": "<b>On Reveal:</b> Discard a card from your hand to destroy a random enemy card.",
+    "description": "<b>On Reveal:</b> Discard a card from your hand to destroy a random enemy card.\n<color=#fc7cd8><b>+2 Power Couple:</b></color> Rogue",
     "series": 6,
     "artists": [
       {
@@ -1596,6 +1668,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -1604,7 +1677,7 @@
     "cost": 5,
     "power": 7,
     "name": "Gamora",
-    "description": "<b>On Reveal:</b> If your opponent played a card here this turn, +5 Power.",
+    "description": "<b>On Reveal:</b> If your opponent played a card here this turn, +5 Power.\n<color=#fc7cd8><b>+1 Power Couple:</b></color> Star-Lord",
     "attributes": {
       "data": {
         "AddedPower": 5
@@ -1621,6 +1694,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -1641,6 +1715,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -1649,7 +1724,7 @@
     "cost": 1,
     "power": 2,
     "name": "Ghost-Spider",
-    "description": "<b>On Reveal:</b> The last card you played moves here.",
+    "description": "<b>On Reveal:</b> The last card you played moves here.\n<color=#fc7cd8><b>+1 Power Couple:</b></color> Miles Morales",
     "series": 7,
     "artists": [
       {
@@ -1661,6 +1736,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [1686009600000, 1688428800000, 1704585600000],
     "collectible": true
   },
   {
@@ -1681,6 +1757,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -1691,7 +1768,8 @@
     "name": "Goblin Queen",
     "description": "<b>On Reveal:</b> Other cards can't be revealed this turn.",
     "series": 0,
-    "artists": []
+    "artists": [],
+    "seriesStartTimestamps": []
   },
   {
     "id": 79,
@@ -1718,6 +1796,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -1738,6 +1817,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -1763,6 +1843,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -1773,7 +1854,8 @@
     "name": "Gwenpool",
     "description": "<b>On Reveal:</b> Double this card's Power.",
     "series": 0,
-    "artists": []
+    "artists": [],
+    "seriesStartTimestamps": []
   },
   {
     "id": 83,
@@ -1798,6 +1880,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -1823,13 +1906,14 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
     "id": 85,
     "defId": "Heimdall",
     "cost": 6,
-    "power": 8,
+    "power": 9,
     "name": "Heimdall",
     "description": "<b>On Reveal:</b> Move your other cards one location to the left.",
     "series": 4,
@@ -1843,6 +1927,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -1863,6 +1948,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -1871,12 +1957,7 @@
     "cost": 6,
     "power": 10,
     "name": "Helicarrier",
-    "description": "When you discard this, add 3 random cards to your hand.",
-    "attributes": {
-      "data": {
-        "TokenCount": 3
-      }
-    },
+    "description": "When you discard this, fill your hand with random cards.",
     "series": 6,
     "artists": [
       {
@@ -1888,6 +1969,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -1913,6 +1995,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -1938,6 +2021,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [1680566400000, 1682985600000, 1704585600000],
     "collectible": true
   },
   {
@@ -1954,6 +2038,7 @@
         "type": 5
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -1979,6 +2064,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -1999,13 +2085,14 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
     "id": 93,
     "defId": "Hulkbuster",
-    "cost": 3,
-    "power": 5,
+    "cost": 2,
+    "power": 3,
     "name": "Hulkbuster",
     "description": "<b>On Reveal:</b> Merge this with one of your cards here.",
     "series": 4,
@@ -2019,6 +2106,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -2035,6 +2123,7 @@
         "type": 5
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -2057,6 +2146,7 @@
         "type": 5
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -2077,6 +2167,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -2085,7 +2176,7 @@
     "cost": 2,
     "power": 3,
     "name": "Invisible Woman",
-    "description": "<b>Ongoing:</b> Cards you play here are not revealed until the game ends.",
+    "description": "<b>Ongoing:</b> Cards you play here are not revealed until the game ends.\n<color=#fc7cd8><b>+2 Power Couple:</b></color> Mister Fantastic",
     "series": 6,
     "artists": [
       {
@@ -2093,6 +2184,7 @@
         "type": 5
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -2113,6 +2205,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -2139,6 +2232,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -2147,7 +2241,7 @@
     "cost": 5,
     "power": 0,
     "name": "Iron Man",
-    "description": "<b>Ongoing:</b> Your total Power\nis doubled here.",
+    "description": "<b>Ongoing:</b> Your total Power\nis doubled here.\n<color=#fc7cd8><b>+1 Power Couple:</b></color> Rescue",
     "series": 1,
     "artists": [
       {
@@ -2159,6 +2253,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -2184,6 +2279,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -2204,6 +2300,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [1689033600000],
     "collectible": true
   },
   {
@@ -2224,6 +2321,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [1681776000000],
     "collectible": true
   },
   {
@@ -2249,6 +2347,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -2269,6 +2368,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -2289,6 +2389,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -2309,6 +2410,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -2335,6 +2437,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -2360,6 +2463,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -2375,7 +2479,8 @@
       }
     },
     "series": 0,
-    "artists": []
+    "artists": [],
+    "seriesStartTimestamps": []
   },
   {
     "id": 111,
@@ -2400,6 +2505,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -2425,6 +2531,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [1679961600000, 1704585600000],
     "collectible": true
   },
   {
@@ -2450,6 +2557,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -2475,6 +2583,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -2500,6 +2609,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -2516,6 +2626,7 @@
         "type": 5
       }
     ],
+    "seriesStartTimestamps": [1692057600000, 1704585600000],
     "collectible": true
   },
   {
@@ -2536,6 +2647,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -2556,6 +2668,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -2581,6 +2694,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -2601,6 +2715,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [1690243200000],
     "collectible": true
   },
   {
@@ -2621,6 +2736,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [1685404800000],
     "collectible": true
   },
   {
@@ -2647,6 +2763,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -2667,6 +2784,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -2692,15 +2810,16 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [1693872000000, 1696291200000],
     "collectible": true
   },
   {
     "id": 125,
     "defId": "LukeCage",
-    "cost": 2,
-    "power": 3,
+    "cost": 3,
+    "power": 4,
     "name": "Luke Cage",
-    "description": "<b>Ongoing:</b> Your cards here can't have their Power reduced.",
+    "description": "<b>Ongoing:</b> Your cards can't have their Power reduced.",
     "series": 6,
     "artists": [
       {
@@ -2712,6 +2831,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -2740,6 +2860,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -2766,6 +2887,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -2776,7 +2898,8 @@
     "name": "Makkari",
     "description": "When you draw this, place it at a random location.",
     "series": 0,
-    "artists": []
+    "artists": [],
+    "seriesStartTimestamps": []
   },
   {
     "id": 129,
@@ -2796,6 +2919,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -2821,6 +2945,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -2849,6 +2974,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [1678752000000, 1684195200000, 1704585600000],
     "collectible": true
   },
   {
@@ -2874,6 +3000,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -2894,6 +3021,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -2919,6 +3047,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -2938,7 +3067,8 @@
         "name": "Ryan Kinnaird",
         "type": 4
       }
-    ]
+    ],
+    "seriesStartTimestamps": []
   },
   {
     "id": 136,
@@ -2946,7 +3076,7 @@
     "cost": 4,
     "power": 5,
     "name": "Miles Morales",
-    "description": "If a card moved last turn, this costs 1.",
+    "description": "If a card moved last turn, this costs 1.\n<color=#fc7cd8><b>+1 Power Couple:</b></color> Ghost-Spider",
     "attributes": {
       "data": {
         "AssignedCost": 1
@@ -2963,6 +3093,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -2984,7 +3115,8 @@
         "name": "Ryan Kinnaird",
         "type": 5
       }
-    ]
+    ],
+    "seriesStartTimestamps": []
   },
   {
     "id": 138,
@@ -3009,6 +3141,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [1690848000000],
     "collectible": true
   },
   {
@@ -3029,6 +3162,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -3056,7 +3190,8 @@
         "name": "Ryan Kinnaird",
         "type": 4
       }
-    ]
+    ],
+    "seriesStartTimestamps": []
   },
   {
     "id": 141,
@@ -3076,6 +3211,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -3101,6 +3237,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -3120,7 +3257,8 @@
         "name": "Ryan Kinnaird",
         "type": 4
       }
-    ]
+    ],
+    "seriesStartTimestamps": []
   },
   {
     "id": 144,
@@ -3140,6 +3278,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -3160,6 +3299,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -3185,6 +3325,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -3205,6 +3346,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -3213,7 +3355,7 @@
     "cost": 3,
     "power": 2,
     "name": "Mister Fantastic",
-    "description": "<b>Ongoing:</b> Adjacent locations have +2 Power.",
+    "description": "<b>Ongoing:</b> Adjacent locations\nhave +2 Power.\n<color=#fc7cd8><b>+2 Power Couple:</b></color> Invisible Woman",
     "attributes": {
       "data": {
         "AddedPower": 2
@@ -3230,6 +3372,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -3250,6 +3393,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -3275,6 +3419,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -3301,6 +3446,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [1699315200000, 1701734400000],
     "collectible": true
   },
   {
@@ -3321,6 +3467,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -3346,6 +3493,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -3365,7 +3513,8 @@
         "name": "Ryan Kinnaird",
         "type": 4
       }
-    ]
+    ],
+    "seriesStartTimestamps": []
   },
   {
     "id": 155,
@@ -3389,7 +3538,8 @@
         "name": "Ryan Kinnaird",
         "type": 4
       }
-    ]
+    ],
+    "seriesStartTimestamps": []
   },
   {
     "id": 156,
@@ -3409,6 +3559,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -3417,7 +3568,7 @@
     "cost": 3,
     "power": 3,
     "name": "Nakia",
-    "description": "<b>On Reveal:</b> Give all cards in your hand +1 Power.",
+    "description": "<b>On Reveal:</b> Give all cards in your hand +1 Power.\n<color=#fc7cd8><b>+1 Power Couple:</b></color> Black Panther",
     "attributes": {
       "data": {
         "AddedPower": 1
@@ -3434,6 +3585,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -3459,6 +3611,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -3484,6 +3637,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [1682985600000, 1686009600000],
     "collectible": true
   },
   {
@@ -3504,6 +3658,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [1679356800000, 1684195200000, 1704585600000],
     "collectible": true
   },
   {
@@ -3530,6 +3685,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -3550,6 +3706,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -3560,7 +3717,8 @@
     "name": "Night Nurse",
     "description": "<b>On Reveal:</b> Add all cards you discarded or destroyed last turn to your hand.",
     "series": 0,
-    "artists": []
+    "artists": [],
+    "seriesStartTimestamps": []
   },
   {
     "id": 164,
@@ -3579,7 +3737,8 @@
         "name": "Ryan Kinnaird",
         "type": 4
       }
-    ]
+    ],
+    "seriesStartTimestamps": []
   },
   {
     "id": 165,
@@ -3604,6 +3763,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -3624,6 +3784,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -3649,6 +3810,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -3657,11 +3819,10 @@
     "cost": 4,
     "power": 5,
     "name": "Omega Red",
-    "description": "<b>Ongoing:</b> If you're ahead by\n10 Power here, +4 Power\nto other locations.",
+    "description": "<b>Ongoing:</b> If you're winning here, +3 Power to other locations.",
     "attributes": {
       "data": {
-        "PowerDifference": 10,
-        "AddedPower": 4
+        "AddedPower": 3
       }
     },
     "series": 6,
@@ -3675,6 +3836,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -3695,6 +3857,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -3720,6 +3883,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -3745,6 +3909,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -3771,6 +3936,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -3794,7 +3960,8 @@
         "name": "Ryan Kinnaird",
         "type": 5
       }
-    ]
+    ],
+    "seriesStartTimestamps": []
   },
   {
     "id": 174,
@@ -3814,6 +3981,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -3839,6 +4007,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -3864,6 +4033,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -3884,6 +4054,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -3904,6 +4075,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -3929,6 +4101,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -3939,7 +4112,8 @@
     "name": "Random",
     "description": "<b>On Reveal:</b> Set this card's Power equal to the Power of a random card in your deck.",
     "series": 0,
-    "artists": []
+    "artists": [],
+    "seriesStartTimestamps": []
   },
   {
     "id": 181,
@@ -3958,7 +4132,8 @@
         "name": "Ryan Kinnaird",
         "type": 4
       }
-    ]
+    ],
+    "seriesStartTimestamps": []
   },
   {
     "id": 182,
@@ -3973,17 +4148,28 @@
         "name": "Ryan Kinnaird",
         "type": 5
       }
-    ]
+    ],
+    "seriesStartTimestamps": []
   },
   {
     "id": 183,
     "defId": "RedGuardian",
     "cost": 3,
-    "power": 6,
+    "power": 4,
     "name": "Red Guardian",
-    "description": "<b>On Reveal:</b> You must play a card here next turn.",
+    "description": "<b>On Reveal:</b> Remove the text of the lowest-Power enemy card here.",
     "series": 0,
-    "artists": []
+    "artists": [
+      {
+        "name": "Ryan Benjamin",
+        "type": 1
+      },
+      {
+        "name": "Ryan Kinnaird",
+        "type": 4
+      }
+    ],
+    "seriesStartTimestamps": [1714435200000]
   },
   {
     "id": 184,
@@ -4008,6 +4194,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -4016,7 +4203,7 @@
     "cost": 4,
     "power": 4,
     "name": "Rescue",
-    "description": "<b>On Reveal:</b> If you play a card at this location next turn, +5 Power.",
+    "description": "<b>On Reveal:</b> If you play a card at this location next turn, +5 Power.\n<color=#fc7cd8><b>+1 Power Couple:</b></color> Iron Man",
     "attributes": {
       "data": {
         "AddedPower": 5
@@ -4033,6 +4220,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -4058,6 +4246,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -4073,7 +4262,8 @@
         "name": "Ryan Kinnaird",
         "type": 5
       }
-    ]
+    ],
+    "seriesStartTimestamps": []
   },
   {
     "id": 188,
@@ -4098,6 +4288,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -4126,6 +4317,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -4134,7 +4326,7 @@
     "cost": 3,
     "power": 2,
     "name": "Rogue",
-    "description": "<b>On Reveal:</b> Steal the text from an enemy <b>Ongoing</b> card here.",
+    "description": "<b>On Reveal:</b> Steal the text from an enemy <b>Ongoing</b> card here.\n<color=#fc7cd8><b>+2 Power Couple:</b></color> Gambit",
     "series": 6,
     "artists": [
       {
@@ -4146,6 +4338,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -4156,7 +4349,8 @@
     "name": "Rogue",
     "description": "<i>\"Ah'm giving you one last chance to surrender, sugah.\"</i>",
     "series": 0,
-    "artists": []
+    "artists": [],
+    "seriesStartTimestamps": []
   },
   {
     "id": 192,
@@ -4181,6 +4375,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -4206,6 +4401,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -4231,6 +4427,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -4251,6 +4448,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000, 1684195200000],
     "collectible": true
   },
   {
@@ -4259,7 +4457,7 @@
     "cost": 2,
     "power": 3,
     "name": "Scarlet Witch",
-    "description": "<b>On Reveal:</b> Replace this location with a new one.",
+    "description": "<b>On Reveal:</b> Replace this location with a new one.\n<color=#fc7cd8><b>+1 Power Couple:</b></color> Vision",
     "series": 4,
     "artists": [
       {
@@ -4267,6 +4465,7 @@
         "type": 5
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -4292,6 +4491,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -4312,6 +4512,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -4322,7 +4523,8 @@
     "name": "Sentinel",
     "description": "<b>On Reveal:</b> Add another Sentinel to your hand.",
     "series": 0,
-    "artists": []
+    "artists": [],
+    "seriesStartTimestamps": []
   },
   {
     "id": 200,
@@ -4347,6 +4549,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000, 1684195200000],
     "collectible": true
   },
   {
@@ -4355,7 +4558,7 @@
     "cost": 5,
     "power": 4,
     "name": "Sera",
-    "description": "<b>Ongoing:</b> Cards in your hand cost 1 less. <i>(minimum 1)</i>",
+    "description": "<b>Ongoing:</b> Cards in your hand cost\n1 less. <i>(minimum 1)</i>\n<color=#fc7cd8><b>+1 Power Couple:</b></color> Angela",
     "attributes": {
       "data": {
         "ReducedCost": 1
@@ -4372,6 +4575,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -4392,6 +4596,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000, 1684195200000],
     "collectible": true
   },
   {
@@ -4417,6 +4622,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -4438,6 +4644,7 @@
         "type": 5
       }
     ],
+    "seriesStartTimestamps": [-2177452800000, 1686614400000],
     "collectible": true
   },
   {
@@ -4446,7 +4653,7 @@
     "cost": 6,
     "power": 10,
     "name": "She-Hulk",
-    "description": "Costs 1 less for each unspent Energy last turn.",
+    "description": "Costs 1 less for each unspent Energy last turn.\n<color=#fc7cd8><b>+2 Power Couple:</b></color> Daredevil",
     "attributes": {
       "data": {
         "ReducedCost": 1
@@ -4463,6 +4670,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -4479,6 +4687,7 @@
         "type": 5
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -4499,6 +4708,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -4519,6 +4729,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [1686614400000],
     "collectible": true
   },
   {
@@ -4543,7 +4754,8 @@
         "name": "Ryan Kinnaird",
         "type": 4
       }
-    ]
+    ],
+    "seriesStartTimestamps": []
   },
   {
     "id": 210,
@@ -4563,6 +4775,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [1693267200000, 1704585600000],
     "collectible": true
   },
   {
@@ -4589,6 +4802,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000, 1684195200000],
     "collectible": true
   },
   {
@@ -4613,7 +4827,8 @@
         "name": "Ryan Kinnaird",
         "type": 4
       }
-    ]
+    ],
+    "seriesStartTimestamps": []
   },
   {
     "id": 213,
@@ -4638,6 +4853,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [1681171200000, 1686614400000],
     "collectible": true
   },
   {
@@ -4663,7 +4879,8 @@
         "name": "Ryan Kinnaird",
         "type": 4
       }
-    ]
+    ],
+    "seriesStartTimestamps": []
   },
   {
     "id": 215,
@@ -4688,7 +4905,8 @@
         "name": "Ryan Kinnaird",
         "type": 4
       }
-    ]
+    ],
+    "seriesStartTimestamps": []
   },
   {
     "id": 216,
@@ -4707,7 +4925,8 @@
       }
     },
     "series": 0,
-    "artists": []
+    "artists": [],
+    "seriesStartTimestamps": []
   },
   {
     "id": 217,
@@ -4727,7 +4946,8 @@
         "name": "Ryan Kinnaird",
         "type": 5
       }
-    ]
+    ],
+    "seriesStartTimestamps": []
   },
   {
     "id": 218,
@@ -4742,7 +4962,8 @@
         "name": "Ryan Kinnaird",
         "type": 5
       }
-    ]
+    ],
+    "seriesStartTimestamps": []
   },
   {
     "id": 219,
@@ -4767,6 +4988,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -4787,6 +5009,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -4797,7 +5020,8 @@
     "name": "SpiderMan",
     "description": "<i>\"Friendly neighborhood Spider-Man here!\"</i>",
     "series": 0,
-    "artists": []
+    "artists": [],
+    "seriesStartTimestamps": []
   },
   {
     "id": 222,
@@ -4822,6 +5046,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -4846,7 +5071,8 @@
         "name": "Ryan Kinnaird",
         "type": 4
       }
-    ]
+    ],
+    "seriesStartTimestamps": []
   },
   {
     "id": 224,
@@ -4871,6 +5097,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -4879,7 +5106,7 @@
     "cost": 2,
     "power": 2,
     "name": "Star-Lord",
-    "description": "<b>On Reveal:</b> If your opponent played a card here this turn, +3 Power.",
+    "description": "<b>On Reveal:</b> If your opponent played a card here this turn, +3 Power.\n<color=#fc7cd8><b>+1 Power Couple:</b></color> Gamora",
     "attributes": {
       "data": {
         "AddedPower": 3
@@ -4896,6 +5123,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -4921,6 +5149,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -4946,6 +5175,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -4970,7 +5200,8 @@
         "name": "Ryan Kinnaird",
         "type": 4
       }
-    ]
+    ],
+    "seriesStartTimestamps": []
   },
   {
     "id": 229,
@@ -4991,6 +5222,7 @@
         "type": 5
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -5011,6 +5243,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -5035,7 +5268,8 @@
         "name": "Ryan Kinnaird",
         "type": 4
       }
-    ]
+    ],
+    "seriesStartTimestamps": []
   },
   {
     "id": 232,
@@ -5060,6 +5294,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -5080,6 +5315,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -5100,6 +5336,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -5110,7 +5347,8 @@
     "name": "Test Card",
     "description": "ERROR",
     "series": 0,
-    "artists": []
+    "artists": [],
+    "seriesStartTimestamps": []
   },
   {
     "id": 236,
@@ -5135,6 +5373,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -5160,6 +5399,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -5180,6 +5420,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [1688428800000, 1691452800000, 1704585600000],
     "collectible": true
   },
   {
@@ -5200,6 +5441,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -5219,7 +5461,8 @@
         "name": "Ryan Kinnaird",
         "type": 4
       }
-    ]
+    ],
+    "seriesStartTimestamps": []
   },
   {
     "id": 241,
@@ -5248,6 +5491,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -5267,7 +5511,8 @@
         "name": "Ryan Kinnaird",
         "type": 4
       }
-    ]
+    ],
+    "seriesStartTimestamps": []
   },
   {
     "id": 243,
@@ -5287,7 +5532,8 @@
         "name": "Ryan Kinnaird",
         "type": 5
       }
-    ]
+    ],
+    "seriesStartTimestamps": []
   },
   {
     "id": 244,
@@ -5307,6 +5553,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -5317,7 +5564,8 @@
     "name": "Toad",
     "description": "<b>On Reveal:</b> Move the last card you played to this location.",
     "series": 0,
-    "artists": []
+    "artists": [],
+    "seriesStartTimestamps": []
   },
   {
     "id": 246,
@@ -5342,6 +5590,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -5362,6 +5611,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -5390,6 +5640,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -5414,7 +5665,8 @@
         "name": "Ryan Kinnaird",
         "type": 4
       }
-    ]
+    ],
+    "seriesStartTimestamps": []
   },
   {
     "id": 250,
@@ -5439,6 +5691,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -5455,6 +5708,7 @@
         "type": 5
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -5475,6 +5729,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -5483,7 +5738,7 @@
     "cost": 5,
     "power": 8,
     "name": "Vision",
-    "description": "You can move this each turn.",
+    "description": "You can move this each turn.\n<color=#fc7cd8><b>+1 Power Couple:</b></color> Scarlet Witch",
     "series": 5,
     "artists": [
       {
@@ -5491,6 +5746,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -5501,7 +5757,8 @@
     "name": "Viv Vision",
     "description": "When you move a card to a location, move this card\nthere as well.",
     "series": 0,
-    "artists": []
+    "artists": [],
+    "seriesStartTimestamps": []
   },
   {
     "id": 255,
@@ -5526,6 +5783,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -5545,7 +5803,8 @@
         "name": "Ryan Kinnaird",
         "type": 4
       }
-    ]
+    ],
+    "seriesStartTimestamps": [1711411200000]
   },
   {
     "id": 257,
@@ -5570,6 +5829,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -5590,6 +5850,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -5615,6 +5876,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -5634,7 +5896,8 @@
         "name": "Ryan Kinnaird",
         "type": 4
       }
-    ]
+    ],
+    "seriesStartTimestamps": []
   },
   {
     "id": 261,
@@ -5654,6 +5917,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -5679,6 +5943,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -5698,7 +5963,8 @@
         "name": "Ryan Kinnaird",
         "type": 4
       }
-    ]
+    ],
+    "seriesStartTimestamps": []
   },
   {
     "id": 264,
@@ -5713,7 +5979,8 @@
       }
     },
     "series": 0,
-    "artists": []
+    "artists": [],
+    "seriesStartTimestamps": []
   },
   {
     "id": 265,
@@ -5738,6 +6005,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -5763,6 +6031,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -5783,6 +6052,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -5808,6 +6078,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [1692662400000],
     "collectible": true
   },
   {
@@ -5833,6 +6104,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -5853,6 +6125,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -5868,7 +6141,8 @@
       }
     },
     "series": 0,
-    "artists": []
+    "artists": [],
+    "seriesStartTimestamps": []
   },
   {
     "id": 272,
@@ -5898,6 +6172,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -5918,6 +6193,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -5943,6 +6219,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -5963,6 +6240,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -5982,7 +6260,8 @@
         "name": "Ryan Kinnaird",
         "type": 4
       }
-    ]
+    ],
+    "seriesStartTimestamps": []
   },
   {
     "id": 277,
@@ -6002,6 +6281,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000],
     "collectible": true
   },
   {
@@ -6012,7 +6292,8 @@
     "name": "Symbiote",
     "description": "<i>YUUUUUMMMMMM!!!</i>",
     "series": 0,
-    "artists": []
+    "artists": [],
+    "seriesStartTimestamps": []
   },
   {
     "id": 279,
@@ -6037,13 +6318,14 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000, 1704585600000],
     "collectible": true
   },
   {
     "id": 280,
     "defId": "Ghost",
-    "cost": 1,
-    "power": 2,
+    "cost": 3,
+    "power": 5,
     "name": "Ghost",
     "description": "<b>Ongoing:</b> Your cards are always revealed last. <i>(Their <b>On Reveal</b> abilities happen last.)</i>",
     "series": 6,
@@ -6057,6 +6339,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [-2177452800000, 1684195200000],
     "collectible": true
   },
   {
@@ -6077,6 +6360,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [1678147200000, 1680566400000, 1684195200000],
     "collectible": true
   },
   {
@@ -6087,7 +6371,8 @@
     "name": "J. Jonah Jameson",
     "description": "<b>Ongoing:</b> Your emotes\nare ruder.",
     "series": 0,
-    "artists": []
+    "artists": [],
+    "seriesStartTimestamps": []
   },
   {
     "id": 283,
@@ -6107,6 +6392,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [1682380800000, 1686614400000, 1704585600000],
     "collectible": true
   },
   {
@@ -6127,6 +6413,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [1684195200000, 1704585600000],
     "collectible": true
   },
   {
@@ -6138,7 +6425,7 @@
     "description": "At the start of the game, unlock the potential of your cards with no abilities.",
     "attributes": {
       "cards": {
-        "Card_Related": [323, 324, 325, 326, 327, 328, 329]
+        "Card_Related": [329, 330, 331, 332, 333, 334, 335]
       }
     },
     "series": 8,
@@ -6152,6 +6439,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [1684800000000],
     "collectible": true
   },
   {
@@ -6172,6 +6460,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [1683590400000],
     "collectible": true
   },
   {
@@ -6197,6 +6486,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [1687219200000],
     "collectible": true
   },
   {
@@ -6221,13 +6511,14 @@
         "name": "Ryan Kinnaird",
         "type": 4
       }
-    ]
+    ],
+    "seriesStartTimestamps": []
   },
   {
     "id": 289,
     "defId": "SpiderMan2099",
-    "cost": 4,
-    "power": 6,
+    "cost": 5,
+    "power": 9,
     "name": "Spider-Man 2099",
     "description": "The first time this moves to any location, destroy an enemy card there.",
     "series": 6,
@@ -6241,6 +6532,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [1687824000000, 1704585600000],
     "collectible": true
   },
   {
@@ -6261,6 +6553,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [1689638400000, 1704585600000],
     "collectible": true
   },
   {
@@ -6286,6 +6579,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [1691452800000, 1693872000000, 1704585600000],
     "collectible": true
   },
   {
@@ -6310,7 +6604,8 @@
         "name": "Ryan Kinnaird",
         "type": 4
       }
-    ]
+    ],
+    "seriesStartTimestamps": []
   },
   {
     "id": 293,
@@ -6336,6 +6631,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [1695081600000],
     "collectible": true
   },
   {
@@ -6356,6 +6652,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [1695686400000],
     "collectible": true
   },
   {
@@ -6376,6 +6673,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [1694476800000],
     "collectible": true
   },
   {
@@ -6404,6 +6702,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [1696896000000],
     "collectible": true
   },
   {
@@ -6428,7 +6727,8 @@
         "name": "Ryan Kinnaird",
         "type": 4
       }
-    ]
+    ],
+    "seriesStartTimestamps": []
   },
   {
     "id": 298,
@@ -6439,7 +6739,7 @@
     "description": "<b>On Reveal:</b> After you play your next card, cast a spell. <i>(The spell\nchanges each turn.)</i>",
     "attributes": {
       "cards": {
-        "Card_Related": [330, 331, 332, 333, 334, 335, 336]
+        "Card_Related": [336, 337, 338, 339, 340, 341, 342]
       }
     },
     "series": 8,
@@ -6453,6 +6753,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [1698105600000],
     "collectible": true
   },
   {
@@ -6478,6 +6779,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [1698710400000],
     "collectible": true
   },
   {
@@ -6498,6 +6800,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [1699920000000],
     "collectible": true
   },
   {
@@ -6518,6 +6821,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [1701129600000],
     "collectible": true
   },
   {
@@ -6542,7 +6846,8 @@
         "name": "Ryan Kinnaird",
         "type": 4
       }
-    ]
+    ],
+    "seriesStartTimestamps": []
   },
   {
     "id": 303,
@@ -6567,6 +6872,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [1701734400000, 1704153600000],
     "collectible": true
   },
   {
@@ -6591,7 +6897,8 @@
         "name": "Ryan Kinnaird",
         "type": 4
       }
-    ]
+    ],
+    "seriesStartTimestamps": []
   },
   {
     "id": 305,
@@ -6617,6 +6924,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [1702944000000],
     "collectible": true
   },
   {
@@ -6642,6 +6950,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [1703548800000],
     "collectible": true
   },
   {
@@ -6657,7 +6966,7 @@
         "ReducedCost": 2
       }
     },
-    "series": 9,
+    "series": 8,
     "artists": [
       {
         "name": "Eduardo Mello",
@@ -6668,6 +6977,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [1704153600000, 1707177600000],
     "collectible": true
   },
   {
@@ -6694,6 +7004,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [1704153600000],
     "collectible": true
   },
   {
@@ -6714,6 +7025,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [1704758400000],
     "collectible": true
   },
   {
@@ -6734,6 +7046,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [1705968000000],
     "collectible": true
   },
   {
@@ -6759,6 +7072,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [1705363200000],
     "collectible": true
   },
   {
@@ -6784,6 +7098,7 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [1706572800000],
     "collectible": true
   },
   {
@@ -6808,13 +7123,14 @@
         "name": "Ryan Kinnaird",
         "type": 4
       }
-    ]
+    ],
+    "seriesStartTimestamps": []
   },
   {
     "id": 314,
     "defId": "BlackSwan",
-    "cost": 2,
-    "power": 3,
+    "cost": 3,
+    "power": 5,
     "name": "Black Swan",
     "description": "<b>On Reveal:</b> Until the end of next turn, your 1-Cost cards cost 0.",
     "attributes": {
@@ -6823,7 +7139,7 @@
         "AssignedCost": 0
       }
     },
-    "series": 0,
+    "series": 9,
     "artists": [
       {
         "name": "Eduardo Mello",
@@ -6834,13 +7150,14 @@
         "type": 4
       }
     ],
+    "seriesStartTimestamps": [1707177600000, 1709596800000],
     "collectible": true
   },
   {
     "id": 315,
     "defId": "CorvusGlaive",
     "cost": 3,
-    "power": 4,
+    "power": 5,
     "name": "Corvus Glaive",
     "description": "<b>On Reveal:</b> Discard 2 cards from your hand to get +1 Max Energy.",
     "attributes": {
@@ -6859,13 +7176,15 @@
         "name": "Ryan Kinnaird",
         "type": 4
       }
-    ]
+    ],
+    "seriesStartTimestamps": [1708387200000],
+    "collectible": true
   },
   {
     "id": 316,
     "defId": "ProximaMidnight",
     "cost": 4,
-    "power": 6,
+    "power": 7,
     "name": "Proxima Midnight",
     "description": "When this is discarded, jumps to your lowest-Power location. <i>(that isn't full)</i>",
     "series": 0,
@@ -6878,13 +7197,14 @@
         "name": "Ryan Kinnaird",
         "type": 4
       }
-    ]
+    ],
+    "seriesStartTimestamps": [1708992000000]
   },
   {
     "id": 317,
     "defId": "CullObsidian",
     "cost": 4,
-    "power": 9,
+    "power": 10,
     "name": "Cull Obsidian",
     "description": "You can only play this where you have a 1-Cost card.",
     "attributes": {
@@ -6892,7 +7212,7 @@
         "TargetCardCost": 1
       }
     },
-    "series": 0,
+    "series": 8,
     "artists": [
       {
         "name": "Eduardo Mello",
@@ -6902,7 +7222,9 @@
         "name": "Ryan Kinnaird",
         "type": 4
       }
-    ]
+    ],
+    "seriesStartTimestamps": [1707782400000],
+    "collectible": true
   },
   {
     "id": 318,
@@ -6911,6 +7233,32 @@
     "power": 5,
     "name": "Supergiant",
     "description": "<b>On Reveal:</b> All cards played next turn don't reveal until the game ends.",
+    "series": 8,
+    "artists": [
+      {
+        "name": "Eduardo Mello",
+        "type": 1
+      },
+      {
+        "name": "Ryan Kinnaird",
+        "type": 4
+      }
+    ],
+    "seriesStartTimestamps": [1707177600000],
+    "collectible": true
+  },
+  {
+    "id": 319,
+    "defId": "HopeSummers",
+    "cost": 3,
+    "power": 3,
+    "name": "Hope Summers",
+    "description": "After you play a card here, you get +1 Energy next turn.",
+    "attributes": {
+      "data": {
+        "AddedEnergy": 1
+      }
+    },
     "series": 0,
     "artists": [
       {
@@ -6922,39 +7270,15 @@
         "type": 4
       }
     ],
-    "collectible": true
-  },
-  {
-    "id": 319,
-    "defId": "HopeSummers",
-    "cost": 3,
-    "power": 3,
-    "name": "Hope Summers",
-    "description": "After you play a card here, you get +2 Energy next turn.",
-    "attributes": {
-      "data": {
-        "AddedEnergy": 2
-      }
-    },
-    "series": 0,
-    "artists": [
-      {
-        "name": "Eduardo Mello",
-        "type": 1
-      },
-      {
-        "name": "Ryan Kinnaird",
-        "type": 4
-      }
-    ]
+    "seriesStartTimestamps": [1709596800000, 1712016000000]
   },
   {
     "id": 320,
     "defId": "Pixie",
-    "cost": 1,
-    "power": 3,
+    "cost": 2,
+    "power": 1,
     "name": "Pixie",
-    "description": "<b>On Reveal:</b> Shuffle the Costs of all cards in your deck.",
+    "description": "<b>On Reveal:</b> Shuffle the Costs of all cards in your deck that started there.",
     "series": 0,
     "artists": [
       {
@@ -6965,7 +7289,8 @@
         "name": "Ryan Kinnaird",
         "type": 4
       }
-    ]
+    ],
+    "seriesStartTimestamps": [1709596800000]
   },
   {
     "id": 321,
@@ -6989,7 +7314,8 @@
         "name": "Ryan Kinnaird",
         "type": 4
       }
-    ]
+    ],
+    "seriesStartTimestamps": [1710201600000]
   },
   {
     "id": 322,
@@ -7013,10 +7339,158 @@
         "name": "Ryan Kinnaird",
         "type": 4
       }
-    ]
+    ],
+    "seriesStartTimestamps": [1710806400000]
   },
   {
     "id": 323,
+    "defId": "BaronZemo",
+    "cost": 4,
+    "power": 6,
+    "name": "Baron Zemo",
+    "description": "<b>On Reveal:</b> Add the lowest-Cost card from your opponent's deck here on your side.",
+    "series": 0,
+    "artists": [
+      {
+        "name": "Eduardo Mello",
+        "type": 1
+      },
+      {
+        "name": "Ryan Kinnaird",
+        "type": 4
+      }
+    ],
+    "seriesStartTimestamps": [1712016000000, 1715040000000]
+  },
+  {
+    "id": 324,
+    "defId": "RedHulk",
+    "cost": 6,
+    "power": 10,
+    "name": "Red Hulk",
+    "description": "When your opponent ends a turn with unspent Energy, +4 Power. <i>(if in hand or in play)</i>",
+    "attributes": {
+      "data": {
+        "AddedPower": 4
+      }
+    },
+    "series": 0,
+    "artists": [
+      {
+        "name": "Eduardo Mello",
+        "type": 1
+      },
+      {
+        "name": "Ryan Kinnaird",
+        "type": 4
+      }
+    ],
+    "seriesStartTimestamps": [1712016000000]
+  },
+  {
+    "id": 325,
+    "defId": "USAgent",
+    "cost": 2,
+    "power": 6,
+    "name": "U.S. Agent",
+    "description": "<b>Ongoing:</b> -1 Power for each of your other cards here.",
+    "attributes": {
+      "data": {
+        "ReducedPower": 1
+      }
+    },
+    "series": 0,
+    "artists": [
+      {
+        "name": "Eduardo Mello",
+        "type": 1
+      },
+      {
+        "name": "Ryan Kinnaird",
+        "type": 4
+      }
+    ],
+    "seriesStartTimestamps": [1712620800000]
+  },
+  {
+    "id": 326,
+    "defId": "WhiteWidow",
+    "cost": 2,
+    "power": 2,
+    "name": "White Widow",
+    "description": "<b>On Reveal:</b> Add a -1-Power Widow's Kiss to your opponent's side of here.",
+    "attributes": {
+      "cards": {
+        "Card_Token": [327]
+      }
+    },
+    "series": 0,
+    "artists": [
+      {
+        "name": "Eduardo Mello",
+        "type": 1
+      },
+      {
+        "name": "Ryan Kinnaird",
+        "type": 4
+      }
+    ],
+    "seriesStartTimestamps": [1713225600000]
+  },
+  {
+    "id": 327,
+    "defId": "WidowsKiss",
+    "cost": 1,
+    "power": -1,
+    "name": "Widow's Kiss",
+    "description": "<b>Ongoing:</b> Your other cards here have -1 Power.",
+    "attributes": {
+      "data": {
+        "ReducedPower": 1
+      }
+    },
+    "series": 0,
+    "artists": [
+      {
+        "name": "Eduardo Mello",
+        "type": 1
+      },
+      {
+        "name": "Ryan Kinnaird",
+        "type": 4
+      }
+    ],
+    "seriesStartTimestamps": []
+  },
+  {
+    "id": 328,
+    "defId": "Valentina",
+    "cost": 2,
+    "power": 2,
+    "name": "Valentina",
+    "description": "<b>On Reveal:</b> Add a random 6-Cost card to your hand. Give it -2 Cost and -2 Power.",
+    "attributes": {
+      "data": {
+        "TokenEnergyCost": 6,
+        "ReducedCost": 2,
+        "ReducedPower": 2
+      }
+    },
+    "series": 0,
+    "artists": [
+      {
+        "name": "Eduardo Mello",
+        "type": 1
+      },
+      {
+        "name": "Ryan Kinnaird",
+        "type": 4
+      }
+    ],
+    "seriesStartTimestamps": [1713830400000]
+  },
+  {
+    "id": 329,
     "defId": "EvolvedWasp",
     "cost": 0,
     "power": 1,
@@ -7028,10 +7502,11 @@
       }
     },
     "series": 0,
-    "artists": []
+    "artists": [],
+    "seriesStartTimestamps": []
   },
   {
-    "id": 324,
+    "id": 330,
     "defId": "EvolvedMistyKnight",
     "cost": 1,
     "power": 2,
@@ -7043,10 +7518,11 @@
       }
     },
     "series": 0,
-    "artists": []
+    "artists": [],
+    "seriesStartTimestamps": []
   },
   {
-    "id": 325,
+    "id": 331,
     "defId": "EvolvedShocker",
     "cost": 2,
     "power": 3,
@@ -7058,10 +7534,11 @@
       }
     },
     "series": 0,
-    "artists": []
+    "artists": [],
+    "seriesStartTimestamps": []
   },
   {
-    "id": 326,
+    "id": 332,
     "defId": "EvolvedCyclops",
     "cost": 3,
     "power": 4,
@@ -7074,10 +7551,11 @@
       }
     },
     "series": 0,
-    "artists": []
+    "artists": [],
+    "seriesStartTimestamps": []
   },
   {
-    "id": 327,
+    "id": 333,
     "defId": "EvolvedTheThing",
     "cost": 4,
     "power": 6,
@@ -7090,10 +7568,11 @@
       }
     },
     "series": 0,
-    "artists": []
+    "artists": [],
+    "seriesStartTimestamps": []
   },
   {
-    "id": 328,
+    "id": 334,
     "defId": "EvolvedAbomination",
     "cost": 5,
     "power": 9,
@@ -7105,10 +7584,11 @@
       }
     },
     "series": 0,
-    "artists": []
+    "artists": [],
+    "seriesStartTimestamps": []
   },
   {
-    "id": 329,
+    "id": 335,
     "defId": "EvolvedHulk",
     "cost": 6,
     "power": 12,
@@ -7120,10 +7600,11 @@
       }
     },
     "series": 0,
-    "artists": []
+    "artists": [],
+    "seriesStartTimestamps": []
   },
   {
-    "id": 330,
+    "id": 336,
     "defId": "Spell01NicoMinoru",
     "cost": 1,
     "power": 2,
@@ -7132,14 +7613,15 @@
     "attributes": {
       "cards": {
         "Card_Token": [52],
-        "Card_Related": [331, 332, 333, 334, 335, 336]
+        "Card_Related": [337, 338, 339, 340, 341, 342]
       }
     },
     "series": 0,
-    "artists": []
+    "artists": [],
+    "seriesStartTimestamps": []
   },
   {
-    "id": 331,
+    "id": 337,
     "defId": "Spell02NicoMinoru",
     "cost": 1,
     "power": 2,
@@ -7147,14 +7629,15 @@
     "description": "<b>On Reveal:</b> After you play your next card, destroy it to draw two cards.",
     "attributes": {
       "cards": {
-        "Card_Related": [330, 332, 333, 334, 335, 336]
+        "Card_Related": [336, 338, 339, 340, 341, 342]
       }
     },
     "series": 0,
-    "artists": []
+    "artists": [],
+    "seriesStartTimestamps": []
   },
   {
-    "id": 332,
+    "id": 338,
     "defId": "Spell03NicoMinoru",
     "cost": 1,
     "power": 2,
@@ -7162,14 +7645,15 @@
     "description": "<b>On Reveal:</b> After you play your next card, move it one location to the right.",
     "attributes": {
       "cards": {
-        "Card_Related": [330, 331, 333, 334, 335, 336]
+        "Card_Related": [336, 337, 339, 340, 341, 342]
       }
     },
     "series": 0,
-    "artists": []
+    "artists": [],
+    "seriesStartTimestamps": []
   },
   {
-    "id": 333,
+    "id": 339,
     "defId": "Spell04NicoMinoru",
     "cost": 1,
     "power": 2,
@@ -7180,14 +7664,15 @@
         "AddedPower": 2
       },
       "cards": {
-        "Card_Related": [330, 331, 332, 334, 335, 336]
+        "Card_Related": [336, 337, 338, 340, 341, 342]
       }
     },
     "series": 0,
-    "artists": []
+    "artists": [],
+    "seriesStartTimestamps": []
   },
   {
-    "id": 334,
+    "id": 340,
     "defId": "Spell05NicoMinoru",
     "cost": 1,
     "power": 2,
@@ -7195,14 +7680,15 @@
     "description": "<b>On Reveal:</b> After you play your next card, replace that card's location.",
     "attributes": {
       "cards": {
-        "Card_Related": [330, 331, 332, 333, 335, 336]
+        "Card_Related": [336, 337, 338, 339, 341, 342]
       }
     },
     "series": 0,
-    "artists": []
+    "artists": [],
+    "seriesStartTimestamps": []
   },
   {
-    "id": 335,
+    "id": 341,
     "defId": "Spell06NicoMinoru",
     "cost": 1,
     "power": 2,
@@ -7210,14 +7696,15 @@
     "description": "<b>On Reveal:</b> After you play your next card, add a copy of it to your hand.",
     "attributes": {
       "cards": {
-        "Card_Related": [330, 331, 332, 333, 334, 336]
+        "Card_Related": [336, 337, 338, 339, 340, 342]
       }
     },
     "series": 0,
-    "artists": []
+    "artists": [],
+    "seriesStartTimestamps": []
   },
   {
-    "id": 336,
+    "id": 342,
     "defId": "Spell07NicoMinoru",
     "cost": 1,
     "power": 2,
@@ -7225,10 +7712,11 @@
     "description": "<b>On Reveal:</b> After you play your next card, double this card's Power.",
     "attributes": {
       "cards": {
-        "Card_Related": [330, 331, 332, 333, 334, 335]
+        "Card_Related": [336, 337, 338, 339, 340, 341]
       }
     },
     "series": 0,
-    "artists": []
+    "artists": [],
+    "seriesStartTimestamps": []
   }
 ]
