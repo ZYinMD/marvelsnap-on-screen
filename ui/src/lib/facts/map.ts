@@ -1717,6 +1717,7 @@ export const map: Record<Key, Roster> = {
       'Galactus',
       'Ebony Maw',
       'Corvus Glaive',
+      'Cull Obsidian',
       'Supergiant',
       'Giganto',
       'Brood',
@@ -1820,6 +1821,7 @@ export const map: Record<Key, Roster> = {
     ],
     minor_: [
       'Corvus Glaive',
+      'Cull Obsidian',
       'Medusa',
       'Lockjaw',
       'Heimdall',
