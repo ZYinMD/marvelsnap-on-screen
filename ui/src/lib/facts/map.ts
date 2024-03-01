@@ -1305,6 +1305,7 @@ export const map: Record<Key, Roster> = {
     ],
     minor_: [
       'X-23',
+      'Pixie',
       'Sebastian Shaw',
       'Selene',
       'Silver Samurai',
