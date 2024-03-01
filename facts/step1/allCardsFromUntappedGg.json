@@ -40,8 +40,8 @@
   {
     "id": 3,
     "defId": "AdamWarlock",
-    "cost": 2,
-    "power": 0,
+    "cost": 5,
+    "power": 4,
     "name": "Adam Warlock",
     "description": "After each turn, draw a card if you're winning here.",
     "series": 6,
@@ -106,7 +106,7 @@
     "cost": 1,
     "power": 2,
     "name": "Agent 13",
-    "description": "<b>On Reveal:</b> Add a random card\nto your hand.\n<color=#fc7cd8><b>+2 Power Couple:</b></color> Captain America",
+    "description": "<b>On Reveal:</b> Add a random card to your hand.",
     "series": 5,
     "artists": [
       {
@@ -151,8 +151,8 @@
   {
     "id": 8,
     "defId": "AmericaChavez",
-    "cost": 2,
-    "power": 3,
+    "cost": 1,
+    "power": 2,
     "name": "America Chavez",
     "description": "<b>On Reveal:</b> Give the top card of your deck +2 Power.",
     "attributes": {
@@ -201,7 +201,7 @@
     "cost": 2,
     "power": 2,
     "name": "Angela",
-    "description": "After you play a card here,\n+1 Power.\n<color=#fc7cd8><b>+1 Power Couple:</b></color> Sera",
+    "description": "After you play a card here,\n+1 Power.",
     "attributes": {
       "data": {
         "AddedPower": 1
@@ -253,10 +253,10 @@
     "cost": 1,
     "power": 1,
     "name": "Ant Man",
-    "description": "<b>Ongoing:</b> If your side of this location is full, +3 Power.",
+    "description": "<b>Ongoing:</b> If your side of this location is full, +4 Power.",
     "attributes": {
       "data": {
-        "AddedPower": 3
+        "AddedPower": 4
       }
     },
     "series": 3,
@@ -493,7 +493,7 @@
     "cost": 5,
     "power": 4,
     "name": "Black Panther",
-    "description": "<b>On Reveal:</b> Double this\ncard's Power.\n<color=#fc7cd8><b>+1 Power Couple:</b></color> Nakia",
+    "description": "<b>On Reveal:</b> Double this\ncard's Power.",
     "series": 6,
     "artists": [
       {
@@ -742,7 +742,7 @@
     "cost": 3,
     "power": 3,
     "name": "Captain America",
-    "description": "<b>Ongoing:</b> Your other cards here\nhave +1 Power.\n<color=#fc7cd8><b>+2 Power Couple:</b></color> Agent 13",
+    "description": "<b>Ongoing:</b> Your other cards here have +1 Power.",
     "attributes": {
       "data": {
         "AddedPower": 1
@@ -1018,7 +1018,7 @@
     "cost": 2,
     "power": 2,
     "name": "Daredevil",
-    "description": "On turn 5, you get to see your opponent's plays before you make your own.\n<color=#fc7cd8><b>+2 Power Couple:</b></color> She-Hulk",
+    "description": "On turn 5, you get to see your opponent's plays before you\nmake your own.",
     "series": 6,
     "artists": [
       {
@@ -1036,8 +1036,8 @@
   {
     "id": 46,
     "defId": "Darkhawk",
-    "cost": 4,
-    "power": 0,
+    "cost": 5,
+    "power": 4,
     "name": "Darkhawk",
     "description": "<b>Ongoing:</b> +2 Power for each card in your opponent's deck.",
     "attributes": {
@@ -1606,8 +1606,8 @@
   {
     "id": 71,
     "defId": "Forge",
-    "cost": 1,
-    "power": 1,
+    "cost": 2,
+    "power": 2,
     "name": "Forge",
     "description": "<b>On Reveal:</b> Give the next card you play +2 Power.",
     "attributes": {
@@ -1656,7 +1656,7 @@
     "cost": 3,
     "power": 3,
     "name": "Gambit",
-    "description": "<b>On Reveal:</b> Discard a card from your hand to destroy a random enemy card.\n<color=#fc7cd8><b>+2 Power Couple:</b></color> Rogue",
+    "description": "<b>On Reveal:</b> Discard a card from your hand to destroy a random enemy card.",
     "series": 6,
     "artists": [
       {
@@ -1677,7 +1677,7 @@
     "cost": 5,
     "power": 7,
     "name": "Gamora",
-    "description": "<b>On Reveal:</b> If your opponent played a card here this turn, +5 Power.\n<color=#fc7cd8><b>+1 Power Couple:</b></color> Star-Lord",
+    "description": "<b>On Reveal:</b> If your opponent played a card here this turn, +5 Power.",
     "attributes": {
       "data": {
         "AddedPower": 5
@@ -1724,7 +1724,7 @@
     "cost": 1,
     "power": 2,
     "name": "Ghost-Spider",
-    "description": "<b>On Reveal:</b> The last card you played moves here.\n<color=#fc7cd8><b>+1 Power Couple:</b></color> Miles Morales",
+    "description": "<b>On Reveal:</b> The last card you played moves here.",
     "series": 7,
     "artists": [
       {
@@ -2176,7 +2176,7 @@
     "cost": 2,
     "power": 3,
     "name": "Invisible Woman",
-    "description": "<b>Ongoing:</b> Cards you play here are not revealed until the game ends.\n<color=#fc7cd8><b>+2 Power Couple:</b></color> Mister Fantastic",
+    "description": "<b>Ongoing:</b> Cards you play here are not revealed until the game ends.",
     "series": 6,
     "artists": [
       {
@@ -2241,7 +2241,7 @@
     "cost": 5,
     "power": 0,
     "name": "Iron Man",
-    "description": "<b>Ongoing:</b> Your total Power\nis doubled here.\n<color=#fc7cd8><b>+1 Power Couple:</b></color> Rescue",
+    "description": "<b>Ongoing:</b> Your total Power\nis doubled here.",
     "series": 1,
     "artists": [
       {
@@ -2769,8 +2769,8 @@
   {
     "id": 123,
     "defId": "Lockjaw",
-    "cost": 3,
-    "power": 2,
+    "cost": 4,
+    "power": 5,
     "name": "Lockjaw",
     "description": "After you play a card here, swap it with a card in your deck.\n<i>(once per turn)</i>",
     "series": 6,
@@ -3076,7 +3076,7 @@
     "cost": 4,
     "power": 5,
     "name": "Miles Morales",
-    "description": "If a card moved last turn, this costs 1.\n<color=#fc7cd8><b>+1 Power Couple:</b></color> Ghost-Spider",
+    "description": "If a card moved last turn, this costs 1.",
     "attributes": {
       "data": {
         "AssignedCost": 1
@@ -3355,7 +3355,7 @@
     "cost": 3,
     "power": 2,
     "name": "Mister Fantastic",
-    "description": "<b>Ongoing:</b> Adjacent locations\nhave +2 Power.\n<color=#fc7cd8><b>+2 Power Couple:</b></color> Invisible Woman",
+    "description": "<b>Ongoing:</b> Adjacent locations have +2 Power.",
     "attributes": {
       "data": {
         "AddedPower": 2
@@ -3568,7 +3568,7 @@
     "cost": 3,
     "power": 3,
     "name": "Nakia",
-    "description": "<b>On Reveal:</b> Give all cards in your hand +1 Power.\n<color=#fc7cd8><b>+1 Power Couple:</b></color> Black Panther",
+    "description": "<b>On Reveal:</b> Give all cards in your hand +1 Power.",
     "attributes": {
       "data": {
         "AddedPower": 1
@@ -4169,7 +4169,8 @@
         "type": 4
       }
     ],
-    "seriesStartTimestamps": [1714435200000]
+    "seriesStartTimestamps": [1714435200000],
+    "possibleSeries": 8
   },
   {
     "id": 184,
@@ -4203,7 +4204,7 @@
     "cost": 4,
     "power": 4,
     "name": "Rescue",
-    "description": "<b>On Reveal:</b> If you play a card at this location next turn, +5 Power.\n<color=#fc7cd8><b>+1 Power Couple:</b></color> Iron Man",
+    "description": "<b>On Reveal:</b> If you play a card at this location next turn, +5 Power.",
     "attributes": {
       "data": {
         "AddedPower": 5
@@ -4326,7 +4327,7 @@
     "cost": 3,
     "power": 2,
     "name": "Rogue",
-    "description": "<b>On Reveal:</b> Steal the text from an enemy <b>Ongoing</b> card here.\n<color=#fc7cd8><b>+2 Power Couple:</b></color> Gambit",
+    "description": "<b>On Reveal:</b> Steal the text from an enemy <b>Ongoing</b> card here.",
     "series": 6,
     "artists": [
       {
@@ -4457,7 +4458,7 @@
     "cost": 2,
     "power": 3,
     "name": "Scarlet Witch",
-    "description": "<b>On Reveal:</b> Replace this location with a new one.\n<color=#fc7cd8><b>+1 Power Couple:</b></color> Vision",
+    "description": "<b>On Reveal:</b> Replace this location with a new one.",
     "series": 4,
     "artists": [
       {
@@ -4558,7 +4559,7 @@
     "cost": 5,
     "power": 4,
     "name": "Sera",
-    "description": "<b>Ongoing:</b> Cards in your hand cost\n1 less. <i>(minimum 1)</i>\n<color=#fc7cd8><b>+1 Power Couple:</b></color> Angela",
+    "description": "<b>Ongoing:</b> Cards in your hand cost 1 less. <i>(minimum 1)</i>",
     "attributes": {
       "data": {
         "ReducedCost": 1
@@ -4653,7 +4654,7 @@
     "cost": 6,
     "power": 10,
     "name": "She-Hulk",
-    "description": "Costs 1 less for each unspent Energy last turn.\n<color=#fc7cd8><b>+2 Power Couple:</b></color> Daredevil",
+    "description": "Costs 1 less for each unspent Energy last turn.",
     "attributes": {
       "data": {
         "ReducedCost": 1
@@ -5106,7 +5107,7 @@
     "cost": 2,
     "power": 2,
     "name": "Star-Lord",
-    "description": "<b>On Reveal:</b> If your opponent played a card here this turn, +3 Power.\n<color=#fc7cd8><b>+1 Power Couple:</b></color> Gamora",
+    "description": "<b>On Reveal:</b> If your opponent played a card here this turn, +3 Power.",
     "attributes": {
       "data": {
         "AddedPower": 3
@@ -5301,7 +5302,7 @@
     "id": 233,
     "defId": "SwordMaster",
     "cost": 3,
-    "power": 6,
+    "power": 7,
     "name": "Sword Master",
     "description": "<b>On Reveal:</b> Discard a card from your hand.",
     "series": 4,
@@ -5738,7 +5739,7 @@
     "cost": 5,
     "power": 8,
     "name": "Vision",
-    "description": "You can move this each turn.\n<color=#fc7cd8><b>+1 Power Couple:</b></color> Scarlet Witch",
+    "description": "You can move this each turn.",
     "series": 5,
     "artists": [
       {
@@ -5766,10 +5767,10 @@
     "cost": 3,
     "power": 3,
     "name": "Vulture",
-    "description": "When this card moves,\n+5 Power.",
+    "description": "When this card moves,\n+6 Power.",
     "attributes": {
       "data": {
-        "AddedPower": 5
+        "AddedPower": 6
       }
     },
     "series": 5,
@@ -5804,7 +5805,8 @@
         "type": 4
       }
     ],
-    "seriesStartTimestamps": [1711411200000]
+    "seriesStartTimestamps": [1711411200000],
+    "possibleSeries": 8
   },
   {
     "id": 257,
@@ -7151,6 +7153,7 @@
       }
     ],
     "seriesStartTimestamps": [1707177600000, 1709596800000],
+    "possibleSeries": 8,
     "collectible": true
   },
   {
@@ -7166,7 +7169,7 @@
         "AddedMaxEnergy": 1
       }
     },
-    "series": 0,
+    "series": 8,
     "artists": [
       {
         "name": "Eduardo Mello",
@@ -7187,7 +7190,7 @@
     "power": 7,
     "name": "Proxima Midnight",
     "description": "When this is discarded, jumps to your lowest-Power location. <i>(that isn't full)</i>",
-    "series": 0,
+    "series": 8,
     "artists": [
       {
         "name": "Eduardo Mello",
@@ -7198,7 +7201,8 @@
         "type": 4
       }
     ],
-    "seriesStartTimestamps": [1708992000000]
+    "seriesStartTimestamps": [1708992000000],
+    "collectible": true
   },
   {
     "id": 317,
@@ -7251,7 +7255,7 @@
     "id": 319,
     "defId": "HopeSummers",
     "cost": 3,
-    "power": 3,
+    "power": 4,
     "name": "Hope Summers",
     "description": "After you play a card here, you get +1 Energy next turn.",
     "attributes": {
@@ -7270,7 +7274,9 @@
         "type": 4
       }
     ],
-    "seriesStartTimestamps": [1709596800000, 1712016000000]
+    "seriesStartTimestamps": [1709596800000, 1712016000000],
+    "possibleSeries": 8,
+    "collectible": true
   },
   {
     "id": 320,
@@ -7290,7 +7296,9 @@
         "type": 4
       }
     ],
-    "seriesStartTimestamps": [1709596800000]
+    "seriesStartTimestamps": [1709596800000],
+    "possibleSeries": 8,
+    "collectible": true
   },
   {
     "id": 321,
@@ -7315,7 +7323,8 @@
         "type": 4
       }
     ],
-    "seriesStartTimestamps": [1710201600000]
+    "seriesStartTimestamps": [1710201600000],
+    "possibleSeries": 8
   },
   {
     "id": 322,
@@ -7340,7 +7349,8 @@
         "type": 4
       }
     ],
-    "seriesStartTimestamps": [1710806400000]
+    "seriesStartTimestamps": [1710806400000],
+    "possibleSeries": 8
   },
   {
     "id": 323,
@@ -7360,7 +7370,8 @@
         "type": 4
       }
     ],
-    "seriesStartTimestamps": [1712016000000, 1715040000000]
+    "seriesStartTimestamps": [1712016000000, 1715040000000],
+    "possibleSeries": 8
   },
   {
     "id": 324,
@@ -7385,7 +7396,8 @@
         "type": 4
       }
     ],
-    "seriesStartTimestamps": [1712016000000]
+    "seriesStartTimestamps": [1712016000000],
+    "possibleSeries": 8
   },
   {
     "id": 325,
@@ -7410,7 +7422,8 @@
         "type": 4
       }
     ],
-    "seriesStartTimestamps": [1712620800000]
+    "seriesStartTimestamps": [1712620800000],
+    "possibleSeries": 8
   },
   {
     "id": 326,
@@ -7435,7 +7448,8 @@
         "type": 4
       }
     ],
-    "seriesStartTimestamps": [1713225600000]
+    "seriesStartTimestamps": [1713225600000],
+    "possibleSeries": 8
   },
   {
     "id": 327,
@@ -7487,7 +7501,8 @@
         "type": 4
       }
     ],
-    "seriesStartTimestamps": [1713830400000]
+    "seriesStartTimestamps": [1713830400000],
+    "possibleSeries": 8
   },
   {
     "id": 329,
