@@ -537,6 +537,7 @@ export const map: Record<Key, Roster> = {
       'Cyclops',
       'Storm',
       'Nightcrawler',
+      'Hope Summers',
     ],
   },
   '2018|Ant-Man and the Wasp': {
