@@ -2,6 +2,6 @@
 
 Hosted at https://marvelsnap-on-screen.zyinmd.me
 
-1.2k likes on reddit: [link](https://www.reddit.com/r/MarvelSnap/comments/1942d9w/complete_mega_list_every_card_in_every_movie_tv/)
+[1.2k likes](https://www.reddit.com/r/MarvelSnap/comments/1942d9w/complete_mega_list_every_card_in_every_movie_tv/) on reddit
 
-Change log: [link](https://github.com/ZYinMD/marvelsnap-on-screen/releases)
+[Change log](https://github.com/ZYinMD/marvelsnap-on-screen/releases)
