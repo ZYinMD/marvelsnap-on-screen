@@ -803,6 +803,12 @@ export const map: Record<Key, Roster> = {
     major_: ['Captain Marvel', 'Spectrum', 'Ms. Marvel', 'Nick Fury', 'Valkyrie', 'Goose'],
     minor_: ['Beast'],
   },
+  '2024|Madame Web': {
+    major: new Set(),
+    minor: new Set(),
+    major_: ['Spider-Woman'],
+    minor_: ['Spider-Man'],
+  },
   '2006|Blade: The Series': {
     major: new Set(),
     minor: new Set(),

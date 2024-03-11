@@ -711,6 +711,16 @@ export const allTitles = {
       numEpisodes: 1,
       key: '2023|The Marvels',
     },
+    '2024|Madame Web': {
+      type: 'movie',
+      year: '2024',
+      title: 'Madame Web',
+      wikipedia: 'https://en.wikipedia.org/wiki/Madame_Web_(film)',
+      label: ['ssu'],
+      numSeasons: 0,
+      numEpisodes: 1,
+      key: '2024|Madame Web',
+    },
   },
   'live-action-tv-series': {
     '2006|Blade: The Series': {
