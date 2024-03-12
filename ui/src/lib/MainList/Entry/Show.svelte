@@ -41,6 +41,8 @@
       'chevron text' auto
       /
       30px auto;
+    content-visibility: auto;
+    contain-intrinsic-size: 100px 40px;
   }
   .component:hover {
     box-shadow: 0px 0px 3.5px #fff9;
