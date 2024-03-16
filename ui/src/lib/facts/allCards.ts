@@ -233,8 +233,8 @@ export const allCards = {
   },
   'Cable': {
     defId: 'Cable',
-    cost: 3,
-    power: 4,
+    cost: 2,
+    power: 3,
     name: 'Cable',
     description: "<b>On Reveal:</b> Draw a card from your opponent's deck.",
     seriesStartTimestamps: [-2177452800000],
@@ -484,10 +484,10 @@ export const allCards = {
   },
   'Elsa Bloodstone': {
     defId: 'ElsaBloodstone',
-    cost: 2,
+    cost: 3,
     power: 3,
     name: 'Elsa Bloodstone',
-    description: 'After you play a card that fills this location, give it +2 Power.',
+    description: 'Each card you play to fill your side of a location gains +2 Power.',
     seriesStartTimestamps: [1696291200000, 1699315200000],
   },
   'Enchantress': {
@@ -880,7 +880,7 @@ export const allCards = {
     power: 3,
     name: 'Leech',
     description:
-      "At the start of turn 6, remove all abilities from cards in your\nopponent's hand.",
+      "<b>On Reveal:</b> Remove the text from cards with <b>On Reveal</b> abilities in\nyour opponent's hand.",
     seriesStartTimestamps: [-2177452800000],
   },
   'Legion': {
@@ -953,10 +953,10 @@ export const allCards = {
   'Mantis': {
     defId: 'Mantis',
     cost: 2,
-    power: 3,
+    power: 2,
     name: 'Mantis',
     description:
-      '<b>On Reveal:</b> If your opponent played a card here this turn, draw a card\nfrom <i>their</i> deck.',
+      '<b>On Reveal:</b> If your opponent played any cards here this turn, copy one of them into your hand.',
     seriesStartTimestamps: [-2177452800000],
   },
   'Maria Hill': {
@@ -988,7 +988,8 @@ export const allCards = {
     cost: 1,
     power: 2,
     name: "M'Baku",
-    description: 'If this is in your deck at the end of the game, it jumps to a location.',
+    description:
+      "At the end of the game, this jumps from your deck to your lowest-Power location. <i>(that isn't full)</i>",
     seriesStartTimestamps: [-2177452800000],
   },
   'Medusa': {
@@ -1797,7 +1798,7 @@ export const allCards = {
     cost: 1,
     power: 2,
     name: 'Yondu',
-    description: "<b>On Reveal:</b> Destroy the top card of your opponent's deck.",
+    description: "<b>On Reveal:</b> Destroy the lowest-Cost card in your opponent's deck.",
     seriesStartTimestamps: [-2177452800000],
   },
   'Zabu': {
@@ -2063,7 +2064,7 @@ export const allCards = {
     cost: 1,
     power: 1,
     name: 'Miek',
-    description: 'After each turn, if you discarded any cards, gain +1 Power for each\nand move.',
+    description: 'When you discard a card, this gains +1 Power and can move next turn.',
     seriesStartTimestamps: [1705363200000],
   },
   'Beta Ray Bill': {
@@ -2081,7 +2082,6 @@ export const allCards = {
     name: 'Black Swan',
     description: '<b>On Reveal:</b> Until the end of next turn, your 1-Cost cards cost 0.',
     seriesStartTimestamps: [1707177600000, 1709596800000],
-    possibleSeries: 8,
   },
   'Corvus Glaive': {
     defId: 'CorvusGlaive',
@@ -2133,6 +2133,23 @@ export const allCards = {
     description:
       '<b>On Reveal:</b> Shuffle the Costs of all cards in your deck that started there.',
     seriesStartTimestamps: [1709596800000],
+  },
+  'Mockingbird': {
+    defId: 'Mockingbird',
+    cost: 5,
+    power: 9,
+    name: 'Mockingbird',
+    description: "Costs 1 less for each of your cards in play that didn't start in your deck.",
+    seriesStartTimestamps: [1710201600000],
+  },
+  'Cannonball': {
+    defId: 'Cannonball',
+    cost: 5,
+    power: 8,
+    name: 'Cannonball',
+    description:
+      "<b>On Reveal:</b> Move the highest-Power enemy card here away. If you can't, destroy it with a Rock.",
+    seriesStartTimestamps: [1710806400000],
     possibleSeries: 8,
   },
 } as const;
