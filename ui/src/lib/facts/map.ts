@@ -648,7 +648,7 @@ export const map: Record<Key, Roster> = {
   '2020|The New Mutants': {
     major: new Set(),
     minor: new Set(),
-    major_: ['Mirage', 'Magik', 'Wolfsbane', 'Sunspot'],
+    major_: ['Mirage', 'Magik', 'Wolfsbane', 'Sunspot','Cannonball'],
     minor_: [],
   },
   '2021|Black Widow': {
@@ -1043,6 +1043,7 @@ export const map: Record<Key, Roster> = {
       'Magik',
       'Warpath',
       'Brood',
+      'Cannonball',
     ],
   },
   '1994–1996|Fantastic Four: The Animated Series': {
@@ -1218,6 +1219,7 @@ export const map: Record<Key, Roster> = {
       'Colossus',
       'Captain America',
       'Blob',
+      'Cannonball',
     ],
   },
   '2003|Spider-Man: The New Animated Series': {
