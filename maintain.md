@@ -14,6 +14,8 @@
 
    Some other useful sites: if they're in MCU, search in the [fandom site](https://marvelcinematicuniverse.fandom.com), also check the [A-L](https://en.wikipedia.org/wiki/Characters_of_the_Marvel_Cinematic_Universe:_A%E2%80%93L) and [M-Z](https://en.wikipedia.org/wiki/Characters_of_the_Marvel_Cinematic_Universe:_M%E2%80%93Z) pages.
 
+1. deploy, then create a release on github, with date being the title, and "add card xx xx" in the body.
+
 ## What to do when a new movie / tv series is released:
 
 Movies are based on [this](https://en.wikipedia.org/wiki/List_of_films_based_on_Marvel_Comics_publications) wikipedia page, from section `Live-action films > Feature films`, and also section `Animated films > Theatrically released films` (mainly the spider-verse ones).
