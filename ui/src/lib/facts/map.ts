@@ -821,11 +821,11 @@ export const map: Record<Key, Roster> = {
     major_: [
       'Agent Coulson',
       'Quake',
+      'Mockingbird',
       'Quinjet',
       'Deathlok',
       'Ghost Rider',
       'Absorbing Man',
-      'Mockingbird',
       'Maria Hill',
     ],
     minor_: ['Lady Sif', 'Nick Fury'],
