@@ -20,7 +20,7 @@ export const allCards = {
   'Adam Warlock': {
     defId: 'AdamWarlock',
     cost: 5,
-    power: 4,
+    power: 5,
     name: 'Adam Warlock',
     description: "After each turn, draw a card if you're winning here.",
     seriesStartTimestamps: [-2177452800000],
@@ -102,7 +102,7 @@ export const allCards = {
   'Apocalypse': {
     defId: 'Apocalypse',
     cost: 6,
-    power: 8,
+    power: 6,
     name: 'Apocalypse',
     description: 'When you discard this, put it back with +4 Power.',
     seriesStartTimestamps: [-2177452800000],
@@ -250,7 +250,7 @@ export const allCards = {
   'Captain Marvel': {
     defId: 'CaptainMarvel',
     cost: 4,
-    power: 4,
+    power: 5,
     name: 'Captain Marvel',
     description:
       'At the end of the game, move to a location that wins you the\ngame. (If possible)',
@@ -444,9 +444,9 @@ export const allCards = {
   'Drax': {
     defId: 'Drax',
     cost: 4,
-    power: 6,
+    power: 5,
     name: 'Drax',
-    description: '<b>On Reveal:</b> If your opponent played a card here this turn, +2 Power.',
+    description: '<b>On Reveal:</b> If your opponent played a card here this turn, +4 Power.',
     seriesStartTimestamps: [-2177452800000],
   },
   'Doctor Doom': {
@@ -534,9 +534,9 @@ export const allCards = {
   'Gamora': {
     defId: 'Gamora',
     cost: 5,
-    power: 7,
+    power: 8,
     name: 'Gamora',
-    description: '<b>On Reveal:</b> If your opponent played a card here this turn, +5 Power.',
+    description: '<b>On Reveal:</b> If your opponent played a card here this turn, +4 Power.',
     seriesStartTimestamps: [-2177452800000],
   },
   'Ghost Rider': {
@@ -582,9 +582,9 @@ export const allCards = {
   'Groot': {
     defId: 'Groot',
     cost: 3,
-    power: 4,
+    power: 3,
     name: 'Groot',
-    description: '<b>On Reveal:</b> If your opponent played a card here this turn, +2 Power.',
+    description: '<b>On Reveal:</b> If your opponent played a card here this turn, +4 Power.',
     seriesStartTimestamps: [-2177452800000],
   },
   'Hawkeye': {
@@ -1258,7 +1258,7 @@ export const allCards = {
   'Psylocke': {
     defId: 'Psylocke',
     cost: 2,
-    power: 2,
+    power: 1,
     name: 'Psylocke',
     description: '<b>On Reveal:</b> Next turn, you get +1 Energy.',
     seriesStartTimestamps: [-2177452800000],
@@ -1323,9 +1323,9 @@ export const allCards = {
   'Rocket Raccoon': {
     defId: 'RocketRaccoon',
     cost: 1,
-    power: 2,
+    power: 1,
     name: 'Rocket Raccoon',
-    description: '<b>On Reveal:</b> If your opponent played a card here this turn, +2 Power.',
+    description: '<b>On Reveal:</b> If your opponent played a card here this turn, +4 Power.',
     seriesStartTimestamps: [-2177452800000],
   },
   'Rockslide': {
@@ -1536,7 +1536,7 @@ export const allCards = {
     cost: 2,
     power: 2,
     name: 'Star-Lord',
-    description: '<b>On Reveal:</b> If your opponent played a card here this turn, +3 Power.',
+    description: '<b>On Reveal:</b> If your opponent played a card here this turn, +4 Power.',
     seriesStartTimestamps: [-2177452800000],
   },
   'Storm': {
@@ -1709,6 +1709,15 @@ export const allCards = {
     name: 'Vulture',
     description: 'When this card moves,\n+6 Power.',
     seriesStartTimestamps: [-2177452800000],
+  },
+  'War Machine': {
+    defId: 'WarMachine',
+    cost: 4,
+    power: 6,
+    name: 'War Machine',
+    description:
+      '<b>On Reveal:</b> Until the end of next turn, nothing can stop you from playing cards anywhere.',
+    seriesStartTimestamps: [1711411200000],
   },
   'Warpath': {
     defId: 'Warpath',
@@ -2150,6 +2159,25 @@ export const allCards = {
     description:
       "<b>On Reveal:</b> Move the highest-Power enemy card here away. If you can't, destroy it with a Rock.",
     seriesStartTimestamps: [1710806400000],
+  },
+  'Baron Zemo': {
+    defId: 'BaronZemo',
+    cost: 3,
+    power: 5,
+    name: 'Baron Zemo',
+    description:
+      "<b>On Reveal:</b> Recruit the lowest-Cost card from your opponent's deck to your side of this location.",
+    seriesStartTimestamps: [1712016000000, 1715040000000],
+    possibleSeries: 8,
+  },
+  'Red Hulk': {
+    defId: 'RedHulk',
+    cost: 6,
+    power: 11,
+    name: 'Red Hulk',
+    description:
+      'When your opponent ends a turn with unspent Energy, +4 Power.\n<i>(if in hand or in play)</i>',
+    seriesStartTimestamps: [1712016000000],
     possibleSeries: 8,
   },
 } as const;

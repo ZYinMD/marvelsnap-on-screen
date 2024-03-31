@@ -41,7 +41,7 @@
     "id": 3,
     "defId": "AdamWarlock",
     "cost": 5,
-    "power": 4,
+    "power": 5,
     "name": "Adam Warlock",
     "description": "After each turn, draw a card if you're winning here.",
     "series": 6,
@@ -277,7 +277,7 @@
     "id": 13,
     "defId": "Apocalypse",
     "cost": 6,
-    "power": 8,
+    "power": 6,
     "name": "Apocalypse",
     "description": "When you discard this, put it back with +4 Power.",
     "attributes": {
@@ -771,7 +771,7 @@
     "id": 34,
     "defId": "CaptainMarvel",
     "cost": 4,
-    "power": 4,
+    "power": 5,
     "name": "Captain Marvel",
     "description": "At the end of the game, move to a location that wins you the\ngame. (If possible)",
     "series": 6,
@@ -1365,12 +1365,12 @@
     "id": 60,
     "defId": "Drax",
     "cost": 4,
-    "power": 6,
+    "power": 5,
     "name": "Drax",
-    "description": "<b>On Reveal:</b> If your opponent played a card here this turn, +2 Power.",
+    "description": "<b>On Reveal:</b> If your opponent played a card here this turn, +4 Power.",
     "attributes": {
       "data": {
-        "AddedPower": 2
+        "AddedPower": 4
       }
     },
     "series": 6,
@@ -1680,12 +1680,12 @@
     "id": 74,
     "defId": "Gamora",
     "cost": 5,
-    "power": 7,
+    "power": 8,
     "name": "Gamora",
-    "description": "<b>On Reveal:</b> If your opponent played a card here this turn, +5 Power.",
+    "description": "<b>On Reveal:</b> If your opponent played a card here this turn, +4 Power.",
     "attributes": {
       "data": {
-        "AddedPower": 5
+        "AddedPower": 4
       }
     },
     "series": 3,
@@ -1829,12 +1829,12 @@
     "id": 81,
     "defId": "Groot",
     "cost": 3,
-    "power": 4,
+    "power": 3,
     "name": "Groot",
-    "description": "<b>On Reveal:</b> If your opponent played a card here this turn, +2 Power.",
+    "description": "<b>On Reveal:</b> If your opponent played a card here this turn, +4 Power.",
     "attributes": {
       "data": {
-        "AddedPower": 2
+        "AddedPower": 4
       }
     },
     "series": 4,
@@ -3099,7 +3099,7 @@
   {
     "id": 137,
     "defId": "MindStone",
-    "cost": 1,
+    "cost": 2,
     "power": 1,
     "name": "Mind Stone",
     "description": "<b>On Reveal:</b> Draw 2 1-Cost cards from your deck.",
@@ -3988,7 +3988,7 @@
     "id": 175,
     "defId": "Psylocke",
     "cost": 2,
-    "power": 2,
+    "power": 1,
     "name": "Psylocke",
     "description": "<b>On Reveal:</b> Next turn, you get +1 Energy.",
     "attributes": {
@@ -4275,12 +4275,12 @@
     "id": 188,
     "defId": "RocketRaccoon",
     "cost": 1,
-    "power": 2,
+    "power": 1,
     "name": "Rocket Raccoon",
-    "description": "<b>On Reveal:</b> If your opponent played a card here this turn, +2 Power.",
+    "description": "<b>On Reveal:</b> If your opponent played a card here this turn, +4 Power.",
     "attributes": {
       "data": {
-        "AddedPower": 2
+        "AddedPower": 4
       }
     },
     "series": 4,
@@ -5112,10 +5112,10 @@
     "cost": 2,
     "power": 2,
     "name": "Star-Lord",
-    "description": "<b>On Reveal:</b> If your opponent played a card here this turn, +3 Power.",
+    "description": "<b>On Reveal:</b> If your opponent played a card here this turn, +4 Power.",
     "attributes": {
       "data": {
-        "AddedPower": 3
+        "AddedPower": 4
       }
     },
     "series": 1,
@@ -5799,7 +5799,7 @@
     "power": 6,
     "name": "War Machine",
     "description": "<b>On Reveal:</b> Until the end of next turn, nothing can stop you from playing cards anywhere.",
-    "series": 0,
+    "series": 8,
     "artists": [
       {
         "name": "Joverine",
@@ -5811,7 +5811,7 @@
       }
     ],
     "seriesStartTimestamps": [1711411200000],
-    "possibleSeries": 8
+    "collectible": true
   },
   {
     "id": 257,
@@ -7341,7 +7341,7 @@
         "Card_Token": [187]
       }
     },
-    "series": 0,
+    "series": 8,
     "artists": [
       {
         "name": "Eduardo Mello",
@@ -7353,14 +7353,13 @@
       }
     ],
     "seriesStartTimestamps": [1710806400000],
-    "possibleSeries": 8,
     "collectible": true
   },
   {
     "id": 323,
     "defId": "BaronZemo",
     "cost": 3,
-    "power": 4,
+    "power": 5,
     "name": "Baron Zemo",
     "description": "<b>On Reveal:</b> Recruit the lowest-Cost card from your opponent's deck to your side of this location.",
     "series": 0,
@@ -7375,13 +7374,14 @@
       }
     ],
     "seriesStartTimestamps": [1712016000000, 1715040000000],
-    "possibleSeries": 8
+    "possibleSeries": 8,
+    "collectible": true
   },
   {
     "id": 324,
     "defId": "RedHulk",
     "cost": 6,
-    "power": 10,
+    "power": 11,
     "name": "Red Hulk",
     "description": "When your opponent ends a turn with unspent Energy, +4 Power.\n<i>(if in hand or in play)</i>",
     "attributes": {
@@ -7401,13 +7401,14 @@
       }
     ],
     "seriesStartTimestamps": [1712016000000],
-    "possibleSeries": 8
+    "possibleSeries": 8,
+    "collectible": true
   },
   {
     "id": 325,
     "defId": "USAgent",
     "cost": 2,
-    "power": 2,
+    "power": 3,
     "name": "U.S. Agent",
     "description": "<b>Ongoing:</b> 4, 5, and 6-Cost cards here have -3 Power.",
     "attributes": {
@@ -7487,7 +7488,7 @@
     "id": 328,
     "defId": "Valentina",
     "cost": 2,
-    "power": 2,
+    "power": 3,
     "name": "Valentina",
     "description": "<b>On Reveal:</b> Add a random 6-Cost card to your hand. Give it -2 Cost\nand -3 Power.",
     "attributes": {
