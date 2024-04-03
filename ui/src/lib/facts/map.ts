@@ -1036,6 +1036,7 @@ export const map: Record<Key, Roster> = {
       'Shanna',
       'Captain America',
       'Nick Fury',
+      'War Machine',
       'Nimrod',
       'Polaris',
       'Havok',
