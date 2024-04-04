@@ -170,8 +170,8 @@ export const map: Record<Key, Roster> = {
   '2008|The Incredible Hulk': {
     major: new Set(),
     minor: new Set(),
-    major_: ['Hulk', 'Abomination', 'Leader'],
-    minor_: ['Iron Man'],
+    major_: ['Hulk', 'Abomination'],
+    minor_: ['Leader', 'Iron Man'],
   },
   '2008|Punisher: War Zone': {
     major: new Set(),
@@ -1410,7 +1410,6 @@ export const map: Record<Key, Roster> = {
       'Misty Knight',
       'Punisher',
       'Dracula',
-      'Leader',
       'Arnim Zola',
       'Heimdall',
       'Super-Skrull',
@@ -1426,6 +1425,7 @@ export const map: Record<Key, Roster> = {
       'Mystique',
       'Juggernaut',
       'X-23',
+      'Leader',
     ],
   },
   '2009–2012|Iron Man: Armored Adventures': {
@@ -1906,7 +1906,7 @@ export const map: Record<Key, Roster> = {
       'Enchantress',
       'Green Goblin',
     ],
-    minor_: ['Iron Fist', 'Ms. Marvel', 'Klaw', 'Crossbones', 'The Hood'],
+    minor_: ['Iron Fist', 'Ms. Marvel', 'Klaw', 'Crossbones', 'The Hood', 'Leader'],
   },
   "2017–2020|Marvel's Spider-Man": {
     major: new Set(),
