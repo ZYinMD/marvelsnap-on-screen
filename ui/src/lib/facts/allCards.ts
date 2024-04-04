@@ -2132,7 +2132,6 @@ export const allCards = {
     name: 'Hope Summers',
     description: 'After you play a card here, you get +1 Energy next turn.',
     seriesStartTimestamps: [1709596800000, 1712016000000],
-    possibleSeries: 8,
   },
   'Pixie': {
     defId: 'Pixie',
@@ -2178,6 +2177,14 @@ export const allCards = {
     description:
       'When your opponent ends a turn with unspent Energy, +4 Power.\n<i>(if in hand or in play)</i>',
     seriesStartTimestamps: [1712016000000],
+  },
+  'U.S. Agent': {
+    defId: 'USAgent',
+    cost: 2,
+    power: 3,
+    name: 'U.S. Agent',
+    description: '<b>Ongoing:</b> 4, 5, and 6-Cost cards here have -3 Power.',
+    seriesStartTimestamps: [1712620800000],
     possibleSeries: 8,
   },
 } as const;

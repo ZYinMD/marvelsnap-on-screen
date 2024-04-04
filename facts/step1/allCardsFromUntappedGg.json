@@ -7267,7 +7267,7 @@
         "AddedEnergy": 1
       }
     },
-    "series": 9,
+    "series": 8,
     "artists": [
       {
         "name": "Eduardo Mello",
@@ -7279,7 +7279,6 @@
       }
     ],
     "seriesStartTimestamps": [1709596800000, 1712016000000],
-    "possibleSeries": 8,
     "collectible": true
   },
   {
@@ -7362,7 +7361,7 @@
     "power": 5,
     "name": "Baron Zemo",
     "description": "<b>On Reveal:</b> Recruit the lowest-Cost card from your opponent's deck to your side of this location.",
-    "series": 0,
+    "series": 9,
     "artists": [
       {
         "name": "Eduardo Mello",
@@ -7389,7 +7388,7 @@
         "AddedPower": 4
       }
     },
-    "series": 0,
+    "series": 8,
     "artists": [
       {
         "name": "Eduardo Mello",
@@ -7401,7 +7400,6 @@
       }
     ],
     "seriesStartTimestamps": [1712016000000],
-    "possibleSeries": 8,
     "collectible": true
   },
   {
@@ -7431,7 +7429,8 @@
       }
     ],
     "seriesStartTimestamps": [1712620800000],
-    "possibleSeries": 8
+    "possibleSeries": 8,
+    "collectible": true
   },
   {
     "id": 326,
