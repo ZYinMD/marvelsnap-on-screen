@@ -77,9 +77,9 @@ export const allCards = {
   'Angela': {
     defId: 'Angela',
     cost: 2,
-    power: 2,
+    power: 0,
     name: 'Angela',
-    description: 'After you play a card here,\n+1 Power.',
+    description: 'After you play a card here,\n+2 Power.',
     seriesStartTimestamps: [-2177452800000],
   },
   'Annihilus': {
@@ -307,7 +307,7 @@ export const allCards = {
   'Crossbones': {
     defId: 'Crossbones',
     cost: 4,
-    power: 8,
+    power: 10,
     name: 'Crossbones',
     description: 'You can only play this at locations where you are winning.',
     seriesStartTimestamps: [-2177452800000],
@@ -1355,7 +1355,7 @@ export const allCards = {
   'Sabretooth': {
     defId: 'Sabretooth',
     cost: 3,
-    power: 4,
+    power: 5,
     name: 'Sabretooth',
     description: 'When this is destroyed, return it to your hand. It costs 0.',
     seriesStartTimestamps: [-2177452800000],
@@ -1602,7 +1602,8 @@ export const allCards = {
     cost: 6,
     power: 10,
     name: 'Thanos',
-    description: 'At the start of the game, shuffle the six Infinity Stones into your deck.',
+    description:
+      'Starts in your opening hand and shuffles the six Infinity Stones\ninto your deck.',
     seriesStartTimestamps: [-2177452800000],
   },
   'The Collector': {
@@ -2071,7 +2072,7 @@ export const allCards = {
   'Miek': {
     defId: 'Miek',
     cost: 1,
-    power: 1,
+    power: 0,
     name: 'Miek',
     description: 'When you discard a card, this gains +1 Power and can move next turn.',
     seriesStartTimestamps: [1705363200000],

@@ -199,12 +199,12 @@
     "id": 10,
     "defId": "Angela",
     "cost": 2,
-    "power": 2,
+    "power": 0,
     "name": "Angela",
-    "description": "After you play a card here,\n+1 Power.",
+    "description": "After you play a card here,\n+2 Power.",
     "attributes": {
       "data": {
-        "AddedPower": 1
+        "AddedPower": 2
       }
     },
     "series": 4,
@@ -932,7 +932,7 @@
     "id": 41,
     "defId": "Crossbones",
     "cost": 4,
-    "power": 8,
+    "power": 10,
     "name": "Crossbones",
     "description": "You can only play this at locations where you are winning.",
     "series": 6,
@@ -4388,7 +4388,7 @@
     "id": 193,
     "defId": "Sabretooth",
     "cost": 3,
-    "power": 4,
+    "power": 5,
     "name": "Sabretooth",
     "description": "When this is destroyed, return it to your hand. It costs 0.",
     "attributes": {
@@ -5362,7 +5362,7 @@
     "cost": 6,
     "power": 10,
     "name": "Thanos",
-    "description": "At the start of the game, shuffle the six Infinity Stones into your deck.",
+    "description": "Starts in your opening hand and shuffles the six Infinity Stones\ninto your deck.",
     "attributes": {
       "cards": {
         "Card_Token": [218, 182, 243, 137, 173, 217]
@@ -5526,10 +5526,13 @@
     "cost": 1,
     "power": 1,
     "name": "Time Stone",
-    "description": "<b>On Reveal:</b> Draw a card and give it -1 Cost.",
+    "description": "<b>On Reveal:</b> Give Thanos -1 Cost next turn. Draw a card.",
     "attributes": {
       "data": {
         "ReducedCost": 1
+      },
+      "cards": {
+        "Card_Modified": [236]
       }
     },
     "series": 0,
@@ -7060,7 +7063,7 @@
     "id": 311,
     "defId": "Miek",
     "cost": 1,
-    "power": 1,
+    "power": 0,
     "name": "Miek",
     "description": "When you discard a card, this gains +1 Power and can move next turn.",
     "attributes": {
