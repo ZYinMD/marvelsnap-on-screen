@@ -69,8 +69,8 @@
         <h2>What's a minor character? <i>(shown as dimmed)</i></h2>
         <p>1. Brief appearance as a cameo or in the post-credit scene</p>
         <p>
-          2. Not fully in form yet, e.g. Pepper Potts before being "Rescue", Ant Man's daughter
-          before being "Stature", Jane Foster before being Thor.
+          2. The character appeared, but not wearing suit, e.g. Pepper Potts not being "Rescue", Ant
+          Man's daughter not being "Stature", Jane Foster not being Mighty Thor.
         </p>
         <p>
           3. In a multi-season TV series, a character is considered minor if they only appear in one
