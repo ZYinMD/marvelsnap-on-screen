@@ -790,7 +790,7 @@ export const allCards = {
     power: 0,
     name: 'Kang',
     description:
-      '<b>On Reveal:</b> Look at what your opponent did, then restart the turn. <i>(without Kang)</i>',
+      '<b>On Reveal:</b> Look at what your opponent did, then restart the turn. <i>(without this)</i>',
     seriesStartTimestamps: [-2177452800000],
   },
   'Ka-Zar': {
@@ -852,9 +852,9 @@ export const allCards = {
   'Lady Deathstrike': {
     defId: 'LadyDeathstrike',
     cost: 5,
-    power: 4,
+    power: 7,
     name: 'Lady Deathstrike',
-    description: '<b>On Reveal:</b> Destroy each card here with less Power than this.',
+    description: '<b>On Reveal:</b> Destroy each card here with 3 or less Power.',
     seriesStartTimestamps: [1692057600000, 1704585600000],
   },
   'Lady Sif': {
@@ -1296,6 +1296,15 @@ export const allCards = {
       "<b>Ongoing:</b> Cards that didn't start in your deck cost 1 less. <i>(minimum 1)</i>",
     seriesStartTimestamps: [-2177452800000],
   },
+  'Red Guardian': {
+    defId: 'RedGuardian',
+    cost: 3,
+    power: 3,
+    name: 'Red Guardian',
+    description:
+      '<b>On Reveal:</b> Afflict the lowest-Power enemy card here with -2 Power and remove its text.',
+    seriesStartTimestamps: [1713225600000],
+  },
   'Red Skull': {
     defId: 'RedSkull',
     cost: 5,
@@ -1363,9 +1372,9 @@ export const allCards = {
   'Sandman': {
     defId: 'Sandman',
     cost: 5,
-    power: 4,
+    power: 7,
     name: 'Sandman',
-    description: '<b>Ongoing:</b> Players can only play 1 card a turn.',
+    description: '<b>On Reveal:</b> Players can only play 1 card next turn.',
     seriesStartTimestamps: [-2177452800000],
   },
   'Sauron': {
@@ -1423,7 +1432,7 @@ export const allCards = {
     cost: 2,
     power: 2,
     name: 'Shadow King',
-    description: '<b>On Reveal:</b> Set all cards here to their original base Power.',
+    description: '<b>On Reveal:</b> Set all cards here to their base Power.',
     seriesStartTimestamps: [-2177452800000, 1684195200000],
   },
   'Shang-Chi': {
@@ -1553,7 +1562,7 @@ export const allCards = {
     cost: 3,
     power: 3,
     name: 'Strong Guy',
-    description: '<b>Ongoing:</b> If your hand is empty, +6 Power.',
+    description: '<b>Ongoing:</b> +6 Power if your hand has 1 or fewer cards.',
     seriesStartTimestamps: [-2177452800000],
   },
   'Sunspot': {
@@ -1814,9 +1823,9 @@ export const allCards = {
   'Zabu': {
     defId: 'Zabu',
     cost: 2,
-    power: 2,
+    power: 3,
     name: 'Zabu',
-    description: '<b>Ongoing:</b> Your 4-Cost cards cost 1 less. <i>(minimum 1)</i>',
+    description: '<b>On Reveal:</b> Until the end of next turn, your 4-Cost cards cost 1 less.',
     seriesStartTimestamps: [-2177452800000],
   },
   'Zero': {
@@ -1961,9 +1970,9 @@ export const allCards = {
   'Alioth': {
     defId: 'Alioth',
     cost: 6,
-    power: 2,
+    power: 8,
     name: 'Alioth',
-    description: '<b>On Reveal:</b> Destroy all unrevealed enemy cards here.',
+    description: '<b>On Reveal:</b> Remove the text from all unrevealed enemy cards here.',
     seriesStartTimestamps: [1694476800000],
   },
   'Man-Thing': {
@@ -2140,7 +2149,7 @@ export const allCards = {
     power: 1,
     name: 'Pixie',
     description:
-      '<b>On Reveal:</b> Shuffle the Costs of all cards in your deck that started there.',
+      '<b>On Reveal:</b> Shuffle the base Costs\nof all cards in your deck\nthat started there.',
     seriesStartTimestamps: [1709596800000],
   },
   'Mockingbird': {
@@ -2186,6 +2195,23 @@ export const allCards = {
     name: 'U.S. Agent',
     description: '<b>Ongoing:</b> 4, 5, and 6-Cost cards here have -3 Power.',
     seriesStartTimestamps: [1712620800000],
+  },
+  'White Widow': {
+    defId: 'WhiteWidow',
+    cost: 2,
+    power: 2,
+    name: 'White Widow',
+    description: "<b>On Reveal:</b> Add a Widow's Kiss to your opponent's side of this location.",
+    seriesStartTimestamps: [1713830400000],
+  },
+  'Valentina': {
+    defId: 'Valentina',
+    cost: 2,
+    power: 3,
+    name: 'Valentina',
+    description:
+      '<b>On Reveal:</b> Add a random 6-Cost card to your hand. Give it -2 Cost\nand -3 Power.',
+    seriesStartTimestamps: [1714435200000],
     possibleSeries: 8,
   },
 } as const;

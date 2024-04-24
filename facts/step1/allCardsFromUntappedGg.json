@@ -559,7 +559,7 @@
     "id": 25,
     "defId": "Blink",
     "cost": 5,
-    "power": 7,
+    "power": 6,
     "name": "Blink",
     "description": "<b>On Reveal:</b> Swap the last card you played with a higher-Cost card\nfrom your deck.",
     "series": 0,
@@ -1859,7 +1859,16 @@
     "name": "Gwenpool",
     "description": "<b>On Reveal:</b> Double this card's Power.",
     "series": 0,
-    "artists": [],
+    "artists": [
+      {
+        "name": "Eduardo Mello",
+        "type": 1
+      },
+      {
+        "name": "Ryan Kinnaird",
+        "type": 4
+      }
+    ],
     "seriesStartTimestamps": []
   },
   {
@@ -2403,7 +2412,7 @@
     "cost": 5,
     "power": 0,
     "name": "Kang",
-    "description": "<b>On Reveal:</b> Look at what your opponent did, then restart the turn. <i>(without Kang)</i>",
+    "description": "<b>On Reveal:</b> Look at what your opponent did, then restart the turn. <i>(without this)</i>",
     "series": 8,
     "artists": [
       {
@@ -2621,9 +2630,14 @@
     "id": 116,
     "defId": "LadyDeathstrike",
     "cost": 5,
-    "power": 4,
+    "power": 7,
     "name": "Lady Deathstrike",
-    "description": "<b>On Reveal:</b> Destroy each card here with less Power than this.",
+    "description": "<b>On Reveal:</b> Destroy each card here with 3 or less Power.",
+    "attributes": {
+      "data": {
+        "AssignedPower": 3
+      }
+    },
     "series": 7,
     "artists": [
       {
@@ -2893,13 +2907,14 @@
   {
     "id": 128,
     "defId": "Makkari",
-    "cost": 0,
-    "power": 2,
+    "cost": 3,
+    "power": 3,
     "name": "Makkari",
-    "description": "When you draw this, place it at a random location.",
+    "description": "After the turn, runs from your hand to a random location. <i>(if possible)</i>",
     "series": 0,
     "artists": [],
-    "seriesStartTimestamps": []
+    "seriesStartTimestamps": [1718668800000],
+    "possibleSeries": 8
   },
   {
     "id": 129,
@@ -4163,7 +4178,7 @@
         "ReducedPower": 2
       }
     },
-    "series": 0,
+    "series": 8,
     "artists": [
       {
         "name": "Ryan Benjamin",
@@ -4175,7 +4190,7 @@
       }
     ],
     "seriesStartTimestamps": [1713225600000],
-    "possibleSeries": 8
+    "collectible": true
   },
   {
     "id": 184,
@@ -4414,9 +4429,9 @@
     "id": 194,
     "defId": "Sandman",
     "cost": 5,
-    "power": 4,
+    "power": 7,
     "name": "Sandman",
-    "description": "<b>Ongoing:</b> Players can only play 1 card a turn.",
+    "description": "<b>On Reveal:</b> Players can only play 1 card next turn.",
     "attributes": {
       "data": {
         "StageCardsLimit": 1
@@ -4590,7 +4605,7 @@
     "cost": 2,
     "power": 2,
     "name": "Shadow King",
-    "description": "<b>On Reveal:</b> Set all cards here to their original base Power.",
+    "description": "<b>On Reveal:</b> Set all cards here to their base Power.",
     "series": 6,
     "artists": [
       {
@@ -5164,10 +5179,11 @@
     "cost": 3,
     "power": 3,
     "name": "Strong Guy",
-    "description": "<b>Ongoing:</b> If your hand is empty, +6 Power.",
+    "description": "<b>Ongoing:</b> +6 Power if your hand has 1 or fewer cards.",
     "attributes": {
       "data": {
-        "AddedPower": 6
+        "AddedPower": 6,
+        "TokenCount": 1
       }
     },
     "series": 4,
@@ -6158,9 +6174,9 @@
     "id": 272,
     "defId": "Zabu",
     "cost": 2,
-    "power": 2,
+    "power": 3,
     "name": "Zabu",
-    "description": "<b>Ongoing:</b> Your 4-Cost cards cost 1 less. <i>(minimum 1)</i>",
+    "description": "<b>On Reveal:</b> Until the end of next turn, your 4-Cost cards cost 1 less.",
     "attributes": {
       "data": {
         "TargetCardCost": 4,
@@ -6435,7 +6451,7 @@
     "description": "At the start of the game, unlock the potential of your cards with no abilities.",
     "attributes": {
       "cards": {
-        "Card_Related": [333, 334, 335, 336, 337, 338, 339]
+        "Card_Related": [338, 339, 340, 341, 342, 343, 344]
       }
     },
     "series": 8,
@@ -6669,9 +6685,9 @@
     "id": 295,
     "defId": "Alioth",
     "cost": 6,
-    "power": 2,
+    "power": 8,
     "name": "Alioth",
-    "description": "<b>On Reveal:</b> Destroy all unrevealed enemy cards here.",
+    "description": "<b>On Reveal:</b> Remove the text from all unrevealed enemy cards here.",
     "series": 8,
     "artists": [
       {
@@ -6749,7 +6765,7 @@
     "description": "<b>On Reveal:</b> After you play your next card, cast a spell. <i>(The spell\nchanges each turn.)</i>",
     "attributes": {
       "cards": {
-        "Card_Related": [340, 341, 342, 343, 344, 345, 346]
+        "Card_Related": [345, 346, 347, 348, 349, 350, 351]
       }
     },
     "series": 8,
@@ -7290,7 +7306,7 @@
     "cost": 2,
     "power": 1,
     "name": "Pixie",
-    "description": "<b>On Reveal:</b> Shuffle the Costs of all cards in your deck that started there.",
+    "description": "<b>On Reveal:</b> Shuffle the base Costs\nof all cards in your deck\nthat started there.",
     "series": 8,
     "artists": [
       {
@@ -7420,7 +7436,7 @@
         "ReducedPower": 3
       }
     },
-    "series": 0,
+    "series": 8,
     "artists": [
       {
         "name": "Eduardo Mello",
@@ -7432,7 +7448,6 @@
       }
     ],
     "seriesStartTimestamps": [1712620800000],
-    "possibleSeries": 8,
     "collectible": true
   },
   {
@@ -7447,7 +7462,7 @@
         "Card_Token": [327]
       }
     },
-    "series": 0,
+    "series": 8,
     "artists": [
       {
         "name": "Eduardo Mello",
@@ -7459,7 +7474,7 @@
       }
     ],
     "seriesStartTimestamps": [1713830400000],
-    "possibleSeries": 8
+    "collectible": true
   },
   {
     "id": 327,
@@ -7512,7 +7527,8 @@
       }
     ],
     "seriesStartTimestamps": [1714435200000],
-    "possibleSeries": 8
+    "possibleSeries": 8,
+    "collectible": true
   },
   {
     "id": 329,
@@ -7615,6 +7631,139 @@
   },
   {
     "id": 333,
+    "defId": "Thena",
+    "cost": 2,
+    "power": 1,
+    "name": "Thena",
+    "description": "After each turn, +3 Power if you played <i>(exactly)</i> 2 cards.",
+    "attributes": {
+      "data": {
+        "ModifiedCardCount": 2,
+        "AddedPower": 3
+      }
+    },
+    "series": 0,
+    "artists": [
+      {
+        "name": "Eduardo Mello",
+        "type": 1
+      },
+      {
+        "name": "Ryan Kinnaird",
+        "type": 4
+      }
+    ],
+    "seriesStartTimestamps": [1717459200000],
+    "possibleSeries": 8
+  },
+  {
+    "id": 334,
+    "defId": "Gilgamesh",
+    "cost": 5,
+    "power": 2,
+    "name": "Gilgamesh",
+    "description": "<b>On Reveal:</b> +2 Power for each of your other cards in play with increased Power.",
+    "attributes": {
+      "data": {
+        "AddedPower": 2
+      }
+    },
+    "series": 0,
+    "artists": [
+      {
+        "name": "Eduardo Mello",
+        "type": 1
+      },
+      {
+        "name": "Ryan Kinnaird",
+        "type": 4
+      }
+    ],
+    "seriesStartTimestamps": [1717459200000, 1720483200000],
+    "possibleSeries": 8
+  },
+  {
+    "id": 335,
+    "defId": "Sersi",
+    "cost": 5,
+    "power": 7,
+    "name": "Sersi",
+    "description": "<b>On Reveal:</b> Transform your other cards here into random cards that\ncost 1 more. <i>(if able)</i>",
+    "attributes": {
+      "data": {
+        "AddedCost": 1
+      }
+    },
+    "series": 0,
+    "artists": [
+      {
+        "name": "Eduardo Mello",
+        "type": 1
+      },
+      {
+        "name": "Ryan Kinnaird",
+        "type": 4
+      }
+    ],
+    "seriesStartTimestamps": [1718064000000],
+    "possibleSeries": 8
+  },
+  {
+    "id": 336,
+    "defId": "Phastos",
+    "cost": 3,
+    "power": 3,
+    "name": "Phastos",
+    "description": "<b>On Reveal:</b> Give each card in your deck -1 Cost or +2 Power.",
+    "attributes": {
+      "data": {
+        "ReducedCost": 1,
+        "AddedPower": 2
+      }
+    },
+    "series": 0,
+    "artists": [
+      {
+        "name": "Eduardo Mello",
+        "type": 1
+      },
+      {
+        "name": "Ryan Kinnaird",
+        "type": 4
+      }
+    ],
+    "seriesStartTimestamps": [1719273600000],
+    "possibleSeries": 8
+  },
+  {
+    "id": 337,
+    "defId": "Arishem",
+    "cost": 7,
+    "power": 7,
+    "name": "Arishem",
+    "description": "At the start of the game, +1 Max Energy. Shuffle 12 random cards\ninto your deck.",
+    "attributes": {
+      "data": {
+        "AddedMaxEnergy": 1,
+        "TokenCount": 12
+      }
+    },
+    "series": 0,
+    "artists": [
+      {
+        "name": "Eduardo Mello",
+        "type": 1
+      },
+      {
+        "name": "Ryan Kinnaird",
+        "type": 4
+      }
+    ],
+    "seriesStartTimestamps": [1719878400000],
+    "possibleSeries": 8
+  },
+  {
+    "id": 338,
     "defId": "EvolvedWasp",
     "cost": 0,
     "power": 1,
@@ -7630,7 +7779,7 @@
     "seriesStartTimestamps": []
   },
   {
-    "id": 334,
+    "id": 339,
     "defId": "EvolvedMistyKnight",
     "cost": 1,
     "power": 2,
@@ -7646,7 +7795,7 @@
     "seriesStartTimestamps": []
   },
   {
-    "id": 335,
+    "id": 340,
     "defId": "EvolvedShocker",
     "cost": 2,
     "power": 3,
@@ -7662,7 +7811,7 @@
     "seriesStartTimestamps": []
   },
   {
-    "id": 336,
+    "id": 341,
     "defId": "EvolvedCyclops",
     "cost": 3,
     "power": 4,
@@ -7679,7 +7828,7 @@
     "seriesStartTimestamps": []
   },
   {
-    "id": 337,
+    "id": 342,
     "defId": "EvolvedTheThing",
     "cost": 4,
     "power": 6,
@@ -7696,7 +7845,7 @@
     "seriesStartTimestamps": []
   },
   {
-    "id": 338,
+    "id": 343,
     "defId": "EvolvedAbomination",
     "cost": 5,
     "power": 9,
@@ -7712,7 +7861,7 @@
     "seriesStartTimestamps": []
   },
   {
-    "id": 339,
+    "id": 344,
     "defId": "EvolvedHulk",
     "cost": 6,
     "power": 12,
@@ -7728,7 +7877,7 @@
     "seriesStartTimestamps": []
   },
   {
-    "id": 340,
+    "id": 345,
     "defId": "Spell01NicoMinoru",
     "cost": 1,
     "power": 2,
@@ -7737,7 +7886,7 @@
     "attributes": {
       "cards": {
         "Card_Token": [52],
-        "Card_Related": [341, 342, 343, 344, 345, 346]
+        "Card_Related": [346, 347, 348, 349, 350, 351]
       }
     },
     "series": 0,
@@ -7745,7 +7894,7 @@
     "seriesStartTimestamps": []
   },
   {
-    "id": 341,
+    "id": 346,
     "defId": "Spell02NicoMinoru",
     "cost": 1,
     "power": 2,
@@ -7753,7 +7902,7 @@
     "description": "<b>On Reveal:</b> After you play your next card, destroy it to draw two cards.",
     "attributes": {
       "cards": {
-        "Card_Related": [340, 342, 343, 344, 345, 346]
+        "Card_Related": [345, 347, 348, 349, 350, 351]
       }
     },
     "series": 0,
@@ -7761,7 +7910,7 @@
     "seriesStartTimestamps": []
   },
   {
-    "id": 342,
+    "id": 347,
     "defId": "Spell03NicoMinoru",
     "cost": 1,
     "power": 2,
@@ -7769,7 +7918,7 @@
     "description": "<b>On Reveal:</b> After you play your next card, move it one location to the right.",
     "attributes": {
       "cards": {
-        "Card_Related": [340, 341, 343, 344, 345, 346]
+        "Card_Related": [345, 346, 348, 349, 350, 351]
       }
     },
     "series": 0,
@@ -7777,7 +7926,7 @@
     "seriesStartTimestamps": []
   },
   {
-    "id": 343,
+    "id": 348,
     "defId": "Spell04NicoMinoru",
     "cost": 1,
     "power": 2,
@@ -7788,7 +7937,7 @@
         "AddedPower": 2
       },
       "cards": {
-        "Card_Related": [340, 341, 342, 344, 345, 346]
+        "Card_Related": [345, 346, 347, 349, 350, 351]
       }
     },
     "series": 0,
@@ -7796,7 +7945,7 @@
     "seriesStartTimestamps": []
   },
   {
-    "id": 344,
+    "id": 349,
     "defId": "Spell05NicoMinoru",
     "cost": 1,
     "power": 2,
@@ -7804,7 +7953,7 @@
     "description": "<b>On Reveal:</b> After you play your next card, replace that card's location.",
     "attributes": {
       "cards": {
-        "Card_Related": [340, 341, 342, 343, 345, 346]
+        "Card_Related": [345, 346, 347, 348, 350, 351]
       }
     },
     "series": 0,
@@ -7812,7 +7961,7 @@
     "seriesStartTimestamps": []
   },
   {
-    "id": 345,
+    "id": 350,
     "defId": "Spell06NicoMinoru",
     "cost": 1,
     "power": 2,
@@ -7820,7 +7969,7 @@
     "description": "<b>On Reveal:</b> After you play your next card, add a copy of it to your hand.",
     "attributes": {
       "cards": {
-        "Card_Related": [340, 341, 342, 343, 344, 346]
+        "Card_Related": [345, 346, 347, 348, 349, 351]
       }
     },
     "series": 0,
@@ -7828,7 +7977,7 @@
     "seriesStartTimestamps": []
   },
   {
-    "id": 346,
+    "id": 351,
     "defId": "Spell07NicoMinoru",
     "cost": 1,
     "power": 2,
@@ -7836,7 +7985,7 @@
     "description": "<b>On Reveal:</b> After you play your next card, double this card's Power.",
     "attributes": {
       "cards": {
-        "Card_Related": [340, 341, 342, 343, 344, 345]
+        "Card_Related": [345, 346, 347, 348, 349, 350]
       }
     },
     "series": 0,
