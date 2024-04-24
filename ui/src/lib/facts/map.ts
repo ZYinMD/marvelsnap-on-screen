@@ -659,7 +659,7 @@ export const map: Record<Key, Roster> = {
   '2021|Black Widow': {
     major: new Set(),
     minor: new Set(),
-    major_: ['Black Widow', 'Quinjet', 'Taskmaster'],
+    major_: ['Black Widow', 'Red Guardian', 'Quinjet', 'Taskmaster'],
     minor_: [],
   },
   '2021|Shang-Chi and the Legend of the Ten Rings': {
@@ -1761,6 +1761,7 @@ export const map: Record<Key, Roster> = {
       'Supergiant',
       'Giganto',
       'Brood',
+      'Red Guardian',
     ],
   },
   '2015–2016|Marvel Disk Wars: The Avengers': {
@@ -1905,6 +1906,7 @@ export const map: Record<Key, Roster> = {
       'Maximus',
       'Enchantress',
       'Green Goblin',
+      'Red Guardian',
     ],
     minor_: ['Iron Fist', 'Ms. Marvel', 'Klaw', 'Crossbones', 'The Hood', 'Leader'],
   },
