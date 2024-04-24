@@ -484,7 +484,16 @@ export const map: Record<Key, Roster> = {
   '2018|Black Panther': {
     major: new Set(),
     minor: new Set(),
-    major_: ['Black Panther', 'Killmonger', 'Nakia', 'Okoye', 'Shuri', "M'Baku", 'Klaw'],
+    major_: [
+      'Black Panther',
+      'Killmonger',
+      'Nakia',
+      'Okoye',
+      'Shuri',
+      "M'Baku",
+      'Klaw',
+      'Valentina',
+    ],
     minor_: ['Bucky Barnes'],
   },
   '2018|Avengers: Infinity War': {
@@ -660,7 +669,7 @@ export const map: Record<Key, Roster> = {
     major: new Set(),
     minor: new Set(),
     major_: ['Black Widow', 'White Widow', 'Red Guardian', 'Quinjet', 'Taskmaster'],
-    minor_: [],
+    minor_: ['Valentina'],
   },
   '2021|Shang-Chi and the Legend of the Ten Rings': {
     major: new Set(),
@@ -930,7 +939,15 @@ export const map: Record<Key, Roster> = {
   '2021|The Falcon and the Winter Soldier': {
     major: new Set(),
     minor: new Set(),
-    major_: ['Bucky Barnes', 'Falcon', 'Agent 13', 'Patriot', 'Baron Zemo', 'U.S. Agent'],
+    major_: [
+      'Bucky Barnes',
+      'Falcon',
+      'Agent 13',
+      'Patriot',
+      'Baron Zemo',
+      'Valentina',
+      'U.S. Agent',
+    ],
     minor_: ['War Machine'],
   },
   '2021|Hawkeye': {
