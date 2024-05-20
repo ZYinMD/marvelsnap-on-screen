@@ -758,6 +758,7 @@ export const map: Record<Key, Roster> = {
       "M'Baku",
       'Ironheart',
       'Namor',
+      'Namora',
       'Attuma',
     ],
     minor_: [],
