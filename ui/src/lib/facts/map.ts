@@ -317,7 +317,8 @@ export const map: Record<Key, Roster> = {
       'Quicksilver',
       'Colossus',
       'Sunspot',
-      'Warpath','Blink',
+      'Warpath',
+      'Blink',
       'Havok',
       'Cerebro',
     ],
@@ -903,7 +904,7 @@ export const map: Record<Key, Roster> = {
   '2017–2019|The Gifted': {
     major: new Set(),
     minor: new Set(),
-    major_: ['Polaris', 'Blink'],
+    major_: ['Polaris', 'Blink', 'Sage'],
     minor_: [],
   },
   '2017–2019|The Punisher': {
