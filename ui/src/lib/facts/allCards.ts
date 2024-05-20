@@ -198,6 +198,16 @@ export const allCards = {
     description: '<b>On Reveal:</b> Discard the rightmost card from your hand.',
     seriesStartTimestamps: [-2177452800000],
   },
+  'Blink': {
+    defId: 'Blink',
+    cost: 5,
+    power: 7,
+    name: 'Blink',
+    description:
+      '<b>On Reveal:</b> Swap the last card you played with a higher-Cost card\nfrom your deck.',
+    seriesStartTimestamps: [1715040000000, 1717459200000],
+    possibleSeries: 8,
+  },
   'Blob': {
     defId: 'Blob',
     cost: 6,
@@ -347,7 +357,7 @@ export const allCards = {
   'Darkhawk': {
     defId: 'Darkhawk',
     cost: 5,
-    power: 4,
+    power: 3,
     name: 'Darkhawk',
     description: "<b>Ongoing:</b> +2 Power for each card in your opponent's deck.",
     seriesStartTimestamps: [-2177452800000],
@@ -736,7 +746,7 @@ export const allCards = {
   'Jane Foster Mighty Thor': {
     defId: 'JaneFoster',
     cost: 5,
-    power: 8,
+    power: 9,
     name: 'Jane Foster Mighty Thor',
     description: '<b>On Reveal:</b> Draw all cards that Cost 0 from your deck.',
     seriesStartTimestamps: [-2177452800000],
@@ -744,7 +754,7 @@ export const allCards = {
   'Jean Grey': {
     defId: 'JeanGrey',
     cost: 3,
-    power: 3,
+    power: 4,
     name: 'Jean Grey',
     description:
       '<b>Ongoing:</b> Players must play their first card here each turn. <i>(if possible)</i>',
@@ -830,7 +840,7 @@ export const allCards = {
     cost: 5,
     power: 4,
     name: 'Klaw',
-    description: '<b>Ongoing:</b> The location to the right has +6 Power.',
+    description: '<b>Ongoing:</b> The location to the right has +8 Power.',
     seriesStartTimestamps: [-2177452800000],
   },
   'Korg': {
@@ -852,7 +862,7 @@ export const allCards = {
   'Lady Deathstrike': {
     defId: 'LadyDeathstrike',
     cost: 5,
-    power: 7,
+    power: 6,
     name: 'Lady Deathstrike',
     description: '<b>On Reveal:</b> Destroy each card here with 3 or less Power.',
     seriesStartTimestamps: [1692057600000, 1704585600000],
@@ -876,8 +886,8 @@ export const allCards = {
   },
   'Leech': {
     defId: 'Leech',
-    cost: 5,
-    power: 3,
+    cost: 4,
+    power: 2,
     name: 'Leech',
     description:
       "<b>On Reveal:</b> Remove the text from cards with <b>On Reveal</b> abilities in\nyour opponent's hand.",
@@ -952,7 +962,7 @@ export const allCards = {
   },
   'Mantis': {
     defId: 'Mantis',
-    cost: 2,
+    cost: 1,
     power: 2,
     name: 'Mantis',
     description:
@@ -1258,7 +1268,7 @@ export const allCards = {
   'Psylocke': {
     defId: 'Psylocke',
     cost: 2,
-    power: 1,
+    power: 2,
     name: 'Psylocke',
     description: '<b>On Reveal:</b> Next turn, you get +1 Energy.',
     seriesStartTimestamps: [-2177452800000],
@@ -1380,7 +1390,7 @@ export const allCards = {
   'Sauron': {
     defId: 'Sauron',
     cost: 3,
-    power: 2,
+    power: 3,
     name: 'Sauron',
     description:
       '<b>On Reveal:</b> Remove the abilities from all <b>Ongoing</b> cards in your\nhand and deck.',
@@ -1677,7 +1687,7 @@ export const allCards = {
     cost: 6,
     power: 8,
     name: 'Ultron',
-    description: '<b>On Reveal:</b> Deploy four 1-Power Drones to each other location.',
+    description: '<b>On Reveal:</b> Deploy four 2-Power Drones to each other location.',
     seriesStartTimestamps: [-2177452800000],
   },
   'Valkyrie': {
@@ -1863,7 +1873,7 @@ export const allCards = {
   'Stature': {
     defId: 'Stature',
     cost: 5,
-    power: 6,
+    power: 7,
     name: 'Stature',
     description: 'Costs 1 if your opponent discarded a card this game.',
     seriesStartTimestamps: [-2177452800000, 1704585600000],
@@ -2177,12 +2187,11 @@ export const allCards = {
     description:
       "<b>On Reveal:</b> Recruit the lowest-Cost card from your opponent's deck to your side of this location.",
     seriesStartTimestamps: [1712016000000, 1715040000000],
-    possibleSeries: 8,
   },
   'Red Hulk': {
     defId: 'RedHulk',
     cost: 6,
-    power: 11,
+    power: 9,
     name: 'Red Hulk',
     description:
       'When your opponent ends a turn with unspent Energy, +4 Power.\n<i>(if in hand or in play)</i>',
@@ -2193,7 +2202,7 @@ export const allCards = {
     cost: 2,
     power: 3,
     name: 'U.S. Agent',
-    description: '<b>Ongoing:</b> 4, 5, and 6-Cost cards here have -3 Power.',
+    description: '<b>Ongoing:</b> 4, 5, and 6-Cost cards here have -4 Power.',
     seriesStartTimestamps: [1712620800000],
   },
   'White Widow': {
@@ -2212,6 +2221,31 @@ export const allCards = {
     description:
       '<b>On Reveal:</b> Add a random 6-Cost card to your hand. Give it -2 Cost\nand -3 Power.',
     seriesStartTimestamps: [1714435200000],
+  },
+  'Nocturne': {
+    defId: 'Nocturne',
+    cost: 3,
+    power: 5,
+    name: 'Nocturne',
+    description:
+      'You can move this once. When this moves, replace its location with a random new one.',
+    seriesStartTimestamps: [1715040000000],
+  },
+  'Sage': {
+    defId: 'Sage',
+    cost: 3,
+    power: 0,
+    name: 'Sage',
+    description: '<b>On Reveal:</b> +2 Power for each different Power among all\nother cards here.',
+    seriesStartTimestamps: [1715644800000],
+  },
+  'Namora': {
+    defId: 'Namora',
+    cost: 5,
+    power: 6,
+    name: 'Namora',
+    description: '<b>On Reveal:</b> Give +5 Power to each of your cards alone at another location.',
+    seriesStartTimestamps: [1716249600000],
     possibleSeries: 8,
   },
 } as const;
