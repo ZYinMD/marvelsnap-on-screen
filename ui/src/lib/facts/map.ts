@@ -1069,6 +1069,7 @@ export const map: Record<Key, Roster> = {
       'Warpath',
       'Brood',
       'Cannonball',
+      'Sasquatch',
     ],
   },
   '1994–1996|Fantastic Four: The Animated Series': {
@@ -1172,6 +1173,7 @@ export const map: Record<Key, Roster> = {
       'Invisible Woman',
       'Human Torch',
       'The Thing',
+      'Sasquatch',
     ],
   },
   '1998|Silver Surfer': {
