@@ -485,16 +485,7 @@ export const map: Record<Key, Roster> = {
   '2018|Black Panther': {
     major: new Set(),
     minor: new Set(),
-    major_: [
-      'Black Panther',
-      'Killmonger',
-      'Nakia',
-      'Okoye',
-      'Shuri',
-      "M'Baku",
-      'Klaw',
-      'Valentina',
-    ],
+    major_: ['Black Panther', 'Killmonger', 'Nakia', 'Okoye', 'Shuri', "M'Baku", 'Klaw'],
     minor_: ['Bucky Barnes'],
   },
   '2018|Avengers: Infinity War': {
@@ -760,6 +751,7 @@ export const map: Record<Key, Roster> = {
       'Namor',
       'Namora',
       'Attuma',
+      'Valentina',
     ],
     minor_: [],
   },
