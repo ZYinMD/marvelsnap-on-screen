@@ -687,7 +687,7 @@ export const map: Record<Key, Roster> = {
   '2021|Eternals': {
     major: new Set(),
     minor: new Set(),
-    major_: [],
+    major_: ['Sersi', 'Thena', 'Gilgamesh', 'Makkari'],
     minor_: ['Black Knight', 'Blade'],
   },
   '2021|Spider-Man: No Way Home': {
