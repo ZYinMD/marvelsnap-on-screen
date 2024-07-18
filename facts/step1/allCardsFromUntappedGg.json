@@ -2033,7 +2033,7 @@
 				"AddedPower": 2
 			}
 		},
-		"series": 0,
+		"series": 9,
 		"artists": [
 			{
 				"name": "Eduardo Mello",
@@ -8438,7 +8438,7 @@
 				"AddedPower": 1
 			}
 		},
-		"series": 9,
+		"series": 8,
 		"artists": [
 			{
 				"name": "Eduardo Mello",
@@ -8453,7 +8453,6 @@
 			1717527600000,
 			1720551600000
 		],
-		"possibleSeries": 8,
 		"collectible": true,
 		"isSeasonPass": true
 	},
@@ -8564,7 +8563,8 @@
 		"seriesStartTimestamps": [
 			1721761200000
 		],
-		"possibleSeries": 8
+		"possibleSeries": 8,
+		"collectible": true
 	},
 	{
 		"id": 339,
@@ -8573,7 +8573,7 @@
 		"power": 4,
 		"name": "Hydra Bob",
 		"description": "After each turn, this moves if a player Snapped.",
-		"series": 0,
+		"series": 8,
 		"artists": [
 			{
 				"name": "Eduardo Mello",
@@ -8587,14 +8587,13 @@
 		"seriesStartTimestamps": [
 			1720551600000
 		],
-		"possibleSeries": 8,
 		"collectible": true
 	},
 	{
 		"id": 340,
 		"defId": "Ajax",
 		"cost": 5,
-		"power": 5,
+		"power": 7,
 		"name": "Ajax",
 		"description": "<b>Ongoing:</b> +1 Power for each card in play afflicted with negative Power.",
 		"attributes": {
@@ -8602,7 +8601,7 @@
 				"AddedPower": 1
 			}
 		},
-		"series": 0,
+		"series": 8,
 		"artists": [
 			{
 				"name": "Eduardo Mello",
@@ -8616,7 +8615,7 @@
 		"seriesStartTimestamps": [
 			1721156400000
 		],
-		"possibleSeries": 8
+		"collectible": true
 	},
 	{
 		"id": 341,
@@ -8645,7 +8644,8 @@
 			1721761200000,
 			1723057200000
 		],
-		"possibleSeries": 8
+		"possibleSeries": 8,
+		"collectible": true
 	},
 	{
 		"id": 342,

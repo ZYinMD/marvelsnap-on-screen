@@ -2304,7 +2304,6 @@ export const allCards = {
     description:
       '<b>On Reveal:</b> +1 Power for each of your other cards in play with increased Power.',
     seriesStartTimestamps: [1717527600000, 1720551600000],
-    possibleSeries: 8,
     isSeasonPass: true,
   },
   'Sersi': {
@@ -2333,6 +2332,16 @@ export const allCards = {
       'At the start of the game, +1 Max Energy. Shuffle 12 random cards\ninto your deck.',
     seriesStartTimestamps: [1719946800000],
   },
+  'Copycat': {
+    defId: 'Copycat',
+    cost: 3,
+    power: 5,
+    name: 'Copycat',
+    description:
+      "When you draw this, steal the text from the bottom card of your\nopponent's deck.",
+    seriesStartTimestamps: [1721761200000],
+    possibleSeries: 8,
+  },
   'Hydra Bob': {
     defId: 'HydraBob',
     cost: 1,
@@ -2340,6 +2349,22 @@ export const allCards = {
     name: 'Hydra Bob',
     description: 'After each turn, this moves if a player Snapped.',
     seriesStartTimestamps: [1720551600000],
+  },
+  'Ajax': {
+    defId: 'Ajax',
+    cost: 5,
+    power: 7,
+    name: 'Ajax',
+    description: '<b>Ongoing:</b> +1 Power for each card in play afflicted with negative Power.',
+    seriesStartTimestamps: [1721156400000],
+  },
+  'Cassandra Nova': {
+    defId: 'CassandraNova',
+    cost: 3,
+    power: 1,
+    name: 'Cassandra Nova',
+    description: "<b>On Reveal:</b> Steal 1 Power from each card in your opponent's deck.",
+    seriesStartTimestamps: [1721761200000, 1723057200000],
     possibleSeries: 8,
   },
 } as const;
