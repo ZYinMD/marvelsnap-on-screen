@@ -382,7 +382,7 @@ export const map: Record<Key, Roster> = {
   '2016|Deadpool': {
     major: new Set(),
     minor: new Set(),
-    major_: ['Deadpool', 'Negasonic Teenage Warhead', 'Colossus'],
+    major_: ['Deadpool', 'Ajax', 'Negasonic Teenage Warhead', 'Colossus'],
     minor_: [],
   },
   '2016|Captain America: Civil War': {
