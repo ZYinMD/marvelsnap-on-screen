@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 set -e
 
 # change the default git hook path to our own hooks folder in the repo

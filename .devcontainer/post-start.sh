@@ -1,6 +1,5 @@
-#!/bin/bash
+#!/bin/sh
 set -e
-
 
 echo -e "\e[34m\nReady. To start: cd ui && pnpm dev\e[0m"
 

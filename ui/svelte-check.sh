@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 set -e
 
 # the following check has been disabled because for some reason it starts to fail. Maybe it's because I updated my node version or something.
