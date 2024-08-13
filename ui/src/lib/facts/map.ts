@@ -809,7 +809,7 @@ export const map: Record<Key, Roster> = {
     major: new Set(),
     minor: new Set(),
     major_: ['Captain Marvel', 'Spectrum', 'Ms. Marvel', 'Nick Fury', 'Valkyrie', 'Goose'],
-    minor_: ['Beast'],
+    minor_: ['Beast', 'Hawkeye Kate Bishop'],
   },
   '2024|Madame Web': {
     major: new Set(),
@@ -947,7 +947,7 @@ export const map: Record<Key, Roster> = {
   '2021|Hawkeye': {
     major: new Set(),
     minor: new Set(),
-    major_: ['Hawkeye', 'Kingpin', 'Echo', 'White Widow'],
+    major_: ['Hawkeye', 'Hawkeye Kate Bishop', 'Kingpin', 'Echo', 'White Widow'],
     minor_: [],
   },
   '2021–2023|Loki': {
