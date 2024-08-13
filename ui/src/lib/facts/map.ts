@@ -716,7 +716,7 @@ export const map: Record<Key, Roster> = {
       'Mister Fantastic',
       'Captain Marvel',
     ],
-    minor_: [],
+    minor_: ['Wiccan'],
   },
   '2022|Thor: Love and Thunder': {
     major: new Set(),
@@ -927,7 +927,7 @@ export const map: Record<Key, Roster> = {
   '2021|WandaVision': {
     major: new Set(),
     minor: new Set(),
-    major_: ['Scarlet Witch', 'Vision', 'Agatha Harkness', 'Spectrum'],
+    major_: ['Scarlet Witch', 'Vision', 'Agatha Harkness', 'Spectrum', 'Wiccan'],
     minor_: ['Quicksilver'],
   },
   '2021|The Falcon and the Winter Soldier': {
