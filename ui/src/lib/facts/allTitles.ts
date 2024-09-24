@@ -1295,5 +1295,15 @@ export const allTitles = {
       key: '2023|Moon Girl and Devil Dinosaur',
       label: [],
     },
+    "2024|X-Men '97": {
+      type: 'animated-tv-series',
+      year: '2024',
+      title: "X-Men '97",
+      wikipedia: 'https://en.wikipedia.org/wiki/X-Men_%2797',
+      numSeasons: 1,
+      numEpisodes: 10,
+      key: "2024|X-Men '97",
+      label: [],
+    },
   },
 } as const;
