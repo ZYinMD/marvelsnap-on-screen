@@ -42,4 +42,4 @@ New releases will appear at the bottom of said sections. When it happens:
 
    - Read the "Cast" section to add each character in `map.ts`.
 
-   - Create a new txt file in `facts/one-time-scripts/animated-tv-series/wiki-pages`, copy and paste all wikipedia text into it. If there's another dedicated wikipedia page for "plot of all episodes", prefer that page over the main page. This txt helps with future searches.
+   - Create a new txt file in `facts/one-time-scripts/animated-tv-series/wiki-pages`, copy and paste all wikipedia text into it. For tv series, if there's another dedicated wikipedia page for "plot of all episodes", prefer that page over the main page. This txt helps with future searches.

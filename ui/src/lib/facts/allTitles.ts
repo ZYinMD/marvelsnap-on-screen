@@ -721,6 +721,16 @@ export const allTitles = {
       numEpisodes: 1,
       key: '2024|Madame Web',
     },
+    '2024|Deadpool & Wolverine': {
+      type: 'movie',
+      year: '2024',
+      title: 'Deadpool & Wolverine',
+      wikipedia: 'https://en.wikipedia.org/wiki/Deadpool_%26_Wolverine',
+      label: ['fox-x-men', 'deadpool', ' mcu'],
+      numSeasons: 0,
+      numEpisodes: 1,
+      key: '2024|Deadpool & Wolverine',
+    },
   },
   'live-action-tv-series': {
     '2006|Blade: The Series': {
