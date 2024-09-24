@@ -803,7 +803,7 @@ export const map: Record<Key, Roster> = {
       'Spider-Ham',
       'Vulture',
     ],
-    minor_: [],
+    minor_: ['Araña'],
   },
   '2023|The Marvels': {
     major: new Set(),
@@ -814,7 +814,7 @@ export const map: Record<Key, Roster> = {
   '2024|Madame Web': {
     major: new Set(),
     minor: new Set(),
-    major_: ['Madame Web', 'Spider-Woman'],
+    major_: ['Madame Web', 'Spider-Woman', 'Araña'],
     minor_: ['Spider-Man'],
   },
   '2024|Deadpool & Wolverine': {
@@ -1989,6 +1989,7 @@ export const map: Record<Key, Roster> = {
       'Mysterio',
       'Arnim Zola',
       'Baron Mordo',
+      'Araña',
     ],
   },
   '2021|Hit-Monkey': {
