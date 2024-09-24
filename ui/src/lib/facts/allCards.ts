@@ -14,7 +14,7 @@ export const allCards = {
     power: 4,
     name: 'Absorbing Man',
     description:
-      "<b>On Reveal:</b> If the last card you played has an <b>On Reveal</b>, copy its text. <i>(if it's in play)</i>",
+      '<b>On Reveal:</b> If the last card you played has an <b>On Reveal</b>, copy its text. <i>(if able)</i>',
     seriesStartTimestamps: [-62135596800000],
   },
   'Adam Warlock': {
@@ -28,7 +28,7 @@ export const allCards = {
   'Aero': {
     defId: 'Aero',
     cost: 5,
-    power: 9,
+    power: 10,
     name: 'Aero',
     description: '<b>On Reveal:</b> Move the last enemy card played anywhere to this location.',
     seriesStartTimestamps: [-62135596800000],
@@ -38,7 +38,7 @@ export const allCards = {
     cost: 6,
     power: 14,
     name: 'Agatha Harkness',
-    description: 'Agatha starts in your hand and plays your cards for you.',
+    description: 'Agatha starts in your hand. She plays your cards for you on even turns.',
     seriesStartTimestamps: [-62135596800000],
   },
   'Agent 13': {
@@ -67,8 +67,8 @@ export const allCards = {
   },
   'Angel': {
     defId: 'Angel',
-    cost: 1,
-    power: 2,
+    cost: 2,
+    power: 3,
     name: 'Angel',
     description:
       'When one of your cards is destroyed, this flies out of your hand or deck to replace it.',
@@ -81,15 +81,6 @@ export const allCards = {
     name: 'Angela',
     description: 'After you play a card here,\n+1 Power.',
     seriesStartTimestamps: [-62135596800000],
-  },
-  'Annihilus': {
-    defId: 'Annihilus',
-    cost: 5,
-    power: 6,
-    name: 'Annihilus',
-    description:
-      "<b>On Reveal:</b> Your cards with Power below 0 switch sides. Destroy\nthose that can't.",
-    seriesStartTimestamps: [1700593200000],
   },
   'Ant Man': {
     defId: 'AntMan',
@@ -134,8 +125,8 @@ export const allCards = {
   },
   'Beast': {
     defId: 'Beast',
-    cost: 2,
-    power: 2,
+    cost: 3,
+    power: 5,
     name: 'Beast',
     description:
       '<b>On Reveal:</b> Return your other cards here to your hand. They cost 1 less next turn.',
@@ -161,7 +152,7 @@ export const allCards = {
   'Black Cat': {
     defId: 'BlackCat',
     cost: 4,
-    power: 9,
+    power: 10,
     name: 'Black Cat',
     description: 'If this is in your hand after the turn, discard it.',
     seriesStartTimestamps: [-62135596800000],
@@ -406,9 +397,9 @@ export const allCards = {
   'Destroyer': {
     defId: 'Destroyer',
     cost: 6,
-    power: 16,
+    power: 14,
     name: 'Destroyer',
-    description: '<b>On Reveal:</b> Destroy your\nother cards.',
+    description: '<b>On Reveal:</b> Destroy your cards at other locations.',
     seriesStartTimestamps: [-62135596800000],
   },
   'Devil Dinosaur': {
@@ -554,7 +545,7 @@ export const allCards = {
   'Ghost Rider': {
     defId: 'GhostRider',
     cost: 4,
-    power: 3,
+    power: 4,
     name: 'Ghost Rider',
     description: '<b>On Reveal:</b> Bring back one of your discarded cards to this location.',
     seriesStartTimestamps: [-62135596800000],
@@ -654,9 +645,9 @@ export const allCards = {
   'Hellcow': {
     defId: 'Hellcow',
     cost: 4,
-    power: 8,
+    power: 6,
     name: 'Hellcow',
-    description: '<b>On Reveal:</b> Discard 2 cards from your hand.',
+    description: '<b>Activate:</b> Discard 2 cards from your hand.',
     seriesStartTimestamps: [-62135596800000],
   },
   'Hit-Monkey': {
@@ -877,7 +868,7 @@ export const allCards = {
   'Lady Deathstrike': {
     defId: 'LadyDeathstrike',
     cost: 5,
-    power: 6,
+    power: 7,
     name: 'Lady Deathstrike',
     description: '<b>On Reveal:</b> Destroy each card here with 3 or less Power.',
     seriesStartTimestamps: [1692126000000, 1704654000000],
@@ -938,16 +929,6 @@ export const allCards = {
     name: 'Lockjaw',
     description: 'After you play a card here, swap it with a card in your deck.',
     seriesStartTimestamps: [-62135596800000],
-  },
-  'Loki': {
-    defId: 'Loki',
-    cost: 3,
-    power: 5,
-    name: 'Loki',
-    description:
-      "<b>On Reveal:</b> Replace your deck with your opponent's starting deck. Give them -1 Cost and draw a card.",
-    seriesStartTimestamps: [1693940400000, 1696359600000],
-    isSeasonPass: true,
   },
   'Luke Cage': {
     defId: 'LukeCage',
@@ -1076,7 +1057,7 @@ export const allCards = {
   'Moon Girl': {
     defId: 'MoonGirl',
     cost: 4,
-    power: 4,
+    power: 5,
     name: 'Moon Girl',
     description: '<b>On Reveal:</b> Duplicate\nyour hand.',
     seriesStartTimestamps: [-62135596800000],
@@ -1086,7 +1067,7 @@ export const allCards = {
     cost: 3,
     power: 3,
     name: 'Moon Knight',
-    description: "<b>On Reveal:</b> Discard a card with an even Cost from each player's hand.",
+    description: "<b>On Reveal:</b> Discard an even-costed card from each player's hand.",
     seriesStartTimestamps: [-62135596800000],
   },
   'Morbius': {
@@ -1162,7 +1143,7 @@ export const allCards = {
     power: 0,
     name: 'Mystique',
     description:
-      "<b>On Reveal:</b> If the last card you played has an <b>Ongoing</b>, copy its text. <i>(if it's in play)</i>",
+      '<b>On Reveal:</b> If the last card you played has an <b>Ongoing</b>, copy its text. <i>(if able)</i>',
     seriesStartTimestamps: [-62135596800000],
   },
   'Nakia': {
@@ -1407,7 +1388,7 @@ export const allCards = {
     cost: 5,
     power: 7,
     name: 'Sandman',
-    description: '<b>On Reveal:</b> Players can only play 1 card next turn.',
+    description: '<b>On Reveal:</b> Next turn, cards cost 1 more. <i>(maximum 6)</i>',
     seriesStartTimestamps: [-62135596800000],
   },
   'Sauron': {
@@ -1465,7 +1446,7 @@ export const allCards = {
     cost: 2,
     power: 2,
     name: 'Shadow King',
-    description: '<b>On Reveal:</b> Set all cards here to their base Power.',
+    description: '<b>On Reveal:</b> Reset all cards here to their original Power.',
     seriesStartTimestamps: [-62135596800000, 1684263600000],
   },
   'Shang-Chi': {
@@ -1515,6 +1496,14 @@ export const allCards = {
     name: 'Silk',
     description: 'After ANY card is played here, this moves to another location.',
     seriesStartTimestamps: [1686682800000, 1717527600000],
+  },
+  'Silver Sable': {
+    defId: 'SilverSable',
+    cost: 1,
+    power: 1,
+    name: 'Silver Sable',
+    description: "<b>On Reveal:</b> Steal 2 Power from the top card of your opponent's deck.",
+    seriesStartTimestamps: [1725390000000],
   },
   'Silver Samurai': {
     defId: 'SilverSamurai',
@@ -1627,16 +1616,16 @@ export const allCards = {
     cost: 3,
     power: 7,
     name: 'Sword Master',
-    description: '<b>On Reveal:</b> Discard a card from your hand.',
+    description: '<b>On Reveal:</b> Discard an odd-costed card from your hand.',
     seriesStartTimestamps: [-62135596800000],
   },
   'Taskmaster': {
     defId: 'Taskmaster',
-    cost: 5,
+    cost: 6,
     power: 0,
     name: 'Taskmaster',
     description:
-      "<b>On Reveal:</b> Set this card’s Power equal to that of the last card you played. <i>(if that card's in play)</i>",
+      '<b>On Reveal:</b> Set this card’s Power equal to that of the last card you played. <i>(if able)</i>',
     seriesStartTimestamps: [-62135596800000],
   },
   'Thanos': {
@@ -1760,8 +1749,7 @@ export const allCards = {
     cost: 4,
     power: 7,
     name: 'War Machine',
-    description:
-      '<b>On Reveal:</b> Until the end of next turn, nothing can stop you from playing cards anywhere.',
+    description: '<b>Ongoing:</b> Nothing can stop you from playing cards anywhere.',
     seriesStartTimestamps: [1711479600000],
   },
   'Warpath': {
@@ -1885,7 +1873,7 @@ export const allCards = {
     cost: 4,
     power: 10,
     name: 'Attuma',
-    description: 'After each turn, destroy this if you have another card here.',
+    description: 'After each turn, destroy one of your cards here with less Power.',
     seriesStartTimestamps: [-62135596800000],
   },
   'Knull': {
@@ -1988,6 +1976,16 @@ export const allCards = {
     seriesStartTimestamps: [1691521200000, 1693940400000, 1704654000000],
     isSeasonPass: true,
   },
+  'Loki': {
+    defId: 'Loki',
+    cost: 2,
+    power: 2,
+    name: 'Loki',
+    description:
+      "<b>On Reveal:</b> Replace your deck with your opponent's starting deck. Give those cards -1 Cost.",
+    seriesStartTimestamps: [1693940400000, 1696359600000],
+    isSeasonPass: true,
+  },
   'Ravonna Renslayer': {
     defId: 'RavonnaRenslayer',
     cost: 2,
@@ -2016,7 +2014,7 @@ export const allCards = {
   'Man-Thing': {
     defId: 'ManThing',
     cost: 4,
-    power: 5,
+    power: 7,
     name: 'Man-Thing',
     description: '<b>Ongoing:</b> 1, 2, and 3-Cost cards here have -2 Power.',
     seriesStartTimestamps: [1696964400000],
@@ -2047,6 +2045,15 @@ export const allCards = {
     description:
       "<b>On Reveal:</b> Add a card from your opponent's deck to their side of this location. If it has less Power, destroy it.",
     seriesStartTimestamps: [1699988400000, 1717527600000],
+  },
+  'Annihilus': {
+    defId: 'Annihilus',
+    cost: 5,
+    power: 6,
+    name: 'Annihilus',
+    description:
+      "<b>On Reveal:</b> Your cards with Power below 0 switch sides. Destroy\nthose that can't.",
+    seriesStartTimestamps: [1700593200000],
   },
   'Martyr': {
     defId: 'Martyr',
@@ -2136,10 +2143,10 @@ export const allCards = {
   },
   'Black Swan': {
     defId: 'BlackSwan',
-    cost: 3,
-    power: 5,
+    cost: 2,
+    power: 3,
     name: 'Black Swan',
-    description: '<b>On Reveal:</b> Until the end of next turn, your 1-Cost cards cost 0.',
+    description: '<b>Activate:</b> Until the end of next turn, your 1-Cost cards cost 0.',
     seriesStartTimestamps: [1707246000000, 1709665200000],
     isSeasonPass: true,
   },
@@ -2197,7 +2204,7 @@ export const allCards = {
   'Mockingbird': {
     defId: 'Mockingbird',
     cost: 6,
-    power: 10,
+    power: 9,
     name: 'Mockingbird',
     description: "Costs 1 less for each of your cards in play that didn't start in your deck.",
     seriesStartTimestamps: [1710270000000],
@@ -2205,7 +2212,7 @@ export const allCards = {
   'Cannonball': {
     defId: 'Cannonball',
     cost: 5,
-    power: 7,
+    power: 8,
     name: 'Cannonball',
     description:
       "<b>On Reveal:</b> Move the highest-Power enemy card here away. If you can't, destroy it with a Rock.",
@@ -2217,7 +2224,7 @@ export const allCards = {
     power: 5,
     name: 'Baron Zemo',
     description:
-      "<b>On Reveal:</b> Recruit the lowest-Cost card from your opponent's deck to your side of this location.",
+      "<b>On Reveal:</b> Recruit a card that costs the least from your opponent's deck to your side of this location.",
     seriesStartTimestamps: [1712084400000, 1715108400000],
     isSeasonPass: true,
   },
@@ -2258,7 +2265,7 @@ export const allCards = {
   'Nocturne': {
     defId: 'Nocturne',
     cost: 3,
-    power: 5,
+    power: 4,
     name: 'Nocturne',
     description:
       'You can move this once. When this moves, replace its location with a random new one.',
@@ -2291,7 +2298,7 @@ export const allCards = {
   'Thena': {
     defId: 'Thena',
     cost: 2,
-    power: 1,
+    power: 0,
     name: 'Thena',
     description: 'After each turn, +3 Power if you played <i>(exactly)</i> 2 cards.',
     seriesStartTimestamps: [1717527600000],
@@ -2329,7 +2336,7 @@ export const allCards = {
     power: 7,
     name: 'Arishem',
     description:
-      'At the start of the game, +1 Max Energy. Shuffle 12 random cards\ninto your deck.',
+      'At the start of the game, +1 Max Energy. Shuffle 15 random cards\ninto your deck.',
     seriesStartTimestamps: [1719946800000],
   },
   'Copycat': {
@@ -2337,8 +2344,7 @@ export const allCards = {
     cost: 3,
     power: 5,
     name: 'Copycat',
-    description:
-      "When you draw this, steal the text from the bottom card of your\nopponent's deck.",
+    description: "When you draw this, copy the text from the bottom card of your\nopponent's deck.",
     seriesStartTimestamps: [1721761200000],
   },
   'Hydra Bob': {
@@ -2360,7 +2366,7 @@ export const allCards = {
   'Cassandra Nova': {
     defId: 'CassandraNova',
     cost: 3,
-    power: 1,
+    power: 0,
     name: 'Cassandra Nova',
     description: "<b>On Reveal:</b> Steal 1 Power from each card in your opponent's deck.",
     seriesStartTimestamps: [1721761200000, 1723057200000],
@@ -2372,17 +2378,32 @@ export const allCards = {
     name: 'Hawkeye Kate Bishop',
     description: '<b>On Reveal:</b> Add 2 Arrows to your hand.',
     seriesStartTimestamps: [1722970800000, 1725390000000],
-    possibleSeries: 8,
     isSeasonPass: true,
+  },
+  'Speed': {
+    defId: 'Speed',
+    cost: 3,
+    power: 3,
+    name: 'Speed',
+    description: '<b>Ongoing:</b> +1 Power for each turn in which you spent all your Energy.',
+    seriesStartTimestamps: [1724180400000],
   },
   'Wiccan': {
     defId: 'Wiccan',
     cost: 4,
     power: 7,
     name: 'Wiccan',
-    description: "<b>On Reveal:</b> If you've spent all your Energy this game, +2 Max Energy.",
+    description:
+      "<b>On Reveal:</b> If you've spent all your Energy on previous turns, +2 Max Energy.",
     seriesStartTimestamps: [1723575600000],
-    possibleSeries: 8,
+  },
+  'Emperor Hulkling': {
+    defId: 'Hulkling',
+    cost: 6,
+    power: 11,
+    name: 'Emperor Hulkling',
+    description: 'At the start of the game, copy the text of a random 6-Cost card.',
+    seriesStartTimestamps: [1724785200000],
   },
   'Marvel Boy': {
     defId: 'MarvelBoy',
@@ -2391,5 +2412,41 @@ export const allCards = {
     name: 'Marvel Boy',
     description: 'After each turn, give 3 of your 1-Cost cards +1 Power.',
     seriesStartTimestamps: [1722970800000],
+  },
+  'Symbiote Spider-Man': {
+    defId: 'SymbioteSpiderMan',
+    cost: 4,
+    power: 6,
+    name: 'Symbiote Spider-Man',
+    description:
+      '<b>Activate:</b> Merge your lowest-Cost card here with this. Copy its text like it just revealed.',
+    seriesStartTimestamps: [1725390000000, 1727809200000],
+    possibleSeries: 8,
+    isSeasonPass: true,
+  },
+  'Scarlet Spider': {
+    defId: 'ScarletSpider',
+    cost: 4,
+    power: 5,
+    name: 'Scarlet Spider',
+    description: '<b>Activate:</b> Add an exact clone of this to another location.',
+    seriesStartTimestamps: [1727204400000],
+    possibleSeries: 8,
+  },
+  'Madame Web': {
+    defId: 'MadameWeb',
+    cost: 2,
+    power: 1,
+    name: 'Madame Web',
+    description: '<b>Ongoing:</b> You can move one of your other cards away from here each turn.',
+    seriesStartTimestamps: [1725994800000],
+  },
+  'Araña': {
+    defId: 'Arana',
+    cost: 1,
+    power: 1,
+    name: 'Araña',
+    description: '<b>Activate:</b> Give the next card you play +2 Power and move it\nto the right.',
+    seriesStartTimestamps: [1726599600000],
   },
 } as const;

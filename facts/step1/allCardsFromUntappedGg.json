@@ -1,6 +1,5 @@
 [
   {
-    "id": 1,
     "defId": "Abomination",
     "cost": 5,
     "power": 9,
@@ -17,12 +16,11 @@
     "collectible": true
   },
   {
-    "id": 2,
     "defId": "AbsorbingMan",
     "cost": 4,
     "power": 4,
     "name": "Absorbing Man",
-    "description": "<b>On Reveal:</b> If the last card you played has an <b>On Reveal</b>, copy its text. <i>(if it's in play)</i>",
+    "description": "<b>On Reveal:</b> If the last card you played has an <b>On Reveal</b>, copy its text. <i>(if able)</i>",
     "series": 6,
     "artists": [
       {
@@ -38,7 +36,6 @@
     "collectible": true
   },
   {
-    "id": 3,
     "defId": "AdamWarlock",
     "cost": 5,
     "power": 5,
@@ -59,10 +56,9 @@
     "collectible": true
   },
   {
-    "id": 4,
     "defId": "Aero",
     "cost": 5,
-    "power": 9,
+    "power": 10,
     "name": "Aero",
     "description": "<b>On Reveal:</b> Move the last enemy card played anywhere to this location.",
     "series": 6,
@@ -80,12 +76,11 @@
     "collectible": true
   },
   {
-    "id": 5,
     "defId": "AgathaHarkness",
     "cost": 6,
     "power": 14,
     "name": "Agatha Harkness",
-    "description": "Agatha starts in your hand and plays your cards for you.",
+    "description": "Agatha starts in your hand. She plays your cards for you on even turns.",
     "series": 6,
     "artists": [
       {
@@ -101,7 +96,6 @@
     "collectible": true
   },
   {
-    "id": 6,
     "defId": "Agent13",
     "cost": 1,
     "power": 2,
@@ -122,7 +116,6 @@
     "collectible": true
   },
   {
-    "id": 7,
     "defId": "AgentCoulson",
     "cost": 3,
     "power": 4,
@@ -149,7 +142,6 @@
     "collectible": true
   },
   {
-    "id": 8,
     "defId": "AmericaChavez",
     "cost": 1,
     "power": 2,
@@ -175,10 +167,9 @@
     "collectible": true
   },
   {
-    "id": 9,
     "defId": "Angel",
-    "cost": 1,
-    "power": 2,
+    "cost": 2,
+    "power": 3,
     "name": "Angel",
     "description": "When one of your cards is destroyed, this flies out of your hand or deck to replace it.",
     "series": 4,
@@ -196,7 +187,6 @@
     "collectible": true
   },
   {
-    "id": 10,
     "defId": "Angela",
     "cost": 2,
     "power": 3,
@@ -222,33 +212,6 @@
     "collectible": true
   },
   {
-    "id": 11,
-    "defId": "Annihilus",
-    "cost": 5,
-    "power": 6,
-    "name": "Annihilus",
-    "description": "<b>On Reveal:</b> Your cards with Power below 0 switch sides. Destroy\nthose that can't.",
-    "attributes": {
-      "data": {
-        "AssignedPower": 0
-      }
-    },
-    "series": 8,
-    "artists": [
-      {
-        "name": "Eduardo Mello",
-        "type": 1
-      },
-      {
-        "name": "Ryan Kinnaird",
-        "type": 4
-      }
-    ],
-    "seriesStartTimestamps": [1700593200000],
-    "collectible": true
-  },
-  {
-    "id": 12,
     "defId": "AntMan",
     "cost": 1,
     "power": 1,
@@ -274,7 +237,6 @@
     "collectible": true
   },
   {
-    "id": 13,
     "defId": "Apocalypse",
     "cost": 6,
     "power": 8,
@@ -300,7 +262,6 @@
     "collectible": true
   },
   {
-    "id": 14,
     "defId": "Armor",
     "cost": 2,
     "power": 3,
@@ -321,7 +282,6 @@
     "collectible": true
   },
   {
-    "id": 15,
     "defId": "ArnimZola",
     "cost": 6,
     "power": 0,
@@ -342,7 +302,6 @@
     "collectible": true
   },
   {
-    "id": 16,
     "defId": "BaronMordo",
     "cost": 2,
     "power": 3,
@@ -369,10 +328,9 @@
     "collectible": true
   },
   {
-    "id": 17,
     "defId": "Beast",
-    "cost": 2,
-    "power": 2,
+    "cost": 3,
+    "power": 5,
     "name": "Beast",
     "description": "<b>On Reveal:</b> Return your other cards here to your hand. They cost 1 less next turn.",
     "attributes": {
@@ -395,7 +353,6 @@
     "collectible": true
   },
   {
-    "id": 18,
     "defId": "Bishop",
     "cost": 3,
     "power": 1,
@@ -421,7 +378,6 @@
     "collectible": true
   },
   {
-    "id": 19,
     "defId": "BlackBolt",
     "cost": 5,
     "power": 7,
@@ -442,10 +398,9 @@
     "collectible": true
   },
   {
-    "id": 20,
     "defId": "BlackCat",
     "cost": 4,
-    "power": 9,
+    "power": 10,
     "name": "Black Cat",
     "description": "If this is in your hand after the turn, discard it.",
     "series": 6,
@@ -463,7 +418,6 @@
     "collectible": true
   },
   {
-    "id": 21,
     "defId": "BlackKnight",
     "cost": 1,
     "power": 2,
@@ -471,7 +425,7 @@
     "description": "After you discard a card, add the Ebony Blade to your hand with that card's Power. <i>(once per game)</i>",
     "attributes": {
       "cards": {
-        "Card_Token": [297]
+        "Card_Token": ["EbonyBlade"]
       }
     },
     "series": 8,
@@ -489,7 +443,6 @@
     "collectible": true
   },
   {
-    "id": 22,
     "defId": "BlackPanther",
     "cost": 5,
     "power": 4,
@@ -510,7 +463,6 @@
     "collectible": true
   },
   {
-    "id": 23,
     "defId": "BlackWidow",
     "cost": 3,
     "power": 3,
@@ -518,7 +470,7 @@
     "description": "<b>On Reveal:</b> Add a Widow's Bite to your opponent's hand.",
     "attributes": {
       "cards": {
-        "Card_Token": [260]
+        "Card_Token": ["WidowsBite"]
       }
     },
     "series": 6,
@@ -536,7 +488,6 @@
     "collectible": true
   },
   {
-    "id": 24,
     "defId": "Blade",
     "cost": 1,
     "power": 3,
@@ -557,7 +508,6 @@
     "collectible": true
   },
   {
-    "id": 25,
     "defId": "Blink",
     "cost": 5,
     "power": 7,
@@ -579,7 +529,6 @@
     "isSeasonPass": true
   },
   {
-    "id": 26,
     "defId": "Blob",
     "cost": 6,
     "power": 0,
@@ -605,7 +554,6 @@
     "collectible": true
   },
   {
-    "id": 27,
     "defId": "BlueMarvel",
     "cost": 5,
     "power": 3,
@@ -631,7 +579,6 @@
     "collectible": true
   },
   {
-    "id": 28,
     "defId": "Brood",
     "cost": 3,
     "power": 2,
@@ -642,7 +589,7 @@
         "TokenCount": 2
       },
       "cards": {
-        "Card_Token": [29]
+        "Card_Token": ["Broodling"]
       }
     },
     "series": 6,
@@ -656,7 +603,6 @@
     "collectible": true
   },
   {
-    "id": 29,
     "defId": "Broodling",
     "cost": 3,
     "power": 2,
@@ -664,7 +610,7 @@
     "description": "<i>\"We are Brood, from Broodworld. You are lunch.\"</i>",
     "attributes": {
       "cards": {
-        "Card_Source": [28]
+        "Card_Source": ["Brood"]
       }
     },
     "series": 0,
@@ -681,7 +627,6 @@
     "seriesStartTimestamps": []
   },
   {
-    "id": 30,
     "defId": "BuckyBarnes",
     "cost": 2,
     "power": 1,
@@ -689,7 +634,7 @@
     "description": "When this is destroyed, replace it with the Winter Soldier.",
     "attributes": {
       "cards": {
-        "Card_Token": [263]
+        "Card_Token": ["WinterSoldier"]
       }
     },
     "series": 5,
@@ -707,7 +652,6 @@
     "collectible": true
   },
   {
-    "id": 31,
     "defId": "Bullseye",
     "cost": 1,
     "power": 2,
@@ -723,7 +667,6 @@
     "seriesStartTimestamps": []
   },
   {
-    "id": 32,
     "defId": "Cable",
     "cost": 2,
     "power": 3,
@@ -744,7 +687,6 @@
     "collectible": true
   },
   {
-    "id": 33,
     "defId": "CaptainAmerica",
     "cost": 3,
     "power": 3,
@@ -770,7 +712,6 @@
     "collectible": true
   },
   {
-    "id": 34,
     "defId": "CaptainMarvel",
     "cost": 4,
     "power": 5,
@@ -791,7 +732,6 @@
     "collectible": true
   },
   {
-    "id": 35,
     "defId": "Carnage",
     "cost": 2,
     "power": 2,
@@ -817,7 +757,6 @@
     "collectible": true
   },
   {
-    "id": 36,
     "defId": "Cerebro",
     "cost": 3,
     "power": 0,
@@ -843,7 +782,6 @@
     "collectible": true
   },
   {
-    "id": 37,
     "defId": "Cloak",
     "cost": 2,
     "power": 4,
@@ -864,7 +802,6 @@
     "collectible": true
   },
   {
-    "id": 38,
     "defId": "ColleenWing",
     "cost": 2,
     "power": 4,
@@ -885,7 +822,6 @@
     "collectible": true
   },
   {
-    "id": 39,
     "defId": "Colossus",
     "cost": 2,
     "power": 3,
@@ -910,7 +846,6 @@
     "collectible": true
   },
   {
-    "id": 40,
     "defId": "Cosmo",
     "cost": 3,
     "power": 3,
@@ -931,7 +866,6 @@
     "collectible": true
   },
   {
-    "id": 41,
     "defId": "Crossbones",
     "cost": 4,
     "power": 10,
@@ -952,7 +886,6 @@
     "collectible": true
   },
   {
-    "id": 42,
     "defId": "Crystal",
     "cost": 3,
     "power": 3,
@@ -973,7 +906,6 @@
     "collectible": true
   },
   {
-    "id": 43,
     "defId": "Cyclops",
     "cost": 3,
     "power": 4,
@@ -994,7 +926,6 @@
     "collectible": true
   },
   {
-    "id": 44,
     "defId": "Dagger",
     "cost": 2,
     "power": 0,
@@ -1020,7 +951,6 @@
     "collectible": true
   },
   {
-    "id": 45,
     "defId": "Daredevil",
     "cost": 2,
     "power": 2,
@@ -1041,7 +971,6 @@
     "collectible": true
   },
   {
-    "id": 46,
     "defId": "Darkhawk",
     "cost": 5,
     "power": 3,
@@ -1067,7 +996,6 @@
     "collectible": true
   },
   {
-    "id": 47,
     "defId": "Dazzler",
     "cost": 2,
     "power": 2,
@@ -1093,7 +1021,6 @@
     "collectible": true
   },
   {
-    "id": 48,
     "defId": "Deadpool",
     "cost": 1,
     "power": 1,
@@ -1114,7 +1041,6 @@
     "collectible": true
   },
   {
-    "id": 49,
     "defId": "Death",
     "cost": 8,
     "power": 12,
@@ -1140,7 +1066,6 @@
     "collectible": true
   },
   {
-    "id": 50,
     "defId": "Deathlok",
     "cost": 3,
     "power": 5,
@@ -1161,7 +1086,6 @@
     "collectible": true
   },
   {
-    "id": 51,
     "defId": "Debrii",
     "cost": 3,
     "power": 3,
@@ -1169,7 +1093,7 @@
     "description": "<b>On Reveal:</b> Add a Rock to each other location, for both players.",
     "attributes": {
       "cards": {
-        "Card_Token": [187]
+        "Card_Token": ["Rock"]
       }
     },
     "series": 6,
@@ -1183,7 +1107,6 @@
     "collectible": true
   },
   {
-    "id": 52,
     "defId": "Demon",
     "cost": 1,
     "power": 6,
@@ -1203,12 +1126,11 @@
     "seriesStartTimestamps": []
   },
   {
-    "id": 53,
     "defId": "Destroyer",
     "cost": 6,
-    "power": 16,
+    "power": 14,
     "name": "Destroyer",
-    "description": "<b>On Reveal:</b> Destroy your\nother cards.",
+    "description": "<b>On Reveal:</b> Destroy your cards at other locations.",
     "series": 6,
     "artists": [
       {
@@ -1224,7 +1146,6 @@
     "collectible": true
   },
   {
-    "id": 54,
     "defId": "DevilDinosaur",
     "cost": 5,
     "power": 3,
@@ -1250,7 +1171,6 @@
     "collectible": true
   },
   {
-    "id": 55,
     "defId": "DoctorOctopus",
     "cost": 4,
     "power": 8,
@@ -1271,7 +1191,6 @@
     "collectible": true
   },
   {
-    "id": 56,
     "defId": "DoctorStrange",
     "cost": 2,
     "power": 3,
@@ -1292,7 +1211,6 @@
     "collectible": true
   },
   {
-    "id": 57,
     "defId": "Domino",
     "cost": 2,
     "power": 3,
@@ -1318,7 +1236,6 @@
     "collectible": true
   },
   {
-    "id": 58,
     "defId": "DoomBot",
     "cost": 6,
     "power": 5,
@@ -1338,7 +1255,6 @@
     "seriesStartTimestamps": []
   },
   {
-    "id": 59,
     "defId": "Dracula",
     "cost": 4,
     "power": 1,
@@ -1359,7 +1275,6 @@
     "collectible": true
   },
   {
-    "id": 60,
     "defId": "Drax",
     "cost": 4,
     "power": 5,
@@ -1385,7 +1300,6 @@
     "collectible": true
   },
   {
-    "id": 61,
     "defId": "DrDoom",
     "cost": 6,
     "power": 5,
@@ -1393,7 +1307,7 @@
     "description": "<b>On Reveal:</b> Add a 5-Power DoomBot to each other location.",
     "attributes": {
       "cards": {
-        "Card_Token": [58]
+        "Card_Token": ["DoomBot"]
       }
     },
     "series": 6,
@@ -1411,7 +1325,6 @@
     "collectible": true
   },
   {
-    "id": 62,
     "defId": "Drone",
     "cost": 1,
     "power": 2,
@@ -1431,7 +1344,6 @@
     "seriesStartTimestamps": []
   },
   {
-    "id": 63,
     "defId": "EbonyMaw",
     "cost": 1,
     "power": 7,
@@ -1457,7 +1369,6 @@
     "collectible": true
   },
   {
-    "id": 64,
     "defId": "Electro",
     "cost": 3,
     "power": 2,
@@ -1484,7 +1395,6 @@
     "collectible": true
   },
   {
-    "id": 65,
     "defId": "Elektra",
     "cost": 1,
     "power": 2,
@@ -1510,7 +1420,6 @@
     "collectible": true
   },
   {
-    "id": 66,
     "defId": "ElektraTutorial",
     "cost": 1,
     "power": 1,
@@ -1521,7 +1430,6 @@
     "seriesStartTimestamps": []
   },
   {
-    "id": 67,
     "defId": "ElsaBloodstone",
     "cost": 3,
     "power": 3,
@@ -1548,7 +1456,6 @@
     "isSeasonPass": true
   },
   {
-    "id": 68,
     "defId": "Enchantress",
     "cost": 4,
     "power": 5,
@@ -1569,7 +1476,6 @@
     "collectible": true
   },
   {
-    "id": 69,
     "defId": "Falcon",
     "cost": 2,
     "power": 3,
@@ -1591,7 +1497,6 @@
     "collectible": true
   },
   {
-    "id": 70,
     "defId": "Flatman",
     "cost": 2,
     "power": 2,
@@ -1607,7 +1512,6 @@
     "seriesStartTimestamps": []
   },
   {
-    "id": 71,
     "defId": "Forge",
     "cost": 2,
     "power": 2,
@@ -1633,7 +1537,6 @@
     "collectible": true
   },
   {
-    "id": 72,
     "defId": "Galactus",
     "cost": 6,
     "power": 5,
@@ -1654,7 +1557,6 @@
     "collectible": true
   },
   {
-    "id": 73,
     "defId": "Gambit",
     "cost": 3,
     "power": 3,
@@ -1675,7 +1577,6 @@
     "collectible": true
   },
   {
-    "id": 74,
     "defId": "Gamora",
     "cost": 5,
     "power": 8,
@@ -1701,10 +1602,9 @@
     "collectible": true
   },
   {
-    "id": 75,
     "defId": "GhostRider",
     "cost": 4,
-    "power": 3,
+    "power": 4,
     "name": "Ghost Rider",
     "description": "<b>On Reveal:</b> Bring back one of your discarded cards to this location.",
     "series": 6,
@@ -1722,7 +1622,6 @@
     "collectible": true
   },
   {
-    "id": 76,
     "defId": "GhostSpider",
     "cost": 1,
     "power": 2,
@@ -1744,7 +1643,6 @@
     "isSeasonPass": true
   },
   {
-    "id": 77,
     "defId": "Giganto",
     "cost": 6,
     "power": 14,
@@ -1765,7 +1663,6 @@
     "collectible": true
   },
   {
-    "id": 78,
     "defId": "GoblinQueen",
     "cost": 2,
     "power": 3,
@@ -1776,7 +1673,6 @@
     "seriesStartTimestamps": []
   },
   {
-    "id": 79,
     "defId": "Goose",
     "cost": 2,
     "power": 2,
@@ -1804,7 +1700,6 @@
     "collectible": true
   },
   {
-    "id": 80,
     "defId": "GreenGoblin",
     "cost": 3,
     "power": -3,
@@ -1825,7 +1720,6 @@
     "collectible": true
   },
   {
-    "id": 81,
     "defId": "Groot",
     "cost": 3,
     "power": 3,
@@ -1851,7 +1745,6 @@
     "collectible": true
   },
   {
-    "id": 82,
     "defId": "Gwenpool",
     "cost": 4,
     "power": 6,
@@ -1879,7 +1772,6 @@
     "isSeasonPass": true
   },
   {
-    "id": 83,
     "defId": "Hawkeye",
     "cost": 1,
     "power": 1,
@@ -1905,7 +1797,6 @@
     "collectible": true
   },
   {
-    "id": 84,
     "defId": "Hazmat",
     "cost": 2,
     "power": 2,
@@ -1931,7 +1822,6 @@
     "collectible": true
   },
   {
-    "id": 85,
     "defId": "Heimdall",
     "cost": 6,
     "power": 9,
@@ -1952,7 +1842,6 @@
     "collectible": true
   },
   {
-    "id": 86,
     "defId": "Hela",
     "cost": 6,
     "power": 6,
@@ -1978,7 +1867,6 @@
     "collectible": true
   },
   {
-    "id": 87,
     "defId": "Helicarrier",
     "cost": 6,
     "power": 10,
@@ -1999,12 +1887,11 @@
     "collectible": true
   },
   {
-    "id": 88,
     "defId": "Hellcow",
     "cost": 4,
-    "power": 8,
+    "power": 6,
     "name": "Hellcow",
-    "description": "<b>On Reveal:</b> Discard 2 cards from your hand.",
+    "description": "<b>Activate:</b> Discard 2 cards from your hand.",
     "attributes": {
       "data": {
         "DiscardCount": 2
@@ -2025,7 +1912,6 @@
     "collectible": true
   },
   {
-    "id": 89,
     "defId": "HitMonkey",
     "cost": 3,
     "power": 3,
@@ -2052,7 +1938,6 @@
     "isSeasonPass": true
   },
   {
-    "id": 90,
     "defId": "Hobgoblin",
     "cost": 5,
     "power": -8,
@@ -2069,7 +1954,6 @@
     "collectible": true
   },
   {
-    "id": 91,
     "defId": "Hood",
     "cost": 1,
     "power": -3,
@@ -2077,7 +1961,7 @@
     "description": "<b>On Reveal:</b> Add a Demon to your hand.",
     "attributes": {
       "cards": {
-        "Card_Token": [52]
+        "Card_Token": ["Demon"]
       }
     },
     "series": 6,
@@ -2095,7 +1979,6 @@
     "collectible": true
   },
   {
-    "id": 92,
     "defId": "Hulk",
     "cost": 6,
     "power": 12,
@@ -2116,7 +1999,6 @@
     "collectible": true
   },
   {
-    "id": 93,
     "defId": "Hulkbuster",
     "cost": 2,
     "power": 3,
@@ -2137,7 +2019,6 @@
     "collectible": true
   },
   {
-    "id": 94,
     "defId": "HumanTorch",
     "cost": 1,
     "power": 2,
@@ -2154,7 +2035,6 @@
     "collectible": true
   },
   {
-    "id": 95,
     "defId": "Iceman",
     "cost": 1,
     "power": 2,
@@ -2177,7 +2057,6 @@
     "collectible": true
   },
   {
-    "id": 96,
     "defId": "Infinaut",
     "cost": 6,
     "power": 20,
@@ -2198,7 +2077,6 @@
     "collectible": true
   },
   {
-    "id": 97,
     "defId": "InvisibleWoman",
     "cost": 2,
     "power": 3,
@@ -2215,7 +2093,6 @@
     "collectible": true
   },
   {
-    "id": 98,
     "defId": "IronFist",
     "cost": 1,
     "power": 2,
@@ -2236,7 +2113,6 @@
     "collectible": true
   },
   {
-    "id": 99,
     "defId": "Ironheart",
     "cost": 3,
     "power": 0,
@@ -2263,7 +2139,6 @@
     "collectible": true
   },
   {
-    "id": 100,
     "defId": "IronMan",
     "cost": 5,
     "power": 0,
@@ -2284,7 +2159,6 @@
     "collectible": true
   },
   {
-    "id": 101,
     "defId": "JaneFoster",
     "cost": 5,
     "power": 9,
@@ -2310,7 +2184,6 @@
     "collectible": true
   },
   {
-    "id": 102,
     "defId": "JeanGrey",
     "cost": 3,
     "power": 4,
@@ -2331,7 +2204,6 @@
     "collectible": true
   },
   {
-    "id": 103,
     "defId": "JeffTheBabyLandShark",
     "cost": 2,
     "power": 3,
@@ -2352,7 +2224,6 @@
     "collectible": true
   },
   {
-    "id": 104,
     "defId": "JessicaJones",
     "cost": 4,
     "power": 5,
@@ -2378,7 +2249,6 @@
     "collectible": true
   },
   {
-    "id": 105,
     "defId": "Jubilee",
     "cost": 4,
     "power": 1,
@@ -2399,7 +2269,6 @@
     "collectible": true
   },
   {
-    "id": 106,
     "defId": "Juggernaut",
     "cost": 3,
     "power": 3,
@@ -2420,7 +2289,6 @@
     "collectible": true
   },
   {
-    "id": 107,
     "defId": "Kang",
     "cost": 5,
     "power": 0,
@@ -2441,7 +2309,6 @@
     "collectible": true
   },
   {
-    "id": 108,
     "defId": "KaZar",
     "cost": 4,
     "power": 4,
@@ -2468,7 +2335,6 @@
     "collectible": true
   },
   {
-    "id": 109,
     "defId": "Killmonger",
     "cost": 3,
     "power": 3,
@@ -2494,7 +2360,6 @@
     "collectible": true
   },
   {
-    "id": 110,
     "defId": "KingEitri",
     "cost": 5,
     "power": 3,
@@ -2506,11 +2371,19 @@
       }
     },
     "series": 0,
-    "artists": [],
+    "artists": [
+      {
+        "name": "Eduardo Mello",
+        "type": 1
+      },
+      {
+        "name": "Ryan Kinnaird",
+        "type": 4
+      }
+    ],
     "seriesStartTimestamps": []
   },
   {
-    "id": 111,
     "defId": "Kingpin",
     "cost": 1,
     "power": 2,
@@ -2536,7 +2409,6 @@
     "collectible": true
   },
   {
-    "id": 112,
     "defId": "KittyPryde",
     "cost": 1,
     "power": 1,
@@ -2562,7 +2434,6 @@
     "collectible": true
   },
   {
-    "id": 113,
     "defId": "Klaw",
     "cost": 5,
     "power": 4,
@@ -2588,7 +2459,6 @@
     "collectible": true
   },
   {
-    "id": 114,
     "defId": "Korg",
     "cost": 1,
     "power": 2,
@@ -2596,7 +2466,7 @@
     "description": "<b>On Reveal:</b> Shuffle a Rock into your opponent's deck.",
     "attributes": {
       "cards": {
-        "Card_Token": [187]
+        "Card_Token": ["Rock"]
       }
     },
     "series": 4,
@@ -2614,7 +2484,6 @@
     "collectible": true
   },
   {
-    "id": 115,
     "defId": "Kraven",
     "cost": 2,
     "power": 2,
@@ -2640,10 +2509,9 @@
     "collectible": true
   },
   {
-    "id": 116,
     "defId": "LadyDeathstrike",
     "cost": 5,
-    "power": 6,
+    "power": 7,
     "name": "Lady Deathstrike",
     "description": "<b>On Reveal:</b> Destroy each card here with 3 or less Power.",
     "attributes": {
@@ -2662,7 +2530,6 @@
     "collectible": true
   },
   {
-    "id": 117,
     "defId": "LadySif",
     "cost": 3,
     "power": 5,
@@ -2683,7 +2550,6 @@
     "collectible": true
   },
   {
-    "id": 118,
     "defId": "Leader",
     "cost": 6,
     "power": 3,
@@ -2704,7 +2570,6 @@
     "collectible": true
   },
   {
-    "id": 119,
     "defId": "Leech",
     "cost": 4,
     "power": 4,
@@ -2730,7 +2595,6 @@
     "collectible": true
   },
   {
-    "id": 120,
     "defId": "Legion",
     "cost": 5,
     "power": 7,
@@ -2751,7 +2615,6 @@
     "collectible": true
   },
   {
-    "id": 121,
     "defId": "LivingTribunal",
     "cost": 6,
     "power": 9,
@@ -2772,7 +2635,6 @@
     "collectible": true
   },
   {
-    "id": 122,
     "defId": "Lizard",
     "cost": 2,
     "power": 5,
@@ -2799,7 +2661,6 @@
     "collectible": true
   },
   {
-    "id": 123,
     "defId": "Lockjaw",
     "cost": 4,
     "power": 4,
@@ -2820,34 +2681,6 @@
     "collectible": true
   },
   {
-    "id": 124,
-    "defId": "Loki",
-    "cost": 3,
-    "power": 5,
-    "name": "Loki",
-    "description": "<b>On Reveal:</b> Replace your deck with your opponent's starting deck. Give them -1 Cost and draw a card.",
-    "attributes": {
-      "data": {
-        "ReducedCost": 1
-      }
-    },
-    "series": 8,
-    "artists": [
-      {
-        "name": "Ryan Benjamin",
-        "type": 1
-      },
-      {
-        "name": "Ryan Kinnaird",
-        "type": 4
-      }
-    ],
-    "seriesStartTimestamps": [1693940400000, 1696359600000],
-    "collectible": true,
-    "isSeasonPass": true
-  },
-  {
-    "id": 125,
     "defId": "LukeCage",
     "cost": 3,
     "power": 3,
@@ -2868,7 +2701,6 @@
     "collectible": true
   },
   {
-    "id": 126,
     "defId": "Magik",
     "cost": 3,
     "power": 2,
@@ -2897,7 +2729,6 @@
     "collectible": true
   },
   {
-    "id": 127,
     "defId": "Magneto",
     "cost": 6,
     "power": 12,
@@ -2924,7 +2755,6 @@
     "collectible": true
   },
   {
-    "id": 128,
     "defId": "Makkari",
     "cost": 3,
     "power": 4,
@@ -2945,7 +2775,6 @@
     "collectible": true
   },
   {
-    "id": 129,
     "defId": "Mantis",
     "cost": 1,
     "power": 2,
@@ -2966,7 +2795,6 @@
     "collectible": true
   },
   {
-    "id": 130,
     "defId": "MariaHill",
     "cost": 1,
     "power": 2,
@@ -2992,7 +2820,6 @@
     "collectible": true
   },
   {
-    "id": 131,
     "defId": "MasterMold",
     "cost": 2,
     "power": 2,
@@ -3003,7 +2830,7 @@
         "TokenCount": 2
       },
       "cards": {
-        "Card_Token": [198]
+        "Card_Token": ["Sentinel"]
       }
     },
     "series": 6,
@@ -3021,7 +2848,6 @@
     "collectible": true
   },
   {
-    "id": 132,
     "defId": "Maximus",
     "cost": 2,
     "power": 6,
@@ -3047,7 +2873,6 @@
     "collectible": true
   },
   {
-    "id": 133,
     "defId": "MBaku",
     "cost": 1,
     "power": 2,
@@ -3068,7 +2893,6 @@
     "collectible": true
   },
   {
-    "id": 134,
     "defId": "Medusa",
     "cost": 2,
     "power": 2,
@@ -3094,7 +2918,6 @@
     "collectible": true
   },
   {
-    "id": 135,
     "defId": "Mephisto",
     "cost": 6,
     "power": 0,
@@ -3114,7 +2937,6 @@
     "seriesStartTimestamps": []
   },
   {
-    "id": 136,
     "defId": "MilesMorales",
     "cost": 4,
     "power": 6,
@@ -3140,9 +2962,8 @@
     "collectible": true
   },
   {
-    "id": 137,
     "defId": "MindStone",
-    "cost": 2,
+    "cost": 1,
     "power": 1,
     "name": "Mind Stone",
     "description": "<b>On Reveal:</b> Draw 2 Stones from your deck.",
@@ -3161,7 +2982,6 @@
     "seriesStartTimestamps": []
   },
   {
-    "id": 138,
     "defId": "Mirage",
     "cost": 2,
     "power": 2,
@@ -3187,7 +3007,6 @@
     "collectible": true
   },
   {
-    "id": 139,
     "defId": "MistyKnight",
     "cost": 1,
     "power": 2,
@@ -3208,7 +3027,6 @@
     "collectible": true
   },
   {
-    "id": 140,
     "defId": "Mjolnir",
     "cost": 0,
     "power": 0,
@@ -3219,7 +3037,7 @@
         "AddedPower": 6
       },
       "cards": {
-        "Card_Modified": [241]
+        "Card_Modified": ["Thor"]
       }
     },
     "series": 0,
@@ -3236,7 +3054,6 @@
     "seriesStartTimestamps": []
   },
   {
-    "id": 141,
     "defId": "Modok",
     "cost": 5,
     "power": 8,
@@ -3257,7 +3074,6 @@
     "collectible": true
   },
   {
-    "id": 142,
     "defId": "Mojo",
     "cost": 2,
     "power": 2,
@@ -3283,7 +3099,6 @@
     "collectible": true
   },
   {
-    "id": 143,
     "defId": "Monster",
     "cost": 6,
     "power": 10,
@@ -3303,10 +3118,9 @@
     "seriesStartTimestamps": []
   },
   {
-    "id": 144,
     "defId": "MoonGirl",
     "cost": 4,
-    "power": 4,
+    "power": 5,
     "name": "Moon Girl",
     "description": "<b>On Reveal:</b> Duplicate\nyour hand.",
     "series": 4,
@@ -3324,12 +3138,11 @@
     "collectible": true
   },
   {
-    "id": 145,
     "defId": "MoonKnight",
     "cost": 3,
     "power": 3,
     "name": "Moon Knight",
-    "description": "<b>On Reveal:</b> Discard a card with an even Cost from each player's hand.",
+    "description": "<b>On Reveal:</b> Discard an even-costed card from each player's hand.",
     "series": 6,
     "artists": [
       {
@@ -3345,7 +3158,6 @@
     "collectible": true
   },
   {
-    "id": 146,
     "defId": "Morbius",
     "cost": 2,
     "power": 0,
@@ -3371,7 +3183,6 @@
     "collectible": true
   },
   {
-    "id": 147,
     "defId": "Morph",
     "cost": 3,
     "power": 0,
@@ -3392,7 +3203,6 @@
     "collectible": true
   },
   {
-    "id": 148,
     "defId": "MrFantastic",
     "cost": 3,
     "power": 2,
@@ -3418,7 +3228,6 @@
     "collectible": true
   },
   {
-    "id": 149,
     "defId": "MrNegative",
     "cost": 4,
     "power": -1,
@@ -3439,7 +3248,6 @@
     "collectible": true
   },
   {
-    "id": 150,
     "defId": "MrSinister",
     "cost": 2,
     "power": 2,
@@ -3447,7 +3255,7 @@
     "description": "<b>On Reveal:</b> Add a Sinister Clone here with the same Power.",
     "attributes": {
       "cards": {
-        "Card_Token": [212]
+        "Card_Token": ["SinisterClone"]
       }
     },
     "series": 4,
@@ -3465,7 +3273,6 @@
     "collectible": true
   },
   {
-    "id": 151,
     "defId": "MsMarvel",
     "cost": 4,
     "power": 4,
@@ -3493,7 +3300,6 @@
     "isSeasonPass": true
   },
   {
-    "id": 152,
     "defId": "MultipleMan",
     "cost": 2,
     "power": 3,
@@ -3514,7 +3320,6 @@
     "collectible": true
   },
   {
-    "id": 153,
     "defId": "Mysterio",
     "cost": 2,
     "power": 4,
@@ -3522,7 +3327,7 @@
     "description": "As you play this, play Illusions to other locations. Disguise this as an Illusion until the game ends.",
     "attributes": {
       "cards": {
-        "Card_Token": [155]
+        "Card_Token": ["MysterioUnrevealed"]
       }
     },
     "series": 6,
@@ -3540,7 +3345,6 @@
     "collectible": true
   },
   {
-    "id": 154,
     "defId": "MysterioIllusion",
     "cost": 2,
     "power": 0,
@@ -3560,7 +3364,6 @@
     "seriesStartTimestamps": []
   },
   {
-    "id": 155,
     "defId": "MysterioUnrevealed",
     "cost": 2,
     "power": 0,
@@ -3568,7 +3371,7 @@
     "description": "Which is the real Mysterio? <i>The real one has 4 Power.</i>",
     "attributes": {
       "cards": {
-        "Card_Source": [153]
+        "Card_Source": ["Mysterio"]
       }
     },
     "series": 0,
@@ -3585,12 +3388,11 @@
     "seriesStartTimestamps": []
   },
   {
-    "id": 156,
     "defId": "Mystique",
     "cost": 3,
     "power": 0,
     "name": "Mystique",
-    "description": "<b>On Reveal:</b> If the last card you played has an <b>Ongoing</b>, copy its text. <i>(if it's in play)</i>",
+    "description": "<b>On Reveal:</b> If the last card you played has an <b>Ongoing</b>, copy its text. <i>(if able)</i>",
     "series": 6,
     "artists": [
       {
@@ -3606,7 +3408,6 @@
     "collectible": true
   },
   {
-    "id": 157,
     "defId": "Nakia",
     "cost": 3,
     "power": 3,
@@ -3632,7 +3433,6 @@
     "collectible": true
   },
   {
-    "id": 158,
     "defId": "Namor",
     "cost": 4,
     "power": 6,
@@ -3658,7 +3458,6 @@
     "collectible": true
   },
   {
-    "id": 159,
     "defId": "Nebula",
     "cost": 1,
     "power": 1,
@@ -3685,7 +3484,6 @@
     "isSeasonPass": true
   },
   {
-    "id": 160,
     "defId": "NegasonicTeenageWarhead",
     "cost": 3,
     "power": 2,
@@ -3706,7 +3504,6 @@
     "collectible": true
   },
   {
-    "id": 161,
     "defId": "NickFury",
     "cost": 4,
     "power": 6,
@@ -3733,7 +3530,6 @@
     "collectible": true
   },
   {
-    "id": 162,
     "defId": "Nightcrawler",
     "cost": 1,
     "power": 2,
@@ -3754,7 +3550,6 @@
     "collectible": true
   },
   {
-    "id": 163,
     "defId": "NightNurse",
     "cost": 2,
     "power": 2,
@@ -3765,7 +3560,6 @@
     "seriesStartTimestamps": []
   },
   {
-    "id": 164,
     "defId": "Ninja",
     "cost": 1,
     "power": -2,
@@ -3785,7 +3579,6 @@
     "seriesStartTimestamps": []
   },
   {
-    "id": 165,
     "defId": "Nova",
     "cost": 1,
     "power": 1,
@@ -3811,7 +3604,6 @@
     "collectible": true
   },
   {
-    "id": 166,
     "defId": "Odin",
     "cost": 6,
     "power": 8,
@@ -3832,7 +3624,6 @@
     "collectible": true
   },
   {
-    "id": 167,
     "defId": "Okoye",
     "cost": 2,
     "power": 2,
@@ -3858,7 +3649,6 @@
     "collectible": true
   },
   {
-    "id": 168,
     "defId": "OmegaRed",
     "cost": 4,
     "power": 5,
@@ -3884,7 +3674,6 @@
     "collectible": true
   },
   {
-    "id": 169,
     "defId": "Onslaught",
     "cost": 6,
     "power": 7,
@@ -3905,7 +3694,6 @@
     "collectible": true
   },
   {
-    "id": 170,
     "defId": "Orka",
     "cost": 6,
     "power": 11,
@@ -3931,7 +3719,6 @@
     "collectible": true
   },
   {
-    "id": 171,
     "defId": "Patriot",
     "cost": 3,
     "power": 1,
@@ -3957,7 +3744,6 @@
     "collectible": true
   },
   {
-    "id": 172,
     "defId": "Polaris",
     "cost": 3,
     "power": 5,
@@ -3984,7 +3770,6 @@
     "collectible": true
   },
   {
-    "id": 173,
     "defId": "PowerStone",
     "cost": 1,
     "power": 3,
@@ -3995,7 +3780,7 @@
         "AddedPower": 10
       },
       "cards": {
-        "Card_Modified": [236]
+        "Card_Modified": ["Thanos"]
       }
     },
     "series": 0,
@@ -4008,7 +3793,6 @@
     "seriesStartTimestamps": []
   },
   {
-    "id": 174,
     "defId": "ProfessorX",
     "cost": 5,
     "power": 2,
@@ -4029,7 +3813,6 @@
     "collectible": true
   },
   {
-    "id": 175,
     "defId": "Psylocke",
     "cost": 2,
     "power": 2,
@@ -4055,7 +3838,6 @@
     "collectible": true
   },
   {
-    "id": 176,
     "defId": "Punisher",
     "cost": 3,
     "power": 3,
@@ -4081,7 +3863,6 @@
     "collectible": true
   },
   {
-    "id": 177,
     "defId": "Quake",
     "cost": 2,
     "power": 3,
@@ -4102,7 +3883,6 @@
     "collectible": true
   },
   {
-    "id": 178,
     "defId": "Quicksilver",
     "cost": 1,
     "power": 2,
@@ -4123,7 +3903,6 @@
     "collectible": true
   },
   {
-    "id": 179,
     "defId": "Quinjet",
     "cost": 1,
     "power": 2,
@@ -4149,7 +3928,6 @@
     "collectible": true
   },
   {
-    "id": 180,
     "defId": "Random",
     "cost": 4,
     "power": 0,
@@ -4160,7 +3938,6 @@
     "seriesStartTimestamps": []
   },
   {
-    "id": 181,
     "defId": "Raptor",
     "cost": 1,
     "power": 1,
@@ -4180,7 +3957,6 @@
     "seriesStartTimestamps": []
   },
   {
-    "id": 182,
     "defId": "RealityStone",
     "cost": 1,
     "power": 1,
@@ -4196,7 +3972,6 @@
     "seriesStartTimestamps": []
   },
   {
-    "id": 183,
     "defId": "RedGuardian",
     "cost": 3,
     "power": 3,
@@ -4222,7 +3997,6 @@
     "collectible": true
   },
   {
-    "id": 184,
     "defId": "RedSkull",
     "cost": 5,
     "power": 14,
@@ -4248,7 +4022,6 @@
     "collectible": true
   },
   {
-    "id": 185,
     "defId": "Rescue",
     "cost": 4,
     "power": 4,
@@ -4274,7 +4047,6 @@
     "collectible": true
   },
   {
-    "id": 186,
     "defId": "Rhino",
     "cost": 3,
     "power": 3,
@@ -4300,7 +4072,6 @@
     "collectible": true
   },
   {
-    "id": 187,
     "defId": "Rock",
     "cost": 1,
     "power": 0,
@@ -4316,7 +4087,6 @@
     "seriesStartTimestamps": []
   },
   {
-    "id": 188,
     "defId": "RocketRaccoon",
     "cost": 1,
     "power": 1,
@@ -4342,7 +4112,6 @@
     "collectible": true
   },
   {
-    "id": 189,
     "defId": "Rockslide",
     "cost": 3,
     "power": 3,
@@ -4353,7 +4122,7 @@
         "TokenCount": 2
       },
       "cards": {
-        "Card_Token": [187]
+        "Card_Token": ["Rock"]
       }
     },
     "series": 6,
@@ -4371,7 +4140,6 @@
     "collectible": true
   },
   {
-    "id": 190,
     "defId": "Rogue",
     "cost": 3,
     "power": 2,
@@ -4392,7 +4160,6 @@
     "collectible": true
   },
   {
-    "id": 191,
     "defId": "RogueTutorial",
     "cost": 2,
     "power": 3,
@@ -4403,7 +4170,6 @@
     "seriesStartTimestamps": []
   },
   {
-    "id": 192,
     "defId": "Ronan",
     "cost": 5,
     "power": 5,
@@ -4429,7 +4195,6 @@
     "collectible": true
   },
   {
-    "id": 193,
     "defId": "Sabretooth",
     "cost": 3,
     "power": 5,
@@ -4455,15 +4220,15 @@
     "collectible": true
   },
   {
-    "id": 194,
     "defId": "Sandman",
     "cost": 5,
     "power": 7,
     "name": "Sandman",
-    "description": "<b>On Reveal:</b> Players can only play 1 card next turn.",
+    "description": "<b>On Reveal:</b> Next turn, cards cost 1 more. <i>(maximum 6)</i>",
     "attributes": {
       "data": {
-        "StageCardsLimit": 1
+        "AddedCost": 1,
+        "MaximumCost": 6
       }
     },
     "series": 5,
@@ -4481,7 +4246,6 @@
     "collectible": true
   },
   {
-    "id": 195,
     "defId": "Sauron",
     "cost": 3,
     "power": 4,
@@ -4502,7 +4266,6 @@
     "collectible": true
   },
   {
-    "id": 196,
     "defId": "ScarletWitch",
     "cost": 2,
     "power": 3,
@@ -4519,7 +4282,6 @@
     "collectible": true
   },
   {
-    "id": 197,
     "defId": "Scorpion",
     "cost": 2,
     "power": 2,
@@ -4545,7 +4307,6 @@
     "collectible": true
   },
   {
-    "id": 198,
     "defId": "Sentinel",
     "cost": 2,
     "power": 3,
@@ -4566,7 +4327,6 @@
     "collectible": true
   },
   {
-    "id": 199,
     "defId": "SentinelTutorial",
     "cost": 2,
     "power": 3,
@@ -4577,7 +4337,6 @@
     "seriesStartTimestamps": []
   },
   {
-    "id": 200,
     "defId": "Sentry",
     "cost": 4,
     "power": 8,
@@ -4585,7 +4344,7 @@
     "description": "You can't play this at the right location.\n<b>On Reveal:</b> Add a -8 Power Void to the right location.",
     "attributes": {
       "cards": {
-        "Card_Token": [240]
+        "Card_Token": ["TheVoid"]
       }
     },
     "series": 6,
@@ -4603,7 +4362,6 @@
     "collectible": true
   },
   {
-    "id": 201,
     "defId": "Sera",
     "cost": 5,
     "power": 4,
@@ -4629,12 +4387,11 @@
     "collectible": true
   },
   {
-    "id": 202,
     "defId": "ShadowKing",
     "cost": 2,
     "power": 2,
     "name": "Shadow King",
-    "description": "<b>On Reveal:</b> Set all cards here to their base Power.",
+    "description": "<b>On Reveal:</b> Reset all cards here to their original Power.",
     "series": 6,
     "artists": [
       {
@@ -4650,7 +4407,6 @@
     "collectible": true
   },
   {
-    "id": 203,
     "defId": "ShangChi",
     "cost": 4,
     "power": 3,
@@ -4676,7 +4432,6 @@
     "collectible": true
   },
   {
-    "id": 204,
     "defId": "Shanna",
     "cost": 3,
     "power": 4,
@@ -4698,7 +4453,6 @@
     "collectible": true
   },
   {
-    "id": 205,
     "defId": "SheHulk",
     "cost": 6,
     "power": 10,
@@ -4724,7 +4478,6 @@
     "collectible": true
   },
   {
-    "id": 206,
     "defId": "Shocker",
     "cost": 2,
     "power": 3,
@@ -4741,7 +4494,6 @@
     "collectible": true
   },
   {
-    "id": 207,
     "defId": "Shuri",
     "cost": 4,
     "power": 1,
@@ -4762,7 +4514,6 @@
     "collectible": true
   },
   {
-    "id": 208,
     "defId": "Silk",
     "cost": 2,
     "power": 5,
@@ -4783,18 +4534,17 @@
     "collectible": true
   },
   {
-    "id": 209,
     "defId": "SilverSable",
     "cost": 1,
     "power": 1,
     "name": "Silver Sable",
-    "description": "<b>On Reveal:</b> Steal 2 Power from the top card of your opponent’s deck.",
+    "description": "<b>On Reveal:</b> Steal 2 Power from the top card of your opponent's deck.",
     "attributes": {
       "data": {
         "AddedPower": 2
       }
     },
-    "series": 0,
+    "series": 8,
     "artists": [
       {
         "name": "Eduardo Mello",
@@ -4806,10 +4556,9 @@
       }
     ],
     "seriesStartTimestamps": [1725390000000],
-    "possibleSeries": 8
+    "collectible": true
   },
   {
-    "id": 210,
     "defId": "SilverSamurai",
     "cost": 4,
     "power": 5,
@@ -4830,7 +4579,6 @@
     "collectible": true
   },
   {
-    "id": 211,
     "defId": "SilverSurfer",
     "cost": 3,
     "power": 2,
@@ -4857,7 +4605,6 @@
     "collectible": true
   },
   {
-    "id": 212,
     "defId": "SinisterClone",
     "cost": 2,
     "power": 2,
@@ -4865,7 +4612,7 @@
     "description": "<i>\"Sinister is a system. Sinister is a species. Everything is Sinister.\"</i>",
     "attributes": {
       "cards": {
-        "Card_Source": [150]
+        "Card_Source": ["MrSinister"]
       }
     },
     "series": 0,
@@ -4882,7 +4629,6 @@
     "seriesStartTimestamps": []
   },
   {
-    "id": 213,
     "defId": "Snowguard",
     "cost": 1,
     "power": 2,
@@ -4890,7 +4636,7 @@
     "description": "<b>On Reveal:</b> Add the Hawk and Bear auroras to your hand.",
     "attributes": {
       "cards": {
-        "Card_Token": [215, 214]
+        "Card_Token": ["SnowguardHawk", "SnowguardBear"]
       }
     },
     "series": 7,
@@ -4908,7 +4654,6 @@
     "collectible": true
   },
   {
-    "id": 214,
     "defId": "SnowguardBear",
     "cost": 3,
     "power": 4,
@@ -4916,8 +4661,8 @@
     "description": "<b>On Reveal:</b> Trigger the effect of this location.",
     "attributes": {
       "cards": {
-        "Card_Source": [213],
-        "Card_Related": [215]
+        "Card_Source": ["Snowguard"],
+        "Card_Related": ["SnowguardHawk"]
       }
     },
     "series": 0,
@@ -4934,7 +4679,6 @@
     "seriesStartTimestamps": []
   },
   {
-    "id": 215,
     "defId": "SnowguardHawk",
     "cost": 3,
     "power": 3,
@@ -4942,8 +4686,8 @@
     "description": "<b>On Reveal:</b> Ignore all location abilities until the end of next turn. <i>(They resume if the game ends.)</i>",
     "attributes": {
       "cards": {
-        "Card_Source": [213],
-        "Card_Related": [214]
+        "Card_Source": ["Snowguard"],
+        "Card_Related": ["SnowguardBear"]
       }
     },
     "series": 0,
@@ -4960,7 +4704,6 @@
     "seriesStartTimestamps": []
   },
   {
-    "id": 216,
     "defId": "SnowguardWolf",
     "cost": 4,
     "power": 8,
@@ -4971,8 +4714,8 @@
         "ReducedPower": 2
       },
       "cards": {
-        "Card_Source": [213],
-        "Card_Related": [214, 215]
+        "Card_Source": ["Snowguard"],
+        "Card_Related": ["SnowguardBear", "SnowguardHawk"]
       }
     },
     "series": 0,
@@ -4980,7 +4723,6 @@
     "seriesStartTimestamps": []
   },
   {
-    "id": 217,
     "defId": "SoulStone",
     "cost": 1,
     "power": 1,
@@ -4988,7 +4730,7 @@
     "description": "<b>On Reveal:</b> Draw a card.\n<b>Ongoing:</b> Thanos can't be discarded or destroyed.",
     "attributes": {
       "cards": {
-        "Card_Modified": [236]
+        "Card_Modified": ["Thanos"]
       }
     },
     "series": 0,
@@ -5001,7 +4743,6 @@
     "seriesStartTimestamps": []
   },
   {
-    "id": 218,
     "defId": "SpaceStone",
     "cost": 1,
     "power": 1,
@@ -5009,7 +4750,7 @@
     "description": "<b>On Reveal:</b> Draw a card.\n<b>Ongoing:</b> Nothing can stop you from playing or moving Thanos.",
     "attributes": {
       "cards": {
-        "Card_Modified": [236]
+        "Card_Modified": ["Thanos"]
       }
     },
     "series": 0,
@@ -5022,7 +4763,6 @@
     "seriesStartTimestamps": []
   },
   {
-    "id": 219,
     "defId": "Spectrum",
     "cost": 6,
     "power": 6,
@@ -5048,7 +4788,6 @@
     "collectible": true
   },
   {
-    "id": 220,
     "defId": "SpiderMan",
     "cost": 3,
     "power": 5,
@@ -5069,7 +4808,6 @@
     "collectible": true
   },
   {
-    "id": 221,
     "defId": "SpiderManTutorial",
     "cost": 1,
     "power": 3,
@@ -5080,7 +4818,6 @@
     "seriesStartTimestamps": []
   },
   {
-    "id": 222,
     "defId": "SpiderWoman",
     "cost": 5,
     "power": 8,
@@ -5106,7 +4843,6 @@
     "collectible": true
   },
   {
-    "id": 223,
     "defId": "Squirrel",
     "cost": 1,
     "power": 1,
@@ -5114,7 +4850,7 @@
     "description": "<i>\"squeak!\"</i>",
     "attributes": {
       "cards": {
-        "Card_Source": [224]
+        "Card_Source": ["SquirrelGirl"]
       }
     },
     "series": 0,
@@ -5131,7 +4867,6 @@
     "seriesStartTimestamps": []
   },
   {
-    "id": 224,
     "defId": "SquirrelGirl",
     "cost": 1,
     "power": 2,
@@ -5139,7 +4874,7 @@
     "description": "<b>On Reveal:</b> Add a 1-Power Squirrel to each other location.",
     "attributes": {
       "cards": {
-        "Card_Token": [223]
+        "Card_Token": ["Squirrel"]
       }
     },
     "series": 4,
@@ -5157,7 +4892,6 @@
     "collectible": true
   },
   {
-    "id": 225,
     "defId": "Starlord",
     "cost": 2,
     "power": 2,
@@ -5183,7 +4917,6 @@
     "collectible": true
   },
   {
-    "id": 226,
     "defId": "Storm",
     "cost": 3,
     "power": 2,
@@ -5209,7 +4942,6 @@
     "collectible": true
   },
   {
-    "id": 227,
     "defId": "StrongGuy",
     "cost": 3,
     "power": 3,
@@ -5236,7 +4968,6 @@
     "collectible": true
   },
   {
-    "id": 228,
     "defId": "Stryfe",
     "cost": 3,
     "power": 7,
@@ -5261,7 +4992,6 @@
     "seriesStartTimestamps": []
   },
   {
-    "id": 229,
     "defId": "Sunspot",
     "cost": 1,
     "power": 0,
@@ -5283,7 +5013,6 @@
     "collectible": true
   },
   {
-    "id": 230,
     "defId": "SuperSkrull",
     "cost": 4,
     "power": 2,
@@ -5304,15 +5033,15 @@
     "collectible": true
   },
   {
-    "id": 231,
     "defId": "Surtur",
-    "cost": 5,
-    "power": 0,
+    "cost": 2,
+    "power": 2,
     "name": "Surtur",
-    "description": "If you move the Human Torch to this location, +10 Power.",
+    "description": "After you play a card with 10+ Power, this gains +3 Power.",
     "attributes": {
       "data": {
-        "AddedPower": 10
+        "AddedPower": 3,
+        "AssignedPower": 10
       }
     },
     "series": 0,
@@ -5326,10 +5055,12 @@
         "type": 4
       }
     ],
-    "seriesStartTimestamps": []
+    "seriesStartTimestamps": [1730833200000, 1733252400000],
+    "possibleSeries": 8,
+    "isSeasonPass": true,
+    "id": 231
   },
   {
-    "id": 232,
     "defId": "Swarm",
     "cost": 2,
     "power": 3,
@@ -5355,12 +5086,11 @@
     "collectible": true
   },
   {
-    "id": 233,
     "defId": "SwordMaster",
     "cost": 3,
     "power": 7,
     "name": "Sword Master",
-    "description": "<b>On Reveal:</b> Discard a card from your hand.",
+    "description": "<b>On Reveal:</b> Discard an odd-costed card from your hand.",
     "series": 4,
     "artists": [
       {
@@ -5376,12 +5106,11 @@
     "collectible": true
   },
   {
-    "id": 234,
     "defId": "Taskmaster",
-    "cost": 5,
+    "cost": 6,
     "power": 0,
     "name": "Taskmaster",
-    "description": "<b>On Reveal:</b> Set this card’s Power equal to that of the last card you played. <i>(if that card's in play)</i>",
+    "description": "<b>On Reveal:</b> Set this card’s Power equal to that of the last card you played. <i>(if able)</i>",
     "series": 6,
     "artists": [
       {
@@ -5397,7 +5126,6 @@
     "collectible": true
   },
   {
-    "id": 235,
     "defId": "TestCard",
     "cost": 4,
     "power": 4,
@@ -5408,7 +5136,6 @@
     "seriesStartTimestamps": []
   },
   {
-    "id": 236,
     "defId": "Thanos",
     "cost": 6,
     "power": 10,
@@ -5416,7 +5143,14 @@
     "description": "Starts in your opening hand and shuffles the six Infinity Stones\ninto your deck.",
     "attributes": {
       "cards": {
-        "Card_Token": [218, 182, 243, 137, 173, 217]
+        "Card_Token": [
+          "SpaceStone",
+          "RealityStone",
+          "TimeStone",
+          "MindStone",
+          "PowerStone",
+          "SoulStone"
+        ]
       }
     },
     "series": 8,
@@ -5434,7 +5168,6 @@
     "collectible": true
   },
   {
-    "id": 237,
     "defId": "TheCollector",
     "cost": 2,
     "power": 2,
@@ -5460,7 +5193,6 @@
     "collectible": true
   },
   {
-    "id": 238,
     "defId": "ThePhoenixForce",
     "cost": 4,
     "power": 5,
@@ -5482,7 +5214,6 @@
     "isSeasonPass": true
   },
   {
-    "id": 239,
     "defId": "TheThing",
     "cost": 4,
     "power": 6,
@@ -5503,7 +5234,6 @@
     "collectible": true
   },
   {
-    "id": 240,
     "defId": "TheVoid",
     "cost": 4,
     "power": -8,
@@ -5523,7 +5253,6 @@
     "seriesStartTimestamps": []
   },
   {
-    "id": 241,
     "defId": "Thor",
     "cost": 3,
     "power": 4,
@@ -5531,7 +5260,7 @@
     "description": "<b>On Reveal:</b> Shuffle Mjolnir into your deck.",
     "attributes": {
       "cards": {
-        "Card_Token": [140]
+        "Card_Token": ["Mjolnir"]
       }
     },
     "series": 6,
@@ -5553,7 +5282,6 @@
     "collectible": true
   },
   {
-    "id": 242,
     "defId": "TigerSpirit",
     "cost": 5,
     "power": 8,
@@ -5573,7 +5301,6 @@
     "seriesStartTimestamps": []
   },
   {
-    "id": 243,
     "defId": "TimeStone",
     "cost": 1,
     "power": 1,
@@ -5584,7 +5311,7 @@
         "ReducedCost": 1
       },
       "cards": {
-        "Card_Modified": [236]
+        "Card_Modified": ["Thanos"]
       }
     },
     "series": 0,
@@ -5597,7 +5324,6 @@
     "seriesStartTimestamps": []
   },
   {
-    "id": 244,
     "defId": "Titania",
     "cost": 1,
     "power": 5,
@@ -5618,7 +5344,6 @@
     "collectible": true
   },
   {
-    "id": 245,
     "defId": "Toad",
     "cost": 2,
     "power": 3,
@@ -5629,7 +5354,6 @@
     "seriesStartTimestamps": []
   },
   {
-    "id": 246,
     "defId": "TyphoidMary",
     "cost": 4,
     "power": 10,
@@ -5655,7 +5379,6 @@
     "collectible": true
   },
   {
-    "id": 247,
     "defId": "Uatu",
     "cost": 1,
     "power": 2,
@@ -5676,7 +5399,6 @@
     "collectible": true
   },
   {
-    "id": 248,
     "defId": "Ultron",
     "cost": 6,
     "power": 8,
@@ -5687,7 +5409,7 @@
         "TokenCount": 4
       },
       "cards": {
-        "Card_Token": [62]
+        "Card_Token": ["Drone"]
       }
     },
     "series": 6,
@@ -5705,15 +5427,14 @@
     "collectible": true
   },
   {
-    "id": 249,
     "defId": "UncleBen",
     "cost": 1,
     "power": 2,
     "name": "Uncle Ben",
-    "description": "When this card is destroyed, add Spider-Man to your hand.",
+    "description": "When this card is destroyed, replace it with Spider-Man.",
     "attributes": {
       "cards": {
-        "Card_Token": [220]
+        "Card_Token": ["SpiderMan"]
       }
     },
     "series": 0,
@@ -5730,7 +5451,6 @@
     "seriesStartTimestamps": []
   },
   {
-    "id": 250,
     "defId": "Valkyrie",
     "cost": 5,
     "power": 3,
@@ -5756,7 +5476,6 @@
     "collectible": true
   },
   {
-    "id": 251,
     "defId": "Venom",
     "cost": 3,
     "power": 3,
@@ -5773,7 +5492,6 @@
     "collectible": true
   },
   {
-    "id": 252,
     "defId": "Viper",
     "cost": 3,
     "power": 5,
@@ -5794,7 +5512,6 @@
     "collectible": true
   },
   {
-    "id": 253,
     "defId": "Vision",
     "cost": 5,
     "power": 8,
@@ -5811,7 +5528,6 @@
     "collectible": true
   },
   {
-    "id": 254,
     "defId": "Viv",
     "cost": 2,
     "power": 3,
@@ -5822,7 +5538,6 @@
     "seriesStartTimestamps": []
   },
   {
-    "id": 255,
     "defId": "Vulture",
     "cost": 3,
     "power": 3,
@@ -5848,12 +5563,11 @@
     "collectible": true
   },
   {
-    "id": 256,
     "defId": "WarMachine",
     "cost": 4,
     "power": 7,
     "name": "War Machine",
-    "description": "<b>On Reveal:</b> Until the end of next turn, nothing can stop you from playing cards anywhere.",
+    "description": "<b>Ongoing:</b> Nothing can stop you from playing cards anywhere.",
     "series": 8,
     "artists": [
       {
@@ -5869,7 +5583,6 @@
     "collectible": true
   },
   {
-    "id": 257,
     "defId": "Warpath",
     "cost": 4,
     "power": 5,
@@ -5895,7 +5608,6 @@
     "collectible": true
   },
   {
-    "id": 258,
     "defId": "Wasp",
     "cost": 0,
     "power": 1,
@@ -5916,7 +5628,6 @@
     "collectible": true
   },
   {
-    "id": 259,
     "defId": "Wave",
     "cost": 3,
     "power": 5,
@@ -5942,27 +5653,6 @@
     "collectible": true
   },
   {
-    "id": 260,
-    "defId": "WidowsBite",
-    "cost": 0,
-    "power": -1,
-    "name": "Widow's Bite",
-    "description": "While this is in your hand, you can't draw cards.",
-    "series": 0,
-    "artists": [
-      {
-        "name": "Eduardo Mello",
-        "type": 1
-      },
-      {
-        "name": "Ryan Kinnaird",
-        "type": 4
-      }
-    ],
-    "seriesStartTimestamps": []
-  },
-  {
-    "id": 261,
     "defId": "WhiteQueen",
     "cost": 4,
     "power": 6,
@@ -5983,7 +5673,6 @@
     "collectible": true
   },
   {
-    "id": 262,
     "defId": "WhiteTiger",
     "cost": 5,
     "power": 1,
@@ -5991,7 +5680,7 @@
     "description": "<b>On Reveal:</b> Add a 8-Power Tiger to another location.",
     "attributes": {
       "cards": {
-        "Card_Token": [242]
+        "Card_Token": ["TigerSpirit"]
       }
     },
     "series": 2,
@@ -6009,7 +5698,25 @@
     "collectible": true
   },
   {
-    "id": 263,
+    "defId": "WidowsBite",
+    "cost": 0,
+    "power": -1,
+    "name": "Widow's Bite",
+    "description": "While this is in your hand, you can't draw cards.",
+    "series": 0,
+    "artists": [
+      {
+        "name": "Eduardo Mello",
+        "type": 1
+      },
+      {
+        "name": "Ryan Kinnaird",
+        "type": 4
+      }
+    ],
+    "seriesStartTimestamps": []
+  },
+  {
     "defId": "WinterSoldier",
     "cost": 2,
     "power": 6,
@@ -6029,7 +5736,6 @@
     "seriesStartTimestamps": []
   },
   {
-    "id": 264,
     "defId": "Witchfire",
     "cost": 2,
     "power": 3,
@@ -6045,7 +5751,6 @@
     "seriesStartTimestamps": []
   },
   {
-    "id": 265,
     "defId": "Wolfsbane",
     "cost": 3,
     "power": 1,
@@ -6071,7 +5776,6 @@
     "collectible": true
   },
   {
-    "id": 266,
     "defId": "Wolverine",
     "cost": 2,
     "power": 2,
@@ -6097,7 +5801,6 @@
     "collectible": true
   },
   {
-    "id": 267,
     "defId": "Wong",
     "cost": 4,
     "power": 2,
@@ -6118,7 +5821,6 @@
     "collectible": true
   },
   {
-    "id": 268,
     "defId": "X23",
     "cost": 1,
     "power": 2,
@@ -6144,7 +5846,6 @@
     "collectible": true
   },
   {
-    "id": 269,
     "defId": "Yellowjacket",
     "cost": 0,
     "power": 2,
@@ -6170,7 +5871,6 @@
     "collectible": true
   },
   {
-    "id": 270,
     "defId": "Yondu",
     "cost": 1,
     "power": 2,
@@ -6191,7 +5891,6 @@
     "collectible": true
   },
   {
-    "id": 271,
     "defId": "YoYo",
     "cost": 1,
     "power": 2,
@@ -6207,7 +5906,6 @@
     "seriesStartTimestamps": []
   },
   {
-    "id": 272,
     "defId": "Zabu",
     "cost": 2,
     "power": 3,
@@ -6238,7 +5936,6 @@
     "collectible": true
   },
   {
-    "id": 273,
     "defId": "Zero",
     "cost": 1,
     "power": 3,
@@ -6259,7 +5956,6 @@
     "collectible": true
   },
   {
-    "id": 274,
     "defId": "Bast",
     "cost": 1,
     "power": 1,
@@ -6285,12 +5981,11 @@
     "collectible": true
   },
   {
-    "id": 275,
     "defId": "Attuma",
     "cost": 4,
     "power": 10,
     "name": "Attuma",
-    "description": "After each turn, destroy this if you have another card here.",
+    "description": "After each turn, destroy one of your cards here with less Power.",
     "series": 6,
     "artists": [
       {
@@ -6306,7 +6001,6 @@
     "collectible": true
   },
   {
-    "id": 276,
     "defId": "Vibranium",
     "cost": 1,
     "power": 4,
@@ -6326,7 +6020,6 @@
     "seriesStartTimestamps": []
   },
   {
-    "id": 277,
     "defId": "Knull",
     "cost": 6,
     "power": 0,
@@ -6347,7 +6040,6 @@
     "collectible": true
   },
   {
-    "id": 278,
     "defId": "Symbiote",
     "cost": 4,
     "power": 0,
@@ -6358,7 +6050,6 @@
     "seriesStartTimestamps": []
   },
   {
-    "id": 279,
     "defId": "Stature",
     "cost": 5,
     "power": 7,
@@ -6384,7 +6075,6 @@
     "collectible": true
   },
   {
-    "id": 280,
     "defId": "Ghost",
     "cost": 3,
     "power": 5,
@@ -6405,7 +6095,6 @@
     "collectible": true
   },
   {
-    "id": 281,
     "defId": "Nimrod",
     "cost": 5,
     "power": 6,
@@ -6427,18 +6116,6 @@
     "isSeasonPass": true
   },
   {
-    "id": 282,
-    "defId": "JJonahJameson",
-    "cost": 1,
-    "power": 1,
-    "name": "J. Jonah Jameson",
-    "description": "<b>Ongoing:</b> Your emotes\nare ruder.",
-    "series": 0,
-    "artists": [],
-    "seriesStartTimestamps": []
-  },
-  {
-    "id": 283,
     "defId": "Stegron",
     "cost": 4,
     "power": 7,
@@ -6459,7 +6136,16 @@
     "collectible": true
   },
   {
-    "id": 284,
+    "defId": "JJonahJameson",
+    "cost": 1,
+    "power": 1,
+    "name": "J. Jonah Jameson",
+    "description": "<b>Ongoing:</b> Your emotes\nare ruder.",
+    "series": 0,
+    "artists": [],
+    "seriesStartTimestamps": []
+  },
+  {
     "defId": "HowardTheDuck",
     "cost": 1,
     "power": 2,
@@ -6480,7 +6166,6 @@
     "collectible": true
   },
   {
-    "id": 285,
     "defId": "HighEvolutionary",
     "cost": 4,
     "power": 6,
@@ -6488,7 +6173,15 @@
     "description": "At the start of the game, unlock the potential of your cards with no abilities.",
     "attributes": {
       "cards": {
-        "Card_Related": [359, 360, 361, 362, 363, 364, 365]
+        "Card_Related": [
+          "EvolvedWasp",
+          "EvolvedMistyKnight",
+          "EvolvedShocker",
+          "EvolvedCyclops",
+          "EvolvedTheThing",
+          "EvolvedAbomination",
+          "EvolvedHulk"
+        ]
       }
     },
     "series": 8,
@@ -6506,7 +6199,6 @@
     "collectible": true
   },
   {
-    "id": 286,
     "defId": "IronLad",
     "cost": 4,
     "power": 6,
@@ -6527,7 +6219,6 @@
     "collectible": true
   },
   {
-    "id": 287,
     "defId": "SpiderHam",
     "cost": 1,
     "power": 1,
@@ -6535,7 +6226,7 @@
     "description": "<b>On Reveal:</b> Transform the leftmost card in your opponent's hand into a Pig, keeping its Power and Cost.",
     "attributes": {
       "cards": {
-        "Card_Token": [288]
+        "Card_Token": ["Pig"]
       }
     },
     "series": 7,
@@ -6553,7 +6244,6 @@
     "collectible": true
   },
   {
-    "id": 288,
     "defId": "Pig",
     "cost": 0,
     "power": 0,
@@ -6561,7 +6251,7 @@
     "description": "<i>\"oink!\"</i>",
     "attributes": {
       "cards": {
-        "Card_Source": [287]
+        "Card_Source": ["SpiderHam"]
       }
     },
     "series": 0,
@@ -6578,7 +6268,6 @@
     "seriesStartTimestamps": []
   },
   {
-    "id": 289,
     "defId": "SpiderMan2099",
     "cost": 5,
     "power": 9,
@@ -6599,7 +6288,6 @@
     "collectible": true
   },
   {
-    "id": 290,
     "defId": "Echo",
     "cost": 1,
     "power": 2,
@@ -6620,7 +6308,6 @@
     "collectible": true
   },
   {
-    "id": 291,
     "defId": "Daken",
     "cost": 3,
     "power": 4,
@@ -6628,7 +6315,7 @@
     "description": "<b>On Reveal:</b> Add the Muramasa Shard to your hand.",
     "attributes": {
       "cards": {
-        "Card_Token": [292]
+        "Card_Token": ["MuramasaShard"]
       }
     },
     "series": 7,
@@ -6647,7 +6334,6 @@
     "isSeasonPass": true
   },
   {
-    "id": 292,
     "defId": "MuramasaShard",
     "cost": 1,
     "power": 1,
@@ -6655,7 +6341,7 @@
     "description": "When this is discarded or destroyed, double Daken's Power.",
     "attributes": {
       "cards": {
-        "Card_Modified": [291]
+        "Card_Modified": ["Daken"]
       }
     },
     "series": 0,
@@ -6672,7 +6358,32 @@
     "seriesStartTimestamps": []
   },
   {
-    "id": 293,
+    "defId": "Loki",
+    "cost": 2,
+    "power": 2,
+    "name": "Loki",
+    "description": "<b>On Reveal:</b> Replace your deck with your opponent's starting deck. Give those cards -1 Cost.",
+    "attributes": {
+      "data": {
+        "ReducedCost": 1
+      }
+    },
+    "series": 8,
+    "artists": [
+      {
+        "name": "Ryan Benjamin",
+        "type": 1
+      },
+      {
+        "name": "Ryan Kinnaird",
+        "type": 4
+      }
+    ],
+    "seriesStartTimestamps": [1693940400000, 1696359600000],
+    "collectible": true,
+    "isSeasonPass": true
+  },
+  {
     "defId": "RavonnaRenslayer",
     "cost": 2,
     "power": 2,
@@ -6699,7 +6410,6 @@
     "collectible": true
   },
   {
-    "id": 294,
     "defId": "MobiusMMobius",
     "cost": 3,
     "power": 3,
@@ -6720,7 +6430,6 @@
     "collectible": true
   },
   {
-    "id": 295,
     "defId": "Alioth",
     "cost": 6,
     "power": 10,
@@ -6741,10 +6450,9 @@
     "collectible": true
   },
   {
-    "id": 296,
     "defId": "ManThing",
     "cost": 4,
-    "power": 5,
+    "power": 7,
     "name": "Man-Thing",
     "description": "<b>Ongoing:</b> 1, 2, and 3-Cost cards here have -2 Power.",
     "attributes": {
@@ -6770,7 +6478,6 @@
     "collectible": true
   },
   {
-    "id": 297,
     "defId": "EbonyBlade",
     "cost": 4,
     "power": 0,
@@ -6778,7 +6485,7 @@
     "description": "<b>Ongoing:</b> Can't be destroyed.",
     "attributes": {
       "cards": {
-        "Card_Source": [21]
+        "Card_Source": ["BlackKnight"]
       }
     },
     "series": 0,
@@ -6795,7 +6502,6 @@
     "seriesStartTimestamps": []
   },
   {
-    "id": 298,
     "defId": "NicoMinoru",
     "cost": 1,
     "power": 2,
@@ -6803,7 +6509,15 @@
     "description": "<b>On Reveal:</b> After you play your next card, cast a spell. <i>(The spell\nchanges each turn.)</i>",
     "attributes": {
       "cards": {
-        "Card_Related": [366, 367, 368, 369, 370, 371, 372]
+        "Card_Related": [
+          "Spell01NicoMinoru",
+          "Spell02NicoMinoru",
+          "Spell03NicoMinoru",
+          "Spell04NicoMinoru",
+          "Spell05NicoMinoru",
+          "Spell06NicoMinoru",
+          "Spell07NicoMinoru"
+        ]
       }
     },
     "series": 8,
@@ -6821,7 +6535,6 @@
     "collectible": true
   },
   {
-    "id": 299,
     "defId": "WerewolfByNight",
     "cost": 3,
     "power": 2,
@@ -6847,7 +6560,6 @@
     "collectible": true
   },
   {
-    "id": 300,
     "defId": "Gladiator",
     "cost": 3,
     "power": 8,
@@ -6868,7 +6580,31 @@
     "collectible": true
   },
   {
-    "id": 301,
+    "defId": "Annihilus",
+    "cost": 5,
+    "power": 6,
+    "name": "Annihilus",
+    "description": "<b>On Reveal:</b> Your cards with Power below 0 switch sides. Destroy\nthose that can't.",
+    "attributes": {
+      "data": {
+        "AssignedPower": 0
+      }
+    },
+    "series": 8,
+    "artists": [
+      {
+        "name": "Eduardo Mello",
+        "type": 1
+      },
+      {
+        "name": "Ryan Kinnaird",
+        "type": 4
+      }
+    ],
+    "seriesStartTimestamps": [1700593200000],
+    "collectible": true
+  },
+  {
     "defId": "Martyr",
     "cost": 1,
     "power": 5,
@@ -6889,7 +6625,6 @@
     "collectible": true
   },
   {
-    "id": 302,
     "defId": "Djinn",
     "cost": 0,
     "power": 1,
@@ -6914,7 +6649,6 @@
     "seriesStartTimestamps": []
   },
   {
-    "id": 303,
     "defId": "SebastianShaw",
     "cost": 3,
     "power": 4,
@@ -6941,7 +6675,6 @@
     "isSeasonPass": true
   },
   {
-    "id": 304,
     "defId": "Firestar",
     "cost": 6,
     "power": 4,
@@ -6966,7 +6699,6 @@
     "seriesStartTimestamps": []
   },
   {
-    "id": 305,
     "defId": "Havok",
     "cost": 2,
     "power": 0,
@@ -6993,7 +6725,6 @@
     "collectible": true
   },
   {
-    "id": 306,
     "defId": "Selene",
     "cost": 1,
     "power": 2,
@@ -7019,7 +6750,6 @@
     "collectible": true
   },
   {
-    "id": 307,
     "defId": "Skaar",
     "cost": 6,
     "power": 11,
@@ -7047,7 +6777,6 @@
     "isSeasonPass": true
   },
   {
-    "id": 308,
     "defId": "Caiera",
     "cost": 3,
     "power": 4,
@@ -7074,7 +6803,6 @@
     "collectible": true
   },
   {
-    "id": 309,
     "defId": "Hercules",
     "cost": 3,
     "power": 4,
@@ -7095,7 +6823,6 @@
     "collectible": true
   },
   {
-    "id": 310,
     "defId": "GrandMaster",
     "cost": 2,
     "power": 2,
@@ -7116,7 +6843,6 @@
     "collectible": true
   },
   {
-    "id": 311,
     "defId": "Miek",
     "cost": 1,
     "power": 0,
@@ -7142,7 +6868,6 @@
     "collectible": true
   },
   {
-    "id": 312,
     "defId": "BetaRayBill",
     "cost": 4,
     "power": 6,
@@ -7150,7 +6875,7 @@
     "description": "<b>On Reveal:</b> Shuffle Stormbreaker into your deck.",
     "attributes": {
       "cards": {
-        "Card_Token": [313]
+        "Card_Token": ["Stormbreaker"]
       }
     },
     "series": 8,
@@ -7168,7 +6893,6 @@
     "collectible": true
   },
   {
-    "id": 313,
     "defId": "Stormbreaker",
     "cost": 0,
     "power": 1,
@@ -7176,7 +6900,7 @@
     "description": "<b>On Reveal:</b> Double Beta Ray Bill's Power.",
     "attributes": {
       "cards": {
-        "Card_Modified": [312]
+        "Card_Modified": ["BetaRayBill"]
       }
     },
     "series": 0,
@@ -7193,12 +6917,11 @@
     "seriesStartTimestamps": []
   },
   {
-    "id": 314,
     "defId": "BlackSwan",
-    "cost": 3,
-    "power": 5,
+    "cost": 2,
+    "power": 3,
     "name": "Black Swan",
-    "description": "<b>On Reveal:</b> Until the end of next turn, your 1-Cost cards cost 0.",
+    "description": "<b>Activate:</b> Until the end of next turn, your 1-Cost cards cost 0.",
     "attributes": {
       "data": {
         "TargetCardCost": 1,
@@ -7221,7 +6944,6 @@
     "isSeasonPass": true
   },
   {
-    "id": 315,
     "defId": "CorvusGlaive",
     "cost": 3,
     "power": 5,
@@ -7248,7 +6970,6 @@
     "collectible": true
   },
   {
-    "id": 316,
     "defId": "ProximaMidnight",
     "cost": 4,
     "power": 7,
@@ -7269,7 +6990,6 @@
     "collectible": true
   },
   {
-    "id": 317,
     "defId": "CullObsidian",
     "cost": 4,
     "power": 10,
@@ -7295,7 +7015,6 @@
     "collectible": true
   },
   {
-    "id": 318,
     "defId": "Supergiant",
     "cost": 4,
     "power": 5,
@@ -7316,7 +7035,6 @@
     "collectible": true
   },
   {
-    "id": 319,
     "defId": "HopeSummers",
     "cost": 3,
     "power": 4,
@@ -7343,7 +7061,6 @@
     "isSeasonPass": true
   },
   {
-    "id": 320,
     "defId": "Pixie",
     "cost": 2,
     "power": 1,
@@ -7364,10 +7081,9 @@
     "collectible": true
   },
   {
-    "id": 321,
     "defId": "Mockingbird",
     "cost": 6,
-    "power": 10,
+    "power": 9,
     "name": "Mockingbird",
     "description": "Costs 1 less for each of your cards in play that didn't start in your deck.",
     "attributes": {
@@ -7390,15 +7106,14 @@
     "collectible": true
   },
   {
-    "id": 322,
     "defId": "Cannonball",
     "cost": 5,
-    "power": 7,
+    "power": 8,
     "name": "Cannonball",
     "description": "<b>On Reveal:</b> Move the highest-Power enemy card here away. If you can't, destroy it with a Rock.",
     "attributes": {
       "cards": {
-        "Card_Token": [187]
+        "Card_Token": ["Rock"]
       }
     },
     "series": 8,
@@ -7416,12 +7131,11 @@
     "collectible": true
   },
   {
-    "id": 323,
     "defId": "BaronZemo",
     "cost": 3,
     "power": 5,
     "name": "Baron Zemo",
-    "description": "<b>On Reveal:</b> Recruit the lowest-Cost card from your opponent's deck to your side of this location.",
+    "description": "<b>On Reveal:</b> Recruit a card that costs the least from your opponent's deck to your side of this location.",
     "series": 8,
     "artists": [
       {
@@ -7438,7 +7152,6 @@
     "isSeasonPass": true
   },
   {
-    "id": 324,
     "defId": "RedHulk",
     "cost": 6,
     "power": 10,
@@ -7464,7 +7177,6 @@
     "collectible": true
   },
   {
-    "id": 325,
     "defId": "USAgent",
     "cost": 2,
     "power": 3,
@@ -7493,7 +7205,6 @@
     "collectible": true
   },
   {
-    "id": 326,
     "defId": "WhiteWidow",
     "cost": 2,
     "power": 2,
@@ -7501,7 +7212,7 @@
     "description": "<b>On Reveal:</b> Add a Widow's Kiss to your opponent's side of this location.",
     "attributes": {
       "cards": {
-        "Card_Token": [327]
+        "Card_Token": ["WidowsKiss"]
       }
     },
     "series": 8,
@@ -7519,7 +7230,6 @@
     "collectible": true
   },
   {
-    "id": 327,
     "defId": "WidowsKiss",
     "cost": 0,
     "power": 0,
@@ -7544,7 +7254,6 @@
     "seriesStartTimestamps": []
   },
   {
-    "id": 328,
     "defId": "Valentina",
     "cost": 2,
     "power": 3,
@@ -7572,10 +7281,9 @@
     "collectible": true
   },
   {
-    "id": 329,
     "defId": "Nocturne",
     "cost": 3,
-    "power": 5,
+    "power": 4,
     "name": "Nocturne",
     "description": "You can move this once. When this moves, replace its location with a random new one.",
     "series": 8,
@@ -7593,7 +7301,6 @@
     "collectible": true
   },
   {
-    "id": 330,
     "defId": "Sage",
     "cost": 3,
     "power": 0,
@@ -7619,7 +7326,6 @@
     "collectible": true
   },
   {
-    "id": 331,
     "defId": "Sasquatch",
     "cost": 6,
     "power": 10,
@@ -7645,7 +7351,6 @@
     "collectible": true
   },
   {
-    "id": 332,
     "defId": "Namora",
     "cost": 5,
     "power": 6,
@@ -7671,10 +7376,9 @@
     "collectible": true
   },
   {
-    "id": 333,
     "defId": "Thena",
     "cost": 2,
-    "power": 1,
+    "power": 0,
     "name": "Thena",
     "description": "After each turn, +3 Power if you played <i>(exactly)</i> 2 cards.",
     "attributes": {
@@ -7698,7 +7402,6 @@
     "collectible": true
   },
   {
-    "id": 334,
     "defId": "Gilgamesh",
     "cost": 5,
     "power": 9,
@@ -7725,7 +7428,6 @@
     "isSeasonPass": true
   },
   {
-    "id": 335,
     "defId": "Sersi",
     "cost": 5,
     "power": 7,
@@ -7751,7 +7453,6 @@
     "collectible": true
   },
   {
-    "id": 336,
     "defId": "Phastos",
     "cost": 3,
     "power": 3,
@@ -7778,16 +7479,15 @@
     "collectible": true
   },
   {
-    "id": 337,
     "defId": "Arishem",
     "cost": 7,
     "power": 7,
     "name": "Arishem",
-    "description": "At the start of the game, +1 Max Energy. Shuffle 12 random cards\ninto your deck.",
+    "description": "At the start of the game, +1 Max Energy. Shuffle 15 random cards\ninto your deck.",
     "attributes": {
       "data": {
         "AddedMaxEnergy": 1,
-        "TokenCount": 12
+        "TokenCount": 15
       }
     },
     "series": 8,
@@ -7805,12 +7505,11 @@
     "collectible": true
   },
   {
-    "id": 338,
     "defId": "Copycat",
     "cost": 3,
     "power": 5,
     "name": "Copycat",
-    "description": "When you draw this, steal the text from the bottom card of your\nopponent's deck.",
+    "description": "When you draw this, copy the text from the bottom card of your\nopponent's deck.",
     "series": 8,
     "artists": [
       {
@@ -7826,7 +7525,6 @@
     "collectible": true
   },
   {
-    "id": 339,
     "defId": "HydraBob",
     "cost": 1,
     "power": 5,
@@ -7847,7 +7545,6 @@
     "collectible": true
   },
   {
-    "id": 340,
     "defId": "Ajax",
     "cost": 5,
     "power": 7,
@@ -7870,13 +7567,13 @@
       }
     ],
     "seriesStartTimestamps": [1721156400000],
-    "collectible": true
+    "collectible": true,
+    "id": 340
   },
   {
-    "id": 341,
     "defId": "CassandraNova",
     "cost": 3,
-    "power": 1,
+    "power": 0,
     "name": "Cassandra Nova",
     "description": "<b>On Reveal:</b> Steal 1 Power from each card in your opponent's deck.",
     "attributes": {
@@ -7899,7 +7596,6 @@
     "collectible": true
   },
   {
-    "id": 342,
     "defId": "Chimichanga",
     "cost": 0,
     "power": 2,
@@ -7919,7 +7615,6 @@
     "seriesStartTimestamps": []
   },
   {
-    "id": 343,
     "defId": "KateBishop",
     "cost": 2,
     "power": 3,
@@ -7930,10 +7625,10 @@
         "TokenCount": 2
       },
       "cards": {
-        "Card_Token": [373, 376, 374, 375]
+        "Card_Token": ["AcidArrow", "GrappleArrow", "BasicArrow", "PymParticleArrow"]
       }
     },
-    "series": 9,
+    "series": 8,
     "artists": [
       {
         "name": "Eduardo Mello",
@@ -7945,12 +7640,10 @@
       }
     ],
     "seriesStartTimestamps": [1722970800000, 1725390000000],
-    "possibleSeries": 8,
     "collectible": true,
     "isSeasonPass": true
   },
   {
-    "id": 344,
     "defId": "Speed",
     "cost": 3,
     "power": 3,
@@ -7961,7 +7654,7 @@
         "AddedPower": 1
       }
     },
-    "series": 0,
+    "series": 8,
     "artists": [
       {
         "name": "Eduardo Mello",
@@ -7973,21 +7666,20 @@
       }
     ],
     "seriesStartTimestamps": [1724180400000],
-    "possibleSeries": 8
+    "collectible": true
   },
   {
-    "id": 345,
     "defId": "Wiccan",
     "cost": 4,
     "power": 7,
     "name": "Wiccan",
-    "description": "<b>On Reveal:</b> If you've spent all your Energy this game, +2 Max Energy.",
+    "description": "<b>On Reveal:</b> If you've spent all your Energy on previous turns, +2 Max Energy.",
     "attributes": {
       "data": {
         "AddedMaxEnergy": 2
       }
     },
-    "series": 0,
+    "series": 8,
     "artists": [
       {
         "name": "Eduardo Mello",
@@ -7999,11 +7691,9 @@
       }
     ],
     "seriesStartTimestamps": [1723575600000],
-    "possibleSeries": 8,
     "collectible": true
   },
   {
-    "id": 346,
     "defId": "Hulkling",
     "cost": 6,
     "power": 11,
@@ -8014,7 +7704,7 @@
         "TargetCardCost": 6
       }
     },
-    "series": 0,
+    "series": 8,
     "artists": [
       {
         "name": "Eduardo Mello",
@@ -8026,10 +7716,9 @@
       }
     ],
     "seriesStartTimestamps": [1724785200000],
-    "possibleSeries": 8
+    "collectible": true
   },
   {
-    "id": 347,
     "defId": "MarvelBoy",
     "cost": 3,
     "power": 2,
@@ -8057,13 +7746,12 @@
     "collectible": true
   },
   {
-    "id": 348,
     "defId": "SymbioteSpiderMan",
     "cost": 4,
     "power": 6,
     "name": "Symbiote Spider-Man",
     "description": "<b>Activate:</b> Merge your lowest-Cost card here with this. Copy its text like it just revealed.",
-    "series": 0,
+    "series": 9,
     "artists": [
       {
         "name": "Eduardo Mello",
@@ -8076,10 +7764,10 @@
     ],
     "seriesStartTimestamps": [1725390000000, 1727809200000],
     "possibleSeries": 8,
+    "collectible": true,
     "isSeasonPass": true
   },
   {
-    "id": 349,
     "defId": "ScarletSpider",
     "cost": 4,
     "power": 5,
@@ -8087,7 +7775,7 @@
     "description": "<b>Activate:</b> Add an exact clone of this to another location.",
     "attributes": {
       "cards": {
-        "Card_Token": [350]
+        "Card_Token": ["ScarletSpiderClone"]
       }
     },
     "series": 0,
@@ -8102,15 +7790,15 @@
       }
     ],
     "seriesStartTimestamps": [1727204400000],
-    "possibleSeries": 8
+    "possibleSeries": 8,
+    "collectible": true
   },
   {
-    "id": 350,
     "defId": "ScarletSpiderClone",
     "cost": 4,
     "power": 5,
     "name": "Scarlet Spider Clone",
-    "description": "none",
+    "description": "<i>Roses are red, spiders are two!</i>",
     "series": 0,
     "artists": [
       {
@@ -8125,13 +7813,12 @@
     "seriesStartTimestamps": []
   },
   {
-    "id": 351,
     "defId": "MadameWeb",
     "cost": 2,
-    "power": 3,
+    "power": 1,
     "name": "Madame Web",
     "description": "<b>Ongoing:</b> You can move one of your other cards away from here each turn.",
-    "series": 0,
+    "series": 8,
     "artists": [
       {
         "name": "Eduardo Mello",
@@ -8143,21 +7830,20 @@
       }
     ],
     "seriesStartTimestamps": [1725994800000],
-    "possibleSeries": 8
+    "collectible": true
   },
   {
-    "id": 352,
     "defId": "Arana",
-    "cost": 2,
-    "power": 2,
+    "cost": 1,
+    "power": 1,
     "name": "Araña",
-    "description": "<b>Activate:</b> Give the last card you played +2 Power and move it\nto the right.",
+    "description": "<b>Activate:</b> Give the next card you play +2 Power and move it\nto the right.",
     "attributes": {
       "data": {
         "AddedPower": 2
       }
     },
-    "series": 0,
+    "series": 8,
     "artists": [
       {
         "name": "Eduardo Mello",
@@ -8169,10 +7855,9 @@
       }
     ],
     "seriesStartTimestamps": [1726599600000],
-    "possibleSeries": 8
+    "collectible": true
   },
   {
-    "id": 353,
     "defId": "AgentVenom",
     "cost": 2,
     "power": 4,
@@ -8199,7 +7884,6 @@
     "isSeasonPass": true
   },
   {
-    "id": 354,
     "defId": "AntiVenom",
     "cost": 4,
     "power": 6,
@@ -8225,10 +7909,9 @@
     "possibleSeries": 8
   },
   {
-    "id": 355,
     "defId": "Scream",
     "cost": 2,
-    "power": 1,
+    "power": 2,
     "name": "Scream",
     "description": "When an enemy card moves, steal 2 Power from it. <i>(once per turn)</i>",
     "attributes": {
@@ -8251,10 +7934,9 @@
     "possibleSeries": 8
   },
   {
-    "id": 356,
     "defId": "Toxin",
-    "cost": 3,
-    "power": 2,
+    "cost": 2,
+    "power": 1,
     "name": "Toxin",
     "description": "<b>On Reveal:</b> Return your other cards here to your hand. +2 Power\nfor each returned.",
     "attributes": {
@@ -8277,15 +7959,14 @@
     "possibleSeries": 8
   },
   {
-    "id": 357,
     "defId": "Scorn",
     "cost": 1,
     "power": 2,
     "name": "Scorn",
-    "description": "When you discard this, give its Power to one of your cards in play. Return this to hand with +1 Power.",
+    "description": "When you discard this, return it to your hand and give +2 Power to itself and one of your cards in play.",
     "attributes": {
       "data": {
-        "AddedPower": 1
+        "AddedPower": 2
       }
     },
     "series": 0,
@@ -8303,10 +7984,9 @@
     "possibleSeries": 8
   },
   {
-    "id": 358,
     "defId": "Misery",
-    "cost": 5,
-    "power": 10,
+    "cost": 4,
+    "power": 7,
     "name": "Misery",
     "description": "<b>On Reveal:</b> Repeat the <b>On Reveal</b> abilities of your other cards here, then destroy them.",
     "series": 0,
@@ -8324,7 +8004,149 @@
     "possibleSeries": 8
   },
   {
-    "id": 359,
+    "defId": "Frigga",
+    "cost": 4,
+    "power": 6,
+    "name": "Frigga",
+    "description": "<b>On Reveal:</b> Add a copy of the last card you played to your hand. <i>(if able)</i>",
+    "series": 0,
+    "artists": [
+      {
+        "name": "Eduardo Mello",
+        "type": 1
+      },
+      {
+        "name": "Ryan Kinnaird",
+        "type": 4
+      }
+    ],
+    "seriesStartTimestamps": [1732042800000],
+    "possibleSeries": 8
+  },
+  {
+    "defId": "FenrisWolf",
+    "cost": 2,
+    "power": 3,
+    "name": "Fenris Wolf",
+    "description": "<b>Activate:</b> Resurrect the highest-Power discarded or destroyed enemy card to your side of this location.",
+    "attributes": {
+      "data": {
+        "DiscardCount": 1
+      }
+    },
+    "series": 0,
+    "artists": [
+      {
+        "name": "Eduardo Mello",
+        "type": 1
+      },
+      {
+        "name": "Ryan Kinnaird",
+        "type": 4
+      }
+    ],
+    "seriesStartTimestamps": [1730833200000],
+    "possibleSeries": 8
+  },
+  {
+    "defId": "Gorr",
+    "cost": 6,
+    "power": -3,
+    "name": "Gorr the God Butcher",
+    "description": "<b>Ongoing:</b> +2 Power for EACH <b>On Reveal</b> card in play.",
+    "attributes": {
+      "data": {
+        "AddedPower": 2
+      }
+    },
+    "series": 0,
+    "artists": [
+      {
+        "name": "Eduardo Mello",
+        "type": 1
+      },
+      {
+        "name": "Ryan Kinnaird",
+        "type": 4
+      }
+    ],
+    "seriesStartTimestamps": [1732647600000],
+    "possibleSeries": 8
+  },
+  {
+    "defId": "Malekith",
+    "cost": 0,
+    "power": 0,
+    "name": "Malekith",
+    "description": "none",
+    "series": 0,
+    "artists": [
+      {
+        "name": "Eduardo Mello",
+        "type": 1
+      },
+      {
+        "name": "Ryan Kinnaird",
+        "type": 4
+      }
+    ],
+    "seriesStartTimestamps": [1731438000000],
+    "possibleSeries": 8
+  },
+  {
+    "defId": "Tombstone",
+    "cost": 4,
+    "power": 6,
+    "name": "Tombstone",
+    "description": "Costs 1 if an enemy card was destroyed last turn.",
+    "attributes": {
+      "data": {
+        "AssignedCost": 1
+      }
+    },
+    "series": 0,
+    "artists": [
+      {
+        "name": "Eduardo Mello",
+        "type": 1
+      },
+      {
+        "name": "Ryan Kinnaird",
+        "type": 4
+      }
+    ],
+    "seriesStartTimestamps": []
+  },
+  {
+    "defId": "Lasher",
+    "cost": 2,
+    "power": 2,
+    "name": "Lasher",
+    "description": "<b>Activate:</b> Afflict an enemy card here with negative Power equal to this card's Power.",
+    "series": 0,
+    "artists": [],
+    "seriesStartTimestamps": []
+  },
+  {
+    "defId": "Agony",
+    "cost": 1,
+    "power": 2,
+    "name": "Agony",
+    "description": "After you play a card here, merge this with it.",
+    "series": 0,
+    "artists": [
+      {
+        "name": "Eduardo Mello",
+        "type": 1
+      },
+      {
+        "name": "Ryan Kinnaird",
+        "type": 4
+      }
+    ],
+    "seriesStartTimestamps": []
+  },
+  {
     "defId": "EvolvedWasp",
     "cost": 0,
     "power": 1,
@@ -8340,7 +8162,6 @@
     "seriesStartTimestamps": []
   },
   {
-    "id": 360,
     "defId": "EvolvedMistyKnight",
     "cost": 1,
     "power": 2,
@@ -8356,7 +8177,6 @@
     "seriesStartTimestamps": []
   },
   {
-    "id": 361,
     "defId": "EvolvedShocker",
     "cost": 2,
     "power": 3,
@@ -8372,7 +8192,6 @@
     "seriesStartTimestamps": []
   },
   {
-    "id": 362,
     "defId": "EvolvedCyclops",
     "cost": 3,
     "power": 4,
@@ -8389,7 +8208,6 @@
     "seriesStartTimestamps": []
   },
   {
-    "id": 363,
     "defId": "EvolvedTheThing",
     "cost": 4,
     "power": 6,
@@ -8406,7 +8224,6 @@
     "seriesStartTimestamps": []
   },
   {
-    "id": 364,
     "defId": "EvolvedAbomination",
     "cost": 5,
     "power": 9,
@@ -8422,7 +8239,6 @@
     "seriesStartTimestamps": []
   },
   {
-    "id": 365,
     "defId": "EvolvedHulk",
     "cost": 6,
     "power": 12,
@@ -8438,7 +8254,6 @@
     "seriesStartTimestamps": []
   },
   {
-    "id": 366,
     "defId": "Spell01NicoMinoru",
     "cost": 1,
     "power": 2,
@@ -8446,8 +8261,15 @@
     "description": "<b>On Reveal:</b> After you play your next card, it becomes a Demon.",
     "attributes": {
       "cards": {
-        "Card_Token": [52],
-        "Card_Related": [367, 368, 369, 370, 371, 372]
+        "Card_Token": ["Demon"],
+        "Card_Related": [
+          "Spell02NicoMinoru",
+          "Spell03NicoMinoru",
+          "Spell04NicoMinoru",
+          "Spell05NicoMinoru",
+          "Spell06NicoMinoru",
+          "Spell07NicoMinoru"
+        ]
       }
     },
     "series": 0,
@@ -8455,7 +8277,6 @@
     "seriesStartTimestamps": []
   },
   {
-    "id": 367,
     "defId": "Spell02NicoMinoru",
     "cost": 1,
     "power": 2,
@@ -8463,7 +8284,14 @@
     "description": "<b>On Reveal:</b> After you play your next card, destroy it to draw two cards.",
     "attributes": {
       "cards": {
-        "Card_Related": [366, 368, 369, 370, 371, 372]
+        "Card_Related": [
+          "Spell01NicoMinoru",
+          "Spell03NicoMinoru",
+          "Spell04NicoMinoru",
+          "Spell05NicoMinoru",
+          "Spell06NicoMinoru",
+          "Spell07NicoMinoru"
+        ]
       }
     },
     "series": 0,
@@ -8471,7 +8299,6 @@
     "seriesStartTimestamps": []
   },
   {
-    "id": 368,
     "defId": "Spell03NicoMinoru",
     "cost": 1,
     "power": 2,
@@ -8479,7 +8306,14 @@
     "description": "<b>On Reveal:</b> After you play your next card, move it one location to the right.",
     "attributes": {
       "cards": {
-        "Card_Related": [366, 367, 369, 370, 371, 372]
+        "Card_Related": [
+          "Spell01NicoMinoru",
+          "Spell02NicoMinoru",
+          "Spell04NicoMinoru",
+          "Spell05NicoMinoru",
+          "Spell06NicoMinoru",
+          "Spell07NicoMinoru"
+        ]
       }
     },
     "series": 0,
@@ -8487,7 +8321,6 @@
     "seriesStartTimestamps": []
   },
   {
-    "id": 369,
     "defId": "Spell04NicoMinoru",
     "cost": 1,
     "power": 2,
@@ -8498,7 +8331,14 @@
         "AddedPower": 2
       },
       "cards": {
-        "Card_Related": [366, 367, 368, 370, 371, 372]
+        "Card_Related": [
+          "Spell01NicoMinoru",
+          "Spell02NicoMinoru",
+          "Spell03NicoMinoru",
+          "Spell05NicoMinoru",
+          "Spell06NicoMinoru",
+          "Spell07NicoMinoru"
+        ]
       }
     },
     "series": 0,
@@ -8506,7 +8346,6 @@
     "seriesStartTimestamps": []
   },
   {
-    "id": 370,
     "defId": "Spell05NicoMinoru",
     "cost": 1,
     "power": 2,
@@ -8514,7 +8353,14 @@
     "description": "<b>On Reveal:</b> After you play your next card, replace that card's location.",
     "attributes": {
       "cards": {
-        "Card_Related": [366, 367, 368, 369, 371, 372]
+        "Card_Related": [
+          "Spell01NicoMinoru",
+          "Spell02NicoMinoru",
+          "Spell03NicoMinoru",
+          "Spell04NicoMinoru",
+          "Spell06NicoMinoru",
+          "Spell07NicoMinoru"
+        ]
       }
     },
     "series": 0,
@@ -8522,7 +8368,6 @@
     "seriesStartTimestamps": []
   },
   {
-    "id": 371,
     "defId": "Spell06NicoMinoru",
     "cost": 1,
     "power": 2,
@@ -8530,7 +8375,14 @@
     "description": "<b>On Reveal:</b> After you play your next card, add a copy of it to your hand.",
     "attributes": {
       "cards": {
-        "Card_Related": [366, 367, 368, 369, 370, 372]
+        "Card_Related": [
+          "Spell01NicoMinoru",
+          "Spell02NicoMinoru",
+          "Spell03NicoMinoru",
+          "Spell04NicoMinoru",
+          "Spell05NicoMinoru",
+          "Spell07NicoMinoru"
+        ]
       }
     },
     "series": 0,
@@ -8538,7 +8390,6 @@
     "seriesStartTimestamps": []
   },
   {
-    "id": 372,
     "defId": "Spell07NicoMinoru",
     "cost": 1,
     "power": 2,
@@ -8546,7 +8397,14 @@
     "description": "<b>On Reveal:</b> After you play your next card, double this card's Power.",
     "attributes": {
       "cards": {
-        "Card_Related": [366, 367, 368, 369, 370, 371]
+        "Card_Related": [
+          "Spell01NicoMinoru",
+          "Spell02NicoMinoru",
+          "Spell03NicoMinoru",
+          "Spell04NicoMinoru",
+          "Spell05NicoMinoru",
+          "Spell06NicoMinoru"
+        ]
       }
     },
     "series": 0,
@@ -8554,7 +8412,6 @@
     "seriesStartTimestamps": []
   },
   {
-    "id": 373,
     "defId": "AcidArrow",
     "cost": 1,
     "power": -2,
@@ -8565,7 +8422,6 @@
     "seriesStartTimestamps": []
   },
   {
-    "id": 374,
     "defId": "BasicArrow",
     "cost": 1,
     "power": 1,
@@ -8581,7 +8437,6 @@
     "seriesStartTimestamps": []
   },
   {
-    "id": 375,
     "defId": "PymParticleArrow",
     "cost": 1,
     "power": 1,
@@ -8597,7 +8452,6 @@
     "seriesStartTimestamps": []
   },
   {
-    "id": 376,
     "defId": "GrappleArrow",
     "cost": 1,
     "power": 3,
