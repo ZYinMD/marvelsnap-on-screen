@@ -1151,6 +1151,7 @@ export const map: Record<Key, Roster> = {
       'Shocker',
       'Scorpion',
       'Madame Web',
+      'Silver Sable',
       'Black Cat',
       'Blade',
       'Baron Mordo',
@@ -1279,7 +1280,7 @@ export const map: Record<Key, Roster> = {
   '2003|Spider-Man: The New Animated Series': {
     major: new Set(),
     minor: new Set(),
-    major_: ['Spider-Man', 'Electro', 'Lizard', 'Black Cat', 'Kingpin', 'Kraven'],
+    major_: ['Spider-Man', 'Electro', 'Lizard', 'Kingpin', 'Kraven', 'Black Cat', 'Silver Sable'],
     minor_: [],
   },
   "2006–2007|Fantastic Four: World's Greatest Heroes": {
@@ -1324,9 +1325,8 @@ export const map: Record<Key, Roster> = {
       'Electro',
       'Lizard',
       'Kraven',
-      'Black Cat',
     ],
-    minor_: [],
+    minor_: ['Black Cat', 'Silver Sable'],
   },
   '2009|Wolverine and the X-Men': {
     major: new Set(),
@@ -1973,6 +1973,7 @@ export const map: Record<Key, Roster> = {
       'Kraven',
       'Rhino',
       'Scorpion',
+      'Silver Sable',
       'Black Cat',
       'Crossbones',
       'Lizard',
