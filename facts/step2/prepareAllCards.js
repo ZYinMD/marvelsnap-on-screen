@@ -1,4 +1,4 @@
-import input from '../step1/allCardsFromUntappedGg.json' assert { type: 'json' };
+import input from '../step1/allCardsFromUntappedGg.json' with { type: 'json' };
 
 /* cleanup and re-organize the json from untapped.gg, programmatically construct a .ts file called "allCards.ts", put it into ui/src/lib, as a source of truth to be imported by other code */
 const result = {};

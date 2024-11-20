@@ -80,7 +80,7 @@
     "cost": 6,
     "power": 14,
     "name": "Agatha Harkness",
-    "description": "Agatha starts in your hand. She plays your cards for you on even turns.",
+    "description": "At the start of the game, draw Agatha. She controls your cards on even turns.",
     "series": 6,
     "artists": [
       {
@@ -445,7 +445,7 @@
   {
     "defId": "BlackPanther",
     "cost": 5,
-    "power": 4,
+    "power": 5,
     "name": "Black Panther",
     "description": "<b>On Reveal:</b> Double this\ncard's Power.",
     "series": 6,
@@ -465,9 +465,9 @@
   {
     "defId": "BlackWidow",
     "cost": 3,
-    "power": 3,
+    "power": 4,
     "name": "Black Widow",
-    "description": "<b>On Reveal:</b> Add a Widow's Bite to your opponent's hand.",
+    "description": "<b>Activate:</b> Add a Widow's Bite to your opponent's hand.",
     "attributes": {
       "cards": {
         "Card_Token": ["WidowsBite"]
@@ -653,18 +653,29 @@
   },
   {
     "defId": "Bullseye",
-    "cost": 1,
-    "power": 2,
+    "cost": 4,
+    "power": 5,
     "name": "Bullseye",
-    "description": "<b>On Reveal:</b> The next card you draw will be a 2-Cost card. <i>(if any are left)</i>",
+    "description": "<b>Activate:</b> Discard all cards that cost 1 or less from your hand. Afflict that many different enemy cards with -2 Power.",
     "attributes": {
       "data": {
-        "TokenEnergyCost": 2
+        "TargetCardCost": 1,
+        "ReducedPower": 2
       }
     },
     "series": 0,
-    "artists": [],
-    "seriesStartTimestamps": []
+    "artists": [
+      {
+        "name": "Eduardo Mello",
+        "type": 1
+      },
+      {
+        "name": "Ryan Kinnaird",
+        "type": 4
+      }
+    ],
+    "seriesStartTimestamps": [1736881200000],
+    "possibleSeries": 8
   },
   {
     "defId": "Cable",
@@ -888,7 +899,7 @@
   {
     "defId": "Crystal",
     "cost": 3,
-    "power": 3,
+    "power": 4,
     "name": "Crystal",
     "description": "<b>On Reveal:</b> Each player\ndraws a card.",
     "series": 6,
@@ -953,7 +964,7 @@
   {
     "defId": "Daredevil",
     "cost": 2,
-    "power": 2,
+    "power": 3,
     "name": "Daredevil",
     "description": "On turn 5, you get to see your opponent's plays before you\nmake your own.",
     "series": 6,
@@ -1128,7 +1139,7 @@
   {
     "defId": "Destroyer",
     "cost": 6,
-    "power": 14,
+    "power": 16,
     "name": "Destroyer",
     "description": "<b>On Reveal:</b> Destroy your cards at other locations.",
     "series": 6,
@@ -1371,7 +1382,7 @@
   {
     "defId": "Electro",
     "cost": 3,
-    "power": 2,
+    "power": 3,
     "name": "Electro",
     "description": "<b>On Reveal:</b> +1 Max Energy. <b>Ongoing:</b> You can only play\n1 card a turn.",
     "attributes": {
@@ -1539,7 +1550,7 @@
   {
     "defId": "Galactus",
     "cost": 6,
-    "power": 5,
+    "power": 6,
     "name": "Galactus",
     "description": "<b>On Reveal:</b> If you're winning this location and this is your only card here, destroy all other locations.",
     "series": 8,
@@ -1824,7 +1835,7 @@
   {
     "defId": "Heimdall",
     "cost": 6,
-    "power": 9,
+    "power": 10,
     "name": "Heimdall",
     "description": "<b>On Reveal:</b> Move your other cards one location to the left.",
     "series": 4,
@@ -1844,12 +1855,12 @@
   {
     "defId": "Hela",
     "cost": 6,
-    "power": 6,
+    "power": 7,
     "name": "Hela",
-    "description": "<b>On Reveal:</b> Resurrect all cards you discarded to random locations\nwith -2 Power.",
+    "description": "<b>On Reveal:</b> Resurrect all cards you discarded to random locations\nwith -3 Power.",
     "attributes": {
       "data": {
-        "ReducedPower": 2
+        "ReducedPower": 3
       }
     },
     "series": 6,
@@ -1889,14 +1900,9 @@
   {
     "defId": "Hellcow",
     "cost": 4,
-    "power": 6,
+    "power": 7,
     "name": "Hellcow",
-    "description": "<b>Activate:</b> Discard 2 cards from your hand.",
-    "attributes": {
-      "data": {
-        "DiscardCount": 2
-      }
-    },
+    "description": "<b>Activate:</b> Discard a card from your hand.",
     "series": 6,
     "artists": [
       {
@@ -2228,10 +2234,10 @@
     "cost": 4,
     "power": 5,
     "name": "Jessica Jones",
-    "description": "<b>On Reveal:</b> If you don't play a card at this location next turn, +4 Power.",
+    "description": "<b>On Reveal:</b> If you don't play a card at this location next turn, +5 Power.",
     "attributes": {
       "data": {
-        "AddedPower": 4
+        "AddedPower": 5
       }
     },
     "series": 2,
@@ -2361,15 +2367,10 @@
   },
   {
     "defId": "KingEitri",
-    "cost": 5,
-    "power": 3,
+    "cost": 1,
+    "power": 2,
     "name": "King Eitri",
-    "description": "<b>On Reveal:</b> Give the next card you play +4 Power.",
-    "attributes": {
-      "data": {
-        "AddedPower": 4
-      }
-    },
+    "description": "<b>Activate:</b> Draw a card from your deck that didn't start there.",
     "series": 0,
     "artists": [
       {
@@ -2381,7 +2382,9 @@
         "type": 4
       }
     ],
-    "seriesStartTimestamps": []
+    "seriesStartTimestamps": [1732215600000, 1733425200000],
+    "possibleSeries": 7,
+    "collectible": true
   },
   {
     "defId": "Kingpin",
@@ -2438,10 +2441,10 @@
     "cost": 5,
     "power": 4,
     "name": "Klaw",
-    "description": "<b>Ongoing:</b> The location to the right has +8 Power.",
+    "description": "<b>Ongoing:</b> The location to the right has +7 Power.",
     "attributes": {
       "data": {
-        "AddedPower": 8
+        "AddedPower": 7
       }
     },
     "series": 4,
@@ -2486,7 +2489,7 @@
   {
     "defId": "Kraven",
     "cost": 2,
-    "power": 2,
+    "power": 3,
     "name": "Kraven",
     "description": "When a card moves here, this gains +2 Power.",
     "attributes": {
@@ -3486,7 +3489,7 @@
   {
     "defId": "NegasonicTeenageWarhead",
     "cost": 3,
-    "power": 2,
+    "power": 3,
     "name": "Negasonic Teenage Warhead",
     "description": "After an enemy card is played here, destroy it. <i>(once per game)</i>",
     "series": 6,
@@ -3626,7 +3629,7 @@
   {
     "defId": "Okoye",
     "cost": 2,
-    "power": 2,
+    "power": 3,
     "name": "Okoye",
     "description": "<b>On Reveal:</b> Give every card in your deck +1 Power.",
     "attributes": {
@@ -4113,8 +4116,8 @@
   },
   {
     "defId": "Rockslide",
-    "cost": 3,
-    "power": 3,
+    "cost": 4,
+    "power": 5,
     "name": "Rockslide",
     "description": "<b>On Reveal:</b> Shuffle 2 Rocks into your opponent's deck.",
     "attributes": {
@@ -4536,7 +4539,7 @@
   {
     "defId": "SilverSable",
     "cost": 1,
-    "power": 1,
+    "power": 0,
     "name": "Silver Sable",
     "description": "<b>On Reveal:</b> Steal 2 Power from the top card of your opponent's deck.",
     "attributes": {
@@ -4918,8 +4921,8 @@
   },
   {
     "defId": "Storm",
-    "cost": 3,
-    "power": 2,
+    "cost": 4,
+    "power": 5,
     "name": "Storm",
     "description": "<b>On Reveal:</b> Flood this location. Next turn is the last turn cards can\nbe played here.",
     "attributes": {
@@ -5034,17 +5037,17 @@
   },
   {
     "defId": "Surtur",
-    "cost": 2,
-    "power": 2,
+    "cost": 3,
+    "power": 4,
     "name": "Surtur",
-    "description": "After you play a card with 10+ Power, this gains +3 Power.",
+    "description": "After you play a card with 10 or more Power, this gains +3 Power.",
     "attributes": {
       "data": {
         "AddedPower": 3,
         "AssignedPower": 10
       }
     },
-    "series": 0,
+    "series": 9,
     "artists": [
       {
         "name": "Eduardo Mello",
@@ -5057,6 +5060,7 @@
     ],
     "seriesStartTimestamps": [1730833200000, 1733252400000],
     "possibleSeries": 8,
+    "collectible": true,
     "isSeasonPass": true,
     "id": 231
   },
@@ -5140,7 +5144,7 @@
     "cost": 6,
     "power": 10,
     "name": "Thanos",
-    "description": "Starts in your opening hand and shuffles the six Infinity Stones\ninto your deck.",
+    "description": "At the start of the game, draw Thanos and shuffle the six Infinity Stones\ninto your deck.",
     "attributes": {
       "cards": {
         "Card_Token": [
@@ -5358,7 +5362,7 @@
     "cost": 4,
     "power": 10,
     "name": "Typhoid Mary",
-    "description": "<b>Ongoing:</b> Your other cards\nhave -1 Power.",
+    "description": "<b>Ongoing:</b> Your other cards\nhere have -1 Power.",
     "attributes": {
       "data": {
         "ReducedPower": 1
@@ -5494,7 +5498,7 @@
   {
     "defId": "Viper",
     "cost": 3,
-    "power": 5,
+    "power": 4,
     "name": "Viper",
     "description": "<b>On Reveal:</b> One of your other cards here with the lowest Power switches sides.",
     "series": 6,
@@ -5565,7 +5569,7 @@
   {
     "defId": "WarMachine",
     "cost": 4,
-    "power": 7,
+    "power": 6,
     "name": "War Machine",
     "description": "<b>Ongoing:</b> Nothing can stop you from playing cards anywhere.",
     "series": 8,
@@ -5719,7 +5723,7 @@
   {
     "defId": "WinterSoldier",
     "cost": 2,
-    "power": 6,
+    "power": 7,
     "name": "Winter Soldier",
     "description": "<i>\"It's time for me to face the past.\"</i>",
     "series": 0,
@@ -5907,10 +5911,10 @@
   },
   {
     "defId": "Zabu",
-    "cost": 2,
-    "power": 3,
+    "cost": 1,
+    "power": 2,
     "name": "Zabu",
-    "description": "<b>On Reveal:</b> Until the end of next turn, your 4-Cost cards cost 1 less.",
+    "description": "<b>On Reveal:</b> Give each 4-Cost card in your deck -1 Cost.",
     "attributes": {
       "data": {
         "TargetCardCost": 4,
@@ -6752,7 +6756,7 @@
   {
     "defId": "Skaar",
     "cost": 6,
-    "power": 11,
+    "power": 10,
     "name": "Skaar",
     "description": "Costs 2 less for each of your cards that has 10 or more Power.",
     "attributes": {
@@ -6805,7 +6809,7 @@
   {
     "defId": "Hercules",
     "cost": 3,
-    "power": 4,
+    "power": 5,
     "name": "Hercules",
     "description": "The first time another card moves here each turn, move it to another location.",
     "series": 7,
@@ -6825,7 +6829,7 @@
   {
     "defId": "GrandMaster",
     "cost": 2,
-    "power": 2,
+    "power": 3,
     "name": "Grand Master",
     "description": "<b>On Reveal:</b> Move one of your other <b>On Reveal</b> cards here to the middle location. Its ability happens again.",
     "series": 8,
@@ -6845,7 +6849,7 @@
   {
     "defId": "Miek",
     "cost": 1,
-    "power": 0,
+    "power": 1,
     "name": "Miek",
     "description": "When you discard a card, this gains +1 Power and can move next turn.",
     "attributes": {
@@ -7232,14 +7236,9 @@
   {
     "defId": "WidowsKiss",
     "cost": 0,
-    "power": 0,
+    "power": -4,
     "name": "Widow's Kiss",
-    "description": "<b>Ongoing:</b> This has -3 Power. Disable this ability if your side of this\nlocation is full.",
-    "attributes": {
-      "data": {
-        "ReducedPower": 3
-      }
-    },
+    "description": "Destroy this when your side of this location is full.",
     "series": 0,
     "artists": [
       {
@@ -7258,12 +7257,12 @@
     "cost": 2,
     "power": 3,
     "name": "Valentina",
-    "description": "<b>On Reveal:</b> Add a random 6-Cost card to your hand. Give it -2 Cost\nand -3 Power.",
+    "description": "<b>On Reveal:</b> Add a random 6-Cost card to your hand. Give it -2 Cost\nand -2 Power.",
     "attributes": {
       "data": {
         "TokenEnergyCost": 6,
         "ReducedCost": 2,
-        "ReducedPower": 3
+        "ReducedPower": 2
       }
     },
     "series": 8,
@@ -7696,7 +7695,7 @@
   {
     "defId": "Hulkling",
     "cost": 6,
-    "power": 11,
+    "power": 12,
     "name": "Emperor Hulkling",
     "description": "At the start of the game, copy the text of a random 6-Cost card.",
     "attributes": {
@@ -7721,7 +7720,7 @@
   {
     "defId": "MarvelBoy",
     "cost": 3,
-    "power": 2,
+    "power": 1,
     "name": "Marvel Boy",
     "description": "After each turn, give 3 of your 1-Cost cards +1 Power.",
     "attributes": {
@@ -7748,10 +7747,10 @@
   {
     "defId": "SymbioteSpiderMan",
     "cost": 4,
-    "power": 6,
+    "power": 7,
     "name": "Symbiote Spider-Man",
     "description": "<b>Activate:</b> Merge your lowest-Cost card here with this. Copy its text like it just revealed.",
-    "series": 9,
+    "series": 8,
     "artists": [
       {
         "name": "Eduardo Mello",
@@ -7763,7 +7762,6 @@
       }
     ],
     "seriesStartTimestamps": [1725390000000, 1727809200000],
-    "possibleSeries": 8,
     "collectible": true,
     "isSeasonPass": true
   },
@@ -7778,7 +7776,7 @@
         "Card_Token": ["ScarletSpiderClone"]
       }
     },
-    "series": 0,
+    "series": 8,
     "artists": [
       {
         "name": "Eduardo Mello",
@@ -7790,7 +7788,6 @@
       }
     ],
     "seriesStartTimestamps": [1727204400000],
-    "possibleSeries": 8,
     "collectible": true
   },
   {
@@ -7860,15 +7857,15 @@
   {
     "defId": "AgentVenom",
     "cost": 2,
-    "power": 4,
+    "power": 5,
     "name": "Agent Venom",
-    "description": "<b>On Reveal:</b> Set the Power of all cards in your deck to 4.",
+    "description": "<b>On Reveal:</b> Set the Power of all cards in your deck to 3.",
     "attributes": {
       "data": {
-        "AssignedPower": 4
+        "AssignedPower": 3
       }
     },
-    "series": 0,
+    "series": 8,
     "artists": [
       {
         "name": "Eduardo Mello",
@@ -7880,13 +7877,13 @@
       }
     ],
     "seriesStartTimestamps": [1727809200000, 1730833200000],
-    "possibleSeries": 8,
+    "collectible": true,
     "isSeasonPass": true
   },
   {
     "defId": "AntiVenom",
     "cost": 4,
-    "power": 6,
+    "power": 7,
     "name": "Anti-Venom",
     "description": "<b>On Reveal:</b> Set the Cost and Power of your deck's top card to 0.",
     "attributes": {
@@ -7894,7 +7891,7 @@
         "AssignedPower": 0
       }
     },
-    "series": 0,
+    "series": 8,
     "artists": [
       {
         "name": "Eduardo Mello",
@@ -7906,12 +7903,12 @@
       }
     ],
     "seriesStartTimestamps": [1730228400000],
-    "possibleSeries": 8
+    "collectible": true
   },
   {
     "defId": "Scream",
     "cost": 2,
-    "power": 2,
+    "power": 3,
     "name": "Scream",
     "description": "When an enemy card moves, steal 2 Power from it. <i>(once per turn)</i>",
     "attributes": {
@@ -7919,7 +7916,7 @@
         "ReducedPower": 2
       }
     },
-    "series": 0,
+    "series": 8,
     "artists": [
       {
         "name": "Eduardo Mello",
@@ -7931,7 +7928,7 @@
       }
     ],
     "seriesStartTimestamps": [1727809200000],
-    "possibleSeries": 8
+    "collectible": true
   },
   {
     "defId": "Toxin",
@@ -7944,7 +7941,7 @@
         "AddedPower": 2
       }
     },
-    "series": 0,
+    "series": 8,
     "artists": [
       {
         "name": "Eduardo Mello",
@@ -7956,7 +7953,7 @@
       }
     ],
     "seriesStartTimestamps": [1729623600000],
-    "possibleSeries": 8
+    "collectible": true
   },
   {
     "defId": "Scorn",
@@ -7969,7 +7966,7 @@
         "AddedPower": 2
       }
     },
-    "series": 0,
+    "series": 8,
     "artists": [
       {
         "name": "Eduardo Mello",
@@ -7981,15 +7978,15 @@
       }
     ],
     "seriesStartTimestamps": [1729018800000],
-    "possibleSeries": 8
+    "collectible": true
   },
   {
     "defId": "Misery",
     "cost": 4,
-    "power": 7,
+    "power": 8,
     "name": "Misery",
     "description": "<b>On Reveal:</b> Repeat the <b>On Reveal</b> abilities of your other cards here, then destroy them.",
-    "series": 0,
+    "series": 8,
     "artists": [
       {
         "name": "Eduardo Mello",
@@ -8001,15 +7998,15 @@
       }
     ],
     "seriesStartTimestamps": [1728414000000],
-    "possibleSeries": 8
+    "collectible": true
   },
   {
     "defId": "Frigga",
-    "cost": 4,
-    "power": 6,
+    "cost": 3,
+    "power": 3,
     "name": "Frigga",
     "description": "<b>On Reveal:</b> Add a copy of the last card you played to your hand. <i>(if able)</i>",
-    "series": 0,
+    "series": 8,
     "artists": [
       {
         "name": "Eduardo Mello",
@@ -8020,15 +8017,15 @@
         "type": 4
       }
     ],
-    "seriesStartTimestamps": [1732042800000],
-    "possibleSeries": 8
+    "seriesStartTimestamps": [1730833200000],
+    "collectible": true
   },
   {
     "defId": "FenrisWolf",
     "cost": 2,
     "power": 3,
     "name": "Fenris Wolf",
-    "description": "<b>Activate:</b> Resurrect the highest-Power discarded or destroyed enemy card to your side of this location.",
+    "description": "<b>Activate:</b> Resurrect your opponent's highest-Power discarded or destroyed card on your side of this location.",
     "attributes": {
       "data": {
         "DiscardCount": 1
@@ -8045,13 +8042,14 @@
         "type": 4
       }
     ],
-    "seriesStartTimestamps": [1730833200000],
-    "possibleSeries": 8
+    "seriesStartTimestamps": [1732042800000],
+    "possibleSeries": 8,
+    "collectible": true
   },
   {
     "defId": "Gorr",
     "cost": 6,
-    "power": -3,
+    "power": -1,
     "name": "Gorr the God Butcher",
     "description": "<b>Ongoing:</b> +2 Power for EACH <b>On Reveal</b> card in play.",
     "attributes": {
@@ -8075,11 +8073,18 @@
   },
   {
     "defId": "Malekith",
-    "cost": 0,
-    "power": 0,
+    "cost": 4,
+    "power": 6,
     "name": "Malekith",
-    "description": "none",
-    "series": 0,
+    "description": "<b>On Reveal:</b> Add a 1, 2, or 3-Cost card from your deck here, but don't reveal it until the game ends.",
+    "attributes": {
+      "data": {
+        "TargetCardCost_1": 1,
+        "TargetCardCost_2": 2,
+        "TargetCardCost_3": 3
+      }
+    },
+    "series": 8,
     "artists": [
       {
         "name": "Eduardo Mello",
@@ -8091,7 +8096,7 @@
       }
     ],
     "seriesStartTimestamps": [1731438000000],
-    "possibleSeries": 8
+    "collectible": true
   },
   {
     "defId": "Tombstone",
@@ -8124,7 +8129,16 @@
     "name": "Lasher",
     "description": "<b>Activate:</b> Afflict an enemy card here with negative Power equal to this card's Power.",
     "series": 0,
-    "artists": [],
+    "artists": [
+      {
+        "name": "Eduardo Mello",
+        "type": 1
+      },
+      {
+        "name": "Ryan Kinnaird",
+        "type": 4
+      }
+    ],
     "seriesStartTimestamps": []
   },
   {
@@ -8133,6 +8147,391 @@
     "power": 2,
     "name": "Agony",
     "description": "After you play a card here, merge this with it.",
+    "series": 7,
+    "artists": [
+      {
+        "name": "Eduardo Mello",
+        "type": 1
+      },
+      {
+        "name": "Ryan Kinnaird",
+        "type": 4
+      }
+    ],
+    "seriesStartTimestamps": [1729105200000, 1730401200000],
+    "collectible": true
+  },
+  {
+    "defId": "Laufey",
+    "cost": 4,
+    "power": 5,
+    "name": "Laufey",
+    "description": "<b>On Reveal:</b> Steal 1 Power from each other card here.",
+    "attributes": {
+      "data": {
+        "ReducedPower": 1
+      }
+    },
+    "series": 0,
+    "artists": [
+      {
+        "name": "Eduardo Mello",
+        "type": 1
+      },
+      {
+        "name": "Ryan Kinnaird",
+        "type": 4
+      }
+    ],
+    "seriesStartTimestamps": []
+  },
+  {
+    "defId": "LunaSnow",
+    "cost": 3,
+    "power": 5,
+    "name": "Luna Snow",
+    "description": "<b>On Reveal:</b> Add an Ice Cube to each side of this location.",
+    "attributes": {
+      "cards": {
+        "Card_Token": ["IceCube"]
+      }
+    },
+    "series": 0,
+    "artists": [
+      {
+        "name": "Eduardo Mello",
+        "type": 1
+      },
+      {
+        "name": "Ryan Kinnaird",
+        "type": 4
+      }
+    ],
+    "seriesStartTimestamps": [1733252400000],
+    "possibleSeries": 8
+  },
+  {
+    "defId": "Galacta",
+    "cost": 4,
+    "power": 6,
+    "name": "Galacta",
+    "description": "Each turn, the first card you play at another location reveals\nwith +3 Power.",
+    "attributes": {
+      "data": {
+        "AddedPower": 3
+      }
+    },
+    "series": 0,
+    "artists": [
+      {
+        "name": "Eduardo Mello",
+        "type": 1
+      },
+      {
+        "name": "Ryan Kinnaird",
+        "type": 4
+      }
+    ],
+    "seriesStartTimestamps": [1733252400000, 1736276400000],
+    "possibleSeries": 8,
+    "isSeasonPass": true
+  },
+  {
+    "defId": "PeniParker",
+    "cost": 2,
+    "power": 3,
+    "name": "Peni Parker",
+    "description": "<b>On Reveal:</b> Add SP//dr to your hand.\nWhen this merges, you get\n+1 Energy next turn.",
+    "attributes": {
+      "data": {
+        "AddedEnergy": 1
+      },
+      "cards": {
+        "Card_Token": ["SPdr"]
+      }
+    },
+    "series": 0,
+    "artists": [
+      {
+        "name": "Eduardo Mello",
+        "type": 1
+      },
+      {
+        "name": "Ryan Kinnaird",
+        "type": 4
+      }
+    ],
+    "seriesStartTimestamps": [1733857200000],
+    "possibleSeries": 8
+  },
+  {
+    "defId": "Doom2099",
+    "cost": 4,
+    "power": 2,
+    "name": "Doctor Doom 2099",
+    "description": "After each turn, add a DoomBot 2099 to a random location if you played <i>(exactly)</i> 1 card.",
+    "attributes": {
+      "data": {
+        "ModifiedCardCount": 1
+      },
+      "cards": {
+        "Card_Token": ["DoomBot2099"]
+      }
+    },
+    "series": 0,
+    "artists": [
+      {
+        "name": "Eduardo Mello",
+        "type": 1
+      },
+      {
+        "name": "Ryan Kinnaird",
+        "type": 4
+      }
+    ],
+    "seriesStartTimestamps": [1734462000000],
+    "possibleSeries": 8
+  },
+  {
+    "defId": "BruceBanner",
+    "cost": 2,
+    "power": 1,
+    "name": "Bruce Banner",
+    "description": "When you end a turn with unspent Energy, 25% chance to HULK OUT!",
+    "attributes": {
+      "data": {
+        "PercentageChance": 25
+      }
+    },
+    "series": 0,
+    "artists": [
+      {
+        "name": "Eduardo Mello",
+        "type": 1
+      },
+      {
+        "name": "Ryan Kinnaird",
+        "type": 4
+      }
+    ],
+    "seriesStartTimestamps": [1735066800000],
+    "possibleSeries": 8
+  },
+  {
+    "defId": "RocketAndGroot",
+    "cost": 3,
+    "power": 3,
+    "name": "Rocket and Groot",
+    "description": "You can move this once.\nAfter your opponent plays a card here, steal 1 Power from it.",
+    "attributes": {
+      "data": {
+        "ReducedPower": 1
+      }
+    },
+    "series": 0,
+    "artists": [
+      {
+        "name": "Eduardo Mello",
+        "type": 1
+      },
+      {
+        "name": "Ryan Kinnaird",
+        "type": 4
+      }
+    ],
+    "seriesStartTimestamps": [1735671600000],
+    "possibleSeries": 8
+  },
+  {
+    "defId": "SPdr",
+    "cost": 3,
+    "power": 3,
+    "name": "SP//dr",
+    "description": "<b>On Reveal:</b> Merge with one of your cards here. You can move that card next turn.",
+    "series": 0,
+    "artists": [
+      {
+        "name": "Eduardo Mello",
+        "type": 1
+      },
+      {
+        "name": "Ryan Kinnaird",
+        "type": 4
+      }
+    ],
+    "seriesStartTimestamps": []
+  },
+  {
+    "defId": "IceCube",
+    "cost": 1,
+    "power": 0,
+    "name": "Ice Cube",
+    "description": "At the start of each turn, get +1 Energy. Then destroy this if your side is full here.",
+    "attributes": {
+      "data": {
+        "AddedEnergy": 1
+      }
+    },
+    "series": 0,
+    "artists": [],
+    "seriesStartTimestamps": []
+  },
+  {
+    "defId": "DoomBot2099",
+    "cost": 4,
+    "power": 2,
+    "name": "DoomBot 2099",
+    "description": "<b>Ongoing:</b> Your other DoomBots and Doom have +1 Power.",
+    "attributes": {
+      "data": {
+        "AddedPower": 1
+      },
+      "cards": {
+        "Card_Modified": ["Doom2099", "DrDoom", "DoomBot", "DoomBot2099"]
+      }
+    },
+    "series": 0,
+    "artists": [],
+    "seriesStartTimestamps": []
+  },
+  {
+    "defId": "IronPatriot",
+    "cost": 2,
+    "power": 3,
+    "name": "Iron Patriot",
+    "description": "<b>On Reveal:</b> Add a random 4, 5, or\n6-Cost card to your hand. If you’re winning here after next turn, give it -4 Cost.",
+    "attributes": {
+      "data": {
+        "TokenEnergyCost_1": 4,
+        "TokenEnergyCost_2": 5,
+        "TokenEnergyCost_3": 6,
+        "ReducedCost": 4
+      }
+    },
+    "series": 0,
+    "artists": [
+      {
+        "name": "Eduardo Mello",
+        "type": 1
+      },
+      {
+        "name": "Ryan Kinnaird",
+        "type": 4
+      }
+    ],
+    "seriesStartTimestamps": [1736276400000, 1738695600000],
+    "possibleSeries": 8,
+    "isSeasonPass": true
+  },
+  {
+    "defId": "VictoriaHand",
+    "cost": 2,
+    "power": 3,
+    "name": "Victoria Hand",
+    "description": "<b>Ongoing:</b> Your cards created in your hand have +2 Power.",
+    "attributes": {
+      "data": {
+        "AddedPower": 2
+      }
+    },
+    "series": 0,
+    "artists": [
+      {
+        "name": "Eduardo Mello",
+        "type": 1
+      },
+      {
+        "name": "Ryan Kinnaird",
+        "type": 4
+      }
+    ],
+    "seriesStartTimestamps": [1736276400000],
+    "possibleSeries": 8
+  },
+  {
+    "defId": "Moonstone",
+    "cost": 4,
+    "power": 5,
+    "name": "Moonstone",
+    "description": "<b>Ongoing:</b> Has the <b>Ongoing</b> effects of your 1, 2, and 3-Cost cards here.",
+    "attributes": {
+      "data": {
+        "TargetCardCost_1": 1,
+        "TargetCardCost_2": 2,
+        "TargetCardCost_3": 3
+      }
+    },
+    "series": 0,
+    "artists": [
+      {
+        "name": "Eduardo Mello",
+        "type": 1
+      },
+      {
+        "name": "Ryan Kinnaird",
+        "type": 4
+      }
+    ],
+    "seriesStartTimestamps": [1737486000000],
+    "possibleSeries": 8
+  },
+  {
+    "defId": "Ares",
+    "cost": 4,
+    "power": 6,
+    "name": "Ares",
+    "description": "<b>On Reveal:</b> Compare the Power of the top 3 cards of both decks. If your total is higher, +6 Power.",
+    "attributes": {
+      "data": {
+        "ModifiedCardCount": 3,
+        "AddedPower": 6
+      }
+    },
+    "series": 0,
+    "artists": [
+      {
+        "name": "Eduardo Mello",
+        "type": 1
+      },
+      {
+        "name": "Ryan Kinnaird",
+        "type": 4
+      }
+    ],
+    "seriesStartTimestamps": [1738090800000],
+    "possibleSeries": 8
+  },
+  {
+    "defId": "ToxieDoxie",
+    "cost": 2,
+    "power": 4,
+    "name": "Toxie Doxie",
+    "description": "<b>On Reveal:</b> Draw a card.\nYou can't play cards next turn.",
+    "series": 0,
+    "artists": [
+      {
+        "name": "Eduardo Mello",
+        "type": 1
+      },
+      {
+        "name": "Ryan Kinnaird",
+        "type": 4
+      }
+    ],
+    "seriesStartTimestamps": []
+  },
+  {
+    "defId": "Gorgon",
+    "cost": 2,
+    "power": 3,
+    "name": "Gorgon",
+    "description": "<b>Ongoing:</b> Your opponent's cards that didn't start in their deck cost 1 more. <i>(maximum 6)</i>",
+    "attributes": {
+      "data": {
+        "AddedCost": 1,
+        "MaximumCost": 6
+      }
+    },
     "series": 0,
     "artists": [
       {
