@@ -1990,6 +1990,8 @@ export const map: Record<Key, Roster> = {
       'Groot',
       'Moon Knight',
       'Mister Negative',
+      'Scream',
+      'Scorn',
       'Captain America',
       'Thor',
       'Absorbing Man',
