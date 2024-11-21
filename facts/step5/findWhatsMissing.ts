@@ -1,5 +1,5 @@
-import { map } from '../../ui/src/lib/facts/map.ts';
 import { allCards } from '../../ui/src/lib/facts/allCards.ts';
+import { map } from '../../ui/src/lib/facts/map.ts';
 import { verbose } from '../utils/verbose.js';
 
 verbose(`Get all cards available to be used in the app`);
@@ -36,7 +36,6 @@ const indeedNeverAppearedInShows = new Set<CardName>([
   'Hydra Bob',
   'Iron Lad',
   'Jeff the Baby Land Shark',
-  'Knull',
   'Marvel Boy',
   'Misery',
   'Nocturne',

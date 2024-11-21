@@ -731,6 +731,16 @@ export const allTitles = {
       numEpisodes: 1,
       key: '2024|Deadpool & Wolverine',
     },
+    '2024|Venom: The Last Dance': {
+      type: 'movie',
+      year: '2024',
+      title: 'Venom: The Last Dance',
+      wikipedia: 'https://en.wikipedia.org/wiki/Venom:_The_Last_Dance',
+      label: ['ssu', 'venom'],
+      numSeasons: 0,
+      numEpisodes: 1,
+      key: '2024|Venom: The Last Dance',
+    },
   },
   'live-action-tv-series': {
     '2006|Blade: The Series': {

@@ -674,7 +674,7 @@ export const map: Record<Key, Roster> = {
     major: new Set(),
     minor: new Set(),
     major_: ['Venom', 'Carnage'],
-    minor_: ['Spider-Man'],
+    minor_: ['Spider-Man', 'Toxin'],
   },
   '2021|Eternals': {
     major: new Set(),
@@ -839,6 +839,12 @@ export const map: Record<Key, Roster> = {
       'Thor',
     ],
     minor_: ['Lady Deathstrike', 'Psylocke', 'Hulk'],
+  },
+  '2024|Venom: The Last Dance': {
+    major: new Set(),
+    minor: new Set(),
+    major_: ['Venom', 'Knull', 'Toxin'],
+    minor_: [],
   },
   '2006|Blade: The Series': {
     major: new Set(),
