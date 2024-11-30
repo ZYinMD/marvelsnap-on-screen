@@ -1605,6 +1605,7 @@ export const map: Record<Key, Roster> = {
       'Symbiote Spider-Man',
       'Sandman',
       'Scorpion',
+      'Agent Venom',
       'Scarlet Spider',
       'White Tiger',
       'Iron Fist',
