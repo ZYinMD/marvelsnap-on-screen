@@ -273,7 +273,7 @@ export const map: Record<Key, Roster> = {
   '2013|Thor: The Dark World': {
     major: new Set(),
     minor: new Set(),
-    major_: ['Thor', 'Loki', 'Heimdall', 'Lady Sif', 'Odin', 'Frigga'],
+    major_: ['Thor', 'Loki', 'Heimdall', 'Lady Sif', 'Odin', 'Frigga', 'Malekith'],
     minor_: ['Jane Foster Mighty Thor', 'The Collector'],
   },
   '2014|Captain America: The Winter Soldier': {
@@ -1544,6 +1544,7 @@ export const map: Record<Key, Roster> = {
       'Ronan the Accuser',
       'Super-Skrull',
       'Surtur',
+      'Malekith',
       'Onslaught',
       'Annihilus',
       'Black Knight',
@@ -1739,6 +1740,7 @@ export const map: Record<Key, Roster> = {
       'Man-Thing',
       'High Evolutionary',
       'Doctor Doom',
+      'Malekith',
     ],
   },
   '2013–2019|Avengers Assemble': {
