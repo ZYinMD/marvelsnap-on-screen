@@ -476,6 +476,7 @@ export const map: Record<Key, Roster> = {
       'Valkyrie',
       'Hulk',
       'Odin',
+      'Fenris Wolf',
       'Grand Master',
       'Surtur',
       'Korg',
@@ -1569,6 +1570,7 @@ export const map: Record<Key, Roster> = {
       'Star-Lord',
       'Groot',
       'Rocket Raccoon',
+      'Fenris Wolf',
     ],
   },
   '2010–2011|Marvel Anime: Iron Man': {
@@ -1658,6 +1660,7 @@ export const map: Record<Key, Roster> = {
       'Crystal',
       'Ka-Zar',
       'Zabu',
+      'Fenris Wolf',
       'She-Hulk',
       'Ghost-Spider',
       'Spider-Ham',
