@@ -523,6 +523,7 @@ export const map: Record<Key, Roster> = {
       'Okoye',
       'Shuri',
       "M'Baku",
+      'King Eitri',
       'Red Skull',
       'Ebony Maw',
       'Corvus Glaive',
@@ -1571,6 +1572,7 @@ export const map: Record<Key, Roster> = {
       'Groot',
       'Rocket Raccoon',
       'Fenris Wolf',
+      'King Eitri',
     ],
   },
   '2010–2011|Marvel Anime: Iron Man': {
