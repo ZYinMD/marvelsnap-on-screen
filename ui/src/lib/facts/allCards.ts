@@ -1619,7 +1619,6 @@ export const allCards = {
     name: 'Surtur',
     description: 'After you play a card with 10 or more Power, this gains +3 Power.',
     seriesStartTimestamps: [1730833200000, 1733252400000],
-    possibleSeries: 8,
     isSeasonPass: true,
   },
   'Swarm': {
@@ -2535,7 +2534,14 @@ export const allCards = {
     description:
       "<b>Activate:</b> Resurrect your opponent's highest-Power discarded or destroyed card on your side of this location.",
     seriesStartTimestamps: [1732042800000],
-    possibleSeries: 8,
+  },
+  'Gorr the God Butcher': {
+    defId: 'Gorr',
+    cost: 6,
+    power: -1,
+    name: 'Gorr the God Butcher',
+    description: '<b>Ongoing:</b> +2 Power for EACH <b>On Reveal</b> card in play.',
+    seriesStartTimestamps: [1732647600000],
   },
   'Malekith': {
     defId: 'Malekith',
@@ -2553,5 +2559,33 @@ export const allCards = {
     name: 'Agony',
     description: 'After you play a card here, merge this with it.',
     seriesStartTimestamps: [1729105200000, 1730401200000],
+  },
+  'Luna Snow': {
+    defId: 'LunaSnow',
+    cost: 3,
+    power: 5,
+    name: 'Luna Snow',
+    description: '<b>On Reveal:</b> Add an Ice Cube to each side of this location.',
+    seriesStartTimestamps: [1733252400000],
+  },
+  'Galacta': {
+    defId: 'Galacta',
+    cost: 4,
+    power: 6,
+    name: 'Galacta',
+    description: 'Each turn, the first card you play at another location reveals\nwith +3 Power.',
+    seriesStartTimestamps: [1733252400000, 1736276400000],
+    possibleSeries: 8,
+    isSeasonPass: true,
+  },
+  'Peni Parker': {
+    defId: 'PeniParker',
+    cost: 2,
+    power: 3,
+    name: 'Peni Parker',
+    description:
+      '<b>On Reveal:</b> Add SP//dr to your hand.\nWhen this merges, you get\n+1 Energy next turn.',
+    seriesStartTimestamps: [1733857200000],
+    possibleSeries: 8,
   },
 } as const;
