@@ -729,6 +729,7 @@ export const map: Record<Key, Roster> = {
     major_: [
       'Thor',
       'Jane Foster Mighty Thor',
+      'Gorr the God Butcher',
       'Valkyrie',
       'Korg',
       'Lady Sif',
