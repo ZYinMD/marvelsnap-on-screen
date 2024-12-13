@@ -37,6 +37,7 @@ const indeedNeverAppearedInShows = new Set<CardName>([
   'Hydra Bob',
   'Iron Lad',
   'Jeff the Baby Land Shark',
+  'Luna Snow',
   'Marvel Boy',
   'Misery',
   'Nocturne',
