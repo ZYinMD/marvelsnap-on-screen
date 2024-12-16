@@ -1,4 +1,5 @@
 {
+  "explorer.sortOrder": "filesFirst", // good for file system based routing
   "files.exclude": {
     "**/node_modules": true,
     "**/~$*.xlsx": true
