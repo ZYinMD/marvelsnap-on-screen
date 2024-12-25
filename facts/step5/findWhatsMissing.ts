@@ -22,7 +22,6 @@ verbose('Answer', neverAppearedInApp.length);
 verbose(`We have manually confirmed that some of them indeed have never been on any shows:`);
 const indeedNeverAppearedInShows = new Set<CardName>([
   'Aero',
-  'Agony',
   'Black Swan',
   'Blue Marvel',
   'Caiera',

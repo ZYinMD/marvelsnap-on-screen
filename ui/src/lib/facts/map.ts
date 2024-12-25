@@ -850,7 +850,7 @@ export const map: Record<Key, Roster> = {
   '2024|Venom: The Last Dance': {
     major: new Set(),
     minor: new Set(),
-    major_: ['Venom', 'Knull', 'Toxin'],
+    major_: ['Venom', 'Knull', 'Agony', 'Toxin'],
     minor_: [],
   },
   '2006|Blade: The Series': {
