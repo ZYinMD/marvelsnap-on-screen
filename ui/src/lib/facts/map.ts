@@ -870,6 +870,7 @@ export const map: Record<Key, Roster> = {
       'Deathlok',
       'Ghost Rider',
       'Absorbing Man',
+      'Victoria Hand',
       'Maria Hill',
     ],
     minor_: ['Lady Sif', 'Nick Fury'],
