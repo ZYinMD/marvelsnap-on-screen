@@ -2551,6 +2551,16 @@ export const allCards = {
       "<b>On Reveal:</b> Add a 1, 2, or 3-Cost card from your deck here, but don't reveal it until the game ends.",
     seriesStartTimestamps: [1731438000000],
   },
+  'Lasher': {
+    defId: 'Lasher',
+    cost: 2,
+    power: 2,
+    name: 'Lasher',
+    description:
+      "<b>Activate:</b> Afflict an enemy card here with negative Power equal to this card's Power.",
+    seriesStartTimestamps: [1735412400000, 1736622000000],
+    possibleSeries: 7,
+  },
   'Agony': {
     defId: 'Agony',
     cost: 1,
@@ -2574,7 +2584,6 @@ export const allCards = {
     name: 'Galacta',
     description: 'Each turn, the first card you play at another location reveals\nwith +3 Power.',
     seriesStartTimestamps: [1733252400000, 1736276400000],
-    possibleSeries: 8,
     isSeasonPass: true,
   },
   'Peni Parker': {
@@ -2594,6 +2603,51 @@ export const allCards = {
     description:
       'After each turn, add a DoomBot 2099 to a random location if you played <i>(exactly)</i> 1 card.',
     seriesStartTimestamps: [1734462000000],
+  },
+  'Bruce Banner': {
+    defId: 'BruceBanner',
+    cost: 2,
+    power: 1,
+    name: 'Bruce Banner',
+    description: 'When you end a turn with unspent Energy, 25% chance to HULK OUT!',
+    seriesStartTimestamps: [1735066800000],
+  },
+  'Rocket and Groot': {
+    defId: 'RocketAndGroot',
+    cost: 3,
+    power: 3,
+    name: 'Rocket and Groot',
+    description:
+      'You can move this once.\nAfter your opponent plays a card here, steal 1 Power from it.',
+    seriesStartTimestamps: [1735671600000],
+  },
+  'Iron Patriot': {
+    defId: 'IronPatriot',
+    cost: 2,
+    power: 3,
+    name: 'Iron Patriot',
+    description:
+      '<b>On Reveal:</b> Add a random 4, 5, or\n6-Cost card to your hand. If you’re winning here after next turn, give it -4 Cost.',
+    seriesStartTimestamps: [1736276400000, 1738695600000],
+    possibleSeries: 8,
+    isSeasonPass: true,
+  },
+  'Victoria Hand': {
+    defId: 'VictoriaHand',
+    cost: 2,
+    power: 3,
+    name: 'Victoria Hand',
+    description: '<b>Ongoing:</b> Your cards that were created in your hand have +2 Power.',
+    seriesStartTimestamps: [1736276400000],
+  },
+  'Moonstone': {
+    defId: 'Moonstone',
+    cost: 4,
+    power: 6,
+    name: 'Moonstone',
+    description:
+      '<b>Ongoing:</b> Has the <b>Ongoing</b> effects of your 1, 2, and 3-Cost cards here.',
+    seriesStartTimestamps: [1736881200000],
     possibleSeries: 8,
   },
 } as const;
