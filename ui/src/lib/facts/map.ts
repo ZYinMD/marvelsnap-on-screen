@@ -261,7 +261,7 @@ export const map: Record<Key, Roster> = {
   '2013|Iron Man 3': {
     major: new Set(),
     minor: new Set(),
-    major_: ['Iron Man', 'War Machine'],
+    major_: ['Iron Man', 'War Machine', 'Iron Patriot'],
     minor_: ['Rescue', 'Hulk'],
   },
   '2013|The Wolverine': {
@@ -1667,6 +1667,7 @@ export const map: Record<Key, Roster> = {
       'The Collector',
       'Lockjaw',
       'Grand Master',
+      'Iron Patriot',
       'Agent Coulson',
       'Helicarrier',
       'Quinjet',
