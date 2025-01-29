@@ -853,6 +853,12 @@ export const map: Record<Key, Roster> = {
     major_: ['Venom', 'Knull', 'Agony', 'Toxin'],
     minor_: [],
   },
+  '2024|Kraven the Hunter': {
+    major: new Set(),
+    minor: new Set(),
+    major_: ['Kraven', 'Rhino'],
+    minor_: [],
+  },
   '2006|Blade: The Series': {
     major: new Set(),
     minor: new Set(),
@@ -1026,11 +1032,17 @@ export const map: Record<Key, Roster> = {
     major_: ['Nick Fury', 'Maria Hill', 'Super-Skrull'],
     minor_: ['War Machine'],
   },
-  '2023|Echo': {
+  '2024|Echo': {
     major: new Set(),
     minor: new Set(),
     major_: ['Echo', 'Daredevil', 'Kingpin'],
     minor_: ['Hawkeye'],
+  },
+  '2024|Agatha All Along': {
+    major: new Set(),
+    minor: new Set(),
+    major_: ['Agatha Harkness', 'Wiccan', 'Death'],
+    minor_: [],
   },
   '1992–1997|X-Men: The Animated Series': {
     major: new Set(),
