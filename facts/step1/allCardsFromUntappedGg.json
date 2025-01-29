@@ -88,7 +88,7 @@
 		"cost": 6,
 		"power": 14,
 		"name": "Agatha Harkness",
-		"description": "At the start of the game, draw Agatha. She controls your cards on even turns.",
+		"description": "<b>Game Start:</b> Draw Agatha. She controls your cards on even turns.",
 		"series": 6,
 		"artists": [
 			{
@@ -730,7 +730,7 @@
 				"ReducedPower": 2
 			}
 		},
-		"series": 0,
+		"series": 8,
 		"artists": [
 			{
 				"name": "Eduardo Mello",
@@ -744,7 +744,7 @@
 		"seriesStartTimestamps": [
 			1737486000000
 		],
-		"possibleSeries": 8
+		"collectible": true
 	},
 	{
 		"defId": "Cable",
@@ -2029,14 +2029,9 @@
 	{
 		"defId": "Hela",
 		"cost": 6,
-		"power": 7,
+		"power": 9,
 		"name": "Hela",
-		"description": "<b>On Reveal:</b> Resurrect all cards you discarded to random locations\nwith -3 Power.",
-		"attributes": {
-			"data": {
-				"ReducedPower": 3
-			}
-		},
+		"description": "<b>On Reveal:</b> For each different Cost among them, resurrect a card you discarded to a random location.",
 		"series": 6,
 		"artists": [
 			{
@@ -2541,7 +2536,7 @@
 	{
 		"defId": "KaZar",
 		"cost": 4,
-		"power": 4,
+		"power": 5,
 		"name": "Ka-Zar",
 		"description": "<b>Ongoing:</b> Your 1-Cost cards have +1 Power.",
 		"attributes": {
@@ -2948,7 +2943,7 @@
 	{
 		"defId": "LukeCage",
 		"cost": 3,
-		"power": 3,
+		"power": 2,
 		"name": "Luke Cage",
 		"description": "<b>Ongoing:</b> Your cards can't have their Power reduced.",
 		"series": 6,
@@ -3517,12 +3512,12 @@
 	{
 		"defId": "MrFantastic",
 		"cost": 3,
-		"power": 2,
+		"power": 1,
 		"name": "Mister Fantastic",
-		"description": "<b>Ongoing:</b> Adjacent locations have +2 Power.",
+		"description": "<b>Ongoing:</b> Adjacent locations have +3 Power.",
 		"attributes": {
 			"data": {
-				"AddedPower": 2
+				"AddedPower": 3
 			}
 		},
 		"series": 2,
@@ -4033,7 +4028,7 @@
 	{
 		"defId": "Onslaught",
 		"cost": 6,
-		"power": 7,
+		"power": 8,
 		"name": "Onslaught",
 		"description": "<b>Ongoing:</b> Double your other <b>Ongoing</b> effects here.",
 		"series": 4,
@@ -4751,9 +4746,9 @@
 	{
 		"defId": "Sentry",
 		"cost": 4,
-		"power": 8,
+		"power": 9,
 		"name": "Sentry",
-		"description": "You can't play this at the right location.\n<b>On Reveal:</b> Add a -8 Power Void to the right location.",
+		"description": "You can't play this at the right location.\n<b>On Reveal:</b> Add a -9 Power Void to the right location.",
 		"attributes": {
 			"cards": {
 				"Card_Token": [
@@ -5262,8 +5257,8 @@
 	},
 	{
 		"defId": "SpiderMan",
-		"cost": 3,
-		"power": 5,
+		"cost": 2,
+		"power": 4,
 		"name": "Spider-Man",
 		"description": "<b>On Reveal:</b> Move to another location and pull an enemy card from\nhere to there.",
 		"series": 6,
@@ -5645,7 +5640,7 @@
 		"cost": 6,
 		"power": 10,
 		"name": "Thanos",
-		"description": "At the start of the game, draw Thanos and shuffle the six Infinity Stones\ninto your deck.",
+		"description": "<b>Game Start:</b> Draw Thanos and shuffle the six Infinity Stones\ninto your deck.",
 		"attributes": {
 			"cards": {
 				"Card_Token": [
@@ -5751,7 +5746,7 @@
 	{
 		"defId": "TheVoid",
 		"cost": 4,
-		"power": -8,
+		"power": -9,
 		"name": "The Void",
 		"description": "<i>Hello again...</i>",
 		"series": 0,
@@ -5908,7 +5903,7 @@
 		"cost": 1,
 		"power": 2,
 		"name": "Uatu the Watcher",
-		"description": "At the start of the game, shows unrevealed locations to you.",
+		"description": "<b>Game Start:</b> You can see the unrevealed locations.",
 		"series": 4,
 		"artists": [
 			{
@@ -6768,7 +6763,7 @@
 		"cost": 4,
 		"power": 6,
 		"name": "High Evolutionary",
-		"description": "At the start of the game, unlock the potential of your cards with no abilities.",
+		"description": "<b>Game Start:</b> Unlock the potential of your cards with no abilities.",
 		"attributes": {
 			"cards": {
 				"Card_Related": [
@@ -7887,13 +7882,13 @@
 		"cost": 2,
 		"power": 3,
 		"name": "U.S. Agent",
-		"description": "<b>Ongoing:</b> 4, 5, and 6-Cost cards here have -4 Power.",
+		"description": "<b>Ongoing:</b> 4, 5, and 6-Cost cards here have -3 Power.",
 		"attributes": {
 			"data": {
 				"TargetCardCost_1": 4,
 				"TargetCardCost_2": 5,
 				"TargetCardCost_3": 6,
-				"ReducedPower": 4
+				"ReducedPower": 3
 			}
 		},
 		"series": 8,
@@ -8261,7 +8256,7 @@
 	{
 		"defId": "HydraBob",
 		"cost": 1,
-		"power": 5,
+		"power": 4,
 		"name": "Hydra Bob",
 		"description": "After each turn, this moves if a player Snapped.",
 		"series": 8,
@@ -8451,7 +8446,7 @@
 		"cost": 6,
 		"power": 12,
 		"name": "Emperor Hulkling",
-		"description": "At the start of the game, copy the text of a random 6-Cost card.",
+		"description": "<b>Game Start:</b> Copy the text of a random 6-Cost card.",
 		"attributes": {
 			"data": {
 				"TargetCardCost": 6
@@ -8682,7 +8677,7 @@
 	{
 		"defId": "Scream",
 		"cost": 2,
-		"power": 3,
+		"power": 2,
 		"name": "Scream",
 		"description": "When an enemy card moves, steal 2 Power from it. <i>(once per turn)</i>",
 		"attributes": {
@@ -8917,7 +8912,7 @@
 		"power": 2,
 		"name": "Lasher",
 		"description": "<b>Activate:</b> Afflict an enemy card here with negative Power equal to this card's Power.",
-		"series": 10,
+		"series": 7,
 		"artists": [
 			{
 				"name": "Eduardo Mello",
@@ -8932,7 +8927,6 @@
 			1735412400000,
 			1736622000000
 		],
-		"possibleSeries": 7,
 		"collectible": true
 	},
 	{
@@ -9288,7 +9282,7 @@
 				"TargetCardCost_3": 3
 			}
 		},
-		"series": 0,
+		"series": 8,
 		"artists": [
 			{
 				"name": "Eduardo Mello",
@@ -9302,7 +9296,6 @@
 		"seriesStartTimestamps": [
 			1736881200000
 		],
-		"possibleSeries": 8,
 		"collectible": true
 	},
 	{
@@ -9331,7 +9324,8 @@
 		"seriesStartTimestamps": [
 			1738090800000
 		],
-		"possibleSeries": 8
+		"possibleSeries": 8,
+		"collectible": true
 	},
 	{
 		"defId": "ToxieDoxie",
@@ -9411,7 +9405,7 @@
 	{
 		"defId": "JoaquinTorres",
 		"cost": 3,
-		"power": 3,
+		"power": 4,
 		"name": "Joaquin Torres Falcon II",
 		"description": "<b>Ongoing:</b> The <b>On Reveal</b> abilities of your 1-Cost cards here happen twice.",
 		"attributes": {
@@ -9437,16 +9431,10 @@
 	},
 	{
 		"defId": "Redwing",
-		"cost": 1,
-		"power": 2,
+		"cost": 3,
+		"power": 3,
 		"name": "Redwing",
-		"description": "<b>On Reveal:</b> Return one of your other 1-Cost cards here to your hand to give it +2 Power.",
-		"attributes": {
-			"data": {
-				"TargetCardCost": 1,
-				"AddedPower": 2
-			}
-		},
+		"description": "The first time this moves, add a card from your hand to the old location.",
 		"series": 0,
 		"artists": [
 			{
@@ -9492,10 +9480,10 @@
 	},
 	{
 		"defId": "Cobra",
-		"cost": 3,
-		"power": 6,
+		"cost": 2,
+		"power": 3,
 		"name": "Cobra",
-		"description": "You can only play this at a location where your opponent has exactly one card.",
+		"description": "<b>Activate:</b> Switch an enemy card here that didn't start in your opponent's deck to your side.",
 		"series": 0,
 		"artists": [
 			{
@@ -9544,7 +9532,7 @@
 		"cost": 2,
 		"power": 2,
 		"name": "Thaddeus Ross",
-		"description": "When your opponent ends a turn with unspent Energy, draw a card with 10 or more Power.",
+		"description": "When your opponent ends a turn with unspent Energy, draw a card with\n10 or more Power.",
 		"attributes": {
 			"data": {
 				"AssignedPower": 10
@@ -9577,6 +9565,172 @@
 				"AddedPower": 2
 			}
 		},
+		"series": 0,
+		"artists": [
+			{
+				"name": "Eduardo Mello",
+				"type": 1
+			},
+			{
+				"name": "Ryan Kinnaird",
+				"type": 4
+			}
+		],
+		"seriesStartTimestamps": []
+	},
+	{
+		"defId": "Agamotto",
+		"cost": 6,
+		"power": 12,
+		"name": "Agamotto",
+		"description": "At the start of the game, shuffle 0 spells into your deck.",
+		"attributes": {
+			"cards": {
+				"Card_Token": [
+					"Spell01Agamotto",
+					"Spell02Agamotto",
+					"Spell03Agamotto"
+				]
+			}
+		},
+		"series": 0,
+		"artists": [
+			{
+				"name": "Eduardo Mello",
+				"type": 1
+			},
+			{
+				"name": "Ryan Kinnaird",
+				"type": 4
+			}
+		],
+		"seriesStartTimestamps": [
+			1741114800000,
+			1743534000000
+		],
+		"possibleSeries": 8,
+		"isSeasonPass": true
+	},
+	{
+		"defId": "Firehair",
+		"cost": 2,
+		"power": 2,
+		"name": "Firehair",
+		"description": "You can move this once. When this moves, revive one of your destroyed cards here.",
+		"series": 0,
+		"artists": [
+			{
+				"name": "Eduardo Mello",
+				"type": 1
+			},
+			{
+				"name": "Ryan Kinnaird",
+				"type": 4
+			}
+		],
+		"seriesStartTimestamps": [
+			1742324400000
+		],
+		"possibleSeries": 8
+	},
+	{
+		"defId": "Khonshu",
+		"cost": 2,
+		"power": 1,
+		"name": "Khonshu",
+		"description": "none",
+		"series": 0,
+		"artists": [
+			{
+				"name": "Eduardo Mello",
+				"type": 1
+			},
+			{
+				"name": "Ryan Kinnaird",
+				"type": 4
+			}
+		],
+		"seriesStartTimestamps": [
+			1742929200000
+		],
+		"possibleSeries": 8
+	},
+	{
+		"defId": "Starbrand",
+		"cost": 6,
+		"power": 8,
+		"name": "Starbrand",
+		"description": "At the start of the game, +2 Power for each card in your deck with 10 or more Power.",
+		"attributes": {
+			"data": {
+				"AssignedPower": 10,
+				"AddedPower": 2
+			}
+		},
+		"series": 0,
+		"artists": [
+			{
+				"name": "Eduardo Mello",
+				"type": 1
+			},
+			{
+				"name": "Ryan Kinnaird",
+				"type": 4
+			}
+		],
+		"seriesStartTimestamps": [
+			1741719600000
+		],
+		"possibleSeries": 8
+	},
+	{
+		"defId": "FanFei",
+		"cost": 4,
+		"power": 5,
+		"name": "FanFei",
+		"description": "When you discard this, put it back Waxing and get +1 Energy next turn.",
+		"attributes": {
+			"data": {
+				"AddedEnergy": 1
+			}
+		},
+		"series": 0,
+		"artists": [],
+		"seriesStartTimestamps": []
+	},
+	{
+		"defId": "Eson",
+		"cost": 6,
+		"power": 13,
+		"name": "Eson",
+		"description": "Legendary. At the start of the game, if all your cards have different Powers, give them +2 Power.",
+		"attributes": {
+			"data": {
+				"AddedPower": 2
+			}
+		},
+		"series": 0,
+		"artists": [
+			{
+				"name": "Eduardo Mello",
+				"type": 1
+			},
+			{
+				"name": "Ryan Kinnaird",
+				"type": 4
+			}
+		],
+		"seriesStartTimestamps": [
+			1741114800000
+		],
+		"possibleSeries": 8
+	},
+	{
+		"defId": "GhostTheFirstRider",
+		"cost": 2,
+		"power": 4,
+		"name": "Ghost, the First Rider",
+		"description": "",
 		"series": 0,
 		"artists": [
 			{
@@ -9903,6 +10057,114 @@
 		"power": 3,
 		"name": "Grapple Arrow",
 		"description": "<b>On Reveal:</b> After you play your next card, move it to this location.",
+		"series": 0,
+		"artists": [],
+		"seriesStartTimestamps": []
+	},
+	{
+		"defId": "Spell01Agamotto",
+		"cost": 3,
+		"power": 0,
+		"name": "Winds of Watoomb",
+		"description": "none",
+		"series": 0,
+		"artists": [
+			{
+				"name": "Eduardo Mello",
+				"type": 1
+			},
+			{
+				"name": "Ryan Kinnaird",
+				"type": 4
+			}
+		],
+		"seriesStartTimestamps": []
+	},
+	{
+		"defId": "Spell02Agamotto",
+		"cost": 2,
+		"power": 0,
+		"name": "Icy Tendrils of Ikthalon",
+		"description": "none",
+		"series": 0,
+		"artists": [],
+		"seriesStartTimestamps": []
+	},
+	{
+		"defId": "Spell03Agamotto",
+		"cost": 5,
+		"power": 0,
+		"name": "Images of Ikonn",
+		"description": "none",
+		"series": 0,
+		"artists": [
+			{
+				"name": "Eduardo Mello",
+				"type": 1
+			},
+			{
+				"name": "Ryan Kinnaird",
+				"type": 4
+			}
+		],
+		"seriesStartTimestamps": []
+	},
+	{
+		"defId": "Spell04Agamotto",
+		"cost": 5,
+		"power": 0,
+		"name": "Images of Ikonn",
+		"description": "none",
+		"series": 0,
+		"artists": [],
+		"seriesStartTimestamps": []
+	},
+	{
+		"defId": "Spell05Agamotto",
+		"cost": 5,
+		"power": 0,
+		"name": "Images of Ikonn",
+		"description": "none",
+		"series": 0,
+		"artists": [],
+		"seriesStartTimestamps": []
+	},
+	{
+		"defId": "Spell06Agamotto",
+		"cost": 5,
+		"power": 0,
+		"name": "Images of Ikonn",
+		"description": "none",
+		"series": 0,
+		"artists": [],
+		"seriesStartTimestamps": []
+	},
+	{
+		"defId": "KhonshuWaxing",
+		"cost": 2,
+		"power": 1,
+		"name": "KhonshuWaxing",
+		"description": "When a card is destroyed, +10% chance to Hulk out.",
+		"attributes": {
+			"data": {
+				"PowerDifference": 10
+			}
+		},
+		"series": 0,
+		"artists": [],
+		"seriesStartTimestamps": []
+	},
+	{
+		"defId": "KhonshuFull",
+		"cost": 2,
+		"power": 1,
+		"name": "KhonshuFull",
+		"description": "When a card is destroyed, +10% chance to Hulk out.",
+		"attributes": {
+			"data": {
+				"PowerDifference": 10
+			}
+		},
 		"series": 0,
 		"artists": [],
 		"seriesStartTimestamps": []
