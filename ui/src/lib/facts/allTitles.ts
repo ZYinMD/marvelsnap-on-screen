@@ -741,6 +741,16 @@ export const allTitles = {
       numEpisodes: 1,
       key: '2024|Venom: The Last Dance',
     },
+    '2024|Kraven the Hunter': {
+      type: 'movie',
+      year: '2024',
+      title: 'Kraven the Hunter',
+      wikipedia: 'https://en.wikipedia.org/wiki/Kraven_the_Hunter_(film)',
+      label: ['ssu'],
+      numSeasons: 0,
+      numEpisodes: 1,
+      key: '2024|Kraven the Hunter',
+    },
   },
   'live-action-tv-series': {
     '2006|Blade: The Series': {
@@ -973,15 +983,25 @@ export const allTitles = {
       numEpisodes: 6,
       key: '2023|Secret Invasion',
     },
-    '2023|Echo': {
+    '2024|Echo': {
       type: 'live-action-tv-series',
-      year: '2023',
+      year: '2024',
       title: 'Echo',
       wikipedia: 'https://en.wikipedia.org/wiki/Echo_(miniseries)',
       label: ['mcu'],
       numSeasons: 1,
       numEpisodes: 5,
-      key: '2023|Echo',
+      key: '2024|Echo',
+    },
+    '2024|Agatha All Along': {
+      type: 'live-action-tv-series',
+      year: '2024',
+      title: 'Agatha All Along',
+      wikipedia: 'https://en.wikipedia.org/wiki/Agatha_All_Along_(miniseries)',
+      label: ['mcu'],
+      numSeasons: 1,
+      numEpisodes: 9,
+      key: '2024|Agatha All Along',
     },
   },
   'animated-tv-series': {
