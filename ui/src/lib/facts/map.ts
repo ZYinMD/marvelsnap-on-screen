@@ -51,7 +51,7 @@ export const map: Record<Key, Roster> = {
   '2003|Daredevil': {
     major: new Set(),
     minor: new Set(),
-    major_: ['Daredevil', 'Elektra', 'Kingpin'],
+    major_: ['Daredevil', 'Elektra', 'Kingpin', 'Bullseye'],
     minor_: [],
   },
   '2003|X2': {
@@ -890,7 +890,7 @@ export const map: Record<Key, Roster> = {
   '2015–2018|Daredevil': {
     major: new Set(),
     minor: new Set(),
-    major_: ['Daredevil', 'Kingpin', 'Punisher', 'Elektra'],
+    major_: ['Daredevil', 'Kingpin', 'Punisher', 'Elektra', 'Bullseye'],
     minor_: [],
   },
   '2015–2019|Jessica Jones': {
