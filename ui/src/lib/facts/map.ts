@@ -1243,7 +1243,14 @@ export const map: Record<Key, Roster> = {
       'Namor',
       'Attuma',
     ],
-    minor_: ['Absorbing Man', 'Agatha Harkness', 'Captain America', 'Iron Man', 'Baron Zemo'],
+    minor_: [
+      'Absorbing Man',
+      'Agatha Harkness',
+      'Captain America',
+      'Iron Man',
+      'Baron Zemo',
+      'Moonstone',
+    ],
   },
   '1999–2001|Spider-Man Unlimited': {
     major: new Set(),
@@ -1842,6 +1849,7 @@ export const map: Record<Key, Roster> = {
       'Giganto',
       'Brood',
       'Red Guardian',
+      'Moonstone',
     ],
   },
   '2015–2016|Marvel Disk Wars: The Avengers': {
