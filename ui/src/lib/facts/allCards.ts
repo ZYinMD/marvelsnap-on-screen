@@ -342,9 +342,9 @@ export const allCards = {
   'Dagger': {
     defId: 'Dagger',
     cost: 2,
-    power: 0,
+    power: 2,
     name: 'Dagger',
-    description: 'When this moves to a location,\n+3 Power for each enemy card there.',
+    description: 'When this moves to a location,\n+2 Power for each enemy card there.',
     seriesStartTimestamps: [-62135596800000],
   },
   'Daredevil': {
@@ -901,7 +901,7 @@ export const allCards = {
   'Leader': {
     defId: 'Leader',
     cost: 6,
-    power: 3,
+    power: 4,
     name: 'Leader',
     description:
       '<b>On Reveal:</b> Copy the enemy card(s) with the highest Power played this turn, but on your side.',
@@ -1130,7 +1130,7 @@ export const allCards = {
   'Ms. Marvel': {
     defId: 'MsMarvel',
     cost: 4,
-    power: 4,
+    power: 5,
     name: 'Ms. Marvel',
     description:
       '<b>Ongoing:</b> Your adjacent locations with 2+ cards and no repeated Costs have +5 Power.',
@@ -1403,7 +1403,7 @@ export const allCards = {
   'Sandman': {
     defId: 'Sandman',
     cost: 5,
-    power: 7,
+    power: 8,
     name: 'Sandman',
     description: '<b>On Reveal:</b> Next turn, cards cost 1 more. <i>(maximum 6)</i>',
     seriesStartTimestamps: [-62135596800000],
@@ -1549,7 +1549,7 @@ export const allCards = {
   'Spectrum': {
     defId: 'Spectrum',
     cost: 6,
-    power: 6,
+    power: 7,
     name: 'Spectrum',
     description: '<b>On Reveal:</b> Give your <b>Ongoing</b> cards +2 Power.',
     seriesStartTimestamps: [-62135596800000],
@@ -2316,7 +2316,7 @@ export const allCards = {
   'Namora': {
     defId: 'Namora',
     cost: 5,
-    power: 6,
+    power: 7,
     name: 'Namora',
     description: '<b>On Reveal:</b> Give +5 Power to each of your cards alone at another location.',
     seriesStartTimestamps: [1716318000000],
@@ -2468,9 +2468,9 @@ export const allCards = {
   'Araña': {
     defId: 'Arana',
     cost: 1,
-    power: 1,
+    power: 2,
     name: 'Araña',
-    description: '<b>Activate:</b> Give the next card you play +2 Power and move it\nto the right.',
+    description: '<b>Activate:</b> Give the next card you play +1 Power and move it\nto the right.',
     seriesStartTimestamps: [1726599600000],
   },
   'Agent Venom': {
@@ -2580,7 +2580,7 @@ export const allCards = {
   'Luna Snow': {
     defId: 'LunaSnow',
     cost: 3,
-    power: 5,
+    power: 6,
     name: 'Luna Snow',
     description: '<b>On Reveal:</b> Add an Ice Cube to each side of this location.',
     seriesStartTimestamps: [1733252400000],
@@ -2637,7 +2637,6 @@ export const allCards = {
     description:
       '<b>On Reveal:</b> Add a random 4, 5, or\n6-Cost card to your hand. If you’re winning here after next turn, give it -4 Cost.',
     seriesStartTimestamps: [1736276400000, 1738695600000],
-    possibleSeries: 8,
     isSeasonPass: true,
   },
   'Victoria Hand': {
@@ -2665,6 +2664,35 @@ export const allCards = {
     description:
       '<b>On Reveal:</b> Compare the Power of the top 3 cards of both decks. If your total is higher, +6 Power.',
     seriesStartTimestamps: [1738090800000],
+  },
+  'Sam Wilson Captain America': {
+    defId: 'SamWilson',
+    cost: 2,
+    power: 3,
+    name: 'Sam Wilson Captain America',
+    description:
+      "<b>Game Start:</b> Add Cap's Shield to a random location.\n<b>Ongoing:</b> You can move Cap's Shield.",
+    seriesStartTimestamps: [1738695600000, 1741114800000],
+    possibleSeries: 8,
+    isSeasonPass: true,
+  },
+  'Joaquin Torres Falcon II': {
+    defId: 'JoaquinTorres',
+    cost: 3,
+    power: 4,
+    name: 'Joaquin Torres Falcon II',
+    description:
+      '<b>Ongoing:</b> The <b>On Reveal</b> abilities of your 1-Cost cards here happen twice.',
+    seriesStartTimestamps: [1738695600000],
+  },
+  'Thaddeus Ross': {
+    defId: 'ThaddeusRoss',
+    cost: 2,
+    power: 2,
+    name: 'Thaddeus Ross',
+    description:
+      'When your opponent ends a turn with unspent Energy, draw a card with\n10 or more Power.',
+    seriesStartTimestamps: [1739300400000],
     possibleSeries: 8,
   },
 } as const;

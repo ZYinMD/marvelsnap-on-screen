@@ -1032,12 +1032,12 @@
 	{
 		"defId": "Dagger",
 		"cost": 2,
-		"power": 0,
+		"power": 2,
 		"name": "Dagger",
-		"description": "When this moves to a location,\n+3 Power for each enemy card there.",
+		"description": "When this moves to a location,\n+2 Power for each enemy card there.",
 		"attributes": {
 			"data": {
-				"AddedPower": 3
+				"AddedPower": 2
 			}
 		},
 		"series": 6,
@@ -2799,7 +2799,7 @@
 	{
 		"defId": "Leader",
 		"cost": 6,
-		"power": 3,
+		"power": 4,
 		"name": "Leader",
 		"description": "<b>On Reveal:</b> Copy the enemy card(s) with the highest Power played this turn, but on your side.",
 		"series": 6,
@@ -3590,7 +3590,7 @@
 	{
 		"defId": "MsMarvel",
 		"cost": 4,
-		"power": 4,
+		"power": 5,
 		"name": "Ms. Marvel",
 		"description": "<b>Ongoing:</b> Your adjacent locations with 2+ cards and no repeated Costs have +5 Power.",
 		"attributes": {
@@ -4618,7 +4618,7 @@
 	{
 		"defId": "Sandman",
 		"cost": 5,
-		"power": 7,
+		"power": 8,
 		"name": "Sandman",
 		"description": "<b>On Reveal:</b> Next turn, cards cost 1 more. <i>(maximum 6)</i>",
 		"attributes": {
@@ -5231,7 +5231,7 @@
 	{
 		"defId": "Spectrum",
 		"cost": 6,
-		"power": 6,
+		"power": 7,
 		"name": "Spectrum",
 		"description": "<b>On Reveal:</b> Give your <b>Ongoing</b> cards +2 Power.",
 		"attributes": {
@@ -8065,7 +8065,7 @@
 	{
 		"defId": "Namora",
 		"cost": 5,
-		"power": 6,
+		"power": 7,
 		"name": "Namora",
 		"description": "<b>On Reveal:</b> Give +5 Power to each of your cards alone at another location.",
 		"attributes": {
@@ -8594,12 +8594,12 @@
 	{
 		"defId": "Arana",
 		"cost": 1,
-		"power": 1,
+		"power": 2,
 		"name": "Araña",
-		"description": "<b>Activate:</b> Give the next card you play +2 Power and move it\nto the right.",
+		"description": "<b>Activate:</b> Give the next card you play +1 Power and move it\nto the right.",
 		"attributes": {
 			"data": {
-				"AddedPower": 2
+				"AddedPower": 1
 			}
 		},
 		"series": 8,
@@ -8979,7 +8979,7 @@
 	{
 		"defId": "LunaSnow",
 		"cost": 3,
-		"power": 5,
+		"power": 6,
 		"name": "Luna Snow",
 		"description": "<b>On Reveal:</b> Add an Ice Cube to each side of this location.",
 		"attributes": {
@@ -9223,7 +9223,7 @@
 				"ReducedCost": 4
 			}
 		},
-		"series": 9,
+		"series": 8,
 		"artists": [
 			{
 				"name": "Eduardo Mello",
@@ -9238,7 +9238,6 @@
 			1736276400000,
 			1738695600000
 		],
-		"possibleSeries": 8,
 		"collectible": true,
 		"isSeasonPass": true
 	},
@@ -9310,7 +9309,7 @@
 				"AddedPower": 6
 			}
 		},
-		"series": 0,
+		"series": 8,
 		"artists": [
 			{
 				"name": "Eduardo Mello",
@@ -9324,7 +9323,6 @@
 		"seriesStartTimestamps": [
 			1738090800000
 		],
-		"possibleSeries": 8,
 		"collectible": true
 	},
 	{
@@ -9384,7 +9382,7 @@
 				]
 			}
 		},
-		"series": 0,
+		"series": 9,
 		"artists": [
 			{
 				"name": "Eduardo Mello",
@@ -9400,6 +9398,7 @@
 			1741114800000
 		],
 		"possibleSeries": 8,
+		"collectible": true,
 		"isSeasonPass": true
 	},
 	{
@@ -9413,7 +9412,7 @@
 				"TargetCardCost": 1
 			}
 		},
-		"series": 0,
+		"series": 8,
 		"artists": [
 			{
 				"name": "Eduardo Mello",
@@ -9427,7 +9426,7 @@
 		"seriesStartTimestamps": [
 			1738695600000
 		],
-		"possibleSeries": 8
+		"collectible": true
 	},
 	{
 		"defId": "Redwing",
@@ -9552,7 +9551,8 @@
 		"seriesStartTimestamps": [
 			1739300400000
 		],
-		"possibleSeries": 8
+		"possibleSeries": 8,
+		"collectible": true
 	},
 	{
 		"defId": "Batroc",
