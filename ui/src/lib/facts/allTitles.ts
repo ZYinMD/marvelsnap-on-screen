@@ -751,6 +751,16 @@ export const allTitles = {
       numEpisodes: 1,
       key: '2024|Kraven the Hunter',
     },
+    '2025|Captain America: Brave New World': {
+      type: 'movie',
+      year: '2025',
+      title: 'Captain America: Brave New World',
+      wikipedia: 'https://en.wikipedia.org/wiki/Captain_America:_Brave_New_World',
+      label: ['mcu'],
+      numSeasons: 0,
+      numEpisodes: 1,
+      key: '2025|Captain America: Brave New World',
+    },
   },
   'live-action-tv-series': {
     '2006|Blade: The Series': {
