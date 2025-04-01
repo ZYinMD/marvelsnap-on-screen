@@ -45,7 +45,7 @@ export const map: Record<Key, Roster> = {
   '2002|Spider-Man': {
     major: new Set(),
     minor: new Set(),
-    major_: ['Spider-Man', 'Green Goblin'],
+    major_: ['Spider-Man', 'Green Goblin', 'Uncle Ben'],
     minor_: [],
   },
   '2003|Daredevil': {
@@ -88,7 +88,7 @@ export const map: Record<Key, Roster> = {
   '2004|Spider-Man 2': {
     major: new Set(),
     minor: new Set(),
-    major_: ['Spider-Man', 'Doctor Octopus'],
+    major_: ['Spider-Man', 'Doctor Octopus', 'Uncle Ben'],
     minor_: [],
   },
   '2004|Blade: Trinity': {
@@ -255,7 +255,7 @@ export const map: Record<Key, Roster> = {
   '2012|The Amazing Spider-Man': {
     major: new Set(),
     minor: new Set(),
-    major_: ['Spider-Man', 'Lizard'],
+    major_: ['Spider-Man', 'Lizard', 'Uncle Ben'],
     minor_: [],
   },
   '2013|Iron Man 3': {
@@ -1204,6 +1204,7 @@ export const map: Record<Key, Roster> = {
       'Iron Man',
       'Nick Fury',
       'Electro',
+      'Uncle Ben',
     ],
     minor_: [
       'Captain America',
@@ -1377,7 +1378,7 @@ export const map: Record<Key, Roster> = {
       'Lizard',
       'Kraven',
     ],
-    minor_: ['Black Cat', 'Silver Sable'],
+    minor_: ['Black Cat', 'Silver Sable', 'Uncle Ben'],
   },
   '2009|Wolverine and the X-Men': {
     major: new Set(),
@@ -1733,6 +1734,7 @@ export const map: Record<Key, Roster> = {
       'Abomination',
       'Skaar',
       'Absorbing Man',
+      'Uncle Ben',
     ],
   },
   '2013–2015|Hulk and the Agents of S.M.A.S.H.': {
