@@ -404,8 +404,8 @@
   },
   {
     "defId": "BlackCat",
-    "cost": 4,
-    "power": 10,
+    "cost": 2,
+    "power": 6,
     "name": "Black Cat",
     "description": "<b>End of Turn:</b> Discard this from your hand.",
     "series": 6,
@@ -1620,7 +1620,7 @@
   {
     "defId": "GhostRider",
     "cost": 4,
-    "power": 4,
+    "power": 5,
     "name": "Ghost Rider",
     "description": "<b>On Reveal:</b> Bring back one of your discarded cards to this location.",
     "series": 6,
@@ -1860,7 +1860,7 @@
   {
     "defId": "Hela",
     "cost": 6,
-    "power": 9,
+    "power": 6,
     "name": "Hela",
     "description": "<b>On Reveal:</b> For each different Cost among them, resurrect a card you discarded to a random location.",
     "series": 6,
@@ -1900,7 +1900,7 @@
   {
     "defId": "Hellcow",
     "cost": 4,
-    "power": 7,
+    "power": 6,
     "name": "Hellcow",
     "description": "<b>Activate:</b> Discard a card from your hand.",
     "series": 6,
@@ -4250,8 +4250,8 @@
   },
   {
     "defId": "Sauron",
-    "cost": 3,
-    "power": 4,
+    "cost": 2,
+    "power": 2,
     "name": "Sauron",
     "description": "<b>On Reveal:</b> Remove the abilities from all <b>Ongoing</b> cards in your\nhand and deck.",
     "series": 6,
@@ -4748,7 +4748,7 @@
   {
     "defId": "SpaceStone",
     "cost": 1,
-    "power": 1,
+    "power": 2,
     "name": "Space Stone",
     "description": "<b>On Reveal:</b> Draw a card.\n<b>Ongoing:</b> Nothing can stop you from playing or moving Thanos.",
     "attributes": {
@@ -5091,7 +5091,7 @@
   {
     "defId": "SwordMaster",
     "cost": 3,
-    "power": 7,
+    "power": 6,
     "name": "Sword Master",
     "description": "<b>On Reveal:</b> Discard an odd-costed card from your hand.",
     "series": 4,
@@ -5141,7 +5141,7 @@
   {
     "defId": "Thanos",
     "cost": 6,
-    "power": 10,
+    "power": 12,
     "name": "Thanos",
     "description": "<b>Game Start:</b> Draw Thanos and shuffle the six Infinity Stones\ninto your deck.",
     "attributes": {
@@ -5440,7 +5440,7 @@
         "Card_Token": ["SpiderMan"]
       }
     },
-    "series": 10,
+    "series": 7,
     "artists": [
       {
         "name": "Diogo Saito",
@@ -5452,7 +5452,6 @@
       }
     ],
     "seriesStartTimestamps": [1740510000000, 1741892400000],
-    "possibleSeries": 7,
     "collectible": true
   },
   {
@@ -5783,7 +5782,7 @@
   {
     "defId": "Wolverine",
     "cost": 2,
-    "power": 2,
+    "power": 3,
     "name": "Wolverine",
     "description": "When this is discarded or destroyed, regenerate it with +2 Power at a random location.",
     "attributes": {
@@ -6364,7 +6363,7 @@
   },
   {
     "defId": "Loki",
-    "cost": 2,
+    "cost": 1,
     "power": 2,
     "name": "Loki",
     "description": "<b>On Reveal:</b> Replace your deck with your opponent's starting deck. Give those cards -1 Cost.",
@@ -7068,7 +7067,7 @@
   {
     "defId": "Pixie",
     "cost": 2,
-    "power": 1,
+    "power": 2,
     "name": "Pixie",
     "description": "<b>On Reveal:</b> Shuffle the base Costs\nof all cards in your deck\nthat started there.",
     "series": 7,
@@ -7836,7 +7835,7 @@
     "cost": 1,
     "power": 2,
     "name": "Araña",
-    "description": "<b>Activate:</b> Give the next card you play +1 Power and move it\nto the right.",
+    "description": "<b>Activate:</b> After you play your next card, give it +1 Power and move it to the right.",
     "attributes": {
       "data": {
         "AddedPower": 1
@@ -8174,7 +8173,7 @@
         "ReducedPower": 1
       }
     },
-    "series": 10,
+    "series": 7,
     "artists": [
       {
         "name": "Eduardo Mello",
@@ -8186,7 +8185,6 @@
       }
     ],
     "seriesStartTimestamps": [1740510000000, 1741892400000],
-    "possibleSeries": 7,
     "collectible": true
   },
   {
@@ -8217,7 +8215,7 @@
   {
     "defId": "Galacta",
     "cost": 4,
-    "power": 6,
+    "power": 5,
     "name": "Galacta",
     "description": "Each turn, the first card you play at another location reveals\nwith +3 Power.",
     "attributes": {
@@ -8301,10 +8299,10 @@
     "cost": 2,
     "power": 1,
     "name": "Bruce Banner",
-    "description": "<b>End of Turn:</b> If you have unspent Energy, 25% chance to HULK OUT!",
+    "description": "<b>End of Turn:</b> If you have unspent Energy, 33% chance to HULK OUT!",
     "attributes": {
       "data": {
-        "PercentageChance": 25
+        "PercentageChance": 33
       },
       "cards": {
         "Card_Token": ["BannerHulk"]
@@ -8410,7 +8408,7 @@
   {
     "defId": "DoomBot2099",
     "cost": 4,
-    "power": 1,
+    "power": 0,
     "name": "DoomBot 2099",
     "description": "<b>Ongoing:</b> Your other DoomBots and Doom have +1 Power.",
     "attributes": {
@@ -8430,13 +8428,13 @@
     "cost": 2,
     "power": 3,
     "name": "Iron Patriot",
-    "description": "<b>On Reveal:</b> Add a random 4, 5, or\n6-Cost card to your hand. If you’re winning here after next turn, give it -4 Cost.",
+    "description": "<b>On Reveal:</b> Add a random 4, 5, or\n6-Cost card to your hand. If you’re winning here after next turn, give it -3 Cost.",
     "attributes": {
       "data": {
         "TokenEnergyCost_1": 4,
         "TokenEnergyCost_2": 5,
         "TokenEnergyCost_3": 6,
-        "ReducedCost": 4
+        "ReducedCost": 3
       }
     },
     "series": 8,
@@ -8563,7 +8561,7 @@
         "MaximumCost": 6
       }
     },
-    "series": 10,
+    "series": 7,
     "artists": [
       {
         "name": "Eduardo Mello",
@@ -8575,7 +8573,6 @@
       }
     ],
     "seriesStartTimestamps": [1740510000000, 1741892400000],
-    "possibleSeries": 7,
     "collectible": true
   },
   {
@@ -8589,7 +8586,7 @@
         "Card_Token": ["CapsShield"]
       }
     },
-    "series": 9,
+    "series": 8,
     "artists": [
       {
         "name": "Eduardo Mello",
@@ -8601,7 +8598,6 @@
       }
     ],
     "seriesStartTimestamps": [1738695600000, 1741114800000],
-    "possibleSeries": 8,
     "collectible": true,
     "isSeasonPass": true
   },
@@ -8696,7 +8692,7 @@
   },
   {
     "defId": "CapsShield",
-    "cost": 1,
+    "cost": 0,
     "power": 1,
     "name": "Cap's Shield",
     "description": "<b>Ongoing:</b> This can't be destroyed.\nGive your Cap +2 Power when this moves to Cap's location.",
@@ -8784,7 +8780,7 @@
         "Card_Token": ["Spell02Agamotto", "Spell01Agamotto", "Spell04Agamotto", "Spell03Agamotto"]
       }
     },
-    "series": 0,
+    "series": 9,
     "artists": [
       {
         "name": "Eduardo Mello",
@@ -8806,7 +8802,7 @@
     "power": 3,
     "name": "Firehair",
     "description": "When one of your cards is destroyed, this uses that card’s <b>On Reveal</b>.",
-    "series": 0,
+    "series": 8,
     "artists": [
       {
         "name": "Eduardo Mello",
@@ -8818,7 +8814,7 @@
       }
     ],
     "seriesStartTimestamps": [1742324400000],
-    "possibleSeries": 8
+    "collectible": true
   },
   {
     "defId": "Khonshu",
@@ -8834,7 +8830,7 @@
         "Card_Token": ["KhonshuWaxing", "KhonshuFull"]
       }
     },
-    "series": 0,
+    "series": 8,
     "artists": [
       {
         "name": "Eduardo Mello",
@@ -8846,7 +8842,7 @@
       }
     ],
     "seriesStartTimestamps": [1742929200000],
-    "possibleSeries": 8
+    "collectible": true
   },
   {
     "defId": "Starbrand",
@@ -8859,7 +8855,7 @@
         "AddedPower": 3
       }
     },
-    "series": 0,
+    "series": 8,
     "artists": [
       {
         "name": "Eduardo Mello",
@@ -8871,7 +8867,6 @@
       }
     ],
     "seriesStartTimestamps": [1741719600000],
-    "possibleSeries": 8,
     "collectible": true
   },
   {
@@ -8899,7 +8894,7 @@
     "power": 10,
     "name": "Eson",
     "description": "<b>End of Turn:</b> Put a created card from your hand here.",
-    "series": 0,
+    "series": 8,
     "artists": [
       {
         "name": "Eduardo Mello",
@@ -8911,7 +8906,6 @@
       }
     ],
     "seriesStartTimestamps": [1741114800000],
-    "possibleSeries": 8,
     "collectible": true
   },
   {
@@ -8920,7 +8914,7 @@
     "power": 5,
     "name": "The First Ghost Rider",
     "description": "<b>On Reveal:</b> Discard the lowest-Power card from your hand. Remove that card's Power from this.",
-    "series": 0,
+    "series": 7,
     "artists": [
       {
         "name": "Eduardo Mello",
@@ -8932,7 +8926,7 @@
       }
     ],
     "seriesStartTimestamps": [1742583600000, 1743188400000],
-    "possibleSeries": 7
+    "collectible": true
   },
   {
     "defId": "CaptainCarter",
@@ -8953,6 +8947,7 @@
     ],
     "seriesStartTimestamps": [1743534000000, 1746558000000],
     "possibleSeries": 8,
+    "collectible": true,
     "isSeasonPass": true
   },
   {
@@ -8978,7 +8973,8 @@
       }
     ],
     "seriesStartTimestamps": [1744138800000],
-    "possibleSeries": 8
+    "possibleSeries": 8,
+    "collectible": true
   },
   {
     "defId": "StrangeSupreme",
@@ -9088,7 +9084,8 @@
       }
     ],
     "seriesStartTimestamps": [1743534000000],
-    "possibleSeries": 8
+    "possibleSeries": 8,
+    "collectible": true
   },
   {
     "defId": "DumDumDugan",
@@ -9208,10 +9205,10 @@
   },
   {
     "defId": "Elixir",
-    "cost": 1,
-    "power": 1,
+    "cost": 2,
+    "power": 3,
     "name": "Elixir",
-    "description": "<b>Activate:</b> The next time one of your cards is destroyed this turn,\nrevive it here.",
+    "description": "<b>On Reveal:</b> One of your cards destroyed last turn gets revived here.",
     "series": 0,
     "artists": [
       {
@@ -9311,6 +9308,226 @@
     ],
     "seriesStartTimestamps": [1767294000000],
     "possibleSeries": 7
+  },
+  {
+    "defId": "Merlin",
+    "cost": 2,
+    "power": 3,
+    "name": "Merlin",
+    "description": "At the start of each turn, add a Wizardly Incantation to your hand.",
+    "attributes": {
+      "cards": {
+        "Card_Token": ["OmniversalPresence", "OnceAndFuture", "Polymorph"]
+      }
+    },
+    "series": 0,
+    "artists": [
+      {
+        "name": "Eduardo Mello",
+        "type": 1
+      },
+      {
+        "name": "Ryan Kinnaird",
+        "type": 4
+      }
+    ],
+    "seriesStartTimestamps": [1748977200000, 1752001200000],
+    "possibleSeries": 8,
+    "isSeasonPass": true
+  },
+  {
+    "defId": "MorganLeFay",
+    "cost": 4,
+    "power": 5,
+    "name": "Morgan le Fay",
+    "description": "<b>On Reveal:</b> Return all your discarded and destroyed cards to hand with +3 Power.",
+    "attributes": {
+      "data": {
+        "AddedPower": 3
+      }
+    },
+    "series": 0,
+    "artists": [
+      {
+        "name": "Eduardo Mello",
+        "type": 1
+      },
+      {
+        "name": "Ryan Kinnaird",
+        "type": 4
+      }
+    ],
+    "seriesStartTimestamps": [1748977200000],
+    "possibleSeries": 8
+  },
+  {
+    "defId": "TheAncientOne",
+    "cost": 3,
+    "power": 5,
+    "name": "The Ancient One",
+    "description": "<b>On Reveal:</b> Add a Tao Mandala to your hand.",
+    "attributes": {
+      "cards": {
+        "Card_Token": ["TaoMandala"]
+      }
+    },
+    "series": 0,
+    "artists": [
+      {
+        "name": "Eduardo Mello",
+        "type": 1
+      },
+      {
+        "name": "Ryan Kinnaird",
+        "type": 4
+      }
+    ],
+    "seriesStartTimestamps": [1749582000000],
+    "possibleSeries": 8
+  },
+  {
+    "defId": "Nightmare",
+    "cost": 2,
+    "power": 2,
+    "name": "Nightmare",
+    "description": "<b>On Reveal:</b> Replace the text of each card in your hand with that of a random card that costs the same amount.",
+    "series": 0,
+    "artists": [
+      {
+        "name": "Eduardo Mello",
+        "type": 1
+      },
+      {
+        "name": "Ryan Kinnaird",
+        "type": 4
+      }
+    ],
+    "seriesStartTimestamps": [1750186800000],
+    "possibleSeries": 8
+  },
+  {
+    "defId": "Clea",
+    "cost": 1,
+    "power": 1,
+    "name": "Clea",
+    "description": "After this card permanently gains Power, add a Flames Of The Faltine to your hand. <i>(if in hand or in play)</i>",
+    "attributes": {
+      "cards": {
+        "Card_Token": ["FlamesOfTheFaltine"]
+      }
+    },
+    "series": 0,
+    "artists": [
+      {
+        "name": "Eduardo Mello",
+        "type": 1
+      },
+      {
+        "name": "Ryan Kinnaird",
+        "type": 4
+      }
+    ],
+    "seriesStartTimestamps": [1750791600000],
+    "possibleSeries": 8
+  },
+  {
+    "defId": "Dormammu",
+    "cost": 7,
+    "power": 10,
+    "name": "Dormammu",
+    "description": "<b>Game Start:</b> Begin a Summoning Ritual. <i>(Add the first step to hand.)</i>",
+    "attributes": {
+      "cards": {
+        "Card_Token": [
+          "SummoningRitual01Dormammu",
+          "SummoningRitual02Dormammu",
+          "SummoningRitual03Dormammu"
+        ]
+      }
+    },
+    "series": 0,
+    "artists": [
+      {
+        "name": "Eduardo Mello",
+        "type": 1
+      },
+      {
+        "name": "Ryan Kinnaird",
+        "type": 4
+      }
+    ],
+    "seriesStartTimestamps": [1751396400000],
+    "possibleSeries": 8
+  },
+  {
+    "defId": "JenniferKale",
+    "cost": 2,
+    "power": 2,
+    "name": "Jennifer Kale",
+    "description": "<b>Activate:</b> Next turn, you get +1 Energy.",
+    "attributes": {
+      "data": {
+        "AddedEnergy": 1
+      }
+    },
+    "series": 0,
+    "artists": [
+      {
+        "name": "Eduardo Mello",
+        "type": 1
+      },
+      {
+        "name": "Ryan Kinnaird",
+        "type": 4
+      }
+    ],
+    "seriesStartTimestamps": [1830366000000],
+    "possibleSeries": 10
+  },
+  {
+    "defId": "NicholasScratch",
+    "cost": 1,
+    "power": 2,
+    "name": "Nicholas Scratch",
+    "description": "After you play a Skill, +1 Power.",
+    "attributes": {
+      "data": {
+        "AddedPower": 1
+      }
+    },
+    "series": 0,
+    "artists": [
+      {
+        "name": "Eduardo Mello",
+        "type": 1
+      },
+      {
+        "name": "Ryan Kinnaird",
+        "type": 4
+      }
+    ],
+    "seriesStartTimestamps": [1830366000000],
+    "possibleSeries": 10
+  },
+  {
+    "defId": "AstralProjection",
+    "cost": 3,
+    "power": 0,
+    "name": "Astral Projection",
+    "description": "<b>On Reveal:</b> Copy the text of an <b>On Reveal</b> card in your hand.",
+    "series": 0,
+    "artists": [
+      {
+        "name": "Eduardo Mello",
+        "type": 1
+      },
+      {
+        "name": "Ryan Kinnaird",
+        "type": 4
+      }
+    ],
+    "seriesStartTimestamps": [1830366000000],
+    "possibleSeries": 10
   },
   {
     "defId": "EvolvedWasp",
@@ -9876,6 +10093,175 @@
     "attributes": {
       "data": {
         "AddedPower": 2
+      }
+    },
+    "series": 0,
+    "artists": [],
+    "seriesStartTimestamps": []
+  },
+  {
+    "defId": "OmniversalPresence",
+    "cost": 1,
+    "power": 0,
+    "name": "Omniversal Presence",
+    "description": "<b>On Reveal:</b> Replace this location with a new one and give Merlin +2 Power. <i>(Banish this.)</i>",
+    "attributes": {
+      "data": {
+        "AddedPower": 2
+      },
+      "cards": {
+        "Card_Source": ["Merlin"],
+        "Card_Modified": ["Merlin"]
+      }
+    },
+    "series": 0,
+    "artists": [
+      {
+        "name": "Eduardo Mello",
+        "type": 1
+      },
+      {
+        "name": "Ryan Kinnaird",
+        "type": 4
+      }
+    ],
+    "seriesStartTimestamps": []
+  },
+  {
+    "defId": "OnceAndFuture",
+    "cost": 1,
+    "power": 0,
+    "name": "Once And Future",
+    "description": "<b>On Reveal:</b> Shuffle your lowest-Power other card here into your deck to get +2 Energy next turn. <i>(Banish this.)</i>",
+    "attributes": {
+      "data": {
+        "AddedEnergy": 2
+      },
+      "cards": {
+        "Card_Source": ["Merlin"]
+      }
+    },
+    "series": 0,
+    "artists": [],
+    "seriesStartTimestamps": []
+  },
+  {
+    "defId": "Polymorph",
+    "cost": 1,
+    "power": 0,
+    "name": "Polymorph",
+    "description": "<b>On Reveal:</b> Transform your lowest-Power other card here into one that costs 2 more. <i>(Banish this.)</i>",
+    "attributes": {
+      "data": {
+        "AddedCost": 2
+      },
+      "cards": {
+        "Card_Source": ["Merlin"]
+      }
+    },
+    "series": 0,
+    "artists": [
+      {
+        "name": "Eduardo Mello",
+        "type": 1
+      },
+      {
+        "name": "Ryan Kinnaird",
+        "type": 4
+      }
+    ],
+    "seriesStartTimestamps": []
+  },
+  {
+    "defId": "TaoMandala",
+    "cost": 3,
+    "power": 0,
+    "name": "Tao Mandala",
+    "description": "<b>On Reveal:</b> Your characters here copy the text of one of your <b>Ongoing</b> cards here. <i>(Banish this.)</i>",
+    "attributes": {
+      "cards": {
+        "Card_Source": ["TheAncientOne"]
+      }
+    },
+    "series": 0,
+    "artists": [
+      {
+        "name": "Eduardo Mello",
+        "type": 1
+      },
+      {
+        "name": "Ryan Kinnaird",
+        "type": 4
+      }
+    ],
+    "seriesStartTimestamps": []
+  },
+  {
+    "defId": "FlamesOfTheFaltine",
+    "cost": 1,
+    "power": 0,
+    "name": "Flames Of The Faltine",
+    "description": "<b>On Reveal:</b> Afflict an enemy card here with -2 Power. <i>(Banish this.)</i>",
+    "attributes": {
+      "data": {
+        "ReducedPower": 2
+      },
+      "cards": {
+        "Card_Source": ["Clea"]
+      }
+    },
+    "series": 0,
+    "artists": [],
+    "seriesStartTimestamps": []
+  },
+  {
+    "defId": "SummoningRitual01Dormammu",
+    "cost": 0,
+    "power": 0,
+    "name": "Summoning Ritual 1",
+    "description": "<b>On Reveal:</b> Merge your highest-Power destroyed card with Dormammu to continue the ritual. <i>(Banish this.)</i>",
+    "attributes": {
+      "cards": {
+        "Card_Token": ["SummoningRitual02Dormammu", "SummoningRitual03Dormammu"],
+        "Card_Source": ["Dormammu"]
+      }
+    },
+    "series": 0,
+    "artists": [],
+    "seriesStartTimestamps": []
+  },
+  {
+    "defId": "SummoningRitual02Dormammu",
+    "cost": 1,
+    "power": 0,
+    "name": "Summoning Ritual 2",
+    "description": "<b>On Reveal:</b> Dormammu steals 1 Power from EACH other card here to continue the ritual. <i>(Banish this.)</i>",
+    "attributes": {
+      "data": {
+        "ReducedPower": 1
+      },
+      "cards": {
+        "Card_Token": ["SummoningRitual03Dormammu", "SummoningRitual01Dormammu"],
+        "Card_Source": ["Dormammu"]
+      }
+    },
+    "series": 0,
+    "artists": [],
+    "seriesStartTimestamps": []
+  },
+  {
+    "defId": "SummoningRitual03Dormammu",
+    "cost": 3,
+    "power": 0,
+    "name": "Summoning Ritual 3",
+    "description": "<b>On Reveal:</b> Destroy 2 of your other cards here to summon Dormammu. <i>(Banish this.)</i>",
+    "attributes": {
+      "data": {
+        "ModifiedCardCount": 2
+      },
+      "cards": {
+        "Card_Source": ["Dormammu"],
+        "Card_Token": ["SummoningRitual01Dormammu", "SummoningRitual02Dormammu"]
       }
     },
     "series": 0,
