@@ -204,6 +204,7 @@ export const map: Record<Key, Roster> = {
       'Hawkeye',
       'Destroyer',
       'Frigga',
+      'Laufey',
     ],
     minor_: ['Jane Foster Mighty Thor', 'Nick Fury'],
   },
@@ -1789,6 +1790,7 @@ export const map: Record<Key, Roster> = {
       'High Evolutionary',
       'Doctor Doom',
       'Malekith',
+      'Laufey',
     ],
   },
   '2013–2019|Avengers Assemble': {
