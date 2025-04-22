@@ -360,7 +360,7 @@
   {
     "defId": "Bishop",
     "cost": 3,
-    "power": 1,
+    "power": 2,
     "name": "Bishop",
     "description": "After you play a card, this gains +1 Power.",
     "attributes": {
@@ -1164,7 +1164,7 @@
   {
     "defId": "DevilDinosaur",
     "cost": 5,
-    "power": 3,
+    "power": 4,
     "name": "Devil Dinosaur",
     "description": "<b>Ongoing:</b> +2 Power for each card in your hand.",
     "attributes": {
@@ -3058,7 +3058,7 @@
   {
     "defId": "Modok",
     "cost": 5,
-    "power": 8,
+    "power": 7,
     "name": "M.O.D.O.K.",
     "description": "<b>On Reveal:</b> Discard your hand.",
     "series": 6,
@@ -3723,7 +3723,7 @@
   {
     "defId": "Patriot",
     "cost": 3,
-    "power": 1,
+    "power": 2,
     "name": "Patriot",
     "description": "<b>Ongoing:</b> Your cards with no abilities have +2 Power.",
     "attributes": {
@@ -8349,7 +8349,7 @@
   {
     "defId": "RocketAndGroot",
     "cost": 3,
-    "power": 3,
+    "power": 2,
     "name": "Rocket and Groot",
     "description": "You can move this once.\nAfter your opponent plays a card here, steal 1 Power from it.",
     "attributes": {
@@ -8533,9 +8533,9 @@
   {
     "defId": "ToxieDoxie",
     "cost": 2,
-    "power": 4,
+    "power": 1,
     "name": "Toxie Doxie",
-    "description": "<b>On Reveal:</b> Draw a card.\nYou can't play cards next turn.",
+    "description": "<b>On Reveal:</b> Give 2 cards in your hand +2 Power. You can't play them next turn.",
     "series": 0,
     "artists": [
       {
@@ -8547,7 +8547,9 @@
         "type": 4
       }
     ],
-    "seriesStartTimestamps": []
+    "seriesStartTimestamps": [1744916400000, 1745521200000],
+    "possibleSeries": 7,
+    "collectible": true
   },
   {
     "defId": "Gorgon",
@@ -8629,7 +8631,7 @@
   {
     "defId": "Redwing",
     "cost": 3,
-    "power": 4,
+    "power": 5,
     "name": "Redwing",
     "description": "The first time this moves, add a card from your hand to the old location.",
     "series": 8,
@@ -8780,7 +8782,7 @@
         "Card_Token": ["Spell02Agamotto", "Spell01Agamotto", "Spell04Agamotto", "Spell03Agamotto"]
       }
     },
-    "series": 9,
+    "series": 8,
     "artists": [
       {
         "name": "Eduardo Mello",
@@ -8792,7 +8794,6 @@
       }
     ],
     "seriesStartTimestamps": [1741114800000, 1743534000000],
-    "possibleSeries": 8,
     "collectible": true,
     "isSeasonPass": true
   },
@@ -8911,7 +8912,7 @@
   {
     "defId": "GhostTheFirstRider",
     "cost": 2,
-    "power": 5,
+    "power": 6,
     "name": "The First Ghost Rider",
     "description": "<b>On Reveal:</b> Discard the lowest-Power card from your hand. Remove that card's Power from this.",
     "series": 7,
@@ -8934,7 +8935,7 @@
     "power": 3,
     "name": "Captain Carter",
     "description": "<b>Ongoing:</b> Add this card's Power to your back-row cards here.\n<i>(can't add to itself)</i>",
-    "series": 0,
+    "series": 9,
     "artists": [
       {
         "name": "Eduardo Mello",
@@ -8961,7 +8962,7 @@
         "AddedPower": 1
       }
     },
-    "series": 0,
+    "series": 8,
     "artists": [
       {
         "name": "Eduardo Mello",
@@ -8973,7 +8974,6 @@
       }
     ],
     "seriesStartTimestamps": [1744138800000],
-    "possibleSeries": 8,
     "collectible": true
   },
   {
@@ -8999,7 +8999,8 @@
       }
     ],
     "seriesStartTimestamps": [1745348400000],
-    "possibleSeries": 8
+    "possibleSeries": 8,
+    "collectible": true
   },
   {
     "defId": "HydraStomper",
@@ -9047,7 +9048,7 @@
         ]
       }
     },
-    "series": 0,
+    "series": 8,
     "artists": [
       {
         "name": "Eduardo Mello",
@@ -9059,7 +9060,7 @@
       }
     ],
     "seriesStartTimestamps": [1744743600000],
-    "possibleSeries": 8
+    "collectible": true
   },
   {
     "defId": "Goliath",
@@ -9072,7 +9073,7 @@
         "AddedPower": 1
       }
     },
-    "series": 0,
+    "series": 8,
     "artists": [
       {
         "name": "Eduardo Mello",
@@ -9084,7 +9085,6 @@
       }
     ],
     "seriesStartTimestamps": [1743534000000],
-    "possibleSeries": 8,
     "collectible": true
   },
   {

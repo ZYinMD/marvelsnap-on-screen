@@ -135,7 +135,7 @@ export const allCards = {
   'Bishop': {
     defId: 'Bishop',
     cost: 3,
-    power: 1,
+    power: 2,
     name: 'Bishop',
     description: 'After you play a card, this gains +1 Power.',
     seriesStartTimestamps: [-62135596800000],
@@ -414,7 +414,7 @@ export const allCards = {
   'Devil Dinosaur': {
     defId: 'DevilDinosaur',
     cost: 5,
-    power: 3,
+    power: 4,
     name: 'Devil Dinosaur',
     description: '<b>Ongoing:</b> +2 Power for each card in your hand.',
     seriesStartTimestamps: [-62135596800000],
@@ -1059,7 +1059,7 @@ export const allCards = {
   'M.O.D.O.K.': {
     defId: 'Modok',
     cost: 5,
-    power: 8,
+    power: 7,
     name: 'M.O.D.O.K.',
     description: '<b>On Reveal:</b> Discard your hand.',
     seriesStartTimestamps: [-62135596800000, 1741028400000],
@@ -1266,7 +1266,7 @@ export const allCards = {
   'Patriot': {
     defId: 'Patriot',
     cost: 3,
-    power: 1,
+    power: 2,
     name: 'Patriot',
     description: '<b>Ongoing:</b> Your cards with no abilities have +2 Power.',
     seriesStartTimestamps: [-62135596800000],
@@ -2639,7 +2639,7 @@ export const allCards = {
   'Rocket and Groot': {
     defId: 'RocketAndGroot',
     cost: 3,
-    power: 3,
+    power: 2,
     name: 'Rocket and Groot',
     description:
       'You can move this once.\nAfter your opponent plays a card here, steal 1 Power from it.',
@@ -2681,6 +2681,16 @@ export const allCards = {
       '<b>On Reveal:</b> Compare the Power of the top 3 cards of both decks. If your total is higher, +6 Power.',
     seriesStartTimestamps: [1738090800000],
   },
+  'Toxie Doxie': {
+    defId: 'ToxieDoxie',
+    cost: 2,
+    power: 1,
+    name: 'Toxie Doxie',
+    description:
+      "<b>On Reveal:</b> Give 2 cards in your hand +2 Power. You can't play them next turn.",
+    seriesStartTimestamps: [1744916400000, 1745521200000],
+    possibleSeries: 7,
+  },
   'Gorgon': {
     defId: 'Gorgon',
     cost: 2,
@@ -2711,7 +2721,7 @@ export const allCards = {
   'Redwing': {
     defId: 'Redwing',
     cost: 3,
-    power: 4,
+    power: 5,
     name: 'Redwing',
     description: 'The first time this moves, add a card from your hand to the old location.',
     seriesStartTimestamps: [1739905200000],
@@ -2741,7 +2751,6 @@ export const allCards = {
     name: 'Agamotto',
     description: '<b>Game Start:</b> Shuffle 4 Ancient Arcana into your deck.',
     seriesStartTimestamps: [1741114800000, 1743534000000],
-    possibleSeries: 8,
     isSeasonPass: true,
   },
   'Firehair': {
@@ -2780,7 +2789,7 @@ export const allCards = {
   'The First Ghost Rider': {
     defId: 'GhostTheFirstRider',
     cost: 2,
-    power: 5,
+    power: 6,
     name: 'The First Ghost Rider',
     description:
       "<b>On Reveal:</b> Discard the lowest-Power card from your hand. Remove that card's Power from this.",
@@ -2805,7 +2814,24 @@ export const allCards = {
     description:
       '<b>On Reveal:</b> Each card in your hand gives one of your cards in play +1 Power.',
     seriesStartTimestamps: [1744138800000],
+  },
+  'Strange Supreme': {
+    defId: 'StrangeSupreme',
+    cost: 2,
+    power: 2,
+    name: 'Strange Supreme',
+    description:
+      'Gains +2 Power from merging.\n<b>End of Turn:</b> Merge one of your created cards into this.',
+    seriesStartTimestamps: [1745348400000],
     possibleSeries: 8,
+  },
+  'Infinity Ultron': {
+    defId: 'InfinityUltron',
+    cost: 5,
+    power: 6,
+    name: 'Infinity Ultron',
+    description: "<b>On Reveal:</b> Add 2 of Ultron's Stones to your hand.",
+    seriesStartTimestamps: [1744743600000],
   },
   'Goliath': {
     defId: 'Goliath',
@@ -2814,6 +2840,5 @@ export const allCards = {
     name: 'Goliath',
     description: '<b>Ongoing:</b> +1 Power for each other <b>Ongoing</b> card you have in play.',
     seriesStartTimestamps: [1743534000000],
-    possibleSeries: 8,
   },
 } as const;
