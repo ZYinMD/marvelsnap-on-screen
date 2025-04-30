@@ -1841,6 +1841,7 @@ export const map: Record<Key, Roster> = {
       'Crossbones',
       'Arnim Zola',
       'Absorbing Man',
+      'Goliath',
     ],
     minor_: [
       'Nick Fury',
