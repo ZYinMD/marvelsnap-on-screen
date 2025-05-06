@@ -948,7 +948,7 @@ export const map: Record<Key, Roster> = {
   '2017|Inhumans': {
     major: new Set(),
     minor: new Set(),
-    major_: ['Black Bolt', 'Medusa', 'Crystal', 'Maximus', 'Lockjaw'],
+    major_: ['Black Bolt', 'Medusa', 'Gorgon', 'Crystal', 'Maximus', 'Lockjaw'],
     minor_: [],
   },
   '2017–2019|The Gifted': {
@@ -1146,6 +1146,7 @@ export const map: Record<Key, Roster> = {
       'Super-Skrull',
       'Crystal',
       'Black Bolt',
+      'Gorgon',
       'Lockjaw',
     ],
     minor_: [
@@ -1690,6 +1691,7 @@ export const map: Record<Key, Roster> = {
       'Swarm',
       'Morbius',
       'Medusa',
+      'Gorgon',
       'The Collector',
       'Lockjaw',
       'Grand Master',
@@ -1773,6 +1775,7 @@ export const map: Record<Key, Roster> = {
       'Maximus',
       'Lockjaw',
       'Medusa',
+      'Gorgon',
       'Venom',
       'Wolverine',
       'Heimdall',
@@ -1818,6 +1821,7 @@ export const map: Record<Key, Roster> = {
       "M'Baku",
       'Black Bolt',
       'Medusa',
+      'Gorgon',
       'Jane Foster Mighty Thor',
       'Ultron',
       'Red Skull',
@@ -1979,6 +1983,7 @@ export const map: Record<Key, Roster> = {
       'Proxima Midnight',
       'Cull Obsidian',
       'Medusa',
+      'Gorgon',
       'Lockjaw',
       'Heimdall',
       'Venom',
