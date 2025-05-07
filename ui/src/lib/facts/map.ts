@@ -869,7 +869,7 @@ export const map: Record<Key, Roster> = {
       'Thaddeus Ross',
       'Red Hulk',
       'Redwing',
-      'Diamondback',
+      'Leader',
     ],
     minor_: ['Bucky Barnes'],
   },
