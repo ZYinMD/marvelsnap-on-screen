@@ -873,6 +873,21 @@ export const map: Record<Key, Roster> = {
     ],
     minor_: ['Bucky Barnes'],
   },
+  '2025|Thunderbolts*': {
+    major: new Set(),
+    minor: new Set(),
+    major_: [
+      'White Widow',
+      'Bucky Barnes',
+      'U.S. Agent',
+      'Taskmaster',
+      'Sentry',
+      'Red Guardian',
+      'Ghost',
+      'Valentina',
+    ],
+    minor_: [],
+  },
   '2006|Blade: The Series': {
     major: new Set(),
     minor: new Set(),

@@ -761,6 +761,16 @@ export const allTitles = {
       numEpisodes: 1,
       key: '2025|Captain America: Brave New World',
     },
+    '2025|Thunderbolts*': {
+      type: 'movie',
+      year: '2025',
+      title: 'Thunderbolts*',
+      wikipedia: 'https://en.wikipedia.org/wiki/Thunderbolts*',
+      label: ['mcu'],
+      numSeasons: 0,
+      numEpisodes: 1,
+      key: '2025|Thunderbolts*',
+    },
   },
   'live-action-tv-series': {
     '2006|Blade: The Series': {
