@@ -1833,6 +1833,7 @@ export const map: Record<Key, Roster> = {
       'Baron Zemo',
       'Shuri',
       'Killmonger',
+      'Agamotto',
       "M'Baku",
       'Black Bolt',
       'Medusa',
