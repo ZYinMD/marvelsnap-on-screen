@@ -63,7 +63,13 @@ const indeedNeverAppearedInShows = new Set<CardName>([
 verbose(indeedNeverAppearedInShows);
 
 console.info(`\nPlease investigate why the following cards are not being shown in the app:`);
-const needInvestigation = neverAppearedInApp.filter(
-  (card) => !indeedNeverAppearedInShows.has(card),
-);
+const needInvestigation = neverAppearedInApp
+  .filter((card) => !indeedNeverAppearedInShows.has(card))
+  .map((card) => {
+    const releaseTime = allCards[card].seriesStartTimestamps.at(-1);
+    // date as yyyy-mm-dd
+    const releaseDate = new Date(releaseTime!).toLocaleDateString('en-CA');
+    return `${releaseDate} ${card}`;
+  })
+  .sort();
 console.info(needInvestigation);
