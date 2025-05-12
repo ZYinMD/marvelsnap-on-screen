@@ -4052,12 +4052,12 @@
   {
     "defId": "Rhino",
     "cost": 3,
-    "power": 3,
+    "power": 6,
     "name": "Rhino",
-    "description": "<b>On Reveal:</b> Ruin this location. (remove its ability)",
+    "description": "<b>On Reveal:</b> Add a Rock to your side of this location.",
     "attributes": {
-      "locations": {
-        "Location_Morphed": [48]
+      "cards": {
+        "Card_Token": ["Rock"]
       }
     },
     "series": 5,
@@ -4544,7 +4544,7 @@
     "description": "<b>On Reveal:</b> Steal 2 Power from the top card of your opponent's deck.",
     "attributes": {
       "data": {
-        "AddedPower": 2
+        "StolenPower": 2
       }
     },
     "series": 8,
@@ -6657,7 +6657,7 @@
     "cost": 3,
     "power": 4,
     "name": "Sebastian Shaw",
-    "description": "When this card permanently gains Power, gain +2 more Power. <i>(wherever this is)</i>",
+    "description": "When this permanently gains Power, gain +2 more Power.\n<i>(wherever this is)</i>",
     "attributes": {
       "data": {
         "AddedPower": 2
@@ -7454,7 +7454,7 @@
   {
     "defId": "Phastos",
     "cost": 3,
-    "power": 3,
+    "power": 4,
     "name": "Phastos",
     "description": "<b>On Reveal:</b> Give each card in your deck -1 Cost or +2 Power.",
     "attributes": {
@@ -7578,7 +7578,7 @@
     "description": "<b>On Reveal:</b> Steal 1 Power from each card in your opponent's deck.",
     "attributes": {
       "data": {
-        "AddedPower": 1
+        "StolenPower": 1
       }
     },
     "series": 8,
@@ -7909,12 +7909,12 @@
   {
     "defId": "Scream",
     "cost": 2,
-    "power": 2,
+    "power": 1,
     "name": "Scream",
     "description": "When an enemy card moves, steal 2 Power from it. <i>(once per turn)</i>",
     "attributes": {
       "data": {
-        "ReducedPower": 2
+        "StolenPower": 2
       }
     },
     "series": 8,
@@ -7934,7 +7934,7 @@
   {
     "defId": "Toxin",
     "cost": 2,
-    "power": 1,
+    "power": 2,
     "name": "Toxin",
     "description": "<b>On Reveal:</b> Return your other cards here to your hand. +2 Power\nfor each returned.",
     "attributes": {
@@ -8170,7 +8170,7 @@
     "description": "<b>On Reveal:</b> Steal 1 Power from each other card here.",
     "attributes": {
       "data": {
-        "ReducedPower": 1
+        "StolenPower": 1
       }
     },
     "series": 7,
@@ -8354,7 +8354,7 @@
     "description": "You can move this once.\nAfter your opponent plays a card here, steal 1 Power from it.",
     "attributes": {
       "data": {
-        "ReducedPower": 1
+        "StolenPower": 1
       }
     },
     "series": 8,
@@ -8374,7 +8374,7 @@
   {
     "defId": "SPdr",
     "cost": 3,
-    "power": 3,
+    "power": 4,
     "name": "SP//dr",
     "description": "<b>On Reveal:</b> Merge with one of your cards here. You can move that card next turn.",
     "series": 0,
@@ -8535,8 +8535,14 @@
     "cost": 2,
     "power": 1,
     "name": "Toxie Doxie",
-    "description": "<b>On Reveal:</b> Give 2 cards in your hand +2 Power. You can't play them next turn.",
-    "series": 0,
+    "description": "<b>On Reveal:</b> Give 2 cards in your\nhand +2 Power. You can't play\nthem next turn.",
+    "attributes": {
+      "data": {
+        "AddedPower": 2,
+        "ModifiedCardCount": 2
+      }
+    },
+    "series": 7,
     "artists": [
       {
         "name": "Eduardo Mello",
@@ -8548,7 +8554,6 @@
       }
     ],
     "seriesStartTimestamps": [1744916400000, 1745521200000],
-    "possibleSeries": 7,
     "collectible": true
   },
   {
@@ -8580,7 +8585,7 @@
   {
     "defId": "SamWilson",
     "cost": 2,
-    "power": 3,
+    "power": 2,
     "name": "Sam Wilson Captain America",
     "description": "<b>Game Start:</b> Add Cap's Shield to a random location.\n<b>Ongoing:</b> You can move Cap's Shield.",
     "attributes": {
@@ -8690,7 +8695,8 @@
         "type": 4
       }
     ],
-    "seriesStartTimestamps": []
+    "seriesStartTimestamps": [1749754800000, 1750705200000],
+    "possibleSeries": 7
   },
   {
     "defId": "CapsShield",
@@ -8755,7 +8761,7 @@
         "AddedPower": 2
       }
     },
-    "series": 0,
+    "series": 7,
     "artists": [
       {
         "name": "Eduardo Mello",
@@ -8766,7 +8772,8 @@
         "type": 4
       }
     ],
-    "seriesStartTimestamps": []
+    "seriesStartTimestamps": [1745953200000],
+    "collectible": true
   },
   {
     "defId": "Agamotto",
@@ -8876,7 +8883,7 @@
     "power": 7,
     "name": "Fan Fei",
     "description": "<b>Activate:</b> Move your other cards here to the right.",
-    "series": 0,
+    "series": 7,
     "artists": [
       {
         "name": "Eduardo Mello",
@@ -8887,7 +8894,8 @@
         "type": 4
       }
     ],
-    "seriesStartTimestamps": []
+    "seriesStartTimestamps": [1745953200000],
+    "collectible": true
   },
   {
     "defId": "Eson",
@@ -8931,11 +8939,11 @@
   },
   {
     "defId": "CaptainCarter",
-    "cost": 4,
-    "power": 3,
+    "cost": 3,
+    "power": 2,
     "name": "Captain Carter",
     "description": "<b>Ongoing:</b> Add this card's Power to your back-row cards here.\n<i>(can't add to itself)</i>",
-    "series": 9,
+    "series": 8,
     "artists": [
       {
         "name": "Eduardo Mello",
@@ -8947,7 +8955,6 @@
       }
     ],
     "seriesStartTimestamps": [1743534000000, 1746558000000],
-    "possibleSeries": 8,
     "collectible": true,
     "isSeasonPass": true
   },
@@ -8987,7 +8994,7 @@
         "AddedPower": 2
       }
     },
-    "series": 0,
+    "series": 8,
     "artists": [
       {
         "name": "Eduardo Mello",
@@ -8999,7 +9006,6 @@
       }
     ],
     "seriesStartTimestamps": [1745348400000],
-    "possibleSeries": 8,
     "collectible": true
   },
   {
@@ -9013,7 +9019,7 @@
         "AddedPower": 1
       }
     },
-    "series": 0,
+    "series": 8,
     "artists": [
       {
         "name": "Eduardo Mello",
@@ -9025,12 +9031,12 @@
       }
     ],
     "seriesStartTimestamps": [1745953200000],
-    "possibleSeries": 8
+    "collectible": true
   },
   {
     "defId": "InfinityUltron",
     "cost": 5,
-    "power": 6,
+    "power": 8,
     "name": "Infinity Ultron",
     "description": "<b>On Reveal:</b> Add 2 of Ultron's Stones to your hand.",
     "attributes": {
@@ -9117,7 +9123,7 @@
     "power": 4,
     "name": "Topaz",
     "description": "After you play a card here, move it to the middle location.",
-    "series": 0,
+    "series": 7,
     "artists": [
       {
         "name": "Eduardo Mello",
@@ -9128,7 +9134,8 @@
         "type": 4
       }
     ],
-    "seriesStartTimestamps": []
+    "seriesStartTimestamps": [1745953200000],
+    "collectible": true
   },
   {
     "defId": "EsmeCuckoo",
@@ -9142,7 +9149,7 @@
         "AssignedPower": 4
       }
     },
-    "series": 0,
+    "series": 9,
     "artists": [
       {
         "name": "Eduardo Mello",
@@ -9155,6 +9162,7 @@
     ],
     "seriesStartTimestamps": [1746558000000, 1748977200000],
     "possibleSeries": 8,
+    "collectible": true,
     "isSeasonPass": true
   },
   {
@@ -9169,7 +9177,7 @@
         "AddedPower": 1
       }
     },
-    "series": 0,
+    "series": 8,
     "artists": [
       {
         "name": "Eduardo Mello",
@@ -9181,7 +9189,7 @@
       }
     ],
     "seriesStartTimestamps": [1746558000000],
-    "possibleSeries": 8
+    "collectible": true
   },
   {
     "defId": "Prodigy",
@@ -9201,7 +9209,8 @@
       }
     ],
     "seriesStartTimestamps": [1747162800000],
-    "possibleSeries": 8
+    "possibleSeries": 8,
+    "collectible": true
   },
   {
     "defId": "Elixir",
@@ -9266,8 +9275,8 @@
         "type": 4
       }
     ],
-    "seriesStartTimestamps": [1767294000000],
-    "possibleSeries": 7
+    "seriesStartTimestamps": [1749754800000, 1750705200000],
+    "possibleSeries": 8
   },
   {
     "defId": "Hellion",
@@ -9286,7 +9295,7 @@
         "type": 4
       }
     ],
-    "seriesStartTimestamps": [1767294000000],
+    "seriesStartTimestamps": [1748977200000],
     "possibleSeries": 7
   },
   {
@@ -9306,7 +9315,7 @@
         "type": 4
       }
     ],
-    "seriesStartTimestamps": [1767294000000],
+    "seriesStartTimestamps": [1748977200000],
     "possibleSeries": 7
   },
   {
@@ -9314,7 +9323,7 @@
     "cost": 2,
     "power": 3,
     "name": "Merlin",
-    "description": "At the start of each turn, add a Wizardly Incantation to your hand.",
+    "description": "At the start of each turn, add an Incantation to your hand.",
     "attributes": {
       "cards": {
         "Card_Token": ["OmniversalPresence", "OnceAndFuture", "Polymorph"]
@@ -9340,7 +9349,7 @@
     "cost": 4,
     "power": 5,
     "name": "Morgan le Fay",
-    "description": "<b>On Reveal:</b> Return all your discarded and destroyed cards to hand with +3 Power.",
+    "description": "<b>On Reveal:</b> Return all your discarded and destroyed cards to hand\nwith +3 Power.",
     "attributes": {
       "data": {
         "AddedPower": 3
@@ -9365,7 +9374,7 @@
     "cost": 3,
     "power": 5,
     "name": "The Ancient One",
-    "description": "<b>On Reveal:</b> Add a Tao Mandala to your hand.",
+    "description": "<b>On Reveal:</b> Add Tao Mandala to your hand.",
     "attributes": {
       "cards": {
         "Card_Token": ["TaoMandala"]
@@ -9390,7 +9399,7 @@
     "cost": 2,
     "power": 2,
     "name": "Nightmare",
-    "description": "<b>On Reveal:</b> Replace the text of each card in your hand with that of a random card that costs the same amount.",
+    "description": "<b>On Reveal:</b> Replace the text of each card in your hand with text from a random card of the same Cost.",
     "series": 0,
     "artists": [
       {
@@ -9410,7 +9419,7 @@
     "cost": 1,
     "power": 1,
     "name": "Clea",
-    "description": "After this card permanently gains Power, add a Flames Of The Faltine to your hand. <i>(if in hand or in play)</i>",
+    "description": "When this permanently gains Power, add Flames Of The Faltine to your hand. <i>(if in hand or in play)</i>",
     "attributes": {
       "cards": {
         "Card_Token": ["FlamesOfTheFaltine"]
@@ -9435,7 +9444,7 @@
     "cost": 7,
     "power": 10,
     "name": "Dormammu",
-    "description": "<b>Game Start:</b> Begin a Summoning Ritual. <i>(Add the first step to hand.)</i>",
+    "description": "<b>Game Start:</b> Begin a Summoning Ritual. <i>(Add step 1 to hand.)</i>",
     "attributes": {
       "cards": {
         "Card_Token": [
@@ -9489,7 +9498,7 @@
     "cost": 1,
     "power": 2,
     "name": "Nicholas Scratch",
-    "description": "After you play a Skill, +1 Power.",
+    "description": "After you play a skill, +1 Power.",
     "attributes": {
       "data": {
         "AddedPower": 1
@@ -9528,6 +9537,203 @@
     ],
     "seriesStartTimestamps": [1830366000000],
     "possibleSeries": 10
+  },
+  {
+    "defId": "Fantasticar",
+    "cost": 4,
+    "power": 6,
+    "name": "Fantasticar",
+    "description": "<color=#ff2c2c>!</color><b>Activate:</b> Give your <b>End of Turn</b> cards +2 Power.",
+    "attributes": {
+      "data": {
+        "AddedPower": 2
+      }
+    },
+    "series": 0,
+    "artists": [],
+    "seriesStartTimestamps": [1830366000000],
+    "possibleSeries": 7
+  },
+  {
+    "defId": "Herbie",
+    "cost": 2,
+    "power": 2,
+    "name": "H.E.R.B.I.E.",
+    "description": "<color=#ff2c2c>!</color>Each turn this is in play, swap to a new <b>Activate</b> ability until one is used.",
+    "attributes": {
+      "cards": {
+        "Card_Related": ["Program01Herbie", "Program02Herbie", "Program03Herbie", "Program04Herbie"]
+      }
+    },
+    "series": 0,
+    "artists": [],
+    "seriesStartTimestamps": [1752001200000],
+    "possibleSeries": 8
+  },
+  {
+    "defId": "MoleMan",
+    "cost": 3,
+    "power": 3,
+    "name": "Mole Man",
+    "description": "<color=#ff2c2c>!</color><b>On Reveal:</b> Banish the top card of your deck. Add 2 Rocks to your hand with Power set to the banished card’s Cost.",
+    "attributes": {
+      "data": {
+        "TokenCount": 2
+      },
+      "cards": {
+        "Card_Token": ["Rock"]
+      }
+    },
+    "series": 0,
+    "artists": [],
+    "seriesStartTimestamps": [1830366000000],
+    "possibleSeries": 7
+  },
+  {
+    "defId": "MrFantasticFirstSteps",
+    "cost": 2,
+    "power": 3,
+    "name": "Mister Fantastic First Steps",
+    "description": "<color=#ff2c2c>!</color><b>End of Turn:</b> Give a card in your hand +2 Power or -1 Cost.",
+    "attributes": {
+      "data": {
+        "AddedPower": 2,
+        "ReducedCost": 1
+      }
+    },
+    "series": 0,
+    "artists": [],
+    "seriesStartTimestamps": [1752001200000, 1754420400000],
+    "possibleSeries": 8
+  },
+  {
+    "defId": "InvisibleWomanFirstSteps",
+    "cost": 3,
+    "power": 4,
+    "name": "Invisible Woman First Steps",
+    "description": "<color=#ff2c2c>!</color><b>Activate:</b> This turn, your <b>End of Turn</b> abilities happen twice.",
+    "series": 0,
+    "artists": [],
+    "seriesStartTimestamps": [1753815600000],
+    "possibleSeries": 8
+  },
+  {
+    "defId": "HumanTorchFirstSteps",
+    "cost": 3,
+    "power": 2,
+    "name": "Human Torch First Steps",
+    "description": "<color=#ff2c2c>!</color><b>End of Turn:</b> +1 Power. Once per game, if your side here is full, double this card’s Power instead.",
+    "attributes": {
+      "data": {
+        "AddedPower": 1
+      }
+    },
+    "series": 0,
+    "artists": [],
+    "seriesStartTimestamps": [1752606000000],
+    "possibleSeries": 8
+  },
+  {
+    "defId": "TheThingFirstSteps",
+    "cost": 5,
+    "power": 6,
+    "name": "The Thing First Steps",
+    "description": "<color=#ff2c2c>!</color><b>End of Turn:</b> +2 Power. Once per game, if your side here is full, destroy an enemy card here with lesser Power.",
+    "attributes": {
+      "data": {
+        "AddedPower": 2
+      }
+    },
+    "series": 0,
+    "artists": [],
+    "seriesStartTimestamps": [1753210800000],
+    "possibleSeries": 8
+  },
+  {
+    "defId": "MadThinker",
+    "cost": 1,
+    "power": 1,
+    "name": "Mad Thinker",
+    "description": "<color=#ff2c2c>!</color>At the start of each turn, gain +2 Power if your hand is full. <i>(after you draw)</i>",
+    "attributes": {
+      "data": {
+        "AddedPower": 2
+      }
+    },
+    "series": 0,
+    "artists": [],
+    "seriesStartTimestamps": [1835550000000],
+    "possibleSeries": 7
+  },
+  {
+    "defId": "Program01Herbie",
+    "cost": 2,
+    "power": 2,
+    "name": "H.E.R.B.I.E.",
+    "description": "<color=#ff2c2c>!</color><b>Activate:</b> Next turn, you get +2 Energy.",
+    "attributes": {
+      "data": {
+        "AddedEnergy": 2
+      },
+      "cards": {
+        "Card_Related": ["Program02Herbie", "Program03Herbie", "Program04Herbie"]
+      }
+    },
+    "series": 0,
+    "artists": [],
+    "seriesStartTimestamps": []
+  },
+  {
+    "defId": "Program02Herbie",
+    "cost": 2,
+    "power": 2,
+    "name": "H.E.R.B.I.E.",
+    "description": "<color=#ff2c2c>!</color><b>Activate:</b> Give your cards at adjacent locations +1 Power.",
+    "attributes": {
+      "data": {
+        "AddedPower": 1
+      },
+      "cards": {
+        "Card_Related": ["Program03Herbie", "Program04Herbie", "Program01Herbie"]
+      }
+    },
+    "series": 0,
+    "artists": [],
+    "seriesStartTimestamps": []
+  },
+  {
+    "defId": "Program03Herbie",
+    "cost": 2,
+    "power": 2,
+    "name": "H.E.R.B.I.E.",
+    "description": "<color=#ff2c2c>!</color><b>Activate:</b> Create a Rock with 4 Power here.",
+    "attributes": {
+      "data": {
+        "AssignedPower": 4
+      },
+      "cards": {
+        "Card_Related": ["Program04Herbie", "Program01Herbie", "Program02Herbie"],
+        "Card_Token": ["Rock"]
+      }
+    },
+    "series": 0,
+    "artists": [],
+    "seriesStartTimestamps": []
+  },
+  {
+    "defId": "Program04Herbie",
+    "cost": 2,
+    "power": 2,
+    "name": "H.E.R.B.I.E.",
+    "description": "<color=#ff2c2c>!</color><b>Activate:</b> Double this card's Power.",
+    "attributes": {
+      "cards": {
+        "Card_Related": ["Program01Herbie", "Program02Herbie", "Program03Herbie"]
+      }
+    },
+    "series": 0,
+    "artists": [],
+    "seriesStartTimestamps": []
   },
   {
     "defId": "EvolvedWasp",
@@ -10100,11 +10306,275 @@
     "seriesStartTimestamps": []
   },
   {
+    "defId": "MrFantasticChampion",
+    "cost": 3,
+    "power": 1,
+    "name": "Mister Fantastic",
+    "description": "<b>Ongoing:</b> Adjacent locations have +3 Power.",
+    "attributes": {
+      "data": {
+        "AddedPower": 3
+      },
+      "cards": {
+        "Card_Token": ["Skill01MrFantasticChampion"]
+      }
+    },
+    "series": 0,
+    "artists": [],
+    "seriesStartTimestamps": [1753470000000],
+    "possibleSeries": 10
+  },
+  {
+    "defId": "InvisibleWomanChampion",
+    "cost": 2,
+    "power": 3,
+    "name": "Invisible Woman",
+    "description": "<b>Ongoing:</b> Cards you play here are not revealed until the game ends.",
+    "attributes": {
+      "cards": {
+        "Card_Token": ["Skill01InvisibleWomanChampion"]
+      }
+    },
+    "series": 0,
+    "artists": [],
+    "seriesStartTimestamps": [1753470000000],
+    "possibleSeries": 10
+  },
+  {
+    "defId": "HumanTorchFirstStepsChampion",
+    "cost": 0,
+    "power": 0,
+    "name": "Human Torch First Steps",
+    "description": "<color=#ff2c2c>!</color>none",
+    "attributes": {
+      "cards": {
+        "Card_Token": ["Skill01HumanTorchFirstStepsChampion"]
+      }
+    },
+    "series": 0,
+    "artists": [],
+    "seriesStartTimestamps": [1753470000000],
+    "possibleSeries": 10
+  },
+  {
+    "defId": "TheThingFirstStepsChampion",
+    "cost": 0,
+    "power": 0,
+    "name": "The Thing First Steps",
+    "description": "<color=#ff2c2c>!</color>none",
+    "attributes": {
+      "cards": {
+        "Card_Token": ["Skill01TheThingFirstStepsChampion"]
+      }
+    },
+    "series": 0,
+    "artists": [],
+    "seriesStartTimestamps": [1753470000000],
+    "possibleSeries": 10
+  },
+  {
+    "defId": "HerbieChampion",
+    "cost": 2,
+    "power": 2,
+    "name": "H.E.R.B.I.E.",
+    "description": "<color=#ff2c2c>!</color>Each turn this is in play, swap to a new <b>Activate</b> ability until one is used.",
+    "attributes": {
+      "cards": {
+        "Card_Token": ["Skill01HerbieChampion"],
+        "Card_Related": ["Program01Herbie", "Program02Herbie", "Program03Herbie", "Program04Herbie"]
+      }
+    },
+    "series": 0,
+    "artists": [],
+    "seriesStartTimestamps": [1753470000000],
+    "possibleSeries": 10
+  },
+  {
+    "defId": "DrDoomChampion",
+    "cost": 6,
+    "power": 5,
+    "name": "Doctor Doom",
+    "description": "<b>On Reveal:</b> Add a 5-Power DoomBot to each other location.",
+    "attributes": {
+      "cards": {
+        "Card_Token": ["DoomBot", "Skill01DrDoomChampion"]
+      }
+    },
+    "series": 0,
+    "artists": [],
+    "seriesStartTimestamps": [1753470000000],
+    "possibleSeries": 10
+  },
+  {
+    "defId": "MoleManChampion",
+    "cost": 3,
+    "power": 3,
+    "name": "Mole Man",
+    "description": "<color=#ff2c2c>!</color><b>On Reveal:</b> Banish the top card of your deck. Add 2 Rocks to your hand with Power set to the banished card’s Cost.",
+    "attributes": {
+      "data": {
+        "TokenCount": 2
+      },
+      "cards": {
+        "Card_Token": ["Rock", "Skill01MoleManChampion"]
+      }
+    },
+    "series": 0,
+    "artists": [],
+    "seriesStartTimestamps": [1753470000000],
+    "possibleSeries": 10
+  },
+  {
+    "defId": "CarnageChampion",
+    "cost": 2,
+    "power": 2,
+    "name": "Carnage",
+    "description": "<b>On Reveal:</b> Destroy your other cards here. +2 Power for each destroyed.",
+    "attributes": {
+      "data": {
+        "AddedPower": 2
+      },
+      "cards": {
+        "Card_Token": ["Skill01CarnageChampion"]
+      }
+    },
+    "series": 0,
+    "artists": [],
+    "seriesStartTimestamps": [1753470000000],
+    "possibleSeries": 10
+  },
+  {
+    "defId": "Skill01MrFantasticChampion",
+    "cost": 3,
+    "power": 0,
+    "name": "Council of Reeds",
+    "description": "<b>On Reveal:</b> Give all your ongoing cards everywhere -1 cost.",
+    "attributes": {
+      "data": {
+        "ReducedCost": 1
+      },
+      "cards": {
+        "Card_Source": ["MrFantasticChampion"]
+      }
+    },
+    "series": 0,
+    "artists": [],
+    "seriesStartTimestamps": []
+  },
+  {
+    "defId": "Skill01InvisibleWomanChampion",
+    "cost": 2,
+    "power": 0,
+    "name": "Flyrokenesis",
+    "description": "<b>On Reveal:</b> next turn, you get +1 energy for each of your unrevealed cards.",
+    "attributes": {
+      "cards": {
+        "Card_Source": ["InvisibleWomanChampion"]
+      }
+    },
+    "series": 0,
+    "artists": [],
+    "seriesStartTimestamps": []
+  },
+  {
+    "defId": "Skill01HumanTorchFirstStepsChampion",
+    "cost": 2,
+    "power": 0,
+    "name": "Flame On",
+    "description": "<b>On Reveal:</b> Add Human Torch’s power to the next card you play.",
+    "attributes": {
+      "cards": {
+        "Card_Source": ["HumanTorchFirstStepsChampion"]
+      }
+    },
+    "series": 0,
+    "artists": [],
+    "seriesStartTimestamps": []
+  },
+  {
+    "defId": "Skill01TheThingFirstStepsChampion",
+    "cost": 1,
+    "power": 0,
+    "name": "Clobberin' Time",
+    "description": "<b>On Reveal:</b> Move The Thing to this location. He can repeat his destroy ability this game.",
+    "attributes": {
+      "cards": {
+        "Card_Source": ["TheThingFirstStepsChampion"]
+      }
+    },
+    "series": 0,
+    "artists": [],
+    "seriesStartTimestamps": []
+  },
+  {
+    "defId": "Skill01HerbieChampion",
+    "cost": 1,
+    "power": 0,
+    "name": "Helpful Assistance",
+    "description": "<b>On Reveal:</b> Execute two random protocols.",
+    "attributes": {
+      "cards": {
+        "Card_Source": ["HerbieChampion"]
+      }
+    },
+    "series": 0,
+    "artists": [],
+    "seriesStartTimestamps": []
+  },
+  {
+    "defId": "Skill01DrDoomChampion",
+    "cost": 0,
+    "power": 0,
+    "name": "Master Plan",
+    "description": "<b>On Reveal:</b> Replace all cards you played this turn with Doombots.",
+    "attributes": {
+      "cards": {
+        "Card_Source": ["DrDoomChampion"]
+      }
+    },
+    "series": 0,
+    "artists": [],
+    "seriesStartTimestamps": []
+  },
+  {
+    "defId": "Skill01MoleManChampion",
+    "cost": 1,
+    "power": 0,
+    "name": "Subterranean Summons",
+    "description": "<b>On Reveal:</b> Give a created card in your hand +3 power and create another copy of it.",
+    "attributes": {
+      "data": {
+        "AddedPower": 3
+      },
+      "cards": {
+        "Card_Source": ["MoleManChampion"]
+      }
+    },
+    "series": 0,
+    "artists": [],
+    "seriesStartTimestamps": []
+  },
+  {
+    "defId": "Skill01CarnageChampion",
+    "cost": 0,
+    "power": 0,
+    "name": "Maximum Carnage",
+    "description": "<b>On Reveal:</b> Move Carnage to this location, then repeat his on reveal ability.",
+    "attributes": {
+      "cards": {
+        "Card_Source": ["CarnageChampion"]
+      }
+    },
+    "series": 0,
+    "artists": [],
+    "seriesStartTimestamps": []
+  },
+  {
     "defId": "OmniversalPresence",
     "cost": 1,
     "power": 0,
     "name": "Omniversal Presence",
-    "description": "<b>On Reveal:</b> Replace this location with a new one and give Merlin +2 Power. <i>(Banish this.)</i>",
+    "description": "<b>On Reveal:</b> Replace this location with a new one and give Merlin\n+2 Power.",
     "attributes": {
       "data": {
         "AddedPower": 2
@@ -10132,7 +10602,7 @@
     "cost": 1,
     "power": 0,
     "name": "Once And Future",
-    "description": "<b>On Reveal:</b> Shuffle your lowest-Power other card here into your deck to get +2 Energy next turn. <i>(Banish this.)</i>",
+    "description": "<b>On Reveal:</b> Shuffle your\nlowest-Power card here into your deck to get +2 Energy next turn.",
     "attributes": {
       "data": {
         "AddedEnergy": 2
@@ -10150,7 +10620,7 @@
     "cost": 1,
     "power": 0,
     "name": "Polymorph",
-    "description": "<b>On Reveal:</b> Transform your lowest-Power other card here into one that costs 2 more. <i>(Banish this.)</i>",
+    "description": "<b>On Reveal:</b> Transform your\nlowest-Power card here into\none that costs 2 more.",
     "attributes": {
       "data": {
         "AddedCost": 2
@@ -10177,7 +10647,7 @@
     "cost": 3,
     "power": 0,
     "name": "Tao Mandala",
-    "description": "<b>On Reveal:</b> Your characters here copy the text of one of your <b>Ongoing</b> cards here. <i>(Banish this.)</i>",
+    "description": "<b>On Reveal:</b> Copy the text of one of your <b>Ongoing</b> cards here onto\nyour other characters here.",
     "attributes": {
       "cards": {
         "Card_Source": ["TheAncientOne"]
@@ -10201,7 +10671,7 @@
     "cost": 1,
     "power": 0,
     "name": "Flames Of The Faltine",
-    "description": "<b>On Reveal:</b> Afflict an enemy card here with -2 Power. <i>(Banish this.)</i>",
+    "description": "<b>On Reveal:</b> Afflict an enemy card here with -2 Power.",
     "attributes": {
       "data": {
         "ReducedPower": 2
@@ -10219,7 +10689,7 @@
     "cost": 0,
     "power": 0,
     "name": "Summoning Ritual 1",
-    "description": "<b>On Reveal:</b> Merge your highest-Power destroyed card with Dormammu to continue the ritual. <i>(Banish this.)</i>",
+    "description": "<b>On Reveal:</b> Merge your\nhighest-Power destroyed card with Dormammu to continue. <i>(step 1/3)</i>",
     "attributes": {
       "cards": {
         "Card_Token": ["SummoningRitual02Dormammu", "SummoningRitual03Dormammu"],
@@ -10227,7 +10697,16 @@
       }
     },
     "series": 0,
-    "artists": [],
+    "artists": [
+      {
+        "name": "Eduardo Mello",
+        "type": 1
+      },
+      {
+        "name": "Ryan Kinnaird",
+        "type": 4
+      }
+    ],
     "seriesStartTimestamps": []
   },
   {
@@ -10235,10 +10714,10 @@
     "cost": 1,
     "power": 0,
     "name": "Summoning Ritual 2",
-    "description": "<b>On Reveal:</b> Dormammu steals 1 Power from EACH other card here to continue the ritual. <i>(Banish this.)</i>",
+    "description": "<b>On Reveal:</b> Dormammu steals 1 Power from EACH card here\nto continue. <i>(step 2/3)</i>",
     "attributes": {
       "data": {
-        "ReducedPower": 1
+        "StolenPower": 1
       },
       "cards": {
         "Card_Token": ["SummoningRitual03Dormammu", "SummoningRitual01Dormammu"],
@@ -10246,7 +10725,16 @@
       }
     },
     "series": 0,
-    "artists": [],
+    "artists": [
+      {
+        "name": "Eduardo Mello",
+        "type": 1
+      },
+      {
+        "name": "Ryan Kinnaird",
+        "type": 4
+      }
+    ],
     "seriesStartTimestamps": []
   },
   {
@@ -10254,7 +10742,7 @@
     "cost": 3,
     "power": 0,
     "name": "Summoning Ritual 3",
-    "description": "<b>On Reveal:</b> Destroy 2 of your other cards here to summon Dormammu. <i>(Banish this.)</i>",
+    "description": "<b>On Reveal:</b> Destroy 2 of your characters here to summon Dormammu. <i>(step 3/3)</i>",
     "attributes": {
       "data": {
         "ModifiedCardCount": 2
@@ -10262,6 +10750,187 @@
       "cards": {
         "Card_Source": ["Dormammu"],
         "Card_Token": ["SummoningRitual01Dormammu", "SummoningRitual02Dormammu"]
+      }
+    },
+    "series": 0,
+    "artists": [
+      {
+        "name": "Eduardo Mello",
+        "type": 1
+      },
+      {
+        "name": "Ryan Kinnaird",
+        "type": 4
+      }
+    ],
+    "seriesStartTimestamps": []
+  },
+  {
+    "defId": "OverloadedReactor",
+    "cost": 0,
+    "power": 0,
+    "name": "OverloadedReactor",
+    "description": "<color=#ff2c2c>!</color>none",
+    "attributes": {
+      "cards": {
+        "Card_Token": [
+          "Effect01OverloadedReactor",
+          "Effect02OverloadedReactor",
+          "Effect03OverloadedReactor",
+          "Effect04OverloadedReactor",
+          "Effect05OverloadedReactor",
+          "Effect06OverloadedReactor"
+        ]
+      }
+    },
+    "series": 0,
+    "artists": [],
+    "seriesStartTimestamps": []
+  },
+  {
+    "defId": "Effect01OverloadedReactor",
+    "cost": 0,
+    "power": 0,
+    "name": "Effect01OverloadedReactor",
+    "description": "<color=#ff2c2c>!</color>none",
+    "attributes": {
+      "cards": {
+        "Card_Source": ["OverloadedReactor"]
+      }
+    },
+    "series": 0,
+    "artists": [],
+    "seriesStartTimestamps": []
+  },
+  {
+    "defId": "Effect02OverloadedReactor",
+    "cost": 0,
+    "power": 0,
+    "name": "Effect02OverloadedReactor",
+    "description": "<color=#ff2c2c>!</color>none",
+    "attributes": {
+      "cards": {
+        "Card_Source": ["OverloadedReactor"]
+      }
+    },
+    "series": 0,
+    "artists": [],
+    "seriesStartTimestamps": []
+  },
+  {
+    "defId": "Effect03OverloadedReactor",
+    "cost": 0,
+    "power": 0,
+    "name": "Effect03OverloadedReactor",
+    "description": "<color=#ff2c2c>!</color>none",
+    "attributes": {
+      "cards": {
+        "Card_Source": ["OverloadedReactor"]
+      }
+    },
+    "series": 0,
+    "artists": [],
+    "seriesStartTimestamps": []
+  },
+  {
+    "defId": "Effect04OverloadedReactor",
+    "cost": 0,
+    "power": 0,
+    "name": "Effect04OverloadedReactor",
+    "description": "<color=#ff2c2c>!</color>none",
+    "attributes": {
+      "cards": {
+        "Card_Source": ["OverloadedReactor"]
+      }
+    },
+    "series": 0,
+    "artists": [],
+    "seriesStartTimestamps": []
+  },
+  {
+    "defId": "Effect05OverloadedReactor",
+    "cost": 0,
+    "power": 0,
+    "name": "Effect05OverloadedReactor",
+    "description": "<color=#ff2c2c>!</color>none",
+    "attributes": {
+      "cards": {
+        "Card_Source": ["OverloadedReactor"]
+      }
+    },
+    "series": 0,
+    "artists": [],
+    "seriesStartTimestamps": []
+  },
+  {
+    "defId": "Effect06OverloadedReactor",
+    "cost": 0,
+    "power": 0,
+    "name": "Effect06OverloadedReactor",
+    "description": "<color=#ff2c2c>!</color>none",
+    "attributes": {
+      "cards": {
+        "Card_Source": ["OverloadedReactor"]
+      }
+    },
+    "series": 0,
+    "artists": [],
+    "seriesStartTimestamps": []
+  },
+  {
+    "defId": "Effect07OverloadedReactor",
+    "cost": 0,
+    "power": 0,
+    "name": "Effect07OverloadedReactor",
+    "description": "<color=#ff2c2c>!</color>none",
+    "attributes": {
+      "cards": {
+        "Card_Source": ["OverloadedReactor"]
+      }
+    },
+    "series": 0,
+    "artists": [],
+    "seriesStartTimestamps": []
+  },
+  {
+    "defId": "Effect08OverloadedReactor",
+    "cost": 0,
+    "power": 0,
+    "name": "Effect08OverloadedReactor",
+    "description": "<color=#ff2c2c>!</color>none",
+    "attributes": {
+      "cards": {
+        "Card_Source": ["OverloadedReactor"]
+      }
+    },
+    "series": 0,
+    "artists": [],
+    "seriesStartTimestamps": []
+  },
+  {
+    "defId": "Effect09OverloadedReactor",
+    "cost": 0,
+    "power": 0,
+    "name": "Effect09OverloadedReactor",
+    "description": "<color=#ff2c2c>!</color>none",
+    "attributes": {
+      "cards": {
+        "Card_Source": ["OverloadedReactor"]
+      }
+    },
+    "series": 0,
+    "artists": [],
+    "seriesStartTimestamps": []
+  },
+  {
+    "defId": "Effect10OverloadedReactor",
+    "cost": 0,
+    "power": 0,
+    "name": "Effect10OverloadedReactor",
+    "description": "<color=#ff2c2c>!</color>none",
+    "attributes": {
+      "cards": {
+        "Card_Source": ["OverloadedReactor"]
       }
     },
     "series": 0,

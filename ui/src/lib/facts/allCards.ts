@@ -1355,9 +1355,9 @@ export const allCards = {
   'Rhino': {
     defId: 'Rhino',
     cost: 3,
-    power: 3,
+    power: 6,
     name: 'Rhino',
-    description: '<b>On Reveal:</b> Ruin this location. (remove its ability)',
+    description: '<b>On Reveal:</b> Add a Rock to your side of this location.',
     seriesStartTimestamps: [-62135596800000],
   },
   'Rocket Raccoon': {
@@ -2103,7 +2103,7 @@ export const allCards = {
     power: 4,
     name: 'Sebastian Shaw',
     description:
-      'When this card permanently gains Power, gain +2 more Power. <i>(wherever this is)</i>',
+      'When this permanently gains Power, gain +2 more Power.\n<i>(wherever this is)</i>',
     seriesStartTimestamps: [1701802800000, 1704222000000, 1741028400000],
     isSeasonPass: true,
   },
@@ -2358,7 +2358,7 @@ export const allCards = {
   'Phastos': {
     defId: 'Phastos',
     cost: 3,
-    power: 3,
+    power: 4,
     name: 'Phastos',
     description: '<b>On Reveal:</b> Give each card in your deck -1 Cost or +2 Power.',
     seriesStartTimestamps: [1719342000000, 1733770800000],
@@ -2501,7 +2501,7 @@ export const allCards = {
   'Scream': {
     defId: 'Scream',
     cost: 2,
-    power: 2,
+    power: 1,
     name: 'Scream',
     description: 'When an enemy card moves, steal 2 Power from it. <i>(once per turn)</i>',
     seriesStartTimestamps: [1727809200000],
@@ -2509,7 +2509,7 @@ export const allCards = {
   'Toxin': {
     defId: 'Toxin',
     cost: 2,
-    power: 1,
+    power: 2,
     name: 'Toxin',
     description:
       '<b>On Reveal:</b> Return your other cards here to your hand. +2 Power\nfor each returned.',
@@ -2687,9 +2687,8 @@ export const allCards = {
     power: 1,
     name: 'Toxie Doxie',
     description:
-      "<b>On Reveal:</b> Give 2 cards in your hand +2 Power. You can't play them next turn.",
+      "<b>On Reveal:</b> Give 2 cards in your\nhand +2 Power. You can't play\nthem next turn.",
     seriesStartTimestamps: [1744916400000, 1745521200000],
-    possibleSeries: 7,
   },
   'Gorgon': {
     defId: 'Gorgon',
@@ -2702,7 +2701,7 @@ export const allCards = {
   'Sam Wilson Captain America': {
     defId: 'SamWilson',
     cost: 2,
-    power: 3,
+    power: 2,
     name: 'Sam Wilson Captain America',
     description:
       "<b>Game Start:</b> Add Cap's Shield to a random location.\n<b>Ongoing:</b> You can move Cap's Shield.",
@@ -2744,6 +2743,14 @@ export const allCards = {
       '<b>End of Turn:</b> If your opponent has unspent Energy, draw a card with\n10 or more Power.',
     seriesStartTimestamps: [1739300400000],
   },
+  'Batroc the Leaper': {
+    defId: 'Batroc',
+    cost: 1,
+    power: 2,
+    name: 'Batroc the Leaper',
+    description: 'When a card moves, follow it to gain +2 Power. <i>(once per turn)</i>',
+    seriesStartTimestamps: [1745953200000],
+  },
   'Agamotto': {
     defId: 'Agamotto',
     cost: 5,
@@ -2778,6 +2785,14 @@ export const allCards = {
     description: '<b>Ongoing:</b> Your opponent has +3 Power at each other location.',
     seriesStartTimestamps: [1741719600000],
   },
+  'Fan Fei': {
+    defId: 'FanFei',
+    cost: 4,
+    power: 7,
+    name: 'Fan Fei',
+    description: '<b>Activate:</b> Move your other cards here to the right.',
+    seriesStartTimestamps: [1745953200000],
+  },
   'Eson': {
     defId: 'Eson',
     cost: 6,
@@ -2797,13 +2812,12 @@ export const allCards = {
   },
   'Captain Carter': {
     defId: 'CaptainCarter',
-    cost: 4,
-    power: 3,
+    cost: 3,
+    power: 2,
     name: 'Captain Carter',
     description:
       "<b>Ongoing:</b> Add this card's Power to your back-row cards here.\n<i>(can't add to itself)</i>",
     seriesStartTimestamps: [1743534000000, 1746558000000],
-    possibleSeries: 8,
     isSeasonPass: true,
   },
   'Kahhori': {
@@ -2823,12 +2837,19 @@ export const allCards = {
     description:
       'Gains +2 Power from merging.\n<b>End of Turn:</b> Merge one of your created cards into this.',
     seriesStartTimestamps: [1745348400000],
-    possibleSeries: 8,
+  },
+  'Hydra Stomper': {
+    defId: 'HydraStomper',
+    cost: 3,
+    power: 2,
+    name: 'Hydra Stomper',
+    description: '<b>Ongoing:</b> +1 Power for each time one of your cards moved this game.',
+    seriesStartTimestamps: [1745953200000],
   },
   'Infinity Ultron': {
     defId: 'InfinityUltron',
     cost: 5,
-    power: 6,
+    power: 8,
     name: 'Infinity Ultron',
     description: "<b>On Reveal:</b> Add 2 of Ultron's Stones to your hand.",
     seriesStartTimestamps: [1744743600000],
@@ -2840,5 +2861,43 @@ export const allCards = {
     name: 'Goliath',
     description: '<b>Ongoing:</b> +1 Power for each other <b>Ongoing</b> card you have in play.',
     seriesStartTimestamps: [1743534000000],
+  },
+  'Topaz': {
+    defId: 'Topaz',
+    cost: 3,
+    power: 4,
+    name: 'Topaz',
+    description: 'After you play a card here, move it to the middle location.',
+    seriesStartTimestamps: [1745953200000],
+  },
+  'Esme Cuckoo': {
+    defId: 'EsmeCuckoo',
+    cost: 3,
+    power: 4,
+    name: 'Esme Cuckoo',
+    description:
+      '<b>On Reveal:</b> Copy a card from your deck into your hand. Set its Cost to 3 and Power to 4.',
+    seriesStartTimestamps: [1746558000000, 1748977200000],
+    possibleSeries: 8,
+    isSeasonPass: true,
+  },
+  'Surge': {
+    defId: 'Surge',
+    cost: 2,
+    power: 2,
+    name: 'Surge',
+    description:
+      '<b>On Reveal:</b> Give the top card of your deck -1 Cost and +1 Power. After you play it, repeat this ability.',
+    seriesStartTimestamps: [1746558000000],
+  },
+  'Prodigy': {
+    defId: 'Prodigy',
+    cost: 3,
+    power: 4,
+    name: 'Prodigy',
+    description:
+      '<b>On Reveal:</b> If this is in the back row, copy the text of the card in front of it.',
+    seriesStartTimestamps: [1747162800000],
+    possibleSeries: 8,
   },
 } as const;
