@@ -60,6 +60,8 @@ const indeedNeverAppearedInShows = new Set<CardName>([
   'Wave',
   'Zero',
   'Firehair',
+  'The First Ghost Rider',
+  'Kahhori',
 ]);
 verbose(indeedNeverAppearedInShows);
 
