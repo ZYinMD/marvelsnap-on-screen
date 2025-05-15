@@ -480,6 +480,7 @@ export const map: Record<Key, Roster> = {
       'Odin',
       'Fenris Wolf',
       'Grand Master',
+      'Topaz',
       'Surtur',
       'Korg',
       'Miek',
