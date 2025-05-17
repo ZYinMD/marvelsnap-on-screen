@@ -225,7 +225,7 @@ export const map: Record<Key, Roster> = {
   '2011|Captain America: The First Avenger': {
     major: new Set(),
     minor: new Set(),
-    major_: ['Captain America', 'Red Skull', 'Bucky Barnes', 'Arnim Zola'],
+    major_: ['Captain America', 'Captain Carter', 'Red Skull', 'Bucky Barnes', 'Arnim Zola'],
     minor_: ['Nick Fury'],
   },
   '2011|Ghost Rider: Spirit of Vengeance': {
@@ -288,13 +288,14 @@ export const map: Record<Key, Roster> = {
       'Maria Hill',
       'Agent 13',
       'Arnim Zola',
+
       'Nick Fury',
       'Crossbones',
       'Quinjet',
       'Helicarrier',
       'Batroc the Leaper',
     ],
-    minor_: ['Quicksilver', 'Scarlet Witch'],
+    minor_: ['Captain Carter', 'Quicksilver', 'Scarlet Witch'],
   },
   '2014|The Amazing Spider-Man 2': {
     major: new Set(),
@@ -365,6 +366,7 @@ export const map: Record<Key, Roster> = {
       'Nick Fury',
       'Hulkbuster',
       'Klaw',
+      'Captain Carter',
       'Quinjet',
       'Helicarrier',
     ],
@@ -374,7 +376,7 @@ export const map: Record<Key, Roster> = {
     major: new Set(),
     minor: new Set(),
     major_: ['Ant Man', 'Yellowjacket', 'Falcon'],
-    minor_: ['Wasp', 'Captain America', 'Bucky Barnes', 'Stature'],
+    minor_: ['Wasp', 'Captain America', 'Bucky Barnes', 'Stature', 'Captain Carter'],
   },
   '2015|Fantastic Four': {
     major: new Set(),
@@ -910,12 +912,12 @@ export const map: Record<Key, Roster> = {
       'Victoria Hand',
       'Maria Hill',
     ],
-    minor_: ['Lady Sif', 'Nick Fury'],
+    minor_: ['Lady Sif', 'Nick Fury', 'Captain Carter'],
   },
   '2015–2016|Agent Carter': {
     major: new Set(),
     minor: new Set(),
-    major_: [],
+    major_: ['Captain Carter'],
     minor_: ['Arnim Zola'],
   },
   '2015–2018|Daredevil': {
@@ -1870,6 +1872,7 @@ export const map: Record<Key, Roster> = {
     ],
     minor_: [
       'Nick Fury',
+      'Captain Carter',
       'Mojo',
       'Uatu the Watcher',
       'Iron Fist',
