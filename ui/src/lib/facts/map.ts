@@ -1931,6 +1931,7 @@ export const map: Record<Key, Roster> = {
       'Magneto',
       'Juggernaut',
       'Sabretooth',
+      'Surge',
       'Crossbones',
       'Baron Zemo',
       'Silver Samurai',
