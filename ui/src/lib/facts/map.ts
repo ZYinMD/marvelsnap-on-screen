@@ -342,6 +342,7 @@ export const map: Record<Key, Roster> = {
       'Nebula',
       'The Collector',
       'Cosmo',
+      'Eson',
     ],
     minor_: ['Thanos', 'Howard the Duck'],
   },

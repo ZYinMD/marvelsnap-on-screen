@@ -31,7 +31,6 @@ const indeedNeverAppearedInShows = new Set<CardName>([
   'Debrii',
   'Doctor Doom 2099',
   'Emperor Hulkling',
-  'Eson',
   'Galacta',
   'Gwenpool',
   'Hazmat',
