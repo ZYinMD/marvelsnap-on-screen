@@ -2898,6 +2898,14 @@ export const allCards = {
     description:
       '<b>On Reveal:</b> If this is in the back row, copy the text of the card in front of it.',
     seriesStartTimestamps: [1747162800000],
+  },
+  'Elixir': {
+    defId: 'Elixir',
+    cost: 2,
+    power: 3,
+    name: 'Elixir',
+    description: '<b>On Reveal:</b> One of your cards destroyed last turn gets revived here.',
+    seriesStartTimestamps: [1747767600000],
     possibleSeries: 8,
   },
 } as const;
