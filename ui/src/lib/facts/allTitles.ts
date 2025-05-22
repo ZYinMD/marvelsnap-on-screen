@@ -1023,6 +1023,16 @@ export const allTitles = {
       numEpisodes: 9,
       key: '2024|Agatha All Along',
     },
+    '2025|Daredevil: Born Again': {
+      type: 'live-action-tv-series',
+      year: '2025',
+      title: 'Daredevil: Born Again',
+      wikipedia: 'https://en.wikipedia.org/wiki/Daredevil:_Born_Again',
+      label: ['mcu'],
+      numSeasons: 1,
+      numEpisodes: 9,
+      key: '2025|Daredevil: Born Again',
+    },
   },
   'animated-tv-series': {
     '1992–1997|X-Men: The Animated Series': {

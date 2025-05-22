@@ -1083,6 +1083,12 @@ export const map: Record<Key, Roster> = {
     major_: ['Agatha Harkness', 'Wiccan', 'Death'],
     minor_: [],
   },
+  '2025|Daredevil: Born Again': {
+    major: new Set(),
+    minor: new Set(),
+    major_: ['Daredevil', 'Kingpin', 'Bullseye', 'Punisher', 'White Tiger'],
+    minor_: [],
+  },
   '1992–1997|X-Men: The Animated Series': {
     major: new Set(),
     minor: new Set(),
