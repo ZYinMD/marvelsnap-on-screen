@@ -32,6 +32,7 @@ const indeedNeverAppearedInShows = new Set<CardName>([
   'Doctor Doom 2099',
   'Emperor Hulkling',
   'Galacta',
+  'Xorn',
   'Gwenpool',
   'Hazmat',
   'Hellcow',

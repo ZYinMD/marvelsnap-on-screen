@@ -976,7 +976,7 @@ export const map: Record<Key, Roster> = {
     major: new Set(),
     minor: new Set(),
     major_: ['Polaris', 'Blink', 'Sage'],
-    minor_: [],
+    minor_: ['Esme Cuckoo'],
   },
   '2017–2019|The Punisher': {
     major: new Set(),
@@ -1448,6 +1448,7 @@ export const map: Record<Key, Roster> = {
       'Multiple Man',
       'Rockslide',
       'Psylocke',
+      'Esme Cuckoo',
     ],
     minor_: [
       'X-23',
