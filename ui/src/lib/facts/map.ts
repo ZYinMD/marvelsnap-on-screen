@@ -1080,7 +1080,7 @@ export const map: Record<Key, Roster> = {
   '2024|Agatha All Along': {
     major: new Set(),
     minor: new Set(),
-    major_: ['Agatha Harkness', 'Wiccan', 'Death'],
+    major_: ['Agatha Harkness', 'Wiccan', 'Death', 'Jennifer Kale'],
     minor_: [],
   },
   '2025|Daredevil: Born Again': {
