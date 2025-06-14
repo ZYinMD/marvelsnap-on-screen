@@ -988,7 +988,7 @@ export const map: Record<Key, Roster> = {
     major: new Set(),
     minor: new Set(),
     major_: ['Nico Minoru'],
-    minor_: ['Cloak', 'Dagger'],
+    minor_: ['Cloak', 'Dagger', 'Morgan le Fay'],
   },
   '2018–2019|Cloak & Dagger': {
     major: new Set(),
@@ -1768,6 +1768,7 @@ export const map: Record<Key, Roster> = {
       'Abomination',
       'Skaar',
       'Absorbing Man',
+      'Morgan le Fay',
       'Uncle Ben',
     ],
   },
@@ -1878,6 +1879,7 @@ export const map: Record<Key, Roster> = {
       'Arnim Zola',
       'Absorbing Man',
       'Goliath',
+      'Morgan le Fay',
     ],
     minor_: [
       'Nick Fury',
@@ -2060,7 +2062,16 @@ export const map: Record<Key, Roster> = {
       'Green Goblin',
       'Red Guardian',
     ],
-    minor_: ['Iron Fist', 'Ms. Marvel', 'Klaw', 'Crossbones', 'The Hood', 'Leader', 'Diamondback'],
+    minor_: [
+      'Iron Fist',
+      'Ms. Marvel',
+      'Klaw',
+      'Crossbones',
+      'The Hood',
+      'Leader',
+      'Diamondback',
+      'Morgan le Fay',
+    ],
   },
   "2017–2020|Marvel's Spider-Man": {
     major: new Set(),
