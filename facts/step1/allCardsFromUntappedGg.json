@@ -11,7 +11,16 @@
 			}
 		},
 		"series": 0,
-		"artists": [],
+		"artists": [
+			{
+				"name": "Eduardo Mello",
+				"type": 1
+			},
+			{
+				"name": "Ryan Kinnaird",
+				"type": 4
+			}
+		],
 		"seriesStartTimestamps": [
 			1756839600000
 		],
@@ -462,7 +471,16 @@
 			}
 		},
 		"series": 0,
-		"artists": [],
+		"artists": [
+			{
+				"name": "Eduardo Mello",
+				"type": 1
+			},
+			{
+				"name": "Ryan Kinnaird",
+				"type": 4
+			}
+		],
 		"seriesStartTimestamps": [
 			1756839600000
 		],
@@ -586,8 +604,8 @@
 	},
 	{
 		"defId": "Rhino",
-		"cost": 3,
-		"power": 6,
+		"cost": 2,
+		"power": 5,
 		"name": "Rhino",
 		"description": "<b>On Reveal:</b> Add a Rock to your side of this location.",
 		"attributes": {
@@ -618,7 +636,7 @@
 		"cost": 0,
 		"power": 0,
 		"name": "Overdrive Reactor",
-		"description": "Each player adds 0 Chimichangas to each location.",
+		"description": "Each player adds 0 Chimichanga(s) to each location.",
 		"attributes": {
 			"data": {
 				"TokenCount_1": 1,
@@ -789,13 +807,23 @@
 	},
 	{
 		"defId": "Viv",
-		"cost": 2,
+		"cost": 3,
 		"power": 3,
 		"name": "Viv Vision",
-		"description": "When you move a card to a location, move this card\nthere as well.",
+		"description": "<b>End of Turn:</b> Give each card in your hand +1 Power if you’re winning here. Otherwise, move this to another location.",
+		"attributes": {
+			"data": {
+				"AddedPower": 1
+			}
+		},
 		"series": 0,
 		"artists": [],
-		"seriesStartTimestamps": []
+		"seriesStartTimestamps": [
+			1756839600000,
+			1759863600000
+		],
+		"possibleSeries": 8,
+		"isSeasonPass": true
 	},
 	{
 		"defId": "Sandman",
@@ -1143,7 +1171,7 @@
 		"cost": 0,
 		"power": 0,
 		"name": "Overdrive Reactor",
-		"description": "Give each charged card +0 power. (no matter where they are)",
+		"description": "Give charged cards +0 Power. (wherever they are)",
 		"attributes": {
 			"data": {
 				"AddedPower_1": 1,
@@ -1235,7 +1263,7 @@
 		"cost": 1,
 		"power": 2,
 		"name": "Clea",
-		"description": "When this permanently gains Power, add Flames Of The Faltine to your hand. <i>(if in hand or in play)</i>",
+		"description": "When this permanently gains Power, add Flames of the Faltine to your hand. <i>(if in hand or in play)</i>",
 		"attributes": {
 			"cards": {
 				"Card_Token": [
@@ -1243,7 +1271,7 @@
 				]
 			}
 		},
-		"series": 0,
+		"series": 8,
 		"artists": [
 			{
 				"name": "Eduardo Mello",
@@ -1257,7 +1285,8 @@
 		"seriesStartTimestamps": [
 			1751396400000
 		],
-		"possibleSeries": 8
+		"possibleSeries": 8,
+		"collectible": true
 	},
 	{
 		"defId": "Death",
@@ -1726,7 +1755,7 @@
 	{
 		"defId": "Program01Herbie",
 		"cost": 2,
-		"power": 2,
+		"power": 3,
 		"name": "H.E.R.B.I.E.",
 		"description": "<b>Activate:</b> Next turn, you get +2 Energy.",
 		"attributes": {
@@ -1850,7 +1879,7 @@
 		"power": 1,
 		"name": "Kid Omega",
 		"description": "<b>Activate:</b> Destroy the next card you play this turn to gain its Power.",
-		"series": 0,
+		"series": 10,
 		"artists": [
 			{
 				"name": "Eduardo Mello",
@@ -1863,9 +1892,10 @@
 		],
 		"seriesStartTimestamps": [
 			1750100400000,
-			1752519600000
+			1752692400000
 		],
-		"possibleSeries": 8
+		"possibleSeries": 8,
+		"collectible": true
 	},
 	{
 		"defId": "AgentCoulson",
@@ -2155,7 +2185,7 @@
 		"cost": 1,
 		"power": -3,
 		"name": "The Hood",
-		"description": "<b>On Reveal:</b> Add a Demon to your hand.",
+		"description": "<b>On Reveal:</b> Add a {card.Card_Token.Name} to your hand.",
 		"attributes": {
 			"cards": {
 				"Card_Token": [
@@ -2206,8 +2236,8 @@
 	},
 	{
 		"defId": "UltronPowerStone",
-		"cost": 3,
-		"power": 2,
+		"cost": 2,
+		"power": 1,
 		"name": "Ultron Power Stone",
 		"description": "<b>On Reveal:</b> Double Infinity Ultron’s Power.",
 		"attributes": {
@@ -2313,7 +2343,7 @@
 	{
 		"defId": "HerbieChampion",
 		"cost": 2,
-		"power": 2,
+		"power": 3,
 		"name": "H.E.R.B.I.E.",
 		"description": "Each turn this is in play, swap to a new <b>Activate</b> ability until one is used.",
 		"attributes": {
@@ -2365,7 +2395,7 @@
 		"cost": 1,
 		"power": 1,
 		"name": "Soul Stone",
-		"description": "<b>On Reveal:</b> Draw a card.\n<b>Ongoing:</b> Thanos can't be discarded or destroyed.",
+		"description": "<b>On Reveal:</b> Draw a card.\n<b>Ongoing:</b> {card.Card_Modified.Name} can't be discarded or destroyed.",
 		"attributes": {
 			"cards": {
 				"Card_Modified": [
@@ -2485,7 +2515,16 @@
 		"name": "Red Shift",
 		"description": "<b>On Reveal:</b> Discard the leftmost card in your hand to add a random card with the same Cost to your hand.",
 		"series": 0,
-		"artists": [],
+		"artists": [
+			{
+				"name": "Eduardo Mello",
+				"type": 1
+			},
+			{
+				"name": "Ryan Kinnaird",
+				"type": 4
+			}
+		],
 		"seriesStartTimestamps": [
 			1756839600000
 		],
@@ -2521,7 +2560,7 @@
 	{
 		"defId": "AbsorbingMan",
 		"cost": 4,
-		"power": 4,
+		"power": 5,
 		"name": "Absorbing Man",
 		"description": "<b>On Reveal:</b> If the last card you played has an <b>On Reveal</b>, copy its text. <i>(if able)</i>",
 		"series": 6,
@@ -2629,7 +2668,7 @@
 	{
 		"defId": "Giganto",
 		"cost": 6,
-		"power": 14,
+		"power": 16,
 		"name": "Giganto",
 		"description": "You can only play this at the left location.",
 		"series": 6,
@@ -2776,7 +2815,16 @@
 		"name": "Stardust",
 		"description": "<b>Ongoing:</b> Cards can’t be added to locations except by playing\nor moving them.",
 		"series": 0,
-		"artists": [],
+		"artists": [
+			{
+				"name": "Eduardo Mello",
+				"type": 1
+			},
+			{
+				"name": "Ryan Kinnaird",
+				"type": 4
+			}
+		],
 		"seriesStartTimestamps": [
 			1754420400000
 		],
@@ -2940,7 +2988,16 @@
 		"name": "Cosmic Ghost Rider",
 		"description": "<b>On Reveal:</b> Remove the text from front-row enemy cards here.",
 		"series": 0,
-		"artists": [],
+		"artists": [
+			{
+				"name": "Eduardo Mello",
+				"type": 1
+			},
+			{
+				"name": "Ryan Kinnaird",
+				"type": 4
+			}
+		],
 		"seriesStartTimestamps": [
 			1756234800000
 		],
@@ -3377,7 +3434,9 @@
 				"type": 4
 			}
 		],
-		"seriesStartTimestamps": [],
+		"seriesStartTimestamps": [
+			1748977200000
+		],
 		"collectible": true
 	},
 	{
@@ -3514,7 +3573,7 @@
 	},
 	{
 		"defId": "UltronSoulStone",
-		"cost": 3,
+		"cost": 2,
 		"power": 3,
 		"name": "Ultron Soul Stone",
 		"description": "<b>On Reveal:</b> For each of your full locations, give one of your cards\nthere +2 Power.",
@@ -3640,7 +3699,7 @@
 		"cost": 1,
 		"power": 2,
 		"name": "Space Stone",
-		"description": "<b>On Reveal:</b> Draw a card.\n<b>Ongoing:</b> Nothing can stop you from playing or moving Thanos.",
+		"description": "<b>On Reveal:</b> Draw a card.\n<b>Ongoing:</b> Nothing can stop you from playing or moving {card.Card_Modified.Name}.",
 		"attributes": {
 			"cards": {
 				"Card_Modified": [
@@ -3662,7 +3721,7 @@
 		"cost": 0,
 		"power": 0,
 		"name": "Overdrive Reactor",
-		"description": "Each player repeats 0 On Reveals.",
+		"description": "Each player repeats 0\nof their <b>On Reveal</b> abilities.",
 		"attributes": {
 			"data": {
 				"ModifiedCardCount_1": 1,
@@ -3730,7 +3789,7 @@
 		"cost": 0,
 		"power": 0,
 		"name": "Overdrive Reactor",
-		"description": "Destroy the two locations with the lowest powers. (if there is a tie, leave one at random)",
+		"description": "Destroy the 2 locations with the lowest total Power. (break ties randomly)",
 		"attributes": {
 			"cards": {
 				"Card_Source": [
@@ -3793,7 +3852,7 @@
 	},
 	{
 		"defId": "UltronMindStone",
-		"cost": 3,
+		"cost": 2,
 		"power": 2,
 		"name": "Ultron Mind Stone",
 		"description": "<b>Ongoing:</b> Your <b>On Reveal</b> abilities here happen twice.",
@@ -4194,7 +4253,7 @@
 	{
 		"defId": "Fantasticar",
 		"cost": 4,
-		"power": 6,
+		"power": 7,
 		"name": "Fantasticar",
 		"description": "<b>Activate:</b> Give your <b>End of Turn</b> cards +2 Power.",
 		"attributes": {
@@ -4290,7 +4349,7 @@
 		"cost": 0,
 		"power": 0,
 		"name": "Overdrive Reactor",
-		"description": "Destroy each player’s lowest 0 powered cards.",
+		"description": "Destroy each player's 0 lowest-Power cards.",
 		"attributes": {
 			"data": {
 				"ModifiedCardCount_1": 1,
@@ -4313,7 +4372,7 @@
 		"cost": 0,
 		"power": 0,
 		"name": "Overdrive Reactor",
-		"description": "Draw 0 cards. Their costs become 3.",
+		"description": "Draw 0 cards. Set their Costs to 3.",
 		"attributes": {
 			"data": {
 				"DrawCount_1": 2,
@@ -4796,7 +4855,7 @@
 		"cost": 0,
 		"power": 0,
 		"name": "Overdrive Reactor",
-		"description": "Each player adds a Blob to a random location.",
+		"description": "Each player adds Blob to a random location.",
 		"attributes": {
 			"cards": {
 				"Card_Source": [
@@ -4924,7 +4983,7 @@
 		"power": 0,
 		"name": "Astral Projection",
 		"description": "<b>On Reveal:</b> Copy the text of an <b>On Reveal</b> card in your hand.",
-		"series": 0,
+		"series": 7,
 		"artists": [
 			{
 				"name": "Eduardo Mello",
@@ -4936,14 +4995,16 @@
 			}
 		],
 		"seriesStartTimestamps": [
-			1830366000000
+			1750964400000,
+			1753383600000
 		],
-		"possibleSeries": 10
+		"possibleSeries": 7,
+		"collectible": true
 	},
 	{
 		"defId": "Program04Herbie",
 		"cost": 2,
-		"power": 2,
+		"power": 3,
 		"name": "H.E.R.B.I.E.",
 		"description": "<b>Activate:</b> Double this\ncard's Power.",
 		"attributes": {
@@ -4962,7 +5023,7 @@
 	{
 		"defId": "Herbie",
 		"cost": 2,
-		"power": 2,
+		"power": 3,
 		"name": "H.E.R.B.I.E.",
 		"description": "Each turn this is in play, swap to a new <b>Activate</b> ability until one is used.",
 		"attributes": {
@@ -5050,7 +5111,7 @@
 		"cost": 2,
 		"power": 5,
 		"name": "Silk",
-		"description": "After ANY card is played here, this moves to another location.",
+		"description": "After ANY card is played here, move this to another location.",
 		"series": 6,
 		"artists": [
 			{
@@ -5493,7 +5554,7 @@
 	{
 		"defId": "Wolfsbane",
 		"cost": 3,
-		"power": 1,
+		"power": 2,
 		"name": "Wolfsbane",
 		"description": "<b>On Reveal:</b> +2 Power for each other card you have here.",
 		"attributes": {
@@ -5619,7 +5680,7 @@
 	{
 		"defId": "Program03Herbie",
 		"cost": 2,
-		"power": 2,
+		"power": 3,
 		"name": "H.E.R.B.I.E.",
 		"description": "<b>Activate:</b> Create a Rock here. Set its Power to 4.",
 		"attributes": {
@@ -5929,7 +5990,7 @@
 		"cost": 1,
 		"power": 1,
 		"name": "Time Stone",
-		"description": "<b>On Reveal:</b> Give Thanos -1 Cost.",
+		"description": "<b>On Reveal:</b> Give {card.Card_Modified.Name} -{card.ReducedCost} Cost.",
 		"attributes": {
 			"data": {
 				"ReducedCost": 1
@@ -5990,7 +6051,16 @@
 			}
 		},
 		"series": 0,
-		"artists": [],
+		"artists": [
+			{
+				"name": "Eduardo Mello",
+				"type": 1
+			},
+			{
+				"name": "Ryan Kinnaird",
+				"type": 4
+			}
+		],
 		"seriesStartTimestamps": [
 			1756839600000
 		],
@@ -6091,7 +6161,7 @@
 		"defId": "FlamesOfTheFaltine",
 		"cost": 1,
 		"power": 0,
-		"name": "Flames Of The Faltine",
+		"name": "Flames of the Faltine",
 		"description": "<b>On Reveal:</b> Afflict an enemy card here with -3 Power.",
 		"attributes": {
 			"data": {
@@ -6218,8 +6288,8 @@
 	},
 	{
 		"defId": "UltronTimeStone",
-		"cost": 3,
-		"power": 1,
+		"cost": 2,
+		"power": 3,
 		"name": "Ultron Time Stone",
 		"description": "<b>On Reveal:</b> Put a card from your hand here.",
 		"attributes": {
@@ -6447,7 +6517,7 @@
 	{
 		"defId": "Galacta",
 		"cost": 4,
-		"power": 5,
+		"power": 6,
 		"name": "Galacta",
 		"description": "Each turn, the first card you play at another location reveals\nwith +3 Power.",
 		"attributes": {
@@ -6885,7 +6955,7 @@
 	},
 	{
 		"defId": "TaoMandala",
-		"cost": 3,
+		"cost": 2,
 		"power": 0,
 		"name": "Tao Mandala",
 		"description": "<b>On Reveal:</b> Copy the text of one of your <b>Ongoing</b> cards here onto\nyour other characters here.",
@@ -7050,7 +7120,7 @@
 		"cost": 0,
 		"power": 0,
 		"name": "Overdrive Reactor",
-		"description": "Transform played charged cards into + 0 cards.",
+		"description": "Transform charged cards in play into ones\nthat cost 0 more.",
 		"attributes": {
 			"data": {
 				"AddedCost_1": 0,
@@ -7071,9 +7141,9 @@
 	{
 		"defId": "SpiderHam",
 		"cost": 1,
-		"power": 1,
+		"power": 2,
 		"name": "Spider-Ham",
-		"description": "<b>On Reveal:</b> Transform the leftmost card in your opponent's hand into a Pig, keeping its Power and Cost.",
+		"description": "<b>Activate:</b> Replace the text of a random character in your opponent's hand with <i>\\\"oink!\\\"</i>",
 		"attributes": {
 			"cards": {
 				"Card_Token": [
@@ -7105,7 +7175,16 @@
 		"name": "Silver Surfer First Steps",
 		"description": "<b>End of Turn:</b> If you're winning this location with an <b>On Reveal</b> card, copy its text.",
 		"series": 0,
-		"artists": [],
+		"artists": [
+			{
+				"name": "Eduardo Mello",
+				"type": 1
+			},
+			{
+				"name": "Ryan Kinnaird",
+				"type": 4
+			}
+		],
 		"seriesStartTimestamps": [
 			1754420400000,
 			1756839600000
@@ -7271,7 +7350,7 @@
 	},
 	{
 		"defId": "UltronRealityStone",
-		"cost": 3,
+		"cost": 2,
 		"power": 1,
 		"name": "Ultron Reality Stone",
 		"description": "<b>On Reveal:</b> Add a Drone here. Set its Power to Infinity Ultron's.",
@@ -7387,7 +7466,16 @@
 			}
 		},
 		"series": 0,
-		"artists": [],
+		"artists": [
+			{
+				"name": "Eduardo Mello",
+				"type": 1
+			},
+			{
+				"name": "Ryan Kinnaird",
+				"type": 4
+			}
+		],
 		"seriesStartTimestamps": []
 	},
 	{
@@ -7422,12 +7510,13 @@
 	{
 		"defId": "Program02Herbie",
 		"cost": 2,
-		"power": 2,
+		"power": 3,
 		"name": "H.E.R.B.I.E.",
-		"description": "<b>Activate:</b> Give your cards at adjacent locations +1 Power.",
+		"description": "<b>Activate:</b> Give 2 of your cards at each other location +1 Power.",
 		"attributes": {
 			"data": {
-				"AddedPower": 1
+				"AddedPower": 1,
+				"ModifiedCardCount": 2
 			},
 			"cards": {
 				"Card_Related": [
@@ -7806,7 +7895,16 @@
 			}
 		},
 		"series": 0,
-		"artists": [],
+		"artists": [
+			{
+				"name": "Eduardo Mello",
+				"type": 1
+			},
+			{
+				"name": "Ryan Kinnaird",
+				"type": 4
+			}
+		],
 		"seriesStartTimestamps": [
 			1755025200000
 		],
@@ -9203,7 +9301,7 @@
 				]
 			}
 		},
-		"series": 0,
+		"series": 8,
 		"artists": [
 			{
 				"name": "Eduardo Mello",
@@ -9217,7 +9315,8 @@
 		"seriesStartTimestamps": [
 			1750791600000
 		],
-		"possibleSeries": 8
+		"possibleSeries": 8,
+		"collectible": true
 	},
 	{
 		"defId": "CaptainCarter",
@@ -9350,7 +9449,7 @@
 	{
 		"defId": "RealityStone",
 		"cost": 1,
-		"power": 1,
+		"power": 2,
 		"name": "Reality Stone",
 		"description": "<b>On Reveal:</b> Replace this location with a new one.",
 		"series": 0,
@@ -9408,7 +9507,7 @@
 		"power": -1,
 		"name": "Nightmare",
 		"description": "<b>On Reveal:</b> Replace the text of each card in your hand with text from a random card of the same Cost.",
-		"series": 0,
+		"series": 8,
 		"artists": [
 			{
 				"name": "Eduardo Mello",
@@ -9422,7 +9521,7 @@
 		"seriesStartTimestamps": [
 			1750186800000
 		],
-		"possibleSeries": 8
+		"collectible": true
 	},
 	{
 		"defId": "EvolvedTheThing",
@@ -9571,7 +9670,7 @@
 		"cost": 4,
 		"power": 5,
 		"name": "Moon Girl",
-		"description": "<b>On Reveal:</b> Duplicate\nyour hand.",
+		"description": "<b>On Reveal:</b> Copy your hand.",
 		"series": 4,
 		"artists": [
 			{
@@ -9818,7 +9917,7 @@
 	{
 		"defId": "OmegaRed",
 		"cost": 4,
-		"power": 5,
+		"power": 6,
 		"name": "Omega Red",
 		"description": "<b>Ongoing:</b> If you're winning here, +3 Power to other locations.",
 		"attributes": {
@@ -9847,7 +9946,7 @@
 		"cost": 0,
 		"power": 0,
 		"name": "Overdrive Reactor",
-		"description": "Move 0 (total) cards one location to the left.",
+		"description": "Move random cards to the left 0 times.",
 		"attributes": {
 			"data": {
 				"TokenCount_1": 2,
@@ -9874,7 +9973,7 @@
 		"cost": 1,
 		"power": 2,
 		"name": "Nico Minoru",
-		"description": "<b>On Reveal:</b> After you play your next card, it becomes a Demon.",
+		"description": "<b>On Reveal:</b> After you play your next card, it becomes a {card.Card_Token.Name}.",
 		"attributes": {
 			"cards": {
 				"Card_Token": [
@@ -10224,7 +10323,7 @@
 	{
 		"defId": "Misery",
 		"cost": 4,
-		"power": 8,
+		"power": 9,
 		"name": "Misery",
 		"description": "<b>On Reveal:</b> Repeat the <b>On Reveal</b> abilities of your other cards here, then destroy them.",
 		"series": 8,
@@ -10292,7 +10391,7 @@
 		"cost": 1,
 		"power": 3,
 		"name": "Power Stone",
-		"description": "<b>Ongoing:</b> If you've played all 6 stones, Thanos has +10 Power. <i>(wherever he is)</i>",
+		"description": "<b>Ongoing:</b> If you've played all 6 stones, {card.Card_Modified.Name} has +{card.AddedPower} Power. <i>(wherever he is)</i>",
 		"attributes": {
 			"data": {
 				"AddedPower": 10
@@ -10389,7 +10488,6 @@
 		"seriesStartTimestamps": [
 			1749582000000
 		],
-		"possibleSeries": 8,
 		"collectible": true
 	},
 	{
@@ -10889,8 +10987,8 @@
 	},
 	{
 		"defId": "UltronSpaceStone",
-		"cost": 3,
-		"power": 4,
+		"cost": 2,
+		"power": 5,
 		"name": "Ultron Space Stone",
 		"description": "<b>On Reveal:</b> Move the lowest-Power enemy card here to the location of Infinity Ultron.",
 		"attributes": {
@@ -11001,12 +11099,22 @@
 			}
 		},
 		"series": 0,
-		"artists": [],
+		"artists": [
+			{
+				"name": "Eduardo Mello",
+				"type": 1
+			},
+			{
+				"name": "Ryan Kinnaird",
+				"type": 4
+			}
+		],
 		"seriesStartTimestamps": [
 			1754420400000,
 			1756839600000
 		],
-		"possibleSeries": 8
+		"possibleSeries": 8,
+		"isSeasonPass": true
 	},
 	{
 		"defId": "JeanGrey",
@@ -11394,8 +11502,8 @@
 	},
 	{
 		"defId": "Lockjaw",
-		"cost": 4,
-		"power": 5,
+		"cost": 2,
+		"power": 2,
 		"name": "Lockjaw",
 		"description": "After you play a card here, swap it with a card in your deck.",
 		"series": 6,
@@ -11548,7 +11656,7 @@
 	{
 		"defId": "RedGuardian",
 		"cost": 3,
-		"power": 3,
+		"power": 2,
 		"name": "Red Guardian",
 		"description": "<b>On Reveal:</b> Afflict the lowest-Power enemy card here with -2 Power and remove its text.",
 		"attributes": {
@@ -12213,7 +12321,8 @@
 		"power": 3,
 		"name": "Cobra",
 		"description": "<b>Activate:</b> Destroy an enemy created card here.",
-		"series": 0,
+		"series": 7,
+		"collectible": true,
 		"artists": [
 			{
 				"name": "Eduardo Mello",
@@ -12401,5 +12510,167 @@
 			1741028400000
 		],
 		"collectible": true
+	},
+	{
+		"defId": "Bastion",
+		"cost": 4,
+		"power": 5,
+		"name": "Bastion",
+		"description": "<b>On Reveal:</b> Add copies of your other cards here to your hand. Set their Costs to 2 and Power to 3.",
+		"attributes": {
+			"data": {
+				"AssignedCost": 2,
+				"AssignedPower": 3
+			}
+		},
+		"series": 0,
+		"artists": [],
+		"seriesStartTimestamps": [
+			1757444400000
+		],
+		"possibleSeries": 8
+	},
+	{
+		"defId": "KarimaShapandar",
+		"cost": 4,
+		"power": 3,
+		"name": "Karima Shapandar Omega Sentinel",
+		"description": "<b>Activate:</b> Afflict the\nhighest-Power enemy card\nwith -7 Power.",
+		"attributes": {
+			"data": {
+				"ReducedPower": 7
+			}
+		},
+		"series": 0,
+		"artists": [],
+		"seriesStartTimestamps": [
+			1830366000000
+		],
+		"possibleSeries": 7
+	},
+	{
+		"defId": "AwesomeAndy",
+		"cost": 2,
+		"power": 1,
+		"name": "Awesome Andy",
+		"description": "<b>Activate:</b> Give one of your cards at each other location +2 Power.",
+		"attributes": {
+			"data": {
+				"AddedPower": 2
+			}
+		},
+		"series": 0,
+		"artists": [],
+		"seriesStartTimestamps": [
+			1830366000000
+		],
+		"possibleSeries": 7
+	},
+	{
+		"defId": "Warlock",
+		"cost": 3,
+		"power": 4,
+		"name": "Warlock",
+		"description": "<b>Activate:</b> For each unspent Energy, give a card in your hand -1 Cost.",
+		"attributes": {
+			"data": {
+				"ReducedCost": 1
+			}
+		},
+		"series": 0,
+		"artists": [],
+		"seriesStartTimestamps": [
+			1758654000000
+		],
+		"possibleSeries": 8
+	},
+	{
+		"defId": "SuperAdaptoid",
+		"cost": 3,
+		"power": 5,
+		"name": "Super-Adaptoid",
+		"description": "<b>On Reveal:</b> Steal the text from an enemy <b>Activate</b> card here.",
+		"series": 0,
+		"artists": [],
+		"seriesStartTimestamps": [
+			1830366000000
+		],
+		"possibleSeries": 7
+	},
+	{
+		"defId": "JimHammond",
+		"cost": 1,
+		"power": 1,
+		"name": "Jim Hammond Human Torch",
+		"description": "At the start of each turn, +1 Power for each bonus Energy you have.",
+		"attributes": {
+			"data": {
+				"AddedPower": 1
+			}
+		},
+		"series": 0,
+		"artists": [],
+		"seriesStartTimestamps": [
+			1758049200000
+		],
+		"possibleSeries": 8
+	},
+	{
+		"defId": "Jocasta",
+		"cost": 3,
+		"power": 3,
+		"name": "Jocasta",
+		"description": "<b>Activate:</b> Immediately Activate your other cards here. <i>(without using up their Activate abilities)</i>",
+		"series": 0,
+		"artists": [],
+		"seriesStartTimestamps": [
+			1759258800000
+		],
+		"possibleSeries": 8
+	},
+	{
+		"defId": "Sparky",
+		"cost": 2,
+		"power": 3,
+		"name": "Sparky",
+		"description": "<b>Activate:</b> Give your card that last moved +2 Power and move it\nback to its previous location.",
+		"attributes": {
+			"data": {
+				"AddedPower": 2
+			}
+		},
+		"series": 0,
+		"artists": [],
+		"seriesStartTimestamps": [
+			1756839600000,
+			1759863600000
+		],
+		"possibleSeries": 7
+	},
+	{
+		"defId": "Danger",
+		"cost": 4,
+		"power": 6,
+		"name": "Danger",
+		"description": "<b>Activate:</b> Destroy an enemy card here with less Power.",
+		"series": 0,
+		"artists": [],
+		"seriesStartTimestamps": [
+			1830366000000
+		],
+		"possibleSeries": 7
+	},
+	{
+		"defId": "MoiraX",
+		"cost": 1,
+		"power": 2,
+		"name": "Moira X",
+		"description": "When this is destroyed, get a copy of your opening hand.",
+		"series": 0,
+		"artists": [],
+		"seriesStartTimestamps": [
+			1756839600000
+		],
+		"possibleSeries": 8
 	}
 ]
