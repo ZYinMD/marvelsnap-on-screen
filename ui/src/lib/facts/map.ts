@@ -439,7 +439,7 @@ export const map: Record<Key, Roster> = {
   '2016|Doctor Strange': {
     major: new Set(),
     minor: new Set(),
-    major_: ['Doctor Strange', 'Baron Mordo', 'Wong'],
+    major_: ['Doctor Strange', 'Baron Mordo', 'Wong', 'The Ancient One'],
     minor_: ['Thor'],
   },
   '2017|Logan': {
@@ -619,6 +619,7 @@ export const map: Record<Key, Roster> = {
       'Drax',
       'Shuri',
       'Maria Hill',
+      'The Ancient One',
       "M'Baku",
       'Ebony Maw',
       'Corvus Glaive',
