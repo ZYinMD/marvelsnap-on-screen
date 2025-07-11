@@ -1554,6 +1554,7 @@ export const map: Record<Key, Roster> = {
       'Juggernaut',
       'X-23',
       'Leader',
+      'Nightmare',
     ],
   },
   '2009–2012|Iron Man: Armored Adventures': {
@@ -1722,6 +1723,7 @@ export const map: Record<Key, Roster> = {
       'Arnim Zola',
       'Baron Mordo',
       'Shocker',
+      'Nightmare',
       'Swarm',
       'Morbius',
       'Medusa',
