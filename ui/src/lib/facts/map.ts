@@ -2083,6 +2083,7 @@ export const map: Record<Key, Roster> = {
       'Leader',
       'Diamondback',
       'Morgan le Fay',
+      'Merlin',
     ],
   },
   "2017–2020|Marvel's Spider-Man": {
