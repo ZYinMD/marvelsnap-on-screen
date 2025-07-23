@@ -1391,6 +1391,7 @@ export const map: Record<Key, Roster> = {
       'Klaw',
       'Iron Man',
       'Giganto',
+      'Cobra',
     ],
   },
   '2008–2009|The Spectacular Spider-Man': {
@@ -1956,6 +1957,7 @@ export const map: Record<Key, Roster> = {
       'Surge',
       'Crossbones',
       'Baron Zemo',
+      'Cobra',
       'Silver Samurai',
       'Diamondback',
       'Abomination',
