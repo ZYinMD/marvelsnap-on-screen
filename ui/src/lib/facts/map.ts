@@ -1469,6 +1469,7 @@ export const map: Record<Key, Roster> = {
       'Leech',
       'Sauron',
       'Blob',
+      'Mercury',
     ],
   },
   '2009–2011|The Super Hero Squad Show': {
