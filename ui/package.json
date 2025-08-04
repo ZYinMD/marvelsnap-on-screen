@@ -1,6 +1,6 @@
 {
   "name": "ui",
-  "version": "1.0.128",
+  "version": "1.0.129",
   "scripts": {
     "dev": "vite dev",
     "format": "prettier . --write",
