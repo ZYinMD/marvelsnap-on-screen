@@ -1392,6 +1392,7 @@ export const map: Record<Key, Roster> = {
       'Iron Man',
       'Giganto',
       'Cobra',
+      'H.E.R.B.I.E.',
     ],
   },
   '2008–2009|The Spectacular Spider-Man': {
@@ -1500,6 +1501,7 @@ export const map: Record<Key, Roster> = {
       'Valkyrie',
       'Nick Fury',
       'Red Skull',
+      'H.E.R.B.I.E.',
       'Magneto',
       'Scarlet Witch',
       'Quicksilver',
@@ -1509,7 +1511,6 @@ export const map: Record<Key, Roster> = {
       'Luke Cage',
       'Devil Dinosaur',
       'Klaw',
-
       'Kitty Pryde',
       'Ka-Zar',
       'Zabu',
@@ -1649,6 +1650,7 @@ export const map: Record<Key, Roster> = {
       'Invisible Woman',
       'Human Torch',
       'The Thing',
+      'H.E.R.B.I.E.',
       'Adam Warlock',
       'Star-Lord',
       'Groot',
@@ -2169,7 +2171,7 @@ export const map: Record<Key, Roster> = {
       'Black Cat',
       'Electro',
     ],
-    minor_: ['Arnim Zola'],
+    minor_: ['Arnim Zola', 'H.E.R.B.I.E.'],
   },
   '2022-2023|I am Groot': {
     major: new Set(),
