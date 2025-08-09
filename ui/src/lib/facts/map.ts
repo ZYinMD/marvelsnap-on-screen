@@ -158,6 +158,7 @@ export const map: Record<Key, Roster> = {
       'Doctor Doom',
       'Silver Surfer',
       'Galactus',
+      'Fantasticar',
     ],
     minor_: [],
   },
@@ -895,6 +896,22 @@ export const map: Record<Key, Roster> = {
     ],
     minor_: [],
   },
+  '2025|The Fantastic Four: First Steps': {
+    major: new Set(),
+    minor: new Set(),
+    major_: [
+      'Mister Fantastic First Steps',
+      'Invisible Woman First Steps',
+      'The Thing First Steps',
+      'Human Torch First Steps',
+      'Silver Surfer First Steps',
+      'Galactus First Steps',
+      'H.E.R.B.I.E.',
+      'Mole Man',
+      'Fantasticar',
+    ],
+    minor_: ['Doctor Doom', 'Giganto', 'Mad Thinker'],
+  },
   '2006|Blade: The Series': {
     major: new Set(),
     minor: new Set(),
@@ -1177,6 +1194,7 @@ export const map: Record<Key, Roster> = {
       'Black Bolt',
       'Gorgon',
       'Lockjaw',
+      'Fantasticar',
     ],
     minor_: [
       'Uatu the Watcher',
@@ -1380,6 +1398,7 @@ export const map: Record<Key, Roster> = {
       'Ronan the Accuser',
       'Namor',
       'Annihilus',
+      'Fantasticar',
     ],
     minor_: [
       'Hulk',
@@ -1580,7 +1599,7 @@ export const map: Record<Key, Roster> = {
       'M.O.D.O.K.',
       'Helicarrier',
     ],
-    minor_: ['Black Knight', 'Magneto', 'Jean Grey', 'Maria Hill'],
+    minor_: ['Black Knight', 'Magneto', 'Jean Grey', 'Maria Hill', 'Mad Thinker'],
   },
   "2010–2012|The Avengers: Earth's Mightiest Heroes": {
     major: new Set(),
@@ -1635,6 +1654,7 @@ export const map: Record<Key, Roster> = {
       'Black Knight',
       'Absorbing Man',
       'Arnim Zola',
+      'Mad Thinker',
       'Odin',
       'Hela',
       'Valkyrie',

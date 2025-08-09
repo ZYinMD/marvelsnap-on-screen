@@ -771,6 +771,16 @@ export const allTitles = {
       numEpisodes: 1,
       key: '2025|Thunderbolts*',
     },
+    '2025|The Fantastic Four: First Steps': {
+      type: 'movie',
+      year: '2025',
+      title: 'The Fantastic Four: First Steps',
+      wikipedia: 'https://en.wikipedia.org/wiki/The_Fantastic_Four:_First_Steps',
+      label: ['mcu'],
+      numSeasons: 0,
+      numEpisodes: 1,
+      key: '2025|The Fantastic Four: First Steps',
+    },
   },
   'live-action-tv-series': {
     '2006|Blade: The Series': {

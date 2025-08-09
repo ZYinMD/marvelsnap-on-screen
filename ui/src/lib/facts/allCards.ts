@@ -3039,7 +3039,6 @@ export const allCards = {
     name: 'Fantasticar',
     description: '<b>Activate:</b> Give your <b>End of Turn</b> cards +2 Power.',
     seriesStartTimestamps: [1752001200000, 1754420400000],
-    possibleSeries: 7,
   },
   'H.E.R.B.I.E.': {
     defId: 'Herbie',
@@ -3067,7 +3066,6 @@ export const allCards = {
     name: 'Mister Fantastic First Steps',
     description: '<b>End of Turn:</b> Give a card in your hand -1 Cost or +2 Power.',
     seriesStartTimestamps: [1752001200000, 1754420400000],
-    possibleSeries: 8,
     isSeasonPass: true,
   },
   'Invisible Woman First Steps': {
@@ -3125,6 +3123,14 @@ export const allCards = {
     description:
       '<b>Ongoing:</b> Cards can’t be added to locations except by playing\nor moving them.',
     seriesStartTimestamps: [1754420400000],
+  },
+  'Nova Frankie Raye': {
+    defId: 'FrankieRaye',
+    cost: 2,
+    power: 3,
+    name: 'Nova Frankie Raye',
+    description: "After the next time you play a\n6-Cost card, double this card's Power.",
+    seriesStartTimestamps: [1755025200000],
     possibleSeries: 8,
   },
   'Red Shift': {
@@ -3135,7 +3141,6 @@ export const allCards = {
     description:
       '<b>On Reveal:</b> Discard the leftmost card in your hand to add a random card with the same Cost to your hand.',
     seriesStartTimestamps: [1754420400000],
-    possibleSeries: 7,
   },
   'Terrax the Tamer': {
     defId: 'Terrax',
@@ -3145,6 +3150,5 @@ export const allCards = {
     description:
       "<b>On Reveal:</b> For each location, shuffle a Rock into the losing player's deck.",
     seriesStartTimestamps: [1754420400000],
-    possibleSeries: 7,
   },
 } as const;
