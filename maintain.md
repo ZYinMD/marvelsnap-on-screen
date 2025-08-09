@@ -1,3 +1,5 @@
+Below is written for myself to read. If you want to suggest a change, the best way is to [reply on reddit](https://www.reddit.com/r/MarvelSnap/comments/1942d9w/complete_mega_list_every_card_in_every_movie_tv/).
+
 ## What to do when new cards are released:
 
 1. In browser, open devtools, visit https://snap.untapped.gg/ (thanks untapped.gg, I'm a paid subscriber!), find "cards.json" in the network tab, copy the json response, paste into the json in `facts/step1`.
