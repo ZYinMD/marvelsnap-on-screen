@@ -1580,6 +1580,7 @@ export const map: Record<Key, Roster> = {
       'X-23',
       'Leader',
       'Nightmare',
+      'Stardust',
     ],
   },
   '2009–2012|Iron Man: Armored Adventures': {
@@ -1677,6 +1678,7 @@ export const map: Record<Key, Roster> = {
       'Rocket Raccoon',
       'Fenris Wolf',
       'King Eitri',
+      'Stardust',
     ],
   },
   '2010–2011|Marvel Anime: Iron Man': {
