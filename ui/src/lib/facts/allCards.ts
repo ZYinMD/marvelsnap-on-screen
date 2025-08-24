@@ -440,7 +440,7 @@ export const allCards = {
   'Doctor Strange': {
     defId: 'DoctorStrange',
     cost: 2,
-    power: 3,
+    power: 4,
     name: 'Doctor Strange',
     description: '<b>On Reveal:</b> Move your highest-Power card(s) to this location.',
     seriesStartTimestamps: [-62135596800000],
@@ -711,8 +711,8 @@ export const allCards = {
   },
   'Human Torch': {
     defId: 'HumanTorch',
-    cost: 1,
-    power: 2,
+    cost: 3,
+    power: 3,
     name: 'Human Torch',
     description: 'When this moves, double\nits Power.',
     seriesStartTimestamps: [-62135596800000],
@@ -1790,10 +1790,10 @@ export const allCards = {
   },
   'Vulture': {
     defId: 'Vulture',
-    cost: 3,
-    power: 3,
+    cost: 1,
+    power: 2,
     name: 'Vulture',
-    description: 'When this card moves,\n+6 Power.',
+    description: 'When this card moves,\n+3 Power.',
     seriesStartTimestamps: [-62135596800000],
   },
   'War Machine': {
@@ -1842,7 +1842,7 @@ export const allCards = {
     cost: 5,
     power: 1,
     name: 'White Tiger',
-    description: '<b>On Reveal:</b> Add a 8-Power Tiger to another location.',
+    description: '<b>On Reveal:</b> Add a 9-Power Tiger to another location.',
     seriesStartTimestamps: [-62135596800000],
   },
   'Wolfsbane': {
@@ -1946,10 +1946,9 @@ export const allCards = {
   'Ghost': {
     defId: 'Ghost',
     cost: 3,
-    power: 5,
+    power: 4,
     name: 'Ghost',
-    description:
-      '<b>Ongoing:</b> Your cards are always revealed last. <i>(Their <b>On Reveal</b> abilities happen last.)</i>',
+    description: '<b>On Reveal:</b> Remove the abilities from all <b>End of Turn</b> cards here.',
     seriesStartTimestamps: [-62135596800000, 1684263600000],
   },
   'Nimrod': {
@@ -2109,9 +2108,9 @@ export const allCards = {
   'Havok': {
     defId: 'Havok',
     cost: 2,
-    power: 0,
+    power: 1,
     name: 'Havok',
-    description: '<b>End of Turn:</b> You lose 1 Max Energy and this gains +4 Power.',
+    description: '<b>End of Turn:</b> You lose 1 Max Energy and this gains +3 Power.',
     seriesStartTimestamps: [1703012400000, 1741028400000],
   },
   'Selene': {
@@ -2873,7 +2872,7 @@ export const allCards = {
   'Topaz': {
     defId: 'Topaz',
     cost: 3,
-    power: 4,
+    power: 5,
     name: 'Topaz',
     description: 'After you play a card here, move it to the middle location.',
     seriesStartTimestamps: [1745953200000],
@@ -2891,7 +2890,7 @@ export const allCards = {
   'Surge': {
     defId: 'Surge',
     cost: 2,
-    power: 2,
+    power: 1,
     name: 'Surge',
     description:
       '<b>On Reveal:</b> Give the top card of your deck -1 Cost and +1 Power. After you play it, repeat this ability.',
@@ -3061,8 +3060,8 @@ export const allCards = {
   },
   'Mister Fantastic First Steps': {
     defId: 'MrFantasticFirstSteps',
-    cost: 2,
-    power: 2,
+    cost: 3,
+    power: 4,
     name: 'Mister Fantastic First Steps',
     description: '<b>End of Turn:</b> Give a card in your hand -1 Cost or +2 Power.',
     seriesStartTimestamps: [1752001200000, 1754420400000],
@@ -3131,7 +3130,42 @@ export const allCards = {
     name: 'Nova Frankie Raye',
     description: "After the next time you play a\n6-Cost card, double this card's Power.",
     seriesStartTimestamps: [1755025200000],
+  },
+  'The Fallen One': {
+    defId: 'FallenOne',
+    cost: 5,
+    power: 5,
+    name: 'The Fallen One',
+    description: "<b>On Reveal:</b> Set your Max Energy equal to this card's Power.",
+    seriesStartTimestamps: [1755630000000],
     possibleSeries: 8,
+  },
+  'Cosmic Ghost Rider': {
+    defId: 'CosmicGhostRider',
+    cost: 5,
+    power: 7,
+    name: 'Cosmic Ghost Rider',
+    description: '<b>On Reveal:</b> Remove the text from front-row enemy cards here.',
+    seriesStartTimestamps: [1756234800000],
+    possibleSeries: 8,
+  },
+  'Air-Walker': {
+    defId: 'AirWalker',
+    cost: 3,
+    power: 3,
+    name: 'Air-Walker',
+    description: 'When this is destroyed, replace it with a 4-Cost card from your hand or deck.',
+    seriesStartTimestamps: [1755802800000, 1758481200000],
+    possibleSeries: 7,
+  },
+  'Firelord': {
+    defId: 'Firelord',
+    cost: 4,
+    power: 6,
+    name: 'Firelord',
+    description: '<b>On Reveal:</b> Revive one of your discarded or destroyed\n3-Cost cards here.',
+    seriesStartTimestamps: [1755802800000],
+    possibleSeries: 7,
   },
   'Red Shift': {
     defId: 'RedShift',
@@ -3145,7 +3179,7 @@ export const allCards = {
   'Terrax the Tamer': {
     defId: 'Terrax',
     cost: 3,
-    power: 3,
+    power: 4,
     name: 'Terrax the Tamer',
     description:
       "<b>On Reveal:</b> For each location, shuffle a Rock into the losing player's deck.",
