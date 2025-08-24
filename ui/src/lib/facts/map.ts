@@ -1194,6 +1194,7 @@ export const map: Record<Key, Roster> = {
       'Black Bolt',
       'Gorgon',
       'Lockjaw',
+      'Terrax the Tamer',
       'Fantasticar',
     ],
     minor_: [
@@ -1581,6 +1582,7 @@ export const map: Record<Key, Roster> = {
       'Leader',
       'Nightmare',
       'Stardust',
+      'Terrax the Tamer',
     ],
   },
   '2009–2012|Iron Man: Armored Adventures': {
@@ -1679,6 +1681,7 @@ export const map: Record<Key, Roster> = {
       'Fenris Wolf',
       'King Eitri',
       'Stardust',
+      'Terrax the Tamer',
     ],
   },
   '2010–2011|Marvel Anime: Iron Man': {
@@ -1788,6 +1791,7 @@ export const map: Record<Key, Roster> = {
       'Mysterio',
       'Dracula',
       'Attuma',
+      'Terrax the Tamer',
       'Annihilus',
       'Leader',
       'Red Hulk',
@@ -1862,6 +1866,7 @@ export const map: Record<Key, Roster> = {
       'Doctor Doom',
       'Malekith',
       'Laufey',
+      'Terrax the Tamer',
     ],
   },
   '2013–2019|Avengers Assemble': {
