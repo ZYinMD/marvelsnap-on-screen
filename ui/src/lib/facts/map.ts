@@ -158,6 +158,7 @@ export const map: Record<Key, Roster> = {
       'Doctor Doom',
       'Silver Surfer',
       'Galactus',
+      'Nova Frankie Raye',
       'Fantasticar',
     ],
     minor_: [],
@@ -1199,6 +1200,7 @@ export const map: Record<Key, Roster> = {
     ],
     minor_: [
       'Uatu the Watcher',
+      'Nova Frankie Raye',
       'Ghost Rider',
       'Thor',
       'Black Panther',
@@ -1293,7 +1295,7 @@ export const map: Record<Key, Roster> = {
   '1998|Silver Surfer': {
     major: new Set(),
     minor: new Set(),
-    major_: ['Silver Surfer', 'Galactus', 'Nova', 'Thanos', 'Death'],
+    major_: ['Silver Surfer', 'Galactus', 'Nova Frankie Raye', 'Thanos', 'Death'],
     minor_: ['Drax', 'Adam Warlock', 'Gamora', 'Nebula', 'Uatu the Watcher', 'Beta Ray Bill'],
   },
   '1999–2000|The Avengers: United They Stand': {
@@ -1412,6 +1414,7 @@ export const map: Record<Key, Roster> = {
       'Iron Man',
       'Giganto',
       'Cobra',
+      'Nova Frankie Raye',
       'H.E.R.B.I.E.',
     ],
   },
