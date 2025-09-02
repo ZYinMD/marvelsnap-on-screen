@@ -1201,6 +1201,7 @@ export const map: Record<Key, Roster> = {
     minor_: [
       'Uatu the Watcher',
       'Nova Frankie Raye',
+      'Firelord',
       'Ghost Rider',
       'Thor',
       'Black Panther',
@@ -1586,6 +1587,7 @@ export const map: Record<Key, Roster> = {
       'Nightmare',
       'Stardust',
       'Terrax the Tamer',
+      'Firelord',
     ],
   },
   '2009–2012|Iron Man: Armored Adventures': {
@@ -1685,6 +1687,7 @@ export const map: Record<Key, Roster> = {
       'King Eitri',
       'Stardust',
       'Terrax the Tamer',
+      'Firelord',
     ],
   },
   '2010–2011|Marvel Anime: Iron Man': {
@@ -1870,6 +1873,7 @@ export const map: Record<Key, Roster> = {
       'Malekith',
       'Laufey',
       'Terrax the Tamer',
+      'Firelord',
     ],
   },
   '2013–2019|Avengers Assemble': {
