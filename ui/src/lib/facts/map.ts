@@ -1688,6 +1688,7 @@ export const map: Record<Key, Roster> = {
       'Stardust',
       'Terrax the Tamer',
       'Firelord',
+      'Air-Walker',
     ],
   },
   '2010–2011|Marvel Anime: Iron Man': {
