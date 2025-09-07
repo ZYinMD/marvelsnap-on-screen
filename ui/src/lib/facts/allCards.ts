@@ -30,7 +30,7 @@ export const allCards = {
     cost: 5,
     power: 9,
     name: 'Aero',
-    description: '<b>On Reveal:</b> Move the last enemy card played anywhere to this location.',
+    description: '<b>On Reveal:</b> The last card your opponent played moves to this location.',
     seriesStartTimestamps: [-62135596800000],
   },
   'Agatha Harkness': {
@@ -62,7 +62,7 @@ export const allCards = {
     cost: 1,
     power: 2,
     name: 'America Chavez',
-    description: '<b>On Reveal:</b> Give the top card of your deck +2 Power.',
+    description: '<b>On Reveal:</b> Give the top card of your deck +3 Power.',
     seriesStartTimestamps: [-62135596800000],
   },
   'Angel': {
@@ -571,7 +571,7 @@ export const allCards = {
   'Ghost-Spider': {
     defId: 'GhostSpider',
     cost: 1,
-    power: 2,
+    power: 3,
     name: 'Ghost-Spider',
     description: '<b>On Reveal:</b> The last card you played moves here.',
     seriesStartTimestamps: [1686078000000, 1688497200000, 1704654000000, 1741028400000],
@@ -811,8 +811,8 @@ export const allCards = {
   },
   'Juggernaut': {
     defId: 'Juggernaut',
-    cost: 3,
-    power: 3,
+    cost: 4,
+    power: 5,
     name: 'Juggernaut',
     description:
       '<b>On Reveal:</b> Move away all enemy cards played here this turn. <i>(including unrevealed cards)</i>',
@@ -2244,7 +2244,7 @@ export const allCards = {
   'Cannonball': {
     defId: 'Cannonball',
     cost: 5,
-    power: 8,
+    power: 6,
     name: 'Cannonball',
     description:
       "<b>On Reveal:</b> Move the highest-Power enemy card here away. If you can't, destroy it with a Rock.",
@@ -2351,7 +2351,7 @@ export const allCards = {
     power: 7,
     name: 'Sersi',
     description:
-      '<b>On Reveal:</b> Transform your other cards here into random cards that\ncost 1 more. <i>(if possible)</i>',
+      '<b>On Reveal:</b> Transform your other characters here into random ones that\ncost 1 more. <i>(if possible)</i>',
     seriesStartTimestamps: [1718132400000],
   },
   'Phastos': {
@@ -2543,8 +2543,8 @@ export const allCards = {
   },
   'Fenris Wolf': {
     defId: 'FenrisWolf',
-    cost: 2,
-    power: 3,
+    cost: 3,
+    power: 4,
     name: 'Fenris Wolf',
     description:
       "<b>Activate:</b> Resurrect your opponent's highest-Power discarded or destroyed card on your side of this location.",
@@ -2974,7 +2974,7 @@ export const allCards = {
   'Nightmare': {
     defId: 'Nightmare',
     cost: 3,
-    power: -1,
+    power: 1,
     name: 'Nightmare',
     description:
       '<b>On Reveal:</b> Replace the text of each card in your hand with text from a random card of the same Cost.',
@@ -3024,17 +3024,16 @@ export const allCards = {
   'Mad Thinker': {
     defId: 'MadThinker',
     cost: 1,
-    power: 1,
+    power: 2,
     name: 'Mad Thinker',
     description:
       'At the start of each turn <i>(after drawing)</i>, +2 Power if your\nhand is full.',
     seriesStartTimestamps: [1753383600000, 1755802800000],
-    possibleSeries: 7,
   },
   'Fantasticar': {
     defId: 'Fantasticar',
     cost: 4,
-    power: 7,
+    power: 5,
     name: 'Fantasticar',
     description: '<b>Activate:</b> Give your <b>End of Turn</b> cards +2 Power.',
     seriesStartTimestamps: [1752001200000, 1754420400000],
@@ -3056,7 +3055,6 @@ export const allCards = {
     description:
       '<b>On Reveal:</b> Banish the top card of your deck. Add 2 Rocks to your hand. Set their Power to the banished card’s Cost.',
     seriesStartTimestamps: [1753383600000, 1755802800000],
-    possibleSeries: 7,
   },
   'Mister Fantastic First Steps': {
     defId: 'MrFantasticFirstSteps',
@@ -3101,18 +3099,16 @@ export const allCards = {
     description:
       "My Herald is the next character I see you play.\n<b>End of Turn:</b> +2 Power if you're winning my Herald's location. <i>(if in hand or in play)</i>",
     seriesStartTimestamps: [1754420400000, 1756839600000],
-    possibleSeries: 8,
     isSeasonPass: true,
   },
   'Silver Surfer First Steps': {
     defId: 'SilverSurferFirstSteps',
     cost: 3,
-    power: 4,
+    power: 5,
     name: 'Silver Surfer First Steps',
     description:
       "<b>End of Turn:</b> If you're winning this location with an <b>On Reveal</b> card, copy its text.",
     seriesStartTimestamps: [1754420400000, 1756839600000],
-    possibleSeries: 7,
   },
   'Stardust': {
     defId: 'Stardust',
@@ -3138,7 +3134,6 @@ export const allCards = {
     name: 'The Fallen One',
     description: "<b>On Reveal:</b> Set your Max Energy equal to this card's Power.",
     seriesStartTimestamps: [1755630000000],
-    possibleSeries: 8,
   },
   'Cosmic Ghost Rider': {
     defId: 'CosmicGhostRider',
@@ -3147,7 +3142,6 @@ export const allCards = {
     name: 'Cosmic Ghost Rider',
     description: '<b>On Reveal:</b> Remove the text from front-row enemy cards here.',
     seriesStartTimestamps: [1756234800000],
-    possibleSeries: 8,
   },
   'Air-Walker': {
     defId: 'AirWalker',
@@ -3165,7 +3159,6 @@ export const allCards = {
     name: 'Firelord',
     description: '<b>On Reveal:</b> Revive one of your discarded or destroyed\n3-Cost cards here.',
     seriesStartTimestamps: [1755802800000],
-    possibleSeries: 7,
   },
   'Red Shift': {
     defId: 'RedShift',
@@ -3184,5 +3177,60 @@ export const allCards = {
     description:
       "<b>On Reveal:</b> For each location, shuffle a Rock into the losing player's deck.",
     seriesStartTimestamps: [1754420400000],
+  },
+  'Viv Vision': {
+    defId: 'Viv',
+    cost: 3,
+    power: 2,
+    name: 'Viv Vision',
+    description:
+      'At the start of each turn, give all cards in your hand +1 Power if you’re winning here. Otherwise, move this to another location.',
+    seriesStartTimestamps: [1756839600000, 1759863600000],
+    possibleSeries: 8,
+    isSeasonPass: true,
+  },
+  'Moira X': {
+    defId: 'MoiraX',
+    cost: 1,
+    power: 2,
+    name: 'Moira X',
+    description: 'When this is destroyed, get a copy of your opening hand.',
+    seriesStartTimestamps: [1756839600000],
+  },
+  'Bastion': {
+    defId: 'Bastion',
+    cost: 4,
+    power: 3,
+    name: 'Bastion',
+    description:
+      '<b>On Reveal:</b> Add copies of your other cards here to your hand. Set their Costs to 2 and Power to 3.',
+    seriesStartTimestamps: [1757444400000],
+    possibleSeries: 8,
+  },
+  'Sparky': {
+    defId: 'Sparky',
+    cost: 2,
+    power: 1,
+    name: 'Sparky',
+    description:
+      '<b>Activate:</b> Give your card that last moved +3 Power and move it\nback to its previous location.',
+    seriesStartTimestamps: [1756839600000],
+    isSeasonPass: false,
+  },
+  'Awesome Andy': {
+    defId: 'AwesomeAndy',
+    cost: 2,
+    power: 1,
+    name: 'Awesome Andy',
+    description: '<b>Activate:</b> Give one of your cards at each other location +2 Power.',
+    seriesStartTimestamps: [1756839600000],
+  },
+  'Omega Sentinel': {
+    defId: 'KarimaShapandar',
+    cost: 4,
+    power: 3,
+    name: 'Omega Sentinel',
+    description: '<b>Activate:</b> Afflict the\nhighest-Power enemy card\nwith -7 Power.',
+    seriesStartTimestamps: [1756839600000],
   },
 } as const;

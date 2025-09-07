@@ -71,7 +71,7 @@
 		"cost": 5,
 		"power": 9,
 		"name": "Aero",
-		"description": "<b>On Reveal:</b> Move the last enemy card played anywhere to this location.",
+		"description": "<b>On Reveal:</b> The last card your opponent played moves to this location.",
 		"series": 6,
 		"artists": [
 			{
@@ -165,10 +165,10 @@
 		"cost": 1,
 		"power": 2,
 		"name": "America Chavez",
-		"description": "<b>On Reveal:</b> Give the top card of your deck +2 Power.",
+		"description": "<b>On Reveal:</b> Give the top card of your deck +3 Power.",
 		"attributes": {
 			"data": {
-				"AddedPower": 2
+				"AddedPower": 3
 			}
 		},
 		"series": 4,
@@ -1853,7 +1853,7 @@
 	{
 		"defId": "GhostSpider",
 		"cost": 1,
-		"power": 2,
+		"power": 3,
 		"name": "Ghost-Spider",
 		"description": "<b>On Reveal:</b> The last card you played moves here.",
 		"attributes": {
@@ -2595,8 +2595,8 @@
 	},
 	{
 		"defId": "Juggernaut",
-		"cost": 3,
-		"power": 3,
+		"cost": 4,
+		"power": 5,
 		"name": "Juggernaut",
 		"description": "<b>On Reveal:</b> Move away all enemy cards played here this turn. <i>(including unrevealed cards)</i>",
 		"series": 6,
@@ -8006,7 +8006,7 @@
 	{
 		"defId": "Cannonball",
 		"cost": 5,
-		"power": 8,
+		"power": 6,
 		"name": "Cannonball",
 		"description": "<b>On Reveal:</b> Move the highest-Power enemy card here away. If you can't, destroy it with a Rock.",
 		"attributes": {
@@ -8363,7 +8363,7 @@
 		"cost": 5,
 		"power": 7,
 		"name": "Sersi",
-		"description": "<b>On Reveal:</b> Transform your other cards here into random cards that\ncost 1 more. <i>(if possible)</i>",
+		"description": "<b>On Reveal:</b> Transform your other characters here into random ones that\ncost 1 more. <i>(if possible)</i>",
 		"attributes": {
 			"data": {
 				"AddedCost": 1
@@ -9028,8 +9028,8 @@
 	},
 	{
 		"defId": "FenrisWolf",
-		"cost": 2,
-		"power": 3,
+		"cost": 3,
+		"power": 4,
 		"name": "Fenris Wolf",
 		"description": "<b>Activate:</b> Resurrect your opponent's highest-Power discarded or destroyed card on your side of this location.",
 		"attributes": {
@@ -10575,7 +10575,7 @@
 	{
 		"defId": "Nightmare",
 		"cost": 3,
-		"power": -1,
+		"power": 1,
 		"name": "Nightmare",
 		"description": "<b>On Reveal:</b> Replace the text of each card in your hand with text from a random card of the same Cost.",
 		"series": 8,
@@ -10734,7 +10734,7 @@
 	{
 		"defId": "MadThinker",
 		"cost": 1,
-		"power": 1,
+		"power": 2,
 		"name": "Mad Thinker",
 		"description": "At the start of each turn <i>(after drawing)</i>, +2 Power if your\nhand is full.",
 		"attributes": {
@@ -10742,7 +10742,7 @@
 				"AddedPower": 2
 			}
 		},
-		"series": 10,
+		"series": 7,
 		"artists": [
 			{
 				"name": "Eduardo Mello",
@@ -10757,13 +10757,12 @@
 			1753383600000,
 			1755802800000
 		],
-		"possibleSeries": 7,
 		"collectible": true
 	},
 	{
 		"defId": "Fantasticar",
 		"cost": 4,
-		"power": 7,
+		"power": 5,
 		"name": "Fantasticar",
 		"description": "<b>Activate:</b> Give your <b>End of Turn</b> cards +2 Power.",
 		"attributes": {
@@ -10836,7 +10835,7 @@
 				]
 			}
 		},
-		"series": 10,
+		"series": 7,
 		"artists": [
 			{
 				"name": "Eduardo Mello",
@@ -10851,7 +10850,6 @@
 			1753383600000,
 			1755802800000
 		],
-		"possibleSeries": 7,
 		"collectible": true
 	},
 	{
@@ -10971,7 +10969,7 @@
 				"AddedPower": 2
 			}
 		},
-		"series": 9,
+		"series": 8,
 		"artists": [
 			{
 				"name": "Eduardo Mello",
@@ -10986,17 +10984,16 @@
 			1754420400000,
 			1756839600000
 		],
-		"possibleSeries": 8,
 		"collectible": true,
 		"isSeasonPass": true
 	},
 	{
 		"defId": "SilverSurferFirstSteps",
 		"cost": 3,
-		"power": 4,
+		"power": 5,
 		"name": "Silver Surfer First Steps",
 		"description": "<b>End of Turn:</b> If you're winning this location with an <b>On Reveal</b> card, copy its text.",
-		"series": 10,
+		"series": 7,
 		"artists": [
 			{
 				"name": "Eduardo Mello",
@@ -11011,7 +11008,6 @@
 			1754420400000,
 			1756839600000
 		],
-		"possibleSeries": 7,
 		"collectible": true
 	},
 	{
@@ -11069,7 +11065,7 @@
 		"power": 5,
 		"name": "The Fallen One",
 		"description": "<b>On Reveal:</b> Set your Max Energy equal to this card's Power.",
-		"series": 0,
+		"series": 8,
 		"artists": [
 			{
 				"name": "Eduardo Mello",
@@ -11083,7 +11079,6 @@
 		"seriesStartTimestamps": [
 			1755630000000
 		],
-		"possibleSeries": 8,
 		"collectible": true
 	},
 	{
@@ -11092,7 +11087,7 @@
 		"power": 7,
 		"name": "Cosmic Ghost Rider",
 		"description": "<b>On Reveal:</b> Remove the text from front-row enemy cards here.",
-		"series": 0,
+		"series": 8,
 		"artists": [
 			{
 				"name": "Eduardo Mello",
@@ -11106,7 +11101,6 @@
 		"seriesStartTimestamps": [
 			1756234800000
 		],
-		"possibleSeries": 8,
 		"collectible": true
 	},
 	{
@@ -11120,7 +11114,7 @@
 				"AssignedCost": 4
 			}
 		},
-		"series": 0,
+		"series": 10,
 		"artists": [
 			{
 				"name": "Eduardo Mello",
@@ -11149,7 +11143,7 @@
 				"TargetCardCost": 3
 			}
 		},
-		"series": 0,
+		"series": 7,
 		"artists": [
 			{
 				"name": "Eduardo Mello",
@@ -11163,7 +11157,6 @@
 		"seriesStartTimestamps": [
 			1755802800000
 		],
-		"possibleSeries": 7,
 		"collectible": true
 	},
 	{
@@ -11220,7 +11213,7 @@
 	{
 		"defId": "Viv",
 		"cost": 3,
-		"power": 3,
+		"power": 2,
 		"name": "Viv Vision",
 		"description": "At the start of each turn, give all cards in your hand +1 Power if you’re winning here. Otherwise, move this to another location.",
 		"attributes": {
@@ -11228,7 +11221,7 @@
 				"AddedPower": 1
 			}
 		},
-		"series": 0,
+		"series": 9,
 		"artists": [
 			{
 				"name": "Eduardo Mello",
@@ -11244,6 +11237,7 @@
 			1759863600000
 		],
 		"possibleSeries": 8,
+		"collectible": true,
 		"isSeasonPass": true
 	},
 	{
@@ -11252,7 +11246,7 @@
 		"power": 2,
 		"name": "Moira X",
 		"description": "When this is destroyed, get a copy of your opening hand.",
-		"series": 0,
+		"series": 8,
 		"artists": [
 			{
 				"name": "Eduardo Mello",
@@ -11266,7 +11260,7 @@
 		"seriesStartTimestamps": [
 			1756839600000
 		],
-		"possibleSeries": 8
+		"collectible": true
 	},
 	{
 		"defId": "Bastion",
@@ -11294,7 +11288,8 @@
 		"seriesStartTimestamps": [
 			1757444400000
 		],
-		"possibleSeries": 8
+		"possibleSeries": 8,
+		"collectible": true
 	},
 	{
 		"defId": "JimHammond",
@@ -11353,7 +11348,7 @@
 	{
 		"defId": "Jocasta",
 		"cost": 3,
-		"power": 4,
+		"power": 3,
 		"name": "Jocasta",
 		"description": "<b>Activate:</b> Immediately Activate your other cards here. <i>(without using up their Activate abilities)</i>",
 		"series": 0,
@@ -11397,7 +11392,7 @@
 		"seriesStartTimestamps": [
 			1756839600000
 		],
-		"possibleSeries": 8,
+		"collectible": true,
 		"isSeasonPass": false
 	},
 	{
@@ -11411,7 +11406,7 @@
 				"AddedPower": 2
 			}
 		},
-		"series": 0,
+		"series": 7,
 		"artists": [
 			{
 				"name": "Eduardo Mello",
@@ -11425,7 +11420,7 @@
 		"seriesStartTimestamps": [
 			1756839600000
 		],
-		"possibleSeries": 7
+		"collectible": true
 	},
 	{
 		"defId": "KarimaShapandar",
@@ -11438,7 +11433,7 @@
 				"ReducedPower": 7
 			}
 		},
-		"series": 0,
+		"series": 7,
 		"artists": [
 			{
 				"name": "Eduardo Mello",
@@ -11452,7 +11447,7 @@
 		"seriesStartTimestamps": [
 			1756839600000
 		],
-		"possibleSeries": 7
+		"collectible": true
 	},
 	{
 		"defId": "Danger",
@@ -12757,7 +12752,7 @@
 		"cost": 1,
 		"power": 0,
 		"name": "Polymorph",
-		"description": "<b>On Reveal:</b> Transform your\nlowest-Power card here into\none that costs 1 more.",
+		"description": "<b>On Reveal:</b> Transform your\nlowest-Power character here into\none that costs 1 more.",
 		"attributes": {
 			"data": {
 				"AddedCost": 1
