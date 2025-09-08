@@ -20,7 +20,7 @@
     grid-area: list;
     pointer-events: auto;
     place-self: end start;
-    width: 62px;
+    width: 72px;
     padding: 2px 2px 0px 3px;
     display: grid;
     place-items: center;

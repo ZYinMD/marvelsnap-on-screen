@@ -24,7 +24,7 @@
     grid-area: list;
     pointer-events: auto;
     place-self: end end;
-    width: 62px;
+    width: 72px;
     padding: 2px 3px 0px 2px;
     display: grid;
     grid-template-areas: 'the-only';
