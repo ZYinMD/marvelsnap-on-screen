@@ -1607,7 +1607,7 @@ export const map: Record<Key, Roster> = {
       'M.O.D.O.K.',
       'Helicarrier',
     ],
-    minor_: ['Black Knight', 'Magneto', 'Jean Grey', 'Maria Hill', 'Mad Thinker'],
+    minor_: ['Black Knight', 'Magneto', 'Jean Grey', 'Maria Hill', 'Mad Thinker', 'Awesome Andy'],
   },
   "2010–2012|The Avengers: Earth's Mightiest Heroes": {
     major: new Set(),
@@ -1815,6 +1815,7 @@ export const map: Record<Key, Roster> = {
       'Skaar',
       'Absorbing Man',
       'Morgan le Fay',
+      'Awesome Andy',
       'Uncle Ben',
     ],
   },
