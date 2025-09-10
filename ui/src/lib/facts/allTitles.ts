@@ -1335,14 +1335,14 @@ export const allTitles = {
       key: '2021|M.O.D.O.K.',
       label: [],
     },
-    '2021–2023|Spidey and His Amazing Friends': {
+    '2021–2025|Spidey and His Amazing Friends': {
       type: 'animated-tv-series',
-      year: '2021–2023',
+      year: '2021–2025',
       title: 'Spidey and His Amazing Friends',
       wikipedia: 'https://en.wikipedia.org/wiki/Spidey_and_His_Amazing_Friends_(2021_TV_series)',
-      numSeasons: 2,
-      numEpisodes: 47,
-      key: '2021–2023|Spidey and His Amazing Friends',
+      numSeasons: 3,
+      numEpisodes: 84,
+      key: '2021–2025|Spidey and His Amazing Friends',
       label: [],
     },
     '2021|Hit-Monkey': {
