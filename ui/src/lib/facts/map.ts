@@ -159,10 +159,9 @@ export const map: Record<Key, Roster> = {
       'Doctor Doom',
       'Silver Surfer',
       'Galactus',
-      'Nova Frankie Raye',
       'Fantasticar',
     ],
-    minor_: [],
+    minor_: ['Nova Frankie Raye'],
   },
   '2008|Iron Man': {
     major: new Set(),
