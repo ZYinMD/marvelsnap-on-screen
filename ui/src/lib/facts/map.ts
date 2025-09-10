@@ -1720,7 +1720,7 @@ export const map: Record<Key, Roster> = {
   '2011–2012|Marvel Anime: X-Men': {
     major: new Set(),
     minor: new Set(),
-    major_: ['Armor', 'Wolverine', 'Cyclops', 'Beast', 'Professor X', 'Storm', 'Cerebro'],
+    major_: ['Armor', 'White Queen', 'Wolverine', 'Cyclops', 'Beast', 'Professor X', 'Cerebro'],
     minor_: ['Jean Grey'],
   },
   '2011–2012|Marvel Anime: Blade': {
