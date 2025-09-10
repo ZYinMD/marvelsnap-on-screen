@@ -1111,6 +1111,18 @@ export const map: Record<Key, Roster> = {
     major_: ['Daredevil', 'Kingpin', 'Bullseye', 'Punisher', 'White Tiger'],
     minor_: [],
   },
+  '2025|Ironheart': {
+    major: new Set(),
+    minor: new Set(),
+    major_: ['Ironheart', 'The Hood'],
+    minor_: [],
+  },
+  '2025|Eyes of Wakanda': {
+    major: new Set(),
+    minor: new Set(),
+    major_: ['Iron Fist', 'Black Panther'],
+    minor_: ['Uatu the Watcher'],
+  },
   '1992–1997|X-Men: The Animated Series': {
     major: new Set(),
     minor: new Set(),

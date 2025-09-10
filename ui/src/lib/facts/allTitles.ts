@@ -1043,6 +1043,16 @@ export const allTitles = {
       numEpisodes: 9,
       key: '2025|Daredevil: Born Again',
     },
+    '2025|Ironheart': {
+      type: 'live-action-tv-series',
+      year: '2025',
+      title: 'Ironheart',
+      wikipedia: 'https://en.wikipedia.org/wiki/Ironheart_(miniseries)',
+      label: ['mcu'],
+      numSeasons: 1,
+      numEpisodes: 6,
+      key: '2025|Ironheart',
+    },
   },
   'animated-tv-series': {
     '1992–1997|X-Men: The Animated Series': {
@@ -1393,6 +1403,16 @@ export const allTitles = {
       numSeasons: 1,
       numEpisodes: 10,
       key: '2025|Iron Man and His Awesome Friends',
+      label: [],
+    },
+    '2025|Eyes of Wakanda': {
+      type: 'animated-tv-series',
+      year: '2025',
+      title: 'Eyes of Wakanda',
+      wikipedia: 'https://en.wikipedia.org/wiki/Eyes_of_Wakanda',
+      numSeasons: 1,
+      numEpisodes: 4,
+      key: '2025|Eyes of Wakanda',
       label: [],
     },
   },
