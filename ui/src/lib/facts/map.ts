@@ -131,6 +131,7 @@ export const map: Record<Key, Roster> = {
       'Colossus',
       'Angel',
       'Psylocke',
+      'Kid Omega',
       'Leech',
       'Moira X',
     ],
