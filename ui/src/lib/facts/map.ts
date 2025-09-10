@@ -76,7 +76,7 @@ export const map: Record<Key, Roster> = {
   '2003|Hulk': {
     major: new Set(),
     minor: new Set(),
-    major_: ['Hulk'],
+    major_: ['Bruce Banner', 'Hulk'],
     minor_: [],
   },
   '2004|The Punisher': {
@@ -172,7 +172,7 @@ export const map: Record<Key, Roster> = {
   '2008|The Incredible Hulk': {
     major: new Set(),
     minor: new Set(),
-    major_: ['Hulk', 'Abomination'],
+    major_: ['Bruce Banner', 'Hulk', 'Abomination'],
     minor_: ['Leader', 'Iron Man', 'Thaddeus Ross'],
   },
   '2008|Punisher: War Zone': {
@@ -243,6 +243,7 @@ export const map: Record<Key, Roster> = {
     major_: [
       'Iron Man',
       'Captain America',
+      'Bruce Banner',
       'Hulk',
       'Thor',
       'Black Widow',
@@ -599,6 +600,7 @@ export const map: Record<Key, Roster> = {
     major_: [
       'Iron Man',
       'Captain America',
+      'Bruce Banner',
       'Hulk',
       'Thor',
       'Black Widow',
@@ -684,7 +686,7 @@ export const map: Record<Key, Roster> = {
     major: new Set(),
     minor: new Set(),
     major_: ['Shang-Chi', 'Wong', 'Abomination'],
-    minor_: ['Hulk', 'Captain Marvel'],
+    minor_: ['Bruce Banner', 'Captain Marvel'],
   },
   '2021|Venom: Let There Be Carnage': {
     major: new Set(),
@@ -1083,7 +1085,7 @@ export const map: Record<Key, Roster> = {
   '2022|She-Hulk: Attorney at Law': {
     major: new Set(),
     minor: new Set(),
-    major_: ['She-Hulk', 'Hulk', 'Titania', 'Abomination', 'Wong', 'Daredevil'],
+    major_: ['She-Hulk', 'Bruce Banner', 'Hulk', 'Titania', 'Abomination', 'Wong', 'Daredevil'],
     minor_: ['Skaar'],
   },
   '2023|Secret Invasion': {
@@ -1294,7 +1296,7 @@ export const map: Record<Key, Roster> = {
   '1996–1997|The Incredible Hulk': {
     major: new Set(),
     minor: new Set(),
-    major_: ['Hulk', 'She-Hulk', 'Abomination', 'Doctor Doom'],
+    major_: ['Bruce Banner', 'Hulk', 'She-Hulk', 'Abomination', 'Doctor Doom'],
     minor_: [
       'Ghost Rider',
       'Doctor Strange',
