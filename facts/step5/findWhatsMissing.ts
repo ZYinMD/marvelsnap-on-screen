@@ -48,6 +48,7 @@ const indeedNeverAppearedInShows = new Set<CardName>([
   'Toxie Doxie',
   'Nocturne',
   'Rocket and Groot',
+  'Gorgon',
   'Sentry',
   'Sera',
   'Silk',
