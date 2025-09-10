@@ -10,7 +10,7 @@
     class="skew pressable"
     on:click={() => ($filter.showMinorCharacters = !$filter.showMinorCharacters)}
   >
-    Show Minor Characters
+    Show Minor Characters <br />(dimmed)
   </div>
   <div
     class="info-button clickable"
@@ -39,9 +39,11 @@
   }
   .info-button {
     font-size: 16px;
-    margin: 2px 0px 0px 10px;
     color: #555;
     scale: 0.9;
+    position: relative;
+    top: 21px;
+    left: -90px;
   }
   .checkmark {
     margin-left: 15px;
