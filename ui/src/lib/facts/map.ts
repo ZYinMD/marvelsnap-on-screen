@@ -991,7 +991,7 @@ export const map: Record<Key, Roster> = {
   '2017|Inhumans': {
     major: new Set(),
     minor: new Set(),
-    major_: ['Black Bolt', 'Medusa', 'Gorgon', 'Crystal', 'Maximus', 'Lockjaw'],
+    major_: ['Black Bolt', 'Medusa', 'Crystal', 'Maximus', 'Lockjaw'],
     minor_: [],
   },
   '2017–2019|The Gifted': {
