@@ -173,7 +173,7 @@ export const map: Record<Key, Roster> = {
     major: new Set(),
     minor: new Set(),
     major_: ['Hulk', 'Abomination'],
-    minor_: ['Leader', 'Iron Man'],
+    minor_: ['Leader', 'Iron Man', 'Thaddeus Ross'],
   },
   '2008|Punisher: War Zone': {
     major: new Set(),
@@ -415,7 +415,7 @@ export const map: Record<Key, Roster> = {
       'Crossbones',
       'Quinjet',
     ],
-    minor_: [],
+    minor_: ['Thaddeus Ross'],
   },
   '2016|X-Men: Apocalypse': {
     major: new Set(),
@@ -542,7 +542,7 @@ export const map: Record<Key, Roster> = {
       'Quinjet',
       'Hulkbuster',
     ],
-    minor_: ['Rescue', 'Nick Fury', 'Maria Hill'],
+    minor_: ['Rescue', 'Nick Fury', 'Maria Hill', 'Thaddeus Ross'],
   },
   '2018|Deadpool 2': {
     major: new Set(),
