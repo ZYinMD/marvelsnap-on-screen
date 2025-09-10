@@ -2275,6 +2275,35 @@ export const map: Record<Key, Roster> = {
       'Polaris',
     ],
   },
+  '2025|Your Friendly Neighborhood Spider-Man': {
+    major: new Set(),
+    minor: new Set(),
+    major_: [
+      'Spider-Man',
+      'Nico Minoru',
+      'Wave',
+      'Doctor Octopus',
+      'Doctor Strange',
+      'Daredevil',
+      'Scorpion',
+    ],
+    minor_: ['Iron Man', 'Rhino'],
+  },
+  '2025|Iron Man and His Awesome Friends': {
+    major: new Set(),
+    minor: new Set(),
+    major_: [
+      'Iron Man',
+      'Ironheart',
+      'Vision',
+      'Sam Wilson Captain America',
+      'Black Panther',
+      'Ultron',
+      'Absorbing Man',
+      'Swarm',
+    ],
+    minor_: [],
+  },
 };
 
 Object.values(map).forEach((i) => {
