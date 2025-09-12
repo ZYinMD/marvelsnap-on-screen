@@ -1029,7 +1029,7 @@ export const map: Record<Key, Roster> = {
   '2021|WandaVision': {
     major: new Set(),
     minor: new Set(),
-    major_: ['Scarlet Witch', 'Vision', 'Agatha Harkness', 'Spectrum', 'Wiccan', 'Speed'],
+    major_: ['Scarlet Witch', 'Vision', 'Agatha Harkness', 'Spectrum', 'Wiccan', 'Speed', 'Sparky'],
     minor_: ['Quicksilver'],
   },
   '2021|The Falcon and the Winter Soldier': {
@@ -1104,7 +1104,7 @@ export const map: Record<Key, Roster> = {
   '2024|Agatha All Along': {
     major: new Set(),
     minor: new Set(),
-    major_: ['Agatha Harkness', 'Wiccan', 'Death', 'Jennifer Kale'],
+    major_: ['Agatha Harkness', 'Wiccan', 'Death', 'Jennifer Kale', 'Sparky'],
     minor_: ['Nicholas Scratch'],
   },
   '2025|Daredevil: Born Again': {
