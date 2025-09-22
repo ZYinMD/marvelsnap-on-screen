@@ -571,13 +571,13 @@ export const map: Record<Key, Roster> = {
     major: new Set(),
     minor: new Set(),
     major_: ['Venom'],
-    minor_: ['Spider-Man', 'Miles Morales'],
+    minor_: ['Spider-Man', 'Miles Morales Spider-Man'],
   },
   '2018|Spider-Man: Into the Spider-Verse': {
     major: new Set(),
     minor: new Set(),
     major_: [
-      'Miles Morales',
+      'Miles Morales Spider-Man',
       'Spider-Man',
       'Ghost-Spider',
       'Kingpin',
@@ -817,7 +817,7 @@ export const map: Record<Key, Roster> = {
     major: new Set(),
     minor: new Set(),
     major_: [
-      'Miles Morales',
+      'Miles Morales Spider-Man',
       'Ghost-Spider',
       'Spider-Man',
       'Spider-Woman',
@@ -1768,7 +1768,7 @@ export const map: Record<Key, Roster> = {
       'Squirrel Girl',
       'Black Bolt',
       'Black Widow',
-      'Miles Morales',
+      'Miles Morales Spider-Man',
       'Luke Cage',
       'Doctor Doom',
       'Kraven',
@@ -2145,7 +2145,7 @@ export const map: Record<Key, Roster> = {
     minor: new Set(),
     major_: [
       'Spider-Man',
-      'Miles Morales',
+      'Miles Morales Spider-Man',
       'Ghost-Spider',
       'Venom',
       'Hobgoblin',
@@ -2206,7 +2206,7 @@ export const map: Record<Key, Roster> = {
     minor: new Set(),
     major_: [
       'Spider-Man',
-      'Miles Morales',
+      'Miles Morales Spider-Man',
       'Ghost-Spider',
       'Black Panther',
       'Hulk',
