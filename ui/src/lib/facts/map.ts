@@ -1605,6 +1605,7 @@ export const map: Record<Key, Roster> = {
       'Stardust',
       'Terrax the Tamer',
       'Firelord',
+      'Jim Hammond Human Torch',
     ],
   },
   '2009–2012|Iron Man: Armored Adventures': {
