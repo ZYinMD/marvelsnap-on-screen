@@ -1274,6 +1274,7 @@ export const map: Record<Key, Roster> = {
       'Red Skull',
       'Iron Man',
       'Nick Fury',
+      'Warlock',
       'Electro',
       'Uncle Ben',
     ],
