@@ -440,7 +440,7 @@ export const map: Record<Key, Roster> = {
       'Havok',
       'Cerebro',
     ],
-    minor_: ['Wolverine', 'Blob'],
+    minor_: ['Wolverine', 'Blob', 'Sentinel'],
   },
   '2016|Doctor Strange': {
     major: new Set(),
