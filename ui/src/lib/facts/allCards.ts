@@ -36,7 +36,7 @@ export const allCards = {
   'Agatha Harkness': {
     defId: 'AgathaHarkness',
     cost: 6,
-    power: 14,
+    power: 12,
     name: 'Agatha Harkness',
     description: '<b>Game Start:</b> Draw Agatha. She controls your cards on even turns.',
     seriesStartTimestamps: [-62135596800000],
@@ -172,7 +172,7 @@ export const allCards = {
     power: 2,
     name: 'Black Knight',
     description:
-      "After you discard a card, add the {card.Card_Token.Name} to your hand with that card's Power. <i>(once per game)</i>",
+      "After you discard a card, add the Ebony Blade to your hand with that card's Power. <i>(once per game)</i>",
     seriesStartTimestamps: [1697569200000, 1741028400000],
   },
   'Black Panther': {
@@ -188,7 +188,7 @@ export const allCards = {
     cost: 3,
     power: 3,
     name: 'Black Widow',
-    description: "<b>Activate:</b> Add a {card.Card_Token.Name} to your opponent's hand.",
+    description: "<b>Activate:</b> Add a Widow's Bite to your opponent's hand.",
     seriesStartTimestamps: [-62135596800000],
   },
   'Blade': {
@@ -239,7 +239,7 @@ export const allCards = {
     cost: 2,
     power: 1,
     name: 'Bucky Barnes',
-    description: 'When this is destroyed, replace it with the {card.Card_Token.Name}.',
+    description: 'When this is destroyed, replace it with the Winter Soldier.',
     seriesStartTimestamps: [-62135596800000],
   },
   'Bullseye': {
@@ -303,7 +303,7 @@ export const allCards = {
   'Colleen Wing': {
     defId: 'ColleenWing',
     cost: 2,
-    power: 4,
+    power: 3,
     name: 'Colleen Wing',
     description: '<b>On Reveal:</b> Discard the card that costs the least from your hand.',
     seriesStartTimestamps: [-62135596800000],
@@ -318,8 +318,8 @@ export const allCards = {
   },
   'Cosmo': {
     defId: 'Cosmo',
-    cost: 4,
-    power: 6,
+    cost: 3,
+    power: 3,
     name: 'Cosmo',
     description: "<b>Ongoing:</b> <b>On Reveal</b> abilities won't happen here.",
     seriesStartTimestamps: [-62135596800000],
@@ -409,14 +409,13 @@ export const allCards = {
     cost: 3,
     power: 3,
     name: 'Debrii',
-    description:
-      '<b>On Reveal:</b> Add a {card.Card_Token.Name} to each other location, for both players.',
+    description: '<b>On Reveal:</b> Add a Rock to each other location, for both players.',
     seriesStartTimestamps: [-62135596800000],
   },
   'Destroyer': {
     defId: 'Destroyer',
     cost: 6,
-    power: 16,
+    power: 18,
     name: 'Destroyer',
     description: '<b>On Reveal:</b> Destroy your cards at other locations.',
     seriesStartTimestamps: [-62135596800000],
@@ -475,8 +474,7 @@ export const allCards = {
     cost: 6,
     power: 5,
     name: 'Doctor Doom',
-    description:
-      '<b>On Reveal:</b> Add a {card.Card_Token.Power}-Power {card.Card_Token.Name} to each other location.',
+    description: '<b>On Reveal:</b> Add a 5-Power DoomBot to each other location.',
     seriesStartTimestamps: [-62135596800000],
   },
   'Ebony Maw': {
@@ -692,7 +690,7 @@ export const allCards = {
     cost: 1,
     power: -3,
     name: 'The Hood',
-    description: '<b>On Reveal:</b> Add a {card.Card_Token.Name} to your hand.',
+    description: '<b>On Reveal:</b> Add a Demon to your hand.',
     seriesStartTimestamps: [-62135596800000],
   },
   'Hulk': {
@@ -826,7 +824,7 @@ export const allCards = {
     power: 4,
     name: 'Kang',
     description:
-      '<b>Game Start:</b> Replace this with 4 {card.Card_Token.Name}s with text from random cards that Cost {card.TargetCardCost} or more.',
+      '<b>Game Start:</b> Replace this with 4 Kangs with text from random cards that Cost 3 or more.',
     seriesStartTimestamps: [-62135596800000],
   },
   'Ka-Zar': {
@@ -842,7 +840,7 @@ export const allCards = {
     cost: 3,
     power: 3,
     name: 'Killmonger',
-    description: '<b>On Reveal:</b> Destroy ALL\n1-Cost cards here.',
+    description: '<b>On Reveal:</b> Destroy ALL\n1-Cost cards.',
     seriesStartTimestamps: [-62135596800000],
   },
   'King Eitri': {
@@ -882,7 +880,7 @@ export const allCards = {
     cost: 1,
     power: 2,
     name: 'Korg',
-    description: "<b>On Reveal:</b> Shuffle a {card.Card_Token.Name} into your opponent's deck.",
+    description: "<b>On Reveal:</b> Shuffle a Rock into your opponent's deck.",
     seriesStartTimestamps: [-62135596800000],
   },
   'Kraven': {
@@ -953,7 +951,7 @@ export const allCards = {
   'Lockjaw': {
     defId: 'Lockjaw',
     cost: 2,
-    power: 2,
+    power: 3,
     name: 'Lockjaw',
     description: '<b>Activate:</b> After you play your next card, swap it with one from your deck.',
     seriesStartTimestamps: [-62135596800000],
@@ -1024,7 +1022,7 @@ export const allCards = {
     cost: 2,
     power: 2,
     name: 'Master Mold',
-    description: "<b>On Reveal:</b> Add 2 {card.Card_Token.Name} to your opponent's hand.",
+    description: "<b>On Reveal:</b> Add 2 Sentinel to your opponent's hand.",
     seriesStartTimestamps: [1678820400000, 1684263600000, 1704654000000],
   },
   'Maximus': {
@@ -1146,7 +1144,7 @@ export const allCards = {
     cost: 2,
     power: 2,
     name: 'Mister Sinister',
-    description: '<b>On Reveal:</b> Add a {card.Card_Token.Name} here with the same Power.',
+    description: '<b>On Reveal:</b> Add a Sinister Clone here with the same Power.',
     seriesStartTimestamps: [-62135596800000],
   },
   'Ms. Marvel': {
@@ -1179,7 +1177,7 @@ export const allCards = {
   'Mystique': {
     defId: 'Mystique',
     cost: 3,
-    power: 0,
+    power: 1,
     name: 'Mystique',
     description:
       '<b>On Reveal:</b> If the last card you played has an <b>Ongoing</b>, copy its text. <i>(if able)</i>',
@@ -1351,7 +1349,7 @@ export const allCards = {
   'Red Guardian': {
     defId: 'RedGuardian',
     cost: 3,
-    power: 0,
+    power: 2,
     name: 'Red Guardian',
     description:
       '<b>On Reveal:</b> Afflict the lowest-Power enemy card here with -2 Power and remove its text.',
@@ -1378,7 +1376,7 @@ export const allCards = {
     cost: 2,
     power: 5,
     name: 'Rhino',
-    description: '<b>On Reveal:</b> Add a {card.Card_Token.Name} to your side of this location.',
+    description: '<b>On Reveal:</b> Add a Rock to your side of this location.',
     seriesStartTimestamps: [-62135596800000],
   },
   'Rocket Raccoon': {
@@ -1468,7 +1466,7 @@ export const allCards = {
     power: 9,
     name: 'Sentry',
     description:
-      "You can't play this at the right location.\n<b>On Reveal:</b> Add a {card.Card_Token.Power} Power Void to the right location.",
+      "You can't play this at the right location.\n<b>On Reveal:</b> Add a -9 Power Void to the right location.",
     seriesStartTimestamps: [-62135596800000, 1684263600000],
   },
   'Sera': {
@@ -1481,8 +1479,8 @@ export const allCards = {
   },
   'Shadow King': {
     defId: 'ShadowKing',
-    cost: 3,
-    power: 3,
+    cost: 2,
+    power: 2,
     name: 'Shadow King',
     description: '<b>On Reveal:</b> Reset all cards here to their original Power.',
     seriesStartTimestamps: [-62135596800000, 1684263600000],
@@ -1490,7 +1488,7 @@ export const allCards = {
   'Shang-Chi': {
     defId: 'ShangChi',
     cost: 4,
-    power: 2,
+    power: 3,
     name: 'Shang-Chi',
     description: '<b>On Reveal:</b> Destroy an enemy card here that has 10 or more Power.',
     seriesStartTimestamps: [-62135596800000],
@@ -1597,8 +1595,7 @@ export const allCards = {
     cost: 1,
     power: 2,
     name: 'Squirrel Girl',
-    description:
-      '<b>On Reveal:</b> Add a {card.Card_Token.Power}-Power {card.Card_Token.Name} to each other location.',
+    description: '<b>On Reveal:</b> Add a 1-Power Squirrel to each other location.',
     seriesStartTimestamps: [-62135596800000],
   },
   'Star-Lord': {
@@ -1747,8 +1744,7 @@ export const allCards = {
     cost: 6,
     power: 8,
     name: 'Ultron',
-    description:
-      '<b>On Reveal:</b> Deploy four {card.Card_Token.Power}-Power Drones to each other location.',
+    description: '<b>On Reveal:</b> Deploy four 2-Power Drones to each other location.',
     seriesStartTimestamps: [-62135596800000],
   },
   'Uncle Ben': {
@@ -1756,7 +1752,7 @@ export const allCards = {
     cost: 1,
     power: 2,
     name: 'Uncle Ben',
-    description: 'When this card is destroyed, replace it with {card.Card_Token.Name}.',
+    description: 'When this card is destroyed, replace it with Spider-Man.',
     seriesStartTimestamps: [1740510000000, 1741892400000],
   },
   'Valkyrie': {
@@ -1846,7 +1842,7 @@ export const allCards = {
     cost: 5,
     power: 1,
     name: 'White Tiger',
-    description: '<b>On Reveal:</b> Add a {card.Card_Token.Power}-Power Tiger to another location.',
+    description: '<b>On Reveal:</b> Add a 9-Power Tiger to another location.',
     seriesStartTimestamps: [-62135596800000],
   },
   'Wolfsbane': {
@@ -2002,7 +1998,7 @@ export const allCards = {
     power: 2,
     name: 'Spider-Ham',
     description:
-      '<b>Activate:</b> Replace the text of a random character in your opponent\'s hand with <i>\\"oink!\\"</i>',
+      '<b>Activate:</b> Replace the text of a random character in your opponent\'s hand with <i>"oink!"</i>',
     seriesStartTimestamps: [1687287600000, 1741028400000],
   },
   'Spider-Man 2099': {
@@ -2026,7 +2022,7 @@ export const allCards = {
     cost: 3,
     power: 4,
     name: 'Daken',
-    description: '<b>On Reveal:</b> Add the {card.Card_Token.Name} to your hand.',
+    description: '<b>On Reveal:</b> Add the Muramasa Shard to your hand.',
     seriesStartTimestamps: [1691521200000, 1693940400000, 1704654000000],
     isSeasonPass: true,
   },
@@ -2050,7 +2046,7 @@ export const allCards = {
   'Alioth': {
     defId: 'Alioth',
     cost: 6,
-    power: 6,
+    power: 9,
     name: 'Alioth',
     description: '<b>On Reveal:</b> Remove the text from all unrevealed enemy characters here.',
     seriesStartTimestamps: [1694545200000],
@@ -2174,7 +2170,7 @@ export const allCards = {
     cost: 4,
     power: 6,
     name: 'Beta Ray Bill',
-    description: '<b>On Reveal:</b> Shuffle {card.Card_Token.Name} into your deck.',
+    description: '<b>On Reveal:</b> Shuffle Stormbreaker into your deck.',
     seriesStartTimestamps: [1706641200000, 1733770800000],
   },
   'Black Swan': {
@@ -2251,7 +2247,7 @@ export const allCards = {
     power: 6,
     name: 'Cannonball',
     description:
-      "<b>On Reveal:</b> Move the highest-Power enemy card here away. If you can't, destroy it with a {card.Card_Token.Name}.",
+      "<b>On Reveal:</b> Move the highest-Power enemy card here away. If you can't, destroy it with a Rock.",
     seriesStartTimestamps: [1710874800000, 1741028400000],
   },
   'Baron Zemo': {
@@ -2286,8 +2282,7 @@ export const allCards = {
     cost: 2,
     power: 2,
     name: 'White Widow',
-    description:
-      "<b>On Reveal:</b> Add a {card.Card_Token.Name} to your opponent's side of this location.",
+    description: "<b>On Reveal:</b> Add a Widow's Kiss to your opponent's side of this location.",
     seriesStartTimestamps: [1713898800000],
   },
   'Valentina': {
@@ -2602,7 +2597,7 @@ export const allCards = {
     cost: 3,
     power: 6,
     name: 'Luna Snow',
-    description: '<b>On Reveal:</b> Add an {card.Card_Token.Name} to each side of this location.',
+    description: '<b>On Reveal:</b> Add an Ice Cube to each side of this location.',
     seriesStartTimestamps: [1733252400000],
   },
   'Galacta': {
@@ -2629,7 +2624,7 @@ export const allCards = {
     power: 4,
     name: 'Doctor Doom 2099',
     description:
-      '<b>End of Turn:</b> Add a {card.Card_Token.Name} to a random location if you played <i>(exactly)</i> {card.ModifiedCardCount} card.',
+      '<b>End of Turn:</b> Add a DoomBot 2099 to a random location if you played <i>(exactly)</i> 1 card.',
     seriesStartTimestamps: [1734462000000],
   },
   'Bruce Banner': {
@@ -2708,7 +2703,7 @@ export const allCards = {
     power: 2,
     name: 'Sam Wilson Captain America',
     description:
-      '<b>Game Start:</b> Add {card.Card_Token.Name} to a random location.\n<b>Ongoing:</b> You can move {card.Card_Token.Name}.',
+      "<b>Game Start:</b> Add Cap's Shield to a random location.\n<b>Ongoing:</b> You can move Cap's Shield.",
     seriesStartTimestamps: [1738695600000, 1741114800000],
     isSeasonPass: true,
   },
@@ -2973,7 +2968,7 @@ export const allCards = {
     cost: 3,
     power: 5,
     name: 'The Ancient One',
-    description: '<b>On Reveal:</b> Add {card.Card_Token.Name} to your hand.',
+    description: '<b>On Reveal:</b> Add Tao Mandala to your hand.',
     seriesStartTimestamps: [1749582000000],
   },
   'Nightmare': {
@@ -2991,13 +2986,13 @@ export const allCards = {
     power: 2,
     name: 'Clea',
     description:
-      'When this permanently gains Power, add {card.Card_Token.Name} to your hand. <i>(if in hand or in play)</i>',
+      'When this permanently gains Power, add Flames of the Faltine to your hand. <i>(if in hand or in play)</i>',
     seriesStartTimestamps: [1751396400000],
   },
   'Dormammu': {
     defId: 'Dormammu',
     cost: 7,
-    power: 10,
+    power: 12,
     name: 'Dormammu',
     description: '<b>Game Start:</b> Begin a Summoning Ritual. <i>(Add step 1 to hand.)</i>',
     seriesStartTimestamps: [1750791600000],
@@ -3058,7 +3053,7 @@ export const allCards = {
     power: 4,
     name: 'Mole Man',
     description:
-      '<b>On Reveal:</b> Banish the top card of your deck. Add 2 {card.Card_Token.Name}s to your hand. Set their Power to the banished card’s Cost.',
+      '<b>On Reveal:</b> Banish the top card of your deck. Add 2 Rocks to your hand. Set their Power to the banished card’s Cost.',
     seriesStartTimestamps: [1753383600000, 1755802800000],
   },
   'Mister Fantastic First Steps': {
@@ -3118,7 +3113,7 @@ export const allCards = {
   'Stardust': {
     defId: 'Stardust',
     cost: 4,
-    power: 7,
+    power: 6,
     name: 'Stardust',
     description:
       '<b>Ongoing:</b> Cards can’t be added to locations except by playing\nor moving them.',
@@ -3155,7 +3150,6 @@ export const allCards = {
     name: 'Air-Walker',
     description: 'When this is destroyed, replace it with a 4-Cost card from your hand or deck.',
     seriesStartTimestamps: [1755802800000, 1758481200000],
-    possibleSeries: 7,
   },
   'Firelord': {
     defId: 'Firelord',
@@ -3180,13 +3174,13 @@ export const allCards = {
     power: 4,
     name: 'Terrax the Tamer',
     description:
-      "<b>On Reveal:</b> For each location, shuffle a {card.Card_Token.Name} into the losing player's deck.",
+      "<b>On Reveal:</b> For each location, shuffle a Rock into the losing player's deck.",
     seriesStartTimestamps: [1754420400000],
   },
   'Viv Vision': {
     defId: 'Viv',
     cost: 3,
-    power: 2,
+    power: 3,
     name: 'Viv Vision',
     description:
       'At the start of each turn, give all cards in your hand +1 Power if you’re winning here. Otherwise, move this to another location.',
@@ -3226,7 +3220,15 @@ export const allCards = {
     name: 'Warlock',
     description: '<b>Activate:</b> For each unspent Energy, give a card in your hand -1 Cost.',
     seriesStartTimestamps: [1758654000000],
-    possibleSeries: 8,
+  },
+  'Jocasta': {
+    defId: 'Jocasta',
+    cost: 3,
+    power: 3,
+    name: 'Jocasta',
+    description:
+      '<b>Activate:</b> Immediately Activate your other cards here. <i>(without using up their Activate abilities)</i>',
+    seriesStartTimestamps: [1759258800000],
   },
   'Sparky': {
     defId: 'Sparky',
@@ -3241,7 +3243,7 @@ export const allCards = {
   'Awesome Andy': {
     defId: 'AwesomeAndy',
     cost: 2,
-    power: 1,
+    power: 2,
     name: 'Awesome Andy',
     description: '<b>Activate:</b> Give one of your cards at each other location +2 Power.',
     seriesStartTimestamps: [1756839600000],
@@ -3261,6 +3263,65 @@ export const allCards = {
     name: 'Danger',
     description: '<b>Activate:</b> Destroy an enemy card here with less Power.',
     seriesStartTimestamps: [1758222000000, 1760814000000],
+    possibleSeries: 7,
+  },
+  'Super-Adaptoid': {
+    defId: 'SuperAdaptoid',
+    cost: 3,
+    power: 5,
+    name: 'Super-Adaptoid',
+    description: '<b>On Reveal:</b> Steal the text from an enemy <b>Activate</b> card here.',
+    seriesStartTimestamps: [1759258800000],
+  },
+  'Zombie Giant-Man': {
+    defId: 'ZombieGiantMan',
+    cost: 5,
+    power: 3,
+    name: 'Zombie Giant-Man',
+    description:
+      '<b>On Reveal:</b> <b>Horde +1</b>, then this gains Power equal to your Zombie Horde.',
+    seriesStartTimestamps: [1759863600000],
+    possibleSeries: 7,
+  },
+  'Zombie Scarlet Witch': {
+    defId: 'ZombieScarletWitch',
+    cost: 3,
+    power: 2,
+    name: 'Zombie Scarlet Witch',
+    description: 'After you play a card here, <b>Horde +2</b>.',
+    seriesStartTimestamps: [1759863600000, 1762282800000],
+    possibleSeries: 8,
+    isSeasonPass: true,
+  },
+  'Colonel America': {
+    defId: 'ColonelAmerica',
+    cost: 3,
+    power: 3,
+    name: 'Colonel America',
+    description:
+      "<b>Ongoing:</b> Your other cards here have +1 Power for each turn you've discarded a card.",
+    seriesStartTimestamps: [1759863600000],
+    possibleSeries: 8,
+  },
+  'Headpool': {
+    defId: 'Headpool',
+    cost: 1,
+    power: 1,
+    name: 'Headpool',
+    description:
+      'When this is destroyed, return it to your hand, then give all cards in your hand +1 Power.',
+    seriesStartTimestamps: [1759863600000],
+    possibleSeries: 8,
+    isSeasonPass: false,
+  },
+  'Zombie Power Man': {
+    defId: 'ZombiePowerMan',
+    cost: 2,
+    power: 4,
+    name: 'Zombie Power Man',
+    description:
+      "<b>End of Turn:</b> If you're winning here, discard the leftmost card\nfrom your hand.",
+    seriesStartTimestamps: [1759863600000],
     possibleSeries: 7,
   },
 } as const;
