@@ -1925,6 +1925,7 @@ export const map: Record<Key, Roster> = {
       'Jane Foster Mighty Thor',
       'Ultron',
       'Red Skull',
+      'Super-Adaptoid',
       'Kang',
       'M.O.D.O.K.',
       'Thanos',
@@ -2126,6 +2127,8 @@ export const map: Record<Key, Roster> = {
       'Falcon',
       'Ares',
       'Doctor Strange',
+      'M.O.D.O.K.',
+      'Super-Adaptoid',
       'Maximus',
       'Enchantress',
       'Green Goblin',
@@ -2201,7 +2204,7 @@ export const map: Record<Key, Roster> = {
   '2021|M.O.D.O.K.': {
     major: new Set(),
     minor: new Set(),
-    major_: ['M.O.D.O.K.'],
+    major_: ['M.O.D.O.K.', 'Super-Adaptoid'],
     minor_: ['Iron Man', 'Captain America', 'Mister Sinister', 'Leader', 'Brood'],
   },
   '2021–2025|Spidey and His Amazing Friends': {
