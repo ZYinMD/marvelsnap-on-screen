@@ -1137,7 +1137,6 @@ export const map: Record<Key, Roster> = {
       'Red Guardian',
       'Shang-Chi',
       'Spider-Man',
-      'Headpool',
       'Thor',
       'Valkyrie',
       'Khonshu',
