@@ -1415,5 +1415,15 @@ export const allTitles = {
       key: '2025|Eyes of Wakanda',
       label: [],
     },
+    '2025|Marvel Zombies': {
+      type: 'animated-tv-series',
+      year: '2025',
+      title: 'Marvel Zombies',
+      wikipedia: 'https://en.wikipedia.org/wiki/Marvel_Zombies_(miniseries)',
+      numSeasons: 1,
+      numEpisodes: 4,
+      key: '2025|Marvel Zombies',
+      label: [],
+    },
   },
 } as const;
