@@ -1141,6 +1141,8 @@ export const map: Record<Key, Roster> = {
       'Valkyrie',
       'Khonshu',
       'Headpool',
+      'Zombie Captain Marvel',
+      'Zombie Mister Fantastic',
       'Zombie Scarlet Witch',
       'Zombie Giant-Man',
       'Zombie Power Man',
