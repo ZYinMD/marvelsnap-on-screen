@@ -634,7 +634,6 @@ export const allCards = {
     name: 'Danger',
     description: '<b>Activate:</b> Destroy an enemy card here with less Power.',
     seriesStartTimestamps: [1758222000000, 1760814000000],
-    possibleSeries: 7,
   },
   'Daredevil': {
     defId: 'Daredevil',
@@ -1766,6 +1765,17 @@ export const allCards = {
       "<b>On Reveal:</b> Add a 1, 2, or 3-Cost card from your deck here, but don't reveal it until the game ends.",
     seriesStartTimestamps: [1731438000000],
   },
+  'Man-Spider': {
+    defId: 'ManSpider',
+    cost: 5,
+    power: 1,
+    name: 'Man-Spider',
+    description:
+      '<b>On Reveal:</b> Merge the\nlast card you played into this.\nWhen this merges, double its Power.',
+    seriesStartTimestamps: [1762282800000],
+    possibleSeries: 8,
+    isSeasonPass: false,
+  },
   'Man-Thing': {
     defId: 'ManThing',
     cost: 4,
@@ -2739,6 +2749,17 @@ export const allCards = {
       '<b>On Reveal:</b> Move to another location and pull an enemy card from\nhere to there.',
     seriesStartTimestamps: [-62135596800000],
   },
+  'Spider-Punk': {
+    defId: 'SpiderPunk',
+    cost: 3,
+    power: 2,
+    name: 'Spider-Punk',
+    description:
+      'You can move this once.\nWhen this moves to a location, steal 2 Power from the highest-Power enemy there.',
+    seriesStartTimestamps: [1762282800000, 1764702000000],
+    possibleSeries: 8,
+    isSeasonPass: true,
+  },
   'Spider-Woman': {
     defId: 'SpiderWoman',
     cost: 5,
@@ -2845,6 +2866,16 @@ export const allCards = {
     name: 'Supergiant',
     description: "<b>On Reveal:</b> All cards played next turn don't reveal until the game ends.",
     seriesStartTimestamps: [1707246000000, 1733770800000],
+  },
+  'Superior Spider-Man': {
+    defId: 'SuperiorSpiderMan',
+    cost: 3,
+    power: 4,
+    name: 'Superior Spider-Man',
+    description:
+      'At the start of each turn, you get +1 Energy if you have any cards with increased Power in play.',
+    seriesStartTimestamps: [1762282800000],
+    possibleSeries: 8,
   },
   'Super-Skrull': {
     defId: 'SuperSkrull',
@@ -3183,6 +3214,15 @@ export const allCards = {
     description: '<b>On Reveal:</b> All cards cost a maximum of 4 until the end\nof next turn.',
     seriesStartTimestamps: [-62135596800000],
   },
+  'Web Sling': {
+    defId: 'WebSling',
+    cost: 1,
+    power: 0,
+    name: 'Web Sling',
+    description: '<b>On Reveal:</b> Next turn, you can move one of your cards away from here.',
+    seriesStartTimestamps: [1762282800000],
+    possibleSeries: 7,
+  },
   'Werewolf By Night': {
     defId: 'WerewolfByNight',
     cost: 3,
@@ -3308,7 +3348,15 @@ export const allCards = {
     description:
       "<b>Activate:</b> Destroy your other cards here to get +3 Power for each. Move to a location you're losing.",
     seriesStartTimestamps: [1761073200000],
-    possibleSeries: 8,
+  },
+  'Zombie Galacti': {
+    defId: 'ZombieGalacti',
+    cost: 7,
+    power: 4,
+    name: 'Zombie Galacti',
+    description:
+      '<b>Start of Game:</b> Choose 6 other cards in your deck.\n<b>On Reveal:</b> Transform those cards\ninto copies of this.',
+    seriesStartTimestamps: [1761678000000],
   },
   'Zombie Giant-Man': {
     defId: 'ZombieGiantMan',
@@ -3346,5 +3394,14 @@ export const allCards = {
     seriesStartTimestamps: [1759863600000, 1762282800000],
     possibleSeries: 8,
     isSeasonPass: true,
+  },
+  'Zombie Sentry': {
+    defId: 'ZombieSentry',
+    cost: 3,
+    power: 4,
+    name: 'Zombie Sentry',
+    description: '<b>On Reveal:</b> <b>Horde +1</b> for each of your cards at the right location.',
+    seriesStartTimestamps: [1761591600000, 1764270000000],
+    possibleSeries: 7,
   },
 } as const;

@@ -59,6 +59,7 @@ const indeedNeverAppearedInShows = new Set<CardName>([
   'Astral Projection',
   'Viv Vision',
   'Danger',
+  'The Hunger',
   'Starbrand',
   'Stegron',
   'Sword Master',

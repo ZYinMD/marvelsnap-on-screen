@@ -2160,7 +2160,7 @@
     "power": 6,
     "name": "Danger",
     "description": "<b>Activate:</b> Destroy an enemy card here with less Power.",
-    "series": 10,
+    "series": 7,
     "artists": [
       {
         "name": "Eduardo Mello",
@@ -2172,7 +2172,6 @@
       }
     ],
     "seriesStartTimestamps": [1758222000000, 1760814000000],
-    "possibleSeries": 7,
     "collectible": true
   },
   {
@@ -6716,6 +6715,7 @@
     ],
     "seriesStartTimestamps": [1762282800000],
     "possibleSeries": 8,
+    "collectible": true,
     "isSeasonPass": false
   },
   {
@@ -11229,6 +11229,7 @@
     ],
     "seriesStartTimestamps": [1762282800000, 1764702000000],
     "possibleSeries": 8,
+    "collectible": true,
     "isSeasonPass": true
   },
   {
@@ -11739,7 +11740,8 @@
       }
     ],
     "seriesStartTimestamps": [1762282800000],
-    "possibleSeries": 8
+    "possibleSeries": 8,
+    "collectible": true
   },
   {
     "defId": "SuperSkrull",
@@ -13320,7 +13322,8 @@
       }
     ],
     "seriesStartTimestamps": [1762282800000],
-    "possibleSeries": 7
+    "possibleSeries": 7,
+    "collectible": true
   },
   {
     "defId": "WerewolfByNight",
@@ -13875,7 +13878,7 @@
         "AddedPower": 3
       }
     },
-    "series": 0,
+    "series": 8,
     "artists": [
       {
         "name": "Eduardo Mello",
@@ -13887,7 +13890,6 @@
       }
     ],
     "seriesStartTimestamps": [1761073200000],
-    "possibleSeries": 8,
     "collectible": true
   },
   {
@@ -13901,7 +13903,7 @@
         "ModifiedCardCount": 6
       }
     },
-    "series": 0,
+    "series": 8,
     "artists": [
       {
         "name": "Eduardo Mello",
@@ -13913,7 +13915,7 @@
       }
     ],
     "seriesStartTimestamps": [1761678000000],
-    "possibleSeries": 8
+    "collectible": true
   },
   {
     "defId": "ZombieGiantMan",
@@ -14056,7 +14058,7 @@
         "Card_Token": ["ZombieHorde"]
       }
     },
-    "series": 0,
+    "series": 10,
     "artists": [
       {
         "name": "Eduardo Mello",
@@ -14068,6 +14070,7 @@
       }
     ],
     "seriesStartTimestamps": [1761591600000, 1764270000000],
-    "possibleSeries": 7
+    "possibleSeries": 7,
+    "collectible": true
   }
 ]
