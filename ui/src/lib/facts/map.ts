@@ -2201,6 +2201,7 @@ export const map: Record<Key, Roster> = {
       'Doctor Strange',
       'Ironheart',
       'M.O.D.O.K.',
+      'Superior Spider-Man',
     ],
     minor_: [
       'Swarm',
