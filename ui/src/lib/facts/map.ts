@@ -1146,6 +1146,7 @@ export const map: Record<Key, Roster> = {
       'Zombie Scarlet Witch',
       'Zombie Giant-Man',
       'Zombie Power Man',
+      'Zombie Sentry',
     ],
     minor_: ['Black Panther', 'Rocket Raccoon', 'Groot', 'Hulk'],
   },
