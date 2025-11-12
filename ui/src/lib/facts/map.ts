@@ -822,6 +822,7 @@ export const map: Record<Key, Roster> = {
       'Spider-Man',
       'Spider-Woman',
       'Spider-Man 2099',
+      'Spider-Punk',
       'Spider-Ham',
       'Peni Parker',
       'Vulture',
