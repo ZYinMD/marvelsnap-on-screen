@@ -872,7 +872,7 @@ export const map: Record<Key, Roster> = {
   '2024|Kraven the Hunter': {
     major: new Set(),
     minor: new Set(),
-    major_: ['Kraven', 'Rhino'],
+    major_: ['Kraven', 'Rhino', 'Chameleon'],
     minor_: [],
   },
   '2025|Captain America: Brave New World': {
@@ -1299,6 +1299,7 @@ export const map: Record<Key, Roster> = {
       'Dormammu',
       'Punisher',
       'Red Skull',
+      'Chameleon',
       'Man-Spider',
       'Iron Man',
       'Nick Fury',
@@ -1482,6 +1483,7 @@ export const map: Record<Key, Roster> = {
       'Electro',
       'Lizard',
       'Kraven',
+      'Chameleon',
     ],
     minor_: ['Black Cat', 'Silver Sable', 'Uncle Ben'],
   },
@@ -2204,6 +2206,7 @@ export const map: Record<Key, Roster> = {
       'Ironheart',
       'M.O.D.O.K.',
       'Superior Spider-Man',
+      'Chameleon',
     ],
     minor_: [
       'Swarm',
@@ -2270,7 +2273,7 @@ export const map: Record<Key, Roster> = {
       'Uncle Ben',
       'Dracula',
     ],
-    minor_: [],
+    minor_: ['Chameleon'],
   },
   '2022-2023|I am Groot': {
     major: new Set(),
@@ -2347,7 +2350,7 @@ export const map: Record<Key, Roster> = {
       'Daredevil',
       'Scorpion',
     ],
-    minor_: ['Iron Man', 'Rhino'],
+    minor_: ['Iron Man', 'Rhino', 'Chameleon'],
   },
   '2025|Iron Man and His Awesome Friends': {
     major: new Set(),
