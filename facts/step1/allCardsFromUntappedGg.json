@@ -47,6 +47,12 @@
     "power": -2,
     "name": "Acid Arrow",
     "description": "<b>On Reveal:</b> Switch sides.",
+    "attributes": {
+      "cards": {
+        "Card_Faction": ["AcidArrow"],
+        "Card_Base": ["AcidArrow"]
+      }
+    },
     "series": 0,
     "artists": [
       {
@@ -141,7 +147,9 @@
         "TokenCount": 4
       },
       "cards": {
-        "Card_Token": ["Spell02Agamotto", "Spell01Agamotto", "Spell04Agamotto", "Spell03Agamotto"]
+        "Card_Token": ["Spell02Agamotto", "Spell01Agamotto", "Spell04Agamotto", "Spell03Agamotto"],
+        "Card_Faction": ["Agamotto"],
+        "Card_Base": ["Agamotto"]
       }
     },
     "series": 8,
@@ -234,6 +242,10 @@
     "attributes": {
       "data": {
         "AssignedPower": 3
+      },
+      "cards": {
+        "Card_Faction": ["AgentVenom"],
+        "Card_Base": ["AgentVenom"]
       }
     },
     "series": 8,
@@ -278,10 +290,10 @@
   },
   {
     "defId": "AgonyWebSlingers",
-    "cost": 0,
-    "power": 0,
-    "name": "AgonyWebSlingers",
-    "description": "<color=#ff2c2c>!</color>none",
+    "cost": 1,
+    "power": 3,
+    "name": "Agony - Web-Slingers",
+    "description": "<color=#ff2c2c>!</color>After you play a card here, merge this with it. If it's a Web-Slinger, move it to another location.",
     "attributes": {
       "cards": {
         "Card_Base": ["Agony"]
@@ -354,7 +366,7 @@
   {
     "defId": "Alioth",
     "cost": 6,
-    "power": 9,
+    "power": 8,
     "name": "Alioth",
     "description": "<b>On Reveal:</b> Remove the text from all unrevealed enemy characters here.",
     "series": 8,
@@ -380,6 +392,10 @@
     "attributes": {
       "data": {
         "AddedPower": 3
+      },
+      "cards": {
+        "Card_Faction": ["AmericaChavez"],
+        "Card_Base": ["AmericaChavez"]
       }
     },
     "series": 4,
@@ -431,6 +447,12 @@
     "power": 3,
     "name": "Angel",
     "description": "When one of your cards is destroyed, this flies out of your hand or deck to replace it.",
+    "attributes": {
+      "cards": {
+        "Card_Faction": ["Angel"],
+        "Card_Base": ["Angel"]
+      }
+    },
     "series": 4,
     "artists": [
       {
@@ -471,6 +493,29 @@
     "collectible": true
   },
   {
+    "defId": "AnnihilusChampion",
+    "cost": 5,
+    "power": 8,
+    "name": "Annihilus Champion",
+    "description": "<b>On Reveal:</b> Your cards with Power below 0 switch sides. Destroy\nthose that can't.",
+    "attributes": {
+      "data": {
+        "AssignedPower": 0
+      },
+      "cards": {
+        "Card_Token": ["Skill01AnnihilusChampion"]
+      }
+    },
+    "series": 0,
+    "artists": [
+      {
+        "name": "Tribute Games",
+        "type": 1
+      }
+    ],
+    "seriesStartTimestamps": []
+  },
+  {
     "defId": "AntiVenom",
     "cost": 4,
     "power": 7,
@@ -500,11 +545,14 @@
   },
   {
     "defId": "AntiVenomWebSlingers",
-    "cost": 0,
-    "power": 0,
+    "cost": 4,
+    "power": 6,
     "name": "AntiVenomWebSlingers",
-    "description": "<color=#ff2c2c>!</color>none",
+    "description": "<color=#ff2c2c>!</color><b>On Reveal:</b> Set the Cost and Power of your deck's top card to 0 until it moves.",
     "attributes": {
+      "data": {
+        "AssignedPower": 0
+      },
       "cards": {
         "Card_Base": ["AntiVenom"]
       }
@@ -531,6 +579,10 @@
     "attributes": {
       "data": {
         "AddedPower": 4
+      },
+      "cards": {
+        "Card_Faction": ["AntMan"],
+        "Card_Base": ["AntMan"]
       }
     },
     "series": 3,
@@ -581,6 +633,10 @@
     "attributes": {
       "data": {
         "AddedPower": 1
+      },
+      "cards": {
+        "Card_Faction": ["Arana"],
+        "Card_Base": ["Arana"]
       }
     },
     "series": 8,
@@ -656,6 +712,12 @@
     "power": 3,
     "name": "Armor",
     "description": "<b>Ongoing:</b> Cards here can't\nbe destroyed.",
+    "attributes": {
+      "cards": {
+        "Card_Faction": ["Armor"],
+        "Card_Base": ["Armor"]
+      }
+    },
     "series": 4,
     "artists": [
       {
@@ -733,7 +795,7 @@
   {
     "defId": "Aurora",
     "cost": 6,
-    "power": 5,
+    "power": 6,
     "name": "Aurora",
     "description": "<b>On Reveal:</b> Give one of your other <b>On Reveal</b> cards at each location +2 Power. Repeat for <b>Ongoing</b>, <b>Activate</b>, and <b>End of Turn</b>.",
     "attributes": {
@@ -788,7 +850,9 @@
     "description": "<i>\"HULK SMASH!\"</i>",
     "attributes": {
       "cards": {
-        "Card_Related": ["BruceBanner"]
+        "Card_Related": ["BruceBanner"],
+        "Card_Faction": ["BannerHulk"],
+        "Card_Base": ["BannerHulk"]
       }
     },
     "series": 0,
@@ -866,6 +930,10 @@
     "attributes": {
       "data": {
         "AddedPower": 3
+      },
+      "cards": {
+        "Card_Faction": ["BasicArrow"],
+        "Card_Base": ["BasicArrow"]
       }
     },
     "series": 0,
@@ -966,6 +1034,10 @@
     "attributes": {
       "data": {
         "ReducedCost": 1
+      },
+      "cards": {
+        "Card_Faction": ["Beast"],
+        "Card_Base": ["Beast"]
       }
     },
     "series": 6,
@@ -1018,6 +1090,10 @@
     "attributes": {
       "data": {
         "AddedPower": 1
+      },
+      "cards": {
+        "Card_Faction": ["Bishop"],
+        "Card_Base": ["Bishop"]
       }
     },
     "series": 4,
@@ -1057,9 +1133,15 @@
   {
     "defId": "BlackCat",
     "cost": 1,
-    "power": 5,
+    "power": 4,
     "name": "Black Cat",
     "description": "<b>End of Turn:</b> Discard this from your hand.",
+    "attributes": {
+      "cards": {
+        "Card_Faction": ["BlackCat"],
+        "Card_Base": ["BlackCat"]
+      }
+    },
     "series": 6,
     "artists": [
       {
@@ -1082,7 +1164,9 @@
     "description": "After you discard a card, add the Ebony Blade to your hand with that card's Power. <i>(once per game)</i>",
     "attributes": {
       "cards": {
-        "Card_Token": ["EbonyBlade"]
+        "Card_Token": ["EbonyBlade"],
+        "Card_Faction": ["BlackKnight"],
+        "Card_Base": ["BlackKnight"]
       }
     },
     "series": 7,
@@ -1105,6 +1189,12 @@
     "power": 5,
     "name": "Black Panther",
     "description": "<b>On Reveal:</b> Double this\ncard's Power.",
+    "attributes": {
+      "cards": {
+        "Card_Faction": ["BlackPanther"],
+        "Card_Base": ["BlackPanther"]
+      }
+    },
     "series": 6,
     "artists": [
       {
@@ -1118,6 +1208,26 @@
     ],
     "seriesStartTimestamps": [-62135596800000],
     "collectible": true
+  },
+  {
+    "defId": "BlackPantherChampion",
+    "cost": 5,
+    "power": 5,
+    "name": "Black Panther Champion",
+    "description": "<b>On Reveal:</b> Double this\ncard's Power.",
+    "attributes": {
+      "cards": {
+        "Card_Token": ["Skill01BlackPantherChampion"]
+      }
+    },
+    "series": 0,
+    "artists": [
+      {
+        "name": "Tribute Games",
+        "type": 1
+      }
+    ],
+    "seriesStartTimestamps": []
   },
   {
     "defId": "BlackSwan",
@@ -1154,7 +1264,9 @@
     "description": "<b>Activate:</b> Add a Widow's Bite to your opponent's hand.",
     "attributes": {
       "cards": {
-        "Card_Token": ["WidowsBite"]
+        "Card_Token": ["WidowsBite"],
+        "Card_Faction": ["BlackWidow"],
+        "Card_Base": ["BlackWidow"]
       }
     },
     "series": 6,
@@ -1197,6 +1309,12 @@
     "power": 8,
     "name": "Blink",
     "description": "<b>On Reveal:</b> Swap the last card you played with a card that costs more from your deck.",
+    "attributes": {
+      "cards": {
+        "Card_Faction": ["Blink"],
+        "Card_Base": ["Blink"]
+      }
+    },
     "series": 8,
     "artists": [
       {
@@ -1221,6 +1339,10 @@
     "attributes": {
       "data": {
         "AssignedPower": 13
+      },
+      "cards": {
+        "Card_Faction": ["Blob"],
+        "Card_Base": ["Blob"]
       }
     },
     "series": 7,
@@ -1246,6 +1368,10 @@
     "attributes": {
       "data": {
         "AddedPower": 1
+      },
+      "cards": {
+        "Card_Faction": ["BlueMarvel"],
+        "Card_Base": ["BlueMarvel"]
       }
     },
     "series": 3,
@@ -1267,15 +1393,24 @@
     "cost": 1,
     "power": 0,
     "name": "Brand of Shou-Lao",
-    "description": "<color=#ff2c2c>!</color><b>On Reveal:</b> One of your other cards here steals 2 Power from the highest-Cost character in your opponent's hand.",
+    "description": "<b>On Reveal:</b> One of your other cards here steals 2 Power from the character that costs the most in your opponent's hand.",
     "attributes": {
       "data": {
         "StolenPower": 2
       }
     },
     "series": 0,
-    "artists": [],
-    "seriesStartTimestamps": [1830366000000],
+    "artists": [
+      {
+        "name": "Eduardo Mello",
+        "type": 1
+      },
+      {
+        "name": "System Studios",
+        "type": 4
+      }
+    ],
+    "seriesStartTimestamps": [1830625200000],
     "possibleSeries": 7
   },
   {
@@ -1337,7 +1472,9 @@
         "PercentChance": 33
       },
       "cards": {
-        "Card_Token": ["BannerHulk"]
+        "Card_Token": ["BannerHulk"],
+        "Card_Faction": ["BruceBanner"],
+        "Card_Base": ["BruceBanner"]
       }
     },
     "series": 8,
@@ -1380,6 +1517,17 @@
     "collectible": true
   },
   {
+    "defId": "Bug",
+    "cost": 0,
+    "power": 0,
+    "name": "Bug",
+    "description": "<color=#ff2c2c>!</color>none",
+    "series": 0,
+    "artists": [],
+    "seriesStartTimestamps": [1830366000000],
+    "possibleSeries": 7
+  },
+  {
     "defId": "Bullseye",
     "cost": 3,
     "power": 2,
@@ -1415,6 +1563,12 @@
     "power": 3,
     "name": "Cable",
     "description": "<b>On Reveal:</b> Draw a card from your opponent's deck.",
+    "attributes": {
+      "cards": {
+        "Card_Faction": ["Cable"],
+        "Card_Base": ["Cable"]
+      }
+    },
     "series": 4,
     "artists": [
       {
@@ -1463,7 +1617,9 @@
     "description": "<b>On Reveal:</b> Move the highest-Power enemy card here away. If you can't, destroy it with a Rock.",
     "attributes": {
       "cards": {
-        "Card_Token": ["Rock"]
+        "Card_Token": ["Rock"],
+        "Card_Faction": ["Cannonball"],
+        "Card_Base": ["Cannonball"]
       }
     },
     "series": 7,
@@ -1491,7 +1647,9 @@
         "AddedPower": 2
       },
       "cards": {
-        "Card_Modified": ["SamWilson", "CaptainAmerica"]
+        "Card_Modified": ["SamWilson", "CaptainAmerica"],
+        "Card_Faction": ["CapsShield"],
+        "Card_Base": ["CapsShield"]
       }
     },
     "series": 0,
@@ -1509,11 +1667,14 @@
   },
   {
     "defId": "CaptainAmericaAvengers",
-    "cost": 0,
-    "power": 0,
+    "cost": 3,
+    "power": 4,
     "name": "CaptainAmericaAvengers",
-    "description": "<color=#ff2c2c>!</color>none",
+    "description": "<color=#ff2c2c>!</color><b>Ongoing:</b> Your other Avengers cards here have +2 Power.",
     "attributes": {
+      "data": {
+        "AddedPower": 2
+      },
       "cards": {
         "Card_Base": ["CaptainAmerica"]
       }
@@ -1560,11 +1721,40 @@
     "collectible": true
   },
   {
+    "defId": "CaptainAmericaChampion",
+    "cost": 3,
+    "power": 3,
+    "name": "Captain America Champion",
+    "description": "<b>Ongoing:</b> Your other <b>Ongoing</b> cards here have +2 Power.",
+    "attributes": {
+      "data": {
+        "AddedPower": 2
+      },
+      "cards": {
+        "Card_Token": ["Skill01CaptainAmericaChampion"]
+      }
+    },
+    "series": 0,
+    "artists": [
+      {
+        "name": "Tribute Games",
+        "type": 1
+      }
+    ],
+    "seriesStartTimestamps": []
+  },
+  {
     "defId": "CaptainCarter",
     "cost": 3,
     "power": 2,
     "name": "Captain Carter",
     "description": "<b>Ongoing:</b> Add this card's Power to your back-row cards here.\n<i>(can't add to itself)</i>",
+    "attributes": {
+      "cards": {
+        "Card_Faction": ["CaptainCarter"],
+        "Card_Base": ["CaptainCarter"]
+      }
+    },
     "series": 8,
     "artists": [
       {
@@ -1586,6 +1776,12 @@
     "power": 5,
     "name": "Captain Marvel",
     "description": "At the end of the game, move to a location that wins you the\ngame. (If possible)",
+    "attributes": {
+      "cards": {
+        "Card_Faction": ["CaptainMarvel"],
+        "Card_Base": ["CaptainMarvel"]
+      }
+    },
     "series": 6,
     "artists": [
       {
@@ -1609,6 +1805,10 @@
     "attributes": {
       "data": {
         "AddedPower": 2
+      },
+      "cards": {
+        "Card_Faction": ["Carnage"],
+        "Card_Base": ["Carnage"]
       }
     },
     "series": 4,
@@ -1657,6 +1857,10 @@
     "attributes": {
       "data": {
         "StolenPower": 1
+      },
+      "cards": {
+        "Card_Faction": ["CassandraNova"],
+        "Card_Base": ["CassandraNova"]
       }
     },
     "series": 8,
@@ -1682,6 +1886,10 @@
     "attributes": {
       "data": {
         "AddedPower": 3
+      },
+      "cards": {
+        "Card_Faction": ["Cerebro"],
+        "Card_Base": ["Cerebro"]
       }
     },
     "series": 6,
@@ -1730,7 +1938,7 @@
     "power": 3,
     "name": "Chameleon",
     "description": "<b>On Reveal:</b> Copy the text of another card here you revealed this turn.",
-    "series": 0,
+    "series": 7,
     "artists": [
       {
         "name": "Eduardo Mello",
@@ -1742,7 +1950,7 @@
       }
     ],
     "seriesStartTimestamps": [1762887600000],
-    "possibleSeries": 7
+    "collectible": true
   },
   {
     "defId": "Chimichanga",
@@ -1879,6 +2087,12 @@
     "power": 3,
     "name": "Colossus",
     "description": "<b>Ongoing:</b> Can't be destroyed, moved, or have its Power reduced.",
+    "attributes": {
+      "cards": {
+        "Card_Faction": ["Colossus"],
+        "Card_Base": ["Colossus"]
+      }
+    },
     "series": 3,
     "artists": [
       {
@@ -1946,7 +2160,7 @@
   {
     "defId": "CosmicGhostRider",
     "cost": 5,
-    "power": 7,
+    "power": 6,
     "name": "Cosmic Ghost Rider",
     "description": "<b>On Reveal:</b> Remove the text from front-row enemy cards here.",
     "series": 8,
@@ -2081,11 +2295,14 @@
   },
   {
     "defId": "CyclopsXMen",
-    "cost": 0,
-    "power": 0,
+    "cost": 3,
+    "power": 3,
     "name": "CyclopsXMen",
-    "description": "<color=#ff2c2c>!</color>none",
+    "description": "<color=#ff2c2c>!</color><b>End of Turn:</b> Gain +1 Power for each player's unspent Energy.",
     "attributes": {
+      "data": {
+        "AddedPower": 1
+      },
       "cards": {
         "Card_Base": ["Cyclops"]
       }
@@ -2136,7 +2353,9 @@
     "description": "<b>On Reveal:</b> Add the Muramasa Shard to your hand.",
     "attributes": {
       "cards": {
-        "Card_Token": ["MuramasaShard"]
+        "Card_Token": ["MuramasaShard"],
+        "Card_Faction": ["Daken"],
+        "Card_Base": ["Daken"]
       }
     },
     "series": 7,
@@ -2228,6 +2447,10 @@
     "attributes": {
       "data": {
         "AddedPower": 2
+      },
+      "cards": {
+        "Card_Faction": ["Dazzler"],
+        "Card_Base": ["Dazzler"]
       }
     },
     "series": 6,
@@ -2276,7 +2499,7 @@
         "AssignedCost": 3
       }
     },
-    "series": 0,
+    "series": 7,
     "artists": [
       {
         "name": "Eduardo Mello",
@@ -2287,8 +2510,8 @@
         "type": 4
       }
     ],
-    "seriesStartTimestamps": [1763665200000, 1766257200000],
-    "possibleSeries": 7
+    "seriesStartTimestamps": [1763665200000],
+    "collectible": true
   },
   {
     "defId": "Death",
@@ -2321,6 +2544,12 @@
     "power": 5,
     "name": "Deathlok",
     "description": "<b>On Reveal:</b> Destroy your\nother cards here.",
+    "attributes": {
+      "cards": {
+        "Card_Faction": ["Deathlok"],
+        "Card_Base": ["Deathlok"]
+      }
+    },
     "series": 4,
     "artists": [
       {
@@ -2338,9 +2567,9 @@
   {
     "defId": "Debrii",
     "cost": 3,
-    "power": 3,
+    "power": 7,
     "name": "Debrii",
-    "description": "<b>On Reveal:</b> Add a Rock to each other location, for both players.",
+    "description": "<b>On Reveal:</b> Add a Rock to each other location.",
     "attributes": {
       "cards": {
         "Card_Token": ["Rock"]
@@ -2475,6 +2704,12 @@
     "power": 8,
     "name": "Doctor Octopus",
     "description": "<b>On Reveal:</b> Pull the lowest-Power card from your opponent's hand to their side of this location.",
+    "attributes": {
+      "cards": {
+        "Card_Faction": ["DoctorOctopus"],
+        "Card_Base": ["DoctorOctopus"]
+      }
+    },
     "series": 6,
     "artists": [
       {
@@ -2491,11 +2726,14 @@
   },
   {
     "defId": "DoctorStrangeAvengers",
-    "cost": 0,
-    "power": 0,
-    "name": "DoctorStrangeAvengers",
-    "description": "<color=#ff2c2c>!</color>none",
+    "cost": 2,
+    "power": 2,
+    "name": "DoctorStrange - Avengers",
+    "description": "<color=#ff2c2c>!</color><b>On Reveal:</b> Move a friendly Avenger with <b>On Reveal</b> to this location to repeat its ability.",
     "attributes": {
+      "data": {
+        "AddedEnergy": 1
+      },
       "cards": {
         "Card_Base": ["DoctorStrange"]
       }
@@ -2547,6 +2785,10 @@
     "attributes": {
       "data": {
         "TurnNumber": 2
+      },
+      "cards": {
+        "Card_Faction": ["Domino"],
+        "Card_Base": ["Domino"]
       }
     },
     "series": 4,
@@ -2679,35 +2921,15 @@
   },
   {
     "defId": "DragonBreath",
-    "cost": 0,
+    "cost": 4,
     "power": 0,
     "name": "Dragon Breath",
-    "description": "<color=#ff2c2c>!</color>",
-    "series": 0,
-    "artists": [],
-    "seriesStartTimestamps": [1830366000000],
-    "possibleSeries": 7
-  },
-  {
-    "defId": "DragonLord",
-    "cost": 0,
-    "power": 0,
-    "name": "Dragon Lord",
-    "description": "<color=#ff2c2c>!</color>",
-    "series": 0,
-    "artists": [],
-    "seriesStartTimestamps": [1830366000000],
-    "possibleSeries": 7
-  },
-  {
-    "defId": "DragonMan",
-    "cost": 4,
-    "power": 4,
-    "name": "Dragon Man",
-    "description": "<color=#ff2c2c>!</color><b>End of Turn:</b> +2 Power for each location that's full on your side.",
+    "description": "<b>On Reveal:</b> Give a 5-Cost or higher character in your hand +3 Power. Afflict an enemy card at each location with -2 Power.",
     "attributes": {
       "data": {
-        "AddedPower": 2
+        "AssignedCost": 5,
+        "AddedPower": 3,
+        "ReducedPower": 2
       }
     },
     "series": 0,
@@ -2721,7 +2943,52 @@
         "type": 4
       }
     ],
-    "seriesStartTimestamps": [1830366000000],
+    "seriesStartTimestamps": [1830625200000],
+    "possibleSeries": 7
+  },
+  {
+    "defId": "DragonLord",
+    "cost": 5,
+    "power": 5,
+    "name": "Dragon Lord",
+    "description": "<b>On Reveal:</b> Put a card from your hand here.",
+    "series": 0,
+    "artists": [
+      {
+        "name": "Eduardo Mello",
+        "type": 1
+      },
+      {
+        "name": "System Studios",
+        "type": 4
+      }
+    ],
+    "seriesStartTimestamps": [1769799600000, 1772218800000],
+    "possibleSeries": 7
+  },
+  {
+    "defId": "DragonMan",
+    "cost": 4,
+    "power": 6,
+    "name": "Dragon Man",
+    "description": "<b>End of Turn:</b> +1 Power for each location that's full on your side.",
+    "attributes": {
+      "data": {
+        "AddedPower": 1
+      }
+    },
+    "series": 0,
+    "artists": [
+      {
+        "name": "Eduardo Mello",
+        "type": 1
+      },
+      {
+        "name": "System Studios",
+        "type": 4
+      }
+    ],
+    "seriesStartTimestamps": [1830625200000],
     "possibleSeries": 7
   },
   {
@@ -2729,16 +2996,37 @@
     "cost": 3,
     "power": 2,
     "name": "Dragon of the Moon",
-    "description": "<color=#ff2c2c>!</color><b>On Reveal:</b> Steal 1 Power from even-costed cards in ALL hands.",
+    "description": "<b>On Reveal:</b> Steal 1 Power from even-costed cards in ALL hands.",
     "attributes": {
       "data": {
         "StolenPower": 1
       }
     },
     "series": 0,
+    "artists": [
+      {
+        "name": "Eduardo Mello",
+        "type": 1
+      },
+      {
+        "name": "System Studios",
+        "type": 4
+      }
+    ],
+    "seriesStartTimestamps": [1767726000000],
+    "possibleSeries": 8,
+    "isSeasonPass": true
+  },
+  {
+    "defId": "DraxAvatarOfLife",
+    "cost": 0,
+    "power": 0,
+    "name": "DraxAvatarOfLife",
+    "description": "<color=#ff2c2c>!</color>none",
+    "series": 0,
     "artists": [],
-    "seriesStartTimestamps": [1830366000000],
-    "possibleSeries": 7
+    "seriesStartTimestamps": [1770750000000],
+    "possibleSeries": 8
   },
   {
     "defId": "Drax",
@@ -2883,7 +3171,9 @@
     "description": "<b>Ongoing:</b> Can't be destroyed.",
     "attributes": {
       "cards": {
-        "Card_Source": ["BlackKnight"]
+        "Card_Source": ["BlackKnight"],
+        "Card_Faction": ["EbonyBlade"],
+        "Card_Base": ["EbonyBlade"]
       }
     },
     "series": 0,
@@ -3137,13 +3427,17 @@
   {
     "defId": "Electro",
     "cost": 3,
-    "power": 4,
+    "power": 5,
     "name": "Electro",
     "description": "<b>On Reveal:</b> +1 Max Energy. <b>Ongoing:</b> You can only play\n1 card a turn.",
     "attributes": {
       "data": {
         "AddedMaxEnergy": 1,
         "StageCardsLimit": 1
+      },
+      "cards": {
+        "Card_Faction": ["Electro"],
+        "Card_Base": ["Electro"]
       }
     },
     "series": 6,
@@ -3201,6 +3495,12 @@
     "power": 3,
     "name": "Elixir",
     "description": "<b>On Reveal:</b> One of your cards destroyed last turn gets revived here.",
+    "attributes": {
+      "cards": {
+        "Card_Faction": ["Elixir"],
+        "Card_Base": ["Elixir"]
+      }
+    },
     "series": 8,
     "artists": [
       {
@@ -3271,6 +3571,10 @@
       "data": {
         "AssignedCost": 3,
         "AssignedPower": 4
+      },
+      "cards": {
+        "Card_Faction": ["EsmeCuckoo"],
+        "Card_Base": ["EsmeCuckoo"]
       }
     },
     "series": 8,
@@ -3426,7 +3730,7 @@
         "AddedPower": 2
       }
     },
-    "series": 0,
+    "series": 8,
     "artists": [
       {
         "name": "Eduardo Mello",
@@ -3438,7 +3742,7 @@
       }
     ],
     "seriesStartTimestamps": [1762887600000],
-    "possibleSeries": 8
+    "collectible": true
   },
   {
     "defId": "Falcon",
@@ -3449,6 +3753,10 @@
     "attributes": {
       "data": {
         "TargetCardCost": 1
+      },
+      "cards": {
+        "Card_Faction": ["Falcon"],
+        "Card_Base": ["Falcon"]
       }
     },
     "series": 6,
@@ -3484,9 +3792,18 @@
   {
     "defId": "FanFei",
     "cost": 4,
-    "power": 7,
+    "power": 4,
     "name": "Fan Fei",
-    "description": "<b>Activate:</b> Move your other cards here to the right.",
+    "description": "<b>Activate:</b> Give your other cards here +1 Power and move them to the right.",
+    "attributes": {
+      "data": {
+        "AddedPower": 1
+      },
+      "cards": {
+        "Card_Faction": ["FanFei"],
+        "Card_Base": ["FanFei"]
+      }
+    },
     "series": 7,
     "artists": [
       {
@@ -3601,14 +3918,18 @@
     "cost": 7,
     "power": 12,
     "name": "Fin Fang Foom",
-    "description": "<color=#ff2c2c>!</color><b>On Reveal:</b> Gain the Power of front-row enemy cards here.",
-    "attributes": {
-      "data": {
-        "AssignedPower": 4
-      }
-    },
+    "description": "<b>On Reveal:</b> Gain the Power of front-row enemy cards here.",
     "series": 0,
-    "artists": [],
+    "artists": [
+      {
+        "name": "Eduardo Mello",
+        "type": 1
+      },
+      {
+        "name": "System Studios",
+        "type": 4
+      }
+    ],
     "seriesStartTimestamps": [1768935600000],
     "possibleSeries": 8
   },
@@ -3618,6 +3939,12 @@
     "power": 3,
     "name": "Firehair",
     "description": "When one of your cards is destroyed, this uses that card’s <b>On Reveal</b>.",
+    "attributes": {
+      "cards": {
+        "Card_Faction": ["Firehair"],
+        "Card_Base": ["Firehair"]
+      }
+    },
     "series": 8,
     "artists": [
       {
@@ -3756,6 +4083,10 @@
     "attributes": {
       "data": {
         "AddedPower": 2
+      },
+      "cards": {
+        "Card_Faction": ["Forge"],
+        "Card_Base": ["Forge"]
       }
     },
     "series": 4,
@@ -3895,6 +4226,12 @@
     "power": 3,
     "name": "Gambit",
     "description": "<b>On Reveal:</b> Discard a card from your hand to destroy a random enemy card.",
+    "attributes": {
+      "cards": {
+        "Card_Faction": ["Gambit"],
+        "Card_Base": ["Gambit"]
+      }
+    },
     "series": 6,
     "artists": [
       {
@@ -4060,11 +4397,14 @@
   },
   {
     "defId": "GhostSpiderWebSlingers",
-    "cost": 0,
-    "power": 0,
+    "cost": 1,
+    "power": 2,
     "name": "GhostSpiderWebSlingers",
-    "description": "<color=#ff2c2c>!</color>none",
+    "description": "<color=#ff2c2c>!</color><b>On Reveal:</b> The last card you played moves here. If it's a Web-Slinger, this gains +2 Power.",
     "attributes": {
+      "data": {
+        "AddedPower": 2
+      },
       "cards": {
         "Card_Base": ["GhostSpider"]
       }
@@ -4085,9 +4425,15 @@
   {
     "defId": "GhostTheFirstRider",
     "cost": 2,
-    "power": 6,
+    "power": 7,
     "name": "The First Ghost Rider",
     "description": "<b>On Reveal:</b> Discard the lowest-Power card from your hand. Remove that card's Power from this.",
+    "attributes": {
+      "cards": {
+        "Card_Faction": ["GhostTheFirstRider"],
+        "Card_Base": ["GhostTheFirstRider"]
+      }
+    },
     "series": 7,
     "artists": [
       {
@@ -4337,6 +4683,12 @@
     "power": 3,
     "name": "Grapple Arrow",
     "description": "<b>On Reveal:</b> After you play your next card, move it to this location.",
+    "attributes": {
+      "cards": {
+        "Card_Faction": ["GrappleArrow"],
+        "Card_Base": ["GrappleArrow"]
+      }
+    },
     "series": 0,
     "artists": [
       {
@@ -4356,6 +4708,12 @@
     "power": -4,
     "name": "Green Goblin",
     "description": "<b>On Reveal:</b> Switch sides.",
+    "attributes": {
+      "cards": {
+        "Card_Faction": ["GreenGoblin"],
+        "Card_Base": ["GreenGoblin"]
+      }
+    },
     "series": 6,
     "artists": [
       {
@@ -4459,6 +4817,10 @@
       "data": {
         "AddedMaxEnergy": 1,
         "AddedPower": 3
+      },
+      "cards": {
+        "Card_Faction": ["Havok"],
+        "Card_Base": ["Havok"]
       }
     },
     "series": 6,
@@ -4477,11 +4839,14 @@
   },
   {
     "defId": "HawkeyeAvengers",
-    "cost": 0,
-    "power": 0,
-    "name": "HawkeyeAvengers",
-    "description": "<color=#ff2c2c>!</color>none",
+    "cost": 1,
+    "power": 1,
+    "name": "Hawkeye - Avengers",
+    "description": "<color=#ff2c2c>!</color><b>On Reveal:</b> If you play a card here next turn, +2 Power. Repeat this ability if it's an Avenger.",
     "attributes": {
+      "data": {
+        "AddedPower": 2
+      },
       "cards": {
         "Card_Base": ["Hawkeye"]
       }
@@ -4664,6 +5029,12 @@
     "power": 8,
     "name": "Hellion",
     "description": "<b>On Reveal:</b> Next turn, you can move cards to this location.",
+    "attributes": {
+      "cards": {
+        "Card_Faction": ["Hellion"],
+        "Card_Base": ["Hellion"]
+      }
+    },
     "series": 7,
     "artists": [
       {
@@ -4725,6 +5096,12 @@
     "power": 5,
     "name": "Hercules",
     "description": "The first time another one of your cards moves here each turn, move it to another location.",
+    "attributes": {
+      "cards": {
+        "Card_Faction": ["Hercules"],
+        "Card_Base": ["Hercules"]
+      }
+    },
     "series": 6,
     "artists": [
       {
@@ -4804,6 +5181,12 @@
     "power": -8,
     "name": "Hobgoblin",
     "description": "<b>On Reveal:</b> Switch sides.",
+    "attributes": {
+      "cards": {
+        "Card_Faction": ["Hobgoblin"],
+        "Card_Base": ["Hobgoblin"]
+      }
+    },
     "series": 5,
     "artists": [
       {
@@ -4850,6 +5233,10 @@
     "attributes": {
       "data": {
         "AddedEnergy": 1
+      },
+      "cards": {
+        "Card_Faction": ["HopeSummers"],
+        "Card_Base": ["HopeSummers"]
       }
     },
     "series": 8,
@@ -4895,11 +5282,14 @@
   },
   {
     "defId": "HulkAvengers",
-    "cost": 0,
-    "power": 0,
-    "name": "HulkAvengers",
-    "description": "<color=#ff2c2c>!</color>none",
+    "cost": 6,
+    "power": 10,
+    "name": "Hulk - Avengers",
+    "description": "<color=#ff2c2c>!</color><b>On Reveal:</b> +2 for each friendly Avenger here.",
     "attributes": {
+      "data": {
+        "AddedPower": 2
+      },
       "cards": {
         "Card_Base": ["Hulk"]
       }
@@ -4923,6 +5313,12 @@
     "power": 3,
     "name": "Hulkbuster",
     "description": "<b>On Reveal:</b> Merge this into one of your cards here.",
+    "attributes": {
+      "cards": {
+        "Card_Faction": ["Hulkbuster"],
+        "Card_Base": ["Hulkbuster"]
+      }
+    },
     "series": 4,
     "artists": [
       {
@@ -4991,6 +5387,10 @@
     "attributes": {
       "data": {
         "TargetCardCost": 6
+      },
+      "cards": {
+        "Card_Faction": ["Hulkling"],
+        "Card_Base": ["Hulkling"]
       }
     },
     "series": 8,
@@ -5094,7 +5494,7 @@
   {
     "defId": "HydraStomper",
     "cost": 3,
-    "power": 2,
+    "power": 3,
     "name": "Hydra Stomper",
     "description": "<b>Ongoing:</b> +1 Power for each time one of your cards moved this game.",
     "attributes": {
@@ -5127,7 +5527,7 @@
         "AssignedCost": 1
       }
     },
-    "series": 0,
+    "series": 10,
     "artists": [
       {
         "name": "Eduardo Mello",
@@ -5139,7 +5539,8 @@
       }
     ],
     "seriesStartTimestamps": [1763665200000, 1766257200000],
-    "possibleSeries": 7
+    "possibleSeries": 7,
+    "collectible": true
   },
   {
     "defId": "IceCube",
@@ -5175,6 +5576,10 @@
       "data": {
         "AddedCost": 1,
         "MaximumCost": 6
+      },
+      "cards": {
+        "Card_Faction": ["Iceman"],
+        "Card_Base": ["Iceman"]
       }
     },
     "series": 5,
@@ -5334,6 +5739,10 @@
       "data": {
         "AddedPower": 3,
         "ModifiedCardCount": 2
+      },
+      "cards": {
+        "Card_Faction": ["Ironheart"],
+        "Card_Base": ["Ironheart"]
       }
     },
     "series": 3,
@@ -5356,6 +5765,12 @@
     "power": 6,
     "name": "Iron Lad",
     "description": "<b>On Reveal:</b> Copy the text of your deck's top card.",
+    "attributes": {
+      "cards": {
+        "Card_Faction": ["IronLad"],
+        "Card_Base": ["IronLad"]
+      }
+    },
     "series": 7,
     "artists": [
       {
@@ -5376,6 +5791,12 @@
     "power": 0,
     "name": "Iron Man",
     "description": "<b>Ongoing:</b> Your total Power\nis doubled here.",
+    "attributes": {
+      "cards": {
+        "Card_Faction": ["IronMan"],
+        "Card_Base": ["IronMan"]
+      }
+    },
     "series": 1,
     "artists": [
       {
@@ -5389,6 +5810,26 @@
     ],
     "seriesStartTimestamps": [-62135596800000],
     "collectible": true
+  },
+  {
+    "defId": "IronManChampion",
+    "cost": 5,
+    "power": 0,
+    "name": "Iron Man Champion",
+    "description": "<b>Ongoing:</b> Your total Power\nis doubled here.",
+    "attributes": {
+      "cards": {
+        "Card_Token": ["Skill01IronManChampion"]
+      }
+    },
+    "series": 0,
+    "artists": [
+      {
+        "name": "Tribute Games",
+        "type": 1
+      }
+    ],
+    "seriesStartTimestamps": []
   },
   {
     "defId": "IronPatriot",
@@ -5424,6 +5865,22 @@
     "isSeasonPass": true
   },
   {
+    "defId": "JackFlag",
+    "cost": 3,
+    "power": 3,
+    "name": "Jack Flag",
+    "description": "<color=#ff2c2c>!</color><b>Ongoing:</b> Your cards here with increased Power get +2 Power.",
+    "attributes": {
+      "data": {
+        "AddedPower": 2
+      }
+    },
+    "series": 0,
+    "artists": [],
+    "seriesStartTimestamps": [1771959600000],
+    "possibleSeries": 8
+  },
+  {
     "defId": "JaneFoster",
     "cost": 5,
     "power": 9,
@@ -5432,6 +5889,10 @@
     "attributes": {
       "data": {
         "TargetCardCost": 0
+      },
+      "cards": {
+        "Card_Faction": ["JaneFoster"],
+        "Card_Base": ["JaneFoster"]
       }
     },
     "series": 6,
@@ -5475,10 +5936,10 @@
   },
   {
     "defId": "JeanGreyXMen",
-    "cost": 0,
-    "power": 0,
+    "cost": 3,
+    "power": 5,
     "name": "JeanGreyXMen",
-    "description": "<color=#ff2c2c>!</color>none",
+    "description": "<color=#ff2c2c>!</color><b>Ongoing:</b> You can move a friendly X-Man away from here each turn.",
     "attributes": {
       "cards": {
         "Card_Base": ["JeanGrey"]
@@ -5611,6 +6072,10 @@
     "attributes": {
       "data": {
         "TargetCardCost": 1
+      },
+      "cards": {
+        "Card_Faction": ["JoaquinTorres"],
+        "Card_Base": ["JoaquinTorres"]
       }
     },
     "series": 8,
@@ -5674,10 +6139,10 @@
   },
   {
     "defId": "JubileeXMen",
-    "cost": 0,
-    "power": 0,
+    "cost": 4,
+    "power": 2,
     "name": "JubileeXMen",
-    "description": "<color=#ff2c2c>!</color>none",
+    "description": "<color=#ff2c2c>!</color><b>On Reveal:</b> Add the top card of your deck to this location. Give it Power equal to Jubilee's Power.",
     "attributes": {
       "cards": {
         "Card_Base": ["Jubilee"]
@@ -5702,6 +6167,12 @@
     "power": 5,
     "name": "Juggernaut",
     "description": "<b>On Reveal:</b> Move away all enemy cards played here this turn. <i>(including unrevealed cards)</i>",
+    "attributes": {
+      "cards": {
+        "Card_Faction": ["Juggernaut"],
+        "Card_Base": ["Juggernaut"]
+      }
+    },
     "series": 6,
     "artists": [
       {
@@ -5725,6 +6196,10 @@
     "attributes": {
       "data": {
         "AddedPower": 1
+      },
+      "cards": {
+        "Card_Faction": ["Kahhori"],
+        "Card_Base": ["Kahhori"]
       }
     },
     "series": 8,
@@ -5806,7 +6281,9 @@
         "TokenCount": 2
       },
       "cards": {
-        "Card_Token": ["AcidArrow", "GrappleArrow", "BasicArrow", "PymParticleArrow"]
+        "Card_Token": ["AcidArrow", "GrappleArrow", "BasicArrow", "PymParticleArrow"],
+        "Card_Faction": ["KateBishop"],
+        "Card_Base": ["KateBishop"]
       }
     },
     "series": 8,
@@ -5939,6 +6416,12 @@
     "power": 1,
     "name": "Kid Omega",
     "description": "<b>Activate:</b> Destroy the next card you play this turn to gain its Power.",
+    "attributes": {
+      "cards": {
+        "Card_Faction": ["KidOmega"],
+        "Card_Base": ["KidOmega"]
+      }
+    },
     "series": 8,
     "artists": [
       {
@@ -6007,6 +6490,10 @@
     "attributes": {
       "data": {
         "AddedPower": 2
+      },
+      "cards": {
+        "Card_Faction": ["Kingpin"],
+        "Card_Base": ["Kingpin"]
       }
     },
     "series": 6,
@@ -6032,6 +6519,10 @@
     "attributes": {
       "data": {
         "AddedPower": 1
+      },
+      "cards": {
+        "Card_Faction": ["KittyPryde"],
+        "Card_Base": ["KittyPryde"]
       }
     },
     "series": 6,
@@ -6119,6 +6610,24 @@
     "collectible": true
   },
   {
+    "defId": "Kraglin",
+    "cost": 3,
+    "power": 2,
+    "name": "Kraglin",
+    "description": "<color=#ff2c2c>!</color><b>On Reveal:</b> Banish the top card of your deck. If its Cost was 4 or more, +2 Energy next turn, otherwise get +4 Power.",
+    "attributes": {
+      "data": {
+        "AssignedCost": 4,
+        "AddedPower": 4,
+        "AddedEnergy": 2
+      }
+    },
+    "series": 0,
+    "artists": [],
+    "seriesStartTimestamps": [1771354800000],
+    "possibleSeries": 8
+  },
+  {
     "defId": "Kraven",
     "cost": 2,
     "power": 3,
@@ -6127,6 +6636,10 @@
     "attributes": {
       "data": {
         "AddedPower": 2
+      },
+      "cards": {
+        "Card_Faction": ["Kraven"],
+        "Card_Base": ["Kraven"]
       }
     },
     "series": 4,
@@ -6145,10 +6658,10 @@
   },
   {
     "defId": "LadyDeathstrikeBrotherhoodOfMutants",
-    "cost": 0,
-    "power": 0,
+    "cost": 4,
+    "power": 4,
     "name": "LadyDeathstrikeBrotherhoodOfMutants",
-    "description": "<color=#ff2c2c>!</color>none",
+    "description": "<color=#ff2c2c>!</color><b>On Reveal:</b> Destroy an enemy card here with less Power. If you have another Brotherhood card here, do it again.",
     "attributes": {
       "cards": {
         "Card_Base": ["LadyDeathstrike"]
@@ -6213,6 +6726,12 @@
     "power": 2,
     "name": "Lasher",
     "description": "<b>Activate:</b> Afflict an enemy card here with negative Power equal to this card's Power.",
+    "attributes": {
+      "cards": {
+        "Card_Faction": ["Lasher"],
+        "Card_Base": ["Lasher"]
+      }
+    },
     "series": 7,
     "artists": [
       {
@@ -6255,7 +6774,7 @@
   {
     "defId": "Leader",
     "cost": 6,
-    "power": 4,
+    "power": 5,
     "name": "Leader",
     "description": "<b>On Reveal:</b> Copy the enemy card(s) with the highest Power played this turn, but on your side.",
     "attributes": {
@@ -6287,6 +6806,10 @@
     "attributes": {
       "data": {
         "TargetCardCost": 6
+      },
+      "cards": {
+        "Card_Faction": ["Leech"],
+        "Card_Base": ["Leech"]
       }
     },
     "series": 5,
@@ -6309,6 +6832,12 @@
     "power": 7,
     "name": "Legion",
     "description": "<b>On Reveal:</b> Replace each other location with this one.",
+    "attributes": {
+      "cards": {
+        "Card_Faction": ["Legion"],
+        "Card_Base": ["Legion"]
+      }
+    },
     "series": 7,
     "artists": [
       {
@@ -6325,12 +6854,26 @@
   },
   {
     "defId": "LinLie",
-    "cost": 0,
-    "power": 0,
-    "name": "Lin Lie",
-    "description": "<color=#ff2c2c>!</color>",
+    "cost": 2,
+    "power": 2,
+    "name": "Lin Lie Iron Fist",
+    "description": "<b>On Reveal:</b> Add the Sword of Fu Xi to another location.",
+    "attributes": {
+      "cards": {
+        "Card_Token": ["SwordOfFuXi"]
+      }
+    },
     "series": 0,
-    "artists": [],
+    "artists": [
+      {
+        "name": "Eduardo Mello",
+        "type": 1
+      },
+      {
+        "name": "System Studios",
+        "type": 4
+      }
+    ],
     "seriesStartTimestamps": [1768330800000],
     "possibleSeries": 8
   },
@@ -6364,6 +6907,10 @@
       "data": {
         "ReducedPower": 4,
         "LocationCardCount": 4
+      },
+      "cards": {
+        "Card_Faction": ["Lizard"],
+        "Card_Base": ["Lizard"]
       }
     },
     "series": 4,
@@ -6382,12 +6929,27 @@
   },
   {
     "defId": "Lockheed",
-    "cost": 0,
-    "power": 0,
+    "cost": 2,
+    "power": 1,
     "name": "Lockheed",
-    "description": "<color=#ff2c2c>!</color>",
+    "description": "<b>End of Turn:</b> If you played a 1-Cost card this turn, afflict an enemy card here with -2 Power.",
+    "attributes": {
+      "data": {
+        "AssignedCost": 1,
+        "ReducedPower": 2
+      }
+    },
     "series": 0,
-    "artists": [],
+    "artists": [
+      {
+        "name": "Eduardo Mello",
+        "type": 1
+      },
+      {
+        "name": "System Studios",
+        "type": 4
+      }
+    ],
     "seriesStartTimestamps": [1767726000000],
     "possibleSeries": 8
   },
@@ -6494,6 +7056,12 @@
     "power": 1,
     "name": "Madame Web",
     "description": "<b>Ongoing:</b> You can move one of your other cards away from here each turn.",
+    "attributes": {
+      "cards": {
+        "Card_Faction": ["MadameWeb"],
+        "Card_Base": ["MadameWeb"]
+      }
+    },
     "series": 8,
     "artists": [
       {
@@ -6543,8 +7111,9 @@
       "data": {
         "TurnNumber": 5
       },
-      "locations": {
-        "Card_Token": [42]
+      "cards": {
+        "Card_Faction": ["Magik"],
+        "Card_Base": ["Magik"]
       }
     },
     "series": 6,
@@ -6563,10 +7132,10 @@
   },
   {
     "defId": "MagnetoBrotherhoodOfMutants",
-    "cost": 0,
-    "power": 0,
+    "cost": 5,
+    "power": 8,
     "name": "MagnetoBrotherhoodOfMutants",
-    "description": "<color=#ff2c2c>!</color>none",
+    "description": "<color=#ff2c2c>!</color><b>On Reveal:</b> For each friendly Brotherhood card here, move an enemy card from another location to this one.",
     "attributes": {
       "cards": {
         "Card_Base": ["Magneto"]
@@ -6639,11 +7208,57 @@
     "seriesStartTimestamps": []
   },
   {
+    "defId": "Magus",
+    "cost": 3,
+    "power": 5,
+    "name": "Magus",
+    "description": "<color=#ff2c2c>!</color><b>Activate:</b> Copy the text of a character in your deck with Cost equal to your unspent Energy.",
+    "series": 0,
+    "artists": [],
+    "seriesStartTimestamps": [1770145200000],
+    "possibleSeries": 8
+  },
+  {
     "defId": "MajesticWingbeat",
-    "cost": 0,
+    "cost": 1,
     "power": 0,
     "name": "Majestic Wingbeat",
-    "description": "<color=#ff2c2c>!</color>",
+    "description": "<b>On Reveal:</b> Give the leftmost card in your hand +2 Power. If it’s 5-Cost or higher, -1 Cost too.",
+    "attributes": {
+      "data": {
+        "AddedPower": 2,
+        "AssignedCost": 5,
+        "ReducedCost": 1
+      }
+    },
+    "series": 0,
+    "artists": [
+      {
+        "name": "Eduardo Mello",
+        "type": 1
+      },
+      {
+        "name": "System Studios",
+        "type": 4
+      }
+    ],
+    "seriesStartTimestamps": [1767726000000],
+    "possibleSeries": 7
+  },
+  {
+    "defId": "MajorVictory",
+    "cost": 3,
+    "power": 4,
+    "name": "MajorVictory",
+    "description": "<color=#ff2c2c>!</color><b>On Reveal:</b> Add 2 Guardians of the Galaxy to your hand.",
+    "attributes": {
+      "data": {
+        "TokenCount": 2
+      },
+      "cards": {
+        "Card_Token": ["Mantis", "RocketRaccoon", "Starlord", "Groot", "Drax", "Gamora"]
+      }
+    },
     "series": 0,
     "artists": [],
     "seriesStartTimestamps": [1830366000000],
@@ -6702,7 +7317,7 @@
     "power": 1,
     "name": "Man-Spider",
     "description": "<b>On Reveal:</b> Merge the\nlast card you played into this.\nWhen this merges, double its Power.",
-    "series": 0,
+    "series": 8,
     "artists": [
       {
         "name": "Eduardo Mello",
@@ -6714,7 +7329,6 @@
       }
     ],
     "seriesStartTimestamps": [1762282800000],
-    "possibleSeries": 8,
     "collectible": true,
     "isSeasonPass": false
   },
@@ -6849,7 +7463,7 @@
         "type": 4
       }
     ],
-    "seriesStartTimestamps": [1766084400000, 1768762800000],
+    "seriesStartTimestamps": [1766084400000],
     "possibleSeries": 7
   },
   {
@@ -6889,6 +7503,10 @@
         "ModifiedCardCount": 3,
         "TargetCardCost": 1,
         "AddedPower": 1
+      },
+      "cards": {
+        "Card_Faction": ["MarvelBoy"],
+        "Card_Base": ["MarvelBoy"]
       }
     },
     "series": 8,
@@ -6981,7 +7599,7 @@
   {
     "defId": "MBaku",
     "cost": 1,
-    "power": 2,
+    "power": 3,
     "name": "M'Baku",
     "description": "At the end of the game, this jumps from your deck to your lowest-Power location. <i>(that isn't full)</i>",
     "series": 6,
@@ -7044,10 +7662,16 @@
   },
   {
     "defId": "Mercury",
-    "cost": 2,
-    "power": 2,
+    "cost": 3,
+    "power": 4,
     "name": "Mercury",
     "description": "You can move this once.\n<b>Ongoing:</b> Enemy cards here\ncan't move.",
+    "attributes": {
+      "cards": {
+        "Card_Faction": ["Mercury"],
+        "Card_Base": ["Mercury"]
+      }
+    },
     "series": 7,
     "artists": [
       {
@@ -7122,6 +7746,10 @@
     "attributes": {
       "data": {
         "AssignedCost": 1
+      },
+      "cards": {
+        "Card_Faction": ["MilesMorales"],
+        "Card_Base": ["MilesMorales"]
       }
     },
     "series": 6,
@@ -7167,6 +7795,10 @@
     "attributes": {
       "data": {
         "AddedPower": 2
+      },
+      "cards": {
+        "Card_Faction": ["Mirage"],
+        "Card_Base": ["Mirage"]
       }
     },
     "series": 6,
@@ -7186,9 +7818,15 @@
   {
     "defId": "Misery",
     "cost": 4,
-    "power": 9,
+    "power": 8,
     "name": "Misery",
     "description": "<b>On Reveal:</b> Repeat the <b>On Reveal</b> abilities of your other cards here, then destroy them.",
+    "attributes": {
+      "cards": {
+        "Card_Faction": ["Misery"],
+        "Card_Base": ["Misery"]
+      }
+    },
     "series": 8,
     "artists": [
       {
@@ -7227,12 +7865,16 @@
     "defId": "MjolnirAvengers",
     "cost": 0,
     "power": 0,
-    "name": "MjolnirAvengers",
-    "description": "<color=#ff2c2c>!</color>none",
+    "name": "Mjolnir - Avengers",
+    "description": "<color=#ff2c2c>!</color><b>On Reveal:</b> Give Thor +6 Power.",
     "attributes": {
+      "data": {
+        "AddedPower": 6
+      },
       "cards": {
-        "Card_Modified": ["ThorAvengers"],
-        "Card_Base": ["Mjolnir"]
+        "Card_Base": ["Mjolnir"],
+        "Card_Modified": ["ThorAvengers", "ThorChampion"],
+        "Card_Source": ["ThorAvengers"]
       }
     },
     "series": 0,
@@ -7458,6 +8100,23 @@
     "seriesStartTimestamps": []
   },
   {
+    "defId": "Moondragon",
+    "cost": 2,
+    "power": 2,
+    "name": "Moondragon",
+    "description": "<color=#ff2c2c>!</color><b>End of Turn:</b> If you played 1 card this turn and spent ALL your Energy, give this +2 Power.",
+    "attributes": {
+      "data": {
+        "AddedPower": 2,
+        "ModifiedCardCount": 1
+      }
+    },
+    "series": 0,
+    "artists": [],
+    "seriesStartTimestamps": [1770145200000],
+    "possibleSeries": 8
+  },
+  {
     "defId": "MoonGirl",
     "cost": 4,
     "power": 5,
@@ -7584,6 +8243,12 @@
     "power": 0,
     "name": "Morph",
     "description": "<b>On Reveal:</b> Become a copy of a card in your opponent's hand.",
+    "attributes": {
+      "cards": {
+        "Card_Faction": ["Morph"],
+        "Card_Base": ["Morph"]
+      }
+    },
     "series": 4,
     "artists": [
       {
@@ -7674,6 +8339,12 @@
     "power": -1,
     "name": "Mister Negative",
     "description": "<b>On Reveal:</b> Swap the Power and Cost of all cards in your deck.",
+    "attributes": {
+      "cards": {
+        "Card_Faction": ["MrNegative"],
+        "Card_Base": ["MrNegative"]
+      }
+    },
     "series": 6,
     "artists": [
       {
@@ -7696,7 +8367,9 @@
     "description": "<b>On Reveal:</b> Add a Sinister Clone here with the same Power.",
     "attributes": {
       "cards": {
-        "Card_Token": ["SinisterClone"]
+        "Card_Token": ["SinisterClone"],
+        "Card_Faction": ["MrSinister"],
+        "Card_Base": ["MrSinister"]
       }
     },
     "series": 4,
@@ -7723,6 +8396,10 @@
       "data": {
         "LocationCardCount": 2,
         "AddedPower": 5
+      },
+      "cards": {
+        "Card_Faction": ["MsMarvel"],
+        "Card_Base": ["MsMarvel"]
       }
     },
     "series": 7,
@@ -7746,6 +8423,12 @@
     "power": 3,
     "name": "Multiple Man",
     "description": "When this moves, add a copy to the old location.",
+    "attributes": {
+      "cards": {
+        "Card_Faction": ["MultipleMan"],
+        "Card_Base": ["MultipleMan"]
+      }
+    },
     "series": 4,
     "artists": [
       {
@@ -7792,7 +8475,9 @@
     "description": "As you play this, play Illusions to other locations. Disguise this as an Illusion until the game ends.",
     "attributes": {
       "cards": {
-        "Card_Token": ["MysterioUnrevealed"]
+        "Card_Token": ["MysterioUnrevealed"],
+        "Card_Faction": ["Mysterio"],
+        "Card_Base": ["Mysterio"]
       }
     },
     "series": 6,
@@ -7854,10 +8539,10 @@
   },
   {
     "defId": "MystiqueBrotherhoodOfMutants",
-    "cost": 0,
-    "power": 0,
+    "cost": 2,
+    "power": 1,
     "name": "MystiqueBrotherhoodOfMutants",
-    "description": "<color=#ff2c2c>!</color>none",
+    "description": "<color=#ff2c2c>!</color><b>On Reveal:</b> Copy the text of the lowest-Cost enemy card here.",
     "attributes": {
       "cards": {
         "Card_Base": ["Mystique"]
@@ -7904,7 +8589,7 @@
   {
     "defId": "Nakia",
     "cost": 3,
-    "power": 3,
+    "power": 4,
     "name": "Nakia",
     "description": "<b>On Reveal:</b> Give all cards in your hand +1 Power.",
     "attributes": {
@@ -7935,6 +8620,10 @@
     "attributes": {
       "data": {
         "AddedPower": 5
+      },
+      "cards": {
+        "Card_Faction": ["Namora"],
+        "Card_Base": ["Namora"]
       }
     },
     "series": 8,
@@ -8012,6 +8701,12 @@
     "power": 5,
     "name": "Negasonic Teenage Warhead",
     "description": "After an enemy character is played here, destroy it. <i>(once per game)</i>",
+    "attributes": {
+      "cards": {
+        "Card_Faction": ["NegasonicTeenageWarhead"],
+        "Card_Base": ["NegasonicTeenageWarhead"]
+      }
+    },
     "series": 6,
     "artists": [
       {
@@ -8137,11 +8832,14 @@
   },
   {
     "defId": "NightcrawlerXMen",
-    "cost": 0,
-    "power": 0,
+    "cost": 1,
+    "power": 1,
     "name": "NightcrawlerXMen",
-    "description": "<color=#ff2c2c>!</color>none",
+    "description": "<color=#ff2c2c>!</color>You can move this once. When this moves, gain +1 Power for each friendly X-Man at the new location.",
     "attributes": {
+      "data": {
+        "AddedPower": 1
+      },
       "cards": {
         "Card_Base": ["Nightcrawler"]
       }
@@ -8235,6 +8933,12 @@
     "power": 4,
     "name": "Nocturne",
     "description": "You can move this once. When this moves, replace its location with a random new one.",
+    "attributes": {
+      "cards": {
+        "Card_Faction": ["Nocturne"],
+        "Card_Base": ["Nocturne"]
+      }
+    },
     "series": 8,
     "artists": [
       {
@@ -8281,7 +8985,7 @@
   {
     "defId": "Odin",
     "cost": 6,
-    "power": 8,
+    "power": 9,
     "name": "Odin",
     "description": "<b>On Reveal:</b> Repeat the <b>On Reveal</b> abilities of your other cards here.",
     "series": 2,
@@ -8307,6 +9011,10 @@
     "attributes": {
       "data": {
         "AddedPower": 1
+      },
+      "cards": {
+        "Card_Faction": ["Okoye"],
+        "Card_Base": ["Okoye"]
       }
     },
     "series": 5,
@@ -8409,6 +9117,12 @@
     "power": 8,
     "name": "Onslaught",
     "description": "<b>Ongoing:</b> Double your other <b>Ongoing</b> effects here.",
+    "attributes": {
+      "cards": {
+        "Card_Faction": ["Onslaught"],
+        "Card_Base": ["Onslaught"]
+      }
+    },
     "series": 4,
     "artists": [
       {
@@ -8428,10 +9142,10 @@
     "cost": 6,
     "power": 11,
     "name": "Orka",
-    "description": "<b>Ongoing:</b> +5 Power if this is your only card here.",
+    "description": "<b>Ongoing:</b> +7 Power if this is your only card here.",
     "attributes": {
       "data": {
-        "AddedPower": 5
+        "AddedPower": 7
       }
     },
     "series": 6,
@@ -8485,6 +9199,10 @@
     "attributes": {
       "data": {
         "AddedPower": 2
+      },
+      "cards": {
+        "Card_Faction": ["Patriot"],
+        "Card_Base": ["Patriot"]
       }
     },
     "series": 6,
@@ -8512,7 +9230,9 @@
         "AddedEnergy": 1
       },
       "cards": {
-        "Card_Token": ["SPdr"]
+        "Card_Token": ["SPdr"],
+        "Card_Faction": ["PeniParker"],
+        "Card_Base": ["PeniParker"]
       }
     },
     "series": 8,
@@ -8585,6 +9305,12 @@
     "power": 2,
     "name": "Pixie",
     "description": "<b>On Reveal:</b> Shuffle the base Costs\nof all cards in your deck\nthat started there.",
+    "attributes": {
+      "cards": {
+        "Card_Faction": ["Pixie"],
+        "Card_Base": ["Pixie"]
+      }
+    },
     "series": 7,
     "artists": [
       {
@@ -8609,6 +9335,10 @@
       "data": {
         "TargetCardCost_1": 1,
         "TargetCardCost_2": 2
+      },
+      "cards": {
+        "Card_Faction": ["Polaris"],
+        "Card_Base": ["Polaris"]
       }
     },
     "series": 6,
@@ -8663,7 +9393,7 @@
         "AddedPower": 10
       },
       "cards": {
-        "Card_Modified": ["Thanos"]
+        "Card_Modified": ["Thanos", "ThanosChampion"]
       }
     },
     "series": 0,
@@ -8681,6 +9411,12 @@
     "power": 4,
     "name": "Prodigy",
     "description": "<b>On Reveal:</b> If this is in the back row, copy the text of the card in front of it.",
+    "attributes": {
+      "cards": {
+        "Card_Faction": ["Prodigy"],
+        "Card_Base": ["Prodigy"]
+      }
+    },
     "series": 8,
     "artists": [
       {
@@ -8722,11 +9458,14 @@
   },
   {
     "defId": "ProfessorXXMen",
-    "cost": 0,
-    "power": 0,
+    "cost": 5,
+    "power": 6,
     "name": "ProfessorXXMen",
-    "description": "<color=#ff2c2c>!</color>none",
+    "description": "<color=#ff2c2c>!</color><b>Ongoing:</b> You get +1 Energy each turn for your other X-Men here.",
     "attributes": {
+      "data": {
+        "AddedEnergy": 1
+      },
       "cards": {
         "Card_Base": ["ProfessorX"]
       }
@@ -8842,7 +9581,8 @@
       }
     ],
     "seriesStartTimestamps": [1764097200000],
-    "possibleSeries": 8
+    "possibleSeries": 8,
+    "collectible": true
   },
   {
     "defId": "ProximaMidnight",
@@ -8873,6 +9613,10 @@
     "attributes": {
       "data": {
         "AddedEnergy": 1
+      },
+      "cards": {
+        "Card_Faction": ["Psylocke"],
+        "Card_Base": ["Psylocke"]
       }
     },
     "series": 6,
@@ -8923,6 +9667,10 @@
     "attributes": {
       "data": {
         "AddedPower": 3
+      },
+      "cards": {
+        "Card_Faction": ["PymParticleArrow"],
+        "Card_Base": ["PymParticleArrow"]
       }
     },
     "series": 0,
@@ -8955,6 +9703,12 @@
     "power": 2,
     "name": "Quicksilver",
     "description": "Starts in your opening hand.",
+    "attributes": {
+      "cards": {
+        "Card_Faction": ["Quicksilver"],
+        "Card_Base": ["Quicksilver"]
+      }
+    },
     "series": 1,
     "artists": [
       {
@@ -9174,6 +9928,12 @@
     "power": 5,
     "name": "Redwing",
     "description": "The first time this moves, add a card from your hand to the old location.",
+    "attributes": {
+      "cards": {
+        "Card_Faction": ["Redwing"],
+        "Card_Base": ["Redwing"]
+      }
+    },
     "series": 8,
     "artists": [
       {
@@ -9222,6 +9982,10 @@
     "attributes": {
       "data": {
         "AddedPower": 5
+      },
+      "cards": {
+        "Card_Faction": ["Rescue"],
+        "Card_Base": ["Rescue"]
       }
     },
     "series": 6,
@@ -9246,7 +10010,9 @@
     "description": "<b>On Reveal:</b> Add a Rock to your side of this location.",
     "attributes": {
       "cards": {
-        "Card_Token": ["Rock"]
+        "Card_Token": ["Rock"],
+        "Card_Faction": ["Rhino"],
+        "Card_Base": ["Rhino"]
       }
     },
     "series": 5,
@@ -9336,6 +10102,29 @@
     "collectible": true
   },
   {
+    "defId": "RocketRaccoonChampion",
+    "cost": 1,
+    "power": 1,
+    "name": "Rocket Raccoon Champion",
+    "description": "<b>On Reveal:</b> If your opponent played a card here this turn, +4 Power.",
+    "attributes": {
+      "data": {
+        "AddedPower": 4
+      },
+      "cards": {
+        "Card_Token": ["Skill01RocketRaccoonChampion"]
+      }
+    },
+    "series": 0,
+    "artists": [
+      {
+        "name": "Tribute Games",
+        "type": 1
+      }
+    ],
+    "seriesStartTimestamps": []
+  },
+  {
     "defId": "RocketRaccoonGuardiansOfTheGalaxy",
     "cost": 1,
     "power": 2,
@@ -9393,6 +10182,12 @@
     "power": 3,
     "name": "Rogue",
     "description": "<b>On Reveal:</b> Steal the text from an enemy <b>Ongoing</b> card here.",
+    "attributes": {
+      "cards": {
+        "Card_Faction": ["Rogue"],
+        "Card_Base": ["Rogue"]
+      }
+    },
     "series": 6,
     "artists": [
       {
@@ -9451,6 +10246,10 @@
     "attributes": {
       "data": {
         "AssignedCost": 0
+      },
+      "cards": {
+        "Card_Faction": ["Sabretooth"],
+        "Card_Base": ["Sabretooth"]
       }
     },
     "series": 5,
@@ -9476,6 +10275,10 @@
     "attributes": {
       "data": {
         "AddedPower": 2
+      },
+      "cards": {
+        "Card_Faction": ["Sage"],
+        "Card_Base": ["Sage"]
       }
     },
     "series": 8,
@@ -9500,7 +10303,9 @@
     "description": "<b>Game Start:</b> Add Cap's Shield to a random location.\n<b>Ongoing:</b> You can move Cap's Shield.",
     "attributes": {
       "cards": {
-        "Card_Token": ["CapsShield"]
+        "Card_Token": ["CapsShield"],
+        "Card_Faction": ["SamWilson"],
+        "Card_Base": ["SamWilson"]
       }
     },
     "series": 8,
@@ -9528,6 +10333,10 @@
       "data": {
         "AddedCost": 1,
         "MaximumCost": 6
+      },
+      "cards": {
+        "Card_Faction": ["Sandman"],
+        "Card_Base": ["Sandman"]
       }
     },
     "series": 5,
@@ -9553,6 +10362,10 @@
     "attributes": {
       "data": {
         "ReducedCost": 1
+      },
+      "cards": {
+        "Card_Faction": ["Sasquatch"],
+        "Card_Base": ["Sasquatch"]
       }
     },
     "series": 7,
@@ -9572,9 +10385,15 @@
   {
     "defId": "Sauron",
     "cost": 1,
-    "power": 3,
+    "power": 2,
     "name": "Sauron",
     "description": "<b>On Reveal:</b> Remove the abilities from all <b>Ongoing</b> cards in your deck.",
+    "attributes": {
+      "cards": {
+        "Card_Faction": ["Sauron"],
+        "Card_Base": ["Sauron"]
+      }
+    },
     "series": 6,
     "artists": [
       {
@@ -9636,12 +10455,16 @@
   },
   {
     "defId": "ScarletSpiderWebSlingers",
-    "cost": 0,
-    "power": 0,
-    "name": "ScarletSpiderWebSlingers",
-    "description": "<color=#ff2c2c>!</color>none",
+    "cost": 3,
+    "power": 4,
+    "name": "Scarlet Spider - Web-Slingers",
+    "description": "<color=#ff2c2c>!</color><b>Activate:</b>Add a clone with the same Power to another location, then move this to the third location.",
     "attributes": {
+      "data": {
+        "AddedPower": 2
+      },
       "cards": {
+        "Card_Token": ["ScarletSpiderClone"],
         "Card_Base": ["ScarletSpider"]
       }
     },
@@ -9660,10 +10483,10 @@
   },
   {
     "defId": "ScarletWitchBrotherhoodOfMutants",
-    "cost": 0,
-    "power": 0,
+    "cost": 2,
+    "power": 2,
     "name": "ScarletWitchBrotherhoodOfMutants",
-    "description": "<color=#ff2c2c>!</color>none",
+    "description": "<color=#ff2c2c>!</color><b>On Reveal:</b> Replace this location with another one. If you're winning here, add a Brotherhood card to your hand.",
     "attributes": {
       "cards": {
         "Card_Base": ["ScarletWitch"]
@@ -9704,10 +10527,14 @@
     "cost": 1,
     "power": 2,
     "name": "Scorn",
-    "description": "When you discard this, put it back and give +2 Power to itself and\none of your cards in play.",
+    "description": "When you discard this, put it back and give +2 Power to itself and\\none of your cards in play.",
     "attributes": {
       "data": {
         "AddedPower": 2
+      },
+      "cards": {
+        "Card_Faction": ["Scorn"],
+        "Card_Base": ["Scorn"]
       }
     },
     "series": 8,
@@ -9733,6 +10560,10 @@
     "attributes": {
       "data": {
         "ReducedPower": 1
+      },
+      "cards": {
+        "Card_Faction": ["Scorpion"],
+        "Card_Base": ["Scorpion"]
       }
     },
     "series": 5,
@@ -9758,6 +10589,10 @@
     "attributes": {
       "data": {
         "StolenPower": 2
+      },
+      "cards": {
+        "Card_Faction": ["Scream"],
+        "Card_Base": ["Scream"]
       }
     },
     "series": 8,
@@ -9802,11 +10637,14 @@
   },
   {
     "defId": "SeleneBrotherhoodOfMutants",
-    "cost": 0,
-    "power": 0,
+    "cost": 1,
+    "power": 1,
     "name": "SeleneBrotherhoodOfMutants",
-    "description": "<color=#ff2c2c>!</color>none",
+    "description": "<color=#ff2c2c>!</color><b>On Reveal:</b> A Brotherhood card in your hand steals 2 Power from a random card in your opponent's hand.",
     "attributes": {
+      "data": {
+        "StolenPower": 2
+      },
       "cards": {
         "Card_Base": ["Selene"]
       }
@@ -9871,6 +10709,26 @@
     ],
     "seriesStartTimestamps": [-62135596800000],
     "collectible": true
+  },
+  {
+    "defId": "SentinelChampion",
+    "cost": 2,
+    "power": 3,
+    "name": "Sentinel Champion",
+    "description": "<b>On Reveal:</b> Add another Sentinel to your hand.",
+    "attributes": {
+      "cards": {
+        "Card_Token": ["Skill01SentinelChampion"]
+      }
+    },
+    "series": 0,
+    "artists": [
+      {
+        "name": "Tribute Games",
+        "type": 1
+      }
+    ],
+    "seriesStartTimestamps": []
   },
   {
     "defId": "SentinelTutorial",
@@ -9989,6 +10847,12 @@
     "power": 4,
     "name": "Shadow King",
     "description": "<b>On Reveal:</b> Reset all cards here to their original Power.",
+    "attributes": {
+      "cards": {
+        "Card_Faction": ["ShadowKing"],
+        "Card_Base": ["ShadowKing"]
+      }
+    },
     "series": 6,
     "artists": [
       {
@@ -10012,6 +10876,10 @@
     "attributes": {
       "data": {
         "TargetCardCost": 10
+      },
+      "cards": {
+        "Card_Faction": ["ShangChi"],
+        "Card_Base": ["ShangChi"]
       }
     },
     "series": 5,
@@ -10030,12 +10898,27 @@
   },
   {
     "defId": "ShangChiMasterOfTheRings",
-    "cost": 0,
-    "power": 0,
-    "name": "Shang-Chi Master of The Rings",
-    "description": "<color=#ff2c2c>!</color>",
+    "cost": 3,
+    "power": 4,
+    "name": "Shang-Chi, Master of the Rings",
+    "description": "<b>Game Start:</b> The Ten Rings\nstarts in your hand.\n<b>On Reveal:</b> Unlock their potential.",
+    "attributes": {
+      "cards": {
+        "Card_Token": ["TenRings"],
+        "Card_Modified": ["TenRingsUpgrade"]
+      }
+    },
     "series": 0,
-    "artists": [],
+    "artists": [
+      {
+        "name": "Eduardo Mello",
+        "type": 1
+      },
+      {
+        "name": "System Studios",
+        "type": 4
+      }
+    ],
     "seriesStartTimestamps": [1769540400000],
     "possibleSeries": 8
   },
@@ -10069,6 +10952,10 @@
     "attributes": {
       "data": {
         "ReducedCost": 1
+      },
+      "cards": {
+        "Card_Faction": ["SheHulk"],
+        "Card_Base": ["SheHulk"]
       }
     },
     "series": 6,
@@ -10091,6 +10978,12 @@
     "power": 3,
     "name": "Shocker",
     "description": "<i>\"I'm gonna blast you!\"</i>",
+    "attributes": {
+      "cards": {
+        "Card_Faction": ["Shocker"],
+        "Card_Base": ["Shocker"]
+      }
+    },
     "series": 1,
     "artists": [
       {
@@ -10103,12 +10996,28 @@
   },
   {
     "defId": "ShouLao",
-    "cost": 0,
-    "power": 0,
-    "name": "Shou Lao",
-    "description": "<color=#ff2c2c>!</color>",
+    "cost": 5,
+    "power": 10,
+    "name": "Shou-Lao the Undying",
+    "description": "<b>On Reveal:</b> Give the last character you played +2 Power for each turn you played 2 or more cards. (+0)",
+    "attributes": {
+      "data": {
+        "AddedPower": 2,
+        "TokenCount": 2,
+        "AssignedPower": 0
+      }
+    },
     "series": 0,
-    "artists": [],
+    "artists": [
+      {
+        "name": "Eduardo Mello",
+        "type": 1
+      },
+      {
+        "name": "Ryan Kinnaird",
+        "type": 4
+      }
+    ],
     "seriesStartTimestamps": [1767726000000, 1770145200000],
     "possibleSeries": 8,
     "isSeasonPass": false
@@ -10119,6 +11028,12 @@
     "power": 3,
     "name": "Shuri",
     "description": "<b>On Reveal:</b> If you play your next card at this location, double its Power.",
+    "attributes": {
+      "cards": {
+        "Card_Faction": ["Shuri"],
+        "Card_Base": ["Shuri"]
+      }
+    },
     "series": 6,
     "artists": [
       {
@@ -10139,6 +11054,12 @@
     "power": 5,
     "name": "Silk",
     "description": "After ANY card is played here, move this to another location.",
+    "attributes": {
+      "cards": {
+        "Card_Faction": ["Silk"],
+        "Card_Base": ["Silk"]
+      }
+    },
     "series": 6,
     "artists": [
       {
@@ -10162,6 +11083,10 @@
     "attributes": {
       "data": {
         "StolenPower": 2
+      },
+      "cards": {
+        "Card_Faction": ["SilverSable"],
+        "Card_Base": ["SilverSable"]
       }
     },
     "series": 8,
@@ -10296,6 +11221,72 @@
     "isSeasonPass": true
   },
   {
+    "defId": "Skill01AnnihilusChampion",
+    "cost": 3,
+    "power": 0,
+    "name": "Lord of the Negative Zone",
+    "description": "<b>On Reveal:</b> Your Champion steals 1 Power from EACH other card here.",
+    "attributes": {
+      "data": {
+        "StolenPower": 1
+      },
+      "cards": {
+        "Card_Source": ["AnnihilusChampion"]
+      }
+    },
+    "series": 0,
+    "artists": [
+      {
+        "name": "Tribute Games",
+        "type": 1
+      }
+    ],
+    "seriesStartTimestamps": []
+  },
+  {
+    "defId": "Skill01BlackPantherChampion",
+    "cost": 5,
+    "power": 0,
+    "name": "Wakanda Forever",
+    "description": "<b>On Reveal:</b> Give Power equal to your Champion's to one of your cards here.",
+    "attributes": {
+      "cards": {
+        "Card_Source": ["BlackPantherChampion"]
+      }
+    },
+    "series": 0,
+    "artists": [
+      {
+        "name": "Tribute Games",
+        "type": 1
+      }
+    ],
+    "seriesStartTimestamps": []
+  },
+  {
+    "defId": "Skill01CaptainAmericaChampion",
+    "cost": 3,
+    "power": 0,
+    "name": "Shield Throw",
+    "description": "<b>On Reveal:</b> Put an <b>Ongoing</b> card from your deck here with +1 Power. Shuffle a copy of this into your deck.",
+    "attributes": {
+      "data": {
+        "AddedPower": 1
+      },
+      "cards": {
+        "Card_Source": ["CaptainAmericaChampion"]
+      }
+    },
+    "series": 0,
+    "artists": [
+      {
+        "name": "Tribute Games",
+        "type": 1
+      }
+    ],
+    "seriesStartTimestamps": []
+  },
+  {
     "defId": "Skill01CarnageChampion",
     "cost": 1,
     "power": 0,
@@ -10396,7 +11387,7 @@
         "AssignedCost": 4
       },
       "cards": {
-        "Card_Modified": ["HulkChampion", "RedHulk", "SheHulk", "Hulkling"]
+        "Card_Modified": ["HulkChampion", "RedHulk", "SheHulk", "Hulkling", "BannerHulk"]
       }
     },
     "series": 0,
@@ -10448,6 +11439,29 @@
       {
         "name": "Dardo Studios",
         "type": 5
+      }
+    ],
+    "seriesStartTimestamps": []
+  },
+  {
+    "defId": "Skill01IronManChampion",
+    "cost": 1,
+    "power": 0,
+    "name": "Stark Technology",
+    "description": "<b>On Reveal:</b> After this turn, give your Champion +2 Power for each\nlocation you’re winning.",
+    "attributes": {
+      "data": {
+        "AddedPower": 2
+      },
+      "cards": {
+        "Card_Source": ["IronManChampion"]
+      }
+    },
+    "series": 0,
+    "artists": [
+      {
+        "name": "Tribute Games",
+        "type": 1
       }
     ],
     "seriesStartTimestamps": []
@@ -10525,6 +11539,73 @@
     "seriesStartTimestamps": []
   },
   {
+    "defId": "Skill01RocketRaccoonChampion",
+    "cost": 2,
+    "power": 0,
+    "name": "Massive Arsenal",
+    "description": "<b>On Reveal:</b> Banish this to move your Champion here. Repeat its <b>On Reveal</b> and add a copy of this to your hand.",
+    "attributes": {
+      "cards": {
+        "Card_Source": ["RocketRaccoonChampion"]
+      }
+    },
+    "series": 0,
+    "artists": [
+      {
+        "name": "Tribute Games",
+        "type": 1
+      }
+    ],
+    "seriesStartTimestamps": []
+  },
+  {
+    "defId": "Skill01SentinelChampion",
+    "cost": 4,
+    "power": 0,
+    "name": "Project Armageddon",
+    "description": "<b>On Reveal:</b> Give your Sentinels +1 Power for each created card you’ve played this game that isn't a Sentinel. (0)",
+    "attributes": {
+      "data": {
+        "AddedPower": 1,
+        "ModifiedCardCount": 0
+      },
+      "cards": {
+        "Card_Source": ["SentinelChampion"]
+      }
+    },
+    "series": 0,
+    "artists": [
+      {
+        "name": "Tribute Games",
+        "type": 1
+      }
+    ],
+    "seriesStartTimestamps": []
+  },
+  {
+    "defId": "Skill01ThanosChampion",
+    "cost": 4,
+    "power": 0,
+    "name": "Inevitable",
+    "description": "<b>On Reveal:</b> If your Champion is in play with 20 or more Power, destroy front-row enemy cards here. <i>(even unrevealed ones)</i>",
+    "attributes": {
+      "data": {
+        "AssignedPower": 20
+      },
+      "cards": {
+        "Card_Source": ["ThanosChampion"]
+      }
+    },
+    "series": 0,
+    "artists": [
+      {
+        "name": "Tribute Games",
+        "type": 1
+      }
+    ],
+    "seriesStartTimestamps": []
+  },
+  {
     "defId": "Skill01TheThingFirstStepsChampion",
     "cost": 6,
     "power": 0,
@@ -10560,6 +11641,29 @@
       {
         "name": "Dardo Studios",
         "type": 5
+      }
+    ],
+    "seriesStartTimestamps": []
+  },
+  {
+    "defId": "Skill01WeaponXWolverineChampion",
+    "cost": 2,
+    "power": 0,
+    "name": "Berserker Rage",
+    "description": "<b>On Reveal:</b> Destroy your cards here with less Power than your Champion. Add a copy of this to your hand with +1 Cost.",
+    "attributes": {
+      "data": {
+        "AddedCost": 1
+      },
+      "cards": {
+        "Card_Source": ["WeaponXWolverineChampion"]
+      }
+    },
+    "series": 0,
+    "artists": [
+      {
+        "name": "Tribute Games",
+        "type": 1
       }
     ],
     "seriesStartTimestamps": []
@@ -10666,7 +11770,7 @@
     "description": "<b>On Reveal:</b> Draw a card.\n<b>Ongoing:</b> Thanos can't be discarded or destroyed.",
     "attributes": {
       "cards": {
-        "Card_Modified": ["Thanos"]
+        "Card_Modified": ["Thanos", "ThanosChampion"]
       }
     },
     "series": 0,
@@ -10686,7 +11790,7 @@
     "description": "<b>On Reveal:</b> Draw Thanos.\n<b>Ongoing:</b> Nothing can stop you from playing Thanos.",
     "attributes": {
       "cards": {
-        "Card_Modified": ["Thanos"]
+        "Card_Modified": ["Thanos", "ThanosChampion"]
       }
     },
     "series": 0,
@@ -10701,12 +11805,12 @@
   {
     "defId": "Sparky",
     "cost": 2,
-    "power": 1,
+    "power": 2,
     "name": "Sparky",
-    "description": "<b>Activate:</b> Give your card that last moved +3 Power and move it\nback to its previous location.",
+    "description": "<b>Activate:</b> Give your card that last moved +2 Power and move it\nback to its previous location.",
     "attributes": {
       "data": {
-        "AddedPower": 3
+        "AddedPower": 2
       }
     },
     "series": 10,
@@ -10727,9 +11831,15 @@
   {
     "defId": "SPdr",
     "cost": 3,
-    "power": 4,
+    "power": 5,
     "name": "SP//dr",
     "description": "<b>On Reveal:</b> Merge this into one of your cards here. You can move that card next turn.",
+    "attributes": {
+      "cards": {
+        "Card_Faction": ["SPdr"],
+        "Card_Base": ["SPdr"]
+      }
+    },
     "series": 0,
     "artists": [
       {
@@ -10752,6 +11862,10 @@
     "attributes": {
       "data": {
         "AddedPower": 2
+      },
+      "cards": {
+        "Card_Faction": ["Spectrum"],
+        "Card_Base": ["Spectrum"]
       }
     },
     "series": 2,
@@ -10777,6 +11891,10 @@
     "attributes": {
       "data": {
         "AddedPower": 1
+      },
+      "cards": {
+        "Card_Faction": ["Speed"],
+        "Card_Base": ["Speed"]
       }
     },
     "series": 8,
@@ -11082,7 +12200,9 @@
     "description": "<b>Activate:</b> Replace the text of a random character in your opponent's hand with <i>\"oink!\"</i>",
     "attributes": {
       "cards": {
-        "Card_Token": ["Pig"]
+        "Card_Token": ["Pig"],
+        "Card_Faction": ["SpiderHam"],
+        "Card_Base": ["SpiderHam"]
       }
     },
     "series": 6,
@@ -11126,11 +12246,14 @@
   },
   {
     "defId": "SpiderMan2099WebSlingers",
-    "cost": 0,
-    "power": 0,
-    "name": "SpiderMan2099WebSlingers",
-    "description": "<color=#ff2c2c>!</color>none",
+    "cost": 5,
+    "power": 7,
+    "name": "Spider-Man 2099 - Web-Slingers",
+    "description": "<color=#ff2c2c>!</color>You can move this each turn. After this moves to a friendly Web-Slinger's location, steal 1 Power from an enemy there.",
     "attributes": {
+      "data": {
+        "StolenPower": 1
+      },
       "cards": {
         "Card_Base": ["SpiderMan2099"]
       }
@@ -11154,6 +12277,12 @@
     "power": 4,
     "name": "Spider-Man",
     "description": "<b>On Reveal:</b> Move to another location and pull an enemy card from\nhere to there.",
+    "attributes": {
+      "cards": {
+        "Card_Faction": ["SpiderMan"],
+        "Card_Base": ["SpiderMan"]
+      }
+    },
     "series": 6,
     "artists": [
       {
@@ -11171,7 +12300,7 @@
   {
     "defId": "SpiderManNoir",
     "cost": 4,
-    "power": 4,
+    "power": 6,
     "name": "Spider-Man Noir",
     "description": "<b>On Reveal:</b> If your other cards in play cost exactly 8 total, add the top card of your deck here. Set its Power to 8. (0/8)",
     "attributes": {
@@ -11181,7 +12310,7 @@
         "AssignedPower": 8
       }
     },
-    "series": 0,
+    "series": 8,
     "artists": [
       {
         "name": "Eduardo Mello",
@@ -11193,7 +12322,7 @@
       }
     ],
     "seriesStartTimestamps": [1763492400000],
-    "possibleSeries": 8
+    "collectible": true
   },
   {
     "defId": "SpiderManTutorial",
@@ -11208,7 +12337,7 @@
   {
     "defId": "SpiderPunk",
     "cost": 3,
-    "power": 2,
+    "power": 3,
     "name": "Spider-Punk",
     "description": "You can move this once.\nWhen this moves to a location, steal 2 Power from the highest-Power enemy there.",
     "attributes": {
@@ -11216,7 +12345,7 @@
         "StolenPower": 2
       }
     },
-    "series": 0,
+    "series": 9,
     "artists": [
       {
         "name": "Eduardo Mello",
@@ -11241,6 +12370,10 @@
     "attributes": {
       "data": {
         "ReducedPower": 1
+      },
+      "cards": {
+        "Card_Faction": ["SpiderWoman"],
+        "Card_Base": ["SpiderWoman"]
       }
     },
     "series": 4,
@@ -11315,6 +12448,10 @@
     "attributes": {
       "data": {
         "AddedPower": 3
+      },
+      "cards": {
+        "Card_Faction": ["Starbrand"],
+        "Card_Base": ["Starbrand"]
       }
     },
     "series": 8,
@@ -11350,6 +12487,22 @@
     ],
     "seriesStartTimestamps": [1754420400000],
     "collectible": true
+  },
+  {
+    "defId": "Starhawk",
+    "cost": 2,
+    "power": 2,
+    "name": "Starhawk",
+    "description": "<color=#ff2c2c>!</color><b>On Reveal:</b> Give your cards at the left location +1 Power on odd turns. Switches to the right on even turns.",
+    "attributes": {
+      "data": {
+        "AddedPower": 1
+      }
+    },
+    "series": 0,
+    "artists": [],
+    "seriesStartTimestamps": [1830366000000],
+    "possibleSeries": 7
   },
   {
     "defId": "Starlord",
@@ -11407,6 +12560,22 @@
     "seriesStartTimestamps": []
   },
   {
+    "defId": "StarlordMasterOfTheSun",
+    "cost": 4,
+    "power": 5,
+    "name": "Star-Lord, Master of the Sun",
+    "description": "<color=#ff2c2c>!</color><b>On Reveal:</b> Next turn, you get +1 Energy for each turn you've ended with unspent Energy.",
+    "attributes": {
+      "data": {
+        "AddedEnergy": 1
+      }
+    },
+    "series": 0,
+    "artists": [],
+    "seriesStartTimestamps": [1770145200000, 1772564400000],
+    "possibleSeries": 8
+  },
+  {
     "defId": "Stature",
     "cost": 5,
     "power": 7,
@@ -11415,6 +12584,10 @@
     "attributes": {
       "data": {
         "AssignedCost": 1
+      },
+      "cards": {
+        "Card_Faction": ["Stature"],
+        "Card_Base": ["Stature"]
       }
     },
     "series": 6,
@@ -11478,12 +12651,13 @@
   {
     "defId": "Storm",
     "cost": 3,
-    "power": 2,
+    "power": 1,
     "name": "Storm",
     "description": "<b>On Reveal:</b> Flood this location. Next turn is the last turn cards can\nbe played here.",
     "attributes": {
-      "locations": {
-        "Card_Token": [69, 70]
+      "cards": {
+        "Card_Faction": ["Storm"],
+        "Card_Base": ["Storm"]
       }
     },
     "series": 5,
@@ -11535,6 +12709,10 @@
       "data": {
         "AddedPower": 6,
         "TokenCount": 1
+      },
+      "cards": {
+        "Card_Faction": ["StrongGuy"],
+        "Card_Base": ["StrongGuy"]
       }
     },
     "series": 4,
@@ -11665,6 +12843,10 @@
     "attributes": {
       "data": {
         "AddedPower": 1
+      },
+      "cards": {
+        "Card_Faction": ["Sunspot"],
+        "Card_Base": ["Sunspot"]
       }
     },
     "series": 5,
@@ -11700,7 +12882,7 @@
   {
     "defId": "Supergiant",
     "cost": 4,
-    "power": 7,
+    "power": 6,
     "name": "Supergiant",
     "description": "<b>On Reveal:</b> All cards played next turn don't reveal until the game ends.",
     "series": 7,
@@ -11728,7 +12910,7 @@
         "AddedEnergy": 1
       }
     },
-    "series": 0,
+    "series": 8,
     "artists": [
       {
         "name": "Eduardo Mello",
@@ -11740,7 +12922,6 @@
       }
     ],
     "seriesStartTimestamps": [1762282800000],
-    "possibleSeries": 8,
     "collectible": true
   },
   {
@@ -11773,6 +12954,10 @@
       "data": {
         "ReducedCost": 1,
         "AddedPower": 1
+      },
+      "cards": {
+        "Card_Faction": ["Surge"],
+        "Card_Base": ["Surge"]
       }
     },
     "series": 8,
@@ -11825,6 +13010,10 @@
     "attributes": {
       "data": {
         "TokenEnergyCost": 0
+      },
+      "cards": {
+        "Card_Faction": ["Swarm"],
+        "Card_Base": ["Swarm"]
       }
     },
     "series": 5,
@@ -11863,12 +13052,29 @@
   },
   {
     "defId": "SwordOfFuXi",
-    "cost": 0,
-    "power": 0,
+    "cost": 2,
+    "power": 2,
     "name": "Sword of Fu Xi",
-    "description": "<color=#ff2c2c>!</color>",
+    "description": "<b>Ongoing:</b> If Lin Lie Iron Fist is here, he has +7 Power.",
+    "attributes": {
+      "data": {
+        "AddedPower": 7
+      },
+      "cards": {
+        "Card_Modified": ["LinLie"]
+      }
+    },
     "series": 0,
-    "artists": [],
+    "artists": [
+      {
+        "name": "Eduardo Mello",
+        "type": 1
+      },
+      {
+        "name": "System Studios",
+        "type": 4
+      }
+    ],
     "seriesStartTimestamps": []
   },
   {
@@ -11909,10 +13115,10 @@
   },
   {
     "defId": "SymbioteSpiderManWebSlingers",
-    "cost": 0,
-    "power": 0,
-    "name": "SymbioteSpiderManWebSlingers",
-    "description": "<color=#ff2c2c>!</color>none",
+    "cost": 4,
+    "power": 6,
+    "name": "Symbiote Spider-Man - Web-Slingers",
+    "description": "<color=#ff2c2c>!</color><b>Activate:</b> Merge a friendly card here with this. Replace it with a Web-Slinger from your deck.",
     "attributes": {
       "cards": {
         "Card_Base": ["SymbioteSpiderMan"]
@@ -12006,20 +13212,45 @@
   },
   {
     "defId": "TenRings",
-    "cost": 0,
+    "cost": 2,
     "power": 0,
-    "name": "Ten Rings",
-    "description": "<color=#ff2c2c>!</color>",
+    "name": "The Ten Rings",
+    "description": "<b>End of Turn:</b> Give one of your other cards here +1 Power.",
+    "attributes": {
+      "data": {
+        "AddedPower": 1
+      },
+      "cards": {
+        "Card_Source": ["ShangChiMasterOfTheRings", "TenRingsUpgrade"]
+      }
+    },
     "series": 0,
-    "artists": [],
+    "artists": [
+      {
+        "name": "Eduardo Mello",
+        "type": 1
+      },
+      {
+        "name": "System Studios",
+        "type": 4
+      }
+    ],
     "seriesStartTimestamps": []
   },
   {
     "defId": "TenRingsUpgrade",
-    "cost": 0,
-    "power": 0,
-    "name": "Ten Rings Upgrade",
-    "description": "<color=#ff2c2c>!</color>none",
+    "cost": 2,
+    "power": 1,
+    "name": "The Ten Rings Upgraded",
+    "description": "<b>End of Turn:</b> Give your other cards here +1 Power.",
+    "attributes": {
+      "data": {
+        "AddedPower": 1
+      },
+      "cards": {
+        "Card_Source": ["ShangChiMasterOfTheRings", "TenRings"]
+      }
+    },
     "series": 0,
     "artists": [],
     "seriesStartTimestamps": []
@@ -12121,6 +13352,34 @@
     "collectible": true
   },
   {
+    "defId": "ThanosChampion",
+    "cost": 6,
+    "power": 12,
+    "name": "Thanos Champion",
+    "description": "<b>Game Start:</b> Shuffle the six Infinity Stones into your deck.",
+    "attributes": {
+      "cards": {
+        "Card_Token": [
+          "SpaceStone",
+          "RealityStone",
+          "TimeStone",
+          "MindStone",
+          "PowerStone",
+          "SoulStone",
+          "Skill01ThanosChampion"
+        ]
+      }
+    },
+    "series": 0,
+    "artists": [
+      {
+        "name": "Tribute Games",
+        "type": 1
+      }
+    ],
+    "seriesStartTimestamps": []
+  },
+  {
     "defId": "TheAncientOne",
     "cost": 3,
     "power": 5,
@@ -12184,7 +13443,7 @@
         "Card_Token": ["ZombieHorde"]
       }
     },
-    "series": 10,
+    "series": 7,
     "artists": [
       {
         "name": "Eduardo Mello",
@@ -12196,7 +13455,6 @@
       }
     ],
     "seriesStartTimestamps": [1760554800000, 1763233200000],
-    "possibleSeries": 7,
     "collectible": true
   },
   {
@@ -12231,6 +13489,12 @@
     "power": 5,
     "name": "Phoenix Force",
     "description": "<b>On Reveal:</b> Revive one of your destroyed cards and merge this into it. That card can move each turn.",
+    "attributes": {
+      "cards": {
+        "Card_Faction": ["ThePhoenixForce"],
+        "Card_Base": ["ThePhoenixForce"]
+      }
+    },
     "series": 7,
     "artists": [
       {
@@ -12335,10 +13599,10 @@
   },
   {
     "defId": "ThorAvengers",
-    "cost": 0,
-    "power": 0,
-    "name": "ThorAvengers",
-    "description": "<color=#ff2c2c>!</color>none",
+    "cost": 3,
+    "power": 3,
+    "name": "Thor - Avengers",
+    "description": "<b>On Reveal:</b> Draw an Avenger, then shuffle Mjolnir - Avengers into your deck.",
     "attributes": {
       "cards": {
         "Card_Token": ["MjolnirAvengers"],
@@ -12442,7 +13706,7 @@
         "ReducedCost": 1
       },
       "cards": {
-        "Card_Modified": ["Thanos"]
+        "Card_Modified": ["Thanos", "ThanosChampion"]
       }
     },
     "series": 0,
@@ -12594,6 +13858,10 @@
     "attributes": {
       "data": {
         "AddedPower": 2
+      },
+      "cards": {
+        "Card_Faction": ["Toxin"],
+        "Card_Base": ["Toxin"]
       }
     },
     "series": 8,
@@ -12777,7 +14045,9 @@
     "description": "When this card is destroyed, replace it with Spider-Man.",
     "attributes": {
       "cards": {
-        "Card_Token": ["SpiderMan"]
+        "Card_Token": ["SpiderMan"],
+        "Card_Faction": ["UncleBen"],
+        "Card_Base": ["UncleBen"]
       }
     },
     "series": 7,
@@ -12914,6 +14184,12 @@
     "power": 3,
     "name": "Venom",
     "description": "<b>On Reveal:</b> Destroy your other cards here. Add their Power to this card.",
+    "attributes": {
+      "cards": {
+        "Card_Faction": ["Venom"],
+        "Card_Base": ["Venom"]
+      }
+    },
     "series": 6,
     "artists": [
       {
@@ -13019,10 +14295,10 @@
   },
   {
     "defId": "VisionAvengers",
-    "cost": 0,
-    "power": 0,
-    "name": "VisionAvengers",
-    "description": "<color=#ff2c2c>!</color>none",
+    "cost": 4,
+    "power": 7,
+    "name": "Vision - Avengers",
+    "description": "<color=#ff2c2c>!</color>If you have an Avenger here, you can move this.",
     "attributes": {
       "cards": {
         "Card_Base": ["Vision"]
@@ -13040,7 +14316,7 @@
   {
     "defId": "Vision",
     "cost": 5,
-    "power": 8,
+    "power": 9,
     "name": "Vision",
     "description": "You can move this each turn.",
     "attributes": {
@@ -13093,6 +14369,10 @@
     "attributes": {
       "data": {
         "AddedPower": 3
+      },
+      "cards": {
+        "Card_Faction": ["Vulture"],
+        "Card_Base": ["Vulture"]
       }
     },
     "series": 5,
@@ -13166,6 +14446,12 @@
     "power": 6,
     "name": "War Machine",
     "description": "<b>Ongoing:</b> Nothing can stop you from playing cards anywhere.",
+    "attributes": {
+      "cards": {
+        "Card_Faction": ["WarMachine"],
+        "Card_Base": ["WarMachine"]
+      }
+    },
     "series": 8,
     "artists": [
       {
@@ -13189,6 +14475,10 @@
     "attributes": {
       "data": {
         "AddedPower": 5
+      },
+      "cards": {
+        "Card_Faction": ["Warpath"],
+        "Card_Base": ["Warpath"]
       }
     },
     "series": 5,
@@ -13211,6 +14501,12 @@
     "power": 1,
     "name": "Wasp",
     "description": "<i>\"My secret power is that I get things done.\"</i>",
+    "attributes": {
+      "cards": {
+        "Card_Faction": ["Wasp"],
+        "Card_Base": ["Wasp"]
+      }
+    },
     "series": 6,
     "artists": [
       {
@@ -13228,7 +14524,7 @@
   {
     "defId": "Wave",
     "cost": 3,
-    "power": 5,
+    "power": 6,
     "name": "Wave",
     "description": "<b>On Reveal:</b> All cards cost a maximum of 4 until the end\nof next turn.",
     "attributes": {
@@ -13278,7 +14574,7 @@
   {
     "defId": "WeaponXWolverine",
     "cost": 2,
-    "power": 1,
+    "power": 2,
     "name": "Weapon X Wolverine",
     "description": "After one of your other cards is destroyed, +1 Power. After every 0rd time, improve this effect by 1. <i>(0/0)</i>",
     "attributes": {
@@ -13305,12 +14601,38 @@
     "isSeasonPass": true
   },
   {
+    "defId": "WeaponXWolverineChampion",
+    "cost": 2,
+    "power": 2,
+    "name": "Weapon X Wolverine",
+    "description": "After one of your other cards is destroyed, +1 Power. After every 0rd time, improve this effect by 1. <i>(0/0)</i>",
+    "attributes": {
+      "data": {
+        "AddedPower": 1,
+        "AssignedPower": 1,
+        "ModifiedCardCount_1": 3,
+        "ModifiedCardCount_2": 0
+      },
+      "cards": {
+        "Card_Token": ["Skill01WeaponXWolverineChampion"]
+      }
+    },
+    "series": 0,
+    "artists": [
+      {
+        "name": "Tribute Games",
+        "type": 1
+      }
+    ],
+    "seriesStartTimestamps": []
+  },
+  {
     "defId": "WebSling",
     "cost": 1,
     "power": 0,
     "name": "Web Sling",
     "description": "<b>On Reveal:</b> Next turn, you can move one of your cards away from here.",
-    "series": 0,
+    "series": 7,
     "artists": [
       {
         "name": "Eduardo Mello",
@@ -13322,7 +14644,6 @@
       }
     ],
     "seriesStartTimestamps": [1762282800000],
-    "possibleSeries": 7,
     "collectible": true
   },
   {
@@ -13352,11 +14673,14 @@
   },
   {
     "defId": "WhiteQueenBrotherhoodOfMutants",
-    "cost": 0,
-    "power": 0,
+    "cost": 3,
+    "power": 3,
     "name": "WhiteQueenBrotherhoodOfMutants",
-    "description": "<color=#ff2c2c>!</color>none",
+    "description": "<color=#ff2c2c>!</color><b>On Reveal:</b> Copy a card from your opponent's hand into your hand. While you're winning here, it has -1 Cost.",
     "attributes": {
+      "data": {
+        "ReducedCost": 1
+      },
       "cards": {
         "Card_Base": ["WhiteQueen"]
       }
@@ -13377,7 +14701,7 @@
   {
     "defId": "WhiteQueen",
     "cost": 3,
-    "power": 4,
+    "power": 5,
     "name": "White Queen",
     "description": "<b>On Reveal:</b> Copy the card that costs the most from your opponent's hand into your hand.",
     "attributes": {
@@ -13460,6 +14784,10 @@
     "attributes": {
       "data": {
         "AddedMaxEnergy": 2
+      },
+      "cards": {
+        "Card_Faction": ["Wiccan"],
+        "Card_Base": ["Wiccan"]
       }
     },
     "series": 8,
@@ -13482,6 +14810,12 @@
     "power": -1,
     "name": "Widow's Bite",
     "description": "While this is in your hand, you can't draw cards.",
+    "attributes": {
+      "cards": {
+        "Card_Faction": ["WidowsBite"],
+        "Card_Base": ["WidowsBite"]
+      }
+    },
     "series": 0,
     "artists": [
       {
@@ -13536,7 +14870,7 @@
         "type": 4
       }
     ],
-    "seriesStartTimestamps": [1764702000000],
+    "seriesStartTimestamps": [1766084400000, 1768762800000],
     "possibleSeries": 7
   },
   {
@@ -13612,6 +14946,10 @@
     "attributes": {
       "data": {
         "AddedPower": 2
+      },
+      "cards": {
+        "Card_Faction": ["Wolfsbane"],
+        "Card_Base": ["Wolfsbane"]
       }
     },
     "series": 2,
@@ -13658,11 +14996,14 @@
   },
   {
     "defId": "WolverineXMen",
-    "cost": 0,
-    "power": 0,
+    "cost": 2,
+    "power": 1,
     "name": "WolverineXMen",
-    "description": "<color=#ff2c2c>!</color>none",
+    "description": "<color=#ff2c2c>!</color><b>End of Turn:</b> If you're winning here, destroy this and regenerate it with +2 at a random location.",
     "attributes": {
+      "data": {
+        "AddedPower": 2
+      },
       "cards": {
         "Card_Base": ["Wolverine"]
       }
@@ -13686,6 +15027,12 @@
     "power": 2,
     "name": "Wong",
     "description": "<b>Ongoing:</b> Your <b>On Reveal</b> abilities here happen twice.",
+    "attributes": {
+      "cards": {
+        "Card_Faction": ["Wong"],
+        "Card_Base": ["Wong"]
+      }
+    },
     "series": 6,
     "artists": [
       {
@@ -13703,12 +15050,16 @@
   {
     "defId": "X23",
     "cost": 1,
-    "power": 2,
+    "power": 1,
     "name": "X-23",
     "description": "When this is discarded or destroyed, regenerate it at a random location and you get +1 Energy next turn.",
     "attributes": {
       "data": {
         "AddedEnergy": 1
+      },
+      "cards": {
+        "Card_Faction": ["X23"],
+        "Card_Base": ["X23"]
       }
     },
     "series": 7,
@@ -13735,6 +15086,10 @@
       "data": {
         "TargetCardCost_1": 3,
         "TargetCardCost_2": 4
+      },
+      "cards": {
+        "Card_Faction": ["Xorn"],
+        "Card_Base": ["Xorn"]
       }
     },
     "series": 8,
@@ -13750,6 +15105,17 @@
     ],
     "seriesStartTimestamps": [1748372400000],
     "collectible": true
+  },
+  {
+    "defId": "YakaArrow",
+    "cost": 0,
+    "power": 0,
+    "name": "YakaArrow",
+    "description": "<color=#ff2c2c>!</color>none",
+    "series": 0,
+    "artists": [],
+    "seriesStartTimestamps": [1830366000000],
+    "possibleSeries": 7
   },
   {
     "defId": "Yellowjacket",
@@ -13895,9 +15261,9 @@
   {
     "defId": "ZombieGalacti",
     "cost": 7,
-    "power": 4,
+    "power": 5,
     "name": "Zombie Galacti",
-    "description": "<b>Start of Game:</b> Choose 6 other cards in your deck.\n<b>On Reveal:</b> Transform those cards\ninto copies of this.",
+    "description": "<b>Game Start:</b> Choose 6 other cards in your deck.\n<b>On Reveal:</b> Transform those cards\ninto copies of this.",
     "attributes": {
       "data": {
         "ModifiedCardCount": 6
@@ -14028,7 +15394,7 @@
         "Card_Token": ["ZombieHorde"]
       }
     },
-    "series": 9,
+    "series": 8,
     "artists": [
       {
         "name": "Eduardo Mello",
@@ -14040,7 +15406,6 @@
       }
     ],
     "seriesStartTimestamps": [1759863600000, 1762282800000],
-    "possibleSeries": 8,
     "collectible": true,
     "isSeasonPass": true
   },

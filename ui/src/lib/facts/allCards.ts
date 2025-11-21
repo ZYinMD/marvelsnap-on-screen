@@ -102,7 +102,7 @@ export const allCards = {
   'Alioth': {
     defId: 'Alioth',
     cost: 6,
-    power: 9,
+    power: 8,
     name: 'Alioth',
     description: '<b>On Reveal:</b> Remove the text from all unrevealed enemy characters here.',
     seriesStartTimestamps: [1694545200000],
@@ -313,7 +313,7 @@ export const allCards = {
   'Black Cat': {
     defId: 'BlackCat',
     cost: 1,
-    power: 5,
+    power: 4,
     name: 'Black Cat',
     description: '<b>End of Turn:</b> Discard this from your hand.',
     seriesStartTimestamps: [-62135596800000],
@@ -496,6 +496,14 @@ export const allCards = {
     description: '<b>Ongoing:</b> Your highest-Power cards have +3 Power.',
     seriesStartTimestamps: [-62135596800000],
   },
+  'Chameleon': {
+    defId: 'Chameleon',
+    cost: 3,
+    power: 3,
+    name: 'Chameleon',
+    description: '<b>On Reveal:</b> Copy the text of another card here you revealed this turn.',
+    seriesStartTimestamps: [1762887600000],
+  },
   'Clea': {
     defId: 'Clea',
     cost: 1,
@@ -565,7 +573,7 @@ export const allCards = {
   'Cosmic Ghost Rider': {
     defId: 'CosmicGhostRider',
     cost: 5,
-    power: 7,
+    power: 6,
     name: 'Cosmic Ghost Rider',
     description: '<b>On Reveal:</b> Remove the text from front-row enemy cards here.',
     seriesStartTimestamps: [1756234800000],
@@ -667,6 +675,15 @@ export const allCards = {
     description: 'When this is destroyed, return it to your hand with double the Power.',
     seriesStartTimestamps: [-62135596800000],
   },
+  'Deafening Chord': {
+    defId: 'DeafeningChord',
+    cost: 1,
+    power: 0,
+    name: 'Deafening Chord',
+    description:
+      '<b>On Reveal:</b> Afflict an enemy character here that costs 3 or less with -1 Power and remove its text.',
+    seriesStartTimestamps: [1763665200000],
+  },
   'Death': {
     defId: 'Death',
     cost: 8,
@@ -686,9 +703,9 @@ export const allCards = {
   'Debrii': {
     defId: 'Debrii',
     cost: 3,
-    power: 3,
+    power: 7,
     name: 'Debrii',
-    description: '<b>On Reveal:</b> Add a Rock to each other location, for both players.',
+    description: '<b>On Reveal:</b> Add a Rock to each other location.',
     seriesStartTimestamps: [-62135596800000],
   },
   'Destroyer': {
@@ -801,7 +818,7 @@ export const allCards = {
   'Electro': {
     defId: 'Electro',
     cost: 3,
-    power: 4,
+    power: 5,
     name: 'Electro',
     description:
       '<b>On Reveal:</b> +1 Max Energy. <b>Ongoing:</b> You can only play\n1 card a turn.',
@@ -858,6 +875,15 @@ export const allCards = {
     description: '<b>End of Turn:</b> Put a created card from your hand here.',
     seriesStartTimestamps: [1741114800000],
   },
+  'Ezekiel Sims': {
+    defId: 'EzekielSims',
+    cost: 2,
+    power: 2,
+    name: 'Ezekiel Sims',
+    description:
+      'After you play a card with higher Power here, give this +2 Power and move this to another location.',
+    seriesStartTimestamps: [1762887600000],
+  },
   'Falcon': {
     defId: 'Falcon',
     cost: 2,
@@ -877,9 +903,9 @@ export const allCards = {
   'Fan Fei': {
     defId: 'FanFei',
     cost: 4,
-    power: 7,
+    power: 4,
     name: 'Fan Fei',
-    description: '<b>Activate:</b> Move your other cards here to the right.',
+    description: '<b>Activate:</b> Give your other cards here +1 Power and move them to the right.',
     seriesStartTimestamps: [1745953200000],
   },
   'Fantasticar': {
@@ -1012,7 +1038,7 @@ export const allCards = {
   'The First Ghost Rider': {
     defId: 'GhostTheFirstRider',
     cost: 2,
-    power: 6,
+    power: 7,
     name: 'The First Ghost Rider',
     description:
       "<b>On Reveal:</b> Discard the lowest-Power card from your hand. Remove that card's Power from this.",
@@ -1307,10 +1333,19 @@ export const allCards = {
   'Hydra Stomper': {
     defId: 'HydraStomper',
     cost: 3,
-    power: 2,
+    power: 3,
     name: 'Hydra Stomper',
     description: '<b>Ongoing:</b> +1 Power for each time one of your cards moved this game.',
     seriesStartTimestamps: [1745953200000],
+  },
+  'Hydro-Man': {
+    defId: 'HydroMan',
+    cost: 5,
+    power: 8,
+    name: 'Hydro-Man',
+    description: "<b>On Reveal:</b> Set the Cost of EACH deck's top card to 1.",
+    seriesStartTimestamps: [1763665200000, 1766257200000],
+    possibleSeries: 7,
   },
   'Iceman': {
     defId: 'Iceman',
@@ -1641,7 +1676,7 @@ export const allCards = {
   'Leader': {
     defId: 'Leader',
     cost: 6,
-    power: 4,
+    power: 5,
     name: 'Leader',
     description:
       '<b>On Reveal:</b> Copy the enemy card(s) with the highest Power played this turn, but on your side.',
@@ -1773,7 +1808,6 @@ export const allCards = {
     description:
       '<b>On Reveal:</b> Merge the\nlast card you played into this.\nWhen this merges, double its Power.',
     seriesStartTimestamps: [1762282800000],
-    possibleSeries: 8,
     isSeasonPass: false,
   },
   'Man-Thing': {
@@ -1837,7 +1871,7 @@ export const allCards = {
   "M'Baku": {
     defId: 'MBaku',
     cost: 1,
-    power: 2,
+    power: 3,
     name: "M'Baku",
     description:
       "At the end of the game, this jumps from your deck to your lowest-Power location. <i>(that isn't full)</i>",
@@ -1853,8 +1887,8 @@ export const allCards = {
   },
   'Mercury': {
     defId: 'Mercury',
-    cost: 2,
-    power: 2,
+    cost: 3,
+    power: 4,
     name: 'Mercury',
     description: "You can move this once.\n<b>Ongoing:</b> Enemy cards here\ncan't move.",
     seriesStartTimestamps: [1748977200000],
@@ -1896,7 +1930,7 @@ export const allCards = {
   'Misery': {
     defId: 'Misery',
     cost: 4,
-    power: 9,
+    power: 8,
     name: 'Misery',
     description:
       '<b>On Reveal:</b> Repeat the <b>On Reveal</b> abilities of your other cards here, then destroy them.',
@@ -2082,7 +2116,7 @@ export const allCards = {
   'Nakia': {
     defId: 'Nakia',
     cost: 3,
-    power: 3,
+    power: 4,
     name: 'Nakia',
     description: '<b>On Reveal:</b> Give all cards in your hand +1 Power.',
     seriesStartTimestamps: [-62135596800000],
@@ -2192,7 +2226,7 @@ export const allCards = {
   'Odin': {
     defId: 'Odin',
     cost: 6,
-    power: 8,
+    power: 9,
     name: 'Odin',
     description:
       '<b>On Reveal:</b> Repeat the <b>On Reveal</b> abilities of your other cards here.',
@@ -2227,7 +2261,7 @@ export const allCards = {
     cost: 6,
     power: 11,
     name: 'Orka',
-    description: '<b>Ongoing:</b> +5 Power if this is your only card here.',
+    description: '<b>Ongoing:</b> +7 Power if this is your only card here.',
     seriesStartTimestamps: [-62135596800000],
   },
   'Patriot': {
@@ -2288,6 +2322,16 @@ export const allCards = {
     name: 'Professor X',
     description: '<b>Ongoing:</b> Moving is the only way to add or remove a character from here.',
     seriesStartTimestamps: [-62135596800000],
+  },
+  'Prowler': {
+    defId: 'Prowler',
+    cost: 3,
+    power: 4,
+    name: 'Prowler',
+    description:
+      '<b>On Reveal:</b> Add 2 Thief’s Tools to your hand. Set their Costs to 0 if a card moved last turn.',
+    seriesStartTimestamps: [1764097200000],
+    possibleSeries: 8,
   },
   'Proxima Midnight': {
     defId: 'ProximaMidnight',
@@ -2491,7 +2535,7 @@ export const allCards = {
   'Sauron': {
     defId: 'Sauron',
     cost: 1,
-    power: 3,
+    power: 2,
     name: 'Sauron',
     description:
       '<b>On Reveal:</b> Remove the abilities from all <b>Ongoing</b> cards in your deck.',
@@ -2519,7 +2563,7 @@ export const allCards = {
     power: 2,
     name: 'Scorn',
     description:
-      'When you discard this, put it back and give +2 Power to itself and\none of your cards in play.',
+      'When you discard this, put it back and give +2 Power to itself and\\none of your cards in play.',
     seriesStartTimestamps: [1729018800000],
   },
   'Scorpion': {
@@ -2700,10 +2744,10 @@ export const allCards = {
   'Sparky': {
     defId: 'Sparky',
     cost: 2,
-    power: 1,
+    power: 2,
     name: 'Sparky',
     description:
-      '<b>Activate:</b> Give your card that last moved +3 Power and move it\nback to its previous location.',
+      '<b>Activate:</b> Give your card that last moved +2 Power and move it\nback to its previous location.',
     seriesStartTimestamps: [1756839600000],
     isSeasonPass: false,
   },
@@ -2749,10 +2793,19 @@ export const allCards = {
       '<b>On Reveal:</b> Move to another location and pull an enemy card from\nhere to there.',
     seriesStartTimestamps: [-62135596800000],
   },
+  'Spider-Man Noir': {
+    defId: 'SpiderManNoir',
+    cost: 4,
+    power: 6,
+    name: 'Spider-Man Noir',
+    description:
+      '<b>On Reveal:</b> If your other cards in play cost exactly 8 total, add the top card of your deck here. Set its Power to 8. (0/8)',
+    seriesStartTimestamps: [1763492400000],
+  },
   'Spider-Punk': {
     defId: 'SpiderPunk',
     cost: 3,
-    power: 2,
+    power: 3,
     name: 'Spider-Punk',
     description:
       'You can move this once.\nWhen this moves to a location, steal 2 Power from the highest-Power enemy there.',
@@ -2820,7 +2873,7 @@ export const allCards = {
   'Storm': {
     defId: 'Storm',
     cost: 3,
-    power: 2,
+    power: 1,
     name: 'Storm',
     description:
       '<b>On Reveal:</b> Flood this location. Next turn is the last turn cards can\nbe played here.',
@@ -2862,7 +2915,7 @@ export const allCards = {
   'Supergiant': {
     defId: 'Supergiant',
     cost: 4,
-    power: 7,
+    power: 6,
     name: 'Supergiant',
     description: "<b>On Reveal:</b> All cards played next turn don't reveal until the game ends.",
     seriesStartTimestamps: [1707246000000, 1733770800000],
@@ -2875,7 +2928,6 @@ export const allCards = {
     description:
       'At the start of each turn, you get +1 Energy if you have any cards with increased Power in play.',
     seriesStartTimestamps: [1762282800000],
-    possibleSeries: 8,
   },
   'Super-Skrull': {
     defId: 'SuperSkrull',
@@ -2987,7 +3039,6 @@ export const allCards = {
     name: 'The Hunger',
     description: '<b>On Reveal:</b> <b>Horde +3</b>.',
     seriesStartTimestamps: [1760554800000, 1763233200000],
-    possibleSeries: 7,
   },
   'Thena': {
     defId: 'Thena',
@@ -3151,7 +3202,7 @@ export const allCards = {
   'Vision': {
     defId: 'Vision',
     cost: 5,
-    power: 8,
+    power: 9,
     name: 'Vision',
     description: 'You can move this each turn.',
     seriesStartTimestamps: [-62135596800000],
@@ -3209,7 +3260,7 @@ export const allCards = {
   'Wave': {
     defId: 'Wave',
     cost: 3,
-    power: 5,
+    power: 6,
     name: 'Wave',
     description: '<b>On Reveal:</b> All cards cost a maximum of 4 until the end\nof next turn.',
     seriesStartTimestamps: [-62135596800000],
@@ -3221,7 +3272,6 @@ export const allCards = {
     name: 'Web Sling',
     description: '<b>On Reveal:</b> Next turn, you can move one of your cards away from here.',
     seriesStartTimestamps: [1762282800000],
-    possibleSeries: 7,
   },
   'Werewolf By Night': {
     defId: 'WerewolfByNight',
@@ -3235,7 +3285,7 @@ export const allCards = {
   'White Queen': {
     defId: 'WhiteQueen',
     cost: 3,
-    power: 4,
+    power: 5,
     name: 'White Queen',
     description:
       "<b>On Reveal:</b> Copy the card that costs the most from your opponent's hand into your hand.",
@@ -3294,7 +3344,7 @@ export const allCards = {
   'X-23': {
     defId: 'X23',
     cost: 1,
-    power: 2,
+    power: 1,
     name: 'X-23',
     description:
       'When this is discarded or destroyed, regenerate it at a random location and you get +1 Energy next turn.',
@@ -3352,10 +3402,10 @@ export const allCards = {
   'Zombie Galacti': {
     defId: 'ZombieGalacti',
     cost: 7,
-    power: 4,
+    power: 5,
     name: 'Zombie Galacti',
     description:
-      '<b>Start of Game:</b> Choose 6 other cards in your deck.\n<b>On Reveal:</b> Transform those cards\ninto copies of this.',
+      '<b>Game Start:</b> Choose 6 other cards in your deck.\n<b>On Reveal:</b> Transform those cards\ninto copies of this.',
     seriesStartTimestamps: [1761678000000],
   },
   'Zombie Giant-Man': {
@@ -3392,7 +3442,6 @@ export const allCards = {
     name: 'Zombie Scarlet Witch',
     description: 'After you play a card here, <b>Horde +2</b>.',
     seriesStartTimestamps: [1759863600000, 1762282800000],
-    possibleSeries: 8,
     isSeasonPass: true,
   },
   'Zombie Sentry': {
