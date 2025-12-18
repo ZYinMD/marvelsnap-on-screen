@@ -185,7 +185,7 @@ export const map: Record<Key, Roster> = {
   '2008|X-Men Origins: Wolverine': {
     major: new Set(),
     minor: new Set(),
-    major_: ['Wolverine', 'Sabretooth', 'Gambit', 'Blob'],
+    major_: ['Wolverine', 'Sabretooth', 'Gambit', 'Blob', 'Maverick'],
     minor_: ['Cyclops', 'Deadpool', 'Professor X'],
   },
   '2010|Iron Man 2': {
@@ -1225,6 +1225,7 @@ export const map: Record<Key, Roster> = {
       'Brood',
       'Cannonball',
       'Sasquatch',
+      'Maverick',
     ],
   },
   '1994–1996|Fantastic Four: The Animated Series': {
@@ -1525,6 +1526,7 @@ export const map: Record<Key, Roster> = {
       'Colossus',
       'Cerebro',
       'Domino',
+      'Maverick',
       'Shadow King',
       'Wolfsbane',
       'Multiple Man',
