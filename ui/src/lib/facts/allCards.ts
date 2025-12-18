@@ -17,6 +17,16 @@ export const allCards = {
       '<b>On Reveal:</b> If the last card you played has an <b>On Reveal</b>, copy its text. <i>(if able)</i>',
     seriesStartTimestamps: [-62135596800000],
   },
+  'Adamantium Infusion': {
+    defId: 'AdamantiumInfusion',
+    cost: 4,
+    power: 0,
+    name: 'Adamantium Infusion',
+    description:
+      '<b>On Reveal:</b> Revive your\nhighest-Power destroyed card here with its Power doubled.',
+    seriesStartTimestamps: [1764702000000],
+    isSeasonPass: false,
+  },
   'Adam Warlock': {
     defId: 'AdamWarlock',
     cost: 2,
@@ -224,6 +234,16 @@ export const allCards = {
     name: 'Attuma',
     description: '<b>End of Turn:</b> Destroy one of your cards here with less Power.',
     seriesStartTimestamps: [-62135596800000],
+  },
+  'Aurora': {
+    defId: 'Aurora',
+    cost: 6,
+    power: 6,
+    name: 'Aurora',
+    description:
+      '<b>On Reveal:</b> Give one of your other <b>On Reveal</b> cards at each location +2 Power. Repeat for <b>Ongoing</b>, <b>Activate</b>, and <b>End of Turn</b>.',
+    seriesStartTimestamps: [1766516400000],
+    possibleSeries: 8,
   },
   'Awesome Andy': {
     defId: 'AwesomeAndy',
@@ -495,6 +515,15 @@ export const allCards = {
     name: 'Cerebro',
     description: '<b>Ongoing:</b> Your highest-Power cards have +3 Power.',
     seriesStartTimestamps: [-62135596800000],
+  },
+  'Chamber': {
+    defId: 'Chamber',
+    cost: 2,
+    power: 3,
+    name: 'Chamber',
+    description:
+      '<b>Activate:</b> +2 Power for each\n5-Cost or higher card you have\nhere and in hand.',
+    seriesStartTimestamps: [1764702000000],
   },
   'Chameleon': {
     defId: 'Chameleon',
@@ -770,7 +799,7 @@ export const allCards = {
   'Dormammu': {
     defId: 'Dormammu',
     cost: 7,
-    power: 12,
+    power: 13,
     name: 'Dormammu',
     description: '<b>Game Start:</b> Begin a Summoning Ritual. <i>(Add step 1 to hand.)</i>',
     seriesStartTimestamps: [1750791600000],
@@ -843,7 +872,7 @@ export const allCards = {
   'Elsa Bloodstone': {
     defId: 'ElsaBloodstone',
     cost: 3,
-    power: 4,
+    power: 5,
     name: 'Elsa Bloodstone',
     description: 'Each card you play to fill your side of a location gains +2 Power.',
     seriesStartTimestamps: [1696359600000, 1699383600000, 1741028400000],
@@ -915,6 +944,16 @@ export const allCards = {
     name: 'Fantasticar',
     description: '<b>Activate:</b> Give your <b>End of Turn</b> cards +2 Power.',
     seriesStartTimestamps: [1752001200000, 1754420400000],
+  },
+  'Fastball Special': {
+    defId: 'FastballSpecial',
+    cost: 2,
+    power: 0,
+    name: 'Fastball Special',
+    description:
+      '<b>On Reveal:</b> Destroy your highest-Power card here to afflict an enemy card here with that much negative Power.',
+    seriesStartTimestamps: [1766084400000, 1768762800000],
+    possibleSeries: 7,
   },
   'Fenris Wolf': {
     defId: 'FenrisWolf',
@@ -1192,7 +1231,7 @@ export const allCards = {
   'Helicarrier': {
     defId: 'Helicarrier',
     cost: 6,
-    power: 10,
+    power: 12,
     name: 'Helicarrier',
     description: 'When you discard this, fill your hand with random cards.',
     seriesStartTimestamps: [-62135596800000],
@@ -1308,7 +1347,7 @@ export const allCards = {
   'Human Torch': {
     defId: 'HumanTorch',
     cost: 3,
-    power: 3,
+    power: 2,
     name: 'Human Torch',
     description: 'When this moves, double\nits Power.',
     seriesStartTimestamps: [-62135596800000],
@@ -1835,6 +1874,15 @@ export const allCards = {
     description: '<b>On Reveal:</b> Add a random 2-Cost card to your hand.',
     seriesStartTimestamps: [-62135596800000],
   },
+  'Marrow': {
+    defId: 'Marrow',
+    cost: 2,
+    power: 3,
+    name: 'Marrow',
+    description: '<b>When Discarded or Destroyed:</b> Randomly split -7 Power\namong enemy cards.',
+    seriesStartTimestamps: [1766084400000],
+    possibleSeries: 7,
+  },
   'Martyr': {
     defId: 'Martyr',
     cost: 1,
@@ -1859,6 +1907,14 @@ export const allCards = {
     name: 'Master Mold',
     description: "<b>On Reveal:</b> Add 2 Sentinel to your opponent's hand.",
     seriesStartTimestamps: [1678820400000, 1684263600000, 1704654000000],
+  },
+  'Maverick': {
+    defId: 'Maverick',
+    cost: 3,
+    power: 3,
+    name: 'Maverick',
+    description: '<b>Activate:</b> Give the next card you play Power equal to this card’s Power.',
+    seriesStartTimestamps: [1765911600000],
   },
   'Maximus': {
     defId: 'Maximus',
@@ -2029,8 +2085,8 @@ export const allCards = {
   },
   'Morgan le Fay': {
     defId: 'MorganLeFay',
-    cost: 4,
-    power: 7,
+    cost: 3,
+    power: 4,
     name: 'Morgan le Fay',
     description:
       '<b>On Reveal:</b> Return all your discarded and destroyed cards to hand\nwith +3 Power.',
@@ -2331,7 +2387,6 @@ export const allCards = {
     description:
       '<b>On Reveal:</b> Add 2 Thief’s Tools to your hand. Set their Costs to 0 if a card moved last turn.',
     seriesStartTimestamps: [1764097200000],
-    possibleSeries: 8,
   },
   'Proxima Midnight': {
     defId: 'ProximaMidnight',
@@ -2796,10 +2851,10 @@ export const allCards = {
   'Spider-Man Noir': {
     defId: 'SpiderManNoir',
     cost: 4,
-    power: 6,
+    power: 4,
     name: 'Spider-Man Noir',
     description:
-      '<b>On Reveal:</b> If your other cards in play cost exactly 8 total, add the top card of your deck here. Set its Power to 8. (0/8)',
+      "<b>On Reveal:</b> Set the top card of your deck's Power to 8. If your other cards in play cost exactly 8 total, add it here. (0/8)",
     seriesStartTimestamps: [1763492400000],
   },
   'Spider-Punk': {
@@ -2810,7 +2865,6 @@ export const allCards = {
     description:
       'You can move this once.\nWhen this moves to a location, steal 2 Power from the highest-Power enemy there.',
     seriesStartTimestamps: [1762282800000, 1764702000000],
-    possibleSeries: 8,
     isSeasonPass: true,
   },
   'Spider-Woman': {
@@ -2966,7 +3020,7 @@ export const allCards = {
   'Sword Master': {
     defId: 'SwordMaster',
     cost: 3,
-    power: 6,
+    power: 7,
     name: 'Sword Master',
     description: '<b>On Reveal:</b> Discard an odd-costed card from your hand.',
     seriesStartTimestamps: [-62135596800000],
@@ -3225,6 +3279,16 @@ export const allCards = {
     description: 'When this card moves,\n+3 Power.',
     seriesStartTimestamps: [-62135596800000],
   },
+  'Wade Wilson': {
+    defId: 'WadeWilson',
+    cost: 2,
+    power: 2,
+    name: 'Wade Wilson',
+    description:
+      '<b>When Destroyed:</b> Replace this with a 1-Cost card from your hand or deck with +1 Power.',
+    seriesStartTimestamps: [1764702000000, 1767553200000],
+    possibleSeries: 7,
+  },
   'Warlock': {
     defId: 'Warlock',
     cost: 3,
@@ -3235,8 +3299,8 @@ export const allCards = {
   },
   'War Machine': {
     defId: 'WarMachine',
-    cost: 4,
-    power: 6,
+    cost: 5,
+    power: 9,
     name: 'War Machine',
     description: '<b>Ongoing:</b> Nothing can stop you from playing cards anywhere.',
     seriesStartTimestamps: [1711479600000],
@@ -3264,6 +3328,25 @@ export const allCards = {
     name: 'Wave',
     description: '<b>On Reveal:</b> All cards cost a maximum of 4 until the end\nof next turn.',
     seriesStartTimestamps: [-62135596800000],
+  },
+  'Weapon H': {
+    defId: 'WeaponH',
+    cost: 7,
+    power: 14,
+    name: 'Weapon H',
+    description: '<b>When Discarded:</b> Put this back with -2 Cost.',
+    seriesStartTimestamps: [1765306800000],
+  },
+  'Weapon X Wolverine': {
+    defId: 'WeaponXWolverine',
+    cost: 2,
+    power: 2,
+    name: 'Weapon X Wolverine',
+    description:
+      'After one of your other cards is destroyed, +1 Power. After every 3rd time, improve this effect by 1. <i>(0/3)</i>',
+    seriesStartTimestamps: [1764702000000, 1767726000000],
+    possibleSeries: 8,
+    isSeasonPass: true,
   },
   'Web Sling': {
     defId: 'WebSling',
@@ -3315,6 +3398,16 @@ export const allCards = {
     description:
       "<b>On Reveal:</b> If you've spent all your Energy on previous turns, +2 Max Energy.",
     seriesStartTimestamps: [1723575600000],
+  },
+  'Wild Child': {
+    defId: 'WildChild',
+    cost: 2,
+    power: 1,
+    name: 'Wild Child',
+    description:
+      '<b>Ongoing:</b> +4 Power if you’ve discarded a card. +4 Power if one of your cards has been destroyed.',
+    seriesStartTimestamps: [1766084400000, 1768762800000],
+    possibleSeries: 7,
   },
   'Wolfsbane': {
     defId: 'Wolfsbane',
@@ -3451,6 +3544,5 @@ export const allCards = {
     name: 'Zombie Sentry',
     description: '<b>On Reveal:</b> <b>Horde +1</b> for each of your cards at the right location.',
     seriesStartTimestamps: [1761591600000, 1764270000000],
-    possibleSeries: 7,
   },
 } as const;
