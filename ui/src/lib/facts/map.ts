@@ -1527,6 +1527,7 @@ export const map: Record<Key, Roster> = {
       'Cerebro',
       'Domino',
       'Maverick',
+      'Marrow',
       'Shadow King',
       'Wolfsbane',
       'Multiple Man',
