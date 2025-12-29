@@ -360,8 +360,8 @@
 	},
 	{
 		"defId": "AgonyWebSlingers",
-		"cost": 2,
-		"power": 3,
+		"cost": 1,
+		"power": 2,
 		"name": "Agony - Spider-Verse",
 		"description": "After you play a card here, merge this with it. If it's a Spider-Verse card, move it away from here.",
 		"attributes": {
@@ -387,9 +387,9 @@
 	{
 		"defId": "AirWalker",
 		"cost": 3,
-		"power": 3,
+		"power": 4,
 		"name": "Air-Walker",
-		"description": "When this is destroyed, replace it with a 4-Cost card from your hand or deck.",
+		"description": "<b>When Destroyed:</b> Replace this with a 4-Cost card from your hand or deck.",
 		"attributes": {
 			"data": {
 				"AssignedCost": 4
@@ -726,7 +726,7 @@
 		"cost": 6,
 		"power": 8,
 		"name": "Apocalypse",
-		"description": "When you discard this, put it back with +4 Power.",
+		"description": "<b>When Discarded:</b> Put this back with +4 Power.",
 		"attributes": {
 			"data": {
 				"AddedPower": 4
@@ -984,7 +984,7 @@
 				]
 			}
 		},
-		"series": 0,
+		"series": 8,
 		"artists": [
 			{
 				"name": "Eduardo Mello",
@@ -998,7 +998,6 @@
 		"seriesStartTimestamps": [
 			1766516400000
 		],
-		"possibleSeries": 8,
 		"collectible": true
 	},
 	{
@@ -1031,7 +1030,7 @@
 	{
 		"defId": "BannerHulk",
 		"cost": 6,
-		"power": 12,
+		"power": 14,
 		"name": "Hulk",
 		"description": "<i>\"HULK SMASH!\"</i>",
 		"attributes": {
@@ -1830,7 +1829,7 @@
 		"cost": 2,
 		"power": 1,
 		"name": "Bucky Barnes",
-		"description": "When this is destroyed, replace it with the Winter Soldier.",
+		"description": "<b>When Destroyed:</b> Replace this with the Winter Soldier.",
 		"attributes": {
 			"cards": {
 				"Card_Token": [
@@ -1931,7 +1930,7 @@
 	{
 		"defId": "Cable",
 		"cost": 2,
-		"power": 3,
+		"power": 4,
 		"name": "Cable",
 		"description": "<b>On Reveal:</b> Draw a card from your opponent's deck.",
 		"attributes": {
@@ -2587,7 +2586,7 @@
 	{
 		"defId": "Colossus",
 		"cost": 2,
-		"power": 3,
+		"power": 4,
 		"name": "Colossus",
 		"description": "<b>Ongoing:</b> Can't be destroyed, moved, or have its Power reduced.",
 		"attributes": {
@@ -2840,7 +2839,7 @@
 	{
 		"defId": "Cyclops",
 		"cost": 3,
-		"power": 4,
+		"power": 5,
 		"name": "Cyclops",
 		"description": "<i>\"Let's move, X-Men.\"</i>",
 		"attributes": {
@@ -3109,7 +3108,7 @@
 		"cost": 1,
 		"power": 1,
 		"name": "Deadpool",
-		"description": "When this is destroyed, return it to your hand with double the Power.",
+		"description": "<b>When Destroyed:</b> Return this to your hand with double the Power.",
 		"attributes": {
 			"cards": {
 				"Card_Faction": [
@@ -3495,7 +3494,7 @@
 	{
 		"defId": "Doom2099",
 		"cost": 4,
-		"power": 4,
+		"power": 5,
 		"name": "Doctor Doom 2099",
 		"description": "<b>End of Turn:</b> Add a DoomBot 2099 to a random location if you played <i>(exactly)</i> 1 card.",
 		"attributes": {
@@ -4747,7 +4746,8 @@
 		"seriesStartTimestamps": [
 			1767121200000
 		],
-		"possibleSeries": 8
+		"possibleSeries": 8,
+		"collectible": true
 	},
 	{
 		"defId": "FastballSpecial",
@@ -4755,7 +4755,7 @@
 		"power": 0,
 		"name": "Fastball Special",
 		"description": "<b>On Reveal:</b> Destroy your highest-Power card here to afflict an enemy card here with that much negative Power.",
-		"series": 0,
+		"series": 10,
 		"artists": [
 			{
 				"name": "Eduardo Mello",
@@ -5792,7 +5792,7 @@
 	{
 		"defId": "GrootGuardiansOfTheGalaxy",
 		"cost": 4,
-		"power": 10,
+		"power": 11,
 		"name": "Groot - Guardians of the Galaxy",
 		"description": "<b>On Reveal:</b> Discard a non-Guardian card from your hand unless your opponent played a card here this turn.",
 		"attributes": {
@@ -5893,12 +5893,12 @@
 	{
 		"defId": "HawkeyeAvengers",
 		"cost": 1,
-		"power": 1,
+		"power": 2,
 		"name": "Hawkeye - Avengers",
-		"description": "<b>On Reveal:</b> If you play a card here next turn, +2 Power. If it's an Avenger, repeat this ability here.",
+		"description": "<b>On Reveal:</b> If you play a card here next turn, +1 Power. If it's an Avenger, repeat this ability here.",
 		"attributes": {
 			"data": {
-				"AddedPower": 2
+				"AddedPower": 1
 			},
 			"cards": {
 				"Card_Base": [
@@ -5983,7 +5983,7 @@
 		"cost": 1,
 		"power": 1,
 		"name": "Headpool",
-		"description": "When this is destroyed, return it to your hand, then give all cards in your hand +1 Power.",
+		"description": "<b>When Destroyed:</b> Return this to your hand, then give all cards in your hand +1 Power.",
 		"attributes": {
 			"data": {
 				"AddedPower": 1
@@ -6055,7 +6055,7 @@
 		"cost": 6,
 		"power": 12,
 		"name": "Helicarrier",
-		"description": "When you discard this, fill your hand with random cards.",
+		"description": "<b>When Discarded:</b> Fill your hand with random cards.",
 		"attributes": {
 			"cards": {
 				"Card_Faction": [
@@ -6488,7 +6488,7 @@
 	{
 		"defId": "Hulk",
 		"cost": 6,
-		"power": 12,
+		"power": 14,
 		"name": "Hulk",
 		"description": "<i>\"HULK SMASH!\"</i>",
 		"attributes": {
@@ -6517,7 +6517,7 @@
 	{
 		"defId": "HulkChampion",
 		"cost": 6,
-		"power": 12,
+		"power": 14,
 		"name": "Hulk",
 		"description": "<i>\"HULK SMASH!\"</i>",
 		"attributes": {
@@ -6709,7 +6709,7 @@
 				]
 			}
 		},
-		"series": 10,
+		"series": 7,
 		"artists": [
 			{
 				"name": "Eduardo Mello",
@@ -6724,7 +6724,6 @@
 			1763665200000,
 			1766257200000
 		],
-		"possibleSeries": 7,
 		"collectible": true
 	},
 	{
@@ -6907,7 +6906,7 @@
 	{
 		"defId": "IronFist",
 		"cost": 1,
-		"power": 2,
+		"power": 3,
 		"name": "Iron Fist",
 		"description": "<b>On Reveal:</b> After you play your next card, move it one location to the left.",
 		"attributes": {
@@ -7384,7 +7383,7 @@
 	{
 		"defId": "JoaquinTorres",
 		"cost": 2,
-		"power": 2,
+		"power": 3,
 		"name": "Joaquin Torres Falcon II",
 		"description": "<b>Ongoing:</b> The <b>On Reveal</b> abilities of your 1-Cost cards here happen twice.",
 		"attributes": {
@@ -7727,7 +7726,7 @@
 		"cost": 6,
 		"power": 5,
 		"name": "Khonshu",
-		"description": "When discarded, returns in its next phase.\n<b>On Reveal:</b> Resurrect a card you discarded to another location with its Power set to 5.",
+		"description": "<b>When Discarded:</b> Return in its next phase.\n<b>On Reveal:</b> Resurrect a card you discarded to another location with its Power set to 5.",
 		"attributes": {
 			"data": {
 				"AssignedPower": 5
@@ -7789,7 +7788,7 @@
 		"cost": 6,
 		"power": 8,
 		"name": "Khonshu Waxing",
-		"description": "When discarded, returns in its final phase.\n<b>On Reveal:</b> Resurrect a card you discarded to another location with its Power set to 8.",
+		"description": "<b>When Discarded:</b> Return in its final phase.\n<b>On Reveal:</b> Resurrect a card you discarded to another location with its Power set to 8.",
 		"attributes": {
 			"data": {
 				"AssignedPower": 8
@@ -9144,7 +9143,7 @@
 				]
 			}
 		},
-		"series": 0,
+		"series": 7,
 		"artists": [
 			{
 				"name": "Eduardo Mello",
@@ -9158,7 +9157,6 @@
 		"seriesStartTimestamps": [
 			1766084400000
 		],
-		"possibleSeries": 7,
 		"collectible": true
 	},
 	{
@@ -9234,7 +9232,7 @@
 	{
 		"defId": "MasterMold",
 		"cost": 2,
-		"power": 2,
+		"power": 3,
 		"name": "Master Mold",
 		"description": "<b>On Reveal:</b> Add 2 Sentinel to your opponent's hand.",
 		"attributes": {
@@ -9628,7 +9626,7 @@
 	{
 		"defId": "MistyKnight",
 		"cost": 1,
-		"power": 2,
+		"power": 3,
 		"name": "Misty Knight",
 		"description": "<i>\"We've got to save this city.\"</i>",
 		"series": 1,
@@ -9791,7 +9789,7 @@
 		"cost": 1,
 		"power": 2,
 		"name": "Moira X",
-		"description": "When this is destroyed, get a copy of your opening hand.",
+		"description": "<b>When Destroyed:</b> Get a copy of your opening hand.",
 		"attributes": {
 			"cards": {
 				"Card_Faction": [
@@ -10819,7 +10817,7 @@
 	{
 		"defId": "NightcrawlerXMen",
 		"cost": 1,
-		"power": 1,
+		"power": 2,
 		"name": "Nightcrawler - X-Men",
 		"description": "You can move this once.\nWhen this moves, give it +1 Power for each of your X-Men at the new location.",
 		"attributes": {
@@ -10882,7 +10880,7 @@
 		"cost": 5,
 		"power": 6,
 		"name": "Nimrod",
-		"description": "When this is destroyed, add a copy to each other location.",
+		"description": "<b>When Destroyed:</b> Add a copy of this to each other location.",
 		"series": 6,
 		"artists": [
 			{
@@ -10959,7 +10957,7 @@
 		"cost": 1,
 		"power": 1,
 		"name": "Nova",
-		"description": "When this is destroyed, give your cards +1 Power.",
+		"description": "<b>When Destroyed:</b> Give your cards +1 Power.",
 		"attributes": {
 			"data": {
 				"AddedPower": 1
@@ -11888,7 +11886,7 @@
 	{
 		"defId": "Quinjet",
 		"cost": 1,
-		"power": 2,
+		"power": 1,
 		"name": "Quinjet",
 		"description": "<b>Ongoing:</b> Your created cards cost 1 less. <i>(minimum 1)</i>",
 		"attributes": {
@@ -12500,7 +12498,7 @@
 		"cost": 3,
 		"power": 5,
 		"name": "Sabretooth",
-		"description": "When this is destroyed, return it to your hand. It costs 0.",
+		"description": "<b>When Destroyed:</b> Return this to your hand. It costs 0.",
 		"attributes": {
 			"data": {
 				"AssignedCost": 0
@@ -12861,7 +12859,7 @@
 		"cost": 1,
 		"power": 2,
 		"name": "Scorn",
-		"description": "When you discard this, put it back and give +2 Power to itself and\\none of your cards in play.",
+		"description": "<b>When Discarded:</b> Put this back and give +2 Power to itself and one of\nyour cards in play.",
 		"attributes": {
 			"data": {
 				"AddedPower": 2
@@ -13421,7 +13419,7 @@
 	{
 		"defId": "Shocker",
 		"cost": 2,
-		"power": 3,
+		"power": 4,
 		"name": "Shocker",
 		"description": "<i>\"I'm gonna blast you!\"</i>",
 		"attributes": {
@@ -15237,7 +15235,7 @@
 	{
 		"defId": "StarlordGuardiansOfTheGalaxy",
 		"cost": 2,
-		"power": 2,
+		"power": 3,
 		"name": "Starlord - Guardians of the Galaxy",
 		"description": "<b>On Reveal:</b> If your opponent played a card here this turn, give +1 Power to your Guardians in hand and play.",
 		"attributes": {
@@ -15825,7 +15823,7 @@
 		"cost": 2,
 		"power": 3,
 		"name": "Swarm",
-		"description": "When you discard this, add two copies that cost 0 to your hand.",
+		"description": "<b>When Discarded:</b> Add two copies of this that cost 0 to your hand.",
 		"attributes": {
 			"data": {
 				"TokenEnergyCost": 0
@@ -15950,7 +15948,7 @@
 	{
 		"defId": "SymbioteSpiderManWebSlingers",
 		"cost": 4,
-		"power": 4,
+		"power": 6,
 		"name": "Symbiote Spider-Man - Spider-Verse",
 		"description": "<b>Activate:</b> Merge one of your cards here into this. Replace that card with a Spider-Verse card from your deck.",
 		"attributes": {
@@ -16766,10 +16764,10 @@
 		"cost": 2,
 		"power": 2,
 		"name": "Toxie Doxie - Thunderbolts",
-		"description": "<b>On Reveal:</b> Give 2 characters in your hand +2 Power. You can’t play them next turn unless they're Thunderbolts.",
+		"description": "<b>On Reveal:</b> Give 2 characters in your hand +3 Power. You can’t play them next turn unless they're Thunderbolts.",
 		"attributes": {
 			"data": {
-				"AddedPower": 2,
+				"AddedPower": 3,
 				"ModifiedCardCount": 2
 			},
 			"cards": {
@@ -17016,7 +17014,7 @@
 		"cost": 1,
 		"power": 2,
 		"name": "Uncle Ben",
-		"description": "When this card is destroyed, replace it with Spider-Man.",
+		"description": "<b>When Destroyed:</b> Replace this with Spider-Man.",
 		"attributes": {
 			"cards": {
 				"Card_Token": [
@@ -17259,7 +17257,7 @@
 	{
 		"defId": "VictoriaHand",
 		"cost": 2,
-		"power": 3,
+		"power": 2,
 		"name": "Victoria Hand",
 		"description": "<b>Ongoing:</b> Your cards that were created in your hand have +2 Power.",
 		"attributes": {
@@ -17326,7 +17324,7 @@
 	{
 		"defId": "VisionAvengers",
 		"cost": 4,
-		"power": 7,
+		"power": 6,
 		"name": "Vision - Avengers",
 		"description": "If you have another Avenger here, you can move this.",
 		"attributes": {
@@ -17447,11 +17445,11 @@
 		"cost": 2,
 		"power": 2,
 		"name": "Wade Wilson",
-		"description": "<b>When Destroyed:</b> Replace this with a 1-Cost card from your hand or deck with +1 Power.",
+		"description": "<b>When Destroyed:</b> Replace this with a 1-Cost card from your hand or deck with +2 Power.",
 		"attributes": {
 			"data": {
 				"AssignedCost": 1,
-				"AddedPower": 1
+				"AddedPower": 2
 			},
 			"cards": {
 				"Card_Faction": [
@@ -17999,7 +17997,7 @@
 				]
 			}
 		},
-		"series": 0,
+		"series": 10,
 		"artists": [
 			{
 				"name": "Eduardo Mello",
@@ -18127,7 +18125,7 @@
 		"cost": 2,
 		"power": 3,
 		"name": "Wolverine",
-		"description": "When this is discarded or destroyed, regenerate it with +2 Power at a random location.",
+		"description": "<b>When Discarded or Destroyed:</b> Regenerate this with +2 Power\nat a random location.",
 		"attributes": {
 			"data": {
 				"AddedPower": 2
@@ -18157,7 +18155,7 @@
 	{
 		"defId": "WolverineXMen",
 		"cost": 2,
-		"power": 1,
+		"power": 3,
 		"name": "Wolverine - X-Men",
 		"description": "<b>End of Turn:</b> If you have unspent Energy, destroy this to regenerate it with +3 Power at a location where you have an X-Man.",
 		"attributes": {
@@ -18220,7 +18218,7 @@
 		"cost": 1,
 		"power": 1,
 		"name": "X-23",
-		"description": "When this is discarded or destroyed, regenerate it at a random location and you get +1 Energy next turn.",
+		"description": "<b>When Discarded or Destroyed:</b> Regenerate this at a random location and you get +1 Energy next turn.",
 		"attributes": {
 			"data": {
 				"AddedEnergy": 1

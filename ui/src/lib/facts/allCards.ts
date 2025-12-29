@@ -96,9 +96,9 @@ export const allCards = {
   'Air-Walker': {
     defId: 'AirWalker',
     cost: 3,
-    power: 3,
+    power: 4,
     name: 'Air-Walker',
-    description: 'When this is destroyed, replace it with a 4-Cost card from your hand or deck.',
+    description: '<b>When Destroyed:</b> Replace this with a 4-Cost card from your hand or deck.',
     seriesStartTimestamps: [1755802800000, 1758481200000],
   },
   'Ajax': {
@@ -172,7 +172,7 @@ export const allCards = {
     cost: 6,
     power: 8,
     name: 'Apocalypse',
-    description: 'When you discard this, put it back with +4 Power.',
+    description: '<b>When Discarded:</b> Put this back with +4 Power.',
     seriesStartTimestamps: [-62135596800000],
   },
   'Araña': {
@@ -243,7 +243,6 @@ export const allCards = {
     description:
       '<b>On Reveal:</b> Give one of your other <b>On Reveal</b> cards at each location +2 Power. Repeat for <b>Ongoing</b>, <b>Activate</b>, and <b>End of Turn</b>.',
     seriesStartTimestamps: [1766516400000],
-    possibleSeries: 8,
   },
   'Awesome Andy': {
     defId: 'AwesomeAndy',
@@ -428,7 +427,7 @@ export const allCards = {
     cost: 2,
     power: 1,
     name: 'Bucky Barnes',
-    description: 'When this is destroyed, replace it with the Winter Soldier.',
+    description: '<b>When Destroyed:</b> Replace this with the Winter Soldier.',
     seriesStartTimestamps: [-62135596800000],
   },
   'Bullseye': {
@@ -443,7 +442,7 @@ export const allCards = {
   'Cable': {
     defId: 'Cable',
     cost: 2,
-    power: 3,
+    power: 4,
     name: 'Cable',
     description: "<b>On Reveal:</b> Draw a card from your opponent's deck.",
     seriesStartTimestamps: [-62135596800000],
@@ -578,7 +577,7 @@ export const allCards = {
   'Colossus': {
     defId: 'Colossus',
     cost: 2,
-    power: 3,
+    power: 4,
     name: 'Colossus',
     description: "<b>Ongoing:</b> Can't be destroyed, moved, or have its Power reduced.",
     seriesStartTimestamps: [-62135596800000],
@@ -642,7 +641,7 @@ export const allCards = {
   'Cyclops': {
     defId: 'Cyclops',
     cost: 3,
-    power: 4,
+    power: 5,
     name: 'Cyclops',
     description: '<i>"Let\'s move, X-Men."</i>',
     seriesStartTimestamps: [-62135596800000],
@@ -701,7 +700,7 @@ export const allCards = {
     cost: 1,
     power: 1,
     name: 'Deadpool',
-    description: 'When this is destroyed, return it to your hand with double the Power.',
+    description: '<b>When Destroyed:</b> Return this to your hand with double the Power.',
     seriesStartTimestamps: [-62135596800000],
   },
   'Deafening Chord': {
@@ -790,7 +789,7 @@ export const allCards = {
   'Doctor Doom 2099': {
     defId: 'Doom2099',
     cost: 4,
-    power: 4,
+    power: 5,
     name: 'Doctor Doom 2099',
     description:
       '<b>End of Turn:</b> Add a DoomBot 2099 to a random location if you played <i>(exactly)</i> 1 card.',
@@ -944,6 +943,16 @@ export const allCards = {
     name: 'Fantasticar',
     description: '<b>Activate:</b> Give your <b>End of Turn</b> cards +2 Power.',
     seriesStartTimestamps: [1752001200000, 1754420400000],
+  },
+  'Fantomex': {
+    defId: 'Fantomex',
+    cost: 4,
+    power: 6,
+    name: 'Fantomex',
+    description:
+      "<b>Activate:</b> If you've had cards discarded and destroyed, afflict front-row enemy cards at each location with -2 Power.",
+    seriesStartTimestamps: [1767121200000],
+    possibleSeries: 8,
   },
   'Fastball Special': {
     defId: 'FastballSpecial',
@@ -1207,7 +1216,7 @@ export const allCards = {
     power: 1,
     name: 'Headpool',
     description:
-      'When this is destroyed, return it to your hand, then give all cards in your hand +1 Power.',
+      '<b>When Destroyed:</b> Return this to your hand, then give all cards in your hand +1 Power.',
     seriesStartTimestamps: [1759863600000],
     isSeasonPass: false,
   },
@@ -1233,7 +1242,7 @@ export const allCards = {
     cost: 6,
     power: 12,
     name: 'Helicarrier',
-    description: 'When you discard this, fill your hand with random cards.',
+    description: '<b>When Discarded:</b> Fill your hand with random cards.',
     seriesStartTimestamps: [-62135596800000],
   },
   'Hellcow': {
@@ -1331,7 +1340,7 @@ export const allCards = {
   'Hulk': {
     defId: 'Hulk',
     cost: 6,
-    power: 12,
+    power: 14,
     name: 'Hulk',
     description: '<i>"HULK SMASH!"</i>',
     seriesStartTimestamps: [-62135596800000],
@@ -1384,7 +1393,6 @@ export const allCards = {
     name: 'Hydro-Man',
     description: "<b>On Reveal:</b> Set the Cost of EACH deck's top card to 1.",
     seriesStartTimestamps: [1763665200000, 1766257200000],
-    possibleSeries: 7,
   },
   'Iceman': {
     defId: 'Iceman',
@@ -1430,7 +1438,7 @@ export const allCards = {
   'Iron Fist': {
     defId: 'IronFist',
     cost: 1,
-    power: 2,
+    power: 3,
     name: 'Iron Fist',
     description:
       '<b>On Reveal:</b> After you play your next card, move it one location to the left.',
@@ -1523,7 +1531,7 @@ export const allCards = {
   'Joaquin Torres Falcon II': {
     defId: 'JoaquinTorres',
     cost: 2,
-    power: 2,
+    power: 3,
     name: 'Joaquin Torres Falcon II',
     description:
       '<b>Ongoing:</b> The <b>On Reveal</b> abilities of your 1-Cost cards here happen twice.',
@@ -1604,7 +1612,7 @@ export const allCards = {
     power: 5,
     name: 'Khonshu',
     description:
-      'When discarded, returns in its next phase.\n<b>On Reveal:</b> Resurrect a card you discarded to another location with its Power set to 5.',
+      '<b>When Discarded:</b> Return in its next phase.\n<b>On Reveal:</b> Resurrect a card you discarded to another location with its Power set to 5.',
     seriesStartTimestamps: [1742929200000],
   },
   'Kid Omega': {
@@ -1881,7 +1889,6 @@ export const allCards = {
     name: 'Marrow',
     description: '<b>When Discarded or Destroyed:</b> Randomly split -7 Power\namong enemy cards.',
     seriesStartTimestamps: [1766084400000],
-    possibleSeries: 7,
   },
   'Martyr': {
     defId: 'Martyr',
@@ -1903,7 +1910,7 @@ export const allCards = {
   'Master Mold': {
     defId: 'MasterMold',
     cost: 2,
-    power: 2,
+    power: 3,
     name: 'Master Mold',
     description: "<b>On Reveal:</b> Add 2 Sentinel to your opponent's hand.",
     seriesStartTimestamps: [1678820400000, 1684263600000, 1704654000000],
@@ -1995,7 +2002,7 @@ export const allCards = {
   'Misty Knight': {
     defId: 'MistyKnight',
     cost: 1,
-    power: 2,
+    power: 3,
     name: 'Misty Knight',
     description: '<i>"We\'ve got to save this city."</i>',
     seriesStartTimestamps: [-62135596800000],
@@ -2030,7 +2037,7 @@ export const allCards = {
     cost: 1,
     power: 2,
     name: 'Moira X',
-    description: 'When this is destroyed, get a copy of your opening hand.',
+    description: '<b>When Destroyed:</b> Get a copy of your opening hand.',
     seriesStartTimestamps: [1756839600000],
   },
   'Mojo': {
@@ -2258,7 +2265,7 @@ export const allCards = {
     cost: 5,
     power: 6,
     name: 'Nimrod',
-    description: 'When this is destroyed, add a copy to each other location.',
+    description: '<b>When Destroyed:</b> Add a copy of this to each other location.',
     seriesStartTimestamps: [1678215600000, 1680634800000, 1684263600000, 1741028400000],
     isSeasonPass: true,
   },
@@ -2276,7 +2283,7 @@ export const allCards = {
     cost: 1,
     power: 1,
     name: 'Nova',
-    description: 'When this is destroyed, give your cards +1 Power.',
+    description: '<b>When Destroyed:</b> Give your cards +1 Power.',
     seriesStartTimestamps: [-62135596800000],
   },
   'Odin': {
@@ -2432,7 +2439,7 @@ export const allCards = {
   'Quinjet': {
     defId: 'Quinjet',
     cost: 1,
-    power: 2,
+    power: 1,
     name: 'Quinjet',
     description: '<b>Ongoing:</b> Your created cards cost 1 less. <i>(minimum 1)</i>',
     seriesStartTimestamps: [-62135596800000],
@@ -2550,7 +2557,7 @@ export const allCards = {
     cost: 3,
     power: 5,
     name: 'Sabretooth',
-    description: 'When this is destroyed, return it to your hand. It costs 0.',
+    description: '<b>When Destroyed:</b> Return this to your hand. It costs 0.',
     seriesStartTimestamps: [-62135596800000],
   },
   'Sage': {
@@ -2618,7 +2625,7 @@ export const allCards = {
     power: 2,
     name: 'Scorn',
     description:
-      'When you discard this, put it back and give +2 Power to itself and\\none of your cards in play.',
+      '<b>When Discarded:</b> Put this back and give +2 Power to itself and one of\nyour cards in play.',
     seriesStartTimestamps: [1729018800000],
   },
   'Scorpion': {
@@ -2725,7 +2732,7 @@ export const allCards = {
   'Shocker': {
     defId: 'Shocker',
     cost: 2,
-    power: 3,
+    power: 4,
     name: 'Shocker',
     description: '<i>"I\'m gonna blast you!"</i>',
     seriesStartTimestamps: [-62135596800000],
@@ -3014,7 +3021,7 @@ export const allCards = {
     cost: 2,
     power: 3,
     name: 'Swarm',
-    description: 'When you discard this, add two copies that cost 0 to your hand.',
+    description: '<b>When Discarded:</b> Add two copies of this that cost 0 to your hand.',
     seriesStartTimestamps: [-62135596800000],
   },
   'Sword Master': {
@@ -3200,7 +3207,7 @@ export const allCards = {
     cost: 1,
     power: 2,
     name: 'Uncle Ben',
-    description: 'When this card is destroyed, replace it with Spider-Man.',
+    description: '<b>When Destroyed:</b> Replace this with Spider-Man.',
     seriesStartTimestamps: [1740510000000, 1741892400000],
   },
   'U.S. Agent': {
@@ -3239,7 +3246,7 @@ export const allCards = {
   'Victoria Hand': {
     defId: 'VictoriaHand',
     cost: 2,
-    power: 3,
+    power: 2,
     name: 'Victoria Hand',
     description: '<b>Ongoing:</b> Your cards that were created in your hand have +2 Power.',
     seriesStartTimestamps: [1736276400000],
@@ -3285,7 +3292,7 @@ export const allCards = {
     power: 2,
     name: 'Wade Wilson',
     description:
-      '<b>When Destroyed:</b> Replace this with a 1-Cost card from your hand or deck with +1 Power.',
+      '<b>When Destroyed:</b> Replace this with a 1-Cost card from your hand or deck with +2 Power.',
     seriesStartTimestamps: [1764702000000, 1767553200000],
     possibleSeries: 7,
   },
@@ -3423,7 +3430,7 @@ export const allCards = {
     power: 3,
     name: 'Wolverine',
     description:
-      'When this is discarded or destroyed, regenerate it with +2 Power at a random location.',
+      '<b>When Discarded or Destroyed:</b> Regenerate this with +2 Power\nat a random location.',
     seriesStartTimestamps: [-62135596800000],
   },
   'Wong': {
@@ -3440,7 +3447,7 @@ export const allCards = {
     power: 1,
     name: 'X-23',
     description:
-      'When this is discarded or destroyed, regenerate it at a random location and you get +1 Energy next turn.',
+      '<b>When Discarded or Destroyed:</b> Regenerate this at a random location and you get +1 Energy next turn.',
     seriesStartTimestamps: [1692730800000, 1733770800000],
   },
   'Xorn': {
