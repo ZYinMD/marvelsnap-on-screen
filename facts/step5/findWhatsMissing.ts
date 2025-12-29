@@ -66,6 +66,7 @@ const indeedNeverAppearedInShows = new Set<CardName>([
   'The Hunger',
   'Adamantium Infusion',
   'Wild Child',
+  'Fantomex',
   'Fastball Special',
   'Zombie Galacti',
   'Starbrand',
